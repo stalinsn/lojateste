@@ -1,0 +1,216 @@
+.map-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    max-width: 1024px;
+    display: flex;
+    position: relative;
+
+    @media (max-width: 768px) {
+      width: 99%;
+      height: 80%;
+    }
+    @media (min-width: 768px) {
+      min-width: 512px;
+      width: 95%;
+    }
+    @media (min-width: 1024px) {
+      min-width: 512px;
+      width: 80%;
+    }
+
+    //width: 80%; /* Could be more or less, depending on screen size */
+
+    .close {
+      color: #525252;
+      float: right;
+      font-size: 28px;
+      opacity: 0.9;
+      font-weight: bold;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      &:hover,
+      &:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+
+    .map-container {
+      padding: 0.75rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .map-row {
+        display: flex;
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
+        #list {
+          overflow: auto;
+          @media (min-width: 768px) {
+            height: 400px;
+          }
+          @media (max-width: 768px) {
+            max-height: 500px;
+          }
+
+          .map-list-item {
+            display: flex;
+            min-height: 72px;
+            align-items: center;
+            margin-bottom: 6px;
+            border: 1px solid #e3e4e6;
+            border-radius: 0.5rem;
+            background: linear-gradient(90deg, #e3e4e6 6px, #fff 0);
+            padding: 0.25rem 0.75rem;
+            .radio-input {
+              align-self: center;
+              margin: 0.75rem !important;
+            }
+          }
+        }
+        #store-locator-map {
+          height: 100%;
+          width: 100%;
+          @media (min-width: 768px) {
+            margin-left: 12px;
+          }
+          @media (max-width: 768px) {
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+
+    .store-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0075C9;
+    }
+
+    .elipsis {
+      max-width: 100%;
+      //white-space: nowrap;
+      overflow: hidden;
+      //text-overflow: ellipsis;
+    }
+
+    .store-button {
+      background-color: #0075C9;
+      border: none;
+      width: 100%;
+      text-transform: none;
+      font-weight: bold;
+      color: #fff;
+      padding: 0.75rem;
+      border-radius: 0.25rem;
+      text-align: center;
+      @media (min-width: 768px) {
+        margin: 1.4rem;
+      }
+      @media (max-width: 768px) {
+        margin-top: 1.6rem;
+      }
+
+      cursor: pointer;
+      transition: background-color 0.25s ease-in-out;
+      &:hover {
+        background-color: lighten(#0075C9, 15%);
+      }
+      &.is-loading {
+        font-size: 0;
+      }
+    }
+
+    .store-label {
+      width: 100%;
+    }
+
+    .loader {
+      display: inline-block;
+      border: 16px solid #f3f3f3; /* Light grey */
+      border-top: 16px solid #3498db; /* Blue */
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 1s linear infinite;
+      &.small {
+        border: 2px solid #f3f3f3; /* Light grey */
+        border-top: 2px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}
+
+.vtex-pickup-points-modal-3-x-pkpmodal,
+.vtex-pickup-points-modal-3-x-modalBackdrop,
+.button-details-pickup-point,
+.btn-ask-for-geolocation-cta,
+.vtex-omnishipping-1-x-geolocationTitle {
+  display: none !important;
+}
+
+#find-pickups-manualy-button {
+  font-size: 0;
+  &::before {
+    font-size: 1.4rem;
+    content: "Seleccionar una tienda para recoger tu pedido";
+  }
+}
+
+#customMapModalCtaWrapper {
+  padding: 6px ​12px 22px 12px;
+  margin-bottom: 12px;
+  #customMapModalCta {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    background: #0075C9;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+  }
+}
+
+.vtex-omnishipping-1-x-subtitle.ask-for-geolocation-subtitle {
+  display: none;
+}

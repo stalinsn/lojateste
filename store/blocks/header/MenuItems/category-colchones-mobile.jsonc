@@ -1,0 +1,368 @@
+{
+  "submenu.accordion#mobile-colchones": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-colchones-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-colchones-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-colchones-menu-line-2-columna-colchones-vertodos",
+      "flex-layout.col#mobile-colchones-menu-line-2-columna-1",
+      "flex-layout.col#mobile-colchones-menu-line-2-columna-2",
+      "flex-layout.col#mobile-colchones-menu-line-2-columna-3",
+      "flex-layout.col#mobile-colchones-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-colchones-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-3-line-colchones-vertodos"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-3-line-colchones-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-nabb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-3-line-nabb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-nobb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-3-line-nobb-vertodos"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-3-line-nobb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-1-line-no": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones-en-caja/",
+        "noFollow": true,
+        "tagTitle": "Colchones en caja",
+        "text": "Colchones en caja"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-colchones-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-nino-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-3-line-nino-vertodos"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-3-line-nino-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones-en-caja/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-colchones-menu-line-6": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-colchones-menu-line-2-columna-nino-vertodos",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-1",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-2",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-3",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-4"
+    ]
+  },
+  "submenu.accordion#mobile-colchones-menu-line-2-columna-1-line-no": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-colchones-menu-line-6"
+    ]
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-1-line-na": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/boxes/",
+        "noFollow": true,
+        "tagTitle": "Boxes",
+        "text": "Boxes"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-colchones-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-nina-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-3-line-nina-vertodos"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-3-line-nina-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/boxes/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-colchones-menu-line-5": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-colchones-menu-line-2-columna-nina-vertodos",
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-1",
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-2",
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-colchones-menu-line-2-columna-1-line-na": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-colchones-menu-line-5"
+    ]
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/sets-de-colchones/",
+        "noFollow": true,
+        "tagTitle": "Sets de colchones",
+        "text": "Sets de colchones"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-colchones-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/sets-de-colchones/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-colchones-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-1",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-2",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-3",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-4"
+    ]
+  },
+  "submenu.accordion#mobile-colchones-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-colchones-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones/",
+        "noFollow": true,
+        "tagTitle": "Colchones",
+        "text": "Colchones"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-colchones-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "flex-layout.col#mobile-colchones-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-colchones-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-colchones-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-colchones-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-colchones-menu-line-2-columna-mujer-vertodos",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-1",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-2",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-3",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-4",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-5"
+    ]
+  },
+  "submenu.accordion#mobile-colchones-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-colchones-menu-line-3"
+    ]
+  }
+}

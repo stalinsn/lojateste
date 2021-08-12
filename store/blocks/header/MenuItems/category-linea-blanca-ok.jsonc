@@ -1,0 +1,894 @@
+{
+  "vtex.menu@2.x:submenu#linea-blanca": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["subcategory", "lb"]
+    },
+    "children": [
+      "flex-layout.row#lb-menu-line-2"
+    ]
+  },
+  "flex-layout.row#lb-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#lb-menu-line-2-columna-1",
+      "flex-layout.col#lb-menu-line-2-columna-2",
+      "flex-layout.col#lb-menu-line-2-columna-4",
+      "flex-layout.col#lb-menu-line-2-columna-3"
+    ]
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/lavado-y-secado",
+        "noFollow": true,
+        "tagTitle": "Lavado y Secado",
+        "text": "Lavado y Secado"
+      }
+    }
+    /*"blocks": [
+      "submenu#lb-menu-line-2-columna-1-line-nabb"
+    ]*/
+  },
+  "submenu#lb-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-nabb-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-nabb-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-nabb-line-3"
+    ]
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nabb-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/lavado-y-secado/lavadoras",
+        "noFollow": true,
+        "tagTitle": "Lavadoras",
+        "text": "Lavadoras"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nabb-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/lavado-y-secado/secadoras",
+        "noFollow": true,
+        "tagTitle": "Secadoras",
+        "text": "Secadoras"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nabb-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/lavado-y-secado/centros-de-lavado",
+        "noFollow": true,
+        "tagTitle": "Centros De Lavado",
+        "text": "Centros De Lavado"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/climatizacion-y-ventilacion",
+        "noFollow": true,
+        "tagTitle": "Climatización y Ventilación",
+        "text": "Climatización y Ventilación"
+      }
+    }
+    /*"blocks": [
+      "submenu#lb-menu-line-2-columna-1-line-nobb"
+    ]*/
+  },
+  "submenu#lb-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-4",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-5"
+    ]
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nobb-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/climatizacion-y-ventilacion/calefactores",
+        "noFollow": true,
+        "tagTitle": "Calefactores",
+        "text": "Calefactores"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nobb-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/climatizacion-y-ventilacion/minisplits",
+        "noFollow": true,
+        "tagTitle": "MiniSplits",
+        "text": "MiniSplits"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nobb-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/climatizacion-y-ventilacion/aires-acondicionados-de-ventana",
+        "noFollow": true,
+        "tagTitle": "Aires Acondicionados de Ventana",
+        "text": "Aires Acondicionados de Ventana"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nobb-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/climatizacion-y-ventilacion/ventiladores",
+        "noFollow": true,
+        "tagTitle": "Ventiladores",
+        "text": "Ventiladores"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-nobb-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/climatizacion-y-ventilacion/enfriadores",
+        "noFollow": true,
+        "tagTitle": "Enfriadores",
+        "text": "Enfriadores"
+      }
+    }
+  },
+
+
+  "flex-layout.col#lb-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-no",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-4",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-5",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-6",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-7",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-8",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-9",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-10",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-11",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-12",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-13",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-14"
+    ]
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos",
+        "noFollow": true,
+        "tagTitle": "Electrodomésticos",
+        "text": "Electrodomésticos"
+      }
+    }
+    /*"blocks": [
+      "submenu#lb-menu-line-2-columna-1-line-no"
+    ]*/
+  },
+  "submenu#lb-menu-line-2-columna-1-line-no": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-4",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-5",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-6",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-7",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-8",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-9",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-10",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-11",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-12",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-13",
+      "menu-item#lb-menu-line-2-columna-1-line-no-line-14"
+    ]
+  },
+
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/licuadoras",
+        "noFollow": true,
+        "tagTitle": "Licuadoras",
+        "text": "Licuadoras"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/batidoras",
+        "noFollow": true,
+        "tagTitle": "Batidoras",
+        "text": "Batidoras"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/microondas",
+        "noFollow": true,
+        "tagTitle": "Microondas",
+        "text": "Microondas"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/procesadores-de-alimentos",
+        "noFollow": true,
+        "tagTitle": "Procesadores De Alimento",
+        "text": "Procesadores De Alimento"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/tostadores-y-parrillas",
+        "noFollow": true,
+        "tagTitle": "Tostadores y Parrillas",
+        "text": "Tostadores y Parrillas"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/cafeteras-y-teteras",
+        "noFollow": true,
+        "tagTitle": "Cafeteras y Teteras",
+        "text": "Cafeteras y Teteras"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/planchas",
+        "noFollow": true,
+        "tagTitle": "Planchas",
+        "text": "Planchas"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/aspiradoras",
+        "noFollow": true,
+        "tagTitle": "Aspiradoras",
+        "text": "Aspiradoras"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/despachadores-de-agua",
+        "noFollow": true,
+        "tagTitle": "Despachadores De Agua",
+        "text": "Despachadores De Agua"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-10": {
+    "props": {
+      "blockClass": "children-title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/extractores-y-exprimidores",
+        "noFollow": true,
+        "tagTitle": "Extractores y Exprimidores",
+        "text": "Extractores y Exprimidores"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-11": {
+    "props": {
+      "blockClass": "children-title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/especializados",
+        "noFollow": true,
+        "tagTitle": "Especializados",
+        "text": "Especializados"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-12": {
+    "props": {
+      "blockClass": "children-title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/maquinas-de-coser-y-bordadoras",
+        "noFollow": true,
+        "tagTitle": "Máquinas De Coser y Bordadoras",
+        "text": "Máquinas De Coser y Bordadoras"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-13": {
+    "props": {
+      "blockClass": "children-title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/sandwicheras-y-wafleras",
+        "noFollow": true,
+        "tagTitle": "Sandwicheras y Wafleras",
+        "text": "Sandwicheras y Wafleras"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-no-line-14": {
+    "props": {
+      "blockClass": "children-title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/electrodomesticos/accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "flex-layout.col#lb-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-na",
+      "menu-item#lb-menu-line-2-columna-1-line-na-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-na-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-na-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-na-line-4",
+      "menu-item#lb-menu-line-2-columna-1-line-ver-todos"
+    ]
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-linea-blanca/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS LINEA BLANCA",
+        "text": "VER TODOS LINEA BLANCA"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/refrigeradores-y-congeladores",
+        "noFollow": true,
+        "tagTitle": "Refrigeradores y Congeladores",
+        "text": "Refrigeradores y Congeladores"
+      }
+    }
+    /*"blocks": [
+      "submenu#lb-menu-line-2-columna-1-line-na"
+    ]*/
+  },
+  "submenu#lb-menu-line-2-columna-1-line-na": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-na-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-na-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-na-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-na-line-4"
+    ]
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/refrigeradores-y-congeladores/refrigeradores",
+        "noFollow": true,
+        "tagTitle": "Refrigeradores",
+        "text": "Refrigeradores"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/refrigeradores-y-congeladores/frigobares",
+        "noFollow": true,
+        "tagTitle": "Frigobares",
+        "text": "Frigobares"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/refrigeradores-y-congeladores/congeladores",
+        "noFollow": true,
+        "tagTitle": "Congeladores",
+        "text": "Congeladores"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/refrigeradores-y-congeladores/cavas",
+        "noFollow": true,
+        "tagTitle": "Cavas",
+        "text": "Cavas"
+      }
+    }
+  },
+
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/conjuntos/lb/nina/ropa?map=sub-categoria,departmento,sexo,categoria",
+        "noFollow": true,
+        "tagTitle": "Conjuntos",
+        "text": "Conjuntos"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lb/nina/ropa/ropa-de-dormir?map=departmento,sexo,categoria,sub-categoria",
+        "noFollow": true,
+        "tagTitle": "Ropa de dormir",
+        "text": "Ropa de dormir"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lb/nina/ropa/ropa-interior?map=departmento,sexo,categoria,sub-categoria",
+        "noFollow": true,
+        "tagTitle": "Ropa interior",
+        "text": "Ropa interior"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faldas/lb/nina/ropa?map=sub-categoria,departmento,sexo,categoria",
+        "noFollow": true,
+        "tagTitle": "Faldas",
+        "text": "Faldas"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lb/nina/ropa/traje-de-bano?map=departmento,sexo,categoria,estilo-de-traje-de-bano",
+        "noFollow": true,
+        "tagTitle": "Ropa de verano",
+        "text": "Ropa de verano"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/abrigos/lb/nina/ropa?map=sub-categoria,departmento,sexo,categoria",
+        "noFollow": true,
+        "tagTitle": "Suéter y Chaquetas",
+        "text": "Suéter y Chaquetas"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-na-line-11": {
+    "props": {
+      "blockClass": "children-title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/lb/nina?map=categoria,departmento,sexo",
+        "noFollow": true,
+        "tagTitle": "Calzado",
+        "text": "Calzado"
+      }
+    }
+  },
+
+  "flex-layout.col#lb-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-h",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-4",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-5",
+      "menu-item#lb-menu-line-2-columna-1-line-nabb",
+      "menu-item#lb-menu-line-2-columna-1-line-nabb-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-nabb-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-nabb-line-3"
+    ]
+  },
+  "flex-layout.col#lb-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-m",
+      "menu-item#lb-menu-line-2-columna-1-line-m-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-m-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-m-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-m-line-4",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-4",
+      "menu-item#lb-menu-line-2-columna-1-line-nobb-line-5"
+    ]
+  },
+
+  "menu-item#lb-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/cocina",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      }
+    }
+    /*"blocks": [
+      "submenu#lb-menu-line-2-columna-1-line-h"
+    ]*/
+  },
+  "submenu#lb-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-4",
+      "menu-item#lb-menu-line-2-columna-1-line-h-line-5"
+    ]
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-h-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/cocina/estufa",
+        "noFollow": true,
+        "tagTitle": "Estufas",
+        "text": "Estufas"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-h-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/cocina/parrillas",
+        "noFollow": true,
+        "tagTitle": "Parrillas",
+        "text": "Parrillas"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-h-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/cocina/campanas",
+        "noFollow": true,
+        "tagTitle": "Campanas",
+        "text": "Campanas"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-h-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/cocina/hornos",
+        "noFollow": true,
+        "tagTitle": "Hornos",
+        "text": "Hornos"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-h-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/cocina/lavavajillas",
+        "noFollow": true,
+        "tagTitle": "Lavavajillas",
+        "text": "Lavavajillas"
+      }
+    }
+  },
+
+  "menu-item#lb-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/boilers",
+        "noFollow": true,
+        "tagTitle": "Boilers",
+        "text": "Boilers"
+      }
+    }
+    /*"blocks": [
+      "submenu#lb-menu-line-2-columna-1-line-m"
+    ]*/
+  },
+  "submenu#lb-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#lb-menu-line-2-columna-1-line-m-line-1",
+      "menu-item#lb-menu-line-2-columna-1-line-m-line-2",
+      "menu-item#lb-menu-line-2-columna-1-line-m-line-3",
+      "menu-item#lb-menu-line-2-columna-1-line-m-line-4"
+    ]
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-m-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/boilers/instantaneo",
+        "noFollow": true,
+        "tagTitle": "Instantáneo",
+        "text": "Instantáneo"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-m-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/boilers/deposito",
+        "noFollow": true,
+        "tagTitle": "Depósito",
+        "text": "Depósito"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-m-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/boilers/de-paso",
+        "noFollow": true,
+        "tagTitle": "De Paso",
+        "text": "De Paso"
+      }
+    }
+  },
+  "menu-item#lb-menu-line-2-columna-1-line-m-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/boilers/solares",
+        "noFollow": true,
+        "tagTitle": "Solares",
+        "text": "Solares"
+      }
+    }
+  }
+
+}

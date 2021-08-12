@@ -1,0 +1,16 @@
+@import "./references";
+
+.summarySmallContent {
+    .summaryItemLabel {
+        color: $primary;
+        width: 68%;
+        flex-wrap: wrap;
+        //display: flex;
+    }
+    .summaryItemPrice {
+        width: 35%;
+        .price {
+            color: $primary;
+        }
+    }
+}

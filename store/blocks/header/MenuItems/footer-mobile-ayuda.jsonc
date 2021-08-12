@@ -1,0 +1,184 @@
+{
+    "submenu.accordion#footer-mobile-ayuda": {
+      "props": {
+        "width": "100%",
+        "blockClass": "subcategory"
+      },
+      "children": [
+        "flex-layout.row#mobile-ayuda"
+      ]
+    },
+    "flex-layout.row#mobile-ayuda": {
+      "props": {
+        "colSizing": "auto"
+      },
+      "children": [
+        "flex-layout.col#mobile-footer-1",
+        "flex-layout.col#mobile-footer-2",
+        "flex-layout.col#mobile-footer-3",
+        "flex-layout.col#mobile-footer-4",
+        "flex-layout.col#mobile-footer-5",
+        "flex-layout.col#mobile-footer-6"
+      ]
+    },
+    "flex-layout.col#mobile-footer-1": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#mobile-footer-1"
+      ]
+    },
+    "menu-item#mobile-footer-1": {
+      "props": {
+        "blockClass": "dropdown-mobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/como-comprar",
+          "noFollow": true,
+          "tagTitle": "¿Cómo hacer un pedido en masxmenos.cr? ",
+          "text": "¿Cómo hacer un pedido en masxmenos.cr? "
+        }
+      }
+    },
+
+    "flex-layout.col#mobile-footer-2": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#mobile-footer-2"
+      ]
+    },
+    "menu-item#mobile-footer-2": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Tiendas ",
+            "text": "Tiendas "
+            }
+        }
+    },
+
+    "flex-layout.col#mobile-footer-3": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#mobile-footer-3"
+      ]
+    },
+    "menu-item#mobile-footer-3": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Preguntas frecuentes",
+            "text": "Preguntas frecuentes"
+            }
+        }
+    },
+
+    "flex-layout.col#mobile-footer-4": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#mobile-footer-4"
+      ]
+    },
+    "menu-item#mobile-footer-4": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Tus pedidos",
+            "text": "Tus pedidos"
+            }
+        }
+    },
+
+    "flex-layout.col#mobile-footer-5": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#mobile-footer-5"
+      ]
+    },
+    "menu-item#mobile-footer-5": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Servicios financieros",
+            "text": "Servicios financieros"
+            }
+        }
+    },
+
+    "flex-layout.col#mobile-footer-6": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#mobile-footer-6",
+        "menu-item#mobile-footer-7"
+      ]
+    },
+    "menu-item#mobile-footer-6": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Masxmenos Te escucha",
+            "text": "Masxmenos Te escucha"
+            }
+        }
+    },
+    "menu-item#mobile-footer-7": {
+      "props": {
+          "blockClass": "dropdown-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Llámanos 800-8000-722",
+          "text": "Llámanos 800-8000-722"
+          }
+      }
+  }
+
+}

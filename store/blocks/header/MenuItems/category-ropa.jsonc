@@ -1,0 +1,374 @@
+{
+  "vtex.menu@2.x:submenu#ropa": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#ropa-menu-line-2"
+    ]
+  },
+  "flex-layout.row#ropa-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#ropa-menu-line-2-columna-1",
+      "flex-layout.col#ropa-menu-line-2-columna-2"
+    ]
+  },
+  "flex-layout.col#ropa-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#ropa-menu-line-2-columna-2-line-1",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-8"
+    ]
+  },
+  "menu-item#ropa-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/",
+        "noFollow": true,
+        "tagTitle": "Ropa de Caballero",
+        "text": "Ropa de Caballero"
+      }
+    }
+    /*"blocks": [
+      "submenu#ropa-line-2-columna-2"
+    ]*/
+  },
+  "submenu#ropa-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#ropa-menu-line-2-columna-1-columna-2-line-8"
+    ]
+  },
+  "menu-item#ropa-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/deportiva",
+        "noFollow": true,
+        "tagTitle": "Deportiva",
+        "text": "Deportiva"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/camisas",
+        "noFollow": true,
+        "tagTitle": "Camisas",
+        "text": "Camisas"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/chamarras-y-chalecos",
+        "noFollow": true,
+        "tagTitle": "Chamarras y Chalecos",
+        "text": "Chamarras y Chalecos"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/jeans",
+        "noFollow": true,
+        "tagTitle": "Jeans",
+        "text": "Jeans"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-1-columna-2-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/pantalones",
+        "noFollow": true,
+        "tagTitle": "Pantalones",
+        "text": "Pantalones"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-1-columna-2-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/playeras-y-polos",
+        "noFollow": true,
+        "tagTitle": "Playeras y Polos",
+        "text": "Playeras y Polos"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-1-columna-2-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/short-y-bermudas",
+        "noFollow": true,
+        "tagTitle": "Short y Bermudas",
+        "text": "Short y Bermudas"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-1-columna-2-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-caballero/sudaderas-y-sueteres",
+        "noFollow": true,
+        "tagTitle": "Sudaderas y Suéteres",
+        "text": "Sudaderas y Suéteres"
+      }
+    }
+  },
+  "flex-layout.col#ropa-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#ropa-menu-line-2-columna-3-line-1",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#ropa-menu-line-2-columna-3-line-2-ver-todos"
+    ]
+  },
+  "menu-item#ropa-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/",
+        "noFollow": true,
+        "tagTitle": "Ropa de Dama",
+        "text": "Ropa de Dama"
+      }
+    }
+    /*"blocks": [
+      "submenu#ropa-line-2-columna-3"
+    ]*/
+  },
+  "menu-item#ropa-menu-line-2-columna-3-line-2-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa?map=departamento",
+        "noFollow": true,
+        "tagTitle": "VER TODOS ROPA",
+        "text": "VER TODOS ROPA"
+      }
+    }
+  },
+  "submenu#ropa-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#ropa-menu-line-2-columna-3-columna-1-line-9"
+    ]
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/blusas",
+        "noFollow": true,
+        "tagTitle": "Blusas",
+        "text": "Blusas"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/tops-y-playeras",
+        "noFollow": true,
+        "tagTitle": "Tops y Playeras",
+        "text": "Tops y Playeras"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/bases-de-cama",
+        "noFollow": true,
+        "tagTitle": "Bases de Cama",
+        "text": "Bases de Cama"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/jeans",
+        "noFollow": true,
+        "tagTitle": "Jeans",
+        "text": "Jeans"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/lenceria-y-pijamas",
+        "noFollow": true,
+        "tagTitle": "Lencería y Pijamas",
+        "text": "Lencería y Pijamas"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/pantalones-y-leggings",
+        "noFollow": true,
+        "tagTitle": "Pantalones y Leggings",
+        "text": "Pantalones y Leggings"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/faldas-y-shorts",
+        "noFollow": true,
+        "tagTitle": "Faldas y Shorts",
+        "text": "Faldas y Shorts"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/vestidos",
+        "noFollow": true,
+        "tagTitle": "Vestidos",
+        "text": "Vestidos"
+      }
+    }
+  },
+  "menu-item#ropa-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/ropa-de-dama/deportiva",
+        "noFollow": true,
+        "tagTitle": "Deportiva",
+        "text": "Deportiva"
+      }
+    }
+  }
+}

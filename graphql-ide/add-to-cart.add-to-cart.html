@@ -1,0 +1,15 @@
+mutation Save($args: SaveArgsV2!) {
+    saveV2(args: $args)
+}
+
+{
+    "args": {
+      "to": "es-MX",
+      "messages": [{
+            "srcLang": "en-DV",
+            "srcMessage": "store/add-to-cart.add-to-cart",
+            "targetMessage": "Comprar ahora",
+            "context": "vtex.add-to-cart-button@0.x"
+        }]
+    }
+}

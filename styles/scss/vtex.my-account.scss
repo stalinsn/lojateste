@@ -1,0 +1,684 @@
+@import "./references";
+* {
+  font-family: "GothamBook", sans-serif;
+}
+
+:global(.vtex-account) {
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+  max-width: $maxContainerWidth;
+  margin: 0 auto;
+  .menu {
+    background-color: #fafafa;
+    padding-top: 32px !important;
+    padding-left: 22px !important;
+  }
+  :global(.vtex-my-account-1-x-userInfo) {
+    display: flex !important;
+    flex-wrap: nowrap;
+    .userImage {
+      display: none;
+      margin: 0px;
+      padding-bottom: 4px;
+      padding-top: 4px;
+    }
+    .userGreeting {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 0px;
+      color: #666666;
+      &::before {
+        content: "¡Hola ";
+        font-size: 16px;
+        color: #525252;
+        font-weight: bold;
+      }
+    }
+    .userName {
+      padding-bottom: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #666666;
+      text-transform: capitalize;
+    }
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+    color: #666666;
+    font-size: 12px;
+    width: 200px;
+    text-align: left;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    width: 200px;
+    text-align: left;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductName) {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductShipping) {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductQuantityValue) {
+    color: #666666;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderCard) {
+    display: block;
+    :global(.vtex-my-orders-app-3-x-orderHeader) {
+      & > div:last-child {
+        & > div:last-child {
+          display: none;
+        }
+      }
+      :global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+        font-weight: 900;
+        text-align: center;
+      }
+      :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+        text-align: center;
+      }
+      width: 100%;
+      :global(.vtex-my-orders-app-3-x-orderId) {
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;
+        width: 200px;
+      }
+    }
+    :global(.vtex-my-orders-app-3-x-orderBody) > div:last-child {
+      display: flex;
+      flex-direction: column;
+    }
+    :global(.vtex-my-orders-app-3-x-orderBody) {
+      :global(.vtex-my-orders-app-3-x-cancelBtn) {
+        display: none;
+      }
+      :global(.vtex-my-orders-app-3-x-detailsBtn) {
+        order: 1;
+        color: #0075c9;
+        background: transparent;
+        border: none;
+        width: 256px;
+        height: 40px;
+        box-shadow: none;
+        margin-bottom: 1rem;
+      }
+      :global(.vtex-my-orders-app-3-x-reorderBtn) {
+        order: 2;
+        width: 256px;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        background: transparent;
+        border: 1px solid #0075c9;
+        color: #0075c9;
+        border-radius: 5px;
+        opacity: 1;
+        svg {
+          display: none;
+        }
+        span {
+          font-size: 0;
+          text-align: center;
+          &::before {
+            content: "Repetir pedido";
+            font-size: 14px;
+            font-weight: 900;
+          }
+        }
+      }
+    }
+
+    &[status="canceled"] {
+      :global(.vtex-my-orders-app-3-x-orderId) {
+        &::after {
+          content: "Cancelado";
+          display: block;
+          background: #ff4c4c;
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+          font-size: 0.75rem;
+          padding: 0.25rem 0.5rem;
+          max-width: 70px;
+          border-radius: 4px;
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+  span[value*="Preparando el pedido"] {
+    background: yellow;
+  }
+
+  :global(.vtex-pageHeader__title) {
+    visibility: hidden;
+  }
+
+  :global(.vtex-my-orders-app-3-x-detailsBtn) {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    width: 16rem;
+    margin-top: 0px;
+  }
+
+  :global(.vtex-input__label) {
+    font-size: 12px;
+  }
+
+  :global(.vtex-address-form__postalCode) {
+    padding-bottom: 2rem;
+  }
+
+  :global(.vtex-input-prefix__group) {
+    :first-child {
+      border-bottom: solid #b8b5b5 thin;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+    }
+  }
+  :global(.vtex-address-form-4-x-input) {
+    border-bottom: solid #b8b5b5 thin;
+  }
+  :global(.vtex-my-account-1-x-profile) {
+    font-size: 12px;
+  }
+  :global(.vtex-pageHeader-link__container) {
+    :global(.vtex-button) {
+      background: transparent !important;
+      color: $primary !important;
+    }
+  }
+  :global(.vtex-button) {
+    background: $primary;
+    color: #fff;
+    border: none;
+  }
+  :global(.vtex-button.bg-transparent) {
+    background-color: transparent;
+    color: #525225;
+  }
+
+  :global(.vtex-pageHeader__children) {
+    :global(.vtex-button) {
+      background: #fff;
+      color: #666666;
+      border: 1px solid #e8e8e8;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  :global(.vtex-my-account-1-x-addressBox) {
+    @media screen and (max-width: em(768px)) {
+      display: block;
+    }
+    :global(.vtex-button) {
+      background-color: #fff;
+      color: #666666;
+      border: 1px solid #e8e8e8;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  :global(.vtex-pageBody__button) {
+    :global(.vtex-button) {
+      background-color: #fff;
+      color: #666666;
+      border: 1px solid #e8e8e8;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  :global(.vtex-account__page-body) {
+    :global(.vtex-my-account-1-x-passwordBoxContainer) {
+      display: none;
+    }
+  }
+
+  :global(.vtex-my-account-1-x-boxContainerFooter) {
+    :global(.vtex-button) {
+      background-color: #fff;
+      color: #666666;
+    }
+  }
+}
+
+:global(.vtex-modal__confirmation) {
+  :global(.vtex-button) {
+    background: #0075c9 !important;
+  }
+  :first-child {
+    :global(.vtex-button) {
+      background: #f6f6f6 !important;
+      color: #333 !important;
+    }
+  }
+}
+
+:global(.vtex-account__page) {
+  width: 100% !important;
+  :global(.vtex-pageHeader__container) {
+    padding-left: 1em !important;
+  }
+}
+
+:global(.vtex-order-placed-2-x-packageHeader--delivery) {
+  br {
+    display: none;
+  }
+}
+
+:global(.vtex-account) {
+  :global(.vtex-my-orders-app-3-x-productTable) {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.06);
+    margin: 24px 2px 24px 0;
+    padding: 38px 9px 30px 32px;
+    border: 1px solid #e8e8e8;
+  }
+  :global(.vtex-my-orders-app-3-x-productName) {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    text-decoration: none;
+  }
+  :global(.vtex-my-orders-app-3-x-productPrice) {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+  }
+  :global(.vtex-my-orders-app-3-x-productQuantity) {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+  }
+  :global(.vtex-my-orders-app-3-x-productTotalPrice) {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+  }
+}
+
+:global(.vtex-my-account-1-x-dataEntryLabel) {
+  color: #898989;
+  font-size: 14px;
+}
+
+:global(.vtex-my-account-1-x-dataEntryChildren) {
+  color: #525252;
+  font-size: 14px;
+}
+
+:global(.vtex-my-account-1-x-boxContainerBody) {
+  background-color: #fff;
+}
+
+:global(.vtex-my-account-1-x-boxContainerFooter) {
+  background-color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+:global(.vtex-my-account-1-x-profileBoxContainer),
+:global(.vtex-account__page) {
+  :global(.vtex-my-account-1-x-boxContainerFooter) {
+    :global(.vtex-button) {
+      border: none;
+      box-shadow: none;
+      :global(.vtex-button__label) {
+        background: url(assets/icon_edit.svg) no-repeat 50%;
+        font-size: 0;
+        background-size: 25px;
+        width: 25px;
+        height: 25px;
+        outline: 0 !important;
+      }
+    }
+  }
+}
+
+:global(.vtex-my-account-1-x-passwordBoxContainer) {
+  :global(.vtex-my-account-1-x-boxContainerFooter) {
+    :global(.vtex-button__label) {
+      background: url(assets/icon_edit.svg) no-repeat 50%;
+      font-size: 0;
+      background-size: 25px;
+      width: 25px;
+      height: 25px;
+      outline: 0 !important;
+    }
+  }
+}
+
+:global(.vtex-my-account-1-x-boxContainer) {
+  position: relative;
+  border: 1px solid #dedede;
+}
+
+:global(.vtex-my-account-1-x-menu) {
+  :global(.vtex-my-account-1-x-menuLinks) {
+    a {
+      font-size: 0;
+      &::before {
+        font-weight: 900;
+        font-size: 16px;
+      }
+    }
+    a[href*="#/profile"] {
+      &::before {
+        content: "Mi perfil";
+      }
+    }
+    a[href*="#/addresses"] {
+      &::before {
+        content: "Mis direcciones";
+      }
+    }
+    a[href*="#/orders"] {
+      &::before {
+        content: "Mis pedidos";
+      }
+    }
+    a[href*="#/cards"] {
+      display: none;
+      &::before {
+        content: "Mis tarjetas";
+      }
+    }
+    a[href*="#/shopping-list"] {
+      display: block;
+      &::before {
+        content: "Mis listas";
+      }
+    }
+    :global(.vtex-my-account-1-x-menuLink) {
+      font-size: 0;
+      &::before {
+        font-size: 16px;
+        font-weight: 700;
+        content: "Cerrar Sesión";
+      }
+    }
+  }
+}
+:global(.vtex-my-account-1-x-profile) {
+  :global(.vtex-my-account-1-x-dataEntryLabel),
+  :global(.vtex-my-account-1-x-newsletterContainerTitle) {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  :global(.vtex-my-account-1-x-dataEntryChildren),
+  :global(.vtex-my-account-1-x-newsletterContainerMessage),
+  :global(.vtex-checkbox__label) {
+    font-size: 14px;
+  }
+}
+:global(.vtex-account__page) {
+  :global(.vtex-pageHeader__container) {
+    :global(.vtex-pageHeader__children) {
+      a[href*="#/addresses/new"],
+      a[href*="#/cards/new"] {
+        :global(.vtex-button) {
+          width: 256px;
+          height: 40px;
+          background: transparent;
+          border: 1px solid #0075c9;
+          border-radius: 5px;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+/*:global(.vtex-slider-layout-0-x-sliderTrack--carousel-brand),
+:global(.vtex-flex-layout-0-x-flexCol--circle-mobile-col),
+:global(.vtex-flex-layout-0-x-flexRowContent--circles-mobile){
+  a {
+    margin-bottom: 3rem;
+      &::after {
+        @media screen and (max-width: em(1024px)){
+          display: none;
+        }
+        position: absolute;
+        bottom: -20px;
+        font-size: 16px;
+        margin-bottom: 1.5rem;
+        color: #525252;
+        font-weight: 900;
+        text-decoration: none;
+        text-align: center;
+      }
+    }
+
+    a[href*="/141?map=productClusterIds"] {
+      &::after {
+        content: "Rebajas";
+        left: 30%;
+      }
+    }
+
+    a[href*="/143?map=productClusterIds"] {
+      &::after {
+        content: "Belleza";
+        left: 34%;
+      }
+    }
+
+    a[href*="/144?map=productClusterIds"] {
+      &::after {
+        content: "Salud";
+        left: 36%;
+      }
+    }
+
+    a[href*="/142?map=productClusterIds"] {
+      &::after {
+        content: "Electrónica";
+        left: 22.5%;
+      }
+    }
+
+    a[href*="/145?map=productClusterIds"] {
+      &::after {
+        content: "Vinos y Licores";
+        left: 13%;
+      }
+    }
+
+    a[href*="/146?map=productClusterIds"] {
+      &::after {
+        content: "Bebés y niños";
+        left: 15%;
+      }
+    }
+  }*/
+:global(.vtex__icon-check),
+:global(.vtex-radio__fakeRadioInner) {
+  background: #0075c9;
+  border: #0075c9;
+}
+:global(.vtex-search-result-3-x-filters--layout) {
+  :global(.vtex-search-result-3-x-filtersWrapper) {
+    :global(.vtex__icon-check) {
+      background-color: transparent;
+    }
+    :global(.vtex-search-result-3-x-seeMoreButton) {
+      font-family: "GothamBook", sans-serif;
+      font-size: 14px;
+    }
+    :global(.vtex-search-result-3-x-filter__container--brand) {
+      :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+        max-height: 225px !important;
+      }
+      :global(.vtex-search-result-3-x-filterTitle) > span:first-child {
+        font-size: 0;
+        &::before {
+          content: "Marca";
+          font-size: 16px;
+        }
+      }
+    }
+    :global(.vtex-search-result-3-x-filter__container--category-1) {
+      :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+        max-height: 225px !important;
+      }
+      :global(.vtex-search-result-3-x-filterTitle) > span:first-child {
+        font-size: 0;
+        &::before {
+          content: "Departamento";
+          font-size: 16px;
+        }
+      }
+    }
+    :global(.vtex-search-result-3-x-filter__container--category-2) {
+      :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+        max-height: 225px !important;
+      }
+      :global(.vtex-search-result-3-x-filterTitle) > span:first-child {
+        font-size: 0;
+        &::before {
+          content: "Categoría";
+          font-size: 16px;
+        }
+      }
+    }
+    :global(.vtex-search-result-3-x-filter__container--category-3) {
+      :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+        max-height: 225px !important;
+      }
+      :global(.vtex-search-result-3-x-filterTitle) > span:first-child {
+        font-size: 0;
+        &::before {
+          content: "Subcategoría";
+          font-size: 16px;
+        }
+      }
+    }
+    :global(.vtex-search-result-3-x-filter__container--new-release) {
+      :global(.vtex-search-result-3-x-filterTitle) > span:first-child {
+        font-size: 0;
+        &::before {
+          content: "Nuevo lanzamiento";
+          font-size: 16px;
+        }
+      }
+    }
+    :global(.vtex-search-result-3-x-filter__container--promotion) {
+      :global(.vtex-search-result-3-x-filterTitle) > span:first-child {
+        font-size: 0;
+        &::before {
+          content: "Promoción";
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+:global(.vtex-menu-2-x-menuContainerNav) {
+  :global(.vtex-button) {
+    :global(.vtex-button__label) {
+      span > div:last-child {
+        font-weight: 600;
+        font-size: 14px;
+        font-family: GothamBook;
+        margin-top: 5px;
+        text-transform: none;
+      }
+    }
+  }
+}
+
+:global(.vtex-account__order-details) {
+  & > div:first-child {
+    & > div:first-child {
+      & div:first-child {
+        display: none;
+      }
+    }
+    & > div:nth-child(4n) {
+      & > div:last-child {
+        & > div:last-child {
+          & > div:last-child {
+            & > div:nth-child(5n) {
+              & > div:last-child {
+                & > span {
+                  font-size: 0;
+                  &::before {
+                    font-size: 0.875rem;
+                    content: "En preparación";
+                  }
+                }
+              }
+            }
+            & > div:nth-child(7n) {
+              & > div:last-child {
+                & > span {
+                  font-size: 0;
+                  &::before {
+                    font-size: 0.875rem;
+                    content: "Pedido enviado";
+                  }
+                }
+              }
+            }
+            & > div:nth-child(9n) {
+              & > div:last-child {
+                & > span {
+                  font-size: 0;
+                  &::before {
+                    font-size: 0.875rem;
+                    content: "Pedido entregado";
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+:global(.vtex-my-account-1-x-boxContainerBody) {
+  :global(.vtex-profile-form-3-x-extendedFields),
+  :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper),
+  :global(.vtex-profile-form-3-x-businessFields) {
+    display: none;
+  }
+}
+
+.documentsSubContainer {
+  display: none;
+}
+
+.newsletterContainerMessage {
+  visibility: hidden;
+}

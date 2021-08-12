@@ -1,0 +1,552 @@
+{
+  "vtex.menu@2.x:submenu#bebes-juguetes": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#bebes-menu-line-2"
+    ]
+  },
+  "flex-layout.row#bebes-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#bebes-menu-line-2-columna-1",
+      "flex-layout.col#bebes-menu-line-2-columna-2",
+      "flex-layout.col#bebes-menu-line-2-columna-3"
+    ]
+  },
+  "flex-layout.col#bebes-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#bebes-menu-line-2-columna-2-line-1",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-8",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-9",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-10"
+    ]
+  },
+  "menu-item#bebes-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes",
+        "noFollow": true,
+        "tagTitle": "Bebés",
+        "text": "Bebés"
+      }
+    }
+    /*"blocks": [
+      "submenu#bebes-line-2-columna-2"
+    ]*/
+  },
+  "submenu#bebes-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-8",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-9",
+      "menu-item#bebes-menu-line-2-columna-1-columna-2-line-10"
+    ]
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/autoasientos",
+        "noFollow": true,
+        "tagTitle": "Autoasientos",
+        "text": "Autoasientos"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/carriolas",
+        "noFollow": true,
+        "tagTitle": "Carriolas",
+        "text": "Carriolas"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/cunas",
+        "noFollow": true,
+        "tagTitle": "Cunas",
+        "text": "Cunas"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/andaderas",
+        "noFollow": true,
+        "tagTitle": "Andaderas",
+        "text": "Andaderas"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/seguridad-y-monitores",
+        "noFollow": true,
+        "tagTitle": "Seguridad y Monitores",
+        "text": "Seguridad y Monitores"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/aseo-e-higiene",
+        "noFollow": true,
+        "tagTitle": "Aseo E Higiene",
+        "text": "Aseo E Higiene"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/estimulacion",
+        "noFollow": true,
+        "tagTitle": "Estimulación",
+        "text": "Estimulación"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/alimentacion",
+        "noFollow": true,
+        "tagTitle": "Alimentación",
+        "text": "Alimentación"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/muebles-infantiles",
+        "noFollow": true,
+        "tagTitle": "Muebles Infantiles",
+        "text": "Muebles Infantiles"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-1-columna-2-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/bebes/accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "flex-layout.col#bebes-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#bebes-menu-line-2-columna-3-line-1",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "menu-item#bebes-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/",
+        "noFollow": true,
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
+      }
+    }
+    /*"blocks": [
+      "submenu#bebes-line-2-columna-3"
+    ]*/
+  },
+  "submenu#bebes-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#bebes-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/juguetes-para-nina",
+        "noFollow": true,
+        "tagTitle": "Juguetes Para Niña",
+        "text": "Juguetes Para Niña"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/juguetes-para-nino",
+        "noFollow": true,
+        "tagTitle": "Juguetes Para Niño",
+        "text": "Juguetes Para Niño"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/montables",
+        "noFollow": true,
+        "tagTitle": "Montables",
+        "text": "Montables"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/lego",
+        "noFollow": true,
+        "tagTitle": "Lego",
+        "text": "Lego"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/triciclos",
+        "noFollow": true,
+        "tagTitle": "Triciclos",
+        "text": "Triciclos"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/bicicletas-infaniles",
+        "noFollow": true,
+        "tagTitle": "Bicicletas Infantiles",
+        "text": "Bicicletas Infantiles"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/peluches",
+        "noFollow": true,
+        "tagTitle": "Peluches",
+        "text": "Peluches"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/figuras-de-accion",
+        "noFollow": true,
+        "tagTitle": "Figuras De Acción",
+        "text": "Figuras De Acción"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/musicales",
+        "noFollow": true,
+        "tagTitle": "Musicales",
+        "text": "Musicales"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/inflables",
+        "noFollow": true,
+        "tagTitle": "Inflables",
+        "text": "Inflables"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/patines",
+        "noFollow": true,
+        "tagTitle": "Patines",
+        "text": "Patines"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-12": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/funkos",
+        "noFollow": true,
+        "tagTitle": "Funkos",
+        "text": "Funkos"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-1-line-13": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juguetes/drones",
+        "noFollow": true,
+        "tagTitle": "Drones",
+        "text": "Drones"
+      }
+    }
+  },
+  "flex-layout.col#bebes-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#bebes-menu-line-2-columna-3-line-3",
+      "menu-item#bebes-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#bebes-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#bebes-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#bebes-menu-line-2-columna-3-line-3-ver-todos"
+    ]
+  },
+  "menu-item#bebes-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juegos/",
+        "noFollow": true,
+        "tagTitle": "Juegos",
+        "text": "Juegos"
+      }
+    }
+    /*"blocks": [
+      "submenu#bebes-line-2-columna-4"
+    ]*/
+  },
+  "menu-item#bebes-menu-line-2-columna-3-line-3-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS BEBES JUGUETES",
+        "text": "VER TODOS BEBES JUGUETES"
+      }
+    }
+  },
+  "submenu#bebes-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#bebes-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#bebes-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#bebes-menu-line-2-columna-3-columna-4-line-3"
+    ]
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juegos/juegos-de-mesa",
+        "noFollow": true,
+        "tagTitle": "Juegos De Mesa",
+        "text": "Juegos De Mesa"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juegos/casitas-y-juegos-de-jardin",
+        "noFollow": true,
+        "tagTitle": "Casitas y Juegos de Jardín",
+        "text": "Casitas y Juegos de Jardín"
+      }
+    }
+  },
+  "menu-item#bebes-menu-line-2-columna-3-columna-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebes-y-juguetes/juegos/didacticos-y-manualidades",
+        "noFollow": true,
+        "tagTitle": "Didácticos y Manualidades",
+        "text": "Didácticos y Manualidades"
+      }
+    }
+  }
+}

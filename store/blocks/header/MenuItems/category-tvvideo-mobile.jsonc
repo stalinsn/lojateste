@@ -1,0 +1,1104 @@
+{
+  "submenu.accordion#mobile-tvvideo": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-tvvideo-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-tvvideo-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-tvvideo-vertodos",
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-1",
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-2",
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-3",
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-4",
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-5",
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-6",
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-7"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-tvvideo-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-tvvideo-vertodos"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-tvvideo-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-6": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-para-autos/",
+        "noFollow": true,
+        "tagTitle": "Audio Para Autos",
+        "text": "Audio Para Autos"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-7": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-2-line-nabb"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-2-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/",
+        "noFollow": true,
+        "tagTitle": "Audio y Equipos De Sonido",
+        "text": "Audio y Equipos De Sonido"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-nabb-3"
+    ]
+  },
+  "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-nabb-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-tvvideo-menu-line-9"
+    ]
+  },
+  "flex-layout.row#mobile-tvvideo-menu-line-9": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nabb-vertodos-9",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-1",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-2",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-3",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-4",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-5",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-6",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-7",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-8",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-9",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-10"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nabb-vertodos-9": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nabb-vertodos-9": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/bocinas",
+        "noFollow": true,
+        "tagTitle": "Bocinas",
+        "text": "Bocinas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/audifonos",
+        "noFollow": true,
+        "tagTitle": "Audífonos",
+        "text": "Audífonos"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "Teatros En Casa",
+        "text": "Teatros En Casa"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/barras-de-sonido",
+        "noFollow": true,
+        "tagTitle": "Barras De Sonido",
+        "text": "Barras De Sonido"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/microcomponentes-y-minicomponentes",
+        "noFollow": true,
+        "tagTitle": "Microcomponentes y Minicomponentes",
+        "text": "Microcomponentes y Minicomponentes"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/radios-y-grabadoras",
+        "noFollow": true,
+        "tagTitle": "Radios y Grabadoras",
+        "text": "Radios y Grabadoras"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/consolas-y-tornamesas",
+        "noFollow": true,
+        "tagTitle": "Consolas y Tornamesas",
+        "text": "Consolas y Tornamesas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/bafles",
+        "noFollow": true,
+        "tagTitle": "Bafles",
+        "text": "Bafles"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/microfonos",
+        "noFollow": true,
+        "tagTitle": "Micrófonos",
+        "text": "Micrófonos"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-9-line-nabb-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/reproductores-portatiles",
+        "noFollow": true,
+        "tagTitle": "Reproductores Portátiles",
+        "text": "Reproductores Portátiles"
+      }
+    }
+  },
+  "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-tvvideo-menu-line-8"
+    ]
+  },
+  "flex-layout.row#mobile-tvvideo-menu-line-8": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nabb-vertodos",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb-line-1",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb-line-2",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb-line-3",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb-line-4"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nabb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nabb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-para-autos/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-para-autos/autoestereos",
+        "noFollow": true,
+        "tagTitle": "Autoestéreos",
+        "text": "Autoestéreos"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-para-autos/bocinas",
+        "noFollow": true,
+        "tagTitle": "Bocinas y Woofer",
+        "text": "Bocinas y Woofer"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-para-autos/amplificadores",
+        "noFollow": true,
+        "tagTitle": "Amplificadores",
+        "text": "Amplificadores"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nabb-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-para-autos/instalacion",
+        "noFollow": true,
+        "tagTitle": "Instalación",
+        "text": "Instalación"
+      }
+    }
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-5": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/accesorios-para-electronica/",
+        "noFollow": true,
+        "tagTitle": "Accesorios Para Electrónica",
+        "text": "Accesorios Para Electrónica"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nobb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nobb-vertodos"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nobb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-electronica/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-tvvideo-menu-line-7": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nobb-vertodos",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb-line-1",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb-line-2",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb-line-3",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb-line-4"
+    ]
+  },
+  "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-tvvideo-menu-line-7"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-electronica/baterias",
+        "noFollow": true,
+        "tagTitle": "Baterías",
+        "text": "Baterías"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-electronica/cables",
+        "noFollow": true,
+        "tagTitle": "Cables",
+        "text": "Cables"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-electronica/soportes",
+        "noFollow": true,
+        "tagTitle": "Soportes",
+        "text": "Soportes"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-nobb-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-electronica/controles-remotos",
+        "noFollow": true,
+        "tagTitle": "Controles remotos",
+        "text": "Controles remotos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/camaras/",
+        "noFollow": true,
+        "tagTitle": "Cámaras",
+        "text": "Cámaras"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nino-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nino-vertodos"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nino-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/camaras/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-tvvideo-menu-line-6": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nino-vertodos",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-1",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-2",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-3",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-4",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-5",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-6",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-7"
+    ]
+  },
+  "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-no": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-tvvideo-menu-line-6"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/camaras/digitales",
+        "noFollow": true,
+        "tagTitle": "Digitales",
+        "text": "Digitales"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/camaras/reflex",
+        "noFollow": true,
+        "tagTitle": "Reflex",
+        "text": "Reflex"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/camaras/acuaticas",
+        "noFollow": true,
+        "tagTitle": "Acuáticas",
+        "text": "Acuáticas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/camaras/videocamaras",
+        "noFollow": true,
+        "tagTitle": "Videocámaras",
+        "text": "Videocámaras"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/camaras/de-automovil",
+        "noFollow": true,
+        "tagTitle": "De automovil",
+        "text": "De automovil"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/camaras/deportivas",
+        "noFollow": true,
+        "tagTitle": "Deportivas",
+        "text": "Deportivas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-no-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/camaras/instantaneas",
+        "noFollow": true,
+        "tagTitle": "Instantaneas",
+        "text": "Instantaneas"
+      }
+    }
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/accesorios-para-camaras/",
+        "noFollow": true,
+        "tagTitle": "Accesorios Para Cámaras",
+        "text": "Accesorios Para Cámaras"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-nina-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nina-vertodos"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nina-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-tvvideo-menu-line-5": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-nina-vertodos",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-1",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-2",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-3",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-4",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-5",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-6",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-7",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-8",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-9",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-10"
+    ]
+  },
+  "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-na": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-tvvideo-menu-line-5"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/soportes-y-tripies",
+        "noFollow": true,
+        "tagTitle": "Soportes y tripies",
+        "text": "Soportes y tripies"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/letes",
+        "noFollow": true,
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/protectores-estuches-y-fundas",
+        "noFollow": true,
+        "tagTitle": "Protectores, Estuches y Fundas",
+        "text": "Protectores, Estuches y Fundas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/cables-correas-y-marcos",
+        "noFollow": true,
+        "tagTitle": "Cables, Correas y Marcos",
+        "text": "Cables, Correas y Marcos"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/baterias-cargadores-y-peliculas",
+        "noFollow": true,
+        "tagTitle": "Baterías, Cargadores y Películas",
+        "text": "Baterías, Cargadores y Películas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/kits-y-adaptadores",
+        "noFollow": true,
+        "tagTitle": "Kits y Adaptadores",
+        "text": "Kits y Adaptadores"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/filtros-flashes-y-lamparas",
+        "noFollow": true,
+        "tagTitle": "Filtros, Flashes y Lámparas",
+        "text": "Filtros, Flashes y Lámparas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/mochilas-maletas-y-bolsos",
+        "noFollow": true,
+        "tagTitle": "Mochilas, Maletas y Bolsos",
+        "text": "Mochilas, Maletas y Bolsos"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/microfonos",
+        "noFollow": true,
+        "tagTitle": "Micrófonos",
+        "text": "Micrófonos"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-na-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/accesorios-para-camaras/tarjetas-de-memoria",
+        "noFollow": true,
+        "tagTitle": "Tarjetas De Memoria",
+        "text": "Tarjetas De Memoria"
+      }
+    }
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/instrumentos-musicales/",
+        "noFollow": true,
+        "tagTitle": "Instrumentos Musicales",
+        "text": "Instrumentos Musicales"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/instrumentos-musicales/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-tvvideo-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-h-line-1"
+    ]
+  },
+  "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-tvvideo-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-h-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/instrumentos-musicales/instrumentos-de-cuerdas",
+        "noFollow": true,
+        "tagTitle": "instrumentos de cuerdas",
+        "text": "instrumentos de cuerdas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/tv-y-video",
+        "noFollow": true,
+        "tagTitle": "Tv y Video",
+        "text": "Tv y Video"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "flex-layout.col#mobile-tvvideo-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/tv-y-video",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-tvvideo-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-tvvideo-menu-line-2-columna-mujer-vertodos",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m-line-1",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m-line-2",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m-line-3",
+      "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m-line-4"
+    ]
+  },
+  "submenu.accordion#mobile-tvvideo-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-tvvideo-menu-line-3"
+    ]
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/tv-y-video/drones",
+        "noFollow": true,
+        "tagTitle": "Drones",
+        "text": "Drones"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/tv-y-video/pantallas",
+        "noFollow": true,
+        "tagTitle": "Pantallas",
+        "text": "Pantallas"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/tv-y-video/tv-digital",
+        "noFollow": true,
+        "tagTitle": "TV Digital",
+        "text": "TV Digital"
+      }
+    }
+  },
+  "menu-item#mobile-tvvideo-menu-line-2-columna-1-line-m-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/tv-y-video/reproductores-blu-ray-y-dvd",
+        "noFollow": true,
+        "tagTitle": "Reproductores Blu-Ray y DVD",
+        "text": "Reproductores Blu-Ray y DVD"
+      }
+    }
+  }
+}

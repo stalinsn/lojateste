@@ -1,0 +1,11 @@
+{
+  "footer#order": {
+    "blocks": ["footer-layout.desktop#order", "footer-layout.mobile#order"]
+  },
+  "footer-layout.desktop#order": {
+    "children": ["flex-layout.row#footer-3-desktop"]
+  },
+  "footer-layout.mobile#order": {
+    "children": ["flex-layout.row#footer-3-desktop"]
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "vtex.menu@2.x:submenu#telefonia": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#telefonia-menu-line-2"
+    ]
+  },
+  "flex-layout.row#telefonia-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#telefonia-menu-line-2-columna-1",
+      "flex-layout.col#telefonia-menu-line-2-columna-2",
+      "flex-layout.col#telefonia-menu-line-2-columna-3"
+    ]
+  },
+  "flex-layout.col#telefonia-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#telefonia-menu-line-2-columna-3-line-3",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-1",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-2",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-3",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-4",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-5",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-6",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-7",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-8",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-9",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-10",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-11",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-12",
+      "menu-item#telefonia-menu-line-2-columna-2-line-1",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-2-line-2"
+    ]
+  },
+
+  "menu-item#telefonia-menu-line-2-columna-1-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/celulares-por-compañia/",
+        "noFollow": true,
+        "tagTitle": "Celulares por Compañía",
+        "text": "Celulares por Compañía"
+      }
+    }
+    /*"blocks": [
+      "submenu#telefonia-line-2-columna-1"
+    ]*/
+  },
+  "submenu#telefonia-line-2-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-1",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-2",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-3",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-4",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-5",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-6"
+    ]
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/celulares-por-compañia/desbloqueados",
+        "noFollow": true,
+        "tagTitle": "Desbloqueados",
+        "text": "Desbloqueados"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/celulares-por-compañia/telcel",
+        "noFollow": true,
+        "tagTitle": "Telcel",
+        "text": "Telcel"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/celulares-por-compañia/movistar",
+        "noFollow": true,
+        "tagTitle": "Movistar",
+        "text": "Movistar"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/celulares-por-compañia/at-t",
+        "noFollow": true,
+        "tagTitle": "ATT",
+        "text": "ATT"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/celulares-por-compañia/unefon",
+        "noFollow": true,
+        "tagTitle": "Unefon",
+        "text": "Unefon"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/celulares-por-compañia/oui",
+        "noFollow": true,
+        "tagTitle": "Oui",
+        "text": "Oui"
+      }
+    }
+  },
+  "flex-layout.col#telefonia-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#telefonia-menu-line-3-columna-3-line-1",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-1",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-2",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-3",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-4",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-5",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-6",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-7",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-8",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-9",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-10",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-11",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-12",
+      "menu-item#telefonia-menu-line-3-columna-3-line-1-ver-todos"
+    ]
+  },
+  "menu-item#telefonia-menu-line-3-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/",
+        "noFollow": true,
+        "tagTitle": "Accesorios Para Celulares",
+        "text": "Accesorios Para Celulares"
+      }
+    }
+    /*"blocks": [
+      "submenu#telefonia-line-3-columna-3"
+    ]*/
+  },
+  "menu-item#telefonia-menu-line-3-columna-3-line-1-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-telefonia/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS TELEFONIA",
+        "text": "VER TODOS TELEFONIA"
+      }
+    }
+  },
+  "submenu#telefonia-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-1",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-2",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-3",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-4",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-5",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-6",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-7",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-8",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-9",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-10",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-11",
+      "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-12"
+    ]
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/baterias-portatiles",
+        "noFollow": true,
+        "tagTitle": "Baterías Portátiles",
+        "text": "Baterías Portátiles"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/fundas-para-celular",
+        "noFollow": true,
+        "tagTitle": "Fundas Para Celular",
+        "text": "Fundas Para Celular"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/auriculares",
+        "noFollow": true,
+        "tagTitle": "Auriculares",
+        "text": "Auriculares"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/vr",
+        "noFollow": true,
+        "tagTitle": "VR",
+        "text": "VR"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/terminales-de-pago",
+        "noFollow": true,
+        "tagTitle": "Terminales De Pago",
+        "text": "Terminales De Pago"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/accesorios-para-auto",
+        "noFollow": true,
+        "tagTitle": "Accesorios Para Auto",
+        "text": "Accesorios Para Auto"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/micas-protectoras",
+        "noFollow": true,
+        "tagTitle": "Micas Protectoras",
+        "text": "Micas Protectoras"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/selfie-stick",
+        "noFollow": true,
+        "tagTitle": "Selfie Stick",
+        "text": "Selfie Stick"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/soportes",
+        "noFollow": true,
+        "tagTitle": "Soportes",
+        "text": "Soportes"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/cargadores",
+        "noFollow": true,
+        "tagTitle": "Cargadores",
+        "text": "Cargadores"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/cables",
+        "noFollow": true,
+        "tagTitle": "Cables",
+        "text": "Cables"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-1-columna-3-columna-3-line-12": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/accesorios-para-celulares/tarjetas-de-memoria",
+        "noFollow": true,
+        "tagTitle": "Tarjetas de Memoria",
+        "text": "Tarjetas de Memoria"
+      }
+    }
+  },
+  "flex-layout.col#telefonia-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#telefonia-menu-line-2-columna-1-line-1",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-1",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-2",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-3",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-4",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-5",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-1-line-6"
+    ]
+  },
+  "menu-item#telefonia-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/telefonos-fijos/",
+        "noFollow": true,
+        "tagTitle": "Teléfonos Fijos",
+        "text": "Teléfonos Fijos"
+      }
+    }
+    /*"blocks": [
+      "submenu#telefonia-line-2-columna-2"
+    ]*/
+  },
+  "submenu#telefonia-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#telefonia-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-2-line-2"
+    ]
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/telefonos-fijos/telefonos-alambricos",
+        "noFollow": true,
+        "tagTitle": "Teléfonos Alámbricos",
+        "text": "Teléfonos Alámbricos"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/telefonos-fijos/telefonos-inalambricos",
+        "noFollow": true,
+        "tagTitle": "Teléfonos Inalámbricos",
+        "text": "Teléfonos Inalámbricos"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/telefonia/celulares-por-compañia/",
+        "noFollow": true,
+        "tagTitle": "Equipos",
+        "text": "Equipos"
+      }
+    }
+    /*"blocks": [
+      "submenu#telefonia-line-2-columna-3"
+    ]*/
+  },
+  "submenu#telefonia-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-1",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-2",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-3",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-4",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-5",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-6",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-7",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-8",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-9",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-10",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-11",
+      "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-12"
+    ]
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compania?fuzzy=0&map=category-2,category-1,marca&operator=and&query=/celulares-por-compania/telefonia/xiaomi",
+        "noFollow": true,
+        "tagTitle": "Xiaomi",
+        "text": "Xiaomi"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/telefonia/celulares-por-compañia?fuzzy=0&map=category-2,ft,category-1&operator=and&query=/celulares-por-compania/motorola/telefonia",
+        "noFollow": true,
+        "tagTitle": "Motorola",
+        "text": "Motorola"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=ft,category-2,category-1&operator=and&query=/apple/celulares-por-compania/telefonia",
+        "noFollow": true,
+        "tagTitle": "Apple",
+        "text": "Apple"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=category-2,ft,category-1&operator=and&query=/celulares-por-compania/huawei/telefonia",
+        "noFollow": true,
+        "tagTitle": "Huawei",
+        "text": "Huawei"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=category-2,ft,category-1&operator=and&query=/celulares-por-compania/samsung/telefonia",
+        "noFollow": true,
+        "tagTitle": "Samsung",
+        "text": "Samsung"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=category-2,ft,category-1&operator=and&query=/celulares-por-compania/honor/telefonia",
+        "noFollow": true,
+        "tagTitle": "Honor",
+        "text": "Honor"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=category-2,category-1,ft&operator=and&query=/celulares-por-compania/telefonia/zte",
+        "noFollow": true,
+        "tagTitle": "ZTE",
+        "text": "ZTE"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=category-2,ft,category-1&operator=and&query=/celulares-por-compania/kodak/telefonia",
+        "noFollow": true,
+        "tagTitle": "Kodak",
+        "text": "Kodak"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=ft,category-2,category-1&operator=and&query=/alcatel/celulares-por-compania/telefonia",
+        "noFollow": true,
+        "tagTitle": "Alcatel",
+        "text": "Alcatel"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=category-2,ft,category-1&operator=and&query=/celulares-por-compania/hisense/telefonia",
+        "noFollow": true,
+        "tagTitle": "Hisense",
+        "text": "Hisense"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/telefonia/celulares-por-compañia?fuzzy=0&map=category-2,ft,category-1&operator=and&query=/celulares-por-compania/oppo/telefonia",
+        "noFollow": true,
+        "tagTitle": "Oppo",
+        "text": "Oppo"
+      }
+    }
+  },
+  "menu-item#telefonia-menu-line-2-columna-1-columna-3-line-12": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "telefonia/celulares-por-compañia?fuzzy=0&map=category-2,ft,category-1&operator=and&query=/celulares-por-compania/hyundai/telefonia",
+        "noFollow": true,
+        "tagTitle": "Hyundai",
+        "text": "Hyundai"
+      }
+    }
+  }
+}

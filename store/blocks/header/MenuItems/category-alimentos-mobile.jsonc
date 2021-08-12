@@ -1,0 +1,212 @@
+{
+  "submenu.accordion#mobile-alimentos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-alimentos-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-alimentos-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-alimentos-menu-line-2-columna-alimentos-vertodos",
+      "flex-layout.col#mobile-alimentos-menu-line-2-columna-1",
+      "flex-layout.col#mobile-alimentos-menu-line-2-columna-2"
+    ]
+  },
+  "flex-layout.col#mobile-alimentos-menu-line-2-columna-alimentos-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-alimentos-menu-line-2-columna-3-line-alimentos-vertodos"
+    ]
+  },
+  "menu-item#mobile-alimentos-menu-line-2-columna-3-line-alimentos-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas?map=departamento",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-alimentos-menu-line-2-columna-nabb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-alimentos-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-alimentos-menu-line-2-columna-3-line-nabb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas?map=departamento",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-alimentos-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-alimentos-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-alimentos-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-alimentos-menu-line-2-columna-1-line-m"
+    ]
+  },
+
+  "menu-item#mobile-alimentos-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/",
+        "noFollow": true,
+        "tagTitle": "Cervezas, Vinos y Licores",
+        "text": "Cervezas, Vinos y Licores"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-alimentos-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-alimentos-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-alimentos-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-alimentos-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-alimentos-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-alimentos-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "submenu.accordion#mobile-alimentos-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-alimentos-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-alimentos-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/despensa",
+        "noFollow": true,
+        "tagTitle": "Despensa",
+        "text": "Despensa"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-alimentos-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "flex-layout.col#mobile-alimentos-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-alimentos-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-alimentos-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/despensa",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-alimentos-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-alimentos-menu-line-2-columna-3-line-mujer-vertodos",
+      "menu-item#alimentos-menu-line-2-columna-3-line-1"
+    ]
+  },
+  "submenu.accordion#mobile-alimentos-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#alimentos-menu-line-2-columna-1-columna-2-line-1"
+    ]
+  }
+}

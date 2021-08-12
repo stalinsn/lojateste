@@ -1,0 +1,558 @@
+{
+  "vtex.menu@2.x:submenu#videojuegos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#videojuegos-menu-line-2"
+    ]
+  },
+  "flex-layout.row#videojuegos-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#videojuegos-menu-line-2-columna-1",
+      "flex-layout.col#videojuegos-menu-line-2-columna-2",
+      "flex-layout.col#videojuegos-menu-line-2-columna-3",
+      "flex-layout.col#videojuegos-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#videojuegos-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-2-columna-2-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#videojuegos-menu-line-2-columna-2-line-2",
+      "menu-item#videojuegos-menu-line-3-columna-1-line-1"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-one/",
+        "noFollow": true,
+        "tagTitle": "Xbox One",
+        "text": "Xbox One"
+      }
+    }
+    /*"blocks": [
+      "submenu#videojuegos-line-2-columna-2"
+    ]*/
+  },
+  "submenu#videojuegos-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-4"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-one/xbox-consolas-consolas",
+        "noFollow": true,
+        "tagTitle": "Xbox One Consolas",
+        "text": "Xbox One Consolas"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-one/xbox-one-videojuegos",
+        "noFollow": true,
+        "tagTitle": "Xbox One Videojuegos",
+        "text": "Xbox One Videojuegos"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-one/xbox-one-digitales",
+        "noFollow": true,
+        "tagTitle": "Xbox One Digitales",
+        "text": "Xbox One Digitales"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-one/xbox-one-accesorios",
+        "noFollow": true,
+        "tagTitle": "Xbox One Accesorios",
+        "text": "Xbox One Accesorios"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-360/",
+        "noFollow": true,
+        "tagTitle": "Xbox 360",
+        "text": "Xbox 360"
+      }
+    }
+    /*"blocks": [
+      "submenu#videojuegos-line-3-columna-1"
+    ]*/
+  },
+  "submenu#videojuegos-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-3-columna-1-line-1"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-360/xbox-360-videojuegos",
+        "noFollow": true,
+        "tagTitle": "Xbox 360 Videojuegos",
+        "text": "Xbox 360 Videojuegos"
+      }
+    }
+  },
+  "flex-layout.col#videojuegos-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-2-columna-3-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-3"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/playstation-4/",
+        "noFollow": true,
+        "tagTitle": "Playstation 4",
+        "text": "Playstation 4"
+      }
+    }
+    /*"blocks": [
+      "submenu#videojuegos-line-2-columna-3"
+    ]*/
+  },
+  "submenu#videojuegos-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-3"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/playstation-4/playstation-4-consolas",
+        "noFollow": true,
+        "tagTitle": "PlayStation 4 Consolas",
+        "text": "PlayStation 4 Consolas"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/playstation-4/playstation-4-videojuegos",
+        "noFollow": true,
+        "tagTitle": "PlayStation 4 Videojuegos",
+        "text": "PlayStation 4 Videojuegos"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/playstation-4/playstation-4-accesorios",
+        "noFollow": true,
+        "tagTitle": "PlayStation 4 Accesorios",
+        "text": "PlayStation 4 Accesorios"
+      }
+    }
+  },
+  "flex-layout.col#videojuegos-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-2-columna-3-line-3",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#videojuegos-menu-line-3-columna-3-line-3",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-1",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-2",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-3",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-4",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-5",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-6",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-7"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/nintendo-switch/",
+        "noFollow": true,
+        "tagTitle": "Nintendo Switch",
+        "text": "Nintendo Switch"
+      }
+    }
+    /*"blocks": [
+      "submenu#videojuegos-line-2-columna-4"
+    ]*/
+  },
+  "submenu#videojuegos-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-3"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/nintendo-switch/nintendo-switch-consolas",
+        "noFollow": true,
+        "tagTitle": "Nintendo Switch Consolas",
+        "text": "Nintendo Switch Consolas"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/nintendo-switch/nintendo-switch-videojuegos",
+        "noFollow": true,
+        "tagTitle": "Nintendo Switch Videojuegos",
+        "text": "Nintendo Switch Videojuegos"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/nintendo-switch/nintendo-switch-accesorios",
+        "noFollow": true,
+        "tagTitle": "Nintendo Switch Accesorios",
+        "text": "Nintendo Switch Accesorios"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-3-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/",
+        "noFollow": true,
+        "tagTitle": "Coleccionables",
+        "text": "Coleccionables"
+      }
+    }
+    /*"blocks": [
+      "submenu#videojuegos-line-3-columna-3"
+    ]*/
+  },
+  "submenu#videojuegos-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-4-columna-3-line-1",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-2",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-3",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-4",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-5",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-6",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-7"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-4-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/funkos",
+        "noFollow": true,
+        "tagTitle": "Funkos",
+        "text": "Funkos"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-4-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/tarjetas",
+        "noFollow": true,
+        "tagTitle": "Tarjetas",
+        "text": "Tarjetas"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-4-columna-3-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/figuras",
+        "noFollow": true,
+        "tagTitle": "Figuras",
+        "text": "Figuras"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-4-columna-3-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/moda",
+        "noFollow": true,
+        "tagTitle": "Moda",
+        "text": "Moda"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-4-columna-3-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/skylanders",
+        "noFollow": true,
+        "tagTitle": "Skylanders",
+        "text": "Skylanders"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-4-columna-3-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/consolas-retro",
+        "noFollow": true,
+        "tagTitle": "Consolas Retro",
+        "text": "Consolas Retro"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-4-columna-3-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/coleccionistas",
+        "noFollow": true,
+        "tagTitle": "Coleccionistas",
+        "text": "Coleccionistas"
+      }
+    }
+  },
+  "flex-layout.col#videojuegos-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-2-columna-5-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-3",
+      "menu-item#videojuegos-menu-line-2-columna-5-line-1-ver-todos"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-2-columna-5-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/preventas/",
+        "noFollow": true,
+        "tagTitle": "Preventas",
+        "text": "Preventas"
+      }
+    }
+    /*"blocks": [
+      "submenu#videojuegos-line-2-columna-5"
+    ]*/
+  },
+  "menu-item#videojuegos-menu-line-2-columna-5-line-1-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-videojuegos/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS VIDEOJUEGOS",
+        "text": "VER TODOS VIDEOJUEGOS"
+      }
+    }
+  },
+  "submenu#videojuegos-line-2-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-3"
+    ]
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/preventas/xbox",
+        "noFollow": true,
+        "tagTitle": "Xbox",
+        "text": "Xbox"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/preventas/playstation",
+        "noFollow": true,
+        "tagTitle": "PlayStation",
+        "text": "PlayStation"
+      }
+    }
+  },
+  "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/preventas/nintendo",
+        "noFollow": true,
+        "tagTitle": "Nintendo",
+        "text": "Nintendo"
+      }
+    }
+  }
+}

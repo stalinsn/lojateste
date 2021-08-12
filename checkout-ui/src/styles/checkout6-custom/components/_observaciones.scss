@@ -1,0 +1,52 @@
+#custom-observaciones-container-checkout,
+#custom-observaciones-container {
+  .observaciones-wrapper {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    .title {
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #525252;
+      font-size: 1.4rem;
+    }
+    .notif {
+      &.save {
+      }
+      &.error {
+      }
+    }
+    .comment-wrapper {
+      textarea {
+        resize: none;
+        background: #fff;
+        border: 1px solid #dedede;
+        border-radius: 5px;
+        padding: 6px;
+        color: #525252;
+        width: 100%;
+        max-height: 120px;
+      }
+    }
+  }
+
+  .substitutions-wrapper {
+    margin: 12px 3px;
+    .content {
+      label {
+        span {
+          font-size: 1.4rem;
+          font-weight: bold;
+          line-height: 1.4;
+          color: #525252;
+        }
+        select {
+          margin-top: 8px;
+          background: #fff;
+          border: 1px solid #dedede;
+          font-size: 1.3rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

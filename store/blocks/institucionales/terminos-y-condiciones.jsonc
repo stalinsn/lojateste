@@ -1,0 +1,764 @@
+{
+    "store.custom#terminos-y-condiciones-de-compra": {
+    "blocks": [
+          "responsive-layout.desktop#terminos-y-condiciones",
+          "responsive-layout.mobile#terminos-y-condiciones"
+        ]
+    },
+    "responsive-layout.desktop#terminos-y-condiciones": {
+      "children": [
+        "flex-layout.row#titulo-de-pagina-terminos-y-condiciones-de-compra",
+        "flex-layout.row#point1tc",
+        "flex-layout.row#point1tc-content",
+        "flex-layout.row#point2tc",
+        "flex-layout.row#point2tc-content",
+        "flex-layout.row#point3tc",
+        "flex-layout.row#point3tc-content",
+        "flex-layout.row#point4tc",
+        "flex-layout.row#point4tc-content",
+        "flex-layout.row#point5tc",
+        "flex-layout.row#point5tc-content",
+        "flex-layout.row#point6tc",
+        "flex-layout.row#point6tc-content",
+        "flex-layout.row#point7tc",
+        "flex-layout.row#point7tc-content",
+        "flex-layout.row#point8tc",
+        "flex-layout.row#point8tc-content",
+        "flex-layout.row#point9tc",
+        "flex-layout.row#point9tc-content",
+        "flex-layout.row#point10tc",
+        "flex-layout.row#point10tc-content",
+        "flex-layout.row#point11tc",
+        "flex-layout.row#point11tc-content",
+        "flex-layout.row#point12tc",
+        "flex-layout.row#point12tc-content",
+        "flex-layout.row#point13tc",
+        "flex-layout.row#point13tc-content",
+        "flex-layout.row#point14tc"
+      ]
+    },
+    "flex-layout.row#point1tc": {
+      "children":[
+        "rich-text#question-pregunta-1-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point1tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-1-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point2tc": {
+      "children":[
+        "rich-text#question-pregunta-2-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point2tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-2-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point3tc": {
+      "children":[
+        "rich-text#question-pregunta-3-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point3tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-3-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point4tc": {
+      "children":[
+        "rich-text#question-pregunta-4-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point4tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-4-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point5tc": {
+      "children":[
+        "rich-text#question-pregunta-5-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point5tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-5-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point6tc": {
+      "children":[
+        "rich-text#question-pregunta-6-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point6tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-6-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point7tc": {
+      "children":[
+        "rich-text#question-pregunta-7-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point7tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-7-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point8tc": {
+      "children":[
+        "rich-text#question-pregunta-8-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point8tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-8-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point9tc": {
+      "children":[
+        "rich-text#question-pregunta-9-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point9tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-9-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point10tc": {
+      "children":[
+        "rich-text#question-pregunta-10-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point10tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-10-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point11tc": {
+      "children":[
+        "rich-text#question-pregunta-11-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point11tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-11-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point12tc": {
+      "children":[
+        "rich-text#question-pregunta-12-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point12tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-12-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point13tc": {
+      "children":[
+        "rich-text#question-pregunta-13-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point13tc-content": {
+      "children":[
+        "rich-text#answer-pregunta-13-pagina-terminos-y-condiciones-de-compra"
+      ]
+    },
+    "flex-layout.row#point14tc": {
+      "children":[
+        "rich-text#ultimo-texto-terminos-condiciones"
+      ]
+    },
+    "responsive-layout.mobile#terminos-y-condiciones": {
+      "children": [
+        "flex-layout.row#titulo-de-pagina-terminos-y-condiciones-de-compra",
+        "flex-layout.row#pregunta1",
+        "flex-layout.row#pregunta2",
+        "flex-layout.row#pregunta3",
+        "flex-layout.row#pregunta4",
+        "flex-layout.row#pregunta5",
+        "flex-layout.row#pregunta6",
+        "flex-layout.row#pregunta7",
+        "flex-layout.row#pregunta8",
+        "flex-layout.row#pregunta9",
+        "flex-layout.row#pregunta10",
+        "flex-layout.row#pregunta11",
+        "flex-layout.row#pregunta12",
+        "flex-layout.row#pregunta13",
+        "flex-layout.row#pregunta14"
+      ]
+    },
+    "flex-layout.row#titulo-de-pagina-terminos-y-condiciones-de-compra": {
+        "children": [
+            "flex-layout.row#fila1",
+            "flex-layout.row#fila2",
+            "flex-layout.row#fila3",
+            "flex-layout.row#fila4"
+        ],
+        "props": {
+            "blockClass": "primer-fila"
+        }
+    },
+    "flex-layout.row#fila1": {
+        "children": [
+            "rich-text#titulo-de-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "primer-fila-1"
+        }
+    },
+    "flex-layout.row#fila2": {
+        "children": [
+            "rich-text#subtitulo-de-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "primer-fila-1"
+        }
+    },
+    "flex-layout.row#fila3": {
+        "children": [
+            "rich-text#primer-texto"
+        ],
+        "props": {
+            "blockClass": "primer-fila-1"
+        }
+    },
+    "flex-layout.row#fila4": {
+        "children": [
+            "rich-text#segundo-texto"
+        ],
+        "props": {
+            "blockClass": "primer-fila-1"
+        }
+    },
+    "rich-text#titulo-de-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+            "text": "Términos y condiciones de compra aplicables para el sitio web de servicio a domicilio de Walmart Centroamérica (www.centroamerica.walmart.com)",
+            "blockClass": "textogrande"
+        }
+    },
+    "rich-text#subtitulo-de-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+            "text": "¡BIENVENIDOS A SERVICIO A DOMICILIO (enadelante ''SD'') DE WALMART CENTROAMÉRICA",
+            "blockClass": "textomediano"
+        }
+    },
+    "rich-text#primer-texto": {
+        "props": {
+            "blockClass": "",
+            "text": "En Walmart Centroamérica (en adelante “Walmart”) estamos comprometidos con nuestra misión: Ofrecer precios bajos todos los días a las familias de Centroamérica para que puedan vivir mejor. Como parte de los esfuerzos para cumplir esta meta, ponemos a disposición de nuestros clientes nuestro sitio web para compras en línea: un canal de acceso a compras de abarrotes, productos higiénicos, de aseo personal, del hogar y otros, diferenciado de la tienda física y con una oferta de productos diseñada para satisfacer las necesidades actuales de nuestros clientes. Nuestro sitio web es administrado por la sociedad mercantil* del país centroamericano donde se realizan las compras."
+        }
+    },
+    "rich-text#segundo-texto": {
+        "props": {
+            "blockClass": "",
+            "text": "<span class='vtex-rich-text-0-x-paragraph--textomediano'>OPERADORA DE TIENDAS SOCIEDAD ANÓNIMA</span>, sociedad mercantil organizada y existente bajo las leyes de la República de Guatemala con el número de identificación Tributaria 737810-6, <span class='vtex-rich-text-0-x-paragraph--textomediano'>OPERADORA DEL SUR SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE</span>, sociedad organizada y existente de conformidad con las leyes de la República de El Salvador con el número de Identificación Tributaria cero seiscientos catorce-trescientos diez mil setecientos noventa y siete-ciento nueve-cero (0614-310797-109-0); \n<span class='vtex-rich-text-0-x-paragraph--textomediano'>OPERADORA DEL ORIENTE SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE</span>, sociedad constituida bajo las leyes de la República de Honduras con el número de Registro Tributario Nacional 08019999176681; \n<span class='vtex-rich-text-0-x-paragraph--textomediano'>CORPORACIÓN DE SUPERMERCADOS UNIDOS DE NICARAGUA SOCIEDAD ANÓNIMA</span>, en adelante CSUSA, sociedad constituida bajo las leyes de la República de Nicaragua con número de RUC J0310000001693 y; \n<span class='vtex-rich-text-0-x-paragraph--textomediano'>CORPORACION DE SUPERMERCADOS UNIDOS SOCIEDAD DE RESPONSABILIDAD LIMITADA</span>, constituida bajo las leyes de la República de Costa Rica y portadora de la cédula de persona jurídica número tres - ciento dos - cero cero siete mil doscientos veintitrés, Al verificar tu compra se te solicitará la lectura del presente documento, por lo que habrás aceptado estos términos y condiciones. En caso de dudas, consultas o reclamos, podes hacerlas a Servicios al Cliente (en adelante “SAC”) través de: Guatemala: 1-801-00-96-722 / Costa Rica: 800-8000-722/ Honduras: 800-2222-0722 / Nicaragua: 1-800-7022/ El Salvador: 800-22000-722."
+        }
+    },
+
+
+    "flex-layout.row#pregunta1": {
+        "children": [
+            "disclosure-layout#pregunta-1-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-1-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-1-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-1-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+      },
+      "disclosure-trigger#pregunta-1-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-1-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-1-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-1-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-1-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "USO DEL SITIO WEB SD",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-1-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "Parte de la oferta de productos que ofrece nuestro sitio está reservado y dirigido únicamente a un público mayor de 18 años, incluyendo licor, tabaco y medicamentos de uso controlado, Walmart es respetuoso de cualquier legislación vigente que prohíba o limite la venta de productos a grupos etarios o utilizando otros parámetros. Cuando exista alguna limitación, será advertida en la oferta del producto. Queda bajo responsabilidad de los padres o tutores, supervisar la conducta de los menores de edad que ingresen al sitio. Walmart podrá cancelar o restringir tu cuenta si detectamos cualquier uso indebido del sitio y de los productos/servicios que se ofrecen en el mismo, entendiendo como uso indebido de manera enunciativa, más no limitativa, los siguientes supuestos: 1. Intentar o lograr utilizar el sitio web para usos no autorizados por Walmart. 2. La utilización de mecanismos o herramientas automatizadas o tecnología similar cuya finalidad sea realizar la extracción, obtención o recopilación, directa o indirecta, de cualquier información contenida en el sitio. 3. Cualquier intento de modificación, adaptación, traducción, o conversión de los formatos o programas de cómputo del Sitio web o sus contenidos. 4. Utilizar los códigos HTML a disposición de un tercero. 5. Recopilar y utilizar las descripciones de los productos. 6. Copiar, imitar, replicar para su uso en servidores espejo, reproducir, distribuir, publicar, descargar, mostrar o transmitir cualquier contenido del sitio (incluyendo marcas registradas) en cualquier forma o por cualquier medio; \n esta restricción incluye, pero no se limita a los siguientes medios: medios electrónicos, mecánicos, medios de fotocopiado, grabación o cualquier otro medio. 7. Acceder a datos no destinados al usuario o iniciar sesión en un servidor o cuenta en la que el usuario no esté autorizado su acceso. 8. Intentar interferir con el servicio a cualquier usuario, huésped o red, incluyendo, sin limitación, a través del envío de virus al Sitio, sobrecarga, inundación, spam, bombardeo de correo o fallas. 9. Enviar correo no solicitado, incluyendo promociones y/o publicidad de productos o servicios. 10. Falsificar cualquier encabezado de TCP/IP o cualquier parte de la información del encabezado en cualquier correo electrónico o grupo de noticias. 11. Intento o realización de actividades fraudulentas entre las que se encuentran sin limitar, la falsificación de identidades o formas de pago. Toda la información de registro de usuario y facturación proporcionada deberá ser verdadera y exacta. Proporcionar cualquier información falsa o inexacta constituye el incumplimiento de estos TÉRMINOS Y CONDICIONES. Al confirmar tu compra y finalizar el proceso de pago, estás de acuerdo en aceptar, pagar por los artículos solicitados y gastos de servicio relacionados, así como en los datos de facturación proporcionados a Walmart. Las violaciones al sistema o red de seguridad pueden dar lugar a responsabilidad civil o penal. Walmart directamente o a través de terceros contratados para tal fin, investigará las ocurrencias que puedan involucrar tales violaciones, así como cooperar con las autoridades en la persecución de usuarios que infrinjan tales violaciones. Haciendo uso de este sitio, te obligas a no utilizar ningún dispositivo, o software para interferir o intentar interferir con el uso correcto de este sitio o cualquier actividad llevada a cabo en el mismo; \nquedando así obligado a no utilizar o intentar utilizar cualquier máquina, software, herramienta, agente u otro dispositivo o mecanismo (incluyendo sin limitación navegadores, spiders, robots, avatars o agentes inteligentes) para navegar o buscar en este Sitio otro que no sea el motivo de búsqueda y agentes de búsqueda disponibles de Walmart.",
+          "blockClass": "estilo-contenido-disclosure"
+        }
+      },
+
+
+      "flex-layout.row#pregunta2": {
+        "children": [
+            "disclosure-layout#pregunta-2-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-2-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-2-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-2-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-2-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-2-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-2-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-2-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-2-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "INFORMACIÓN SOBRE PRECIOS, PRODUCTOS Y CONTENIDOS",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-2-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Toda la información relacionada con la oferta de nuestros productos por medio de SD, incluyendo los precios, se presenta de buena fe. De detectarse alguna inconsistencia o error involuntario al publicar los precios o cualquier otro componente de la oferta al público en la plataforma de compras se procederá con la corrección inmediatamente, y si llegara a afectar tu pedido, se te informará de dicha situación. En dicho supuesto, podrás confirmar el deseo de continuar con la compra, o bien cancelar el pedido y proceder con la devolución, en caso de que se haya pagado y la mercadería no se haya entregado aún. Todos los precios de los productos incluyen el IVA y/o demás impuestos que pudieran corresponderles. Lo anterior, independientemente de los costos de envío que pudieran o no generarse. Estos montos se te indicarán antes de confirmar tu pedido, para que decidas si aceptarlos y concretar tu compra. Exhibimos con precisión los colores y demás características visuales de nuestros productos, en el sitio web. Sin embargo, no podemos garantizar que los colores mostrados sean exactos pues los colores y tamaños de los productos que ves, dependerán de tu monitor o dispositivos donde estés realizando tu compra. Te recordamos que las imágenes o fotografías que nos proporcionan los proveedores son con fines ilustrativos y te son expuestas de modo orientativo. Los precios de venta al público son decisión discrecional de Walmart Centroamérica, dependiendo del punto de venta seleccionado en el Sitio por el cliente, estos precios podrían sufrir alguna variación por la ubicación de la Tienda. Te recomendamos que siempre verifiques las condiciones de compra antes de finalizar tu pedido, a fin de cerciorarte de los términos, condiciones y restricciones que pudieren aplicar a cada producto. Una vez hecho el pedido, Walmart tendrá por aceptadas dichas condiciones."
+        }
+      },
+
+
+      "flex-layout.row#pregunta3": {
+        "children": [
+            "disclosure-layout#pregunta-3-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-3-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-3-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-3-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-3-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-3-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-3-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-3-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-3-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "VENTA DE PRODUCTOS FARMACÉUTICOS",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-3-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "En SD contamos con un surtido limitado de productos farmacéuticos, el cual se ajusta a las regulaciones vigentes y aplicables en los países de Centroamérica. No están disponibles los productos que requieren condiciones especiales de almacenamiento, requieren prescripción médica o la legislación no permite su venta por SD. En caso de que no encuentre su producto en SD, lo invitamos a visitar la tienda Walmart en formato SÚPER, WALMART y/o BODEGAS, más cercana. <span class='vtex-rich-text-0-x-paragraph--textoespecial'>Devolución:</span> Para el caso de productos farmacéuticos no se aceptan devoluciones de productos en buen estado. No obstante, aplicará la devolución, para defectos de fábrica, calidad o caducidad. Para realizar la devolución el cliente deberá presentar el tiquete de caja o factura que acredite la compra."
+        }
+      },
+
+
+      "flex-layout.row#pregunta4": {
+        "children": [
+            "disclosure-layout#pregunta-4-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-4-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-4-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-4-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-4-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-4-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-4-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-4-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-4-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "PROPIEDAD INTELECTUAL",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-4-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "En este sitio todos los materiales que incluyen (mas no se limita a) marcas, señales de publicidad, imágenes, las ilustraciones, los diseños, los íconos, las fotografías y los materiales escritos, la combinación de signos distintivos, elementos operativos y de imagen y/o la característica intelectual poseída, controlada o licenciada por Walmart Centroamerica, uno de sus afiliados o por los terceros que han licenciado sus materiales a Walmart Centroamerica, están protegidos por las legislaciones centroamericanas y los tratados internacionales en materia de Propiedad Industrial e Intelectual aplicables. Asimismo, las compilaciones -que significa la mutilación, colección, el arreglo, armado del todo o partes- del contenido en este sitio es exclusivo de Walmart Centroamerica y protegido por la legislación aplicable. Walmart Centroamerica, sus proveedores – en los casos específicos aplicables- y licenciantes se reservan todos los derechos intelectuales en todo el texto, programas, productos, procesos, tecnología, contenido y otros materiales que aparecen en este sitio. El acceso a este sitio no otorga y no podrá considerarse como una concesión o licencia alguna respecto de estos derechos. Los nombres y logos de Walmart Centroamérica, todos los productos relacionados y nombres de servicios, marcas de diseño y avisos comerciales son las marcas registradas o marcas de servicio registradas a nombre de Walmart Centroamerica, Walmart Inc., y Wal Mart de México, S.A.B de C.V, licenciadas entre compañías relacionadas. Todas las otras marcas son propiedad de sus respectivas compañías. Ninguna licencia de marca registrada o marca de servicio está concedida en relación con los materiales contenidos en este sitio. El acceso a este sitio no autoriza a nadie a utilizar cualquier nombre, logo o marca de los relacionados en este apartado, en ninguna forma."
+        }
+      },
+
+
+      "flex-layout.row#pregunta5": {
+        "children": [
+            "disclosure-layout#pregunta-5-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-5-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-5-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-5-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-5-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-5-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-5-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-5-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-5-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "USO DE LA CUENTA",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-5-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Para acceder a los servicios de compra ofrecidos en el sitio, es posible que como usuario se te requiera crear una cuenta propia para el sitio. Al utilizar la cuenta serás responsable de mantener las medidas de seguridad de acceso a tu cuenta y confidencialidad de los datos como, pero sin limitarse a, nombre de usuario y contraseña. Así, asumes la responsabilidad de todas las actividades realizadas desde tu cuenta o utilizando tu contraseña. En caso de identificar alguna violación de estos Términos y Condiciones, cualquier política, derechos de terceros o comisión de un delito o cualquier conducta que pretenda o provoque realizar algún daño a un cliente, su experiencia de compra o la reputación de Walmart Centroamerica;\n Walmart Centroamerica se reserva el derecho de tomar las acciones como pero no limitadas a eliminar cuentas, remover o editar contenido y cancelar órdenes. En caso de que detectes anomalías o el uso de un tercero no autorizado de tu cuenta, puedes comunicarte para reportarlo a los siguientes medios: <span class='vtex-rich-text-0-x-paragraph--textoespecial'>Correo:</span> sac@wal-mart.com <span class='vtex-rich-text-0-x-paragraph--textoespecial'>Teléfono</span> – Guatemala: 1-801-00-96-722 / Costa Rica: 800-8000-722 / Honduras: 800-2222-0722 / Nicaragua: 1-800-7022 / El Salvador: 800-22000-722"
+        }
+      },
+
+
+      "flex-layout.row#pregunta6": {
+        "children": [
+            "disclosure-layout#pregunta-6-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-6-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-6-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-6-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-6-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-6-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-6-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-6-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-6-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "FACTURACIÓN",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-6-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Toda la información de registro y facturación proporcionada deberá ser verdadera y exacta. Proporcionar cualquier información falsa o inexacta constituye el incumplimiento de estos Términos y Condiciones. Al confirmar tu compra y finalizar el proceso de pago, estás de acuerdo en aceptar y pagar por los artículos solicitados, así como en los datos de facturación proporcionados."
+        }
+      },
+
+
+      "flex-layout.row#pregunta7": {
+        "children": [
+            "disclosure-layout#pregunta-7-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-7-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-7-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-7-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-7-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-7-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-7-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-7-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-7-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "TARJETAS DE REGALO",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-7-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Walmart Centroamerica emite tarjetas de regalo que pueden ser activadas por medio del Sitio SD una vez que se cumplan todos los lineamientos de privacidad y otros que sean requeridos por Walmart Centroamerica. Las Tarjetas de Regalo activadas no podrán ser utilizadas como medio de pago para el servicio SD;\n únicamente serán canjeadas en los puntos de venta físicos."
+        }
+      },
+
+
+      "flex-layout.row#pregunta8": {
+        "children": [
+            "disclosure-layout#pregunta-8-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-8-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-8-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-8-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-8-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-8-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-8-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-8-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-8-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "CANCELACIONES DE PEDIDO",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-8-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Servicios a Domicilio: Para realizar la cancelación del pedido, podrá realizarse antes o al momento de recibir la llamada de confirmación de parte de Walmart Centroamérica. Una vez confirmado el pedido vía telefónica en la mencionada llamada, no procederán cancelaciones."
+        }
+      },
+
+
+      "flex-layout.row#pregunta9": {
+        "children": [
+            "disclosure-layout#pregunta-9-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-9-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-9-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-9-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-9-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-9-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-9-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-9-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-9-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "CAMBIOS y/o DEVOLUCIONES",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-9-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Los plazos y condiciones de los artículos que se aceptan para devoluciones deberán apegarse a lo siguiente: <span class='vtex-rich-text-0-x-paragraph--textomediano'>PLAZO Y CONDICIONES PARA DEVOLUCIONES. Walmart aplicará las devoluciones de acuerdo con los lineamientos y plazos establecidos en cada punto de venta. Cuando los productos no cumplan con alguno de esos lineamientos, será responsabilidad de la Gerencia de Tienda valorar el caso y aceptar la devolución.</span> Toda devolución deber ser realizada por el cliente en el punto de venta donde fue adquirido el producto, debiendo presentar la factura correspondiente. Dicha factura deberá ser suficientemente legible para que pueda aplicar una devolución, en caso contrario Gerencia deberá evaluar la situación y tratar de localizar la transacción para solventar el reclamo. Es recomendable que el cliente, en la medida de lo posible, presente una imagen de la factura para asegurar legibilidad y de esa manera agilizar la gestión de su reclamo y/o devolución."
+         }
+      },
+
+
+      "flex-layout.row#pregunta10": {
+        "children": [
+            "disclosure-layout#pregunta-10-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-10-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-10-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-10-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-10-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-10-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-10-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-10-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-10-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "LÍMITES EN COMPRAS POR PERSONA/UNIDADES",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-10-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Con el propósito de favorecer a una mayor cantidad de clientes y en consideración de que Walmart Centroamérica se dedica al negocio detallista (con oferta al consumidor final), la venta de algunos productos de alta demanda podrá limitarse a determinadas unidades por persona. Dicha situación te será comunicada antes de realizar tu pedido y concretar la compra mediante un aviso en el Sitio. En caso de no estar disponibles se mostrará la leyenda PRODUCTO AGOTADO o bien se te será comunicado al momento de confirmar el pedido."
+        }
+      },
+
+
+      "flex-layout.row#pregunta11": {
+        "children": [
+            "disclosure-layout#pregunta-11-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-11-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-11-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-11-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-11-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-11-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-11-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-11-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-11-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "GARANTÍA PARA ARTÍCULOS MUEBLES DURADEROS, HOGAR Y ELECTRÓNICA ADQUIRIDOS EN WALMART",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-11-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Walmart busca que el funcionamiento de los productos que comercializa sea óptimo y esté respaldado por el fabricante/distribuidor. Por tanto, las garantías otorgadas siempre se apegan a las disposiciones y términos establecidos en las leyes de Protección al Consumidor de cada país. La cobertura del derecho de garantía aplica para artículos eléctricos, electrónicos, electrodomésticos, línea blanca, equipos, aparatos, maquinaria, motocicletas, llantas, colchones, baterías de vehículos, herramientas y cualquier otro producto que por ley amerite garantizar su adecuado funcionamiento. A través de la Garantía Walmart los clientes dispondrán de un plazo de <span class='vtex-rich-text-0-x-paragraph--textoespecial'>veinticuatro (24) horas</span>, contado a partir del día siguiente de la entrega del producto mediante servicio a domicilio, para cambiarlo por uno nuevo derivado de fallas o defectos de fábrica o funcionamiento. <span class='vtex-rich-text-0-x-paragraph--textoespecial'>En el caso de refrigeradoras, congeladores y cualquier otro producto con gas refrigerante, el cliente debe esperar cuarenta y ocho  (48) horas para la estabilización del gas y luego podrá ejecutar la garantía de veinticuatro (24) horas</span>. En caso de no hacer su reclamo dentro de las 24 horas indicadas, aplicará trámite de garantía regular por el cual el artículo con fallas o defectos será enviado al taller del proveedor, según el tipo de daño que presente, para diagnóstico técnico y habiéndose determinado que la garantía está vigente y es válida, se procederá a la reparación gratuita. La garantía otorgada posee validez únicamente en el territorio del país donde se realizó la compra y será invalida cuando exista evidencia de uso inadecuado, daños provocados, humedad, plagas, golpes, quebraduras, rayones, caídas o manipulación no autorizada por parte de terceros ajenos al fabricante o entidad vendedora. El certificado de garantía se entregará junto al producto y el mismo establecerá las condiciones específicas y mecanismo para hacerla efectiva. Para ejecutar el derecho de garantía el cliente deberá presentar en el punto de venta correspondiente el artículo con sus respectivos accesorios, empaque original (si lo tuviera), el certificado de garantía entregado y el comprobante de pago legible (se recomienda conservar una copia o imagen del mismo). Si el artículo por su tamaño no puede ser trasladado al punto de venta, el cliente deberá contactar al área de Servicio al Cliente (SAC)* para plantear su reclamo y coordinar la visita de revisión/diagnóstico con el taller del proveedor. <span class='vtex-rich-text-0-x-paragraph--textoespecial'>*SAC: Guatemala: 1-801-00-96-722 / Costa Rica: 800-8000-722/ Honduras: 800-2222-0722/ Nicaragua: 1-800-7022 / El Salvador: 800-22000-722</span>"
+        }
+      },
+
+
+      "flex-layout.row#pregunta12": {
+        "children": [
+            "disclosure-layout#pregunta-12-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+      "disclosure-layout#pregunta-12-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-12-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-12-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-12-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-12-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-12-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-12-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-12-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "MODALIDADES Y TIEMPOS DE ENTREGA",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-12-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "Los artículos comprados en este sitio se harán llegar al cliente mediante la modalidad de entrega en el domicilio especificado en el pedido o modalidad Pick Up (recoger en tienda). El plazo de entrega será de máximo de cuarenta y ocho (48) horas y para la modalidad de Pick Up son veinticuatro (24). Ambos plazos correrán a partir de que recibas la confirmación de tu pedido por vía telefónica. A toda compra por SD modalidad a domicilio se aplicará un recargo por el servicio de entrega, que variará en cada país de la región y será cargado al pedido e incluido en la factura. La entrega en edificios por seguridad del cliente y los productos se realizará únicamente en planta baja o recepción. Puedes generar tus pedidos en línea a cualquier hora, sin embargo, el envío dependerá de los horarios disponibles en cada tienda. En caso de que el plazo aquí establecido deba ampliarse debido a razones de alta demanda, caso fortuito o fuerza mayor, el nuevo plazo será comunicado de previo al cliente."
+        }
+      },
+
+      "flex-layout.row#pregunta14": {
+        "children": [
+          "rich-text#ultimo-texto-terminos-condiciones"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+
+
+      "flex-layout.row#pregunta13": {
+        "children": [
+            "disclosure-layout#pregunta-13-pagina-terminos-y-condiciones-de-compra"
+        ],
+        "props": {
+            "blockClass": "pregunta1"
+        }
+    },
+    "disclosure-layout#pregunta-13-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["disclosure-trigger#pregunta-13-pagina-terminos-y-condiciones-de-compra", "disclosure-content#pregunta-13-pagina-terminos-y-condiciones-de-compra"]
+      },
+      "disclosure-trigger#pregunta-13-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#question-pregunta-13-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-preguntas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "disclosure-content#pregunta-13-pagina-terminos-y-condiciones-de-compra": {
+        "children": ["rich-text#answer-pregunta-13-pagina-terminos-y-condiciones-de-compra"],
+        "props": {
+            "blockClass": "estilo-respuestas-terminos-y-condiciones-de-compra"
+        }
+      },
+      "rich-text#question-pregunta-13-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "text": "FORMAS DE PAGO",
+          "blockClass": "estilo-titulo-disclosure"
+        }
+      },
+      "rich-text#answer-pregunta-13-pagina-terminos-y-condiciones-de-compra": {
+        "props": {
+          "blockClass": "estilo-contenido-disclosure",
+          "text": "En Walmart aceptamos las siguientes formas de pago en moneda nacional: a. Efectivo - Aplica para modalidad Pick Up. b. Tarjeta de Débito o Crédito: El cliente debe presentar documento de identificación (cédula de identidad, DPI o Licencia de Conducir) y tarjeta, ambos documentos deben ser presentados en físico al momento de recibir su pedido para el cobro correspondiente mediante POS. c. Compra-Click: El cliente recibirá un link en donde podrá pagar con su tarjeta de crédito/débito. Dicho link se genera a través de portal de CREDOMATIC y podrá ser enviado al cliente a través de email, WhatsApp y Facebook. La factura se tramita en el mismo mes en que se realiza la compra, posterior a dicho periodo no podrá ser emitida. Por el momento no se aceptan transferencias bancarias como forma de pago."
+        }
+      },
+
+
+      "rich-text#ultimo-texto-terminos-condiciones": {
+        "props": {
+            "text": "¡ESPERAMOS QUE TU EXPERIENCIA DE COMPRA SEA PLACENTERA! Walmart Centroamérica",
+            "blockClass": "ultimo-texto"
+        }
+    }
+
+
+  }

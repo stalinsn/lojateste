@@ -1,0 +1,542 @@
+{
+  "vtex.menu@2.x:submenu#belleza": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#belleza-menu-line-2"
+    ]
+  },
+  "flex-layout.row#belleza-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#belleza-menu-line-2-columna-1",
+      "flex-layout.col#belleza-menu-line-2-columna-2",
+      "flex-layout.col#belleza-menu-line-2-columna-3",
+      "flex-layout.col#belleza-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#belleza-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-2-columna-2-line-1",
+      "menu-item#belleza-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#belleza-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#belleza-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#belleza-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#belleza-menu-line-2-columna-2-line-2",
+      "menu-item#belleza-menu-line-3-columna-1-line-1",
+      "menu-item#belleza-menu-line-3-columna-1-line-2",
+      "menu-item#belleza-menu-line-3-columna-1-line-3"
+    ]
+  },
+  "menu-item#belleza-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/perfumes-y-lociones/",
+        "noFollow": true,
+        "tagTitle": "Perfumes y Lociones",
+        "text": "Perfumes y Lociones"
+      }
+    }
+  },
+  "submenu#belleza-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#belleza-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#belleza-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#belleza-menu-line-2-columna-1-columna-2-line-4"
+    ]
+  },
+  "menu-item#belleza-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/perfumes-y-lociones/hombre",
+        "noFollow": true,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/perfumes-y-lociones/mujer",
+        "noFollow": true,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/perfumes-y-lociones/infantiles",
+        "noFollow": true,
+        "tagTitle": "Infantiles",
+        "text": "Infantiles"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/perfumes-y-lociones/sets",
+        "noFollow": true,
+        "tagTitle": "Sets",
+        "text": "Sets"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/afeitado-y-depilacion/",
+        "noFollow": true,
+        "tagTitle": "Afeitado y Depilación",
+        "text": "Afeitado y Depilación"
+      }
+    }
+    /*"blocks": [
+      "submenu#belleza-line-3-columna-1"
+    ]*/
+  },
+  "submenu#belleza-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-3-columna-1-line-1",
+      "menu-item#belleza-menu-line-3-columna-1-line-2",
+      "menu-item#belleza-menu-line-3-columna-1-line-3"
+    ]
+  },
+  "menu-item#belleza-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/afeitado-y-depilacion/rasuradoras",
+        "noFollow": true,
+        "tagTitle": "Rasuradoras",
+        "text": "Rasuradoras"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/afeitado-y-depilacion/recortadoras",
+        "noFollow": true,
+        "tagTitle": "Recortadoras",
+        "text": "Recortadoras"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/afeitado-y-depilacion/depiladoras",
+        "noFollow": true,
+        "tagTitle": "Depiladoras",
+        "text": "Depiladoras"
+      }
+    }
+  },
+  "flex-layout.col#belleza-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-2-columna-3-line-1",
+      "menu-item#belleza-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#belleza-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#belleza-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#belleza-menu-line-2-columna-3-columna-1-line-4"
+    ]
+  },
+  "menu-item#belleza-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/estetica-y-spa/",
+        "noFollow": true,
+        "tagTitle": "Estética y SPA",
+        "text": "Estética y SPA"
+      }
+    }
+    /*"blocks": [
+      "submenu#belleza-line-2-columna-3"
+    ]*/
+  },
+  "submenu#belleza-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#belleza-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#belleza-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#belleza-menu-line-2-columna-3-columna-1-line-4"
+    ]
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/estetica-y-spa/masajeadores",
+        "noFollow": true,
+        "tagTitle": "Masajeadores",
+        "text": "Masajeadores"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/estetica-y-spa/manicure-y-pedicure",
+        "noFollow": true,
+        "tagTitle": "Manicure y Pedicure",
+        "text": "Manicure y Pedicure"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/estetica-y-spa/muebles",
+        "noFollow": true,
+        "tagTitle": "Muebles",
+        "text": "Muebles"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/estetica-y-spa/spa-y-camas-de-masaje",
+        "noFollow": true,
+        "tagTitle": "SPA y Camas de Masaje",
+        "text": "SPA y Camas de Masaje"
+      }
+    }
+  },
+  "flex-layout.col#belleza-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-2-columna-3-line-3",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-4",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-5",
+      "menu-item#belleza-menu-line-3-columna-3-line-3",
+      "menu-item#belleza-menu-line-4-columna-3-line-1",
+      "menu-item#belleza-menu-line-4-columna-3-line-2"
+    ]
+  },
+  "menu-item#belleza-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-del-cabello/",
+        "noFollow": true,
+        "tagTitle": "Cuidado Del Cabello",
+        "text": "Cuidado Del Cabello"
+      }
+    }
+    /*"blocks": [
+      "submenu#belleza-line-2-columna-4"
+    ]*/
+  },
+  "submenu#belleza-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-4",
+      "menu-item#belleza-menu-line-2-columna-3-columna-4-line-5"
+    ]
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-del-cabello/secadoras",
+        "noFollow": true,
+        "tagTitle": "Secadoras",
+        "text": "Secadoras"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-del-cabello/rizadoras",
+        "noFollow": true,
+        "tagTitle": "Rizadoras",
+        "text": "Rizadoras"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-del-cabello/tratamiento-del-cabello",
+        "noFollow": true,
+        "tagTitle": "Tratamiento del Cabello",
+        "text": "Tratamiento del Cabello"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-4-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-del-cabello/alaciadoras-y-planchas",
+        "noFollow": true,
+        "tagTitle": "Alaciadoras y Planchas",
+        "text": "Alaciadoras y Planchas"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-4-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-del-cabello/accesorios-para-el-cabello",
+        "noFollow": true,
+        "tagTitle": "Accesorios Para El Cabello",
+        "text": "Accesorios Para El Cabello"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-3-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-de-la-piel/",
+        "noFollow": true,
+        "tagTitle": "Cuidado De La Piel",
+        "text": "Cuidado De La Piel"
+      }
+    }
+    /*"blocks": [
+      "submenu#belleza-line-3-columna-3"
+    ]*/
+  },
+  "submenu#belleza-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-4-columna-3-line-1",
+      "menu-item#belleza-menu-line-4-columna-3-line-2"
+    ]
+  },
+  "menu-item#belleza-menu-line-4-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-de-la-piel/cuidado-corporal",
+        "noFollow": true,
+        "tagTitle": "Cuidado Corporal",
+        "text": "Cuidado Corporal"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-4-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-de-la-piel/cuidado-facial",
+        "noFollow": true,
+        "tagTitle": "Cuidado Facial",
+        "text": "Cuidado Facial"
+      }
+    }
+  },
+  "flex-layout.col#belleza-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-2-columna-5-line-1",
+      "menu-item#belleza-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#belleza-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#belleza-menu-line-2-columna-5-line-1-ver-todos"
+    ]
+  },
+  "menu-item#belleza-menu-line-2-columna-5-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/maquillaje-y-cosmeticos/",
+        "noFollow": true,
+        "tagTitle": "Maquillaje y Cosméticos",
+        "text": "Maquillaje y Cosméticos"
+      }
+    }
+    /*"blocks": [
+      "submenu#belleza-line-2-columna-5"
+    ]*/
+  },
+  "menu-item#belleza-menu-line-2-columna-5-line-1-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-maquillje-y-cosmeticos/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS MAQUILLAJE Y COSMETICOS",
+        "text": "VER TODOS MAQUILLAJE Y COSMETICOS"
+      }
+    }
+    /*"blocks": [
+      "submenu#belleza-line-2-columna-5"
+    ]*/
+  },
+  "submenu#belleza-line-2-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#belleza-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#belleza-menu-line-2-columna-3-columna-5-line-2"
+    ]
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-de-la-piel/rostros",
+        "noFollow": true,
+        "tagTitle": "Rostros",
+        "text": "Rostros"
+      }
+    }
+  },
+  "menu-item#belleza-menu-line-2-columna-3-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-y-cuidado-personal/cuidado-de-la-piel/ojos",
+        "noFollow": true,
+        "tagTitle": "Ojos",
+        "text": "Ojos"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+@import "../references";
+
+.sectionPaquete {
+  margin-top: 36px;
+  .title {
+    font-size: 1.5rem;
+    @media (max-width: em(768px)) {
+      margin: 4px 0;
+    }
+  }
+  .shippingEstimate {
+    font-weight: lighter;
+    margin: 0;
+  }
+
+  .itemsTableWrapper {
+    width: 100%;
+    padding-right: 24px;
+    .itemsTable {
+      width: 100%;
+      border-collapse: collapse;
+      .itemsTableHeader {
+        font-size: 0.875rem;
+      }
+      .itemTableRow {
+        border-bottom: 1px solid #dedede;
+        &:last-child {
+          border-bottom: none;
+        }
+        .itemTableCell {
+          font-size: 0.9rem;
+          font-weight: bold;
+          padding: 12px 0;
+          display: flex;
+          align-items: center;
+          .itemTableProductInfo {
+            .productImageWrapper {
+              display: inline-block;
+              margin-right: 10px;
+              .productImage {
+                border-radius: 5px;
+                width: 40px;
+                height: auto;
+              }
+            }
+
+            .productName {
+              display: inline-block;
+              text-transform: capitalize;
+
+              .measurementUnit {
+                color: #898989;
+                margin-top: 8px;
+                font-weight: lighter;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mobileItemsWrapper {
+    .mobileItemsRow {
+      margin: 16px 0;
+      .productInfo {        
+        .productImageWrapper {
+          display: inline-block;
+          margin-right: 15px;
+          .productImage {
+            border-radius: 5px;
+            width: 40px;
+            height: auto;
+          }
+          .quantityBubble {
+            position: absolute;
+            top: 0;
+            left: 28px;
+            width: 16px;
+            height: 16px;
+            background-color: #0075C9;
+            border-radius: 100%;
+            font-size: 0.75rem;
+            color: #fff;
+            text-align: center;
+          }
+        }
+        .productName {
+          display: inline-block;
+          text-transform: capitalize;
+          font-weight: bold;
+          font-size: 0.75rem;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .productPrice {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

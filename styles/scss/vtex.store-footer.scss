@@ -1,0 +1,438 @@
+@import "./references";
+
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+:global(.vtex-rich-text-0-x-paragraph--google-play) {
+  &::after {
+    content: "";
+    display: block;
+    @include play_store(30px);
+  }
+}
+.socialNetworksContainer {
+  padding-left: 10px;
+  .socialNetworkLink {
+    margin-right: 0.5em !important;
+  }
+  .socialNetworkLink--facebook {
+    &::after {
+      content: "";
+      display: block;
+      @include facebook_icon(15px);
+    }
+    width: 20px;
+    margin: 0;
+    .socialNetworkImage--facebook {
+      display: none;
+    }
+  }
+  .socialNetworkLink--instagram {
+    &::after {
+      content: "";
+      display: block;
+      @include instagram_icon(25px);
+    }
+    margin: 0;
+    .socialNetworkImage--instagram {
+      display: none;
+    }
+  }
+  .socialNetworkLink--twitter {
+    &::after {
+      content: "";
+      display: block;
+      @include twitter_icon(25px);
+    }
+    margin: 0;
+    .socialNetworkImage--twitter {
+      display: none;
+    }
+  }
+  .socialNetworkLink--youtube {
+    &::after {
+      content: "";
+      display: block;
+      @include youtube_icon(30px);
+    }
+    margin: 0;
+    .socialNetworkImage--youtube {
+      display: none;
+    }
+  }
+}
+
+:global(.vtex-store-components-3-x-imageElement--icon-social) {
+  width: 19px;
+  height: 19px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-social-network) {
+  margin-top: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-certificates) {
+  margin-top: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-titles) {
+  background-color: #262626;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-footer-black) {
+  color: #fff;
+  font-size: 12px;
+  :first-child {
+    text-decoration: none;
+    color: #fff;
+  }
+  @media (max-width: em(768px)) {
+    margin: 0px;
+    font-size: 10px;
+    text-decoration: underline;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-titles) {
+  width: 800px;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: left;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-gpw) {
+  margin-top: 20px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--icon-social-fb) {
+  width: 14px;
+  height: 19px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--row-social-network) {
+  @media (max-width: em(768px)) {
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      width: 33% !important;
+      display: inline-block;
+    }
+  }
+}
+
+:global(.vtex-menu-2-x-menuContainer--footer) {
+  @media (max-width: em(768px)) {
+    padding-left: 16px;
+    padding-right: 16px;
+
+    :global(.vtex-menu-2-x-styledLinkContent) {
+      text-align: left;
+    }
+  }
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--footer-dropdown) {
+  font-size: 16px !important;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 16px;
+}
+
+:global(.vtex-menu-2-x-menuItem--footer-dropdown) {
+  border-top: 1px solid #ccc;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  background-color: #0075C9;
+  padding-bottom: 40px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-container--txt-news) {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-form) {
+  :global(.vtex-store-components-3-x-inputGroup) {
+    padding-top: 0px;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--title-news) {
+  :global(.vtex-store-components-3-x-container) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  :global(.vtex-button) {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid #0075C9;
+    background-color: #fff;
+    color: #0075C9;
+
+    @media screen and (min-width: em(1440px)) {
+      margin-left: -42px;
+    }
+  }
+  :global(.vtex-styleguide-9-x-input) {
+    max-height: 40px;
+    margin-top: 1px;
+    margin-left: 0;
+    width: 70%;
+    border: 1px solid #DEDEDE;
+  }
+
+  :global(.vtex-input-prefix__group) {
+    border: 0;
+    width: 490px;
+    @media (min-width: em(1026px)) {
+      margin: 0.3em 0;
+    }
+    @media screen and (min-width: em(1440px)) {
+      width: 677px;
+      height: 40px;
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--title-news) {
+  background-color: #F4F4F4;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+:global(.vtex-store-components-3-x-newsletter) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-store-components-3-x-buttonContainer) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-store-components-3-x-imageElement--oxxo) {
+  width: 46px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--american) {
+  width: 46px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-row-fb) {
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: left;
+  }
+}
+
+:global(.vtex-store-components-3-x-backToTopButtonContainer) {
+  :global(.vtex-button){
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+    min-width: 60px;
+    min-height: 60px;
+    background: transparent url(/arquivos/assets-up-button.png) center center no-repeat;
+    background-size: 50px;
+    border: 0;
+    bottom: 80px;
+    :global(.vtex-button__label) {
+        font-size: 0;
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--2-footer-mobile ){
+  :global(.vtex-disclosure-layout-1-x-trigger) {
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: 0 15px;
+    outline: 0!important;
+    background: #0075C9;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    line-height: 0;
+    :global(.vtex-rich-text-0-x-container) {
+      :global(.vtex-rich-text-0-x-wrapper) {
+        width: 100%;
+        :global(.vtex-rich-text-0-x-paragraph){
+          display: flex;
+          font-weight: bold;
+          color: #fafafa;
+          font-size: 16px;
+          &::after {
+            content: "+";
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            position: absolute;
+            right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  :global(.vtex-disclosure-layout-1-x-content--visible) {
+    background: #0075C9;
+    padding: 15px 0 0 0;
+    :global(.vtex-menu-2-x-styledLinkContent){
+      font-size: 14px;
+      font-weight: 400;
+      color: #fefefe;
+      -webkit-transition: .5s all;
+         -moz-transition: .5s all;
+          -ms-transition: .5s all;
+           -o-transition: .5s all;
+              transition: .5s all;
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  :global(.vtex-disclosure-layout-1-x-trigger--visible) {
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: 0 15px;
+    outline: 0!important;
+    background: #0075C9;
+    cursor: pointer;
+    border-bottom: 1px solid #fafafa;
+    line-height: 0;
+    :global(.vtex-rich-text-0-x-container) {
+      :global(.vtex-rich-text-0-x-wrapper) {
+        width: 100%;
+        :global(.vtex-rich-text-0-x-paragraph){
+          display: flex;
+          font-weight: bold;
+          color: #fff;
+          font-size: 16px;
+          &::after {
+            content: "-";
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            position: absolute;
+            right: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--newsletter-main) {
+    width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--newsletter-mobile) {
+  background: #F4F4F4;
+  position: relative;
+
+  :global(.vtex-store-components-3-x-container--newsletter-custom) {
+    margin: 0;
+    width: 100%;
+    max-width: inherit;
+    padding: 30px 0;
+
+    :global(.vtex-store-components-3-x-form--newsletter-custom) {
+      display: block;
+      width: 100%;
+      max-width: inherit;
+      position: relative;
+
+      :global(.vtex-store-components-3-x-label) {
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0;
+        color: #525252;
+        margin-bottom: 15px;
+        display: block;
+      }
+
+      :global(.vtex-store-components-3-x-inputGroup--newsletter-custom) {
+        position: relative;
+
+        :global(.vtex-input) {
+          padding: 0 16px 0 0;
+          width: calc(100% - 180px);
+          float: left;
+          margin: 0;
+
+          :global(.vtex-input-prefix__group) {
+            height: 40px;
+            border: 0;
+            outline: 0!important;
+
+            :global(.vtex-styleguide-9-x-input) {
+              border: 1px solid var(--unnamed-color-dedede);
+              background: #FFFFFF 0% 0% no-repeat padding-box;
+              border: 1px solid #DEDEDE;
+              border-radius: 5px;
+              font-size: 13px;
+            }
+          }
+        }
+
+        :global(.vtex-input__error) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          width: 100%;
+        }
+
+        :global(.vtex-store-components-3-x-buttonContainer--newsletter-custom) {
+          width: 164px;
+          float: left;
+          padding: 0;
+          margin: 0;
+
+          :global(.vtex-button) {
+            height: 40px;
+            width: 100%;
+            border: 1px solid #0075C9;
+            border-radius: 5px;
+            background: #fff;
+
+            :global(.vtex-button__label){
+              letter-spacing: 0px;
+              color: #0075C9;
+              font-weight: bold;
+              font-size: 13px;
+              -webkit-transition: .5s all;
+                 -moz-transition: .5s all;
+                  -ms-transition: .5s all;
+                   -o-transition: .5s all;
+                      transition: .5s all;
+              &:hover {
+                background: #0075C9;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

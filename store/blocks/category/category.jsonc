@@ -1,0 +1,454 @@
+{
+    "store.custom#category" : {
+        "blocks": [
+            "flex-layout.row#slider-circles",
+            "flex-layout.row#banners-row",
+            "flex-layout.row#banner-full-width",
+            "flex-layout.row#slider-circles",
+            "flex-layout.row#title-exclusive",
+            "flex-layout.row#shelf-exclusive",
+            "flex-layout.row#banners-fifty",
+            "flex-layout.row#title-release",
+            "flex-layout.row#shelf-news-releases",
+            "flex-layout.row#shelf-best-seller",
+            "flex-layout.row#title-office",
+            "flex-layout.row#shelf-office",
+            "flex-layout.row#title-bathrooms",
+            "flex-layout.row#shelf-bathrooms"
+
+        ]
+    },
+
+    "flex-layout.row#slider-circles": {
+        "children": [
+            "list-context.image-list#categories"
+        ],
+        "props": {
+            "blockClass": "slider-principal"
+        }
+    },
+    "list-context.image-list#categories": {
+        "title" : "Carrusel categorías",
+        "children": [
+          "slider-layout#banner-images"
+        ],
+        "props": {
+          "height": "auto",
+          "images":[
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test"
+                   }
+                },
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test2"
+                   }
+                },
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test3"
+                   }
+                },
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test4"
+                   }
+                },
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test5"
+                   }
+                },
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test6"
+                   }
+                },
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test7"
+                   }
+                },
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test8"
+                   }
+                },
+                {
+                   "image":"https://via.placeholder.com/250x250",
+                   "mobileImage":"https://via.placeholder.com/250x250",
+                   "title": "something",
+                   "link":{
+                      "url":"/test9"
+                   }
+                },
+                {
+                    "image":"https://via.placeholder.com/250x250",
+                    "mobileImage":"https://via.placeholder.com/250x250",
+                    "title": "something",
+                    "link":{
+                       "url":"/test10"
+                    }
+                 }
+             ]
+        }
+    },
+    "slider-layout#banner-images": {
+        "title": "Configuracion banner",
+        "props": {
+            "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 5,
+            "phone": 3
+            },
+            //"autoplay": {
+            //"timeout": 5000
+            //},
+            //"infinite": true,
+            "blockClass": "principal-carousel",
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always"
+        }
+    },
+
+
+    "flex-layout.row#banners-row": {
+        "title": "Second row banners",
+        "children": [
+            "flex-layout.row#banner-one-images",
+            "flex-layout.row#banner-two-images"
+        ],
+        "props": {
+          "colGap": 4,
+          "blockClass": ["row-walmart", "row-departament"]
+        }
+    },
+    "flex-layout.row#banner-one-images": {
+        "title": "banner vertical",
+        "children": [
+          "image#banner"
+        ],
+        "props": {
+            "width":"50%",
+          "blockClass": "col-images-banner"
+        }
+    },
+    "image#banner": {
+        "props": {
+          "src": "https://via.placeholder.com/1584x1268",
+          "blockClass": "image-banner-big"
+        }
+    },
+    "flex-layout.row#banner-two-images": {
+        "title": "banner vertical",
+        "children": [
+          "image#banner-up-cat",
+          "image#banner-down-cat"
+        ],
+        "props": {
+          "blockClass": "col-images-banner"
+        }
+    },
+    "image#banner-up-cat": {
+        "props": {
+          "src": "https://via.placeholder.com/1584x610",
+          "blockClass": "image-banner"
+        }
+    },
+    "image#banner-down-cat": {
+        "props": {
+          "src": "https://via.placeholder.com/1584x610",
+          "blockClass": "image-banner"
+        }
+    },
+
+    "flex-layout.row#banner-full-width": {
+        "title": "Third row banner",
+        "children": [
+            "list-context.image-list#banner-full-width"
+            //"image#banner-full-width"
+        ],
+        "props": {
+          "blockClass": ["row-walmart", "banner-full"]
+        }
+    },
+
+    "list-context.image-list#banner-full-width": {
+      "title": "Image full width",
+      "children": [
+        "slider-layout#banner-full-width-category"
+      ],
+      "props": {
+        "images": [
+          {
+            "image": "https://via.placeholder.com/1700x250",
+            "mobileImage": "https://via.placeholder.com/1000x150",
+            "link":{
+              "url":"/test"
+            }
+          }
+        ]
+      }
+    },
+    "slider-layout#banner-full-width-category": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": "banner-full"
+      }
+    },
+
+    "flex-layout.row#title-exclusive":{
+        "children": [
+          "rich-text#exclusive"
+        ]
+    },
+    "rich-text#exclusive": {
+        "title": "exclusive title",
+        "props": {
+          "textAlignment": "center",
+          "textPosition": "center",
+          "text": "Exclusivos online",
+          "blockClass": ["title-surprise", "category"]
+        }
+    },
+    "flex-layout.row#shelf-exclusive": {
+        "title": "Shelf exclusive",
+        "children": [
+          "shelf#exclusive"
+        ],
+        "props": {
+          "blockClass": "recommended-you"
+        }
+    },
+    "shelf#exclusive": {
+        "title": "exclusive",
+        "blocks": ["product-summary.shelf"],
+        "props": {
+            "paginationDotsVisibility": "hidden",
+            "productList": {
+                "maxItems": 8,
+                "itemsPerPage": 4,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "",
+                "gap": "ph5"
+            }
+        }
+    },
+
+    "flex-layout.row#banners-fifty": {
+        "title": "Fifth row banner",
+        "children": [
+            "flex-layout.col#banner-left",
+            "flex-layout.col#banner-right"
+        ],
+        "props": {
+          "blockClass": ["row-walmart", "banner-full"]
+        }
+    },
+    "flex-layout.col#banner-left":{
+        "children": [
+            "image#banner-left"
+        ],
+        "props": {
+          "blockClass": "banner-fifth"
+        }
+    },
+    "flex-layout.col#banner-right":{
+        "children": [
+            "image#banner-right"
+        ],
+        "props": {
+          "blockClass": "banner-fifth"
+        }
+      },
+    "image#banner-left": {
+        "props": {
+          "src": "https://via.placeholder.com/900x450",
+          "blockClass": "banner-full"
+        }
+    },
+    "image#banner-right": {
+        "props": {
+          "src": "https://via.placeholder.com/900x450",
+          "blockClass": "banner-full"
+        }
+    },
+
+    "flex-layout.row#title-release":{
+        "children": [
+          "rich-text#release"
+        ]
+    },
+    "rich-text#release": {
+        "title": "release title",
+        "props": {
+          "textAlignment": "center",
+          "textPosition": "center",
+          "text": "Nuevos lanzamientos",
+          "blockClass": ["title-surprise", "category"]
+        }
+    },
+    "flex-layout.row#shelf-news-releases": {
+        "title": "Shelf news releases",
+        "children": [
+          "shelf#news-releases"
+        ],
+        "props": {
+          "blockClass": "recommended-you"
+        }
+    },
+    "shelf#news-releases": {
+        "title": "new release",
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "productList": {
+            "maxItems": 8,
+            "itemsPerPage": 4,
+            "minItemsPerPage": 1,
+            "scroll": "BY_PAGE",
+            "arrows": true,
+            "titleText": "",
+            "gap": "ph5"
+          }
+        }
+    },
+
+
+    "flex-layout.row#shelf-best-seller": {
+        "title": "Shelf best seller",
+        "children": [
+          "shelf#best-seller"
+        ],
+        "props": {
+          "blockClass": "recommended-you"
+        }
+    },
+    "shelf#best-seller": {
+        "title": "best seller",
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "productList": {
+            "maxItems": 8,
+            "itemsPerPage": 4,
+            "minItemsPerPage": 1,
+            "scroll": "BY_PAGE",
+            "arrows": true,
+            "titleText": "",
+            "gap": "ph5"
+          }
+        }
+    },
+
+    "flex-layout.row#title-office":{
+        "children": [
+          "rich-text#office"
+        ]
+    },
+    "rich-text#office": {
+        "title": "office title",
+        "props": {
+          "textAlignment": "center",
+          "textPosition": "center",
+          "text": "Oficina",
+          "blockClass": ["title-surprise", "category"]
+        }
+    },
+    "flex-layout.row#shelf-office": {
+        "title": "Shelf office",
+        "children": [
+          "shelf#office"
+        ],
+        "props": {
+          "blockClass": "recommended-you"
+        }
+    },
+    "shelf#office": {
+        "title": "office",
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "productList": {
+            "maxItems": 8,
+            "itemsPerPage": 4,
+            "minItemsPerPage": 1,
+            "scroll": "BY_PAGE",
+            "arrows": true,
+            "titleText": "",
+            "gap": "ph5"
+          }
+        }
+    },
+
+    "flex-layout.row#title-bathrooms":{
+        "children": [
+          "rich-text#bathrooms"
+        ]
+    },
+    "rich-text#bathrooms": {
+        "title": "bathrooms title",
+        "props": {
+          "textAlignment": "center",
+          "textPosition": "center",
+          "text": "Baños",
+          "blockClass": ["title-surprise", "category"]
+        }
+    },
+    "flex-layout.row#shelf-bathrooms": {
+        "title": "Shelf bathrooms",
+        "children": [
+          "shelf#bathrooms"
+        ],
+        "props": {
+          "blockClass": "recommended-you"
+        }
+    },
+    "shelf#bathrooms": {
+        "title": "bathrooms",
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "productList": {
+            "maxItems": 8,
+            "itemsPerPage": 4,
+            "minItemsPerPage": 1,
+            "scroll": "BY_PAGE",
+            "arrows": true,
+            "titleText": "",
+            "gap": "ph5"
+          }
+        }
+    }
+
+
+}

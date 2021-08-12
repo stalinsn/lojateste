@@ -1,0 +1,184 @@
+@import "./references";
+
+// Home
+.container--tab-home-shelfs {
+  .listItem {
+    position: relative;
+
+    :global(.vtex-button) {
+      border: none;
+      background: none;
+      outline: none;
+
+      :global(.vtex-button__label) {
+        color: $black;
+        font-size: 0.85rem;
+        padding: 0;
+        text-transform: none;
+      }
+    }
+
+    &.listItemActive {
+      :global(.vtex-button) {
+        border: none;
+        background: none;
+
+        :global(.vtex-button__label) {
+          color: $primary;
+        }
+      }
+
+    }
+  }
+
+  .contentContainer--tab-content-home-shelfs {
+    background: $gray-light;
+
+    .contentItem {
+      max-width: $maxContainerWidth;
+      margin: 0 auto;
+      border-top: solid thin $primary;
+
+      :global(.vtex-shelf-1-x-container) {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: em(768px)) {
+  .listContainer--tab-list-home-shelfs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+//product
+:global(.vtex-flex-layout-0-x-flexRow--product-description) {
+  .container--tab-description {
+    .listContainer {
+      justify-content: end;
+    }
+  }
+}
+
+:global(.vtex-tab-layout-0-x-listItem--tab-list-promo) {
+  margin-right: 0 !important;
+  background: #E8E8E8 !important;
+  border-left: 6px solid #E8E8E8;
+  @media (max-width: em(768px)) {
+    border-left: 0px !important;
+    border-bottom: 6px solid #E8E8E8 !important;;
+  }
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-home-shelfs) {
+  justify-content: left;
+}
+
+:global(.vtex-tab-layout-0-x-listContainer--tab-list-home-shelfs) {
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000014;
+  width: fit-content;
+  margin-top: 22px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-description) {
+    max-width: 600px;
+    background: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+:global(.vtex-tab-layout-0-x-container--tab-description){
+  :global(.vtex-tab-layout-0-x-listItem--tab-desc) {
+    margin: 0 0 15px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+    :global(.vtex-button ){
+      display: block;
+      width: 100%;
+      border: 0;
+      background: none;
+      :global(.vtex-button__label) {
+        color: #525252;
+        font-size:16px;
+        text-transform: none;
+        font-weight: 600;
+
+        @media screen and (max-width: em(992px)) {
+          font-size: 14px;
+          padding: 7px;
+        }
+      }
+    }
+  }
+
+  :global(.vtex-tab-layout-0-x-listItemActive) {
+    border-bottom: solid 2px #0075C9;
+  }
+
+  :global(.vtex-tab-layout-0-x-contentContainer) {
+    margin: 0;
+    padding: 0;
+    .specificationsTableHead,
+    :global(.vtex-store-components-3-x-specificationsTitle) {
+      display: none;
+    }
+
+    :global(.vtex-store-components-3-x-specificationsTableRow) {
+      color: #525252;
+      font-size: 14px;
+    }
+
+    :global(.vtex-store-components-3-x-specificationsTableRow) {
+      &:nth-child(2n+1){
+        background: #f6f6f6;
+      }
+    }
+
+    :global(.vtex-store-components-3-x-specificationsTableRow) {
+      &:nth-child(2n+0){
+        background: #fff;
+      }
+    }
+  }
+
+  :global(.vtex-tab-layout-0-x-contentContainer--tab-content-desc) {
+    :global(.vtex-store-components-3-x-productDescriptionContainer) {
+      :global(.vtex-store-components-3-x-productDescriptionTitle) {
+        display: none;
+      }
+      :global(.vtex-store-components-3-x-content) {
+        font-size: 14px;
+        color: #505050;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+// //Tabs Masxmenos te escucha
+.listContainer--tab-list-home-walmart-te-escucha{
+  justify-content: flex-start;
+}
+
+.listItem--tab-walmart-te-escucha{
+  :first-child{
+    text-transform: none;
+    background: none;
+    color:#525252;
+    border: none;
+    opacity: 1;
+    font-weight: bold;
+    font-size: .9rem;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.listItemActive--tab-walmart-te-escucha{
+  border-bottom: 2px #0075C9 solid;
+  padding-bottom: 0;
+}

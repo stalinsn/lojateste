@@ -1,0 +1,180 @@
+{
+  "submenu.accordion#mobile-peliculas": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-peliculas-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-peliculas-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-peliculas-menu-line-2-columna-peliculas-vertodos",
+      "flex-layout.col#mobile-peliculas-menu-line-2-columna-1",
+      "flex-layout.col#mobile-peliculas-menu-line-2-columna-2"
+    ]
+  },
+  "flex-layout.col#mobile-peliculas-menu-line-2-columna-peliculas-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-peliculas-menu-line-2-columna-3-line-peliculas-vertodos"
+    ]
+  },
+  "menu-item#mobile-peliculas-menu-line-2-columna-3-line-peliculas-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peliculas-musica-y-libros?map=departamento",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-peliculas-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-peliculas-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-peliculas-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-peliculas-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "menu-item#mobile-peliculas-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peliculas-musica-y-libros/libros/",
+        "noFollow": true,
+        "tagTitle": "Libros",
+        "text": "Libros"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-peliculas-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-peliculas-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-peliculas-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-peliculas-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peliculas-musica-y-libros/libros/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-peliculas-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-peliculas-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#pelis-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#pelis-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#pelis-menu-line-2-columna-3-columna-1-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-peliculas-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-peliculas-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-peliculas-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peliculas-musica-y-libros/peliculas/",
+        "noFollow": true,
+        "tagTitle": "Películas",
+        "text": "Películas"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-peliculas-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "flex-layout.col#mobile-peliculas-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-peliculas-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-peliculas-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peliculas-musica-y-libros/peliculas/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-peliculas-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-peliculas-menu-line-2-columna-mujer-vertodos",
+      "menu-item#pelis-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#pelis-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#pelis-menu-line-2-columna-1-columna-2-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-peliculas-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-peliculas-menu-line-3"
+    ]
+  }
+}

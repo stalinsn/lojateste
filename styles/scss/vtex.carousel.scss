@@ -1,0 +1,56 @@
+@import "./references";
+
+// Test
+.containerImg {
+  background-color: #f0f0f0;
+}
+
+.containerImg .img {
+  max-width: 1520px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--carousel-brand) {
+  border-radius: 160px;
+  max-width: 160px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  @media screen and (max-width: em(1024px)) {
+    max-width: 100px;
+  }
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--principal-carousel) {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--principal-carousel) {
+  :global(.vtex-store-components-3-x-imageElement--principal-carousel) {
+    border-radius: 160px;
+    max-width: 70px;
+    margin: 0px;
+
+    @media screen and (max-width: em(1024px)) {
+      max-width: 80px;
+    }
+  }
+
+  :global(.vtex-slider-layout-0-x-imageElementLink--principal-carousel) {
+    background-color: #fff;
+    border-radius: 50px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 3px 8px 0 rgb(135 139 169 / 20%);
+    @media screen and (max-width: em(1024px)) {
+      width: 60%;
+    }
+  }
+
+  :global(.vtex-slider-layout-0-x-imageElementTitle) {
+    display: none;
+  }
+
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    bottom: 10px;
+  }
+}

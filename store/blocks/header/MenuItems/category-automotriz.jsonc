@@ -1,0 +1,568 @@
+{
+  "vtex.menu@2.x:submenu#automotriz": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#automotriz-menu-line-2"
+    ]
+  },
+  "flex-layout.row#automotriz-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#automotriz-menu-line-2-columna-1",
+      "flex-layout.col#automotriz-menu-line-2-columna-2",
+      "flex-layout.col#automotriz-menu-line-2-columna-3"
+    ]
+  },
+  "flex-layout.col#automotriz-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#automotriz-menu-line-2-columna-2-line-1",
+      "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-3"
+    ]
+  },
+  "menu-item#automotriz-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/automotriz/",
+        "noFollow": true,
+        "tagTitle": "Automotriz",
+        "text": "Automotriz"
+      }
+    }
+    /*"blocks": [
+      "submenu#automotriz-line-2-columna-2"
+    ]*/
+  },
+  "submenu#automotriz-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-3"
+    ]
+  },
+  "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/automotriz/llantas",
+        "noFollow": true,
+        "tagTitle": "Llantas",
+        "text": "Llantas"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/automotriz/baterias",
+        "noFollow": true,
+        "tagTitle": "Baterías",
+        "text": "Baterías"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/automotriz/accesorios-para-auto",
+        "noFollow": true,
+        "tagTitle": "Accesorios Para Auto",
+        "text": "Accesorios Para Auto"
+      }
+    }
+  },
+  "flex-layout.col#automotriz-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#automotriz-menu-line-2-columna-3-line-1",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/",
+        "noFollow": true,
+        "tagTitle": "Refacciones Automotrices",
+        "text": "Refacciones Automotrices"
+      }
+    }
+    /*"blocks": [
+      "submenu#automotriz-line-2-columna-3"
+    ]*/
+  },
+  "submenu#automotriz-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/carburacion",
+        "noFollow": true,
+        "tagTitle": "Carburación",
+        "text": "Carburación"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/carroceria-y-colision",
+        "noFollow": true,
+        "tagTitle": "Carrocería y Colisión",
+        "text": "Carrocería y Colisión"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/electrico",
+        "noFollow": true,
+        "tagTitle": "Eléctrico",
+        "text": "Eléctrico"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/enfriamiento-calefaccion",
+        "noFollow": true,
+        "tagTitle": "Enfriamiento Calefacción",
+        "text": "Enfriamiento Calefacción"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/escape",
+        "noFollow": true,
+        "tagTitle": "Escape",
+        "text": "Escape"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/faros",
+        "noFollow": true,
+        "tagTitle": "Faros",
+        "text": "Faros"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/frenos",
+        "noFollow": true,
+        "tagTitle": "Frenos",
+        "text": "Frenos"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/iluminacion",
+        "noFollow": true,
+        "tagTitle": "Iluminación",
+        "text": "Iluminación"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/molduras-para-puerta",
+        "noFollow": true,
+        "tagTitle": "Molduras Para Puerta",
+        "text": "Molduras Para Puerta"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/motor",
+        "noFollow": true,
+        "tagTitle": "Motor",
+        "text": "Motor"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/sensores-y-valvulas",
+        "noFollow": true,
+        "tagTitle": "Sensores y Válvulas",
+        "text": "Sensores y Válvulas"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-12": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/suspension-y-direccion",
+        "noFollow": true,
+        "tagTitle": "Suspensión y Dirección",
+        "text": "Suspensión y Dirección"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-1-line-13": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/refacciones-automotrices/tren-motriz",
+        "noFollow": true,
+        "tagTitle": "Tren Motríz",
+        "text": "Tren Motríz"
+      }
+    }
+  },
+  "flex-layout.col#automotriz-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#automotriz-menu-line-2-columna-3-line-3",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-4",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-5",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-6",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-7",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-8",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-9",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-10",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-11",
+      "menu-item#automotriz-menu-line-2-columna-3-line-3-ver-mas"
+    ]
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/",
+        "noFollow": true,
+        "tagTitle": "Ferretería",
+        "text": "Ferretería"
+      }
+    }
+    /*"blocks": [
+      "submenu#automotriz-line-2-columna-4"
+    ]*/
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-line-3-ver-mas": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria?map=departamento",
+        "noFollow": true,
+        "tagTitle": "VER TODOS AUTOMOTRIZ Y FERRETERIA",
+        "text": "VER TODOS AUTOMOTRIZ Y FERRETERIA"
+      }
+    }
+  },
+  "submenu#automotriz-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-4",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-5",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-6",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-7",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-8",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-9",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-10",
+      "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-11"
+    ]
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/iluminacion",
+        "noFollow": true,
+        "tagTitle": "Iluminación",
+        "text": "Iluminación"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/plomeria-y-bano",
+        "noFollow": true,
+        "tagTitle": "Plomería y Baño",
+        "text": "Plomería y Baño"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/herramientas-manuales",
+        "noFollow": true,
+        "tagTitle": "Herramientas Manuales",
+        "text": "Herramientas Manuales"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/electricidad",
+        "noFollow": true,
+        "tagTitle": "Electricidad",
+        "text": "Electricidad"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/herramientas-electricas",
+        "noFollow": true,
+        "tagTitle": "Herramientas Eléctricas",
+        "text": "Herramientas Eléctricas"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/cerrajeria-y-seguridad",
+        "noFollow": true,
+        "tagTitle": "Cerrajería y Seguridad",
+        "text": "Cerrajería y Seguridad"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/proteccion-y-seguridad",
+        "noFollow": true,
+        "tagTitle": "Protección y Seguridad",
+        "text": "Protección y Seguridad"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/herramientas-industriales",
+        "noFollow": true,
+        "tagTitle": "Herramientas Industriales",
+        "text": "Herramientas Industriales"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/herramientas-domesticas",
+        "noFollow": true,
+        "tagTitle": "Herramientas Domésticas",
+        "text": "Herramientas Domésticas"
+      }
+    }
+  },
+  "menu-item#automotriz-menu-line-2-columna-3-columna-4-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automotriz-y-ferreteria/ferreteria/organizacion-y-almacenaje",
+        "noFollow": true,
+        "tagTitle": "Organización y Almacenaje",
+        "text": "Organización y Almacenaje"
+      }
+    }
+  }
+}

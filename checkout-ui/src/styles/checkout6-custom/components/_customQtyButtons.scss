@@ -1,0 +1,44 @@
+.custom-qty-selector {
+  .qty-content {
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px #f4f4f4;
+    margin-bottom: 8px;
+
+    .input-quantity {
+      display: flex;
+      .suffix {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+    }
+  }
+
+  .type-selector {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input {
+  }
+  button.btn {
+    height: 32px;
+    margin-top: 4px;
+    &:first-child {
+      margin-right: 8px;
+    }
+    &.custom-btn {
+      max-width: 88px;
+      width: 88px;
+      color: $dark-gray;
+      font-weight: bold;
+      &:disabled {
+        opacity: 1;
+        color: $white;
+        background-color: $color-primary;
+        border: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "submenu.accordion#mobile-videojuegos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-videojuegos-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-videojuegos-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-videojuegos-vertodos",
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-1",
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-2",
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-3",
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-4",
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-5",
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-6"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-videojuegos-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-videojuegos-vertodos"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-videojuegos-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-6": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/preventas/",
+        "noFollow": true,
+        "tagTitle": "Preventas",
+        "text": "Preventas"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-nabb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-nabb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/preventas/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-videojuegos-menu-line-8": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-nabb-vertodos",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-5-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-videojuegos-menu-line-8"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-5": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/",
+        "noFollow": true,
+        "tagTitle": "Coleccionables",
+        "text": "Coleccionables"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-nobb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-nobb-vertodos"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-nobb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/coleccionables/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-videojuegos-menu-line-7": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-nobb-vertodos",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-1",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-2",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-3",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-4",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-5",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-6",
+      "menu-item#videojuegos-menu-line-4-columna-3-line-7"
+    ]
+  },
+  "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-videojuegos-menu-line-7"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-no": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/nintendo-switch/",
+        "noFollow": true,
+        "tagTitle": "Nintendo Switch",
+        "text": "Nintendo Switch"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-nino-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-nino-vertodos"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-nino-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/nintendo-switch/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-videojuegos-menu-line-6": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-nino-vertodos",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-4-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-no": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-videojuegos-menu-line-6"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-na": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/playstation-4/",
+        "noFollow": true,
+        "tagTitle": "Playstation 4",
+        "text": "Playstation 4"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-nina-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-nina-vertodos"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-nina-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/playstation-4/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-videojuegos-menu-line-5": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-nina-vertodos",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-3-columna-1-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-na": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-videojuegos-menu-line-5"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-360/",
+        "noFollow": true,
+        "tagTitle": "Xbox 360",
+        "text": "Xbox 360"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-360/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-videojuegos-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#videojuegos-menu-line-3-columna-1-line-1"
+    ]
+  },
+  "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-videojuegos-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-one/",
+        "noFollow": true,
+        "tagTitle": "Xbox one",
+        "text": "Xbox one"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "flex-layout.col#mobile-videojuegos-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-videojuegos-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/videojuegos/xbox-one/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-videojuegos-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-videojuegos-menu-line-2-columna-mujer-vertodos",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#videojuegos-menu-line-2-columna-1-columna-2-line-4"
+    ]
+  },
+  "submenu.accordion#mobile-videojuegos-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-videojuegos-menu-line-3"
+    ]
+  }
+}

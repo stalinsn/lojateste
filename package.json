@@ -1,0 +1,24 @@
+{
+  "name": "supermxmcr",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-react": "sass --watch --no-source-map react/styles:react --style compressed",
+    "sass-store": "sass --watch --no-source-map styles/scss:styles/css --style compressed",
+    "sass": "concurrently \"sass --watch --no-source-map styles/scss:styles/css --style compressed\" \"sass --watch --no-source-map react/styles:react --style compressed\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "qrcode.react": "^1.0.1",
+    "sass": "^1.32.8",
+    "slick-carousel": "^1.8.1"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "modal-trigger#quickview": {
+    "children": [
+      "icon-expand",
+      "modal-layout#quickview"
+    ],
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+
+  "modal-layout#quickview": {
+    "children": [
+      "modal-header#quickview",
+      "flex-layout.row#quickview-main-row"
+    ],
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+  "modal-header#quickview": {
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+
+  "modal-content#quickview": {
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product",
+      "flex-layout.row#upcbox",
+      "product-summary-sku-selector#quickview",
+      "product-summary-quantity#quickview",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "quickviewContent"
+    }
+  },
+  "modal-actions#quickview": {
+    "props": {
+      "blockClass": "quickview"
+    },
+    "children": [
+      "flex-layout.row#quickview-actions-2"
+    ]
+  },
+
+  "product-summary-quantity#quickview": {
+    "props": {
+      "showLabel": true,
+      "size": "regular"
+    }
+  },
+
+  "flex-layout.row#quickview-actions-2": {
+    "children": [
+      "link.product#button-pdp"
+    ]
+  },
+  "link.product#button-pdp": {
+    "props": {
+      "buttonProps": {
+        "variant": "secondary"
+      },
+      "displayMode": "button",
+      "label": "Ver detalles",
+      "href": "/{slug}/p"
+    }
+  },
+  "flex-layout.row#quickview-main-row": {
+    "children": [
+      "flex-layout.col#quickview-images",
+      "flex-layout.col#quickview-product-details"
+    ],
+    "props": {
+      "blockClass": "quickviewMainRow"
+    }
+  },
+  "flex-layout.col#quickview-images": {
+    "children": [
+      "product-images#quickview"
+    ]
+  },
+  "flex-layout.col#quickview-product-details": {
+    "children": [
+      "modal-content#quickview",
+      "modal-actions#quickview"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "quickviewDetails"
+    }
+  },
+  "product-summary-sku-selector#quickview": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+  "vtex.store-components:product-name": {
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+  "product-images#quickview" : {
+    "props": {
+      "blockClass": "quickview",
+      "showPaginationDots": false,
+      "showNavigationArrows": true
+    }
+  }
+}

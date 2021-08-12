@@ -1,0 +1,13 @@
+$browser-context: 14; // 1em = 14px in this checkout
+
+@function em($pixels, $context: $browser-context) {
+    @if (unitless($pixels)) {
+      $pixels: $pixels * 1px;
+    }
+  
+    @if (unitless($context)) {
+      $context: $context * 1px;
+    }
+  
+    @return $pixels / $context * 1em;
+  }

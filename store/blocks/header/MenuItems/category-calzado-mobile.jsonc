@@ -1,0 +1,347 @@
+{
+  "submenu.accordion#mobile-calzado": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-calzado-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-calzado-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-calzado-menu-line-2-columna-calzado-vertodos",
+      "flex-layout.col#mobile-calzado-menu-line-2-columna-1",
+      "flex-layout.col#mobile-calzado-menu-line-2-columna-2",
+      "flex-layout.col#mobile-calzado-menu-line-2-columna-3",
+      "flex-layout.col#mobile-calzado-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-calzado-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-3-line-calzado-vertodos"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-3-line-calzado-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado?map=departamento",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-nabb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-3-line-nabb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado?map=departamento",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-1-line-no": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/accesorios-de-calzado/",
+        "noFollow": true,
+        "tagTitle": "Accesorios de Calzado",
+        "text": "Accesorios de Calzado"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-calzado-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-nino-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-3-line-nino-vertodos"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-3-line-nino-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/accesorios-de-calzado/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-calzado-menu-line-6": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-calzado-menu-line-2-columna-nino-vertodos",
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-calzado-menu-line-2-columna-1-line-no": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-calzado-menu-line-6"
+    ]
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-1-line-na": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/",
+        "noFollow": true,
+        "tagTitle": "Zapatos de Mujer",
+        "text": "Zapatos de Mujer"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-calzado-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-nina-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-3-line-nina-vertodos"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-3-line-nina-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-calzado-menu-line-5": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-calzado-menu-line-2-columna-nina-vertodos",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-7"
+    ]
+  },
+  "submenu.accordion#mobile-calzado-menu-line-2-columna-1-line-na": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-calzado-menu-line-5"
+    ]
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-infantiles/",
+        "noFollow": true,
+        "tagTitle": "Zapatos Infantiles",
+        "text": "Zapatos Infantiles"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-calzado-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-infantiles/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-calzado-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#calzado-menu-line-3-columna-1-line-1",
+      "menu-item#calzado-menu-line-3-columna-1-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-calzado-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-calzado-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-caballero/",
+        "noFollow": true,
+        "tagTitle": "Zapatos de Caballero",
+        "text": "Zapatos de Caballero"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-calzado-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "flex-layout.col#mobile-calzado-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-calzado-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-calzado-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-caballero/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-calzado-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-calzado-menu-line-2-columna-mujer-vertodos",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-6"
+    ]
+  },
+  "submenu.accordion#mobile-calzado-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-calzado-menu-line-3"
+    ]
+  }
+}

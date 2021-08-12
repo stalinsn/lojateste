@@ -1,0 +1,15 @@
+mutation Save($args: SaveArgsV2!) {
+    saveV2(args: $args)
+}
+
+{
+    "args": {
+      "to": "es-SV",
+      "messages": [{
+            "srcLang": "en-DV",
+            "srcMessage": "store/page.title",
+            "targetMessage": "SIMAN.COM",
+            "context": "vtex.order-placed@1.x"
+        }]
+    }
+}

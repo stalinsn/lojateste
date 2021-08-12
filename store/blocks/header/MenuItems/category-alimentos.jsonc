@@ -1,0 +1,326 @@
+{
+  "vtex.menu@2.x:submenu#alimentos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#alimentos-menu-line-2"
+    ]
+  },
+  "flex-layout.row#alimentos-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#alimentos-menu-line-2-columna-2",
+      "flex-layout.col#alimentos-menu-line-2-columna-1"
+    ]
+  },
+  "flex-layout.col#alimentos-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#alimentos-menu-line-2-columna-2-line-1",
+      "menu-item#alimentos-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#alimentos-menu-line-2-columna-2-line-1-ver-todos"
+    ]
+  },
+  "menu-item#alimentos-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/despensa",
+        "noFollow": true,
+        "tagTitle": "Despensa",
+        "text": "Despensa"
+      }
+    }
+    /*"blocks": [
+      "submenu#alimentos-line-2-columna-2"
+    ]*/
+  },
+  "menu-item#alimentos-menu-line-2-columna-2-line-1-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas?map=departamento",
+        "noFollow": true,
+        "tagTitle": "VER TODOS ALIMENTOS Y BEBIDAS",
+        "text": "VER TODOS ALIMENTOS Y BEBIDAS"
+      }
+    }
+  },
+  "submenu#alimentos-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#alimentos-menu-line-2-columna-1-columna-2-line-1"
+    ]
+  },
+  "menu-item#alimentos-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/despensa/despensa",
+        "noFollow": true,
+        "tagTitle": "Despensa",
+        "text": "Despensa"
+      }
+    }
+  },
+  "flex-layout.col#alimentos-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#alimentos-menu-line-2-columna-3-line-1",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/",
+        "noFollow": true,
+        "tagTitle": "Cervezas, Vinos y Licores",
+        "text": "Cervezas, Vinos y Licores"
+      }
+    }
+    /*"blocks": [
+      "submenu#alimentos-line-2-columna-3"
+    ]*/
+  },
+  "submenu#alimentos-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/brandy",
+        "noFollow": true,
+        "tagTitle": "Brandy",
+        "text": "Brandy"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/cervezas",
+        "noFollow": true,
+        "tagTitle": "Cervezas",
+        "text": "Cervezas"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/cervezas-artesanales",
+        "noFollow": true,
+        "tagTitle": "Cervezas Artesanales",
+        "text": "Cervezas Artesanales"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/champagne",
+        "noFollow": true,
+        "tagTitle": "Champagne",
+        "text": "Champagne"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/cognac",
+        "noFollow": true,
+        "tagTitle": "Cognac",
+        "text": "Cognac"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/cremas-y-licores",
+        "noFollow": true,
+        "tagTitle": "Cremas y Licores",
+        "text": "Cremas y Licores"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/ginebra",
+        "noFollow": true,
+        "tagTitle": "Ginebra",
+        "text": "Ginebra"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/mezcal",
+        "noFollow": true,
+        "tagTitle": "Mezcal",
+        "text": "Mezcal"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/ron",
+        "noFollow": true,
+        "tagTitle": "Ron",
+        "text": "Ron"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/tequila",
+        "noFollow": true,
+        "tagTitle": "Tequila",
+        "text": "Tequila"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/vinos",
+        "noFollow": true,
+        "tagTitle": "Vinos",
+        "text": "Vinos"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-12": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/vodka",
+        "noFollow": true,
+        "tagTitle": "Vodka",
+        "text": "Vodka"
+      }
+    }
+  },
+  "menu-item#alimentos-menu-line-2-columna-3-columna-1-line-13": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-y-bebidas/cervezas-vinos-y-licores/whisky",
+        "noFollow": true,
+        "tagTitle": "whisky",
+        "text": "whisky"
+      }
+    }
+  }
+}

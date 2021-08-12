@@ -1,0 +1,609 @@
+{
+  "submenu.accordion#mobile-deportes": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-deportes-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-deportes-vertodos",
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-1",
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-2",
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-3",
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-4",
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-5",
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-6",
+      // "flex-layout.col#mobile-deportes-menu-line-2-columna-7",
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-8"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-deportes-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-deportes-vertodos"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-deportes-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-6": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/",
+        "noFollow": true,
+        "tagTitle": "Otros Deportes",
+        "text": "Otros Deportes"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-deportes-vertodos-otros": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-7": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-2-line-nabb"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-2-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-de-fuerza/",
+        "noFollow": true,
+        "tagTitle": "Equipo de Fuerza",
+        "text": "Equipo de Fuerza"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-nabb-fuerza"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-deportes-vertodos-fuerza": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-de-fuerza",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-deportes-menu-line-8-fuerza": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-deportes-vertodos-fuerza",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-nabb-fuerza": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-8-fuerza"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-8": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-nabb"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/nutricion-y-medicina-deportiva",
+        "noFollow": true,
+        "tagTitle": "Nutrición y Medicina Deportiva",
+        "text": "Nutrición y Medicina Deportiva"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-nabb-nutricion"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-nabb-vertodos-nutri": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/nutricion-y-medicina-deportiva",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-deportes-menu-line-8-nutricion": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-nabb-vertodos-nutri",
+      "menu-item#deportes-menu-line-2-columna-5-columna-5-line-1"
+    ]
+  },
+  "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-nabb-nutricion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-8-nutricion"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-nabb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-nabb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-deportes-menu-line-8-otros": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-deportes-vertodos-otros",
+      "menu-item#deportes-menu-line-4-columna-3-line-1",
+      "menu-item#deportes-menu-line-4-columna-3-line-2",
+      "menu-item#deportes-menu-line-4-columna-3-line-3",
+      "menu-item#deportes-menu-line-4-columna-3-line-4",
+      "menu-item#deportes-menu-line-4-columna-3-line-5",
+      "menu-item#deportes-menu-line-4-columna-3-line-6",
+      "menu-item#deportes-menu-line-4-columna-3-line-7",
+      "menu-item#deportes-menu-line-4-columna-3-line-8",
+      "menu-item#deportes-menu-line-4-columna-3-line-9",
+      "menu-item#deportes-menu-line-4-columna-3-line-10",
+      "menu-item#deportes-menu-line-4-columna-3-line-11",
+      "menu-item#deportes-menu-line-4-columna-3-line-12"
+    ]
+  },
+  "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-8-otros"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-5": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-cardiovascular/",
+        "noFollow": true,
+        "tagTitle": "Equipo Cardiovascular",
+        "text": "Equipo Cardiovascular"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-nobb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-nobb-vertodos"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-nobb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-cardiovascular/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-deportes-menu-line-7": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-nobb-vertodos",
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-7"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-1-line-no": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-de-fuerza/",
+        "noFollow": true,
+        "tagTitle": "Equipo de fuerza",
+        "text": "Equipo de fuerza"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-nino-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-nino-vertodos"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-nino-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-de-fuerza/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-deportes-menu-line-6": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-nino-vertodos",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-no": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-6"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-1-line-na": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/",
+        "noFollow": true,
+        "tagTitle": "Accesorios Deportivos",
+        "text": "Accesorios Deportivos"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-nina-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-nina-vertodos"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-nina-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-deportes-menu-line-5": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-nina-vertodos",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-7"
+    ]
+  },
+  "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-na": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-5"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/patines-y-patinetas/",
+        "noFollow": true,
+        "tagTitle": "Patines y Patinetas",
+        "text": "Patines y Patinetas"
+      }
+    }
+    /*"blocks": [
+      "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-h"
+    ]*/
+  },
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/patines-y-patinetas/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-deportes-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#deportes-menu-line-3-columna-1-line-1",
+      "menu-item#deportes-menu-line-3-columna-1-line-2",
+      "menu-item#deportes-menu-line-3-columna-1-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/",
+        "noFollow": true,
+        "tagTitle": "Bicicletas",
+        "text": "Bicicletas"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-m"
+    ]
+  },
+
+  "flex-layout.col#mobile-deportes-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-deportes-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-deportes-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-deportes-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-deportes-menu-line-2-columna-mujer-vertodos",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-7"
+    ]
+  },
+  "submenu.accordion#mobile-deportes-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-deportes-menu-line-3"
+    ]
+  }
+}

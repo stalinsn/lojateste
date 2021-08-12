@@ -1,0 +1,824 @@
+{
+  "vtex.menu@2.x:submenu#deportes": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#deportes-menu-line-2"
+    ]
+  },
+  "flex-layout.row#deportes-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#deportes-menu-line-2-columna-1",
+      "flex-layout.col#deportes-menu-line-2-columna-2",
+      "flex-layout.col#deportes-menu-line-2-columna-3",
+      "flex-layout.col#deportes-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#deportes-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-2-line-1",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#deportes-menu-line-2-columna-2-line-2",
+      "menu-item#deportes-menu-line-3-columna-1-line-1",
+      "menu-item#deportes-menu-line-3-columna-1-line-2",
+      "menu-item#deportes-menu-line-3-columna-1-line-3"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/",
+        "noFollow": true,
+        "tagTitle": "Bicicletas",
+        "text": "Bicicletas"
+      }
+    }
+    /*"blocks": [
+      "submenu#deportes-line-2-columna-2"
+    ]*/
+  },
+  "submenu#deportes-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#deportes-menu-line-2-columna-1-columna-2-line-7"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/bicicleta-de-montana",
+        "noFollow": true,
+        "tagTitle": "Bicicletas de Montaña",
+        "text": "Bicicletas de Montaña"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/bicicletas-de-ruta",
+        "noFollow": true,
+        "tagTitle": "Bicicletas de Ruta",
+        "text": "Bicicletas de Ruta"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/bicicletas-urbanas",
+        "noFollow": true,
+        "tagTitle": "Bicicletas Urbanas",
+        "text": "Bicicletas Urbanas"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/bicicletas-plegables",
+        "noFollow": true,
+        "tagTitle": "Bicicletas Plegables",
+        "text": "Bicicletas Plegables"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-1-columna-2-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/bicicletas-infantiles",
+        "noFollow": true,
+        "tagTitle": "Bicicletas Infantiles",
+        "text": "Bicicletas Infantiles"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-1-columna-2-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/triciclos",
+        "noFollow": true,
+        "tagTitle": "Triciclos",
+        "text": "Triciclos"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-1-columna-2-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/bicicletas/accesorios-y-refacciones",
+        "noFollow": true,
+        "tagTitle": "Accesorios y Refacciones",
+        "text": "Accesorios y Refacciones"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/patines-y-patinetas/",
+        "noFollow": true,
+        "tagTitle": "Patines y Patinetas",
+        "text": "Patines y Patinetas"
+      }
+    },
+    "blocks": [
+      "submenu#deportes-line-3-columna-1"
+    ]
+  },
+  "submenu#deportes-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-3-columna-1-line-1",
+      "menu-item#deportes-menu-line-3-columna-1-line-2",
+      "menu-item#deportes-menu-line-3-columna-1-line-3"
+    ]
+  },
+  "menu-item#deportes-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/patines-y-patinetas/patines",
+        "noFollow": true,
+        "tagTitle": "Patines",
+        "text": "Patines"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/patines-y-patinetas/patinetas-y-scooters",
+        "noFollow": true,
+        "tagTitle": "Patinetas y Scooters",
+        "text": "Patinetas y Scooters"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/patines-y-patinetas/accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "flex-layout.col#deportes-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-3-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-7"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/",
+        "noFollow": true,
+        "tagTitle": "Accesorios Deportivos",
+        "text": "Accesorios Deportivos"
+      }
+    }
+    /*"blocks": [
+      "submenu#deportes-line-2-columna-3"
+    ]*/
+  },
+  "submenu#deportes-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#deportes-menu-line-2-columna-3-columna-1-line-7"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/ligas-y-bandas-de-resistencia",
+        "noFollow": true,
+        "tagTitle": "Ligas y Bandas de Resistencia",
+        "text": "Ligas y Bandas de Resistencia"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/guantes-y-protecciones-de-gimnasio",
+        "noFollow": true,
+        "tagTitle": "Guantes y Protección de Gimnasio",
+        "text": "Guantes y Protección de Gimnasio"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/fajas-y-cinturones",
+        "noFollow": true,
+        "tagTitle": "Fajas y Cinturones",
+        "text": "Fajas y Cinturones"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/trampolines-para-ejercicio",
+        "noFollow": true,
+        "tagTitle": "Trampolines Para Ejercicio",
+        "text": "Trampolines Para Ejercicio"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/fit-bands",
+        "noFollow": true,
+        "tagTitle": "Fit Bands",
+        "text": "Fit Bands"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/gps-y-podometros",
+        "noFollow": true,
+        "tagTitle": "GPS y Podómetros",
+        "text": "GPS y Podómetros"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/accesorios-deportivos/otros-accesorios-deportivos",
+        "noFollow": true,
+        "tagTitle": "Otros Accesorios Deportivos",
+        "text": "Otros Accesorios Deportivos"
+      }
+    }
+  },
+  "flex-layout.col#deportes-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-3-line-3",
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#deportes-menu-line-3-columna-3-line-3",
+      "menu-item#deportes-menu-line-4-columna-3-line-1",
+      "menu-item#deportes-menu-line-4-columna-3-line-2",
+      "menu-item#deportes-menu-line-4-columna-3-line-3",
+      "menu-item#deportes-menu-line-4-columna-3-line-4",
+      "menu-item#deportes-menu-line-4-columna-3-line-5",
+      "menu-item#deportes-menu-line-4-columna-3-line-6",
+      "menu-item#deportes-menu-line-4-columna-3-line-7",
+      "menu-item#deportes-menu-line-4-columna-3-line-8",
+      "menu-item#deportes-menu-line-4-columna-3-line-9",
+      "menu-item#deportes-menu-line-4-columna-3-line-10",
+      "menu-item#deportes-menu-line-4-columna-3-line-11",
+      "menu-item#deportes-menu-line-4-columna-3-line-12"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-cardiovascular/",
+        "noFollow": true,
+        "tagTitle": "Equipo Cardiovascular",
+        "text": "Equipo Cardiovascular"
+      }
+    }
+    /*"blocks": [
+      "submenu#deportes-line-2-columna-4"
+    ]*/
+  },
+  "submenu#deportes-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-4-line-3"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-cardiovascular/caminadoras",
+        "noFollow": true,
+        "tagTitle": "Caminadoras",
+        "text": "Caminadoras"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-cardiovascular/spinning",
+        "noFollow": true,
+        "tagTitle": "Spinning",
+        "text": "Spinning"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-cardiovascular/aparatos-para-abdomen",
+        "noFollow": true,
+        "tagTitle": "Aparatos para Abdomen",
+        "text": "Aparatos para Abdomen"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-3-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/",
+        "noFollow": true,
+        "tagTitle": "Otros Deportes",
+        "text": "Otros Deportes"
+      }
+    }
+    /*"blocks": [
+      "submenu#deportes-line-3-columna-3"
+    ]*/
+  },
+  "submenu#deportes-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-4-columna-3-line-1",
+      "menu-item#deportes-menu-line-4-columna-3-line-2",
+      "menu-item#deportes-menu-line-4-columna-3-line-3",
+      "menu-item#deportes-menu-line-4-columna-3-line-4",
+      "menu-item#deportes-menu-line-4-columna-3-line-5",
+      "menu-item#deportes-menu-line-4-columna-3-line-6",
+      "menu-item#deportes-menu-line-4-columna-3-line-7",
+      "menu-item#deportes-menu-line-4-columna-3-line-8",
+      "menu-item#deportes-menu-line-4-columna-3-line-9",
+      "menu-item#deportes-menu-line-4-columna-3-line-10",
+      "menu-item#deportes-menu-line-4-columna-3-line-11",
+      "menu-item#deportes-menu-line-4-columna-3-line-12"
+    ]
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/acuaticos",
+        "noFollow": true,
+        "tagTitle": "Acuáticos",
+        "text": "Acuáticos"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/aire-libre",
+        "noFollow": true,
+        "tagTitle": "Aire Libre",
+        "text": "Aire Libre"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/futbol",
+        "noFollow": true,
+        "tagTitle": "Fútbol",
+        "text": "Fútbol"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/campismo",
+        "noFollow": true,
+        "tagTitle": "Campismo",
+        "text": "Campismo"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/golf",
+        "noFollow": true,
+        "tagTitle": "Golf",
+        "text": "Golf"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/crossfit-y-funcional",
+        "noFollow": true,
+        "tagTitle": "Crossfit y Funcional",
+        "text": "Crossfit y Funcional"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/basquetbol",
+        "noFollow": true,
+        "tagTitle": "Básquetbol",
+        "text": "Básquetbol"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/beisbol",
+        "noFollow": true,
+        "tagTitle": "Béisbol",
+        "text": "Béisbol"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/futbol-americano",
+        "noFollow": true,
+        "tagTitle": "Fútbol Americano",
+        "text": "Fútbol Americano"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/box",
+        "noFollow": true,
+        "tagTitle": "Box",
+        "text": "Box"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/yoga-y-pilates",
+        "noFollow": true,
+        "tagTitle": "Yoga y Pilates",
+        "text": "Yoga y Pilates"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-4-columna-3-line-12": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/otros-deportes/tenis",
+        "noFollow": true,
+        "tagTitle": "Tenis",
+        "text": "Tenis"
+      }
+    }
+  },
+  "flex-layout.col#deportes-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-5-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-3",
+      "menu-item#deportes-menu-line-2-columna-5-line-2",
+      "menu-item#deportes-menu-line-2-columna-5-columna-5-line-1",
+      "menu-item#deportes-menu-line-2-columna-5-line-3-ver-todos"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-5-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-de-fuerza/",
+        "noFollow": true,
+        "tagTitle": "Equipo de Fuerza",
+        "text": "Equipo de Fuerza"
+      }
+    }
+    /*"blocks": [
+      "submenu#deportes-line-2-columna-5"
+    ]*/
+  },
+  "submenu#deportes-line-2-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#deportes-menu-line-2-columna-3-columna-5-line-3"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-de-fuerza/bancos-y-soportes",
+        "noFollow": true,
+        "tagTitle": "Bancos y Soportes",
+        "text": "Bancos y Soportes"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-de-fuerza/multigimnasios",
+        "noFollow": true,
+        "tagTitle": "Multigimnasios",
+        "text": "Multigimnasios"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-3-columna-5-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/equipo-de-fuerza/pesas-barras-y-discos",
+        "noFollow": true,
+        "tagTitle": "Pesas, Barras y Discos",
+        "text": "Pesas, Barras y Discos"
+      }
+    }
+  },
+  "menu-item#deportes-menu-line-2-columna-5-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/nutricion-y-medicina-deportiva",
+        "noFollow": true,
+        "tagTitle": "Nutrición y Medicina Deportiva",
+        "text": "Nutrición y Medicina Deportiva"
+      }
+    }
+    /*"blocks": [
+      "submenu#deportes-line-3-columna-5"
+    ]*/
+  },
+  "menu-item#deportes-menu-line-2-columna-5-line-3-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-deportes/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS DEPORTES",
+        "text": "VER TODOS DEPORTES"
+      }
+    }
+  },
+  "submenu#deportes-line-3-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#deportes-menu-line-2-columna-5-columna-5-line-1"
+    ]
+  },
+  "menu-item#deportes-menu-line-2-columna-5-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/nutricion-y-medicina-deportiva/proteinas",
+        "noFollow": true,
+        "tagTitle": "Proteínas",
+        "text": "Proteínas"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+/*$font-path: "./styles/checkout6-custom/fonts" !default;
+@font-face {
+  font-family: "Bogle";
+  src: url("fonts/bogleweb-regular.eot?") format("eot"),
+    url("fonts/bogleweb-regular.woff2") format("woff2"),
+    url("fonts/bogleweb-regular.woff") format("woff"),
+    url("fonts/bogleweb-regular.ttf") format("truetype"),
+    url("fonts/bogleweb-regular.svg#bogleweb-regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+@font-face {
+  font-family: "Bogle";
+  src: url("https://supermxmcr.vtexassets.com/assets/vtex/assets-builder/supermxmcr.store-theme/0.1.19/fonts/BogleWeb-Regular___e52778320b968c309cf09078406d6da4.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("https://supermxmcr.vtexassets.com/assets/vtex/assets-builder/supermxmcr.store-theme/1.0.12/fonts/GothamBook___3efce207feccb4570db5de9d64a4b9ef.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+

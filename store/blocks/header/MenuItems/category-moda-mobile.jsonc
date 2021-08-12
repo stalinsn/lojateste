@@ -1,0 +1,637 @@
+{
+  "submenu.accordion#mobile-moda": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-moda-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-moda-menu-line-2-columna-moda-vertodos",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-1",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-2",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-3",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-4",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-5",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-6",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-7",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-8",
+      "flex-layout.col#mobile-moda-menu-line-2-columna-9"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-moda-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-moda-vertodos"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-moda-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios?map=departamento",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-6": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/mochilas/",
+        "noFollow": true,
+        "tagTitle": "Mochilas",
+        "text": "Mochilas"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nabb-mochila"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-moda-vertodos-mochila": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/mochilas",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-moda-menu-line-8-mochila": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-moda-vertodos-mochila",
+      "menu-item#moda-menu-line-3-columna-6-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-6-columna-1-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nabb-mochila": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-8-mochila"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-7": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-2-line-nabb"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-2-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/maletas-y-articulos-de-viaje/",
+        "noFollow": true,
+        "tagTitle": "Maletas y Artículos De Viaje",
+        "text": "Maletas y Artículos De Viaje"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nabb-articulos-viaje"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-moda-vertodos-viaje": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/maletas-y-articulos-de-viaje",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-moda-menu-line-8-articulos-viaje": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-moda-vertodos-viaje",
+      "menu-item#moda-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-4-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nabb-articulos-viaje": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-8-articulos-viaje"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-8": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-nabb"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/accesorios-de-moda/",
+        "noFollow": true,
+        "tagTitle": "Accesorios de Moda",
+        "text": "Accesorios de Moda"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nabb-moda-accesorios"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-moda-vertodos-accesorios": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/accesorios-de-moda",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-moda-menu-line-8-moda-accesorios": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-moda-vertodos-accesorios",
+      "menu-item#moda-menu-line-4-columna-3-line-1",
+      "menu-item#moda-menu-line-4-columna-3-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nabb-moda-accesorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-8-moda-accesorios"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-9": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-4-line-nabb"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-4-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/otros-accesorios/",
+        "noFollow": true,
+        "tagTitle": "Otros Accesorios",
+        "text": "Otros Accesorios"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-nabb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-nabb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/otros-accesorios/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-moda-menu-line-8-otros-accesorios": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-moda-menu-line-2-columna-nabb-vertodos",
+      "menu-item#moda-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-5-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-8-otros-accesorios"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-5": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/articulos-escolares/",
+        "noFollow": true,
+        "tagTitle": "Articulos Escolares",
+        "text": "Articulos Escolares"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-nobb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-nobb-vertodos"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-nobb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/articulos-escolares/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-moda-menu-line-7": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-moda-menu-line-2-columna-nobb-vertodos",
+      "menu-item#moda-menu-line-3-columna-5-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-5-columna-1-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-7"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-1-line-no": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/bolsas-y-carteras/",
+        "noFollow": true,
+        "tagTitle": "Bolsas y Carteras",
+        "text": "Bolsas y Carteras"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-nino-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-nino-vertodos"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-nino-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/bolsas-y-carteras/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-moda-menu-line-6": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-moda-menu-line-2-columna-nino-vertodos",
+      "menu-item#moda-menu-line-3-columna-4-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-4-columna-1-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-no": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-6"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-1-line-na": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/lentes/",
+        "noFollow": true,
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-nina-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-nina-vertodos"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-nina-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/lentes/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-moda-menu-line-5": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-moda-menu-line-2-columna-nina-vertodos",
+      "menu-item#moda-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-1-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-na": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-5"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/joyeria/",
+        "noFollow": true,
+        "tagTitle": "Joyería",
+        "text": "Joyería"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-moda-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/joyeria/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+
+  "flex-layout.row#mobile-moda-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#moda-menu-line-3-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-1-line-2",
+      "menu-item#moda-menu-line-3-columna-1-line-3",
+      "menu-item#moda-menu-line-3-columna-1-line-4",
+      "menu-item#moda-menu-line-3-columna-1-line-5"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/relojes/",
+        "noFollow": true,
+        "tagTitle": "Relojes",
+        "text": "Relojes"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-m"
+    ]
+  },
+
+  "flex-layout.col#mobile-moda-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-moda-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-moda-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/relojes/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-moda-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-moda-menu-line-2-columna-mujer-vertodos",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-4"
+    ]
+  },
+  "submenu.accordion#mobile-moda-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-moda-menu-line-3"
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "header#order": {
+    "blocks": ["header-layout.desktop#order", "header-layout.mobile#order"]
+  },
+  "header-layout.desktop#order": {
+    "children": ["flex-layout.row#header-order"]
+  },
+  "header-layout.mobile#order": {
+    "children": ["flex-layout.row#header-order"]
+  },
+
+  "flex-layout.row#header-order": {
+    "children": ["flex-layout.col#top-header"],
+    "props": {
+      "blockClass": "header-container-order",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#top-header": {
+    "children": [
+      "flex-layout.row#top-header-order",
+      "flex-layout.row#bottom-header-order"
+    ]
+  },
+
+  "flex-layout.row#top-header-order": {
+    "children": ["flex-layout.row#header-cell-1"],
+    "props": {
+      "blockClass": "header-top-order",
+      "maxHeigth": "72px"
+    }
+  },
+  "image#logo-header-order": {
+    "props": {
+      "src": "/arquivos/masxmenos-logo.png",
+      "link": {
+        "url": "/"
+      },
+      "width": "196px",
+      "blockClass": "image-method"
+    }
+  },
+  "flex-layout.row#header-cell-1": {
+    "children": ["image#logo-header-order"],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "blockClass": "cell-header-container"
+    }
+  },
+
+  "flex-layout.row#bottom-header-order": {
+    "children": [
+      "flex-layout.row#first-step",
+      "flex-layout.row#second-step",
+      "flex-layout.row#third-step",
+      "flex-layout.row#four-step"
+    ],
+    "props": {
+      "blockClass": "header-bottom-order",
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.row#four-step": {
+    "children": [
+      "rich-text#four-number-step",
+      "rich-text#four-name-step",
+      "image#four-icon-step"
+    ],
+    "props": {
+      "blockClass": "step-class-order",
+
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#four-number-step": {
+    "props": {
+      "text": "4",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "step-number-header"
+    }
+  },
+
+  "rich-text#four-name-step": {
+    "props": {
+      "text": "Confirmación",
+      "width": "39%",
+      "textAlignment": "center",
+
+      "blockClass": "step-name-header"
+    }
+  },
+  "image#four-icon-step": {
+    "props": {
+      "src": "assets/icon_package.svg",
+      "blockClass": "image-method"
+    }
+  },
+  "flex-layout.row#third-step": {
+    "children": [
+      "rich-text#third-number-step",
+      "rich-text#third-name-step",
+      "image#third-icon-step"
+    ],
+    "props": {
+      "blockClass": "step-class-order-3",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#third-number-step": {
+    "props": {
+      "text": "3",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "step-number-header--disabled"
+    }
+  },
+  "rich-text#third-name-step": {
+    "props": {
+      "text": "Elige tu pago y envío",
+      "width": "65%",
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "step-name-header--disabled"
+    }
+  },
+  "image#third-icon-step": {
+    "props": {
+      "src": "assets/icon_send.svg",
+      "blockClass": "image-method--disabled",
+      "width": "auto"
+    }
+  },
+  "flex-layout.row#second-step": {
+    "children": [
+      "rich-text#second-number-step",
+      "rich-text#second-name-step",
+      "image#second-icon-step"
+    ],
+    "props": {
+      "blockClass": "step-class-order",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#second-number-step": {
+    "props": {
+      "text": "2",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "step-number-header--disabled"
+    }
+  },
+  "rich-text#second-name-step": {
+    "props": {
+      "text": "Completa tus datos",
+      "width": "44%",
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "step-name-header--disabled"
+    }
+  },
+  "image#second-icon-step": {
+    "props": {
+      "src": "assets/icon_mail.svg",
+      "blockClass": "image-method--disabled",
+      "width": "auto"
+    }
+  },
+  "flex-layout.row#first-step": {
+    "children": [
+      "rich-text#first-number-step",
+      "rich-text#first-name-step",
+      "flex-layout.row#first-icon"
+    ],
+    "props": {
+      "blockClass": "step-class-order",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#first-number-step": {
+    "props": {
+      "text": "1",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "step-number-header--disabled"
+    }
+  },
+  "rich-text#first-name-step": {
+    "props": {
+      "text": "Verifica tu pedido",
+      "width": "65%",
+      "textAlignment": "left",
+      "textPosition": "left",
+      "blockClass": "step-name-header--disabled"
+    }
+  },
+  "image#first-icon-step": {
+    "props": {
+      "src": "assets/icon_bag.svg",
+      "blockClass": "image-method--disabled",
+      "width": "auto"
+    }
+  },
+  "flex-layout.row#first-icon": {
+    "children": ["image#first-icon-step"],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "imagen-step-header",
+      "preventHorizontalStretch": true
+    }
+  }
+}

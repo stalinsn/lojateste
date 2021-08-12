@@ -1,0 +1,669 @@
+{
+  "vtex.menu@2.x:submenu#moda": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#moda-menu-line-2"
+    ]
+  },
+  "flex-layout.row#moda-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#moda-menu-line-2-columna-1",
+      "flex-layout.col#moda-menu-line-2-columna-2",
+      "flex-layout.col#moda-menu-line-2-columna-3",
+      "flex-layout.col#moda-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#moda-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#moda-menu-line-2-columna-2-line-1",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#moda-menu-line-2-columna-2-line-2",
+      "menu-item#moda-menu-line-3-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-1-line-2",
+      "menu-item#moda-menu-line-3-columna-1-line-3",
+      "menu-item#moda-menu-line-3-columna-1-line-4",
+      "menu-item#moda-menu-line-3-columna-1-line-5"
+    ]
+  },
+  "menu-item#moda-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/relojes/",
+        "noFollow": true,
+        "tagTitle": "Relojes",
+        "text": "Relojes"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-2-columna-2"
+    ]*/
+  },
+  "submenu#moda-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#moda-menu-line-2-columna-1-columna-2-line-4"
+    ]
+  },
+  "menu-item#moda-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/relojes/moda",
+        "noFollow": true,
+        "tagTitle": "Moda",
+        "text": "Moda"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/relojes/monitores-y-deportivos",
+        "noFollow": true,
+        "tagTitle": "Monitores y deportivos",
+        "text": "Monitores y deportivos"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/relojes/smartwatches",
+        "noFollow": true,
+        "tagTitle": "Smartwatches",
+        "text": "Smartwatches"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/relojes/correas-y-accesorios",
+        "noFollow": true,
+        "tagTitle": "Correas y Accesorios",
+        "text": "Correas y Accesorios"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/joyeria/",
+        "noFollow": true,
+        "tagTitle": "Joyería",
+        "text": "Joyería"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-3-columna-1"
+    ]*/
+  },
+  "submenu#moda-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-3-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-1-line-2",
+      "menu-item#moda-menu-line-3-columna-1-line-3",
+      "menu-item#moda-menu-line-3-columna-1-line-4",
+      "menu-item#moda-menu-line-3-columna-1-line-5"
+    ]
+  },
+  "menu-item#moda-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/joyeria/anillos",
+        "noFollow": true,
+        "tagTitle": "Anillos",
+        "text": "Anillos"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/joyeria/aretes",
+        "noFollow": true,
+        "tagTitle": "Aretes",
+        "text": "Aretes"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/joyeria/collares-y-dijes",
+        "noFollow": true,
+        "tagTitle": "Collares y Dijes",
+        "text": "Collares y Dijes"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/joyeria/pulseras",
+        "noFollow": true,
+        "tagTitle": "Pulseras",
+        "text": "Pulseras"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/joyeria/sets",
+        "noFollow": true,
+        "tagTitle": "Sets",
+        "text": "Sets"
+      }
+    }
+  },
+  "flex-layout.col#moda-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#moda-menu-line-2-columna-3-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#moda-menu-line-2-columna-3-line-2",
+      "menu-item#moda-menu-line-3-columna-4-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-4-columna-1-line-2",
+      "menu-item#moda-menu-line-4-columna-4-line-3",
+      "menu-item#moda-menu-line-3-columna-5-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-5-columna-1-line-2",
+      "menu-item#moda-menu-line-4-columna-4-line-4",
+      "menu-item#moda-menu-line-3-columna-6-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-6-columna-1-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/lentes/",
+        "noFollow": true,
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-2-columna-3"
+    ]*/
+  },
+  "submenu#moda-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-1-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/lentes/solares",
+        "noFollow": true,
+        "tagTitle": "Solares",
+        "text": "Solares"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/lentes/oftalmologicos",
+        "noFollow": true,
+        "tagTitle": "Oftalmólogicos",
+        "text": "Oftalmólogicos"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-3-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/bolsas-y-carteras/",
+        "noFollow": true,
+        "tagTitle": "Bolsas y Carteras",
+        "text": "Bolsas y Carteras"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-3-columna-4"
+    ]*/
+  },
+  "submenu#moda-line-3-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-3-columna-4-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-4-columna-1-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-3-columna-4-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/bolsas-y-carteras/bolsas",
+        "noFollow": true,
+        "tagTitle": "Bolsas",
+        "text": "Bolsas"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-3-columna-4-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/bolsas-y-carteras/carteras",
+        "noFollow": true,
+        "tagTitle": "Carteras",
+        "text": "Carteras"
+      }
+    }
+  },
+
+  "menu-item#moda-menu-line-4-columna-4-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/articulos-escolares/",
+        "noFollow": true,
+        "tagTitle": "Articulos Escolares",
+        "text": "Articulos Escolares"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-3-columna-5"
+    ]*/
+  },
+  "submenu#moda-line-3-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-3-columna-5-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-5-columna-1-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-3-columna-5-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/articulos-escolares/loncheras",
+        "noFollow": true,
+        "tagTitle": "Loncheras",
+        "text": "Loncheras"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-3-columna-5-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/articulos-escolares/lapicras-y-estuches",
+        "noFollow": true,
+        "tagTitle": "Lapiceras y Estuches",
+        "text": "Lapiceras y Estuches"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-4-columna-4-line-4": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/mochilas/",
+        "noFollow": true,
+        "tagTitle": "Mochilas",
+        "text": "Mochilas"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-3-columna-6"
+    ]*/
+  },
+  "submenu#moda-line-3-columna-6": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-3-columna-6-columna-1-line-1",
+      "menu-item#moda-menu-line-3-columna-6-columna-1-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-3-columna-6-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/mochilas/mochilas-deportivas/",
+        "noFollow": true,
+        "tagTitle": "Mochilas Deportivas",
+        "text": "Mochilas Deportivas"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-3-columna-6-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/mochilas/mochilas-escolares",
+        "noFollow": true,
+        "tagTitle": "Mochilas Escolares",
+        "text": "Mochilas Escolares"
+      }
+    }
+  },
+  "flex-layout.col#moda-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#moda-menu-line-2-columna-3-line-3",
+      "menu-item#moda-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#moda-menu-line-3-columna-3-line-3",
+      "menu-item#moda-menu-line-4-columna-3-line-1",
+      "menu-item#moda-menu-line-4-columna-3-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/maletas-y-articulos-de-viaje/",
+        "noFollow": true,
+        "tagTitle": "Maletas y Artículos De Viaje",
+        "text": "Maletas y Artículos De Viaje"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-2-columna-4"
+    ]*/
+  },
+  "submenu#moda-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-4-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/maletas-y-articulos-de-viaje/maletas",
+        "noFollow": true,
+        "tagTitle": "Maletas",
+        "text": "Maletas"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/maletas-y-articulos-de-viaje/sets-de-maletas",
+        "noFollow": true,
+        "tagTitle": "Sets de Maletas",
+        "text": "Sets de Maletas"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-3-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/accesorios-de-moda/",
+        "noFollow": true,
+        "tagTitle": "Accesorios de Moda",
+        "text": "Accesorios de Moda"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-3-columna-3"
+    ]*/
+  },
+  "submenu#moda-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-4-columna-3-line-1",
+      "menu-item#moda-menu-line-4-columna-3-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-4-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/accesorios-de-moda/gorras",
+        "noFollow": true,
+        "tagTitle": "Gorras",
+        "text": "Gorras"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-4-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/accesorios-de-moda/cinturones",
+        "noFollow": true,
+        "tagTitle": "Cinturones",
+        "text": "Cinturones"
+      }
+    }
+  },
+  "flex-layout.col#moda-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#moda-menu-line-2-columna-5-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#moda-menu-line-2-columna-5-line-2-ver-todos"
+    ]
+  },
+  "menu-item#moda-menu-line-2-columna-5-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/otros-accesorios/",
+        "noFollow": true,
+        "tagTitle": "Otros Accesorios",
+        "text": "Otros Accesorios"
+      }
+    }
+    /*"blocks": [
+      "submenu#moda-line-2-columna-5"
+    ]*/
+  },
+  "submenu#moda-line-2-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#moda-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#moda-menu-line-2-columna-3-columna-5-line-2"
+    ]
+  },
+  "menu-item#moda-menu-line-2-columna-5-line-2-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios?map=departamento",
+        "noFollow": true,
+        "tagTitle": "VER TODOS MODA Y ACCESORIOS",
+        "text": "VER TODOS MODA Y ACCESORIOS"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-3-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/otros-accesorios/encendedores",
+        "noFollow": true,
+        "tagTitle": "Encendedores",
+        "text": "Encendedores"
+      }
+    }
+  },
+  "menu-item#moda-menu-line-2-columna-3-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda-y-accesorios/otros-accesorios/plumas",
+        "noFollow": true,
+        "tagTitle": "Plumas",
+        "text": "Plumas"
+      }
+    }
+  }
+}

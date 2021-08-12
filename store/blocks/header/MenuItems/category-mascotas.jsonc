@@ -1,0 +1,606 @@
+{
+  "vtex.menu@2.x:submenu#mascotas": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mascotas-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mascotas-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mascotas-menu-line-2-columna-1",
+      "flex-layout.col#mascotas-menu-line-2-columna-2",
+      "flex-layout.col#mascotas-menu-line-2-columna-3",
+      "flex-layout.col#mascotas-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#mascotas-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-2-columna-2-line-1",
+      "menu-item#mascotas-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#mascotas-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#mascotas-menu-line-2-columna-2-line-2",
+      "menu-item#mascotas-menu-line-3-columna-1-line-1",
+      "menu-item#mascotas-menu-line-3-columna-1-line-2",
+      "menu-item#mascotas-menu-line-3-columna-1-line-3",
+      "menu-item#mascotas-menu-line-3-columna-1-line-4",
+      "menu-item#mascotas-menu-line-3-columna-1-line-5",
+      "menu-item#mascotas-menu-line-3-columna-1-line-6"
+    ]
+  },
+  "menu-item#mascotas-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/aves/",
+        "noFollow": true,
+        "tagTitle": "Aves",
+        "text": "Aves"
+      }
+    }
+    /*"blocks": [
+      "submenu#mascotas-line-2-columna-2"
+    ]*/
+  },
+  "submenu#mascotas-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#mascotas-menu-line-2-columna-1-columna-2-line-2"
+    ]
+  },
+  "menu-item#mascotas-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/aves/jaulas-y-nidos",
+        "noFollow": true,
+        "tagTitle": "Jaulas y Nidos",
+        "text": "Jaulas y Nidos"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/aves/comederos-y-bebederos",
+        "noFollow": true,
+        "tagTitle": "Comederos y Bebederos",
+        "text": "Comederos y Bebederos"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/gatos/",
+        "noFollow": true,
+        "tagTitle": "Gatos",
+        "text": "Gatos"
+      }
+    }
+    /*"blocks": [
+      "submenu#mascotas-line-3-columna-1"
+    ]*/
+  },
+  "submenu#mascotas-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-3-columna-1-line-1",
+      "menu-item#mascotas-menu-line-3-columna-1-line-2",
+      "menu-item#mascotas-menu-line-3-columna-1-line-3",
+      "menu-item#mascotas-menu-line-3-columna-1-line-4",
+      "menu-item#mascotas-menu-line-3-columna-1-line-5",
+      "menu-item#mascotas-menu-line-3-columna-1-line-6"
+    ]
+  },
+  "menu-item#mascotas-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/gatos/alimentos-premios-y-gatos",
+        "noFollow": true,
+        "tagTitle": "Alimentos, Premios y Suplementos",
+        "text": "Alimentos, Premios y Suplementos"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/gatos/arena-y-areneros",
+        "noFollow": true,
+        "tagTitle": "Arena y Areneros",
+        "text": "Arena y Areneros"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/gatos/comederos-y-bebederos",
+        "noFollow": true,
+        "tagTitle": "Comederos y Bebederos",
+        "text": "Comederos y Bebederos"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/gatos/estetica-y-cuidado",
+        "noFollow": true,
+        "tagTitle": "Estética y Cuidado",
+        "text": "Estética y Cuidado"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/gatos/jueguetes",
+        "noFollow": true,
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/gatos/rascaderos-y-rampas",
+        "noFollow": true,
+        "tagTitle": "Rascaderos y Rampas",
+        "text": "Rascaderos y Rampas"
+      }
+    }
+  },
+  "flex-layout.col#mascotas-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-2-columna-3-line-1",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-9"
+    ]
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/",
+        "noFollow": true,
+        "tagTitle": "Perros",
+        "text": "Perros"
+      }
+    }
+    /*"blocks": [
+      "submenu#mascotas-line-2-columna-3"
+    ]*/
+  },
+  "submenu#mascotas-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-9"
+    ]
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/alimentos-premios-y-suplementos",
+        "noFollow": true,
+        "tagTitle": "Alimentos, Premios y Suplementos",
+        "text": "Alimentos, Premios y Suplementos"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/comederos-y-bebederos",
+        "noFollow": true,
+        "tagTitle": "Comederos y Bebederos",
+        "text": "Comederos y Bebederos"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/camas-y-tapetes",
+        "noFollow": true,
+        "tagTitle": "Camas y Tapetes",
+        "text": "Camas y Tapetes"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/jaulas-transportadoras-y-casas",
+        "noFollow": true,
+        "tagTitle": "Jaulas, Transportadoras y Casas",
+        "text": "Jaulas, Transportadoras y Casas"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/estetica-e-higiene",
+        "noFollow": true,
+        "tagTitle": "Estética e Higiene",
+        "text": "Estética e Higiene"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/cajoneras-y-comodas",
+        "noFollow": true,
+        "tagTitle": "Cajoneras y Cómodas",
+        "text": "Cajoneras y Cómodas"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/ropa-y-accesorios",
+        "noFollow": true,
+        "tagTitle": "Ropa y Accesorios",
+        "text": "Ropa y Accesorios"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/adiestramiento",
+        "noFollow": true,
+        "tagTitle": "Adiestramiento",
+        "text": "Adiestramiento"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/juguetes",
+        "noFollow": true,
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
+      }
+    }
+  },
+  "flex-layout.col#mascotas-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-2-columna-3-line-3",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#mascotas-menu-line-3-columna-3-line-3",
+      "menu-item#mascotas-menu-line-4-columna-3-line-1",
+      "menu-item#mascotas-menu-line-4-columna-3-line-2",
+      "menu-item#mascotas-menu-line-4-columna-3-line-3"
+    ]
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/peces/",
+        "noFollow": true,
+        "tagTitle": "Peces",
+        "text": "Peces"
+      }
+    }
+    /*"blocks": [
+      "submenu#mascotas-line-2-columna-4"
+    ]*/
+  },
+  "submenu#mascotas-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-4-line-2"
+    ]
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/acuarios-y-peceras/",
+        "noFollow": true,
+        "tagTitle": "Acuarios y Peceras",
+        "text": "Acuarios y Peceras"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/perros/accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-3-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/roedores/",
+        "noFollow": true,
+        "tagTitle": "Roedores",
+        "text": "Roedores"
+      }
+    }
+    /*"blocks": [
+      "submenu#mascotas-line-3-columna-3"
+    ]*/
+  },
+  "submenu#mascotas-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-4-columna-3-line-1",
+      "menu-item#mascotas-menu-line-4-columna-3-line-2",
+      "menu-item#mascotas-menu-line-4-columna-3-line-3"
+    ]
+  },
+  "menu-item#mascotas-menu-line-4-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/roedores/habitats-y-jaulas",
+        "noFollow": true,
+        "tagTitle": "Hábitats y Jaulas",
+        "text": "Hábitats y Jaulas"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-4-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/roedores/comederos-y-bebederos",
+        "noFollow": true,
+        "tagTitle": "Comederos y Bebederos",
+        "text": "Comederos y Bebederos"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-4-columna-3-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/roedores/juguetes",
+        "noFollow": true,
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
+      }
+    }
+  },
+  "flex-layout.col#mascotas-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-2-columna-5-line-1",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#mascotas-menu-line-2-columna-5-line-1-ver-todos"
+    ]
+  },
+  "menu-item#mascotas-menu-line-2-columna-5-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/reptiles/",
+        "noFollow": true,
+        "tagTitle": "Reptiles",
+        "text": "Reptiles"
+      }
+    }
+    /*"blocks": [
+      "submenu#mascotas-line-2-columna-5"
+    ]*/
+  },
+  "menu-item#mascotas-menu-line-2-columna-5-line-1-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas?map=departamento",
+        "noFollow": true,
+        "tagTitle": "VER TODOS MASCOTAS",
+        "text": "VER TODOS MASCOTAS"
+      }
+    }
+  },
+  "submenu#mascotas-line-2-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mascotas-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#mascotas-menu-line-2-columna-3-columna-5-line-2"
+    ]
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/reptiles/alimentos",
+        "noFollow": true,
+        "tagTitle": "Alimentos",
+        "text": "Alimentos"
+      }
+    }
+  },
+  "menu-item#mascotas-menu-line-2-columna-3-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/reptiles/accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  }
+}

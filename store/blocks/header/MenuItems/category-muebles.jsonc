@@ -1,0 +1,718 @@
+{
+  "vtex.menu@2.x:submenu#muebles": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#muebles-menu-line-2"
+    ]
+  },
+  "flex-layout.row#muebles-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#muebles-menu-line-2-columna-1",
+      "flex-layout.col#muebles-menu-line-2-columna-2",
+      "flex-layout.col#muebles-menu-line-2-columna-3",
+      "flex-layout.col#muebles-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#muebles-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-2-columna-2-line-1",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#muebles-menu-line-2-columna-2-line-2",
+      "menu-item#muebles-menu-line-3-columna-1-line-1",
+      "menu-item#muebles-menu-line-3-columna-1-line-2"
+    ]
+  },
+  "menu-item#muebles-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/sala/",
+        "noFollow": true,
+        "tagTitle": "Sala",
+        "text": "Sala"
+      }
+    }
+    /*"blocks": [
+      "submenu#muebles-line-2-columna-2"
+    ]*/
+  },
+  "submenu#muebles-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#muebles-menu-line-2-columna-1-columna-2-line-7"
+    ]
+  },
+  "menu-item#muebles-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/sala/muebles-para-tv",
+        "noFollow": true,
+        "tagTitle": "Muebles para TV",
+        "text": "Muebles para TV"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/sala/salas",
+        "noFollow": true,
+        "tagTitle": "Salas",
+        "text": "Salas"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/sala/sillones-y-sofas",
+        "noFollow": true,
+        "tagTitle": "Sillones y Sofás",
+        "text": "Sillones y Sofás"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/sala/mesas-auxiliares",
+        "noFollow": true,
+        "tagTitle": "Mesas Auxiliares",
+        "text": "Mesas Auxiliares"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-1-columna-2-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/sala/reclinables",
+        "noFollow": true,
+        "tagTitle": "Reclinables",
+        "text": "Reclinables"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-1-columna-2-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/sala/puffs-y-taburetes",
+        "noFollow": true,
+        "tagTitle": "Puff y Taburetes",
+        "text": "Puff y Taburetes"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-1-columna-2-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/sala/repisas",
+        "noFollow": true,
+        "tagTitle": "Repisas",
+        "text": "Repisas"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-baño/",
+        "noFollow": true,
+        "tagTitle": "Muebles de Baño",
+        "text": "Muebles de Baño"
+      }
+    }
+    /*"blocks": [
+      "submenu#muebles-line-3-columna-1"
+    ]*/
+  },
+  "submenu#muebles-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-3-columna-1-line-1",
+      "menu-item#muebles-menu-line-3-columna-1-line-2"
+    ]
+  },
+  "menu-item#muebles-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-baño/estantes",
+        "noFollow": true,
+        "tagTitle": "Estantes",
+        "text": "Estantes"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-baño/gabinetes",
+        "noFollow": true,
+        "tagTitle": "Gabinetes",
+        "text": "Gabinetes"
+      }
+    }
+  },
+  "flex-layout.col#muebles-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-2-columna-3-line-1",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-11"
+    ]
+  },
+  "menu-item#muebles-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/",
+        "noFollow": true,
+        "tagTitle": "Recámara",
+        "text": "Recámara"
+      }
+    }
+    /*"blocks": [
+      "submenu#muebles-line-2-columna-3"
+    ]*/
+  },
+  "submenu#muebles-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#muebles-menu-line-2-columna-3-columna-1-line-11"
+    ]
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/recamaras",
+        "noFollow": true,
+        "tagTitle": "Recámaras",
+        "text": "Recámaras"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/camas",
+        "noFollow": true,
+        "tagTitle": "Camas",
+        "text": "Camas"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/bases-de-cama",
+        "noFollow": true,
+        "tagTitle": "Bases de Cama",
+        "text": "Bases de Cama"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/cabeceras",
+        "noFollow": true,
+        "tagTitle": "Cabeceras",
+        "text": "Cabeceras"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/burdos",
+        "noFollow": true,
+        "tagTitle": "Burós",
+        "text": "Burós"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/cajoneras-y-comodas",
+        "noFollow": true,
+        "tagTitle": "Cajoneras y Cómodas",
+        "text": "Cajoneras y Cómodas"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/closets-y-armarios",
+        "noFollow": true,
+        "tagTitle": "Closets y Armarios",
+        "text": "Closets y Armarios"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/zapateras-y-baules",
+        "noFollow": true,
+        "tagTitle": "Zapateras y Baúles",
+        "text": "Zapateras y Baúles"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/mesas-y-sillas-infantiles",
+        "noFollow": true,
+        "tagTitle": "Mesas y Sillas Infantiles",
+        "text": "Mesas y Sillas Infantiles"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/literas",
+        "noFollow": true,
+        "tagTitle": "Literas",
+        "text": "Literas"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-1-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/recamara/planchado",
+        "noFollow": true,
+        "tagTitle": "Planchado",
+        "text": "Planchado"
+      }
+    }
+  },
+  "flex-layout.col#muebles-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-2-columna-3-line-3",
+      "menu-item#muebles-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#muebles-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#muebles-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#muebles-menu-line-3-columna-3-line-3",
+      "menu-item#muebles-menu-line-4-columna-3-line-1",
+      "menu-item#muebles-menu-line-4-columna-3-line-2",
+      "menu-item#muebles-menu-line-4-columna-3-line-3",
+      "menu-item#muebles-menu-line-4-columna-3-line-4"
+    ]
+  },
+  "menu-item#muebles-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-cocina/",
+        "noFollow": true,
+        "tagTitle": "Muebles De Cocina",
+        "text": "Muebles De Cocina"
+      }
+    }
+    /*"blocks": [
+      "submenu#muebles-line-2-columna-4"
+    ]*/
+  },
+  "submenu#muebles-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#muebles-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#muebles-menu-line-2-columna-3-columna-4-line-3"
+    ]
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-cocina/portagarrafon",
+        "noFollow": true,
+        "tagTitle": "Portagarrafón",
+        "text": "Portagarrafón"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-cocina/alacenas-y-despenseros",
+        "noFollow": true,
+        "tagTitle": "Alacenas y Despenseros",
+        "text": "Alacenas y Despenseros"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-cocina/cocinas-integrales",
+        "noFollow": true,
+        "tagTitle": "Cocinas Integrales",
+        "text": "Cocinas Integrales"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-3-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/oficina/",
+        "noFollow": true,
+        "tagTitle": "Oficina",
+        "text": "Oficina"
+      }
+    }
+    /*"blocks": [
+      "submenu#muebles-line-3-columna-3"
+    ]*/
+  },
+  "submenu#muebles-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-4-columna-3-line-1",
+      "menu-item#muebles-menu-line-4-columna-3-line-2",
+      "menu-item#muebles-menu-line-4-columna-3-line-3",
+      "menu-item#muebles-menu-line-4-columna-3-line-4"
+    ]
+  },
+  "menu-item#muebles-menu-line-4-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/oficina/escritorios",
+        "noFollow": true,
+        "tagTitle": "Escritorios",
+        "text": "Escritorios"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-4-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/oficina/libreros-y-estantes",
+        "noFollow": true,
+        "tagTitle": "Libreros y Estantes",
+        "text": "Libreros y Estantes"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-4-columna-3-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/oficina/sillas",
+        "noFollow": true,
+        "tagTitle": "Sillas",
+        "text": "Sillas"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-4-columna-3-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/oficina/cajoneras-y-archiveros",
+        "noFollow": true,
+        "tagTitle": "Cajoneras y Archiveros",
+        "text": "Cajoneras y Archiveros"
+      }
+    }
+  },
+  "flex-layout.col#muebles-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-2-columna-5-line-1",
+      "menu-item#muebles-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#muebles-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#muebles-menu-line-2-columna-3-columna-5-line-3",
+      "menu-item#muebles-menu-line-2-columna-3-columna-5-line-4",
+      "menu-item#muebles-menu-line-2-columna-5-line-1-ver-todos"
+    ]
+  },
+  "menu-item#muebles-menu-line-2-columna-5-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/comedores-y-antecomedores/",
+        "noFollow": true,
+        "tagTitle": "Comedores y Antecomedores",
+        "text": "Comedores y Antecomedores"
+      }
+    }
+    /*"blocks": [
+      "submenu#muebles-line-2-columna-5"
+    ]*/
+  },
+  "menu-item#muebles-menu-line-2-columna-5-line-1-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-muebles/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS MUEBLES",
+        "text": "VER TODOS MUEBLES"
+      }
+    }
+  },
+  "submenu#muebles-line-2-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#muebles-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#muebles-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#muebles-menu-line-2-columna-3-columna-5-line-3",
+      "menu-item#muebles-menu-line-2-columna-3-columna-5-line-4"
+    ]
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/comedores-y-antecomedores/mesas",
+        "noFollow": true,
+        "tagTitle": "Mesas",
+        "text": "Mesas"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/comedores-y-antecomedores/sillas-y-bancos",
+        "noFollow": true,
+        "tagTitle": "Sillas y Bancos",
+        "text": "Sillas y Bancos"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-5-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/comedores-y-antecomedores/estantes-y-buffeteras",
+        "noFollow": true,
+        "tagTitle": "Estantes y Buffeteras",
+        "text": "Estantes y Buffeteras"
+      }
+    }
+  },
+  "menu-item#muebles-menu-line-2-columna-3-columna-5-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/comedores-y-antecomedores/cantinas",
+        "noFollow": true,
+        "tagTitle": "Cantinas",
+        "text": "Cantinas"
+      }
+    }
+  }
+}

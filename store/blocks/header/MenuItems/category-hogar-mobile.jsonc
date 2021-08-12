@@ -1,0 +1,522 @@
+{
+  "submenu.accordion#mobile-hogar": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-hogar-menu-line-2"
+    ]
+  },
+  "flex-layout.row#mobile-hogar-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-hogar-vertodos",
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-1",
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-2",
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-3",
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-4",
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-5",
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-6",
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-7"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-hogar-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-hogar-vertodos"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-3-line-hogar-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-6": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/mesa/",
+        "noFollow": true,
+        "tagTitle": "Mesa",
+        "text": "Mesa"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-nabb-1"
+    ]
+  },
+  "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-nabb-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-hogar-menu-line-9"
+    ]
+  },
+  "flex-layout.row#mobile-hogar-menu-line-9": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-hogar-vertodos",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-6"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-7": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-2-line-nabb"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-2-line-nabb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/patio-y-jardin/",
+        "noFollow": true,
+        "tagTitle": "Patio y Jardín",
+        "text": "Patio y Jardín"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-nabb"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-nabb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-nabb-vertodos"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-3-line-nabb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/patio-y-jardin/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-hogar-menu-line-8": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-nabb-vertodos",
+      "menu-item#hogar-menu-line-5-columna-5-line-1",
+      "menu-item#hogar-menu-line-5-columna-5-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-nabb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-hogar-menu-line-8"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-5": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/closets-y-lavanderia/",
+        "noFollow": true,
+        "tagTitle": "Closets y Lavandería",
+        "text": "Closets y Lavandería"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-nobb"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-nobb-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-nobb-vertodos"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-3-line-nobb-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/closets-y-lavanderia/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-hogar-menu-line-7": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-nobb-vertodos",
+      "menu-item#hogar-menu-line-4-columna-3-line-1",
+      "menu-item#hogar-menu-line-4-columna-3-line-2",
+      "menu-item#hogar-menu-line-4-columna-3-line-3"
+    ]
+  },
+  "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-nobb": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-hogar-menu-line-7"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-1-line-no": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/",
+        "noFollow": true,
+        "tagTitle": "Blancos",
+        "text": "Blancos"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-no"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-nino-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-nino-vertodos"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-3-line-nino-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-hogar-menu-line-6": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-nino-vertodos",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-6"
+    ]
+  },
+  "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-no": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-hogar-menu-line-6"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-1-line-na": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/",
+        "noFollow": true,
+        "tagTitle": "Decoración",
+        "text": "Decoración"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-na"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-nina-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-nina-vertodos"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-3-line-nina-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-hogar-menu-line-5": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-nina-vertodos",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-na": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-hogar-menu-line-5"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-1-line-h": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bano/",
+        "noFollow": true,
+        "tagTitle": "Baño",
+        "text": "Baño"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-h"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-hombre-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-3-line-hombre-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bano/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-hogar-menu-line-4": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-hombre-vertodos",
+      "menu-item#hogar-menu-line-3-columna-1-line-1",
+      "menu-item#hogar-menu-line-3-columna-1-line-2"
+    ]
+  },
+  "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-h": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-hogar-menu-line-4"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-1-line-m": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-m"
+    ]
+  },
+  "flex-layout.col#mobile-hogar-menu-line-2-columna-mujer-vertodos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-hogar-menu-line-2-columna-3-line-mujer-vertodos"
+    ]
+  },
+  "menu-item#mobile-hogar-menu-line-2-columna-3-line-mujer-vertodos": {
+    "props": {
+      "blockClass": "title-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
+    }
+  },
+  "flex-layout.row#mobile-hogar-menu-line-3": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-hogar-menu-line-2-columna-mujer-vertodos",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-8",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-9"
+    ]
+  },
+  "submenu.accordion#mobile-hogar-menu-line-2-columna-1-line-m": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile-hogar-menu-line-3"
+    ]
+  }
+}

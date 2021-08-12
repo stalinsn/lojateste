@@ -1,0 +1,431 @@
+{
+  "vtex.menu@2.x:submenu#colchones": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#colchones-menu-line-2"
+    ]
+  },
+  "flex-layout.row#colchones-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#colchones-menu-line-2-columna-1",
+      "flex-layout.col#colchones-menu-line-2-columna-2",
+      "flex-layout.col#colchones-menu-line-2-columna-3",
+      "flex-layout.col#colchones-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#colchones-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false",
+      "width": "20%"
+    },
+    "children": [
+      "menu-item#colchones-menu-line-2-columna-1-line-2",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-1",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-2",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-3",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-4",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-ver-todos"
+    ]
+  },
+  "flex-layout.col#colchones-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false",
+      "width": "20%"
+    },
+    "children": [
+      "menu-item#colchones-menu-line-2-columna-3-line-4",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-1",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-2",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-3",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-4",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-5"
+    ]
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/boxes/",
+        "noFollow": true,
+        "tagTitle": "Boxes",
+        "text": "Boxes"
+      }
+    }
+    /*"blocks": [
+      "submenu#colchones-menu-line-2-columna-1-line-1"
+    ]*/
+  },
+  "submenu#colchones-menu-line-2-columna-1-line-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-1",
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-2",
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-3"
+    ]
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "//colchones-y-boxes/boxes/individual",
+        "noFollow": true,
+        "tagTitle": "Individual",
+        "text": "Individual"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/boxes/matrimonial",
+        "noFollow": true,
+        "tagTitle": "Matrimonial",
+        "text": "Matrimonial"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/boxes/queen-size",
+        "noFollow": true,
+        "tagTitle": "Queen Size",
+        "text": "Queen Size"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones-en-caja/",
+        "noFollow": true,
+        "tagTitle": "Colchones En Caja",
+        "text": "Colchones En Caja"
+      }
+    }
+    /*"blocks": [
+      "submenu#colchones-menu-line-2-columna-1-line-2"
+    ]*/
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-2-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-colchones-y-boxes/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS COLCHONES Y BOXES",
+        "text": "VER TODOS COLCHONES Y BOXES"
+      }
+    }
+  },
+  "submenu#colchones-menu-line-2-columna-1-line-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-1",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-2",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-3",
+      "menu-item#colchones-menu-line-2-columna-1-line-2-line-4"
+    ]
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones-en-caja/individual",
+        "noFollow": true,
+        "tagTitle": "Individual",
+        "text": "Individual"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones-en-caja/matrimonial",
+        "noFollow": true,
+        "tagTitle": "Matrimonial",
+        "text": "Matrimonial"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones-en-caja/king-size",
+        "noFollow": true,
+        "tagTitle": "King Size",
+        "text": "King Size"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-1-line-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones-en-caja/queen-size",
+        "noFollow": true,
+        "tagTitle": "Queen Size",
+        "text": "Queen Size"
+      }
+    }
+  },
+  "flex-layout.col#colchones-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false",
+      "width": "20%"
+    },
+    "children": [
+      "menu-item#colchones-menu-line-2-columna-2-line-1",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-1",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-2",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-3",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-4"
+    ]
+  },
+  "menu-item#colchones-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/sets-de-colchones/",
+        "noFollow": true,
+        "tagTitle": "Sets de Colchones",
+        "text": "Sets de Colchones"
+      }
+    }
+    /*"blocks": [
+      "submenu#colchones-menu-line-2-columna-2-line-1"
+    ]*/
+  },
+  "submenu#colchones-menu-line-2-columna-2-line-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-1",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-2",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-3",
+      "menu-item#colchones-menu-line-2-columna-2-line-1-line-4"
+    ]
+  },
+  "menu-item#colchones-menu-line-2-columna-2-line-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/sets-de-colchones/individual",
+        "noFollow": true,
+        "tagTitle": "Individual",
+        "text": "Individual"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-2-line-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/sets-de-colchones/matrimonial",
+        "noFollow": true,
+        "tagTitle": "Matrimonial",
+        "text": "Matrimonial"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-2-line-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/sets-de-colchones/king-size",
+        "noFollow": true,
+        "tagTitle": "King Size",
+        "text": "King Size"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-2-line-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/sets-de-colchones/queen-size",
+        "noFollow": true,
+        "tagTitle": "Queen Size",
+        "text": "Queen Size"
+      }
+    }
+  },
+  "flex-layout.col#colchones-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false",
+      "width": "20%"
+    },
+    "children": [
+      "menu-item#colchones-menu-line-2-columna-1-line-1",
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-1",
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-2",
+      "menu-item#colchones-menu-line-2-columna-1-line-1-line-3"
+
+    ]
+  },
+  "menu-item#colchones-menu-line-2-columna-3-line-4": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones/",
+        "noFollow": true,
+        "tagTitle": "Colchones",
+        "text": "Colchones"
+      }
+    }
+    /*"blocks": [
+      "submenu#colchones-menu-line-2-columna-3-line-4"
+    ]*/
+  },
+  "submenu#colchones-menu-line-2-columna-3-line-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-1",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-2",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-3",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-4",
+      "menu-item#colchones-menu-line-2-columna-3-line-4-line-5"
+    ]
+  },
+  "menu-item#colchones-menu-line-2-columna-3-line-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones/individual",
+        "noFollow": true,
+        "tagTitle": "Individual",
+        "text": "Individual"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-3-line-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones/matrimonial",
+        "noFollow": true,
+        "tagTitle": "Matrimonial",
+        "text": "Matrimonial"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-3-line-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones/king-size",
+        "noFollow": true,
+        "tagTitle": "King Size",
+        "text": "King Size"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-3-line-4-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones/queen-size",
+        "noFollow": true,
+        "tagTitle": "Queen Size",
+        "text": "Queen Size"
+      }
+    }
+  },
+  "menu-item#colchones-menu-line-2-columna-3-line-4-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colchones-y-boxes/colchones/para-cunas",
+        "noFollow": true,
+        "tagTitle": "Para Cunas",
+        "text": "Para Cunas"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+@import "./references";
+
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround,
+.skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer--quickview-fb) {
+  opacity: 1;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+  .container :global(.vtex-modal-layout-0-x-triggerContainer--quickview-fb) {
+    display: block;
+  }
+}
+
+.containerNormal {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 1em;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  box-shadow: 0 3px 8px 0 rgba(135, 139, 169, 0.2);
+
+  @media screen and (min-width: em(1024px)) {
+    height: 450px;
+    position: relative;
+  }
+
+  :global(.vtex-store-components-3-x-listPrice) {
+    justify-content: center;
+  }
+}
+
+:global(.vtex-product-summary-2-x-element) {
+  :global(.vtex-button__label){
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 6px !important;
+  }
+}
+
+.container {
+  :global(.vtex-button){
+    background-color: #0075C9;
+    //border: none;
+    min-height: 32px !important;
+    max-height: 32px !important;
+  }
+
+  :global(.vtex-product-summary-2-x-element) {
+    padding-bottom: 16px;
+  }
+}
+
+:global(.vtex-shelf-1-x-sliderContainer--related-products){
+  :global(.vtex-product-summary-2-x-element) {
+    padding-top: 15px;
+    padding-bottom: 16px;
+  }
+}
+
+:global(.vtex-product-summary-2-x-currencyContainer) {
+  color: #525252;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+:global(.vtex-product-summary-2-x-element) {
+  :global(.vtex-store-components-3-x-priceContainer){
+    text-align: left;
+    width: 100%;
+  }
+
+}
+
+:global(.vtex-product-summary-2-x-nameContainer) {
+  border-bottom: none;
+  height: 62px;
+  align-items: normal;
+  padding-top: 1px;
+
+  @media screen and (max-width: em(1024px)) {
+    height: 80px;
+  }
+}
+
+:global(.vtex-product-summary-2-x-priceContainer) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

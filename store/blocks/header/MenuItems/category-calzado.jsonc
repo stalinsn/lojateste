@@ -1,0 +1,447 @@
+{
+  "vtex.menu@2.x:submenu#calzado": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#calzado-menu-line-2"
+    ]
+  },
+  "flex-layout.row#calzado-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#calzado-menu-line-2-columna-1",
+      "flex-layout.col#calzado-menu-line-2-columna-2",
+      "flex-layout.col#calzado-menu-line-2-columna-3"
+    ]
+  },
+  "flex-layout.col#calzado-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#calzado-menu-line-2-columna-2-line-1",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#calzado-menu-line-2-columna-2-line-2",
+      "menu-item#calzado-menu-line-3-columna-1-line-1",
+      "menu-item#calzado-menu-line-3-columna-1-line-2"
+    ]
+  },
+  "menu-item#calzado-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-caballero/",
+        "noFollow": true,
+        "tagTitle": "Zapatos de Caballero",
+        "text": "Zapatos de Caballero"
+      }
+    }
+  },
+  "submenu#calzado-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#calzado-menu-line-2-columna-1-columna-2-line-6"
+    ]
+  },
+  "menu-item#calzado-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-caballero/botas",
+        "noFollow": true,
+        "tagTitle": "Botas",
+        "text": "Botas"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-caballero/confort",
+        "noFollow": true,
+        "tagTitle": "Confort",
+        "text": "Confort"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-caballero/formal",
+        "noFollow": true,
+        "tagTitle": "Formal",
+        "text": "Formal"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-caballero/mocasines",
+        "noFollow": true,
+        "tagTitle": "Mocasines",
+        "text": "Mocasines"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-1-columna-2-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/gimnasio/pesas",
+        "noFollow": true,
+        "tagTitle": "Sandalias",
+        "text": "Sandalias"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-1-columna-2-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-caballero/tenis",
+        "noFollow": true,
+        "tagTitle": "Tenis",
+        "text": "Tenis"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-infantiles/",
+        "noFollow": true,
+        "tagTitle": "Zapatos Infantiles",
+        "text": "Zapatos Infantiles"
+      }
+    }
+    /*"blocks": [
+      "submenu#calzado-line-3-columna-1"
+    ]*/
+  },
+  "submenu#calzado-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#calzado-menu-line-3-columna-1-line-1",
+      "menu-item#calzado-menu-line-3-columna-1-line-2"
+    ]
+  },
+  "menu-item#calzado-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-infantiles/nina",
+        "noFollow": true,
+        "tagTitle": "Niña",
+        "text": "Niña"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-infantiles/nino",
+        "noFollow": true,
+        "tagTitle": "Niño",
+        "text": "Niño"
+      }
+    }
+  },
+  "flex-layout.col#calzado-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#calzado-menu-line-2-columna-3-line-1",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-7"
+    ]
+  },
+  "menu-item#calzado-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/",
+        "noFollow": true,
+        "tagTitle": "Zapatos de Mujer",
+        "text": "Zapatos de Mujer"
+      }
+    }
+    /*"blocks": [
+      "submenu#calzado-line-2-columna-3"
+    ]*/
+  },
+  "submenu#calzado-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#calzado-menu-line-2-columna-3-columna-1-line-7"
+    ]
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/botas",
+        "noFollow": true,
+        "tagTitle": "Botas",
+        "text": "Botas"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/confort",
+        "noFollow": true,
+        "tagTitle": "Confort",
+        "text": "Confort"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/flats",
+        "noFollow": true,
+        "tagTitle": "Flats",
+        "text": "Flats"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/pantunflas",
+        "noFollow": true,
+        "tagTitle": "Pantuflas",
+        "text": "Pantuflas"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/sandalias",
+        "noFollow": true,
+        "tagTitle": "Sandalias",
+        "text": "Sandalias"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/tenis",
+        "noFollow": true,
+        "tagTitle": "Tenis",
+        "text": "Tenis"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/zapatos-de-mujer/zapatillas",
+        "noFollow": true,
+        "tagTitle": "Zapatillas",
+        "text": "Zapatillas"
+      }
+    }
+  },
+  "flex-layout.col#calzado-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#calzado-menu-line-2-columna-3-line-3",
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#calzado-menu-line-2-columna-3-line-3-ver-todos"
+    ]
+  },
+  "menu-item#calzado-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/accesorios-de-calzado/",
+        "noFollow": true,
+        "tagTitle": "Accesorios de Calzado",
+        "text": "Accesorios de Calzado"
+      }
+    }
+    /*"blocks": [
+      "submenu#calzado-line-2-columna-4"
+    ]*/
+  },
+  "menu-item#calzado-menu-line-2-columna-3-line-3-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado?map=departamento",
+        "noFollow": true,
+        "tagTitle": "VER TODOS CALZADO",
+        "text": "VER TODOS CALZADO"
+      }
+    }
+  },
+  "submenu#calzado-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#calzado-menu-line-2-columna-3-columna-4-line-3"
+    ]
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/accesorios-de-calzado/calcetines",
+        "noFollow": true,
+        "tagTitle": "Calcetines",
+        "text": "Calcetines"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/accesorios-de-calzado/limpieza",
+        "noFollow": true,
+        "tagTitle": "Limpieza",
+        "text": "Limpieza"
+      }
+    }
+  },
+  "menu-item#calzado-menu-line-2-columna-3-columna-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/calzado/accesorios-de-calzado/plantillas",
+        "noFollow": true,
+        "tagTitle": "Plantillas",
+        "text": "Plantillas"
+      }
+    }
+  }
+}

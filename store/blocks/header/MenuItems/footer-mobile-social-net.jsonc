@@ -1,0 +1,31 @@
+{
+  "submenu.accordion#footer-mobile-social-net": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-social-net"
+    ]
+  },
+  "flex-layout.row#mobile-social-net": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-social-net"
+    ]
+  },
+
+  "flex-layout.col#mobile-social-net": {
+    "children": [
+      "logo#facebook",
+      "logo#youtube"
+    ],
+    "props": {
+      "blockClass": "mobile-social-net",
+      "preventVerticalStretch": "false"
+    }
+  }
+
+}

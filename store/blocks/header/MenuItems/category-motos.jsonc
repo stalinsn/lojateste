@@ -1,0 +1,327 @@
+{
+  "vtex.menu@2.x:submenu#motos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#motos-menu-line-2"
+    ]
+  },
+  "flex-layout.row#motos-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#motos-menu-line-2-columna-1",
+      "flex-layout.col#motos-menu-line-2-columna-3"
+    ]
+  },
+  "flex-layout.col#motos-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#motos-menu-line-2-columna-1-line-1",
+      "menu-item#motos-line-2-columna-1-columna-1-line-1",
+      "menu-item#motos-line-2-columna-1-columna-1-line-2",
+      "menu-item#motos-line-2-columna-1-columna-1-line-3",
+      "menu-item#motos-line-2-columna-1-columna-1-line-4",
+      "menu-item#motos-menu-line-2-columna-2-line-1-ver-todos"
+    ]
+  },
+  "flex-layout.col#motos-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#motos-menu-line-2-columna-2-line-1",
+      "menu-item#motos-line-2-columna-1-columna-2-line-1",
+      "menu-item#motos-line-2-columna-1-columna-2-line-2",
+      "menu-item#motos-line-2-columna-1-columna-2-line-3",
+      "menu-item#motos-line-2-columna-1-columna-2-line-4",
+      "menu-item#motos-line-2-columna-1-columna-2-line-5",
+      "menu-item#motos-line-2-columna-1-columna-2-line-6",
+      "menu-item#motos-line-2-columna-1-columna-2-line-7",
+      "menu-item#motos-line-2-columna-1-columna-2-line-8",
+      "menu-item#motos-line-2-columna-1-columna-2-line-9",
+      "menu-item#motos-line-2-columna-1-columna-2-line-10"
+    ]
+  },
+  "menu-item#motos-menu-line-2-columna-1-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/accesorios-para-motocicleta/",
+        "noFollow": true,
+        "tagTitle": "Accesorios Para Motocicleta",
+        "text": "Accesorios Para Motocicleta"
+      }
+    }
+    /*"blocks": [
+      "submenu#motos-line-2-columna-1-columna-1"
+    ]*/
+  },
+  "menu-item#motos-menu-line-2-columna-2-line-1-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-motos/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS MOTOS",
+        "text": "VER TODOS LINEA MOTOS"
+      }
+    }
+  },
+  "submenu#motos-line-2-columna-1-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#motos-line-2-columna-1-columna-1-line-1",
+      "menu-item#motos-line-2-columna-1-columna-1-line-2",
+      "menu-item#motos-line-2-columna-1-columna-1-line-3",
+      "menu-item#motos-line-2-columna-1-columna-1-line-4"
+    ]
+  },
+  "menu-item#motos-line-2-columna-1-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/accesorios-para-motocicleta/cascos",
+        "noFollow": true,
+        "tagTitle": "Cascos",
+        "text": "Cascos"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/accesorios-para-motocicleta/ropa",
+        "noFollow": true,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/accesorios-para-motocicleta/llantas-y-refacciones",
+        "noFollow": true,
+        "tagTitle": "Llantas y Refacciones",
+        "text": "Llantas y Refacciones"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/accesorios-para-motocicleta/otros-accesorios",
+        "noFollow": true,
+        "tagTitle": "Otros Accesorios",
+        "text": "Otros Accesorios"
+      }
+    }
+  },
+  "menu-item#motos-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/",
+        "noFollow": true,
+        "tagTitle": "Motocicletas",
+        "text": "Motocicletas"
+      }
+    }
+    /*"blocks": [
+      "submenu#motos-line-2-columna-1-columna-2"
+    ]*/
+  },
+  "submenu#motos-line-2-columna-1-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#motos-line-2-columna-1-columna-2-line-1",
+      "menu-item#motos-line-2-columna-1-columna-2-line-2",
+      "menu-item#motos-line-2-columna-1-columna-2-line-3",
+      "menu-item#motos-line-2-columna-1-columna-2-line-4",
+      "menu-item#motos-line-2-columna-1-columna-2-line-5",
+      "menu-item#motos-line-2-columna-1-columna-2-line-6",
+      "menu-item#motos-line-2-columna-1-columna-2-line-7",
+      "menu-item#motos-line-2-columna-1-columna-2-line-8",
+      "menu-item#motos-line-2-columna-1-columna-2-line-9",
+      "menu-item#motos-line-2-columna-1-columna-2-line-10"
+
+    ]
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/motoneta",
+        "noFollow": true,
+        "tagTitle": "Motoneta",
+        "text": "Motoneta"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/trabajo",
+        "noFollow": true,
+        "tagTitle": "Trabajo",
+        "text": "Trabajo"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/deportiva",
+        "noFollow": true,
+        "tagTitle": "Deportiva",
+        "text": "Deportiva"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/chopper",
+        "noFollow": true,
+        "tagTitle": "Chopper",
+        "text": "Chopper"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/cuatrimotos",
+        "noFollow": true,
+        "tagTitle": "Cuatrimotos",
+        "text": "Cuatrimotos"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/doble-proposito",
+        "noFollow": true,
+        "tagTitle": "Doble Propósito",
+        "text": "Doble Propósito"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/adventure",
+        "noFollow": true,
+        "tagTitle": "Adventure",
+        "text": "Adventure"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/linea-2",
+        "noFollow": true,
+        "tagTitle": "Línea-z",
+        "text": "Línea-z"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/vort-x",
+        "noFollow": true,
+        "tagTitle": "Vort-X",
+        "text": "Vort-X"
+      }
+    }
+  },
+  "menu-item#motos-line-2-columna-1-columna-2-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/motos/motocicletas/cafe-racer",
+        "noFollow": true,
+        "tagTitle": "Café Racer",
+        "text": "Café Racer"
+      }
+    }
+  }
+}

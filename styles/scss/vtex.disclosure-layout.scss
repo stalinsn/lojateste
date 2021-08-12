@@ -1,0 +1,130 @@
+//cambios css andres institucionales
+.trigger--disclosure-trigger-preguntas-frecuentes--visible,
+.trigger--disclosure-trigger-preguntas-frecuentes--hidden,
+.trigger--disclosure-trigger-reglamento-de-promociones--visible,
+.trigger--disclosure-trigger-reglamento-de-promociones--hidden,
+.trigger--disclosure-trigger-walmart-te-escucha--visible,
+.trigger--disclosure-trigger-walmart-te-escucha--hidden,
+.trigger--disclosure-trigger-tarjeta-credito--visible,
+.trigger--disclosure-trigger-tarjeta-credito--hidden,
+.trigger--estilo-preguntas-reglamento-de-promociones-mobile--hidden,
+.trigger--estilo-preguntas-reglamento-de-promociones-mobile--visible,
+.trigger--estilo-preguntas-reglamento-de-promociones-desktop--hidden,
+.trigger--estilo-preguntas-reglamento-de-promociones-desktop--visible,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra-desktop--hidden ,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra-desktop--visible,
+.trigger--estilo-preguntas-aviso-de-privacidad-ecommerce--visible,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra--visible,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra--hidden,
+.trigger--estilo-preguntas-aviso-de-privacidad-ecommerce--hidden {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.trigger--disclosure-trigger-preguntas-frecuentes--visible::after,
+.trigger--disclosure-trigger-preguntas-frecuentes--hidden::after,
+.trigger--disclosure-trigger-reglamento-de-promociones--visible::after,
+.trigger--disclosure-trigger-reglamento-de-promociones--hidden::after,
+.trigger--disclosure-trigger-walmart-te-escucha--visible::after,
+.trigger--disclosure-trigger-walmart-te-escucha--hidden::after,
+.trigger--disclosure-trigger-tarjeta-credito--visible::after,
+.trigger--disclosure-trigger-tarjeta-credito--hidden::after,
+.trigger--estilo-preguntas-reglamento-de-promociones-desktop--visible::after,
+.trigger--estilo-preguntas-reglamento-de-promociones-desktop--hidden::after,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra-desktop--visible::after,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra-desktop--hidden::after,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra--visible::after,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra--hidden::after,
+.trigger--estilo-preguntas-aviso-de-privacidad-ecommerce--visible::after,
+.trigger--estilo-preguntas-aviso-de-privacidad-ecommerce--hidden::after {
+    content: url("/arquivos/arrow.png");
+    position: absolute;
+    right: 15px;
+    margin-top: -35px;
+}
+
+.trigger--disclosure-trigger-reglamento-de-promociones--visible::after,
+.trigger--disclosure-trigger-reglamento-de-promociones--hidden::after,
+.trigger--disclosure-trigger-walmart-te-escucha--visible::after,
+.trigger--disclosure-trigger-walmart-te-escucha--hidden::after,
+.trigger--disclosure-trigger-preguntas-frecuentes--visible::after,
+.trigger--disclosure-trigger-preguntas-frecuentes--hidden::after,
+.trigger--disclosure-trigger-tarjeta-credito--visible::after,
+.trigger--disclosure-trigger-tarjeta-credito--hidden::after{
+    margin-top: -25px !important;
+}
+
+.trigger--disclosure-trigger-reglamento-de-promociones--visible::after,
+.trigger--disclosure-trigger-walmart-te-escucha--visible::after,
+.trigger--disclosure-trigger-preguntas-frecuentes--visible::after,
+.trigger--disclosure-trigger-tarjeta-credito--visible::after,
+.trigger--estilo-preguntas-reglamento-de-promociones-desktop--visible::after,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra--visible::after,
+.trigger--estilo-preguntas-aviso-de-privacidad-ecommerce--visible::after ,
+.trigger--estilo-preguntas-terminos-y-condiciones-de-compra-desktop--visible::after{
+    transform: rotate(-180deg);
+}
+
+
+
+
+@media (min-width:1025px) {
+    .trigger--boton-remesas--hidden {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 40px;
+        margin-bottom: 40px;
+        width: 1000px;
+    }
+    .trigger--boton-remesas--visible {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 40px;
+        width: 1000px;
+    }
+    .trigger--boton-remesas--hidden::after {
+        content: url("https://walmartcr.myvtex.com/arquivos/arrow.png");
+        position: absolute;
+        right: 35%;
+        margin-top: -35px;
+    }
+    .trigger--boton-remesas--visible::after {
+        content: url("https://walmartcr.myvtex.com/arquivos/arrow.png");
+        position: absolute;
+        right: 35%;
+        margin-top: -35px;
+        transform: rotate(-180deg);
+    }
+}
+
+@media (max-width:1024px) {
+    .trigger--boton-remesas--hidden {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+    .trigger--boton-remesas--visible {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+    .trigger--boton-remesas--hidden::after {
+        content: url("https://walmartcr.myvtex.com/arquivos/arrow.png");
+        position: absolute;
+        right: 5px;
+        margin-top: -42px;
+    }
+    .trigger--boton-remesas--visible::after {
+        content: url("https://walmartcr.myvtex.com/arquivos/arrow.png");
+        position: absolute;
+        right: 5px;
+        margin-top: -42px;
+        transform: rotate(-180deg);
+    }
+}

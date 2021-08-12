@@ -1,0 +1,17 @@
+{
+  "name": "checkout-ui-settings",
+  "vendor": "supermxmcr",
+  "version": "0.2.42",
+  "title": "Checkout UI Settings",
+  "description": "Declare custom settings to be used by checkout ui",
+  "builders": {
+    "docs": "0.x",
+    "checkout-ui-custom": "0.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh",
+    "postreleasy": "vtex publish --verbose"
+  },
+  "credentialType": "absolute",
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

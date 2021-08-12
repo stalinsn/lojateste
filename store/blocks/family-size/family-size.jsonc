@@ -1,0 +1,514 @@
+{
+  "store.custom#family-size" : {
+      "blocks": [
+        "responsive-layout.desktop#family-size",
+        "responsive-layout.phone#family-size"
+      ]
+  },
+
+  "responsive-layout.desktop#family-size":{
+    "children":[
+      "flex-layout.row#subcategory-family-size",
+      "flex-layout.row#title-coffe",
+      "flex-layout.row#shelf-coffe",
+      "flex-layout.row#title-sauce",
+      "flex-layout.row#shelf-sauce",
+      "flex-layout.row#title-cereals",
+      "flex-layout.row#shelf-cereals",
+      "flex-layout.row#row-milkyway2",
+      "flex-layout.row#title-cokies",
+      "flex-layout.row#shelf-cokies",
+      "flex-layout.row#title-canned",
+      "flex-layout.row#shelf-canned",
+      "flex-layout.row#title-flours",
+      "flex-layout.row#shelf-flours"
+    ]
+  },
+  "responsive-layout.phone#family-size":{
+    "children":[
+      "flex-layout.row#subcategory-family-size",
+      "flex-layout.row#title-coffe",
+      "flex-layout.row#shelf-coffe",
+      "flex-layout.row#title-sauce",
+      "flex-layout.row#shelf-sauce",
+      "flex-layout.row#title-cereals",
+      "flex-layout.row#shelf-cereals",
+      "flex-layout.row#row-milkyway2",
+      "flex-layout.row#title-cokies",
+      "flex-layout.row#shelf-cokies",
+      "flex-layout.row#title-canned",
+      "flex-layout.row#shelf-canned",
+      "flex-layout.row#title-flours",
+      "flex-layout.row#shelf-flours"
+    ]
+  },
+
+
+
+  "flex-layout.row#subcategory-family-size": {
+    "children":[
+      "flex-layout.col#sub-family-size-1",
+      "flex-layout.col#sub-family-size-2",
+      "flex-layout.col#sub-family-size-3",
+      "flex-layout.col#sub-family-size-4",
+      "flex-layout.col#sub-family-size-5",
+      "flex-layout.col#sub-family-size-6"
+    ],
+    "props":{
+      "blockClass": "row-subcat-baby-world"
+    }
+
+  },
+  "flex-layout.col#sub-family-size-1":{
+    "children":[
+      "logo#sub-family-size-1",
+      "rich-text#sub-family-size-1"
+    ],
+    "props":{
+      "blockClass": "col-sub-baby-world"
+    }
+  },
+  "logo#sub-family-size-1":{
+    "props": {
+      "title": "icon 1",
+      "href": "/",
+      "url": "assets/tabs/alacena.svg",
+      "blockClass": "baby-world-sub"
+    }
+  },
+  "rich-text#sub-family-size-1": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Café, Té y sustitutos",
+      "blockClass": "baby-world-sub"
+    }
+  },
+
+  "flex-layout.col#sub-family-size-2":{
+    "children":[
+      "logo#sub-family-size-2",
+      "rich-text#sub-family-size-2"
+    ],
+    "props":{
+      "blockClass": "col-sub-baby-world"
+    }
+  },
+  "logo#sub-family-size-2":{
+    "props": {
+      "title": "icon 2",
+      "href": "/",
+      "url": "https://supermxmcr.vtexassets.com/assets/vtex.file-manager-graphql/images/b47244ae-ab7b-46fc-9b91-e0ed53cd2e5f___1877e0f4ac0682fc11479bb02ab81f48.svg",
+      "blockClass": "baby-world-sub"
+    }
+  },
+  "rich-text#sub-family-size-2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Salsas, Aderezos y vinagre",
+      "blockClass": "baby-world-sub"
+    }
+  },
+
+  "flex-layout.col#sub-family-size-3":{
+    "children":[
+      "logo#sub-family-size-3",
+      "rich-text#sub-family-size-3"
+    ],
+    "props":{
+      "blockClass": "col-sub-baby-world"
+    }
+
+  },
+  "logo#sub-family-size-3":{
+    "props": {
+      "title": "icon 3",
+      "href": "/",
+      "url": "assets/tabs/limpieza_mascotas.svg",
+      "blockClass": "baby-world-sub"
+    }
+  },
+  "rich-text#sub-family-size-3": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Cereales y Barras",
+      "blockClass": "baby-world-sub"
+    }
+  },
+
+  "flex-layout.col#sub-family-size-4":{
+    "children":[
+      "logo#sub-family-size-4",
+      "rich-text#sub-family-size-4"
+    ],
+    "props":{
+      "blockClass": "col-sub-baby-world"
+    }
+
+  },
+  "logo#sub-family-size-4":{
+    "props": {
+      "title": "icon 4",
+      "href": "/",
+      "url": "https://supermxmcr.vtexassets.com/assets/vtex.file-manager-graphql/images/798a1a6c-6b04-4ddd-a7da-655bf961e98b___363d15035f40a25e0078ddc050b24f27.svg",
+      "blockClass": "baby-world-sub"
+    }
+  },
+  "rich-text#sub-family-size-4": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Galletas",
+      "blockClass": "baby-world-sub"
+    }
+  },
+
+  "flex-layout.col#sub-family-size-5":{
+    "children":[
+      "logo#sub-family-size-5",
+      "rich-text#sub-family-size-5"
+    ],
+    "props":{
+      "blockClass": "col-sub-baby-world"
+    }
+  },
+  "logo#sub-family-size-5":{
+    "props": {
+      "title": "icon 5",
+      "href": "/",
+      "url": "https://supermxmcr.vtexassets.com/assets/vtex.file-manager-graphql/images/bb28fd3b-1e37-4f1a-ab60-ce1e430c4726___e0b4b985b66e258fed868f63330ab7e5.svg",
+      "blockClass": "baby-world-sub"
+    }
+  },
+  "rich-text#sub-family-size-5": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Enlatados y conservas",
+      "blockClass": "baby-world-sub"
+    }
+  },
+
+  "flex-layout.col#sub-family-size-6":{
+    "children":[
+      "logo#sub-family-size-6",
+      "rich-text#sub-family-size-6"
+    ],
+    "props":{
+      "blockClass": "col-sub-baby-world"
+    }
+  },
+  "logo#sub-family-size-6":{
+    "props": {
+      "title": "icon 6",
+      "href": "/",
+      "url": "assets/tabs/jugos_bebidas.svg",
+      "blockClass": "baby-world-sub"
+    }
+  },
+  "rich-text#sub-family-size-6": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Harinas y Repostería",
+      "blockClass": "baby-world-sub"
+    }
+  },
+
+
+  "flex-layout.row#title-coffe":{
+    "children": [
+      "rich-text#coffe"
+    ],
+    "props": {
+      "blockClass": ["title-section", "top32"]
+    }
+  },
+  "rich-text#coffe": {
+      "title": "car baby title",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "Café, Té y sustitutos",
+        "blockClass": ["title-surprise", "category"]
+      }
+  },
+  "flex-layout.row#shelf-coffe": {
+    "title": "car baby",
+    "children": [
+      "shelf#coffe"
+    ],
+    "props": {
+      "blockClass": "recommended-you"
+    }
+  },
+  "shelf#coffe": {
+      "title": "best seller",
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 5,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "",
+          "gap": "ph5"
+        }
+      }
+  },
+
+  "flex-layout.row#title-sauce":{
+    "children": [
+      "rich-text#sauce"
+    ],
+    "props": {
+      "blockClass": ["title-section", "top32"]
+    }
+  },
+  "rich-text#sauce": {
+      "title": "baby botle title",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "Salsas, Aderezos y vinagre",
+        "blockClass": ["title-surprise", "category"]
+      }
+  },
+  "flex-layout.row#shelf-sauce": {
+    "title": "baby botle",
+    "children": [
+      "shelf#sauce"
+    ],
+    "props": {
+      "blockClass": "recommended-you"
+    }
+  },
+  "shelf#sauce": {
+      "title": "best seller",
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 5,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "",
+          "gap": "ph5"
+        }
+      }
+  },
+
+  "flex-layout.row#title-cereals":{
+    "children": [
+      "rich-text#cereals"
+    ],
+    "props": {
+      "blockClass": ["title-section", "top32"]
+    }
+  },
+  "rich-text#cereals": {
+      "title": "clothes baby title",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "Cereales y barras",
+        "blockClass": ["title-surprise", "category"]
+      }
+  },
+  "flex-layout.row#shelf-cereals": {
+    "title": "clothes baby",
+    "children": [
+      "shelf#cereals"
+    ],
+    "props": {
+      "blockClass": "recommended-you"
+    }
+  },
+  "shelf#cereals": {
+      "title": "best seller",
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 5,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "",
+          "gap": "ph5"
+        }
+      }
+  },
+
+
+  "flex-layout.row#row-milkyway2":{
+    "children": [
+      "list-context.image-list#row-milkyway2"
+    ],
+    "props": {
+      "blockClass": ["row-milkyway"]
+    }
+  },
+  "list-context.image-list#row-milkyway2": {
+    "title": "Image full width gray",
+    "children": [
+      "slider-layout#banner-milkyway2"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/banner_milky_desktop.jpg",
+          "mobileImage": "assets/banner_milky.jpg",
+          "link":{
+            "url":"/test"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-milkyway2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "banner-full"
+    }
+  },
+
+
+  "flex-layout.row#title-cokies":{
+    "children": [
+      "rich-text#cokies"
+    ],
+    "props": {
+      "blockClass": "title-section"
+    }
+  },
+  "rich-text#cokies": {
+      "title": "toys title",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "Galletas",
+        "blockClass": ["title-surprise", "category"]
+      }
+  },
+  "flex-layout.row#shelf-cokies": {
+    "title": "toys",
+    "children": [
+      "shelf#cokies"
+    ],
+    "props": {
+      "blockClass": "recommended-you"
+    }
+  },
+  "shelf#cokies": {
+      "title": "best seller",
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 5,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "",
+          "gap": "ph5"
+        }
+      }
+  },
+
+  "flex-layout.row#title-canned":{
+    "children": [
+      "rich-text#canned"
+    ],
+    "props": {
+      "blockClass": ["title-section", "top32"]
+    }
+  },
+  "rich-text#canned": {
+      "title": "canned title",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "Enlatados y conservas",
+        "blockClass": ["title-surprise", "category"]
+      }
+  },
+  "flex-layout.row#shelf-canned": {
+    "title": "canned",
+    "children": [
+      "shelf#canned"
+    ],
+    "props": {
+      "blockClass": "recommended-you"
+    }
+  },
+  "shelf#canned": {
+      "title": "canned",
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 5,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "",
+          "gap": "ph5"
+        }
+      }
+  },
+
+  "flex-layout.row#title-flours":{
+    "children": [
+      "rich-text#flours"
+    ],
+    "props": {
+      "blockClass": ["title-section", "top32"]
+    }
+  },
+  "rich-text#flours": {
+      "title": "flours title",
+      "props": {
+        "textAlignment": "center",
+        "textPosition": "center",
+        "text": "Harinas y Repostería",
+        "blockClass": ["title-surprise", "category"]
+      }
+  },
+  "flex-layout.row#shelf-flours": {
+    "title": "flours",
+    "children": [
+      "shelf#flours"
+    ],
+    "props": {
+      "blockClass": "recommended-you"
+    }
+  },
+  "shelf#flours": {
+      "title": "best seller",
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "productList": {
+          "maxItems": 8,
+          "itemsPerPage": 5,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "",
+          "gap": "ph5"
+        }
+      }
+  }
+
+
+}

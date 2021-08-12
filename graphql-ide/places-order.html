@@ -1,0 +1,59 @@
+//message titulo de  correo 
+
+{
+  "saveArgs": {
+    "to": "es-MX",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/header.thanks",
+        "context": "vtex.order-placed@2.x",
+      "targetMessage": "¡Gracias por comprar con  !"
+      }
+    ]
+  }
+}
+
+{
+  "saveArgs": {
+    "to": "es-MX",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage":  "store/header.email",
+        "context": "vtex.order-placed@2.x",
+      "targetMessage": "Recibirás en breve un correo electrónico de confirmación a {userEmail} con tu número de pedido y detalles de tu compra. {lineBreak} Te enviareamos un correo en cuanto tu pedido sea enviado."
+      }
+    ]
+  }
+}
+
+orden
+{
+  "saveArgs": {
+    "to": "es-MX",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/order.header.number",
+        "context": "vtex.order-placed@2.x",
+      "targetMessage": "{orderId}"
+      }
+    ]
+  }
+}
+
+//entrega titulo
+{
+  "saveArgs": {
+    "to": "es-MX",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/summary.shipping",
+        "context": "vtex.order-placed@2.x",
+      "targetMessage": " "
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+    "submenu.accordion#footer-mobile-servicio-cliente": {
+      "props": {
+        "width": "100%",
+        "blockClass": "subcategory"
+      },
+      "children": [
+        "flex-layout.row#mobile-servicio-cliente"
+      ]
+    },
+    "flex-layout.row#mobile-servicio-cliente": {
+      "props": {
+        "colSizing": "auto"
+      },
+      "children": [
+        "flex-layout.col#mobile-facturacion",
+        "flex-layout.col#mobile-activa",
+        //"flex-layout.col#mobile-venta",
+        "modal-trigger#sales-for-enterprise-mobile",
+        "flex-layout.col#mobile-credito",
+        "flex-layout.col#mobile-envio"
+      ]
+    },
+    "flex-layout.col#mobile-facturacion": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#mobile-facturacion"
+      ]
+    },
+    "menu-item#mobile-facturacion": {
+      "props": {
+        "blockClass": "dropdown-mobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Facturación electrónica",
+          "text": "Facturación electrónica"
+        }
+      }
+    },
+
+    "flex-layout.col#mobile-activa": {
+        "props": {
+          "preventVerticalStretch": "false"
+        },
+        "children": [
+          "menu-item#mobile-activa"
+        ]
+    },
+    "menu-item#mobile-activa": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Activa",
+            "text": "Activa"
+            }
+        }
+    },
+
+    /*"flex-layout.col#mobile-venta": {
+        "props": {
+          "preventVerticalStretch": "false"
+        },
+        "children": [
+          //"menu-item#mobile-venta"
+          "modal-trigger#sales-for-enterprise-mobile"
+        ]
+    },*/
+
+    "modal-trigger#sales-for-enterprise-mobile": {
+      "children": [
+        "menu-item#mobile-venta",
+        "modal-layout#sales-for-enterprise"
+      ]
+    },
+    "menu-item#mobile-venta": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            //"href": "/",
+            "noFollow": true,
+            "tagTitle": "Venta para empresas",
+            "text": "Venta para empresas"
+            }
+        }
+    },
+
+    "flex-layout.col#mobile-credito": {
+        "props": {
+          "preventVerticalStretch": "false"
+        },
+        "children": [
+          "menu-item#mobile-credito"
+        ]
+    },
+    "menu-item#mobile-credito": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Crédito",
+            "text": "Crédito"
+            }
+        }
+    },
+
+    "flex-layout.col#mobile-envio": {
+        "props": {
+          "preventVerticalStretch": "false"
+        },
+        "children": [
+          "menu-item#mobile-envio"
+        ]
+    },
+    "menu-item#mobile-envio": {
+        "props": {
+            "blockClass": "dropdown-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Envío de dinero",
+            "text": "Envío de dinero"
+            }
+        }
+    }
+
+}

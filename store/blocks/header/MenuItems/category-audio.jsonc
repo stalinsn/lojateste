@@ -1,0 +1,310 @@
+{
+  "vtex.menu@2.x:submenu#audio": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#audio-menu-line-2"
+    ]
+  },
+  "flex-layout.row#audio-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#audio-menu-line-2-columna-1",
+      "flex-layout.col#audio-menu-line-2-columna-2"
+    ]
+  },
+  "flex-layout.col#audio-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#audio-menu-line-2-columna-2-line-1",
+      "menu-item#audio-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#audio-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#audio-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#audio-menu-line-2-columna-1-columna-2-line-4"
+    ]
+  },
+  "menu-item#audio-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-para-autos",
+        "noFollow": true,
+        "tagTitle": "Audio para autos",
+        "text": "Audio para autos"
+      }
+    }
+    /*"blocks": [
+      "submenu#audio-line-2-columna-2"
+    ]*/
+  },
+  "submenu#audio-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#audio-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#audio-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#audio-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#audio-menu-line-2-columna-1-columna-2-line-4"
+    ]
+  },
+  "menu-item#audio-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-para-autos/amplificadores",
+        "noFollow": true,
+        "tagTitle": "Amplificadores",
+        "text": "Amplificadores"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-para-autos/autoestereos",
+        "noFollow": true,
+        "tagTitle": "Autoestéreos",
+        "text": "Autoestéreos"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-para-autos/bocinas",
+        "noFollow": true,
+        "tagTitle": "Bocinas y woofers",
+        "text": "Bocinas y woofers"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-para-autos/instalaciones",
+        "noFollow": true,
+        "tagTitle": "Instalación",
+        "text": "Instalación"
+      }
+    }
+  },
+  "flex-layout.col#audio-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#audio-menu-line-2-columna-3-line-1",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#audio-menu-line-2-columna-3-line-1-ver-todos"
+    ]
+  },
+  "menu-item#audio-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/",
+        "noFollow": true,
+        "tagTitle": "Audio y equipos de sonido",
+        "text": "Audio y equipos de sonido"
+      }
+    }
+    /*"blocks": [
+      "submenu#audio-line-2-columna-3"
+    ]*/
+  },
+  "menu-item#audio-menu-line-2-columna-3-line-1-ver-todos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-para-autos?fuzzy=0&map=category-2,category-2,category-1&operator=and&query=/audio-para-autos/audio-y-equipos-de-sonido/electronica&searchState",
+        "noFollow": true,
+        "tagTitle": "VER TODOS AUDIO",
+        "text": "VER TODOS AUDIO"
+      }
+    }
+  },
+  "submenu#audio-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#audio-menu-line-2-columna-3-columna-1-line-9"
+    ]
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/audifonos",
+        "noFollow": true,
+        "tagTitle": "Audifonos",
+        "text": "Audifonos"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/bafles",
+        "noFollow": true,
+        "tagTitle": "Bafles",
+        "text": "Bafles"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electronica/audio-y-equipos-de-sonido/barras-de-sonido",
+        "noFollow": true,
+        "tagTitle": "Barras de sonido",
+        "text": "Barras de sonido"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/consolas-y-tornamesas",
+        "noFollow": true,
+        "tagTitle": "Consolas y tornamesas",
+        "text": "Consolas y tornamesas"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/microcomponentes-y-minicomponentes",
+        "noFollow": true,
+        "tagTitle": "Microcomponentes y minicomponentes",
+        "text": "Microcomponentes y minicomponentes"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/microfonos",
+        "noFollow": true,
+        "tagTitle": "Micrófonos",
+        "text": "Micrófonos"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/radios-y-grabadoras",
+        "noFollow": true,
+        "tagTitle": "Radios y grabadoras",
+        "text": "Radios y grabadoras"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/reproductores-portatiles",
+        "noFollow": true,
+        "tagTitle": "Reproductores portátiles",
+        "text": "Reproductores portátiles"
+      }
+    }
+  },
+  "menu-item#audio-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "electronica/audio-y-equipos-de-sonido/teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "Teatros en casa",
+        "text": "Teatros en casa"
+      }
+    }
+  }
+}

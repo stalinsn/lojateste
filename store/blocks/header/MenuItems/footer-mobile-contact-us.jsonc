@@ -1,0 +1,87 @@
+{
+  "submenu.accordion#footer-mobile-contact-us": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-contact-us"
+    ]
+  },
+  "flex-layout.row#mobile-contact-us": {
+    "props": {
+      "blockClass": "mobile-contact-us",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-cu-1",
+      "flex-layout.col#mobile-cu-2"
+    ]
+  },
+  "flex-layout.col#mobile-cu-1": {
+    "props": {
+      "blockClass": "dropdown-main",
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-cu-1"
+    ]
+  },
+  "menu-item#mobile-cu-1": {
+    "props": {
+      "blockClass": "dropdown-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Aviso de Privacidad Integral e-Commerce",
+        "text": "Aviso de Privacidad Integral e-Commerce"
+      }
+    }
+  },
+
+  "flex-layout.col#mobile-cu-2": {
+      "props": {
+        "blockClass": "dropdown-main",
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#mobile-cu-2",
+        "menu-item#mobile-cu-2-1"
+      ]
+  },
+  "menu-item#mobile-cu-2": {
+      "props": {
+          "blockClass": "dropdown-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": true,
+            "tagTitle": "Términos y Condiciones ",
+            "text": "Términos y Condiciones "
+          }
+      }
+  },
+  "menu-item#mobile-cu-2-1": {
+    "props": {
+        "blockClass": "dropdown-mobile",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Reglamento de Promociones",
+          "text": "Reglamento de Promociones"
+        }
+    }
+  }
+
+}

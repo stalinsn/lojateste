@@ -1,0 +1,17 @@
+@import "../references";
+
+.shippingInfoWrapper {
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 18px;
+  margin-left: 0;
+  @media (max-width: em(768px)) {
+    margin-bottom: 12px;
+  }
+
+  .addressField {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "submenu.accordion#footer-mobile-customer-service": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile-customer-service"
+    ]
+  },
+  "flex-layout.row#mobile-customer-service": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#mobile-customer-service-1",
+      "flex-layout.col#mobile-customer-service-2",
+      "flex-layout.col#mobile-customer-service-3",
+      "flex-layout.col#mobile-customer-service-4",
+      "flex-layout.col#mobile-customer-service-5"
+    ]
+  },
+
+  "flex-layout.col#mobile-customer-service-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-customer-service-1"
+    ]
+  },
+  "menu-item#mobile-customer-service-1": {
+    "props": {
+      "blockClass": "dropdown-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Costa Rica 800-8000-722",
+        "text": "Costa Rica 800-8000-722"
+      }
+    }
+  },
+
+  "flex-layout.col#mobile-customer-service-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-customer-service-2"
+    ]
+  },
+  "menu-item#mobile-customer-service-2": {
+    "props": {
+      "blockClass": "dropdown-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Guatemala 1-801-0096-722",
+        "text": "Guatemala 1-801-0096-722"
+      }
+    }
+  },
+
+  "flex-layout.col#mobile-customer-service-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-customer-service-3"
+    ]
+  },
+  "menu-item#mobile-customer-service-3": {
+    "props": {
+      "blockClass": "dropdown-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Honduras 800-2222-0722",
+        "text": "Honduras 800-2222-0722"
+      }
+    }
+  },
+
+  "flex-layout.col#mobile-customer-service-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-customer-service-4"
+    ]
+  },
+  "menu-item#mobile-customer-service-4": {
+    "props": {
+      "blockClass": "dropdown-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "El Salvador 800-22000-722",
+        "text": "El Salvador 800-22000-722"
+      }
+    }
+  },
+
+  "flex-layout.col#mobile-customer-service-5": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#mobile-customer-service-5"
+    ]
+  },
+  "menu-item#mobile-customer-service-5": {
+    "props": {
+      "blockClass": "dropdown-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Nicaragua 1-800-7022",
+        "text": "Nicaragua 1-800-7022"
+      }
+    }
+  }
+}

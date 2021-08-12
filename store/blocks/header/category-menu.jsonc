@@ -1,0 +1,93 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "store-selector",
+      "menu-item#reduction",
+      "menu-item#our-brands",
+      "menu-item#family-size",
+      "menu-item#parrilleros"
+    ]
+  },
+
+  "menu-item#choise-your-store": {
+    "props": {
+      "blockClass": ["menu-item-faqs", "marker"],
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "#",
+        "tagTitle": "Selecciona tu tienda",
+        "text": "Selecciona tu tienda"
+      }
+    }
+  },
+  "menu-item#reduction": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/rebajas",
+        "tagTitle": "Rebajas",
+        "text": "Rebajas"
+      }
+    }
+  },
+  "menu-item#family-size": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/tamanos-familiares",
+        "tagTitle": "Tamaños Familiares",
+        "text": "Tamaños Familiares"
+      }
+    }
+  },
+  "menu-item#our-brands": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/nuestras-marcas",
+        "tagTitle": "Nuestras marcas",
+        "text": "Nuestras marcas"
+      }
+    }
+  },
+  "menu-item#parrilleros": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/super-parrilleros",
+        "tagTitle": "Super parrilleros",
+        "text": "Super parrilleros"
+      }
+    }
+  }
+
+}

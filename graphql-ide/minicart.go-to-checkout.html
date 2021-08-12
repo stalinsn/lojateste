@@ -1,0 +1,16 @@
+mutation Save($args: SaveArgsV2!) {
+    saveV2(args: $args)
+}
+
+
+{
+    "args": {
+    "to": "es-SV",
+    "messages": [{
+            "srcLang": "en-DV",
+            "srcMessage": "store/minicart.go-to-checkout",
+            "targetMessage": "Revisar Pedido",
+            "context": "vtex.minicart@2.x"
+        }]
+    }
+}

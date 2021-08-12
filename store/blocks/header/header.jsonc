@@ -1,0 +1,417 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "telemarketing",
+      //"flex-layout.row#2-desktop",
+      "sticky-layout#2-desktop",
+      "sticky-layout#3-desktop",
+      "sticky-layout#4-desktop",
+      "flex-layout.row#5-desktop"
+    ]
+  },
+
+  "sticky-layout#2-desktop": {
+    "props": {
+      "blockClass": "sticky-header-3"
+    },
+    "children": ["flex-layout.row#2-desktop"]
+  },
+
+  "sticky-layout#3-desktop": {
+    "props": {
+      "blockClass": "sticky-header-1"
+    },
+    "children": ["flex-layout.row#3-desktop"]
+  },
+
+  "flex-layout.row#5-desktop": {
+    "children": [
+      "rich-text#5-desktop"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "headertop-end"
+    }
+  },
+  "rich-text#5-desktop": {
+    "title": "Header - benefits",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Aprovecha los beneficios que tenemos de **farmacia**",
+      "blockClass": "benefits"
+    }
+  },
+
+
+  "flex-layout.row#2-desktop": {
+    "children": [
+      "flex-layout.col#left",
+      "flex-layout.col#right"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "headertop"
+    }
+  },
+
+  "flex-layout.col#left": {
+    "children": [
+      "logo#left",
+      "rich-text#how-to-buy"
+    ],
+    "props": {
+      "blockClass": "first-col-head",
+      "width": "13%"
+    }
+  },
+  "logo#left": {
+    "props": {
+      "title": "Icon how to buy",
+      "url": "assets/icon_envio.svg",
+      "blockClass": "icon-head"
+    }
+  },
+  "rich-text#how-to-buy": {
+    "title": "Header - how to buy",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[¿Cómo comprar?](/como-comprar)",
+      "blockClass": "txt-first-head"
+    }
+  },
+
+  "flex-layout.col#right": {
+    "children": [
+      "logo#right",
+      "rich-text#contact-us"
+    ],
+    "props": {
+      "blockClass": "first-col-head"
+    }
+  },
+  "logo#right": {
+    "props": {
+      "title": "Icon contact us",
+      "url": "assets/icon_atencion.svg",
+      "blockClass": "icon-head"
+    }
+  },
+  "rich-text#contact-us": {
+    "title": "Header - how to buy",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Contáctanos al 800-8000-722",
+      "blockClass": "txt-first-head"
+    }
+  },
+
+
+
+  "rich-text#termina-en": {
+    "title": "Header - Highlight",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "BUEN FIN",
+      "font": "t-mini c-on-base--inverted",
+      "blockClass": "highlight"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "mega-menu",
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "rich-text#Tel",
+      "login",
+      "rich-text#mi-tienda",
+      "minicart.v2",
+      "minicart-totalizer"
+    ]
+  },
+  "rich-text#Tel": {
+    "title": "Header - TEL",
+    "props": {
+      "text": "[Mis listas](/account#/shopping-list)",
+      "blockClass": "mi-tel"
+    }
+  },
+  "rich-text#mi-tienda": {
+    "title": "Header - Tiendas",
+    "props": {
+      "text": "Mis pedidos",
+      "blockClass": "mi-tienda"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "100%"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "express-promotion": {
+    "props": {
+      "buttonHeight": "67px",
+      "buttonWidth": "60px",
+      "buttonBackgroundColor": "#000",
+      "buttonText": "Oferta",
+      "buttonTextColor": "#ffdc20",
+      "active": true,
+      "title": "OFERTA",
+      "titleB": "RELÁMPAGO"
+    },
+    "children": ["product-summary.shelf#express"]
+  },
+
+  "flex-layout.row#express-row": {
+    "children": [
+      "flex-layout.col#express-col-left",
+      "flex-layout.col#express-col-right"
+    ]
+  },
+  "flex-layout.col#express-col-left": {
+    "children": [
+      "stack-layout#prodsum"
+    ]
+  },
+  "flex-layout.col#express-col-right": {
+    "children": [
+      "product-summary-name"
+    ]
+  },
+
+  "flex-layout.row#express-row-2": {
+    "children": [
+      "flex-layout.col#express-col-left-2"
+    ]
+  },
+  "flex-layout.col#express-col-left-2": {
+    "children": [
+      "product-summary-price"
+    ],
+    "props":{
+      "blockClass": "price-express"
+    }
+  },
+
+
+  "product-summary.shelf#express": {
+    "children": [
+      "flex-layout.row#express-row",
+      "flex-layout.row#express-row-2",
+      "add-to-cart-button#express"
+    ]
+  },
+
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#category-menu", "flex-layout.col#spacer"]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+
+  "flex-layout.col#category-menu": {
+    "title": "Header - Menu",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo_masxmenos.svg",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "flex-layout.col#col-walmart-1",
+      "logo#mobile",
+
+      "rich-text#Tel",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#col-walmart-1": {
+    "children": [
+      // "drawer",
+      "mega-menu"
+    ],
+    "props": {
+      "blockClass": ["col-walmart", "menu-burguer"]
+    }
+  },
+
+  "flex-layout.row#2-mobile": {
+    "children": [
+      //"flex-layout.col#col-walmart-1",
+      "flex-layout.col#col-walmart-2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile-search-walmart"
+      //"preventHorizontalStretch": true
+      //"preserveLayoutOnMobile": false
+      //"fullWidth": true
+    }
+  },
+
+  "flex-layout.col#col-walmart-2": {
+    "children": ["search-bar", "store-selector"],
+    "props": {
+      "blockClass": ["col-walmart", "search-walmart"]
+    }
+  },
+  "drawer": {
+    "title": "Header - Menu Mobile",
+    "props": {
+      "blockClass": "menu-buguer",
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-drawer"]
+  },
+  "search-bar": {
+    "title": "Header - Búsqueda",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "placeholder": "¿Qué estás buscando?",
+      "blockClass": "search-mobile-walmart",
+      "openAutocompleteOnFocus": true,
+      "maxSuggestedProducts": 3,
+      "width": "33%"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "maxSuggestedProducts": 3
+      // "__unstableProductOriginVtex": true
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo_masxmenos.svg",
+      "width": "120"
+    }
+  },
+  /*"minicart.v2": {
+    "props": {
+      "variation": "popup"
+    },
+    "children": ["minicart-base-content"]
+  },*/
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": [
+      "minicart-summary",
+      "flex-layout.row#two-buttons-minicart-footer"
+    ]
+  },
+
+  "flex-layout.row#two-buttons-minicart-footer": {
+    "props": {
+      "blockClass": "minicart-two-buttons"
+    },
+    "children": ["minicart-checkout-button"]
+  },
+
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": false,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": ["rich-text#empty-state"]
+  },
+  "rich-text#empty-state": {
+    "title": "Minicart - Mensaje de carrito vacío",
+    "props": {
+      "text": "¡ Tu carrito esta vacío !"
+    }
+  }
+}

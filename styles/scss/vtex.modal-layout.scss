@@ -1,0 +1,288 @@
+@import "./references";
+
+@media screen and (min-width: 40em) {
+  .paper--quickview {
+    height: 260px;
+    width: 580px;
+  }
+
+  .actionsContainer--quickview {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .paper--quickview {
+    height: 450px;
+    width: 900px;
+  }
+}
+.paperScrollContent {
+  max-height: 100% !important;
+}
+
+@media screen and (min-width: 75em) {
+  .paper--quickview {
+    width: calc(100% - 4rem);
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .actionsContainer--quickview {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+}
+
+.paper--quickview {
+  min-width: 320px;
+  max-width: 96rem;
+}
+
+.headerContainer--quickview {
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.actionsContainer--quickview {
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: transparent;
+  box-shadow: -4px 0px 27px -12px transparent;
+}
+
+.actionsContentWrapper {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #aaa;
+  padding-top: 1.5rem;
+}
+
+.contentContainer--quickviewContent {
+  padding: 2.5rem 2.5rem 2.5rem 2rem;
+  overflow-x: hidden;
+  /*:global(.vtex-store-components-3-x-interestRatePrice) {
+    position: relative;
+    &::after {
+      background-image: url(assets/cred.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+      width: 57px;
+      height: 44px;
+      content: "";
+      left: 80px;
+      position: absolute;
+      top: -24px;
+    }
+  }*/
+  :global(.vtex-button) {
+    width: 50%;
+    background-color: #f6f6f6;
+    border: none;
+    padding: 0.5em;
+    color: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    :global(.vtex-button__label) {
+      padding-left: 0;
+      :global(.vtex-add-to-cart-button-0-x-buttonText) {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  :global(.vtex-store-components-3-x-productNameContainer) {
+    font-size: 30px;
+    color: $primary;
+  }
+  :global(.vtex-store-components-3-x-priceContainer) {
+    margin: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  :global(.vtex-store-components-3-x-savingPrice) {
+    width: 100%;
+    margin: 0;
+  }
+  :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId) {
+    font-size: 12px;
+  }
+  :global(.vtex-store-components-3-x-sellingPriceLabel),
+  :global(.vtex-store-components-3-x-listPriceLabel) {
+    display: none;
+  }
+  :global(.vtex-store-components-3-x-price_sellingPrice) {
+    font-size: 27px;
+    color: $primary;
+    padding: 0;
+    margin-right: 0.5em;
+  }
+  :global(.vtex-store-components-3-x-listPriceValue) {
+    padding: 0;
+    margin-right: 0.5em;
+    color: #969696;
+  }
+  :global(.vtex-product-quantity-1-x-summaryContainer) {
+    margin: 2em 0;
+    :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+      flex-direction: row;
+    }
+    :global(.vtex-numeric-stepper__input) {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      border: 0;
+      width: 50px;
+      outline: none;
+    }
+    :global(.vtex-numeric-stepper__plus-button),
+    :global(.vtex-numeric-stepper__minus-button) {
+      background: transparent;
+      border: 0;
+    }
+    :global(.vtex-product-quantity-1-x-quantitySelectorTitle) {
+      margin: auto 0;
+      margin-right: 10px;
+      font-size: 18px;
+      color: #000;
+    }
+  }
+}
+
+.triggerContainer--quickview {
+  padding: 0.75rem;
+}
+
+.triggerContainer {
+  outline: none;
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
+  border-top-color: rgb(238, 238, 238);
+  box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
+}
+
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview)
+  .actionsContentWrapper {
+  border-top-color: transparent;
+}
+
+.actionsContainer {
+  :global(.vtex-store-link-0-x-link) {
+    background: #f6f6f6 !important;
+    color: #333 !important;
+    border: 0;
+  }
+}
+
+.closeButton {
+  padding-right: 1rem;
+}
+
+.paper--product-gifts {
+  padding: 1.5rem;
+}
+
+:global(.vtex-modal-layout-0-x-closeButton) {
+  color: #fff;
+  font-weight: 300;
+  width: 100px;
+  position: absolute;
+  right: 0px;
+  background: #da221c;
+  border: none;
+  padding: initial;
+  z-index: 999;
+  &:hover {
+    background-color: #da221c;
+    color: #fff;
+  }
+}
+
+
+:global(.vtex-store-components-3-x-productBrand--quickview) {
+  color: #333;
+}
+
+.paper--modal-covid-walmart,
+.paper--modal-super-parrilleros {
+  width: 70vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+.paper--modal-covid-walmart-last,
+.paper--modal-super-parrilleros-last{
+  padding-top: 2rem;
+  width: 90vw;
+  @media screen and (max-width: em(768px)) {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+:global(.vtex-rich-text-0-x-container--wlt-title-link-modal){
+  :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 26px;
+    cursor: pointer;
+    margin-bottom: 0;
+    color: #0071ce;
+  }
+}
+
+:global(.vtex-rich-text-0-x-container--title-modal) {
+  :global(.vtex-rich-text-0-x-paragraph--title-modal) { margin: 0; }
+  font-size: 21px;
+  font-weight: bold;
+}
+
+:global(.vtex-rich-text-0-x-container--subtitle-modal) {
+  :global(.vtex-rich-text-0-x-paragraph--subtitle-modal) { margin-bottom: 0; }
+  font-size: 17px;
+  color: #000000;
+  opacity: 1;
+}
+
+:global(.vtex-rich-text-0-x-container--content-modal) {
+  font-size: 14px;
+  color: #000000;
+  opacity: 1;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--footer-ultima-actualizacion){
+  :global(.vtex-rich-text-0-x-paragraph--content-modal){
+    margin-top: 2rem;
+  }
+}
+
+.closeButton--modal-btn-close{
+    color: #0071CE;
+    background: none;
+    top: 2px;
+    right: -31px;
+    font-weight: 300;
+    width: 100px;
+    position: absolute;
+    border: none;
+    padding: initial;
+    z-index: 999;
+}
+
+.closeButton--modal-btn-close:hover{
+  color: #0071CE;
+  background: none;
+}
+
+.headerContainer--modal-btn-close{
+  border: none;
+}
+
+// :global(.vtex-store-components-3-x-imageElement--wlt-img-banner_hoy){
+//   width: 90%;
+//   margin-left: 3rem;
+// }

@@ -1,0 +1,904 @@
+{
+  "vtex.menu@2.x:submenu#hogar": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#hogar-menu-line-2"
+    ]
+  },
+  "flex-layout.row#hogar-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#hogar-menu-line-2-columna-1",
+      "flex-layout.col#hogar-menu-line-2-columna-2",
+      "flex-layout.col#hogar-menu-line-2-columna-3",
+      "flex-layout.col#hogar-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#hogar-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-2-columna-2-line-1",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-8",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-9",
+      "menu-item#hogar-menu-line-2-columna-2-line-2",
+      "menu-item#hogar-menu-line-3-columna-1-line-1",
+      "menu-item#hogar-menu-line-3-columna-1-line-2"
+    ]
+  },
+  "menu-item#hogar-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      }
+    }
+    /*"blocks": [
+      "submenu#hogar-line-2-columna-2"
+    ]*/
+  },
+  "submenu#hogar-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-4",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-5",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-6",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-7",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-8",
+      "menu-item#hogar-menu-line-2-columna-1-columna-2-line-9"
+    ]
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/baterias-de-cocina",
+        "noFollow": true,
+        "tagTitle": "Baterías De Cocina",
+        "text": "Baterías De Cocina"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/sartenes",
+        "noFollow": true,
+        "tagTitle": "Sartenes",
+        "text": "Sartenes"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/ollas-y-vaporeras",
+        "noFollow": true,
+        "tagTitle": "Ollas y Vaporeras",
+        "text": "Ollas y Vaporeras"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/utensilios",
+        "noFollow": true,
+        "tagTitle": "Utensilios",
+        "text": "Utensilios"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/organizadores-de-cocina",
+        "noFollow": true,
+        "tagTitle": "Organizadores De Cocina",
+        "text": "Organizadores De Cocina"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/contendores",
+        "noFollow": true,
+        "tagTitle": "Contenedores",
+        "text": "Contenedores"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/reposteria",
+        "noFollow": true,
+        "tagTitle": "Repostería",
+        "text": "Repostería"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/limpieza",
+        "noFollow": true,
+        "tagTitle": "Limpieza",
+        "text": "Limpieza"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-1-columna-2-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/cocina/asadores-y-acceesorios",
+        "noFollow": true,
+        "tagTitle": "Asadores y Accesorios",
+        "text": "Asadores y Accesorios"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bano/",
+        "noFollow": true,
+        "tagTitle": "Baño",
+        "text": "Baño"
+      }
+    }
+    /*"blocks": [
+      "submenu#hogar-line-3-columna-1"
+    ]*/
+  },
+  "submenu#hogar-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-3-columna-1-line-1",
+      "menu-item#hogar-menu-line-3-columna-1-line-2"
+    ]
+  },
+  "menu-item#hogar-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bano/organizadores-de-bano",
+        "noFollow": true,
+        "tagTitle": "Organizadores De Baño",
+        "text": "Organizadores De Baño"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/bano/accesorios-para-bano",
+        "noFollow": true,
+        "tagTitle": "Accesorios Para Baño",
+        "text": "Accesorios Para Baño"
+      }
+    }
+  },
+  "flex-layout.col#hogar-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-2-columna-3-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "menu-item#hogar-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/",
+        "noFollow": true,
+        "tagTitle": "Decoración",
+        "text": "Decoración"
+      }
+    }
+    /*"blocks": [
+      "submenu#hogar-line-2-columna-3"
+    ]*/
+  },
+  "submenu#hogar-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-10",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-11",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-12",
+      "menu-item#hogar-menu-line-2-columna-3-columna-1-line-13"
+    ]
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/espejos",
+        "noFollow": true,
+        "tagTitle": "Espejos",
+        "text": "Espejos"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/arreglos-y-floreros",
+        "noFollow": true,
+        "tagTitle": "Arreglos y Floreros",
+        "text": "Arreglos y Floreros"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/tapetes",
+        "noFollow": true,
+        "tagTitle": "Tapetes",
+        "text": "Tapetes"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/cuadros",
+        "noFollow": true,
+        "tagTitle": "Cuadros",
+        "text": "Cuadros"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/relojes",
+        "noFollow": true,
+        "tagTitle": "Relojes",
+        "text": "Relojes"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/lamparas",
+        "noFollow": true,
+        "tagTitle": "Lámparas",
+        "text": "Lámparas"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/portarretratos",
+        "noFollow": true,
+        "tagTitle": "Portarretratos",
+        "text": "Portarretratos"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/cortinas",
+        "noFollow": true,
+        "tagTitle": "Cortinas",
+        "text": "Cortinas"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/cojines",
+        "noFollow": true,
+        "tagTitle": "Cojines",
+        "text": "Cojines"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/organizacion",
+        "noFollow": true,
+        "tagTitle": "Organización",
+        "text": "Organización"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/percheros",
+        "noFollow": true,
+        "tagTitle": "Percheros",
+        "text": "Percheros"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-12": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/persianas",
+        "noFollow": true,
+        "tagTitle": "Persianas",
+        "text": "Persianas"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-1-line-13": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/decoracion/adornos-de-navidad",
+        "noFollow": true,
+        "tagTitle": "Adornos de Navidad",
+        "text": "Adornos de Navidad"
+      }
+    }
+  },
+  "flex-layout.col#hogar-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-2-columna-3-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-6",
+      "menu-item#hogar-menu-line-3-columna-3-line-3",
+      "menu-item#hogar-menu-line-4-columna-3-line-1",
+      "menu-item#hogar-menu-line-4-columna-3-line-2",
+      "menu-item#hogar-menu-line-4-columna-3-line-3"
+    ]
+  },
+  "menu-item#hogar-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/",
+        "noFollow": true,
+        "tagTitle": "Blancos",
+        "text": "Blancos"
+      }
+    }
+    /*"blocks": [
+      "submenu#hogar-line-2-columna-4"
+    ]*/
+  },
+  "submenu#hogar-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-4-line-6"
+    ]
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/edredones",
+        "noFollow": true,
+        "tagTitle": "Edredones",
+        "text": "Edredones"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/sabanas",
+        "noFollow": true,
+        "tagTitle": "Sábanas",
+        "text": "Sábanas"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-4-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/coordinados-de-cama",
+        "noFollow": true,
+        "tagTitle": "Coordinados De Cama",
+        "text": "Coordinados De Cama"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-4-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/edredones-infantiles",
+        "noFollow": true,
+        "tagTitle": "Edredones Infantiles",
+        "text": "Edredones Infantiles"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-4-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/protectores",
+        "noFollow": true,
+        "tagTitle": "Protectores",
+        "text": "Protectores"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-4-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/blancos/almohadas",
+        "noFollow": true,
+        "tagTitle": "Almohadas",
+        "text": "Almohadas"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-3-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/closets-y-lavanderia/",
+        "noFollow": true,
+        "tagTitle": "Closets y Lavandería",
+        "text": "Closets y Lavandería"
+      }
+    }
+    /*"blocks": [
+      "submenu#hogar-line-3-columna-3"
+    ]*/
+  },
+  "submenu#hogar-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-4-columna-3-line-1",
+      "menu-item#hogar-menu-line-4-columna-3-line-2",
+      "menu-item#hogar-menu-line-4-columna-3-line-3"
+    ]
+  },
+  "menu-item#hogar-menu-line-4-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/closets-y-lavanderia/zapateras",
+        "noFollow": true,
+        "tagTitle": "Zapateras",
+        "text": "Zapateras"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-4-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/closets-y-lavanderia/closets-armables",
+        "noFollow": true,
+        "tagTitle": "Closets Armables",
+        "text": "Closets Armables"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-4-columna-3-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/closets-y-lavanderia/organizadores-de-closet",
+        "noFollow": true,
+        "tagTitle": "Organizadores De Closet",
+        "text": "Organizadores De Closet"
+      }
+    }
+  },
+  "flex-layout.col#hogar-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-2-columna-5-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-6",
+      "menu-item#hogar-menu-line-2-columna-5-line-2",
+      "menu-item#hogar-menu-line-5-columna-5-line-1",
+      "menu-item#hogar-menu-line-5-columna-5-line-2",
+      "menu-item#hogar-menu-line-2-columna-5-line-3"
+    ]
+  },
+  "menu-item#hogar-menu-line-2-columna-5-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/mesa/",
+        "noFollow": true,
+        "tagTitle": "Mesa",
+        "text": "Mesa"
+      }
+    }
+    /*"blocks": [
+      "submenu#hogar-line-2-columna-5"
+    ]*/
+  },
+  "submenu#hogar-line-2-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-3",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-4",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-5",
+      "menu-item#hogar-menu-line-2-columna-3-columna-5-line-6"
+    ]
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/mesa/vajillas",
+        "noFollow": true,
+        "tagTitle": "Vajillas",
+        "text": "Vajillas"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/mesa/cubiertos",
+        "noFollow": true,
+        "tagTitle": "Cubiertos",
+        "text": "Cubiertos"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-5-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/mesa/servicio-de-mesa",
+        "noFollow": true,
+        "tagTitle": "Servicio De Mesa",
+        "text": "Servicio De Mesa"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-5-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/mesa/jarras-termos-y-accesorios",
+        "noFollow": true,
+        "tagTitle": "Jarras, Térmos y Accesorios",
+        "text": "Jarras, Térmos y Accesorios"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-5-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/mesa/tazas-vasos-y-copas",
+        "noFollow": true,
+        "tagTitle": "Tazas, Vasos y Copas",
+        "text": "Tazas, Vasos y Copas"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-3-columna-5-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/mesa/textiles-de-mesa",
+        "noFollow": true,
+        "tagTitle": "Textiles De Mesa",
+        "text": "Textiles De Mesa"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-2-columna-5-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/patio-y-jardin/",
+        "noFollow": true,
+        "tagTitle": "Patio y Jardín",
+        "text": "Patio y Jardín"
+      }
+    }
+    /*"blocks": [
+      "submenu#hogar-line-5-columna-5"
+    ]*/
+  },
+  "menu-item#hogar-menu-line-2-columna-5-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-hogar/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS HOGAR",
+        "text": "VER TODOS HOGAR"
+      }
+    }
+  },
+  "submenu#hogar-line-5-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hogar-menu-line-5-columna-5-line-1",
+      "menu-item#hogar-menu-line-5-columna-5-line-2"
+    ]
+  },
+  "menu-item#hogar-menu-line-5-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/patio-y-jardin/juegos-para-jardin",
+        "noFollow": true,
+        "tagTitle": "Juegos Para Jardín",
+        "text": "Juegos Para Jardín"
+      }
+    }
+  },
+  "menu-item#hogar-menu-line-5-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hogar/patio-y-jardin/sillas-sillones-blancos-y-sofas",
+        "noFollow": true,
+        "tagTitle": "Sillas, Sillones, Bancos y Sofás",
+        "text": "Sillas, Sillones, Bancos y Sofás"
+      }
+    }
+  }
+}

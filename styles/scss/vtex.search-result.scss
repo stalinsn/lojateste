@@ -1,0 +1,300 @@
+@import "./references";
+
+.searchNotFound {
+  flex-direction: column;
+
+  .searchNotFoundOops,
+  .searchNotFoundWhatDoIDo {
+    color: #7E1F25;
+    text-align: center;
+  }
+
+  .searchNotFoundInfo {
+    color: #000;
+    text-align: center;
+  }
+}
+
+.galleryTitle--layout {
+  display: none;
+}
+
+.filterTitle {
+  font-size: 1rem;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #3f3f40;
+}
+
+.filterMessage {
+  display: none;
+}
+
+.categoryItemChildrenContainer,
+.categoryItemName {
+  font-size: 12px;
+}
+
+.filterItem {
+  font-size: 12px;
+
+  :global(.vtex-checkbox__line-container) {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+.filterIcon {
+  .caretIcon {
+    color: #7E1F25;
+  }
+}
+
+.filter {
+  border-bottom: 1px solid #e3e4e6;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+
+.filter__container {
+  border: none;
+}
+
+.galleryItem {
+  padding: .1em;
+  margin-bottom: 1.5em;
+  @media screen and (max-width: em(768px)) {
+    margin-bottom: .75em;
+  }
+  :global(.vtex-product-summary-2-x-element) {
+    :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
+      &::after {
+        @media (max-width: em(1026px)) {
+          & {
+            width: 100%;
+            background-position: center;
+          }
+        }
+      }
+    }
+    :global(.vtex-product-price-1-x-installments--summary) {
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: em(1026px)) {
+    padding-right: 16px;
+  }
+
+  :global(.vtex-store-components-3-x-priceContainer) {
+    flex-direction: column !important;
+
+    :global(.vtex-store-components-3-x-listPriceValue) {
+      font-size: 12px;
+      color: rgba($color: #000000, $alpha: 0.38);
+    }
+  }
+
+  :global(.vtex-product-summary-2-x-nameContainer) {
+    justify-content: center;
+    border-bottom: none;
+    min-height: inherit;
+    padding-top: 0px;
+
+    :global(.vtex-product-summary-2-x-brandName) {
+      text-transform: capitalize !important;
+      margin-top: 2px;
+      font-size: 12px;
+      color: #525252;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+  }
+
+  :global(.vtex-store-components-3-x-productBrandContainer) {
+    text-align: center !important;
+  }
+}
+
+.buttonShowMore {
+  margin: 1em 0;
+}
+
+.buttonShowMore--layout {
+  :global(.vtex-button) {
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.filterPopupTitle {
+  font-size: 12px;
+}
+
+.totalProducts--layout {
+  border: none !important;
+}
+
+.accordionFilter {
+  .filterAccordionBreadcrumbs {
+    :first-child {
+      font-size: 14px;
+      color: #3f3f40;
+    }
+
+    :last-child {
+      font-size: 14px;
+      color: #3f3f40;
+    }
+  }
+
+  .filterAccordionItemBox {
+    :first-child {
+      font-size: 14px;
+      color: #3f3f40;
+    }
+  }
+
+  .accordionFilterItemTag {
+    :first-child {
+      background: $primary !important;
+      color: #fff;
+    }
+  }
+}
+
+.filterClearButtonWrapper {
+  :global(.vtex-button) {
+    background: #F6F6F6 !important;
+    color: #3f3f40;
+  }
+}
+
+.filterApplyButtonWrapper {
+  :global(.vtex-button) {
+    background: $primary !important;
+    color: #fff;
+  }
+}
+
+.notFound--layout {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: $maxContainerWidth;
+  margin: 0 auto;
+  padding-top: 20px;
+
+  .searchNotFoundWhatToDoDotsContainer {
+    text-align: left;
+    font-size: 13px;
+    line-height: 2em;
+  }
+}
+
+.filterTemplateOverflow::-webkit-scrollbar-track {
+  background-color: #f4f4f4
+}
+
+.filterTemplateOverflow::-webkit-scrollbar {
+  width: 6px;
+  background: #f4f4f4
+}
+
+.filterTemplateOverflow::-webkit-scrollbar-thumb {
+  background: #0075C9;
+}
+
+.filter__container--category-4 {
+  display: none !important;
+}
+
+.filtersWrapper {
+  display: flex;
+  flex-direction: column;
+
+  .filterTitle:focus {
+    outline: none;
+  }
+
+  .filter__container--precio {
+    display: none !important;
+  }
+}
+
+:global(.vtex-store-components-3-x-searchBarInnerContainer--search-mobile) {
+  @media screen and (min-width: em(320px)) {
+    right: 24px;
+  }
+  @media screen and (min-width: em(768px)) {
+    right: 4px;
+  }
+  @media screen and (min-width: em(1024px)) {
+    right: 24px;
+  }
+}
+.filter__container--sellername {
+  .filter {
+    .filterTitle {
+      font-size: 0 !important;
+      &::before {
+       content: "Vendido por";
+       font-size: 1rem !important;
+      }
+    }
+  }
+}
+.accordionFilterContainer--sellername{
+  .filterAccordionItemBox--sellername {
+    .accordionFilterContent {
+      .accordionFilterItemTitle {
+        font-size: 0 !important;
+        &::before {
+        content: "Vendido por";
+        font-size: 14px !important;
+        }
+      }
+    }
+  }
+}
+:global(.vtex-search-result-3-x-searchResultContainer){
+  :global(.vtex-flex-layout-0-x-flexRow--conteudo){
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  :global(.vtex-search-result-3-x-gallery){
+    :global(.vtex-search-result-3-x-galleryItem){
+      :global(.vtex-product-summary-2-x-container){
+        :global(.vtex-product-summary-2-x-clearLink){
+          :global(.vtex-product-summary-2-x-element){
+            :global(.vtex-product-summary-2-x-imageContainer){
+              max-height: 200px;
+              width: auto;
+              :global(.vtex-product-summary-2-x-imageNormal){
+                max-height: 200px !important;
+              }
+            }
+            :global(.vtex-product-summary-2-x-nameContainer){
+              margin-top: 15px;
+              height: auto;
+              padding-bottom: 0;
+              :global(.vtex-product-summary-2-x-productBrand){
+                @media screen and (max-width: em(1024px)){
+                  height: 35px;
+                }
+                height: 47px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,24 @@
+.body-order-form {
+  #payment-data {
+    .payment-group-item {
+      min-height: 72px;
+    }
+    #payment-group-custom204PaymentGroupPaymentGroup .payment-group-item-text {
+      background-image: url(/arquivos/icon_payments.png);
+      background-size: 32px;
+    }
+    #payment-group-custom203PaymentGroupPaymentGroup .payment-group-item-text {
+      background-image: url(/arquivos/icon_card.png);
+      background-size: 32px;
+    }
+    #payment-group-custom202PaymentGroupPaymentGroup .payment-group-item-text {
+      background-image: url(/arquivos/icon_card.png);
+      background-size: 32px;
+    }
+
+    #payment-group-creditCardPaymentGroup .payment-group-item-text {
+      background-image: url(/arquivos/icon_card.png);
+      background-size: 30px;
+    }
+  }
+}

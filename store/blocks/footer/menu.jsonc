@@ -1,0 +1,503 @@
+{
+  "vtex.menu@2.x:menu#footer-menu1": {
+    "title": "Footer - Menu corporativo Desktop",
+
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer"
+    },
+
+    "children": [
+      "rich-text#footer-contactanos",
+      "menu-item#contactanos-1",
+      "menu-item#contactanos-2",
+      "menu-item#contactanos-3",
+      "menu-item#contactanos-4",
+      "menu-item#contactanos-5"
+    ]
+  },
+
+  "rich-text#footer-contactanos": {
+    "title": "Footer - Title Masxmenos Centroamerica Desktop",
+
+    "props": {
+      "textAlignment": "",
+      "textPosition": "",
+      "text": "Conocenos",
+      "blockClass": "title-menu-footer"
+    }
+  },
+
+  "menu-item#contactanos-1": {
+    "props": {
+      "id": "menu-item-2",
+      "blockClass": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones-de-compra",
+        "noFollow": false,
+        "tagTitle": "Términos y Condiciones",
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+
+  "menu-item#contactanos-2": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aviso-de-privacidad-ecommerce",
+        "noFollow": false,
+        "tagTitle": "Aviso de Privacidad Integral eCommerce ",
+        "text": "Aviso de Privacidad Integral eCommerce "
+      }
+    }
+  },
+
+  "menu-item#contactanos-3": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/reglamento-de-promociones",
+        "noFollow": false,
+        "tagTitle": "Reglamento de promociones",
+        "text": "Reglamento de promociones"
+      }
+    }
+  },
+
+  "menu-item#contactanos-4": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acciones-contra-el-covid-19",
+        "noFollow": false,
+        "tagTitle": "Acciones contra el COVID-19 en nuestras tiendas",
+        "text": "Acciones contra el COVID-19 en nuestras tiendas"
+      }
+    }
+  },
+
+  "menu-item#contactanos-5": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/walmart-te-escucha",
+        "noFollow": false,
+        "tagTitle": "Masxmenos te escucha",
+        "text": "Masxmenos te escucha"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-menu2": {
+    "title": "Footer - Menu Programas Desktop",
+
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer"
+    },
+
+    "children": [
+      "rich-text#footer-ayuda",
+      "menu-item#ayuda-1",
+      "menu-item#ayuda-2",
+      "menu-item#ayuda-3",
+      "menu-item#ayuda-4"
+    ]
+  },
+
+  "rich-text#footer-ayuda": {
+    "title": "Footer - Title Programas Desktop",
+    "props": {
+      "textAlignment": "",
+      "textPosition": "",
+      "text": "¿Necesitas ayuda?",
+      "blockClass": "title-menu-footer"
+    }
+  },
+
+  "menu-item#ayuda-1": {
+    "props": {
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/como-comprar",
+        "noFollow": false,
+        "tagTitle": "¿Cómo comprar en masxmenos.co.cr?",
+        "text": "¿Cómo comprar en masxmenos.co.cr?"
+      }
+    }
+  },
+
+  "menu-item#ayuda-2": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/localizador-de-tiendas",
+        "noFollow": false,
+        "tagTitle": "Nuestras tiendas",
+        "text": "Nuestras tiendas"
+      }
+    }
+  },
+
+  "menu-item#ayuda-3": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+
+  "menu-item#ayuda-4": {
+    "props": {
+      "blockClass": "read-only",
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "/",
+        "noFollow": false,
+        "tagTitle": "Contáctanos al 800-8000-722",
+        "text": "Contáctanos al 800-8000-722"
+      }
+    }
+  },
+
+  "logo#facebook": {
+    "props": {
+      "title": "Facebook",
+      "href": "/",
+      "url": "assets/fb.svg",
+      "maxWidth": "50%",
+      "blockClass": "icon-social-fb"
+    }
+  },
+  "logo#youtube": {
+    "props": {
+      "title": "Youtube",
+      "href": "/",
+      "url": "assets/youtube.svg",
+      "maxWidth": "50%",
+      "blockClass": "icon-social-fb"
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-menu6": {
+    "title": "Footer - Menu Servicio 2 Desktop",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer"
+    },
+    "children":[
+      "rich-text#footer-menu6",
+      "menu-item#servicios-1",
+      "menu-item#servicios-2",
+      "menu-item#servicios-3",
+      "menu-item#servicios-4",
+      "menu-item#servicios-5"
+      // "menu-item#servicios-6"
+    ]
+  },
+
+  "rich-text#footer-menu6": {
+    "title": "Footer - Title servicio al cliente",
+    "props": {
+      "textAlignment": "",
+      "textPosition": "",
+      "text": "Servicio",
+      "blockClass": "title-menu-footer"
+    }
+  },
+
+  "menu-item#servicios-1": {
+    "props": {
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tarjeta-de-credito",
+        "noFollow": false,
+        "tagTitle": "Tarjeta de crédito",
+        "text": "Tarjeta de crédito"
+      }
+    }
+  },
+
+  "menu-item#servicios-2": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tarjeta-de-regalo",
+        "noFollow": false,
+        "tagTitle": "Tarjeta de regalo",
+        "text": "Tarjeta de regalo"
+      }
+    }
+  },
+
+  "menu-item#servicios-3": {
+    "props": {
+      "blockClass": ["read-only", "subtitle-footer"],
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "/",
+        "noFollow": false,
+        "tagTitle": "Otros servicios",
+        "text": "Otros servicios:"
+      }
+    }
+  },
+
+  "menu-item#servicios-4": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/remesas",
+        "noFollow": false,
+        "tagTitle": "Remesas",
+        "text": "- Remesas"
+      }
+    }
+  },
+
+  "menu-item#servicios-5": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pago-de-servicios",
+        "noFollow": false,
+        "tagTitle": "Pagos de servicios",
+        "text": "- Pagos de servicios"
+      }
+    }
+  },
+
+  "menu-item#servicios-6": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/financiamiento",
+        "noFollow": false,
+        "tagTitle": "Financiamiento",
+        "text": "Financiamiento"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-menu1-mobile": {
+    "title": "Footer - Menu corporativo Desktop",
+
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile"
+    },
+
+    "children": [
+      "menu-item#contactanos-1",
+      "menu-item#contactanos-2",
+      "menu-item#contactanos-3",
+      "menu-item#contactanos-4",
+      "menu-item#contactanos-5"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-menu2-mobile": {
+    "title": "Footer - Menu corporativo Desktop",
+
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile"
+    },
+
+    "children": [
+      "menu-item#ayuda-1",
+      "menu-item#ayuda-2",
+      "menu-item#ayuda-3",
+      "menu-item#ayuda-4"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-menu3-mobile": {
+    "title": "Footer - Menu corporativo Desktop",
+
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile"
+    },
+
+    "children": [
+      "menu-item#servicios-1",
+      "menu-item#servicios-2",
+      "menu-item#servicios-3",
+      "menu-item#servicios-4",
+      "menu-item#servicios-5"
+      // "menu-item#servicios-6"
+    ]
+  },
+
+  "modal-layout#sales-for-enterprise": {
+    "children": [
+      "flex-layout.row#form-sales-enterprise"
+    ]
+  },
+
+  "flex-layout.row#form-sales-enterprise": {
+    "children": [
+      "flex-layout.col#form-sales-enterprise"
+    ]
+  },
+
+  "flex-layout.col#form-sales-enterprise": {
+    "children": [
+      "form"
+    ],
+
+    "props": {
+      "blockClass": "form-contact"
+    }
+  },
+
+  "form": {
+    "props": {
+      "entity": "VI",
+      "schema": "VI_schema"
+    },
+
+    "children":[
+      "rich-text#title-modal",
+      "form-input.text#name",
+      "form-input.text#corporate",
+      "flex-layout.row#form-two-input",
+      "form-input.text#comments",
+      "form-submit"
+    ],
+
+    "blocks": ["form-success"]
+  },
+
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Hemos recibido tus datos y en breve nos pondremos en contacto.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#title-modal": {
+    "props": {
+      "blockClass": "title-modal",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# Ventas para empresas \n ## Ventas institucionales y por volúmen \n ### Envíanos tu datos y con gusto nos comunicaremos contigo a la brevedad."
+    }
+  },
+
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name"
+    }
+  },
+
+  "form-input.text#corporate": {
+    "props": {
+      "pointer": "#/properties/corporate"
+    }
+  },
+
+  "flex-layout.row#form-two-input": {
+    "children": [
+      "form-input.text#phone",
+      "form-input.text#email"
+    ]
+  },
+
+  "form-input.text#phone": {
+    "props": {
+      "pointer": "#/properties/phone"
+    }
+  },
+
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+
+  "form-input.text#comments": {
+    "props": {
+      "pointer": "#/properties/comments"
+    }
+  },
+
+  "form-submit": {
+    "props": {
+      "label": "Enviar"
+    }
+  }
+}

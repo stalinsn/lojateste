@@ -1,0 +1,33 @@
+@import "../references";
+
+.orderSummaryWrapper {
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  padding: 10px;
+  @media (min-width: em(769px)) {
+    margin-top: 70px;
+    margin-bottom: 60px;
+  }
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+  .orderSummaryTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+  }
+
+  .total {
+    height: 30px;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    &.totalOrder {
+      font-size: 1.25rem;
+      font-weight: bold;
+      border: none;
+    }
+  }
+}

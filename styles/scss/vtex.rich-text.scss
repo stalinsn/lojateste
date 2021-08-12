@@ -1,0 +1,1969 @@
+@import "./references";
+
+// FOOTER
+
+
+.container--payment-methods {
+  width: 100%;
+  margin-bottom: 1em;
+  :first-child {
+    margin: 0 auto;
+    .paragraph--payment-methods {
+      font-size: 10px;
+    }
+  }
+}
+
+.paragraph--copyright-footer {
+  color: #525252;
+  font-size: 10px;
+  padding: 10px 10px 10px;
+  white-space: normal;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+
+  :first-child {
+    color: #fff;
+  }
+}
+.address-summary {
+  font-size: 14px;
+  text-transform: lowercase;
+}
+.address-summary-MEX {
+  font-size: 14px;
+  text-transform: lowercase;
+}
+.container--mi-tienda {
+  margin: 0;
+  @media (max-width: em(768px)) {
+    margin-left: 0px;
+  }
+  @media screen and (min-width: em(320px)) {
+    margin: 0;
+    padding: 0;
+    :first-child {
+      display: flex;
+      margin: auto 0;
+      .paragraph--mi-tienda {
+        :first-child {
+          color: #fff;
+          font-size: 11px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-decoration: none;
+          margin-right: 8px !important;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: em(1024px)) {
+    //border-right: solid 1px #fff;
+    margin: 24px 0 24px 16px;
+    padding-right: 0px;
+    height: 24px;
+  }
+
+  :first-child {
+    display: flex;
+    margin: auto 0;
+    .paragraph--mi-tienda {
+      :first-child {
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        margin-right: 24px;
+        @media (max-width: em(768px)) {
+          font-size: 11px !important;
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    background: url(assets/icon_box.svg) no-repeat;
+    margin: 0px 6px auto 0;
+
+    @media (max-width: em(768px)) {
+      width: 18px;
+      height: 18px;
+    }
+    @media screen and (min-width: em(320px)) {
+      width: 13px;
+      height: 17px;
+    }
+    @media screen and (min-width: em(1024px)) {
+      width: 21px;
+      height: 21px;
+    }
+  }
+
+  //new
+  /*@media (min-width: em(768px)) {
+    &::after {
+      content: "";
+      height: 20px;
+      margin-top: 14px;
+      margin-left: 16px;
+    }
+  }*/
+
+  .paragraph--mi-tienda {
+    margin: auto 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-right: 0px;
+    @media (max-width: em(1024px)) {
+      display: none;
+    }
+  }
+}
+
+.container--mi-tel {
+  @media screen and (min-width: em(320px)) {
+    border-right: none;
+    margin: 0;
+    margin-right: -40px;
+  }
+  @media screen and (min-width: em(1026px)) {
+    border-right: solid 1px #fff;
+    margin: 24px 0 24px 40px;
+    padding-right: 0px;
+    height: 24px;
+  }
+
+  @media screen and (min-width: em(768px)) {
+    margin: 24px 0 24px 40px;
+    padding-right: 0px;
+    height: 24px;
+  }
+  :first-child {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-right: 6px;
+    margin-top: 3px;
+    width: 100%;
+    text-decoration: none;
+
+    @media (max-width: em(1023px)) {
+      display: none;
+    }
+  }
+  &::before {
+    content: "";
+    display: block;
+    width: 23px;
+    height: 21px;
+    //background: url('assets/heart-regular.png');
+    margin: 13px 6px 0 0;
+  }
+}
+
+// PRODUTO
+.container--compra-protegida {
+  @media screen and (max-width: 40em) {
+    border: 0;
+  }
+  border-top: 1px solid #a5a5a5;
+
+  .paragraph--compra-protegida {
+    background: url(assets/safe.svg) no-repeat;
+    padding-left: 2em;
+    padding-bottom: 3px;
+    @media screen and (max-width: 40em) {
+      margin-top: 0;
+    }
+  }
+}
+
+//header
+.flexRowContent--menu-link {
+  :global(.vtex-rich-text-0-x-container) {
+    margin-right: 24px;
+  }
+  :global(.vtex-login-2-x-container) {
+    margin-right: 24px;
+  }
+}
+
+//HELP CENTER
+.strong--content-help {
+  font-size: 18px;
+  color: #333333;
+}
+
+.paragraph--content-help {
+  font-size: 14px;
+  color: #666666;
+}
+
+.paragraph--title-second {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.paragraph--title-help {
+  color: #ef4a81;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.paragraph--title-catalog {
+  font-size: 24px;
+  color: #666666;
+}
+
+.strong--title-catalog {
+  color: #333333;
+}
+
+.paragraph--accordion-help {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.paragraph--txt-invoice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #666666;
+  margin: -1% 0 0 -5%;
+
+  @media screen and (max-width: em(840px)) {
+    font-size: 26px;
+    margin: 13% 0 0 -35%;
+  }
+}
+
+.wrapper--col-invoice {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 0px;
+  padding-right: 60px;
+  color: #fff;
+  @media screen and (max-width: em(840px)) {
+    padding-right: 0px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+
+.wrapper--body-invoice {
+  :global(.vtex-rich-text-0-x-heading-level-1) {
+    font-size: 30px;
+    @media screen and (max-width: em(840px)) {
+      font-size: 25px;
+    }
+  }
+  .paragraph--body-invoice {
+    font-size: 16px;
+  }
+}
+
+.paragraph--cy-invoice {
+  padding: 7px;
+  background-color: #ffdc20;
+  border-radius: 3px;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+}
+
+.wrapper--txt-y-invoice {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  color: #666;
+  font-size: 16px;
+}
+
+.container--cy-invoice {
+  justify-content: center;
+  @media screen and (max-width: em(840px)) {
+    justify-content: left;
+  }
+}
+
+.paragraph--pipes-invoice-gray {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  @media screen and (max-width: em(840px) ){
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+  }
+}
+
+.link--cy-invoice {
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--title-t-product-4) {
+  padding-right: 25px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--title-products-table) {
+  align-items: center !important;
+  :global(.vtex-rich-text-0-x-container) {
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 12px;
+    font-weight: bold;
+    min-height: 42px;
+    top: -41px;
+    display: flex;
+    position: relative;
+    @media (max-width:em( 1014px) ){
+      display: none;
+    }
+  }
+  @media (max-width: em(1014px)) {
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      display: none;
+    }
+  }
+
+  :global(.vtex-rich-text-0-x-container--title-t-product-1) {
+    padding-left: 24px;
+  }
+  .title-t-product-2 {
+    min-height: 24px;
+  }
+  .title-t-product-1,
+  .title-t-product-2 {
+    font-family: GothamBook;
+    font-size: 12px;
+    font-weight: bold;
+    :global(.vtex-rich-text-0-x-heading-level-2) {
+      color: #666666;
+      font-size: 24px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.17;
+      letter-spacing: normal;
+    }
+  }
+
+  .paragraph--col-invoice {
+    @media screen and (max-width: em(840px)) {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.paragraph--disclaimerenvio {
+  font-size: 0.75rem;
+  margin-top: 0;
+}
+
+.paragraph--subtitle-atractive {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  position: relative;
+  &::after {
+    content: "";
+    background: url(assets/arrow-black-right.svg) no-repeat;
+    width: 30px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    background-size: 23px 16px !important;
+    right: 31px;
+    top: 7px;
+    @media screen and (max-width: em(768px)) {
+      width: 20px;
+      background-size: 17px 13px !important;
+      right: 5px;
+      top: 8px;
+    }
+  }
+}
+
+:global(.vtex-rich-text-0-terms-level-1) {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #333;
+}
+
+:global(.vtex-rich-text-0-terms-level-2) {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #333;
+}
+
+:global(.vtex-rich-text-0-terms-paragraph) {
+  font-size: 16px;
+  padding-top: 10px;
+  line-height: 1.4;
+  color: #333;
+}
+
+:global(.vtex-rich-text-0-terms-ul) {
+  padding-left: 35px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.paragraph--terms-link {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.wrapper--title-modal {
+  :global(.vtex-rich-text-0-x-heading-level-1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #373737;
+  }
+
+  :global(.vtex-rich-text-0-x-heading-level-2) {
+    font-size: 1rem;
+    color: #666;
+    font-weight: normal;
+  }
+
+  :global(.vtex-rich-text-0-x-heading-level-3) {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #666;
+  }
+}
+
+:global(.vtex-rich-text-0-x-wrapper--title-footer-gray-fb) {
+  color: #a5a5a5;
+  font-weight: 700;
+  font-size: 1.75rem;
+
+  :global(.vtex-rich-text-0-x-paragraph--title-footer-gray-fb) {
+    margin: 0px;
+  }
+}
+
+:global(.vtex-rich-text-0-x-wrapper--title-footer-phone-fb) {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--main-color);
+  font-weight: 800;
+  flex: 1 1;
+  margin: 2rem 0 5px;
+  :global(.vtex-rich-text-0-x-paragraph--title-footer-phone-fb) {
+    margin: 0px;
+  }
+}
+
+:global(.vtex-rich-text-0-x-wrapper--title-footer-ventas-fb) {
+  font-size: 1rem;
+  color: var(--main-color);
+  font-weight: 600;
+  :global(.vtex-rich-text-0-x-paragraph--title-footer-ventas-fb) {
+    margin: 0px;
+  }
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-footer-red-fb) {
+  color: #fe1d00;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-footer-blackbold-fb) {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0px;
+}
+
+.wrapper--title-footer-black-fb {
+  width: 100%;
+}
+
+.paragraph--title-footer-black-fb {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.wrapper--title-footer-red-fb {
+  width: 100%;
+}
+
+.wrapper--title-footer-blackbold-fb {
+  width: 100%;
+}
+
+.paragraph--txt-first-head {
+  margin-top: 11px;
+  margin-bottom: 11px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.paragraph--txt-news {
+  color: #525252;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.paragraph--benefits {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  :global(.vtex-rich-text-0-x-strong--benefits) {
+    color: #fdbb30;
+  }
+}
+
+.paragraph--best-seller {
+  margin-bottom: 0px;
+}
+
+.container--buy-all {
+  text-align: right;
+  justify-content: right;
+  align-items: center;
+}
+
+.wrapper--buy-all {
+  width: 100%;
+  color: #1a75cf;
+  font-size: 14px;
+}
+
+.paragraph--buy-all {
+  margin-right: 18px;
+}
+
+.paragraph--baby-world-sub {
+  /*width: 94px;
+  word-break: break-word;
+  margin: 0px;*/
+  width: 105px;
+  word-break: break-word;
+  margin: 0px;
+  font-size: 14px !important;
+  color: #525252;
+}
+
+// css andres paginas institucionales aviso-de-privacidad-ecommerce
+.paragraph--titulo-pag-tarjeta-regalo,
+.paragraph--titulo-pag-preguntas-frecuentes,
+.paragraph--titulo-pag-tarjeta-credito,
+.paragraph--titulo-pag-walmart-te-escucha,
+.paragraph--titulo-pag-financiamiento,
+.paragraph--titulo-pag-como-comprar,
+.paragraph--titulo-pincipal-pag-como-comprar,
+.paragraph--titulo-de-pagina-aviso-de-privacidad-ecommerce {
+  font-size: 20px;
+  font-weight: bold;
+  color: #525252;
+  margin: 1em 6px 0px;
+}
+
+.paragraph--titulo-pincipal-pag-como-comprar{
+  color: #1a75cf !important;
+  .paragraph--text-white{
+    background: #1a75cf;
+    color: #fff;
+    padding: 3px 9px 7px 9px;
+    border-radius: 8px;
+    margin-right: 5px;
+    .paragraph--text-yellow{
+      color: #ff9e19;
+    }
+  }
+}
+
+.link--text-pag-como-comprar{
+  color: #005cb5;
+}
+
+.paragraph--titulo-pag-tarjeta-regalo,
+.paragraph--titulo-pag-walmart-te-escucha,
+.paragraph--titulo-pag-preguntas-frecuentes,
+.paragraph--titulo-pag-tarjeta-credito {
+  margin: 0 0 0.7em 0 !important;
+}
+.paragraph--titulo-pag-como-comprar,
+.paragraph--titulo-pincipal-pag-como-comprar {
+  margin: 0;
+}
+.paragraph--texto-bajotitulo-de-pagina-aviso-de-privacidad-ecommerce {
+  font-size: 14px;
+  color: #525252;
+  font-weight: normal;
+  margin: 0px 6px 16px;
+}
+
+.paragraph--estilo-contenido-disclosure-promos,
+.paragraph--estilo-contenido-disclosure {
+  font-size: 14px;
+  color: #525252;
+  font-weight: normal;
+  margin: 10px 6px;
+}
+
+// css andres paginas institucionales pagina-terminos-y-condiciones-de-compra
+.paragraph--titulo-de-pagina-terminos-y-condiciones-de-compra {
+  font-size: 20px;
+  font-weight: bold;
+  color: #525252;
+  margin: 0 10px;
+}
+.paragraph--subtitulo-de-pagina-terminos-y-condiciones-de-compra {
+  font-size: 14px;
+  font-weight: bold;
+  color: #525252;
+  margin: 0 10px;
+  margin-top: 15px;
+}
+
+.paragraph--text3 {
+  font-size: 14px;
+  font-weight: regular;
+  color: #525252;
+  margin: 0 10px;
+  margin-top: 15px;
+}
+.paragraph--text2 {
+  font-size: 16px;
+  color: #525252;
+  font-weight: bold;
+}
+.paragraph--ultimo-texto {
+  font-size: 14px;
+  font-weight: bold;
+  color: #525252;
+}
+.paragraph--ultimo-texto-desktop {
+  font-size: 14px;
+  font-weight: bold;
+  color: #525252;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.paragraph--estilo-titulo-disclosure-desktop,
+.paragraph--estilo-titulo-disclosure-promos {
+  font-size: 16px;
+  color: #525252;
+  font-weight: bold;
+  margin: 10px 6px;
+}
+.paragraph--textogrande {
+  font-size: 20px;
+  font-weight: bold;
+  color: #525252;
+  margin-bottom: 0;
+}
+.link--textogrande {
+  text-decoration: none;
+}
+.paragraph--textomediano,
+.paragraph--textomediano-promos {
+  font-size: 16px;
+  font-weight: 900 !important;
+  color: #525252;
+  margin: 0;
+}
+.paragraph--textomediano-promos {
+  font-size: 14px;
+}
+
+.paragraph--italic {
+  font-style: italic;
+}
+.paragraph--textoespecial {
+  font-size: 14px;
+  color: #525252;
+}
+
+// css andres paginas institucionales reglamento de promociones
+.paragraph--textoazul {
+  font-size: 14px;
+  color: #1a75cf;
+  font-weight: bold;
+}
+.paragraph--ajustetexto {
+  padding-left: 7px;
+}
+
+.paragraph--textoazul .link--estilo-contenido-disclosure {
+  font-size: 14px;
+  color: #1a75cf;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.italic--subtitle-service {
+  visibility: hidden;
+}
+
+.paragraph--subtitle-service {
+  color: #525252;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 19px;
+  word-break: break-word;
+
+  @media screen and (max-width: 40em) {
+    line-height: 15px;
+  }
+}
+
+.wrapper--titulo-reglamento-de-promociones-preguntas {
+  .paragraph {
+    color: #525252;
+    opacity: 1;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}
+
+.link--estilo-contenido-disclosure-promos {
+  color: #1A75CF;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.listOrdered--estilo-contenido-disclosure-promos {
+  font-size: 14px;
+  color: #525252;
+  font-weight: normal;
+  margin: 10px 6px;
+  padding-left: 14px;
+}
+
+.listItem--estilo-contenido-disclosure-promos{
+  .list--estilo-contenido-disclosure-promos{
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+
+// css andres paginas institucionales servicios financieros
+.paragraph--titulo-tarjeta-de-credito,
+.paragraph--titulo-walmart-te-escucha {
+  margin-bottom: 0;
+}
+.paragraph--titulo-tarjeta-de-regalo {
+  margin-bottom: 0;
+}
+.paragraph--titulo-remesas {
+  margin-bottom: 0;
+}
+.paragraph--titulo-pago-de-servicios {
+  margin-bottom: 0;
+}
+.paragraph--titulo-financieros {
+  margin-left: 25px;
+  margin-bottom: 0;
+  color: #525252;
+  font-size: 14px;
+  font-weight: bold;
+}
+.paragraph--texto-financieros {
+  color: #525252;
+  font-size: 14px;
+}
+.paragraph--titulo-financieros::before {
+  content: url("/arquivos/vineta.png");
+  position: absolute;
+  margin-left: -25px;
+}
+
+.paragraph--titulo-desktop::before {
+  content: url("/arquivos/vineta.png");
+  position: absolute;
+  margin-left: -25px;
+}
+.paragraph--titulo-desktop {
+  margin-left: 25px;
+  color: #525252;
+  font-size: 14px;
+  font-weight: bold;
+}
+.paragraph--texto-desktop {
+  color: #525252;
+  font-size: 14px;
+  margin-top: 0;
+}
+.paragraph--textosupergrande {
+  color: #525252;
+  font-size: 26px;
+  font-weight: bold;
+}
+.container--textosupergrande {
+  margin-left: 50px;
+}
+.paragraph--textogrande-mobile {
+  font-size: 20px;
+  font-weight: bold;
+  color: #525252;
+  margin-left: 16px;
+  margin-bottom: 5px;
+}
+
+.wrapper--add-list-car {
+  width: 100%;
+
+  .paragraph {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #1A75CF;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+  }
+}
+
+
+// css andres paginas institucionales remesas
+@media (min-width:1025px) {
+  .container--titulo-remesas {
+    margin-left: 48px;
+  }
+  .container--mediano-remesas {
+    margin-left: 48px;
+  }
+  .container--titulo-tres-columnas-1 {
+    margin-left: 48px;
+  }
+  .container--texto-tres-columnas {
+    margin-left: 48px;
+  }
+  .container--Pagamos-remesas {
+    margin-left: 48px;
+  }
+  .container--kiosko {
+    margin-left: 48px;
+  }
+  .paragraph--mediano-remesas {
+    font-size: 16px;
+    color: #525252;
+    font-family: GothamBook;
+  }
+  .paragraph--titulo-remesas {
+    font-size: 26px;
+    color: #525252;
+    font-weight: bold;
+    font-family: GothamBook;
+  }
+  .paragraph--titulo-tres-columnas-1 {
+    font-size: 16px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+  }
+  .paragraph--titulo-tres-columnas-2 {
+    font-size: 16px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+    width: 176px;
+    height: 48px;
+    background-color: #fff;
+    margin-bottom: 0;
+    padding-top: 13px;
+    padding-left: 44px;
+  }
+  .paragraph--titulo-tres-columnas-3 {
+    font-size: 16px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+    width: 176px;
+    height: 48px;
+    background-color: #fff;
+    margin-bottom: 0;
+    padding-top: 13px;
+    padding-left: 44px;
+    border-radius: 0px 24px 24px 0px;
+    box-shadow: 0px 3px 6px #00000014;
+  }
+  .paragraph--titulo-tres-columnas-3::before {
+    content: url("https://walmartcr.myvtex.com/arquivos/icon_horario.png");
+    width: 24px;
+    height: 24px;
+    margin-left: -25px;
+    position: absolute;
+  }
+  .paragraph--texto-tres-columnas {
+    margin: 0;
+    color: #525252;
+    font-size: 15px;
+    font-family: 'BogleWeb';
+  }
+  .paragraph--Pagamos-remesas {
+    color: #525252;
+    font-size: 20px;
+    font-family: 'BogleWeb';
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .paragraph--kiosko {
+    width: 344px;
+    height: 40px;
+    font-size: 14px;
+    color: #525252;
+    font-family: GothamBook;
+  }
+  .paragraph--kiosko-fuerte {
+    font-size: 14px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+  }
+  .paragraph--trigger-remesas {
+    font-size: 16px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .paragraph--content-remesas {
+    font-size: 16px;
+    color: #525252;
+    font-family: GothamBook;
+    margin-left: 48px;
+    width: 954px;
+  }
+}
+
+@media (max-width:1024px) {
+  .paragraph--mediano-remesas {
+    font-size: 14px;
+    color: #525252;
+    font-family: GothamBook;
+  }
+  .paragraph--titulo-remesas {
+    font-size: 20px;
+    color: #525252;
+    font-weight: bold;
+    font-family: GothamBook;
+  }
+  .paragraph--mediano-remesas {
+    font-size: 14px;
+    color: #525252;
+    font-family: GothamBook;
+  }
+  .paragraph--titulo-tres-columnas-1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #525252;
+    font-family: GothamBook;
+  }
+  .paragraph--texto-tres-columnas {
+    font-size: 14px;
+    color: #525252;
+    font-family: GothamBook;
+  }
+  .paragraph--titulo-tres-columnas-3 {
+    font-size: 16px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+    width: 176px;
+    height: 48px;
+    background-color: #fff;
+    margin-bottom: 0;
+    padding-top: 13px;
+    padding-left: 44px;
+    border-radius: 0px 24px 24px 0px;
+    box-shadow: 0px 3px 6px #00000014;
+  }
+  .paragraph--titulo-tres-columnas-3::before {
+    content: url("https://walmartcr.myvtex.com/arquivos/icon_horario.png");
+    width: 24px;
+    height: 24px;
+    margin-left: -25px;
+    position: absolute;
+  }
+  .paragraph--Pagamos-remesas {
+    font-size: 20px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .paragraph--kiosko {
+    font-size: 14px;
+    color: #525252;
+    font-family: GothamBook;
+  }
+  .paragraph--kiosko-fuerte {
+    font-size: 14px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+  }
+  .paragraph--trigger-remesas {
+    font-size: 16px;
+    color: #525252;
+    font-family: GothamBook;
+    font-weight: bold;
+  }
+  .paragraph--content-remesas {
+    font-size: 14px;
+    color: #525252;
+    font-family: GothamBook;
+    margin: 0px 16px;
+  }
+
+}
+
+//css pagina pago de servicios institucional
+
+@media (min-width:1025px) {
+  .paragraph--titulo-pago-servicios {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'BogleWeb';
+    color: #525252;
+    margin-bottom: 0;
+  }
+  .container--titulo-pago-servicios {
+    margin-left: 48px;
+  }
+  .paragraph--texto1-pago-servicios {
+    font-size: 16px;
+    font-family: 'BogleWeb';
+    color: #525252;
+  }
+  .container--texto1-pago-servicios {
+    margin-left: 48px;
+  }
+  .paragraph--titulo-proceso {
+    font-size: 16px;
+    font-family: 'BogleWeb';
+    color: #525252;
+    font-weight: bold;
+    width: 176px;
+    height: 48px;
+    padding-left: 44px;
+    padding-top: 11px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000014;
+    border-radius: 0px 24px 24px 0px;
+  }
+  .paragraph--titulo-proceso::before {
+    content: url("https://walmartcr.myvtex.com/arquivos/icon_cuotas.png");
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    position: absolute;
+  }
+  .container--titulo-proceso {
+    margin-left: 48px;
+  }
+  .container--texto-proceso {
+    margin-left: 48px;
+  }
+  .container--titulo-horario-atencion {
+    margin-left: 48px;
+  }
+  .container--texto-horario-atencion {
+    margin-left: 48px;
+  }
+  .container--texto-pago-companias {
+    margin-left: 48px;
+  }
+  .paragraph--texto-proceso {
+    width: 344px;
+    height: 63px;
+    font-size: 15px;
+    font-family: 'BogleWeb';
+    color: #525252;
+    margin-top: 0;
+  }
+  .paragraph--que-servicios {
+    font-size: 16px;
+    font-family: 'BogleWeb';
+    color: #525252;
+    font-weight: bold;
+  }
+  .paragraph--icono1::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/opacity.png");
+  }
+  .paragraph--icono2::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/phone.png");
+  }
+  .paragraph--icono3::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/feed.png");
+  }
+  .paragraph--icono4::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/redeem.png");
+  }
+  .paragraph--icono5::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/bolt.png");
+  }
+  .paragraph--icono6::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("assets/servicio_tarjeta.svg");
+  }
+  .paragraph--icono7::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/settings.png");
+  }
+  .paragraph--icono8::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/cable.png");
+  }
+  .paragraph--icono9::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/circle.png");
+  }
+  .paragraph--iconCar::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("assets/servicio_quick.svg");
+  }
+  .paragraph--iconTest::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("assets/servicio_pruebas.svg");
+  }
+  .paragraph--iconTest,
+  .paragraph--iconCar,
+  .paragraph--icono9,
+  .paragraph--icono8,
+  .paragraph--icono7,
+  .paragraph--icono6,
+  .paragraph--icono5,
+  .paragraph--icono4,
+  .paragraph--icono3,
+  .paragraph--icono2,
+  .paragraph--icono1 {
+    font-size: 15px;
+    font-family: GothamBook;
+    color: #525252;
+  }
+  .paragraph--titulo-horario-atencion {
+    font-size: 16px;
+    font-family: 'BogleWeb';
+    margin-bottom: 0px;
+    color: #525252;
+    font-weight: bold;
+    width: 200px;
+    height: 48px;
+    padding-left: 44px;
+    padding-top: 11px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000014;
+    border-radius: 0px 24px 24px 0px;
+  }
+  .paragraph--titulo-horario-atencion::before {
+    content: url("https://walmartcr.myvtex.com/arquivos/icon_horario.png");
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    position: absolute;
+  }
+  .paragraph--texto-horario-atencion {
+    width: 249px;
+    height: 21px;
+    font-size: 15px;
+    font-family: 'BogleWeb';
+    color: #525252;
+  }
+  .container--texto-companias {
+    margin-left: 75px;
+  }
+  .paragraph--texto-companias {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'BogleWeb';
+    color: #525252;
+    margin-bottom: 0;
+  }
+  .paragraph--texto-companias::before {
+    content: url("https://walmartcr.myvtex.com/arquivos/vineta.png");
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    position: absolute;
+  }
+  .paragraph--texto-pago-companias {
+    font-family: 'BogleWeb';
+    font-size: 15px;
+    color: #525252;
+  }
+  .paragraph--ajuste-companias {
+    margin-left: -75px;
+  }
+  .paragraph--ajuste-companias2 {
+    margin-left: -200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .paragraph--titulo-pago-servicios {
+    font-family: GothamBook;
+    font-size: 20px;
+    font-weight: bold;
+    color: #525252;
+    margin-bottom: 0;
+  }
+  .paragraph--texto1-pago-servicios {
+    font-family: GothamBook;
+    font-size: 14px;
+    color: #525252;
+    margin-bottom: 0;
+  }
+  .paragraph--titulo-proceso {
+    font-family: GothamBook;
+    font-size: 16px;
+    font-weight: bold;
+    color: #525252;
+    margin-bottom: 0;
+    box-shadow: 0px 3px 6px #00000014;
+    border-radius: 0px 24px 24px 0px;
+    width: 176px;
+    height: 48px;
+    padding-left: 44px;
+    padding-top: 11px;
+  }
+  .paragraph--titulo-proceso::before {
+    content: url("https://walmartcr.myvtex.com/arquivos/icon_cuotas.png");
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    position: absolute;
+  }
+  .paragraph--texto-proceso {
+    font-family: GothamBook;
+    font-size: 14px;
+    color: #525252;
+  }
+  .paragraph--que-servicios {
+    font-family: GothamBook;
+    font-size: 16px;
+    color: #525252;
+    font-weight: bold;
+  }
+  .paragraph--icono9,
+  .paragraph--iconCar,
+  .paragraph--icono8,
+  .paragraph--icono7,
+  .paragraph--icono6,
+  .paragraph--icono5,
+  .paragraph--icono4,
+  .paragraph--icono3,
+  .paragraph--icono2,
+  .paragraph--icono1 {
+    font-size: 14px;
+    font-family: GothamBook;
+    color: #525252;
+    margin-left: 30px;
+  }
+  .paragraph--icono5 {
+    margin-left: 19px !important;
+  }
+
+  .paragraph--icono1::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/opacity.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--icono2::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/phone.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--icono3::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/feed.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--icono4::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/redeem.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--icono5::before {
+    margin-left: -30px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/bolt.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--icono6::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/efectivo.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--icono7::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/settings.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--icono8::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/cable.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--iconCar::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("assets/servicio_quick.svg");
+  }
+  .paragraph--icono9::before {
+    margin-left: -35px;
+    margin-top: -5px;
+    position: absolute;
+    content: url("https://walmartcr.myvtex.com/arquivos/circle.png");
+    width: 24px;
+    height: 24px;
+  }
+  .paragraph--titulo-horario-atencion {
+    width: 200px;
+    height: 48px;
+    margin-bottom: 0;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000014;
+    border-radius: 0px 24px 24px 0px;
+    padding-left: 44px;
+    padding-top: 11px;
+    color: #525252;
+    font-weight: bold;
+    font-family: 'BogleWeb';
+    font-size: 16px;
+  }
+  .paragraph--titulo-horario-atencion::before {
+    content: url("https://walmartcr.myvtex.com/arquivos/icon_horario.png");
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    position: absolute;
+  }
+  .paragraph--texto-horario-atencion {
+    font-size: 14px;
+    font-family: GothamBook;
+    color: #525252;
+  }
+  .paragraph--texto-companias {
+    font-size: 16px;
+    font-family: GothamBook;
+    color: #525252;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 0;
+  }
+  .paragraph--texto-companias::before {
+    content: url("https://walmartcr.myvtex.com/arquivos/vineta.png");
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    position: absolute;
+  }
+  .paragraph--ajuste-companias {
+    font-size: 14px;
+    font-family: GothamBook;
+    color: #525252;
+  }
+  .paragraph--texto-pago-companias {
+    font-size: 14px;
+    font-family: GothamBook;
+    color: #525252;
+  }
+}
+
+.strong--title-to-circle-categories{
+  font-size: 14px;
+  color: #525252;
+}
+
+/*.link--add-list-car {
+  color: #1a75cf;
+  text-decoration: none;*/
+
+.link--txt-first-head{
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+}
+
+.container--como-comprar-white-link{
+  .link--como-comprar-white-link{
+    color: #1A75CF;
+    text-decoration: none;
+    font-weight: 900;
+  }
+}
+
+.wrapper--footer-txt-news {
+  color: #525252;
+}
+
+.link--add-list-car {
+  color: #1a75cf;
+  text-decoration: none;
+}
+
+//Walmart te escucha
+.container--first-titulo-pag-walmart-te-escucha {
+  .paragraph {
+    color: #525252;
+    font-weight: bold;
+    font-size: 26px;
+    opacity: 1;
+  }
+}
+
+.container--text-pag-walmart-te-escucha-white {
+  justify-content: center;
+  margin-top: 2rem;
+  .paragraph {
+    text-align: center;
+    color: #0075C9;
+    opacity: 1;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin: 0;
+  }
+}
+
+.container--text-pag-walmart-te-escucha-tarjeta{
+  justify-content: flex-end;
+  .paragraph{
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0;
+    font-size: .8rem;
+  }
+}
+
+.container--como-comprar-btn-comprar {
+  justify-content: center;
+  align-items: center;
+}
+.wrapper--como-comprar-btn-comprar {
+  color: #FFFFFF;
+  background: #1A75CF 0% 0% no-repeat;
+  border-radius: 5px;
+  opacity: 1;
+  .paragraph {
+    margin: .5rem 1rem;
+    font-size: .9rem;
+    font-weight: bold;
+    :first-child{
+      max-width: 16rem;
+      min-width: 15.5rem;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+  }
+}
+.container--walmart-te-escucha-calendario-tab,
+.container--walmart-te-escucha-ganadores-tab{
+  color: #525252;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 1rem;
+  opacity: 1;
+}
+
+.container--walmart-te-escucha-calendario-title{
+  color: #525252;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 1;
+  .wrapper--walmart-te-escucha-calendario-title {
+    .paragraph{
+      margin: 1rem 0 .5rem 2rem;
+    }
+    ::before {
+      content: url("assets/walmart-te-escucha/icon-fecha.svg");
+      position: absolute;
+      margin-left: -31px;
+      padding-top: 0.2rem;
+    }
+  }
+}
+
+.container--titulo-pag-walmart-te-escucha {
+  .paragraph {
+    margin: 0.3rem !important;
+    color: #525252;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 1;
+  }
+  .list--titulo-pag-walmart-te-escucha{
+    padding-left: 1rem;
+    font-size: 15px;
+    color: #525252;
+    opacity: 1;
+    list-style: none;
+    margin: .5rem 0;
+    ::before {
+      content: "\2022";
+      color: #FDBB30;
+      display: inline-block;
+      width: 1rem;
+      margin-left: -1em;
+    }
+  }
+}
+
+.container--walmart-te-escucha-respuesta,
+.container--reglamento-de-promociones-respuesta,
+.container--preguntas-frecuentes-respuesta {
+  .paragraph{
+    color: #525252;
+    margin: 0;
+  }
+}
+
+.container--preguntas-frecuentes-respuesta {
+  .paragraph{
+    .link--preguntas-frecuentes-respuesta{
+      color: #1a75cf;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
+.container--preguntas-frecuentes-respuesta{
+  .list--preguntas-frecuentes-respuesta{
+    color: #525252;
+  }
+}
+
+.container--intro-pag-preguntas-frecuentes {
+  .paragraph{
+    color: #525252;
+    margin-top: 0;
+  }
+}
+
+.wrapper--footer-pag-preguntas-frecuentes{
+  .paragraph{
+    font-size: 20px;
+    font-weight: bold;
+    color: #525252;
+  }
+}
+
+.container--titulo-walmart-te-escucha-terminos-condiciones{
+  .wrapper--titulo-walmart-te-escucha-terminos-condiciones {
+    .paragraph {
+      :first-child{
+        color: #1A75CF;
+        font-size: 1rem;
+        font-weight: bold;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.container--walmart-te-escucha-respuesta{
+  .paragraph{
+    :first-child{
+      color: #1A75CF;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
+.wrapper--titulo-walmart-te-escucha-preguntas {
+  .paragraph {
+    color: #525252;
+    opacity: 1;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}
+
+.wrapper--titulo-pag-walmart-te-escucha-ganadores {
+  .paragraph {
+    font-size: 1.2rem;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #525252;
+    opacity: 1;
+    font-weight: bold;
+    margin: 1rem 0 .5rem 2rem;
+  }
+  ::before {
+    content: url("assets/walmart-te-escucha/icon-walmart-te-escucha-ganadores.svg");
+    position: absolute;
+    margin-left: -31px;
+    padding-top: 0.2rem;
+  }
+}
+
+.list--titulo-pag-walmart-te-escucha-lst {
+  padding-left: 1rem;
+  color: #525252;
+  opacity: 1;
+  margin: 0 0 1rem 0;
+  list-style: none;
+  ::before {
+    content: "\2022";
+    color: #FDBB30;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1em;
+  }
+}
+
+.paragraph--content-box-item,
+.paragraph--content-box-item-super-parrilleros {
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  padding-right: 20px;
+}
+
+.paragraph--title-modal-covid,
+.paragraph--title-modal-super-parrilleros {
+  font-size: 30px;
+  color: #0071CE;
+  font-weight: bold;
+  width: 55%;
+
+  @media screen and (max-width: 1024px){
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+.paragraph--subtitle-community {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #0071CE;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.paragraph--body-community {
+  color: #000;
+  font-size: 21px;
+}
+
+.paragraph--body-county {
+  font-size: 23px;
+  color: #000;
+}
+
+.strong--body-county {
+  font-size: 35px;
+}
+
+.paragraph--walmartmex-title-blue {
+  color: #000;
+  font-size: 22px;
+
+  .strong--walmartmex-title-blue {
+    color: #0071CE;
+    font-size: 26px;
+  }
+}
+
+.paragraph--walmartmex-title {
+  color: #000;
+  font-size: 22px;
+}
+
+.wrapper--subtitle-covid-content {
+  width: 100%;
+
+  .strong--subtitle-covid-content {
+    padding-left: 13%;
+
+    @media screen and (max-width: 1024px) {
+      padding-left: 0%;
+    }
+  }
+}
+
+.link--text-btn-covid,
+.link--text-btn-covid-2,
+.link--text-btn-covid-3,
+.link--text-btn-covid-4,
+.link--text-btn-covid-5,
+.link--text-btn-covid-6,
+.link--text-btn-covid-7 {
+  text-decoration: none;
+  border: 1px solid #fdbb30;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  color: #1a75cf;
+  font-size: 14px;
+}
+
+.strong--text-btn-covid {
+  margin-left: 19rem;
+}
+
+.paragraph--text-btn-covid {
+  color: #545454;
+  font-weight: bold;
+  &::before {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 50% !important;
+    position: absolute;
+    top: 29px;
+    left: 11rem;
+  }
+}
+
+.wrapper--text-btn-covid,
+.wrapper--text-btn-covid-2,
+.wrapper--text-btn-covid-3,
+.wrapper--text-btn-covid-4,
+.wrapper--text-btn-covid-5,
+.wrapper--text-btn-covid-6,
+.wrapper--text-btn-covid-7{
+  position: relative;
+}
+
+.strong--text-btn-covid-2 {
+  margin-left: 7.3rem;
+}
+
+.paragraph--text-btn-covid-2 {
+  color: #545454;
+  font-weight: bold;
+  &::before {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 17%!important;
+    position: absolute;
+    top: 29px;
+    left: 23rem;
+  }
+}
+
+.strong--text-btn-covid-3 {
+  margin-left: 11.7rem;
+}
+
+.paragraph--text-btn-covid-3 {
+  color: #545454;
+  font-weight: bold;
+  &::before {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 31%!important;
+    position: absolute;
+    top: 29px;
+    left: 18rem;
+  }
+}
+
+.strong--text-btn-covid-4 {
+  margin-left: 11.3rem;
+}
+
+.paragraph--text-btn-covid-4 {
+  color: #545454;
+  font-weight: bold;
+  &::before {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 28%!important;
+    position: absolute;
+    top: 29px;
+    left: 19rem;
+  }
+}
+
+.strong--text-btn-covid-5 {
+  margin-left: 16.3rem;
+}
+
+.paragraph--text-btn-covid-5 {
+  color: #545454;
+  font-weight: bold;
+  &::before {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 42%!important;
+    position: absolute;
+    top: 54px;
+    left: 14rem;
+  }
+}
+
+.strong--text-btn-covid-6 {
+  margin-left: 13.3rem;
+}
+
+.paragraph--text-btn-covid-6 {
+  color: #545454;
+  font-weight: bold;
+  &::before {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 34%!important;
+    position: absolute;
+    top: 54px;
+    left: 17rem;
+  }
+}
+
+.strong--text-btn-covid-7 {
+  margin-left: 15.3rem;
+}
+
+.paragraph--text-btn-covid-7 {
+  color: #545454;
+  font-weight: bold;
+  &::before {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    width: 40%!important;
+    position: absolute;
+    top: 54px;
+    left: 15rem;
+  }
+}
+
+.italic--title-modal-covid {
+  visibility: hidden;
+}
+
+.wrapper--notice {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  background-color: #f4f4f4;
+}
+
+@media (max-width:520px) {
+  .paragraph--baby-world-sub {
+    padding: 5px;
+  }
+}
+
+
+.container--text-slider {
+  justify-content: center;
+}
+
+.paragraph--text-slider {
+  color: #525252;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: normal;
+    margin-top: -10px;
+}
+
+@media(min-width:1025px) {
+  .paragraph--texto-sub-mundo-bebe {
+    margin-left: -30px;
+  }
+}

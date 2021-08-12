@@ -1,0 +1,247 @@
+#sugerencias-de-compra {
+  .wrapper {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px -1px 6px #0000000a;
+    border-radius: 5px;
+    color: #525252;
+    margin: 20px;
+
+    .title {
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: inherit;
+      padding: 20px 0 10px 30px;
+    }
+    .suggestions {
+      //display: flex;
+
+      .upsell-shelf {
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000014;
+        border-radius: 5px;
+        margin: 16px;
+        padding: 16px;
+        max-width: 240px;
+        min-width: 240px;
+        height: 435px;
+        max-height: 435px;
+
+        .product-top {
+          .product-image-container {
+            img.product-image {
+              height: auto;
+              width: 144px;
+            }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+          }
+        }
+        .product-name {
+          border-left: 0;
+          text-align: left;
+          font-size: 1.4rem;
+          font-weight: bold;
+          letter-spacing: 0px;
+          color: #525252;
+          min-height: 40px;
+          max-height: 40px;
+          overflow: hidden;
+        }
+        .product-brand {
+          display: none;
+          position: relative;
+          height: 18px;
+          min-height: 18px;
+          max-height: 18px;
+          text-align: left;
+          font-size: 1.3rem;
+          letter-spacing: 0px;
+          color: #525252;
+          margin-top: 8px;
+          margin-left: 4px;
+          &:before {
+            position: absolute;
+            width: 2px;
+            height: 14px;
+            background: #fdbb30;
+            content: " ";
+            top: 2px;
+            left: -6px;
+          }
+        }
+        .product-price-container {
+          margin-top: 10px;
+          .product-list-price {
+            min-height: 20px;
+            height: 20px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 0px;
+            color: #898989;
+            text-decoration: line-through;
+          }
+          .product-selling-price {
+            text-align: left;
+            font-size: 2.4rem;
+            font-weight: bold;
+            letter-spacing: 0px;
+            color: #525252;
+            margin-top: 6px;
+          }
+        }
+
+        .quantity-box {
+        }
+
+        .add-to-cart-button-container {
+          display: flex;
+          align-items: flex-end;
+          height: 140px;
+        }
+        .savings {
+          position: absolute;
+          top: 12px;
+          .savings-wrapper {
+            position: relative;
+            .savings-pct {
+              background-color: #fdbb30;
+              color: #f7f7f7;
+              font-size: 13px;
+              font-weight: 700;
+              padding: 4px 0 4px 5px;
+              border-top-left-radius: 3px;
+              border-bottom-left-radius: 3px;
+              position: absolute;
+              top: 16px;
+              min-width: 32px;
+              z-index: 2;
+              &:after {
+                content: "";
+                display: inline-block;
+                vertical-align: middle;
+                width: 0;
+                height: 0;
+                border-top: 13px solid transparent;
+                border-bottom: 13px solid transparent;
+                border-left: 7px solid #fdbb30;
+                position: absolute;
+                top: 0;
+                right: -7px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    height: 32px;
+    background: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    transition: all 0.1s ease-in-out;
+    &.add-to-cart-button {
+      background: $color-primary 0% 0% no-repeat padding-box;
+      border: none;
+      border-radius: 5px;
+      color: $white;
+      margin-top: 12px;
+      &:hover {
+        background: ligthen($color-primary, 10%) 0% 0% no-repeat padding-box;
+        color: $white;
+      }
+    }
+    &.button-quantity {
+      background: $color-primary 0% 0% no-repeat padding-box;
+      border-radius: 5px;
+      color: $color-primary;
+    }
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    height: 32px;
+    background: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    transition: all 0.1s ease-in-out;
+    &.add-to-cart-button {
+      background: $color-primary 0% 0% no-repeat padding-box;
+      border: none;
+      border-radius: 5px;
+      color: $white;
+      margin-top: 12px;
+      &:hover {
+        background: ligthen($color-primary, 10%) 0% 0% no-repeat padding-box;
+        color: $white;
+      }
+    }
+    &.button-quantity {
+      background: $color-primary 0% 0% no-repeat padding-box;
+      border-radius: 5px;
+      color: $color-primary;
+    }
+  }
+
+  .weighted-button-container {
+    width: 100%;
+
+    .vtex-numeric-stepper-selector {
+      border: 1px solid #dedede;
+      border-radius: 5px;
+      * {
+        border: none;
+      }
+      .vtex-numeric-stepper__input {
+        z-index: 0;
+        outline: 0 !important;
+        //border: 1px solid #dedede;
+        border: none;
+        border-right: none;
+        border-left: none;
+        height: 32px;
+        font-size: 13px;
+        width: 50px !important;
+        color: #525252;
+      }
+    }
+
+    div.selector {
+      margin-top: 12px;
+
+      .vtex-button {
+        color: #0075C9;
+        background: transparent;
+        border: 1px solid #0075C9;
+        width: 100%;
+        min-height: 32px !important;
+        max-height: 32px !important;
+        font-size: 1.4rem;
+        border-radius: 4px;
+        cursor: pointer;
+        .vtex-button__label {
+          text-transform: capitalize;
+          font-size: 1.4rem;
+        }
+      }
+      &.disabled {
+        .vtex-button {
+          .vtex-button__label {
+            background: #0075C9;
+            border: 2.5px solid #0075C9;
+            color: #fff;
+            cursor: default;
+          }
+        }
+      }
+    }
+  }
+}

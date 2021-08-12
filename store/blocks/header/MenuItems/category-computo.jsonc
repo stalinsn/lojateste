@@ -1,0 +1,722 @@
+{
+  "vtex.menu@2.x:submenu#computo": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#computo-menu-line-2"
+    ]
+  },
+  "flex-layout.row#computo-menu-line-2": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#computo-menu-line-2-columna-1",
+      "flex-layout.col#computo-menu-line-2-columna-2",
+      "flex-layout.col#computo-menu-line-2-columna-3",
+      "flex-layout.col#computo-menu-line-2-columna-4"
+    ]
+  },
+  "flex-layout.col#computo-menu-line-2-columna-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#computo-menu-line-2-columna-2-line-1",
+      "menu-item#computo-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#computo-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#computo-menu-line-2-columna-1-columna-2-line-3",
+      "menu-item#computo-menu-line-2-columna-2-line-2",
+      "menu-item#computo-menu-line-3-columna-1-line-1",
+      "menu-item#computo-menu-line-3-columna-1-line-2",
+      "menu-item#computo-menu-line-3-columna-1-line-3",
+      "menu-item#computo-menu-line-3-columna-1-line-4"
+    ]
+  },
+  "menu-item#computo-menu-line-2-columna-2-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/portatiles/",
+        "noFollow": true,
+        "tagTitle": "Portátiles",
+        "text": "Portátiles"
+      }
+    }
+    /*"blocks": [
+      "submenu#computo-line-2-columna-2"
+    ]*/
+  },
+  "submenu#computo-line-2-columna-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#computo-menu-line-2-columna-1-columna-2-line-1",
+      "menu-item#computo-menu-line-2-columna-1-columna-2-line-2",
+      "menu-item#computo-menu-line-2-columna-1-columna-2-line-3"
+    ]
+  },
+  "menu-item#computo-menu-line-2-columna-1-columna-2-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/portatiles/laptops",
+        "noFollow": true,
+        "tagTitle": "Laptops",
+        "text": "Laptops"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-1-columna-2-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/portatiles/2-en-1",
+        "noFollow": true,
+        "tagTitle": "2-En-1",
+        "text": "2-En-1"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-1-columna-2-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/portatiles/gaming",
+        "noFollow": true,
+        "tagTitle": "Gaming",
+        "text": "Gaming"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-2-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/de-escritorio/",
+        "noFollow": true,
+        "tagTitle": "De Escritorio",
+        "text": "De Escritorio"
+      }
+    }
+    /*"blocks": [
+      "submenu#computo-line-3-columna-1"
+    ]*/
+  },
+  "submenu#computo-line-3-columna-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#computo-menu-line-3-columna-1-line-1",
+      "menu-item#computo-menu-line-3-columna-1-line-2",
+      "menu-item#computo-menu-line-3-columna-1-line-3",
+      "menu-item#computo-menu-line-3-columna-1-line-4"
+    ]
+  },
+  "menu-item#computo-menu-line-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/de-escritorio/cpu",
+        "noFollow": true,
+        "tagTitle": "CPU",
+        "text": "CPU"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/de-escritorio/all-in-one",
+        "noFollow": true,
+        "tagTitle": "All-in-one",
+        "text": "All-in-one"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/de-escritorio/desktop",
+        "noFollow": true,
+        "tagTitle": "Desktop",
+        "text": "Desktop"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/de-escritorio/desktop-gaming",
+        "noFollow": true,
+        "tagTitle": "Desktop Gaming",
+        "text": "Desktop Gaming"
+      }
+    }
+  },
+  "flex-layout.col#computo-menu-line-2-columna-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#computo-menu-line-2-columna-3-line-1",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-10"
+    ]
+  },
+  "menu-item#computo-menu-line-2-columna-3-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/",
+        "noFollow": true,
+        "tagTitle": "Accesorios y Periféricos",
+        "text": "Accesorios y Periféricos"
+      }
+    }
+    /*"blocks": [
+      "submenu#computo-line-2-columna-3"
+    ]*/
+  },
+  "submenu#computo-line-2-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-1",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-2",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-3",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-4",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-5",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-6",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-7",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-8",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-9",
+      "menu-item#computo-menu-line-2-columna-3-columna-1-line-10"
+    ]
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/candados",
+        "noFollow": true,
+        "tagTitle": "Candados",
+        "text": "Candados"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/audifonos-y-microfonos",
+        "noFollow": true,
+        "tagTitle": "Audífonos y Micrófonos",
+        "text": "Audífonos y Micrófonos"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/mochilas-y-maletines",
+        "noFollow": true,
+        "tagTitle": "Mochilas y Maletines",
+        "text": "Mochilas y Maletines"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/teclados-y-mouse",
+        "noFollow": true,
+        "tagTitle": "Teclados y Mouse",
+        "text": "Teclados y Mouse"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/reguladores",
+        "noFollow": true,
+        "tagTitle": "Reguladores",
+        "text": "Reguladores"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/cables-y-adaptadores",
+        "noFollow": true,
+        "tagTitle": "Cables y Adaptadores",
+        "text": "Cables y Adaptadores"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/gestion-de-servidores",
+        "noFollow": true,
+        "tagTitle": "Gestión De Servidores",
+        "text": "Gestión De Servidores"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/componentes",
+        "noFollow": true,
+        "tagTitle": "Componentes",
+        "text": "Componentes"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-9": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/accesorios-gaming",
+        "noFollow": true,
+        "tagTitle": "Accesorios Gaming",
+        "text": "Accesorios Gaming"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-1-line-10": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/accesorios-y-perifericos/hub",
+        "noFollow": true,
+        "tagTitle": "Hub",
+        "text": "Hub"
+      }
+    }
+  },
+  "flex-layout.col#computo-menu-line-2-columna-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#computo-menu-line-2-columna-3-line-3",
+      "menu-item#computo-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#computo-menu-line-2-columna-3-columna-4-line-2",
+      "menu-item#computo-menu-line-3-columna-3-line-3",
+      "menu-item#computo-menu-line-4-columna-3-line-1",
+      "menu-item#computo-menu-line-4-columna-3-line-2",
+      "menu-item#computo-menu-line-4-columna-3-line-3",
+      "menu-item#computo-menu-line-4-columna-3-line-4",
+      "menu-item#computo-menu-line-4-columna-4-line-1",
+      "menu-item#computo-menu-line-4-columna-4-line-2"
+    ]
+  },
+  "menu-item#computo-menu-line-2-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/almacenamiento/",
+        "noFollow": true,
+        "tagTitle": "Almacenamiento",
+        "text": "Almacenamiento"
+      }
+    }
+    /*"blocks": [
+      "submenu#computo-line-2-columna-4"
+    ]*/
+  },
+  "submenu#computo-line-2-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#computo-menu-line-2-columna-3-columna-4-line-1",
+      "menu-item#computo-menu-line-2-columna-3-columna-4-line-2"
+    ]
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/almacenamiento/discos-duros",
+        "noFollow": true,
+        "tagTitle": "Discos Duros",
+        "text": "Discos Duros"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/almacenamiento/memorias-usb",
+        "noFollow": true,
+        "tagTitle": "Memorias USB",
+        "text": "Memorias USB"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-3-columna-3-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/impresion-y-scanners/",
+        "noFollow": true,
+        "tagTitle": "Impresión y Scanners",
+        "text": "Impresión y Scanners"
+      }
+    }
+    /*"blocks": [
+      "submenu#computo-line-3-columna-3"
+    ]*/
+  },
+  "submenu#computo-line-3-columna-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#computo-menu-line-4-columna-3-line-1",
+      "menu-item#computo-menu-line-4-columna-3-line-2",
+      "menu-item#computo-menu-line-4-columna-3-line-3"
+    ]
+  },
+  "menu-item#computo-menu-line-4-columna-3-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/impresion-y-scanners/impresoras",
+        "noFollow": true,
+        "tagTitle": "Impresoras",
+        "text": "Impresoras"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-4-columna-3-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/impresion-y-scanners/scanners",
+        "noFollow": true,
+        "tagTitle": "Scanners",
+        "text": "Scanners"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-4-columna-3-line-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/impresion-y-scanners/consumibles",
+        "noFollow": true,
+        "tagTitle": "Consumibles",
+        "text": "Consumibles"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-4-columna-3-line-4": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/tablets-y-accesorios/",
+        "noFollow": true,
+        "tagTitle": "Tablets y Accesorios",
+        "text": "Tablets y Accesorios"
+      }
+    }
+    /*"blocks": [
+      "submenu#computo-line-4-columna-4"
+    ]*/
+  },
+  "submenu#computo-line-4-columna-4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#computo-menu-line-4-columna-4-line-1",
+      "menu-item#computo-menu-line-4-columna-4-line-2"
+    ]
+  },
+  "menu-item#computo-menu-line-4-columna-4-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/tablets-y-accesorios/tablets",
+        "noFollow": true,
+        "tagTitle": "Tablets",
+        "text": "Tablets"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-4-columna-4-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/tablets-y-accesorios/accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "flex-layout.col#computo-menu-line-2-columna-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#computo-menu-line-2-columna-5-line-1",
+      "menu-item#computo-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#computo-menu-line-2-columna-3-columna-5-line-2",
+      "menu-item#computo-menu-line-2-columna-5-line-2",
+      "menu-item#computo-menu-line-3-columna-5-columna-5-line-1",
+      "menu-item#computo-menu-line-3-columna-5-columna-5-line-2",
+      "menu-item#computo-menu-line-2-columna-5-line-3"
+    ]
+  },
+  "menu-item#computo-menu-line-2-columna-5-line-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/software/",
+        "noFollow": true,
+        "tagTitle": "Software",
+        "text": "Software"
+      }
+    }
+    /*"blocks": [
+      "submenu#computo-line-2-columna-5"
+    ]*/
+  },
+  "submenu#computo-line-2-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#computo-menu-line-2-columna-3-columna-5-line-1",
+      "menu-item#computo-menu-line-2-columna-3-columna-5-line-2"
+    ]
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/software/antivirus",
+        "noFollow": true,
+        "tagTitle": "Antivirus",
+        "text": "Antivirus"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-3-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/software/programas",
+        "noFollow": true,
+        "tagTitle": "Programas",
+        "text": "Programas"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-2-columna-5-line-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/monitores-y-proyeccion/",
+        "noFollow": true,
+        "tagTitle": "Monitores y Proyección",
+        "text": "Monitores y Proyección"
+      }
+    }
+    /*"blocks": [
+      "submenu#computo-line-3-columna-5"
+    ]*/
+  },
+  "menu-item#computo-menu-line-2-columna-5-line-3": {
+    "props": {
+      "blockClass": "title-menu-sub-cat-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/category-computo/",
+        "noFollow": true,
+        "tagTitle": "VER TODOS COMPUTO",
+        "text": "VER TODOS COMPUTO"
+      }
+    }
+  },
+  "submenu#computo-line-3-columna-5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#computo-menu-line-3-columna-5-columna-5-line-1",
+      "menu-item#computo-menu-line-3-columna-5-columna-5-line-2"
+    ]
+  },
+  "menu-item#computo-menu-line-3-columna-5-columna-5-line-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/monitores-y-proyeccion/proyectores",
+        "noFollow": true,
+        "tagTitle": "Proyectores",
+        "text": "Proyectores"
+      }
+    }
+  },
+  "menu-item#computo-menu-line-3-columna-5-columna-5-line-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computo/monitores-y-proyeccion/monitores",
+        "noFollow": true,
+        "tagTitle": "Monitores",
+        "text": "Monitores"
+      }
+    }
+  }
+}

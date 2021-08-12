@@ -1,0 +1,27 @@
+div.custom-input {
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    span {
+    }
+    input {
+      background: $white 0% 0% no-repeat padding-box;
+      border: 1px solid $light-gray;
+      border-radius: 5px;
+      font-size: 1.4rem;
+      height: 40px;
+      width: 100%;
+      color: $dark-gray;
+      letter-spacing: 0;
+      padding: 0 1rem;
+    }
+    select {
+      background: $white 0% 0% no-repeat padding-box;
+      border: 1px solid $light-gray;
+      border-radius: 5px;
+      height: 40px;
+      width: 100%;
+    }
+  }
+}

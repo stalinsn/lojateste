@@ -1,0 +1,68 @@
+.vtex-omnishipping-1-x-scheduledDeliveryList {
+  .vtex-omnishipping-1-x-schedule.vtex-omnishipping-1-x-scheduleActive {
+    display: none;
+  }
+}
+
+.vtex-omnishipping-1-x-schedule.vtex-omnishipping-1-x-scheduleActive {
+  display: none;
+}
+
+.react-datepicker-popper.vtex-omnishipping-1-x-datePopper {
+  .react-datepicker__header {
+    .react-datepicker__current-month {
+      font-size: 1.8rem !important;
+    }
+    .react-datepicker__header__dropdown {
+    }
+    .react-datepicker__day-names {
+      .react-datepicker__day-name{
+        font-size: 1.4rem !important;
+        margin: 4px;
+        width: 2rem;
+        line-height: 2rem;
+      }
+
+    }
+  }
+  .react-datepicker__day {
+    font-size: 1.4rem !important;
+    margin: 4px;
+    width: 2rem;
+    line-height: 2rem;
+    &.react-datepicker__day--selected{
+      background-color: #0075C9;
+    }
+  }
+}
+
+/*.vtex-omnishipping-1-x-deliveryGroup-custom {
+  margin: 0 0 24px 0;
+  font-family: "GothamBook", "Bogle", "Montserrat", helvetica neue, helvetica, arial,
+    sans-serif;
+
+  h2 {
+    font-family: "GothamBook", "Bogle", "Montserrat", helvetica neue, helvetica, arial,
+      sans-serif;
+  }
+
+  h3 {
+    font-family: "GothamBook", "Bogle", "Montserrat", helvetica neue, helvetica, arial,
+      sans-serif;
+  }
+
+  label {
+    font-family: "GothamBook", "Bogle", "Montserrat", helvetica neue, helvetica, arial,
+      sans-serif;
+
+    input[type="radio"] {
+      height: 18px;
+      width: auto !important;
+      margin-right: 6px;
+    }
+    span {
+      height: 18px;
+      font-size: 1.4rem;
+    }
+  }
+}*/

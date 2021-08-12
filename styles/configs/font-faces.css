@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'BogleWeb';
+  src: url(assets/fonts/BogleWeb-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url(assets/fonts/GothamBook.ttf);
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'GothamLight';
+  src: url(assets/fonts/GothamLight.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'GothamBookBold';
+  src: url(assets/fonts/GothamBold.ttf);
+  font-weight: bold;
+}

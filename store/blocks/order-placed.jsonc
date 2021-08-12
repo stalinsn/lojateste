@@ -1,0 +1,10 @@
+// store/blocks/order-placed.jsonc
+{
+  "vtex.order-placed:order-placed": {
+    "blocks": ["op-order"]
+  },
+
+  "op-order": {
+    "children": ["supermxmcr.supermxmcr-components:order-placed"]
+  }
+}

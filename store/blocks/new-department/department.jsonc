@@ -1,0 +1,247 @@
+{
+  "store.custom#new-department": {
+    "blocks": [
+      "responsive-layout.desktop#new-department",
+      "responsive-layout.mobile#new-department"
+    ],
+    "props": {
+      "blockClass": "new-department"
+    }
+  },
+  "responsive-layout.mobile#new-department": {
+    "children": [
+      "flex-layout.row#slider-product",
+      "flex-layout.row#slider-text",
+      "flex-layout.row#row-new-department"
+    ]
+  },
+  "responsive-layout.desktop#new-department": {
+    "children": [
+      "flex-layout.row#slider-product",
+      "flex-layout.row#filter-items",
+      "flex-layout.row#row-new-department"
+    ]
+  },
+  //search results
+  "flex-layout.row#row-new-department": {
+    "children": [
+      "search-result-layout.customQuery#new-department"
+    ],
+    "props": {
+      "blockClass": [
+        "lp-fb"
+      ]
+    }
+  },
+  "search-result-layout.customQuery#new-department": {
+    "props": {
+      "querySchema": {
+        "orderByField": "",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 10,
+        "queryField": "1418",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#nd",
+      "search-result-layout.mobile#nd",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#nd": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result-nd"
+    ],
+    "props": {
+      "hiddenFacets": {
+        "priceRange": true
+      },
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "search-result-layout.mobile#nd": {
+    "children": [
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#productCountMobile",
+      "flex-layout.row#contentmobile-nd",
+      "search-fetch-more"
+    ],
+    "props": {
+      "hiddenFacets": {
+        "priceRange": true
+      },
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "flex-layout.row#contentmobile-nd": {
+    "children": [
+      "search-content#nd"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "blockClass": "row-line"
+    }
+  },
+  "flex-layout.row#result-nd": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#content-nd"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#content-nd": {
+    "children": [
+      "flex-layout.row#searchinfo",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
+      "flex-layout.row#products-nd",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#products-nd": {
+    "children": [
+      "search-content#nd"
+    ]
+  },
+  "search-content#nd": {
+    "blocks": [
+      "gallery#nd",
+      "not-found"
+    ]
+  },
+  "gallery#nd": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "flex-layout.row#filter-items": {
+    "children": [
+      "vtex.menu@2.x:menu#brakets"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "vtex.menu@2.x:menu#brakets": {
+    "props": {
+      "blockClass": "filter-item",
+      "items": [
+        {
+          "id": "menu-item-braket",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Accesorios",
+            "text": "Accesorios"
+          }
+        }
+      ]
+    }
+  },
+  
+  //mobile slider
+  "flex-layout.row#slider-text": {
+    "children": [
+      //"vtex.menu@2.x:menu#brakets"
+      "list-context.image-list#slider-text"
+    ],
+    "props": {
+      "blockClass": "slider-text"
+    }
+  },
+  "list-context.image-list#slider-text": {
+    "title": "Carrusel categorías",
+    "children": [
+      "slider-layout#slider-text"
+    ],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "title": "something",
+          "link": {
+            "url": "/test"
+          }
+        },
+        {
+          "title": "something",
+          "link": {
+            "url": "/test2"
+          }
+        },
+        {
+          "title": "something",
+          "link": {
+            "url": "/test3"
+          }
+        },
+        {
+          "title": "something",
+          "link": {
+            "url": "/test4"
+          }
+        },
+        {
+          "title": "something",
+          "link": {
+            "url": "/test5"
+          }
+        },
+        {
+          "title": "something",
+          "link": {
+            "url": "/test6"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-text": {
+    "title": "Configuracion banner",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 5,
+        "phone": 3
+      },
+      "autoplay": {
+        "timeout": 5000
+      },
+      "infinite": false,
+      "blockClass": [
+        "carousel-text",
+        "nd-mobile"
+      ],
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always"
+    }
+  }
+}

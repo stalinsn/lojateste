@@ -1,0 +1,513 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#newsletter",
+      "rich-text#text-notice",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-3-desktop",
+      "back-to-top-button"
+    ]
+  },
+
+  "flex-layout.row#newsletter": {
+    "children": [
+      "rich-text#newsletter",
+      "newsletter"
+    ],
+
+    "props": {
+      "blockClass": "title-news"
+    }
+  },
+
+  "rich-text#newsletter": {
+    "title": "news title",
+    "props": {
+      "width": "40%",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "text": "¡Recibe las mejores ofertas y promociones!",
+      "blockClass": "txt-news"
+    }
+  },
+
+  "newsletter": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "placeholder": "Ingresa tu correo",
+      "hideLabel": true,
+      "submit": "Suscribirme"
+    }
+  },
+
+  "rich-text#text-notice": {
+    "props": {
+      "text": "Al suscribirme acepto el **[Aviso de Privacidad](/aviso-de-privacidad-ecommerce)** y los **[Términos y Condiciones](/terminos-y-condiciones-de-compra),** así como el envío de noticias y promociones exclusivas de Walmart.",
+      "blockClass": "notice"
+    }
+  },
+
+  "flex-layout.row#txt-news":{
+    "children": [
+      "rich-text#txt-news"
+    ],
+    "props":{
+      "blockClass": "row-txt-news"
+    }
+  },
+  "rich-text#txt-news": {
+    "title": "text news",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Al registrarte, aceptas el Aviso de Privacidad, y el envío de noticias y promociones exclusivas.",
+      "blockClass": "footer-txt-news"
+    }
+  },
+
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-1-desktop",
+      "flex-layout.col#footer-2-desktop",
+      "flex-layout.col#footer-6-desktop"
+    ],
+
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "flex-layout.col#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu1"
+    ],
+
+    "props": {
+      "blockClass": "footer-col"
+    }
+  },
+
+  "flex-layout.col#footer-2-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu2"
+    ],
+
+    "props": {
+      "blockClass": "footer-col"
+    }
+  },
+
+  "flex-layout.col#footer-6-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu6"
+    ],
+
+    "props": {
+      "blockClass": "footer-col"
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "title": "Footer - Copyright",
+    "children": [
+      "flex-layout.col#footer-3-desktop-1",
+      "flex-layout.col#footer-3-desktop-2",
+      "flex-layout.col#footer-3-desktop-3",
+      "flex-layout.col#footer-3-desktop-4"
+    ],
+
+    "props": {
+      "blockClass": "copyright-row"
+    }
+  },
+
+  "flex-layout.col#footer-3-desktop-1":{
+    "children": [
+      "rich-text#copyright-footer"
+    ],
+
+    "props":{
+      "blockClass": "txt-footer",
+      "width": "80%"
+    }
+  },
+  "rich-text#copyright-footer": {
+    "title": "Footer - Copyright Text",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "© 2021 Copyright. Todos los derechos reservados Masxmenos.",
+      "blockClass": "copyright-footer"
+    }
+  },
+
+  "flex-layout.col#footer-3-desktop-2":{
+    "children": [
+      "rich-text#powered-by"
+    ],
+
+    "props":{
+      "width": "6%",
+      "blockClass": "txt-footer"
+    }
+  },
+
+  "rich-text#powered-by": {
+    "title": "Footer - powered by Text",
+
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Powered by",
+      "blockClass": "copyright-footer"
+    }
+  },
+
+  "flex-layout.col#footer-3-desktop-3":{
+    "children": [
+      "image#logo-footer-1"
+    ],
+
+    "props":{
+      "width": "7%",
+      "blockClass": "txt-footer"
+    }
+  },
+
+  "image#logo-footer-1": {
+    "title": "Footer - Logo",
+
+    "props": {
+      "src": "assets/corebiz_logo.svg",
+      "blockClass": "logo-footer-corebiz"
+    }
+  },
+
+  "flex-layout.col#footer-3-desktop-4":{
+    "children": [
+      "image#logo-footer-2"
+    ],
+
+    "props":{
+      "blockClass": "txt-footer"
+    }
+  },
+
+  "image#logo-footer-2": {
+    "title": "Footer - Logo",
+
+    "props": {
+      "src": "assets/vtex-1.svg",
+      "blockClass": "logo-footer-corebiz"
+    }
+  },
+
+  //Mobile
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#newsletter-mobile",
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#footer-mobile-1",
+      "back-to-top-button"
+    ]
+  },
+
+  "flex-layout.row#newsletter-mobile": {
+    "children": [
+      "flex-layout.col#newsletter"
+    ],
+
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "newsletter-mobile"
+    }
+  },
+
+  "flex-layout.col#newsletter":{
+    "children":[
+      "newsletter#custom",
+      "rich-text#text-notice"
+    ],
+    "props": {
+      "fullWidth": true,
+      "marginTop": "8",
+      "width": "100%",
+      "horizontalAlign": "center",
+      "blockClass": "newsletter-main"
+    }
+  },
+
+  "newsletter#custom": {
+    "props": {
+      "label": "¡Recibe las mejores ofertas y promociones!",
+      "placeholder": "E-mail",
+      "blockClass": "newsletter-custom",
+      "submit": "Suscribirme"
+    }
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
+    "props": {
+      "blockClass": "2-footer-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "disclosure-layout#footer-box-menu-know",
+      "disclosure-layout#footer-box-menu-help",
+      "disclosure-layout#footer-box-menu-services"
+    ],
+
+    "props": {
+      "blockClass": "footer-1-mobile",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+
+  "disclosure-layout#footer-box-menu-know": {
+    "children": [
+      "disclosure-trigger#simple-title-know",
+      "disclosure-content#menu-know"
+    ]
+  },
+
+  "disclosure-trigger#simple-title-know": {
+    "children": [
+      "rich-text#question-title-know"
+    ]
+  },
+
+  "rich-text#question-title-know": {
+    "props": {
+      "text": "Conocenos",
+      "blockClass": "title-menu-mobile"
+    }
+  },
+
+  "disclosure-content#menu-know": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu1-mobile"
+    ]
+  },
+
+  "disclosure-layout#footer-box-menu-help": {
+    "children": [
+      "disclosure-trigger#simple-title-help",
+      "disclosure-content#menu-help"
+    ]
+  },
+
+  "disclosure-trigger#simple-title-help": {
+    "children": [
+      "rich-text#question-title-help"
+    ]
+  },
+
+  "rich-text#question-title-help": {
+    "props": {
+      "text": "¿Necesitas ayuda?",
+      "blockClass": "title-menu-mobile"
+    }
+  },
+
+  "disclosure-content#menu-help": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu2"
+    ]
+  },
+  "disclosure-layout#footer-box-menu-help": {
+    "children": [
+      "disclosure-trigger#simple-title-help",
+      "disclosure-content#menu-help"
+    ]
+  },
+
+  "disclosure-trigger#simple-title-help": {
+    "children": [
+      "rich-text#question-title-help"
+    ]
+  },
+
+  "rich-text#question-title-help": {
+    "props": {
+      "text": "¿Necesitas ayuda?",
+      "blockClass": "title-menu-mobile"
+    }
+  },
+
+  "disclosure-content#menu-help": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu2-mobile"
+    ]
+  },
+
+  "disclosure-layout#footer-box-menu-services": {
+    "children": [
+      "disclosure-trigger#simple-title-services",
+      "disclosure-content#menu-services"
+    ]
+  },
+
+  "disclosure-trigger#simple-title-services": {
+    "children": [
+      "rich-text#question-title-services"
+    ]
+  },
+
+  "rich-text#question-title-services": {
+    "props": {
+      "text": "¿Necesitas ayuda?",
+      "blockClass": "title-menu-mobile"
+    }
+  },
+
+  "disclosure-content#menu-services": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu6"
+    ]
+  },
+  "disclosure-layout#footer-box-menu-services": {
+    "children": [
+      "disclosure-trigger#simple-title-services",
+      "disclosure-content#menu-services"
+    ]
+  },
+
+  "disclosure-trigger#simple-title-services": {
+    "children": [
+      "rich-text#question-title-services"
+    ]
+  },
+
+  "rich-text#question-title-services": {
+    "props": {
+      "text": "Servicios",
+      "blockClass": "title-menu-mobile"
+    }
+  },
+
+  "disclosure-content#menu-services": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-menu3-mobile"
+    ]
+  },
+
+  "flex-layout.row#footer-mobile-1": {
+    "title": "Footer - Copyright",
+    "children": [
+      "flex-layout.col#footer-3-mobile-1"
+    ]
+  },
+  "flex-layout.col#footer-3-mobile-1": {
+    "children":[
+      "rich-text#copyright-footer-mobile"
+    ],
+    "props": {
+      "blockClass": "copyright-row-mobile"
+    }
+  },
+  "rich-text#copyright-footer-mobile": {
+    "title": "Footer - Copyright Text",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "© 2021 Copyright. Todos los derechos reservados Masxmenos Centroamérica.",
+      "blockClass": "copyright-footer"
+    }
+  },
+
+
+  "flex-layout.row#footer-mobile-2": {
+    "title": "Footer - Copyright",
+    "children": [
+      "flex-layout.col#footer-mobile-2-1"
+      /*"flex-layout.col#footer-mobile-2-2",
+      "flex-layout.col#footer-mobile-2-3"*/
+    ],
+    "props": {
+      "blockClass": "row-end-mobile"
+    }
+  },
+  "flex-layout.col#footer-mobile-2-1": {
+    "children":[
+      "rich-text#footer-mobile-2",
+      "image#logo-footer-mobile-1",
+      "image#logo-footer-mobile-2"
+    ],
+    "props": {
+      "blockClass": "power-row-mobile"
+    }
+  },
+  "rich-text#footer-mobile-2": {
+    "title": "Footer - Copyright Text",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Powered by",
+      "blockClass": "copyright-footer"
+    }
+  },
+
+  "flex-layout.col#footer-mobile-2-2":{
+    "children": [
+      "image#logo-footer-mobile-1"
+    ],
+    "props":{
+      //"width": "7%",
+      "blockClass": "col-mobile-footer"
+    }
+  },
+  "image#logo-footer-mobile-1": {
+    "title": "Footer - Logo",
+    "props": {
+      "src": "assets/corebiz_logo.svg",
+      "blockClass": "logo-footer-corebiz-mobile"
+    }
+  },
+
+  "flex-layout.col#footer-mobile-2-3":{
+    "children": [
+      "image#logo-footer-mobile-2"
+    ],
+    "props":{
+      "blockClass": "col-mobile-footer"
+    }
+  },
+  "image#logo-footer-mobile-2": {
+    "title": "Footer - Logo",
+    "props": {
+      "src": "assets/vtex-1.svg",
+      "blockClass": "logo-footer-corebiz-mobile"
+    }
+  },
+
+
+
+
+
+
+
+  "back-to-top-button":{
+    "props":{
+      "displayThreshold": 800
+    }
+  }
+}

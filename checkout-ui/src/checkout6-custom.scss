@@ -1,0 +1,38 @@
+/** Mixins **/
+@import "./styles/checkout6-custom/mixins/mixins";
+
+/** Plugins **/
+@import "./styles/checkout6-custom/plugins/vtex.tachyons.scss";
+
+/** Variables **/
+@import "./styles/checkout6-custom/variables/colors";
+
+/** Fonts **/
+@import "./styles/checkout6-custom/fonts/fonts";
+
+/** Styles **/
+@import "./styles/checkout6-custom/general";
+
+/** Componentes Custom **/
+@import "./styles/checkout6-custom/components/buttons",
+  "./styles/checkout6-custom/components/inputs",
+  "./styles/checkout6-custom/components/icons";
+
+/** Componentes **/
+@import "./styles/checkout6-custom/components/facturacion",
+  "./styles/checkout6-custom/components/customQtyButtons",
+  "./styles/checkout6-custom/components/observaciones",
+  "./styles/checkout6-custom/components/bolsasReutilizables",
+  "./styles/checkout6-custom/components/sugerenciasDeCompra",
+  "./styles/checkout6-custom/components/customDelivery",
+  "./styles/checkout6-custom/components/verification-checkboxes",
+  "./styles/checkout6-custom/components/pickupPointModal",
+  "./styles/checkout6-custom/components/customMapModal",
+  "./styles/checkout6-custom/components/loader",
+  "./styles/checkout6-custom/components/vtexId";
+
+/** Elements **/
+@import "./styles/checkout6-custom/elements/payment-methods","./styles/checkout6-custom/elements/legales";
+
+/** Customizations **/
+@import "./styles/checkout6-custom/customizations";

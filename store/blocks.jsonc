@@ -1,0 +1,196 @@
+/* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+{
+  "store.orderplaced": {
+    "parent": {
+      "header": "header#order",
+      "footer": "footer#order"
+    },
+    "children": ["vtex.order-placed:order-placed"]
+  },
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "product-price": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true,
+      "showLabels": false,
+      "blockClass": "price"
+    }
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-rating-inline",
+      "product-summary-name",
+      //"product-summary-price",
+      "price-custom",
+      "global-promo#2x",
+      "global-promo#3x",
+      //"product-summary-space",
+      "quantity-selector.summary"
+      //"add-to-cart-button"
+    ]
+  },
+
+  "global-promo#2x":{
+    "props":{
+      "qty": "2",
+      "account": "supermxmcr",
+      "country": "CRI",
+      "thousandSeparator": ".",
+      "decimalSeparator": ",",
+      "prefix": "₡",
+      "sc": ""
+    }
+  },
+
+  "global-promo#3x":{
+    "props":{
+      "qty": "3",
+      "account": "supermxmcr",
+      "country": "CRI",
+      "thousandSeparator": ".",
+      "decimalSeparator": ",",
+      "prefix": "₡",
+      "sc": "2"
+    }
+  },
+
+  "add-to-cart-button": {
+    "props": {
+      "text": "Agregar"
+      //"isOneClickBuy": true
+      //"customOneClickBuyLink": "/checkout/#/cart"
+    }
+  },
+
+  "add-to-cart-button#express": {
+    "props": {
+      "text": "¡Comprar ya!",
+      "isOneClickBuy": true,
+      "customOneClickBuyLink": "/checkout/#/cart"
+    }
+  },
+
+  "product-summary-price": {
+    "props": {
+      "showLabels": false
+    }
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false
+    }
+  },
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights",
+      "flex-layout.row#savings",
+      "shopping-list-shelf-button"
+    ]
+  },
+  "shopping-list-shelf-button": {
+    "props": {
+      "blockClass": "shopping-list-shelf-button"
+    }
+  },
+
+  "product-summary-image": {
+    "props": {
+      "height": 220
+    }
+  },
+
+  "product-summary-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
+  "store.not-found#product": {
+    "blocks": ["flex-layout.row#not-found-1"]
+  },
+
+  "store.not-found#search": {
+    "blocks": ["flex-layout.row#not-found-1"]
+  },
+
+  "flex-layout.row#not-found-1": {
+    "props": {
+      "blockClass": "not-found-main"
+    },
+    "children": [
+      "flex-layout.col#txt-not-found"
+    ]
+  },
+
+  "flex-layout.col#txt-not-found": {
+    "props": {
+      "blockClass": "col-not-found"
+    },
+    "children": ["rich-text#not-found-1", "rich-text#not-found-2"]
+  },
+  "rich-text#not-found-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "**¡Lo sentimos!**",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#not-found-2": {
+    "props": {
+      "blockClass": "sub-not-found",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "No encontramos lo que estabas buscando"
+    }
+  }
+
+  /*"flex-layout.col#image-not-found": {
+    "props": {
+      "blockClass": "col-not-found"
+    },
+    "children": ["logo#not-found"]
+  },
+  "logo#not-found": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/notfound.svg",
+      "width": "180"
+    }
+  }*/
+}

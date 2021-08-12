@@ -1,0 +1,561 @@
+{
+  "vtex.menu@2.x:menu#category-drawer": {
+    "children": [
+      "menu-item#menu-signin-mobile",
+      //"menu-item#menu-department-mobile",
+      "menu-item#menu-ofertas",
+      "menu-item#menu-atractivo",
+      "menu-item#menu-sucursales-mobile",
+      "menu-item#menu-preguntas-frecuentes-mobile",
+      "menu-item#menu-promociones-mobile",
+      "menu-item#menu-contactanos-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#menu-department-mobile": {
+    "props": {
+      "blockClass": ["menu-item-department-mobile", "red"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-menu"
+    ]
+  },
+  "submenu.accordion#mobile-menu":{
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+
+  "flex-layout.row#mobile": {
+    "props": {
+      "colSizing": "auto",
+      "orientation": "vertical",
+      "blockClass": "mobile-subcategory"
+    },
+    "children": [
+      "menu-item#mobile-category-linea-blanca",
+      "menu-item#mobile-category-tv-video",
+      "menu-item#mobile-category-audio",
+      "menu-item#mobile-category-telefonia",
+      "menu-item#mobile-category-motos",
+      "menu-item#mobile-category-colchones",
+      "menu-item#mobile-category-muebles",
+      "menu-item#mobile-category-videojuegos",
+      "menu-item#mobile-category-automotriz",
+      "menu-item#mobile-category-hogar",
+      "menu-item#mobile-category-ropa",
+      "menu-item#mobile-category-calzado",
+      "menu-item#mobile-category-bebes",
+      "menu-item#mobile-category-belleza",
+      "menu-item#mobile-category-alimentos",
+      "menu-item#mobile-category-computo",
+      "menu-item#mobile-category-mascotas",
+      "menu-item#mobile-category-deportes",
+      "menu-item#mobile-category-moda",
+      "menu-item#mobile-category-peliculas",
+      "menu-item#mobile-category-salud"
+    ]
+  },
+
+  "menu-item#mobile-category-linea-blanca": {
+    "props": {
+      "blockClass": ["title-menu-category", "lb-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/moda/",
+        "noFollow": false,
+        "tagTitle": "Línea blanca",
+        "text": "Línea blanca"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-lb"
+    ]
+  },
+  "menu-item#mobile-category-tv-video": {
+    "props": {
+      "blockClass": ["title-menu-category", "tv-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        //"href": "/muebles-y-hogar/",
+        "noFollow": false,
+        "tagTitle": "TV y vídeo",
+        "text": "TV y vídeo"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-tvvideo"
+    ]
+  },
+  "menu-item#mobile-category-audio": {
+    "props": {
+      "blockClass": ["title-menu-category", "audio-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/linea-blanca/",
+        "noFollow": false,
+        "tagTitle": "Audio",
+        "text": "Audio"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-audio"
+    ]
+  },
+  "menu-item#mobile-category-telefonia": {
+    "props": {
+      "blockClass": ["title-menu-category", "telefonia-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/",
+        "noFollow": false,
+        "tagTitle": "Telefonía",
+        "text": "Telefonía"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-telefonia"
+    ]
+  },
+  "menu-item#mobile-category-motos": {
+    "props": {
+      "blockClass": ["title-menu-category", "motos-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/articulos-para-bebe/",
+        "noFollow": false,
+        "tagTitle": "Motos",
+        "text": "Motos"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-motos"
+    ]
+  },
+  "menu-item#mobile-category-colchones": {
+    "props": {
+      "blockClass": ["title-menu-category", "colchones-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/belleza-e-higiene/",
+        "noFollow": false,
+        "tagTitle": "Colchones y Boxes",
+        "text": "Colchones y Boxes"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-colchones"
+    ]
+  },
+  "menu-item#mobile-category-muebles": {
+    "props": {
+      "blockClass": ["title-menu-category", "muebles-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/",
+        "noFollow": false,
+        "tagTitle": "Muebles",
+        "text": "Muebles"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-muebles"
+    ]
+  },
+  "menu-item#mobile-category-videojuegos": {
+    "props": {
+      "blockClass": ["title-menu-category", "videojuegos-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/estilo-de-vida/",
+        "noFollow": false,
+        "tagTitle": "Videojuegos",
+        "text": "Videojuegos"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-videojuegos"
+    ]
+  },
+  "menu-item#mobile-category-automotriz": {
+    "props": {
+      "blockClass": ["title-menu-category", "automotriz-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/optica/",
+        "noFollow": false,
+        "tagTitle": "Automotriz y Ferretería",
+        "text": "Automotriz y Ferretería"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-automotriz"
+    ]
+  },
+  "menu-item#mobile-category-hogar": {
+    "props": {
+      "blockClass": ["title-menu-category", "hogar-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/libreria/",
+        "noFollow": false,
+        "tagTitle": "Hogar",
+        "text": "Hogar"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-hogar"
+    ]
+  },
+  "menu-item#mobile-category-ropa": {
+    "props": {
+      "blockClass": ["title-menu-category", "ropa-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/juguetes/",
+        "noFollow": false,
+        "tagTitle": "Ropa",
+        "text": "Ropa"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-ropa"
+    ]
+  },
+  "menu-item#mobile-category-calzado": {
+    "props": {
+      "blockClass": ["title-menu-category", "calzado-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/automovil/",
+        "noFollow": false,
+        "tagTitle": "Calzado",
+        "text": "Calzado"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-calzado"
+    ]
+  },
+  "menu-item#mobile-category-bebes": {
+    "props": {
+      "blockClass": ["title-menu-category", "bebes-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Bebés y Juguetes",
+        "text": "Bebés y Juguetes"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-bebes"
+    ]
+  },
+  "menu-item#mobile-category-belleza": {
+    "props": {
+      "blockClass": ["title-menu-category", "belleza-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Belleza y cuidado personal",
+        "text": "Belleza y cuidado personal"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-belleza"
+    ]
+  },
+  "menu-item#mobile-category-alimentos": {
+    "props": {
+      "blockClass": ["title-menu-category", "alimentos-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Alimentos y bebidas",
+        "text": "Alimentos y bebidas"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-alimentos"
+    ]
+  },
+  "menu-item#mobile-category-computo": {
+    "props": {
+      "blockClass": ["title-menu-category", "computo-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Cómputo",
+        "text": "Cómputo"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-computo"
+    ]
+  },
+  "menu-item#mobile-category-mascotas": {
+    "props": {
+      "blockClass": ["title-menu-category", "mascotas-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Mascotas",
+        "text": "Mascotas"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-mascotas"
+    ]
+  },
+  "menu-item#mobile-category-deportes": {
+    "props": {
+      "blockClass": ["title-menu-category", "deportes-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-deportes"
+    ]
+  },
+  "menu-item#mobile-category-moda": {
+    "props": {
+      "blockClass": ["title-menu-category", "moda-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Moda y accesorios",
+        "text": "Moda y accesorios"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-moda"
+    ]
+  },
+  "menu-item#mobile-category-peliculas": {
+    "props": {
+      "blockClass": ["title-menu-category", "peliculas-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Películas, musica y libros",
+        "text": "Películas, musica y libros"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-peliculas"
+    ]
+  },
+  "menu-item#mobile-category-salud": {
+    "props": {
+      "blockClass": ["title-menu-category", "salud-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/market-corner/",
+        "noFollow": false,
+        "tagTitle": "Salud y equipo médico",
+        "text": "Salud y equipo médico"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-salud"
+    ]
+  },
+
+  //MENUS EXTRA
+  "menu-item#menu-signin-mobile": {
+    "props": {
+      "blockClass": "menu-item-signin-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/login",
+        "noFollow": true,
+        "tagTitle": "login",
+        "text": "Iniciar sesión / Registrarse"
+      }
+    }
+  },
+  "menu-item#menu-ofertas": {
+    "props": {
+      "blockClass": ["menu-item-preguntas-mobile", "menu-item-top-mobile"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  },
+  "menu-item#menu-atractivo": {
+    "props": {
+      "blockClass": "menu-item-preguntas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/certificados-de-regalo",
+        "noFollow": true,
+        "tagTitle": "Lo más atractivo",
+        "text": "Lo más atractivo"
+      }
+    }
+  },
+  "menu-item#menu-sucursales-mobile": {
+    "props": {
+      "blockClass": "menu-item-preguntas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales",
+        "noFollow": true,
+        "tagTitle": "Nuevas categorías",
+        "text": "Nuevas categorías"
+      }
+    }
+  },
+  "menu-item#menu-preguntas-frecuentes-mobile": {
+    "props": {
+      "blockClass": "menu-item-preguntas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": true,
+        "tagTitle": "Categorías populares",
+        "text": "Categorías populares"
+      }
+    }
+  },
+  "menu-item#menu-promociones-mobile": {
+    "props": {
+      "blockClass": "menu-item-preguntas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/covid",
+        "noFollow": true,
+        "tagTitle": "Promociones bancarias",
+        "text": "Promociones bancarias"
+      }
+    }
+  },
+  "menu-item#menu-contactanos-mobile": {
+    "props": {
+      "blockClass": "menu-item-preguntas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Contáctanos 55 2222 1111",
+        "text": "Contáctanos 55 2222 1111"
+      }
+    }
+  }
+
+}
