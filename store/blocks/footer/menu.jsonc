@@ -205,7 +205,7 @@
     "props": {
       "title": "Facebook",
       "href": "/",
-      "url": "assets/fb.svg",
+      "url": "/arquivos/fb.svg",
       "maxWidth": "50%",
       "blockClass": "icon-social-fb"
     }
@@ -214,7 +214,7 @@
     "props": {
       "title": "Youtube",
       "href": "/",
-      "url": "assets/youtube.svg",
+      "url": "/arquivos/youtube.svg",
       "maxWidth": "50%",
       "blockClass": "icon-social-fb"
     }
@@ -226,7 +226,7 @@
       "orientation": "vertical",
       "blockClass": "footer"
     },
-    "children":[
+    "children": [
       "rich-text#footer-menu6",
       "menu-item#servicios-1",
       "menu-item#servicios-2",
@@ -396,21 +396,15 @@
   },
 
   "modal-layout#sales-for-enterprise": {
-    "children": [
-      "flex-layout.row#form-sales-enterprise"
-    ]
+    "children": ["flex-layout.row#form-sales-enterprise"]
   },
 
   "flex-layout.row#form-sales-enterprise": {
-    "children": [
-      "flex-layout.col#form-sales-enterprise"
-    ]
+    "children": ["flex-layout.col#form-sales-enterprise"]
   },
 
   "flex-layout.col#form-sales-enterprise": {
-    "children": [
-      "form"
-    ],
+    "children": ["form"],
 
     "props": {
       "blockClass": "form-contact"
@@ -423,7 +417,7 @@
       "schema": "VI_schema"
     },
 
-    "children":[
+    "children": [
       "rich-text#title-modal",
       "form-input.text#name",
       "form-input.text#corporate",
@@ -436,9 +430,7 @@
   },
 
   "form-success": {
-    "children": [
-      "rich-text#successSubmit"
-    ]
+    "children": ["rich-text#successSubmit"]
   },
 
   "rich-text#successSubmit": {
@@ -471,10 +463,7 @@
   },
 
   "flex-layout.row#form-two-input": {
-    "children": [
-      "form-input.text#phone",
-      "form-input.text#email"
-    ]
+    "children": ["form-input.text#phone", "form-input.text#email"]
   },
 
   "form-input.text#phone": {

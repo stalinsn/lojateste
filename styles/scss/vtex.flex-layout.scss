@@ -52,7 +52,7 @@
 }
 
 .flexRow--menu-link {
-  background-color: #1a75cf;
+  background-color: #ab0535;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0px;
@@ -228,7 +228,7 @@
   }
   &::after {
     content: "";
-    background: url(assets/arrow-black-right.svg) no-repeat;
+    background: url(/arquivos/arrow-black-right.svg) no-repeat;
     width: 30px;
     height: 22px;
     display: block;
@@ -781,7 +781,7 @@
   left: 0;
 
   :global(.vtex-product-price-1-x-savings) {
-    background-color: #FF9E19;
+    background-color: #ff9e19;
     color: #f7f7f7;
     font-size: 13px;
     display: flex;
@@ -801,7 +801,7 @@
       height: 0;
       border-top: 11px solid transparent;
       border-bottom: 11px solid transparent;
-      border-left: 7px solid #FF9E19;
+      border-left: 7px solid #ff9e19;
       position: absolute;
       top: 0px;
       right: -7px;
@@ -845,7 +845,6 @@
     padding-top: 1px !important;
     padding-bottom: 1px !important;
   }
-
 }
 
 :global(.vtex-rich-text-0-x-wrapper--subtitle-atractive) {
@@ -1030,7 +1029,7 @@
 }
 
 :global(.vtex-shelf-1-x-dot--isActive) {
-  background-color: #0075C9;
+  background-color: #0075c9;
 }
 
 .flexRow--row-departament {
@@ -1116,7 +1115,7 @@
   :global(.vtex-tab-layout-0-x-listItemActive) {
     margin-bottom: 0px;
     margin-left: 0px;
-    border-bottom: 2px solid #0075C9;
+    border-bottom: 2px solid #0075c9;
   }
 
   :global(.vtex-tab-layout-0-x-container--tab-home-shelfs) {
@@ -1188,27 +1187,27 @@
 
   :global(.vtex-tab-layout-0-x-listItem--t1) {
     &::before {
-      background: url(assets/tabs/alacena.svg) no-repeat 50%;
+      background: url(/arquivos/alacena.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t2) {
     &::before {
-      background: url(assets/tabs/cerveza_vinos_licores.svg) no-repeat 50%;
+      background: url(/arquivos/cerveza_vinos_licores.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t3) {
     &::before {
-      background: url(assets/tabs/farmacia.svg) no-repeat 50%;
+      background: url(/arquivos/farmacia.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t4) {
     &::before {
-      background: url(assets/tabs/jugos_bebidas.svg) no-repeat 50%;
+      background: url(/arquivos/jugos_bebidas.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t5) {
     &::before {
-      background: url(assets/tabs/limpieza_mascotas.svg) no-repeat 50%;
+      background: url(/arquivos/limpieza_mascotas.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t6) {
@@ -1253,40 +1252,40 @@
     }
   }:global(.vtex-tab-layout-0-x-listItem--t16) {
     &::before {
-      background: url(assets/tabs/limpieza_mascotas.svg) no-repeat 50%;
+      background: url(/arquivos/limpieza_mascotas.svg) no-repeat 50%;
     }
   }:global(.vtex-tab-layout-0-x-listItem--t17) {
     &::before {
-      background: url(assets/tabs/limpieza_mascotas.svg) no-repeat 50%;
+      background: url(/arquivos/limpieza_mascotas.svg) no-repeat 50%;
     }
   }:global(.vtex-tab-layout-0-x-listItem--t18) {
     &::before {
-      background: url(assets/tabs/limpieza_mascotas.svg) no-repeat 50%;
+      background: url(/arquivos/limpieza_mascotas.svg) no-repeat 50%;
     }
   }*/
 }
 
-@media (min-width:1025px) {
-  .flexRowContent--banner-principal-nuestras-marcas  {
+@media (min-width: 1025px) {
+  .flexRowContent--banner-principal-nuestras-marcas {
     :global(.vtex-slider-layout-0-x-sliderTrack--carousel) {
       height: 190px;
     }
   }
 
-  .flexRowContent--banner-principal-rebajas  {
+  .flexRowContent--banner-principal-rebajas {
     :global(.vtex-slider-layout-0-x-sliderTrack--carousel) {
       height: 190px;
     }
   }
 }
 
-@media (max-width:1024px) {
-  .flexRowContent--banner-principal-nuestras-marcas  {
+@media (max-width: 1024px) {
+  .flexRowContent--banner-principal-nuestras-marcas {
     :global(.vtex-slider-layout-0-x-sliderTrack--carousel) {
       height: 90px;
     }
   }
-  .flexRowContent--banner-principal-rebajas  {
+  .flexRowContent--banner-principal-rebajas {
     :global(.vtex-slider-layout-0-x-sliderTrack--carousel) {
       height: 90px;
     }
@@ -1302,8 +1301,11 @@
   }
 }
 
-.flexRow--banner-principal-nuestras-marcas, :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrusel-todas-las-marcas),
-.flexRow--2-banners, .flexRow--top32, .flexRow--recommended-you {
+.flexRow--banner-principal-nuestras-marcas,
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrusel-todas-las-marcas),
+.flexRow--2-banners,
+.flexRow--top32,
+.flexRow--recommended-you {
   background-color: #fff !important;
   box-shadow: none !important;
 }
@@ -1312,7 +1314,7 @@
   margin-bottom: 0px !important;
 }
 
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
   .flexColChild--circle-mobile-col-infoCard-rebajas {
     display: flex;
     justify-content: center;
@@ -1790,7 +1792,7 @@
 /* Media Query for Mobile Devices */
 @media screen and (max-width: em(1024px)) {
   .flexRow--section-three-banners-mobile {
-      display: block;
+    display: block;
   }
 
   .flexRow--section-three-banners-desktop {
@@ -1829,22 +1831,21 @@
 
 .flexRow--product-buy-btn {
   //:global(.vtex-button) {
-    //background-color: #0069B4;
-    //border-color: #0069B4;
+  //background-color: #0069B4;
+  //border-color: #0069B4;
 
-  :global(.vtex-button){
-    background-color: #0075C9;
-    border-color: #0075C9;
+  :global(.vtex-button) {
+    background-color: #0075c9;
+    border-color: #0075c9;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    &:hover{
+    &:hover {
       background-color: #004d9a;
       border-color: #004d9a;
     }
-
   }
 }
 
@@ -1869,7 +1870,7 @@
 }
 
 .flexRow--headertop-end {
-  background: #1a75cf;
+  background: #ab0535;
 }
 
 .flexRow--menu-link {
@@ -1966,16 +1967,16 @@
 }
 
 //css pagina reglamento de promociones
-.flexRow--reglamento-de-promociones-pag-mob{
+.flexRow--reglamento-de-promociones-pag-mob {
   .flexCol--reglamento-de-promociones-linea-footer {
     max-width: 100% !important;
     padding: 0em 0em 1em 0em !important;
   }
 }
 
-.flexRow--reglamento-de-promociones-pag{
+.flexRow--reglamento-de-promociones-pag {
   margin: 1rem;
-  .stretchChildrenWidth{
+  .stretchChildrenWidth {
     justify-content: flex-start;
   }
   .flexCol--reglamento-de-promociones-linea-footer {
@@ -1984,11 +1985,11 @@
   }
 
   .flexColChild--reglamento-de-promociones-pregunta {
-    background: #FFFFFF no-repeat;
-    border: 1px solid #DEDEDE;
+    background: #ffffff no-repeat;
+    border: 1px solid #dedede;
     border-radius: 5px;
-    margin-bottom: .5em;
-    padding: .5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
   }
 
   :global(.vtex-disclosure-layout-1-x-trigger) {
@@ -2000,10 +2001,10 @@
 
   :global(.vtex-rich-text-0-x-wrapper--reglamento-de-promociones-pregunta-title) {
     font-weight: bold;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
 
-  :global(.vtex-rich-text-0-x-paragraph--reglamento-de-promociones-pregunta-title){
+  :global(.vtex-rich-text-0-x-paragraph--reglamento-de-promociones-pregunta-title) {
     margin: 0;
     color: #525252;
   }
@@ -2022,7 +2023,7 @@
     font-size: 14px;
     color: #898989;
     font-weight: bold;
-    @media screen and (max-width: em(1024px)){
+    @media screen and (max-width: em(1024px)) {
       font-size: 16px;
     }
   }
@@ -2034,24 +2035,23 @@
   :global(.vtex-flex-layout-0-x-flexRow--product-buy-btn) {
     width: 370px;
     @media screen and (max-width: em(1024px)) {
-      width: 100%!important;
+      width: 100% !important;
     }
   }
 
   :global(.vtex-flex-layout-0-x-flexRow--row-two-components) {
     width: 370px;
     @media screen and (max-width: em(1024px)) {
-      width: 100%!important;
+      width: 100% !important;
     }
   }
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--product-pag-mobile){
+:global(.vtex-flex-layout-0-x-flexColChild--product-pag-mobile) {
   background-color: #fff;
 }
 @media screen and (max-width: em(1024px)) {
-  :global(.vtex-flex-layout-0-x-flexColChild--product-pag-mobile){
-
+  :global(.vtex-flex-layout-0-x-flexColChild--product-pag-mobile) {
     :global(.vtex-flex-layout-0-x-flexRowContent) {
       display: block;
     }
@@ -2061,7 +2061,7 @@
 :global(.vtex-flex-layout-0-x-flexCol--pdp-right-col) {
   position: relative;
   :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
-    height: auto!important;
+    height: auto !important;
   }
 }
 
@@ -2183,7 +2183,7 @@
 }
 
 .flexRow--2-footer-mobile {
-  background-color: #0075C9;
+  background-color: #0075c9;
 }
 
 .flexCol--power-row-mobile {
@@ -2226,21 +2226,21 @@
   }
   .flexCol--proceso-de-compra {
     margin-bottom: 0 !important;
-    border-left: 2px dashed #DEDEDE;
+    border-left: 2px dashed #dedede;
     padding-bottom: 3em;
     :global(.vtex-rich-text-0-x-wrapper--proceso-ball) {
       margin-left: -19px;
     }
   }
 
-  :global(.vtex-rich-text-0-x-container--part-second){
+  :global(.vtex-rich-text-0-x-container--part-second) {
     padding-left: 2rem !important;
   }
-  :global(.vtex-rich-text-0-x-paragraph--header-number-6-7){
+  :global(.vtex-rich-text-0-x-paragraph--header-number-6-7) {
     font-size: 14px !important;
   }
 
-  :global(.vtex-rich-text-0-x-paragraph--footer-como-comprar){
+  :global(.vtex-rich-text-0-x-paragraph--footer-como-comprar) {
     padding-top: 2rem !important;
   }
 }
@@ -2258,8 +2258,8 @@
     }
   }
   .flexCol--como-comprar-box-white {
-    background: #FFFFFF no-repeat;
-    border: 1px solid #DEDEDE;
+    background: #ffffff no-repeat;
+    border: 1px solid #dedede;
     border-radius: 5px;
     padding: 1em;
     position: relative;
@@ -2283,11 +2283,11 @@
       margin: 0;
     }
     :global(.vtex-rich-text-0-x-paragraph--textomediano) {
-      margin-left: .3em;
+      margin-left: 0.3em;
     }
     :global(.vtex-rich-text-0-x-paragraph--como-comprar-white-text) {
       font-size: 12px !important;
-      margin: .3em 0 0 0;
+      margin: 0.3em 0 0 0;
     }
   }
   .flexCol--como-comprar-footer-proceso {
@@ -2295,7 +2295,7 @@
     :global(.vtex-rich-text-0-x-paragraph--como-comprar-btn-comprar) {
       margin: 0;
       :first-child {
-        background: #0075C9 0% 0% no-repeat padding-box;
+        background: #0075c9 0% 0% no-repeat padding-box;
         border-radius: 5px;
         line-height: 40px;
         max-width: 312px;
@@ -2305,12 +2305,11 @@
         display: inline-block;
         min-width: 300px;
         text-align: center;
-        transition: all linear .2s;
+        transition: all linear 0.2s;
         :hover {
-          opacity: .5;
+          opacity: 0.5;
         }
       }
-
     }
   }
   :global(.vtex-rich-text-0-x-paragraph--titulo-pag-como-comprar),
@@ -2318,11 +2317,11 @@
     margin-bottom: 1em !important;
   }
 
-  :global(.vtex-rich-text-0-x-container--part-second){
+  :global(.vtex-rich-text-0-x-container--part-second) {
     padding-left: 3rem;
   }
 
-  :global(.vtex-rich-text-0-x-paragraph--header-number-6-7){
+  :global(.vtex-rich-text-0-x-paragraph--header-number-6-7) {
     margin-top: 2rem !important;
   }
 
@@ -2353,7 +2352,7 @@
     :global(.vtex-store-components-3-x-imageElement--img-proceso-de-compra-number-1) {
       max-width: 330px;
       @media screen and (max-width: 480px) {
-          max-width: 280px;
+        max-width: 280px;
       }
     }
 
@@ -2385,7 +2384,7 @@
       max-width: 126px;
     }
 
-    :global(.vtex-flex-layout-0-x-flexRowContent--step-four){
+    :global(.vtex-flex-layout-0-x-flexRowContent--step-four) {
       align-items: flex-start;
     }
 
@@ -2395,7 +2394,7 @@
       font-size: 14px;
     }
     :global(.vtex-rich-text-0-x-wrapper--proceso-ball) {
-      background: #FF9E19;
+      background: #ff9e19;
       width: 32px;
       height: 32px;
       border-radius: 100%;
@@ -2411,24 +2410,23 @@
     }
   }
 
-  :global(.vtex-rich-text-0-x-paragraph--footer-como-comprar){
+  :global(.vtex-rich-text-0-x-paragraph--footer-como-comprar) {
     font-weight: bold !important;
     margin-top: 2rem !important;
     margin-bottom: 2rem;
-    :first-child{
-      color: #005cb5;
+    :first-child {
+      color: #ab0535;
     }
   }
 
   .flexCol--proceso-de-compra-9-y-10 {
     margin-bottom: 1rem !important;
   }
-
 }
 //END css como comprar
 
 //START css preguntas frecuentes
-.flexRow--preguntas-frecuentes-pag-mob{
+.flexRow--preguntas-frecuentes-pag-mob {
   .flexCol--preguntas-frecuentes-linea-footer {
     max-width: 100% !important;
     padding: 0 !important;
@@ -2438,18 +2436,18 @@
   }
 }
 
-.flexRow--preguntas-frecuentes-pag{
+.flexRow--preguntas-frecuentes-pag {
   margin: 1em;
   .flexCol--preguntas-frecuentes-linea-footer {
     padding: 1em 1.5em;
     max-width: 75%;
   }
   .flexColChild--preguntas-frecuentes-pregunta {
-    background: #FFFFFF no-repeat;
-    border: 1px solid #DEDEDE;
+    background: #ffffff no-repeat;
+    border: 1px solid #dedede;
     border-radius: 5px;
-    margin-bottom: .5em;
-    padding: .5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
   }
   :global(.vtex-disclosure-layout-1-x-trigger) {
     width: 100%;
@@ -2459,9 +2457,9 @@
   }
   :global(.vtex-rich-text-0-x-wrapper--preguntas-frecuentes-pregunta-title) {
     font-weight: bold;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-  :global(.vtex-rich-text-0-x-paragraph--preguntas-frecuentes-pregunta-title){
+  :global(.vtex-rich-text-0-x-paragraph--preguntas-frecuentes-pregunta-title) {
     margin: 0;
     color: #525252;
   }
@@ -2482,8 +2480,8 @@
     box-shadow: 0px 3px 6px #00000014;
     border-radius: 0px 28px 28px 0px;
     justify-content: flex-start;
-    padding: .6em 1em;
-    margin-bottom: .7em;
+    padding: 0.6em 1em;
+    margin-bottom: 0.7em;
     margin-top: 2em;
     margin-left: -1.5em;
   }
@@ -2508,7 +2506,7 @@
   }
   :global(.vtex-rich-text-0-x-paragraph--tarjeta-credito-btn-adquira) {
     :first-child {
-      background: #0075C9 0% 0% no-repeat padding-box;
+      background: #0075c9 0% 0% no-repeat padding-box;
       border-radius: 5px;
       line-height: 40px;
       max-width: 312px;
@@ -2518,15 +2516,15 @@
       display: inline-block;
       min-width: 300px;
       text-align: center;
-      transition: all linear .2s;
+      transition: all linear 0.2s;
       margin-bottom: 2em;
       :hover {
-        opacity: .5;
+        opacity: 0.5;
       }
     }
   }
   :global(.vtex-store-components-3-x-imageElement--tarjeta-credito-item-icono) {
-    margin-right: .4em;
+    margin-right: 0.4em;
   }
   :global(.vtex-store-components-3-x-imageElement--tarjeta-credito-item-icono-black) {
     color: #1a1a1a;
@@ -2536,12 +2534,12 @@
     //font-weight: bold;
   }
   :global(.vtex-rich-text-0-x-paragraph--tarjeta-credito-title-item) {
-    color: #1A75CF;
+    color: #ab0535;
     //font-weight: bold;
   }
   :global(.vtex-store-components-3-x-imageElement--tarjeta-credito-plus) {
     width: 9px;
-    margin-right: .2em;
+    margin-right: 0.2em;
   }
   .flexCol--tarjeta-credito-linea-footer {
     padding: 1em 1.5em;
@@ -2556,8 +2554,8 @@
       box-shadow: 0px 3px 6px #00000014;
       border-radius: 0px 28px 28px 0px;
       display: inline-block;
-      padding: .6em 1em;
-      margin-bottom: .7em;
+      padding: 0.6em 1em;
+      margin-bottom: 0.7em;
       margin-top: 2em;
       .flexRowContent--tarjeta-credito-item {
         width: auto;
@@ -2565,11 +2563,11 @@
     }
   }
   .flexColChild--tarjeta-credito-pregunta {
-    background: #FFFFFF no-repeat;
-    border: 1px solid #DEDEDE;
+    background: #ffffff no-repeat;
+    border: 1px solid #dedede;
     border-radius: 5px;
-    margin-bottom: .5em;
-    padding: .5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
   }
   :global(.vtex-disclosure-layout-1-x-trigger) {
     width: 100%;
@@ -2592,15 +2590,15 @@
     box-shadow: 0px 3px 6px #00000014;
     border-radius: 0px 28px 28px 0px;
     justify-content: flex-start;
-    padding: .6em 1em;
-    margin-bottom: .7em;
+    padding: 0.6em 1em;
+    margin-bottom: 0.7em;
     margin-top: 2em;
     margin-left: -1.5em;
   }
   .titulo-pag-tarjeta-regalo-mob {
     margin-top: 1em;
     padding-top: 2em !important;
-    border-top: 1px solid #DEDEDE;
+    border-top: 1px solid #dedede;
   }
   :global(.vtex-rich-text-0-x-paragraph--text-margin-mobile),
   :global(.vtex-rich-text-0-x-paragraph--titulo-pag-tarjeta-regalo) {
@@ -2623,7 +2621,7 @@
   .flexRowContent--tarjeta-regalo-item-especial {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: .7em;
+    margin-bottom: 0.7em;
     margin-top: 2em;
   }
   :global(.vtex-rich-text-0-x-paragraph) {
@@ -2631,7 +2629,7 @@
     margin: 0;
   }
   :global(.vtex-store-components-3-x-imageElement--tarjeta-regalo-item-icono) {
-    margin-right: .4em;
+    margin-right: 0.4em;
   }
   :global(.vtex-rich-text-0-x-paragraph--tarjeta-regalo-title-item-especial) {
     color: #525252;
@@ -2641,10 +2639,10 @@
     color: #525252;
     //font-weight: bold;
   }
-  .flexRowContent--border-bottom{
+  .flexRowContent--border-bottom {
     margin-bottom: 1em;
     padding-bottom: 2em !important;
-    border-bottom: 1px solid #DEDEDE;
+    border-bottom: 1px solid #dedede;
   }
   .flexRowContent--tarjeta-regalo-linea-middle {
     padding: 1em 1.5em;
@@ -2653,8 +2651,8 @@
       box-shadow: 0px 3px 6px #00000014;
       border-radius: 0px 28px 28px 0px;
       display: inline-block;
-      padding: .6em 1em;
-      margin-bottom: .7em;
+      padding: 0.6em 1em;
+      margin-bottom: 0.7em;
       margin-top: 2em;
       .flexRowContent--tarjeta-regalo-item {
         width: auto;
@@ -2688,7 +2686,7 @@
 }
 
 :global(.vtex-store-components-3-x-productImagesGallerySlide) {
-    border: transparent;
+  border: transparent;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--stack) {
@@ -2721,17 +2719,16 @@
 .flexCol--stack {
   position: relative;
 
-  :global(.vtex-button){
+  :global(.vtex-button) {
     right: 0px;
     top: 0px;
     z-index: 1;
   }
 }
 
-
 //css remesas institucionales
 
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
   .flexRowContent--page-remesas-trescolumnas {
     margin-left: 0px;
   }
@@ -2744,7 +2741,6 @@
   .flexRowContent--todo-remesas {
     display: flex;
     flex-direction: column;
-
   }
   .flexRowContent--todo-remesas .stretchChildrenWidth {
     width: 100% !important;
@@ -2764,7 +2760,7 @@
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .flexRowContent--columnas-imagenes {
     display: flex;
     align-items: center;
@@ -2788,7 +2784,7 @@
 
 //css pagina pago de servicios institucional
 
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
   .flexCol--columna-iconos {
     width: 510px !important;
     height: 182px;
@@ -2818,7 +2814,7 @@
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .flexRow--todo {
     margin: 1em;
   }
@@ -2832,7 +2828,7 @@
     display: flex;
     flex-direction: column;
   }
-  .flexRowContent--todo:nth-child(0n+4) {
+  .flexRowContent--todo:nth-child(0n + 4) {
     order: 3;
   }
   .flexColChild--columna-iconos {
@@ -2855,8 +2851,8 @@
     font-family: GothamBook;
   }
 }
-:global(.vtex-flex-layout-0-x-flexRow--icons-serivces){
-  @media screen and (min-width: em(1120px)){
+:global(.vtex-flex-layout-0-x-flexRow--icons-serivces) {
+  @media screen and (min-width: em(1120px)) {
     padding-left: 5rem;
   }
 }
@@ -2870,7 +2866,7 @@
   justify-content: center;
   margin-bottom: 3rem;
 
-  @media screen and (max-width: em(768px)){
+  @media screen and (max-width: em(768px)) {
     justify-content: end;
   }
 
@@ -2884,13 +2880,13 @@
 }
 
 //Walmart te escucha
-.flexRow--walmart-te-escucha-pag-mob{
-  .flexRowContent--walmart-te-escucha-QR{
-    :global(.vtex-store-components-3-x-imageElement){
+.flexRow--walmart-te-escucha-pag-mob {
+  .flexRowContent--walmart-te-escucha-QR {
+    :global(.vtex-store-components-3-x-imageElement) {
       display: none;
     }
   }
-  :global(.vtex-rich-text-0-x-wrapper--como-comprar-btn-comprar){
+  :global(.vtex-rich-text-0-x-wrapper--como-comprar-btn-comprar) {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -2899,25 +2895,25 @@
     max-width: 100% !important;
     padding: 0em 1.5em 1em 1.5em !important;
   }
-  :global(.vtex-rich-text-0-x-wrapper--titulo-walmart-te-escucha-terminos-condiciones){
-    :first-child{
+  :global(.vtex-rich-text-0-x-wrapper--titulo-walmart-te-escucha-terminos-condiciones) {
+    :first-child {
       font-size: 1rem !important;
     }
   }
-  :global(.vtex-flex-layout-0-x-flexCol--walmart-te-escucha-calendario-actividades-col2){
+  :global(.vtex-flex-layout-0-x-flexCol--walmart-te-escucha-calendario-actividades-col2) {
     align-items: flex-start !important;
   }
 
-  :global(.vtex-rich-text-0-x-paragraph--text-pag-walmart-te-escucha-link){
+  :global(.vtex-rich-text-0-x-paragraph--text-pag-walmart-te-escucha-link) {
     font-size: 1rem !important;
-    :first-child{
+    :first-child {
       max-width: 14.5rem !important;
       min-width: 14rem !important;
     }
   }
 }
 
-.flexRow--walmart-te-escucha-pag{
+.flexRow--walmart-te-escucha-pag {
   margin: 1rem;
 
   .flexCol--walmart-te-escucha-activa-col1 {
@@ -2927,22 +2923,22 @@
   .flexCol--walmart-te-escucha-activa-col2 {
     margin: 3rem 1.5rem 0 0;
     padding: 0 0 0 1.5rem;
-    background: #FFFFFF;
+    background: #ffffff;
     height: 95%;
   }
 
-  .flexCol--backgrondBlueWalmartTeEscucha{
+  .flexCol--backgrondBlueWalmartTeEscucha {
     text-align: center;
     border-radius: 5px;
   }
 
-  .flexColChild--walmart-te-escucha-activa-codigo:first-child{
+  .flexColChild--walmart-te-escucha-activa-codigo:first-child {
     padding-bottom: 1.5rem;
   }
 
-  .flexRowContent--walmart-te-escucha-QR{
+  .flexRowContent--walmart-te-escucha-QR {
     margin-top: 2rem;
-    :global(.vtex-store-components-3-x-imageElement){
+    :global(.vtex-store-components-3-x-imageElement) {
       width: 7rem;
     }
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -2950,8 +2946,8 @@
     }
   }
 
-  .flexRowContent--walmart-te-escucha-calendario-ganadores{
-    .stretchChildrenWidth{
+  .flexRowContent--walmart-te-escucha-calendario-ganadores {
+    .stretchChildrenWidth {
       width: 20% !important;
     }
   }
@@ -2962,12 +2958,12 @@
     }
     .stretchChildrenWidth {
       width: auto !important;
-      margin-right: .7rem;
+      margin-right: 0.7rem;
       color: #525252;
     }
   }
 
-  .flexColChild--walmart-te-escucha-calendario-actividades{
+  .flexColChild--walmart-te-escucha-calendario-actividades {
     margin-bottom: 1rem;
   }
 
@@ -2981,11 +2977,11 @@
   }
 
   .flexColChild--walmart-te-escucha-pregunta {
-    background: #FFFFFF no-repeat;
-    border: 1px solid #DEDEDE;
+    background: #ffffff no-repeat;
+    border: 1px solid #dedede;
     border-radius: 5px;
-    margin-bottom: .5em;
-    padding: .5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
   }
 
   :global(.vtex-disclosure-layout-1-x-trigger) {
@@ -2997,39 +2993,38 @@
 
   :global(.vtex-rich-text-0-x-wrapper--walmart-te-escucha-pregunta-title) {
     font-weight: bold;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-  :global(.vtex-rich-text-0-x-paragraph--walmart-te-escucha-pregunta-title){
+  :global(.vtex-rich-text-0-x-paragraph--walmart-te-escucha-pregunta-title) {
     margin: 0;
     color: #525252;
   }
 
-  :global(.vtex-rich-text-0-x-container--text-pag-walmart-te-escucha-link){
+  :global(.vtex-rich-text-0-x-container--text-pag-walmart-te-escucha-link) {
     justify-content: center;
-    :global(.vtex-rich-text-0-x-paragraph--text-pag-walmart-te-escucha-link){
-      background: #FF9E19;
+    :global(.vtex-rich-text-0-x-paragraph--text-pag-walmart-te-escucha-link) {
+      background: #ff9e19;
       border-radius: 35px;
-      padding: .5rem 0 1rem 0;
+      padding: 0.5rem 0 1rem 0;
       font-size: 1.7rem;
       font-weight: bold;
       margin: 1rem;
       opacity: 1;
-      :first-child{
-            color: #FFFFFF;
-            text-decoration: none;
-            display: inline-block;
-            max-width: 24.5rem;
-            min-width: 24rem;
-            text-align: center;
+      :first-child {
+        color: #ffffff;
+        text-decoration: none;
+        display: inline-block;
+        max-width: 24.5rem;
+        min-width: 24rem;
+        text-align: center;
       }
     }
   }
-
 }
 
 .flexRowContent--modal-covid-row,
 .flexRowContent--modal-super-parrilleros-row {
-  :global(.vtex-store-components-3-x-imageElement){
+  :global(.vtex-store-components-3-x-imageElement) {
     width: 48px !important;
     height: fit-content;
   }
@@ -3063,9 +3058,8 @@
 
 .flexColChild--covid-col-box-lp-wrapper,
 .flexColChild--super-parrilleros-col-box-lp-wrapper {
-
-  @media screen and (min-width: 1024px){
-    :global(.vtex-store-components-3-x-imageElement){
+  @media screen and (min-width: 1024px) {
+    :global(.vtex-store-components-3-x-imageElement) {
       max-height: fit-content !important;
       margin-bottom: 20px;
       width: 90%;
@@ -3074,22 +3068,22 @@
 }
 
 .flexRow--product-pag {
-  :global(.vtex-globalPromo-2){
-    color: #F51B1B;
+  :global(.vtex-globalPromo-2) {
+    color: #f51b1b;
     font-weight: bold;
     font-size: 18px;
     text-align: left;
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
-  :global(.vtex-globalPromo-3){
-    color: #F51B1B;
+  :global(.vtex-globalPromo-3) {
+    color: #f51b1b;
     font-weight: bold;
     font-size: 18px;
     text-align: left;
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .flexRowContent {
@@ -3098,14 +3092,14 @@
 }
 
 .flexRow--minicart-footer {
-  .flexCol{
+  .flexCol {
     margin-bottom: -35px;
   }
 }
 
 .flexRowContent--modal-covid-row,
 .flexRowContent--modal-super-parrilleros-row {
-  .stretchChildrenWidth{
+  .stretchChildrenWidth {
     justify-content: end;
   }
 }
@@ -3122,100 +3116,98 @@
 }
 
 .flexRow--modal-body-covid-wlt-1-1 {
-  border-bottom: 1px solid #FFC220;
+  border-bottom: 1px solid #ffc220;
 }
 
 .flexRow--modal-body-covid-wlt-1-1-2 {
   margin-top: 1rem;
 }
 
-.flexRowContent--modal-body-covid-wlt-1-1-2{
+.flexRowContent--modal-body-covid-wlt-1-1-2 {
   justify-content: space-between;
 }
 
-.flexRowContent--modal-body-two-columns{
+.flexRowContent--modal-body-two-columns {
   justify-content: space-between;
-  .stretchChildrenWidth{
+  .stretchChildrenWidth {
     width: 48% !important;
   }
-  :global(.vtex-store-components-3-x-imageElement--img-col){
+  :global(.vtex-store-components-3-x-imageElement--img-col) {
     align-self: center;
   }
   @media screen and (max-width: em(768px)) {
-    .stretchChildrenWidth{
+    .stretchChildrenWidth {
       width: 100% !important;
     }
   }
 }
 
-.flexRowContent--modal-body-three-columns{
+.flexRowContent--modal-body-three-columns {
   justify-content: space-between;
-  .stretchChildrenWidth{
+  .stretchChildrenWidth {
     width: 31% !important;
   }
-  :global(.vtex-store-components-3-x-imageElement--img-col){
+  :global(.vtex-store-components-3-x-imageElement--img-col) {
     align-self: center;
   }
   @media screen and (max-width: em(768px)) {
-    .stretchChildrenWidth{
+    .stretchChildrenWidth {
       width: 100% !important;
     }
   }
 }
 
-.flexRowContent--modal-body-covid-row2{
+.flexRowContent--modal-body-covid-row2 {
   justify-content: space-between;
   align-items: center;
 }
 
-.flexRowContent--modal-body-covid-row3{
+.flexRowContent--modal-body-covid-row3 {
   justify-content: space-between;
 }
 
-
 :global(.vtex-rich-text-0-x-wrapper--col-background-yellow),
-.flexColChild--col-background-yellow{
-  background: #FFC220;
-  :global(.vtex-rich-text-0-x-paragraph--subtitle-modal){
-    color: #FFFFFF;
+.flexColChild--col-background-yellow {
+  background: #ffc220;
+  :global(.vtex-rich-text-0-x-paragraph--subtitle-modal) {
+    color: #ffffff;
     opacity: 1;
     font-weight: bold;
     text-align: center;
     margin: 0;
     padding: 10px;
   }
-
 }
 
-.flexCol--covid-final-section-mobile{
-  .flexRowContent--modal-body-two-columns{
+.flexCol--covid-final-section-mobile {
+  .flexRowContent--modal-body-two-columns {
     justify-content: center;
-    .stretchChildrenWidth{
+    .stretchChildrenWidth {
       width: 98% !important;
     }
-    :global(.vtex-store-components-3-x-imageElement--img-col){
+    :global(.vtex-store-components-3-x-imageElement--img-col) {
       align-self: center;
     }
   }
 }
 
 .flexRow--product-pag {
-  :global(.vtex-globalPromo-2){
-    color: #F51B1B;
+  :global(.vtex-globalPromo-2) {
+    color: #f51b1b;
     font-weight: bold;
     font-size: 18px;
     text-align: left;
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
-  :global(.vtex-globalPromo-3){
-    color: #F51B1B;
+  :global(.vtex-globalPromo-3) {
+    color: #f51b1b;
     font-weight: bold;
     font-size: 18px;
     text-align: left;
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .flexRowContent {
@@ -3224,14 +3216,14 @@
 }
 
 .flexRow--minicart-footer {
-  .flexCol{
+  .flexCol {
     margin-bottom: -35px;
   }
 }
 
 .flexRowContent--modal-covid-row,
 .flexRowContent--modal-super-parrilleros-row {
-  .stretchChildrenWidth{
+  .stretchChildrenWidth {
     justify-content: end;
   }
 }
@@ -3248,78 +3240,76 @@
 }
 
 .flexRow--modal-body-covid-wlt-1-1 {
-  border-bottom: 1px solid #FFC220;
+  border-bottom: 1px solid #ffc220;
 }
 
 .flexRow--modal-body-covid-wlt-1-1-2 {
   margin-top: 1rem;
 }
 
-.flexRowContent--modal-body-covid-wlt-1-1-2{
+.flexRowContent--modal-body-covid-wlt-1-1-2 {
   justify-content: space-between;
 }
 
-.flexRowContent--modal-body-two-columns{
+.flexRowContent--modal-body-two-columns {
   justify-content: space-between;
-  .stretchChildrenWidth{
+  .stretchChildrenWidth {
     width: 48% !important;
   }
-  :global(.vtex-store-components-3-x-imageElement--img-col){
+  :global(.vtex-store-components-3-x-imageElement--img-col) {
     align-self: center;
   }
   @media screen and (max-width: em(768px)) {
-    .stretchChildrenWidth{
+    .stretchChildrenWidth {
       width: 100% !important;
     }
   }
 }
 
-.flexRowContent--modal-body-three-columns{
+.flexRowContent--modal-body-three-columns {
   justify-content: space-between;
-  .stretchChildrenWidth{
+  .stretchChildrenWidth {
     width: 31% !important;
   }
-  :global(.vtex-store-components-3-x-imageElement--img-col){
+  :global(.vtex-store-components-3-x-imageElement--img-col) {
     align-self: center;
   }
   @media screen and (max-width: em(768px)) {
-    .stretchChildrenWidth{
+    .stretchChildrenWidth {
       width: 100% !important;
     }
   }
 }
 
-.flexRowContent--modal-body-covid-row2{
+.flexRowContent--modal-body-covid-row2 {
   justify-content: space-between;
   align-items: center;
 }
 
-.flexRowContent--modal-body-covid-row3{
+.flexRowContent--modal-body-covid-row3 {
   justify-content: space-between;
 }
 
-
 :global(.vtex-rich-text-0-x-wrapper--col-background-yellow),
-.flexColChild--col-background-yellow{
-  background: #FFC220;
-  :global(.vtex-rich-text-0-x-paragraph--subtitle-modal){
-    color: #FFFFFF;
+.flexColChild--col-background-yellow {
+  background: #ffc220;
+  :global(.vtex-rich-text-0-x-paragraph--subtitle-modal) {
+    color: #ffffff;
     opacity: 1;
     font-weight: bold;
     text-align: center;
     margin: 0;
     padding: 10px;
   }
-
 }
 
-.flexCol--covid-final-section-mobile{
-  .flexRowContent--modal-body-two-columns{
+.flexCol--covid-final-section-mobile {
+  .flexRowContent--modal-body-two-columns {
     justify-content: center;
-    .stretchChildrenWidth{
+    .stretchChildrenWidth {
       width: 98% !important;
     }
-    :global(.vtex-store-components-3-x-imageElement--img-col){
+    :global(.vtex-store-components-3-x-imageElement--img-col) {
       align-self: center;
     }
   }
@@ -3330,25 +3320,25 @@
 }
 
 .flexRow--tarjeta-credito-pag {
-  :global(.vtex-rich-text-0-x-container){
+  :global(.vtex-rich-text-0-x-container) {
     font-size: 15px;
   }
 }
 
 .flexCol--tarjeta-regalo-pag {
-  :global(.vtex-rich-text-0-x-container){
+  :global(.vtex-rich-text-0-x-container) {
     font-size: 15px;
   }
 }
 
 .flexRow--financiamiento-pag {
-  :global(.vtex-rich-text-0-x-container){
+  :global(.vtex-rich-text-0-x-container) {
     font-size: 15px;
   }
 }
 
 .flexRow--subcat-parrillero {
-  .stretchChildrenWidth{
+  .stretchChildrenWidth {
     background-color: #fff;
     margin-left: 20px;
     margin-right: 20px;
@@ -3366,11 +3356,10 @@
 }
 
 .flexRow--products-parrillero {
-
   margin-top: 2rem;
   margin-bottom: 2rem;
 
-  :global(.vtex-search-result-3-x-gallery){
+  :global(.vtex-search-result-3-x-gallery) {
     padding-left: 2rem;
   }
 }
@@ -3382,15 +3371,14 @@
 
 :global(.vtex-flex-layout-0-x-flexColChild--tab1-rebajas) {
   :global(.vtex-tab-layout-0-x-listItem--tab-item) {
-      padding-left: 0px !important;
-    }
+    padding-left: 0px !important;
   }
+}
 
 :global(.vtex-store-components-3-x-logoImage--logotab1) {
   margin-top: 10px;
   margin-left: 35px;
 }
-
 
 @media screen and (max-width: 64em) {
   .flexRowContent--fila1-rebajas {
@@ -3402,18 +3390,18 @@
   }
   :global(.vtex-flex-layout-0-x-flexColChild--tab1-rebajas) {
     :global(.vtex-tab-layout-0-x-listItem--tab-item) {
-        padding-left: 20px !important;
-        margin-top: 10px;
-      }
+      padding-left: 20px !important;
+      margin-top: 10px;
     }
+  }
 }
 
-@media(min-width:1280px) {
+@media (min-width: 1280px) {
   .flexCol--reglamento-de-promociones-linea-footer {
     padding-top: 0px !important;
   }
 }
-@media(max-width:520px) {
+@media (max-width: 520px) {
   .flexColChild--col-mundo-bebe-prinicpal {
     padding-right: 0px !important;
   }

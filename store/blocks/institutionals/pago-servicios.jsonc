@@ -1,0 +1,301 @@
+{
+  "store.custom#pago-servicios": {
+    "blocks": ["flex-layout.row#todo"]
+  },
+
+  "flex-layout.row#todo": {
+    "children": [
+      "list-context.image-list#pago-servicios",
+      "rich-text#titulo-page-pago-servicios",
+      "rich-text#texto1-pago-servicios",
+      "flex-layout.row#page-pago-servicios",
+      "rich-text#page-pago-servicios-compañias",
+      "flex-layout.row#page-pago-servicios-compañias"
+    ],
+    "props": {
+      "blockClass": "todo"
+    }
+  },
+  "list-context.image-list#pago-servicios": {
+    "children": ["slider-layout#pago-servicios-images"],
+    "props": {
+      "blockClass": "banner-institucional",
+      "images": [
+        {
+          "image": "/arquivos/servicios_banner.png",
+          "mobileImage": "/arquivos/servicios_banner_mob.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#pago-servicios-images": {
+    "props": {
+      "blockClass": "banner-institucional",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+
+  "rich-text#titulo-page-pago-servicios": {
+    "props": {
+      "text": "Pago de servicios",
+      "blockClass": "titulo-pago-servicios"
+    }
+  },
+  "rich-text#texto1-pago-servicios": {
+    "props": {
+      "text": "Realizá tu pagos rápido y fácil en caja o en el Money Center.",
+      "blockClass": "texto1-pago-servicios"
+    }
+  },
+
+  "flex-layout.row#page-pago-servicios": {
+    "children": ["flex-layout.col#page-pago-servicios1-col1"],
+    "props": {
+      "blockClass": "primera-fila"
+    }
+  },
+
+  "flex-layout.col#page-pago-servicios1-col1": {
+    "children": [
+      "rich-text#page-pago-servicios-titulo-col2",
+      "flex-layout.row#fila1-iconos-servicios",
+      "flex-layout.row#fila2-iconos-servicios",
+      "flex-layout.row#fila3-iconos-servicios"
+    ]
+  },
+  "rich-text#page-pago-servicios-titulo-col2": {
+    "props": {
+      "blockClass": "texto1-pago-servicios",
+      "text": "Pagos de:"
+    }
+  },
+  "flex-layout.row#fila1-iconos-servicios": {
+    "children": [
+      "flex-layout.col#icono1",
+      "flex-layout.col#icono2",
+      "flex-layout.col#icono3",
+      "flex-layout.col#icono4"
+    ],
+    "props": {
+      "blockClass": "icons-serivces"
+    }
+  },
+  "flex-layout.col#icono1": {
+    "children": ["rich-text#icono1"]
+  },
+  "rich-text#icono1": {
+    "props": {
+      "blockClass": "icono1",
+      "text": "Agua"
+    }
+  },
+  "flex-layout.col#icono2": {
+    "children": ["rich-text#icono2"]
+  },
+  "rich-text#icono2": {
+    "props": {
+      "blockClass": "icono3",
+      "text": "Cable e internet"
+    }
+  },
+  "flex-layout.col#icono3": {
+    "children": ["rich-text#icono3"]
+  },
+  "rich-text#icono3": {
+    "props": {
+      "blockClass": "icono6",
+      "text": "Préstamos"
+    }
+  },
+  "flex-layout.row#fila2-iconos-servicios": {
+    "children": [
+      "flex-layout.col#icono5",
+      "flex-layout.col#icono6",
+      "flex-layout.col#icono7",
+      "flex-layout.col#icono8"
+    ],
+    "props": {
+      "blockClass": "icons-serivces"
+    }
+  },
+  "flex-layout.col#icono4": {
+    "children": ["rich-text#icono4"]
+  },
+  "rich-text#icono4": {
+    "props": {
+      "blockClass": "icono7",
+      "text": "Celular"
+    }
+  },
+  "flex-layout.col#icono5": {
+    "children": ["rich-text#icono5"]
+  },
+  "rich-text#icono5": {
+    "props": {
+      "blockClass": "icono5",
+      "text": "Electricidad"
+    }
+  },
+  "flex-layout.col#icono6": {
+    "children": ["rich-text#icono6"]
+  },
+  "rich-text#icono6": {
+    "props": {
+      "blockClass": "icono6",
+      "text": "Abonos Tarjeta de Crédito"
+    }
+  },
+
+  "flex-layout.row#fila3-iconos-servicios": {
+    "children": [
+      "flex-layout.col#icono9",
+      "flex-layout.col#icono10",
+      "flex-layout.col#icono11",
+      "flex-layout.col#icono12"
+    ],
+    "props": {
+      "blockClass": "icons-serivces"
+    }
+  },
+  "flex-layout.col#icono7": {
+    "children": ["rich-text#icono7"]
+  },
+  "rich-text#icono7": {
+    "props": {
+      "blockClass": "iconCar",
+      "text": "Quick Pass"
+    }
+  },
+  "flex-layout.col#icono8": {
+    "children": ["rich-text#icono8"]
+  },
+  "rich-text#icono8": {
+    "props": {
+      "blockClass": "icono9",
+      "text": "Otros"
+    }
+  },
+  "flex-layout.col#icono9": {
+    "children": ["rich-text#icono9"]
+  },
+  "rich-text#icono9": {
+    "props": {
+      "blockClass": "icono2",
+      "text": "Teléfono"
+    }
+  },
+  "flex-layout.col#icono10": {
+    "children": ["rich-text#icono10"]
+  },
+  "rich-text#icono10": {
+    "props": {
+      "blockClass": "icono6",
+      "text": "Canje Walmart Cash de la Tarjeta Walmart"
+    }
+  },
+  "flex-layout.col#icono11": {
+    "children": ["rich-text#icono11"]
+  },
+  "rich-text#icono11": {
+    "props": {
+      "blockClass": "iconTest",
+      "text": "Pruebas teóricas de manejo"
+    }
+  },
+  "flex-layout.col#icono12": {
+    "children": ["rich-text#icono12"]
+  },
+  "rich-text#icono12": {
+    "props": {
+      "text": ""
+    }
+  },
+
+  "flex-layout.row#page-pago-servicios2": {
+    "children": ["flex-layout.col#columna-servicios2"],
+    "props": {
+      "blockClass": "segunda-fila"
+    }
+  },
+  "flex-layout.col#columna-servicios2": {
+    "children": [
+      "rich-text#texto1-page-pago-servicios2",
+      "rich-text#texto2-page-pago-servicios2"
+    ]
+  },
+  "rich-text#texto1-page-pago-servicios2": {
+    "props": {
+      "text": "Horario de atención",
+      "blockClass": "titulo-horario-atencion"
+    }
+  },
+  "rich-text#texto2-page-pago-servicios2": {
+    "props": {
+      "text": "Lunes a Domingo de 9:00am - 8:00pm",
+      "blockClass": "texto-horario-atencion"
+    }
+  },
+
+  "rich-text#page-pago-servicios-compañias": {
+    "props": {
+      "text": "Compañias",
+      "blockClass": "texto-companias"
+    }
+  },
+
+  "flex-layout.row#page-pago-servicios-compañias": {
+    "children": [
+      "flex-layout.col#columna1-final-servicios",
+      "flex-layout.col#columna2-final-servicios",
+      "flex-layout.col#columna3-final-servicios",
+      "flex-layout.col#columna4-final-servicios"
+    ],
+    "props": {
+      "blockClass": "ultima-fila-pago-de-servicios"
+    }
+  },
+  "flex-layout.col#columna1-final-servicios": {
+    "children": ["rich-text#columna1"],
+    "props": {
+      "blockClass": "columna1-companias"
+    }
+  },
+  "rich-text#columna1": {
+    "props": {
+      "blockClass": "texto-pago-companias",
+      "text": "• BAC Credomatic Abonos tarjetas de crédito\n• CLARO TV\n• CABLE CARIBE\n• CABLE CENTRO\n• CABLE SUR S.A.\n• CABLEMAX\n• CABLEPLUS\n• CABLETICA\n• CABLEVISION\n• SUPER CABLE"
+    }
+  },
+  "flex-layout.col#columna2-final-servicios": {
+    "children": ["rich-text#columna2"]
+  },
+  "rich-text#columna2": {
+    "props": {
+      "blockClass": ["texto-pago-companias"],
+      "text": "• TELE CABLE\n• TIGO\n• COOPESANTOS TV + INTERNET\n• BETO LE PRESTA\n• COSEVI\n• PRUEBA TEORICA\n• QUICK PASS\n• AYA\n• CNFL\n• ICE ELCTRICIDAD"
+    }
+  },
+  "flex-layout.col#columna3-final-servicios": {
+    "children": ["rich-text#columna3"]
+  },
+  "rich-text#columna3": {
+    "props": {
+      "blockClass": ["texto-pago-companias"],
+      "text": "• ESPH\n• ACUEDUCTO\n• ESPH ENERGIA\n• COOPEGUANACASTE\n• COOPELESCA COOPESANTOS ENERGIA\n• ICE RED\n• JASEC\n• CLARO POSTPAGO\n• ICE TELEFONIA\n• MOVISTAR POSTPAGO"
+    }
+  },
+  "flex-layout.col#columna4-final-servicios": {
+    "children": ["rich-text#columna4"]
+  },
+  "rich-text#columna4": {
+    "props": {
+      "blockClass": ["texto-pago-companias", "justifyEnd"],
+      "text": "Los pagos de servicios se pueden realizar únicamente en efectivo y moneda local."
+    }
+  }
+}

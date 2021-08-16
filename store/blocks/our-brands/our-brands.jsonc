@@ -1,17 +1,17 @@
 {
-  "store.custom#our-brands" : {
-      "blocks": [
-        "responsive-layout.desktop#our-brands",
-        "responsive-layout.phone#our-brands"
-      ]
+  "store.custom#our-brands": {
+    "blocks": [
+      "responsive-layout.desktop#our-brands",
+      "responsive-layout.phone#our-brands"
+    ]
   },
 
-  "responsive-layout.desktop#our-brands":{
-    "children":[
+  "responsive-layout.desktop#our-brands": {
+    "children": [
       "flex-layout.row#first-row-nuestras-marcas",
       "slider-layout#todas-nuestras-marcas",
       /* "flex-layout.row#subcategory-our-brands", */
-      "flex-layout.row#row-2-images-our-brands", 
+      "flex-layout.row#row-2-images-our-brands",
       "flex-layout.row#title-hygienic",
       "flex-layout.row#shelf-hygienic",
       "flex-layout.row#title-pantry",
@@ -20,8 +20,8 @@
       "flex-layout.row#shelf-marca3"
     ]
   },
-  "responsive-layout.phone#our-brands":{
-    "children":[
+  "responsive-layout.phone#our-brands": {
+    "children": [
       "flex-layout.row#first-row-nuestras-marcas",
       "slider-layout#todas-nuestras-marcas",
       /* "flex-layout.row#subcategory-our-brands", */
@@ -35,9 +35,8 @@
     ]
   },
 
-
   "flex-layout.row#subcategory-our-brands": {
-    "children":[
+    "children": [
       "flex-layout.col#sub-our-brands-1",
       "flex-layout.col#sub-our-brands-2",
       "flex-layout.col#sub-our-brands-3",
@@ -46,11 +45,10 @@
       "flex-layout.col#sub-our-brands-6",
       "flex-layout.col#sub-our-brands-7"
     ],
-    "props":{
+    "props": {
       "blockClass": "row-subcat-baby-world"
     }
   },
-
 
   "slider-layout#todas-nuestras-marcas": {
     "props": {
@@ -86,14 +84,9 @@
     ]
   },
 
-
-
-
   "flex-layout.row#first-row-nuestras-marcas": {
     "title": "First row",
-    "children": [
-      "list-context.image-list#main-slider-nuestras-marcas"
-    ],
+    "children": ["list-context.image-list#main-slider-nuestras-marcas"],
     "props": {
       "colGap": 4,
       "blockClass": ["row-walmart", "banner-principal-nuestras-marcas"]
@@ -101,30 +94,28 @@
   },
   "list-context.image-list#main-slider-nuestras-marcas": {
     "title": "Main Slider",
-    "children": [
-      "slider-layout#main-slider-images-nuestras-marcas"
-    ],
+    "children": ["slider-layout#main-slider-images-nuestras-marcas"],
     "props": {
       "blockClass": "banner-principal-nuestras-marcas",
       "width": "100%",
       "images": [
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -149,9 +140,6 @@
     }
   },
 
-
-
-
   "flex-layout.row#slider-circles-1-nuestras-marcas": {
     "children": [
       "flex-layout.row#circle-1-nuestras-marcas",
@@ -166,9 +154,7 @@
     }
   },
   "flex-layout.row#circle-1-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-1-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-1-nuestras-marcas"]
   },
   "flex-layout.col#circle-1-nuestras-marcas": {
     "props": {
@@ -183,7 +169,7 @@
     "props": {
       "title": "circle 1",
       "href": "/",
-      "url": "assets/mobile/rebajas.webp",
+      "url": "/arquivos/rebajas.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -203,9 +189,7 @@
     }
   },
   "flex-layout.row#circle-2-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-2-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-2-nuestras-marcas"]
   },
   "flex-layout.col#circle-2-nuestras-marcas": {
     "props": {
@@ -220,7 +204,7 @@
     "props": {
       "title": "circle 2",
       "href": "/",
-      "url": "assets/mobile/belleza.webp",
+      "url": "/arquivos/belleza.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -240,9 +224,7 @@
     }
   },
   "flex-layout.row#circle-3-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-3-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-3-nuestras-marcas"]
   },
   "flex-layout.col#circle-3-nuestras-marcas": {
     "props": {
@@ -257,7 +239,7 @@
     "props": {
       "title": "circle 3",
       "href": "/",
-      "url": "assets/mobile/salud.jpg",
+      "url": "/arquivos/salud.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -277,9 +259,7 @@
     }
   },
   "flex-layout.row#circle-4-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-4-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-4-nuestras-marcas"]
   },
   "flex-layout.col#circle-4-nuestras-marcas": {
     "props": {
@@ -294,7 +274,7 @@
     "props": {
       "title": "circle 4",
       "href": "/",
-      "url": "assets/mobile/electronica.jpg",
+      "url": "/arquivos/electronica.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -314,9 +294,7 @@
     }
   },
   "flex-layout.row#circle-5-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-5-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-5-nuestras-marcas"]
   },
   "flex-layout.col#circle-5-nuestras-marcas": {
     "props": {
@@ -331,7 +309,7 @@
     "props": {
       "title": "circle 5",
       "href": "/",
-      "url": "assets/mobile/licores.jpg",
+      "url": "/arquivos/licores.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -351,9 +329,7 @@
     }
   },
   "flex-layout.row#circle-6-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-6-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-6-nuestras-marcas"]
   },
   "flex-layout.col#circle-6-nuestras-marcas": {
     "props": {
@@ -368,7 +344,7 @@
     "props": {
       "title": "circle 6",
       "href": "/",
-      "url": "assets/mobile/bebe.jpg",
+      "url": "/arquivos/bebe.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -388,13 +364,6 @@
     }
   },
 
-
-
-
-
-
-
-
   "flex-layout.row#slider-circles-2-nuestras-marcas": {
     "children": [
       "flex-layout.col#circle-7-nuestras-marcas",
@@ -409,9 +378,7 @@
     }
   },
   "flex-layout.row#circle-7-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-7-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-7-nuestras-marcas"]
   },
   "flex-layout.col#circle-7-nuestras-marcas": {
     "props": {
@@ -426,7 +393,7 @@
     "props": {
       "title": "circle 7",
       "href": "/",
-      "url": "assets/mobile/rebajas.webp",
+      "url": "/arquivos/rebajas.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -446,9 +413,7 @@
     }
   },
   "flex-layout.row#circle-8-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-8-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-8-nuestras-marcas"]
   },
   "flex-layout.col#circle-8-nuestras-marcas": {
     "props": {
@@ -463,7 +428,7 @@
     "props": {
       "title": "circle 8",
       "href": "/",
-      "url": "assets/mobile/belleza.webp",
+      "url": "/arquivos/belleza.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -483,9 +448,7 @@
     }
   },
   "flex-layout.row#circle-9-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-9-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-9-nuestras-marcas"]
   },
   "flex-layout.col#circle-9-nuestras-marcas": {
     "props": {
@@ -500,7 +463,7 @@
     "props": {
       "title": "circle 9",
       "href": "/",
-      "url": "assets/mobile/salud.jpg",
+      "url": "/arquivos/salud.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -520,9 +483,7 @@
     }
   },
   "flex-layout.row#circle-10-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-10-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-10-nuestras-marcas"]
   },
   "flex-layout.col#circle-10-nuestras-marcas": {
     "props": {
@@ -537,7 +498,7 @@
     "props": {
       "title": "circle 10",
       "href": "/",
-      "url": "assets/mobile/electronica.jpg",
+      "url": "/arquivos/electronica.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -557,9 +518,7 @@
     }
   },
   "flex-layout.row#circle-11-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-11-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-11-nuestras-marcas"]
   },
   "flex-layout.col#circle-11-nuestras-marcas": {
     "props": {
@@ -574,7 +533,7 @@
     "props": {
       "title": "circle 11",
       "href": "/",
-      "url": "assets/mobile/licores.jpg",
+      "url": "/arquivos/licores.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -594,9 +553,7 @@
     }
   },
   "flex-layout.row#circle-12-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-12-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-12-nuestras-marcas"]
   },
   "flex-layout.col#circle-12-nuestras-marcas": {
     "props": {
@@ -611,7 +568,7 @@
     "props": {
       "title": "circle 12",
       "href": "/",
-      "url": "assets/mobile/bebe.jpg",
+      "url": "/arquivos/bebe.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -631,10 +588,6 @@
     }
   },
 
-
-
-
-
   "flex-layout.row#slider-circles-3-nuestras-marcas": {
     "children": [
       "flex-layout.col#circle-13-nuestras-marcas",
@@ -649,9 +602,7 @@
     }
   },
   "flex-layout.row#circle-13-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-13-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-13-nuestras-marcas"]
   },
   "flex-layout.col#circle-13-nuestras-marcas": {
     "props": {
@@ -666,7 +617,7 @@
     "props": {
       "title": "circle 13",
       "href": "/",
-      "url": "assets/mobile/rebajas.webp",
+      "url": "/arquivos/rebajas.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -686,9 +637,7 @@
     }
   },
   "flex-layout.row#circle-14-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-14-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-14-nuestras-marcas"]
   },
   "flex-layout.col#circle-14-nuestras-marcas": {
     "props": {
@@ -703,7 +652,7 @@
     "props": {
       "title": "circle 14",
       "href": "/",
-      "url": "assets/mobile/belleza.webp",
+      "url": "/arquivos/belleza.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -723,9 +672,7 @@
     }
   },
   "flex-layout.row#circle-15-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-15-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-15-nuestras-marcas"]
   },
   "flex-layout.col#circle-15-nuestras-marcas": {
     "props": {
@@ -740,7 +687,7 @@
     "props": {
       "title": "circle 15",
       "href": "/",
-      "url": "assets/mobile/salud.jpg",
+      "url": "/arquivos/salud.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -758,10 +705,9 @@
         "text": "Salud"
       }
     }
-  },"flex-layout.row#circle-16-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-16-nuestras-marcas"
-    ]
+  },
+  "flex-layout.row#circle-16-nuestras-marcas": {
+    "children": ["flex-layout.col#circle-16-nuestras-marcas"]
   },
   "flex-layout.col#circle-16-nuestras-marcas": {
     "props": {
@@ -776,7 +722,7 @@
     "props": {
       "title": "circle 16",
       "href": "/",
-      "url": "assets/mobile/electronica.jpg",
+      "url": "/arquivos/electronica.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -796,9 +742,7 @@
     }
   },
   "flex-layout.row#circle-17-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-17-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-17-nuestras-marcas"]
   },
   "flex-layout.col#circle-17-nuestras-marcas": {
     "props": {
@@ -813,7 +757,7 @@
     "props": {
       "title": "circle 17",
       "href": "/",
-      "url": "assets/mobile/licores.jpg",
+      "url": "/arquivos/licores.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -833,9 +777,7 @@
     }
   },
   "flex-layout.row#circle-18-nuestras-marcas": {
-    "children": [
-      "flex-layout.col#circle-18-nuestras-marcas"
-    ]
+    "children": ["flex-layout.col#circle-18-nuestras-marcas"]
   },
   "flex-layout.col#circle-18-nuestras-marcas": {
     "props": {
@@ -850,7 +792,7 @@
     "props": {
       "title": "circle 18",
       "href": "/",
-      "url": "assets/mobile/bebe.jpg",
+      "url": "/arquivos/bebe.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -870,60 +812,47 @@
     }
   },
 
-
-
-
-
-
-  "flex-layout.col#sub-our-brands-1":{
-    "children":[
-      "logo#sub-our-brands-1"
-    ],
-    "props":{
+  "flex-layout.col#sub-our-brands-1": {
+    "children": ["logo#sub-our-brands-1"],
+    "props": {
       "blockClass": "col-sub-baby-world"
     }
   },
-  "logo#sub-our-brands-1":{
+  "logo#sub-our-brands-1": {
     "props": {
       "title": "icon 1",
       "href": "/",
-      "url": "assets/greatvalue.jpg",
+      "url": "/arquivos/greatvalue.jpg",
       "blockClass": "our-brand-logo"
     }
   },
 
-  "flex-layout.col#sub-our-brands-2":{
-    "children":[
-      "logo#sub-our-brands-2"
-    ],
-    "props":{
+  "flex-layout.col#sub-our-brands-2": {
+    "children": ["logo#sub-our-brands-2"],
+    "props": {
       "blockClass": "col-sub-baby-world"
     }
   },
-  "logo#sub-our-brands-2":{
+  "logo#sub-our-brands-2": {
     "props": {
       "title": "icon 2",
       "href": "/",
-      "url": "assets/equate.jpg",
+      "url": "/arquivos/equate.jpg",
       "blockClass": "our-brand-logo"
     }
   },
 
-  "flex-layout.col#sub-our-brands-3":{
-    "children":[
-      "logo#sub-our-brands-3",
-      "rich-text#sub-our-brands-3"
-    ],
-    "props":{
+  "flex-layout.col#sub-our-brands-3": {
+    "children": ["logo#sub-our-brands-3", "rich-text#sub-our-brands-3"],
+    "props": {
       "blockClass": "col-sub-baby-world"
     }
-
   },
-  "logo#sub-our-brands-3":{
+  "logo#sub-our-brands-3": {
     "props": {
       "title": "icon 3",
       "href": "/",
-      "url": "assets/greatvalue.jpg",
+      "url": "/arquivos/greatvalue.jpg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -936,21 +865,17 @@
     }
   },
 
-  "flex-layout.col#sub-our-brands-4":{
-    "children":[
-      "logo#sub-our-brands-4",
-      "rich-text#sub-our-brands-4"
-    ],
-    "props":{
+  "flex-layout.col#sub-our-brands-4": {
+    "children": ["logo#sub-our-brands-4", "rich-text#sub-our-brands-4"],
+    "props": {
       "blockClass": "col-sub-baby-world"
     }
-
   },
-  "logo#sub-our-brands-4":{
+  "logo#sub-our-brands-4": {
     "props": {
       "title": "icon 4",
       "href": "/",
-      "url": "assets/equate.jpg",
+      "url": "/arquivos/equate.jpg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -963,20 +888,17 @@
     }
   },
 
-  "flex-layout.col#sub-our-brands-5":{
-    "children":[
-      "logo#sub-our-brands-5",
-      "rich-text#sub-our-brands-5"
-    ],
-    "props":{
+  "flex-layout.col#sub-our-brands-5": {
+    "children": ["logo#sub-our-brands-5", "rich-text#sub-our-brands-5"],
+    "props": {
       "blockClass": "col-sub-baby-world"
     }
   },
-  "logo#sub-our-brands-5":{
+  "logo#sub-our-brands-5": {
     "props": {
       "title": "icon 5",
       "href": "/",
-      "url": "assets/greatvalue.jpg",
+      "url": "/arquivos/greatvalue.jpg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -989,40 +911,35 @@
     }
   },
 
-  "flex-layout.col#sub-our-brands-6":{
-    "children":[
-      "logo#sub-our-brands-6"
-    ],
-    "props":{
+  "flex-layout.col#sub-our-brands-6": {
+    "children": ["logo#sub-our-brands-6"],
+    "props": {
       "blockClass": "col-sub-baby-world"
     }
   },
-  "logo#sub-our-brands-6":{
+  "logo#sub-our-brands-6": {
     "props": {
       "title": "icon 6",
       "href": "/",
-      "url": "assets/greatvalue.jpg",
+      "url": "/arquivos/greatvalue.jpg",
       "blockClass": "our-brand-logo"
     }
   },
 
-  "flex-layout.col#sub-our-brands-7":{
-    "children":[
-      "logo#sub-our-brands-7"
-    ],
-    "props":{
+  "flex-layout.col#sub-our-brands-7": {
+    "children": ["logo#sub-our-brands-7"],
+    "props": {
       "blockClass": "col-sub-baby-world"
     }
   },
-  "logo#sub-our-brands-7":{
+  "logo#sub-our-brands-7": {
     "props": {
       "title": "icon 7",
       "href": "/",
-      "url": "assets/equate.jpg",
+      "url": "/arquivos/equate.jpg",
       "blockClass": "our-brand-logo"
     }
   },
-
 
   "flex-layout.row#row-2-images-our-brands": {
     "children": [
@@ -1034,161 +951,142 @@
     }
   },
 
-  "flex-layout.col#col-2-images-1-our-brands":{
-    "children": [
-      "image#col-2-images-1-our-brands"
-    ],
+  "flex-layout.col#col-2-images-1-our-brands": {
+    "children": ["image#col-2-images-1-our-brands"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-2-images-1-our-brands": {
     "props": {
-      "src": "assets/ob-banner1.jpg",
+      "src": "/arquivos/ob-banner1.jpg",
       "blockClass": "banner-img"
     }
   },
-  "flex-layout.col#col-2-images-2-our-brands":{
-    "children": [
-      "image#col-2-images-2-our-brands"
-    ],
+  "flex-layout.col#col-2-images-2-our-brands": {
+    "children": ["image#col-2-images-2-our-brands"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-2-images-2-our-brands": {
     "props": {
-      "src": "assets/ob-banner2.jpg",
+      "src": "/arquivos/ob-banner2.jpg",
       "blockClass": "banner-img"
     }
   },
 
-
-  "flex-layout.row#title-hygienic":{
-    "children": [
-      "rich-text#hygienic"
-    ],
+  "flex-layout.row#title-hygienic": {
+    "children": ["rich-text#hygienic"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#hygienic": {
-      "title": "car baby title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Higiénicos",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "car baby title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Higiénicos",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-hygienic": {
     "title": "car baby",
-    "children": [
-      "shelf#hygienic"
-    ],
+    "children": ["shelf#hygienic"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#hygienic": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 20,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-  "flex-layout.row#title-marca3":{
-    "children": [
-      "rich-text#marca3"
-    ],
+  "flex-layout.row#title-marca3": {
+    "children": ["rich-text#marca3"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#marca3": {
-      "title": "baby botle title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Marca 3",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "baby botle title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Marca 3",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-marca3": {
     "title": "car baby",
-    "children": [
-      "shelf#marca3"
-    ],
+    "children": ["shelf#marca3"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#marca3": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-  "flex-layout.row#title-pantry":{
-    "children": [
-      "rich-text#pantry"
-    ],
+  "flex-layout.row#title-pantry": {
+    "children": ["rich-text#pantry"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#pantry": {
-      "title": "baby botle title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Despensa",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "baby botle title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Despensa",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-pantry": {
     "title": "baby botle",
-    "children": [
-      "shelf#pantry"
-    ],
+    "children": ["shelf#pantry"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#pantry": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 20,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   }
-
-
 }

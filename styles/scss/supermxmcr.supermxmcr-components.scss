@@ -1,13 +1,13 @@
 @import "./references";
 
 :global(.vtex-flex-layout-0-x-flexRow--product-pag),
-:global(.vtex-flex-layout-0-x-flexRow--product-pag-mobile){
+:global(.vtex-flex-layout-0-x-flexRow--product-pag-mobile) {
   :global(.vtex-store-components-3-x-productImage) {
     max-height: 450px;
     @media screen and (max-width: em(1024px)) {
       max-height: fit-content;
     }
-    :global(.vtex-store-components-3-x-productImagesGallerySlide){
+    :global(.vtex-store-components-3-x-productImagesGallerySlide) {
       max-height: 450px;
       :global(.vtex-store-components-3-x-productImageTag) {
         max-height: 450px !important;
@@ -15,7 +15,6 @@
     }
   }
   .container {
-
     &.pdp {
       :global(.vtex-numeric-stepper__plus-button),
       :global(.vtex-numeric-stepper__minus-button) {
@@ -26,7 +25,7 @@
     :global(.vtex-button) {
       width: 100%;
       border-radius: 5px;
-      //background-color: #1a75cf!important;
+      //background-color: #ab0535!important;
       margin-top: 4rem;
       color: #525252;
 
@@ -47,12 +46,12 @@
           :global(.vtex-numeric-stepper__input) {
             border-right: none;
             border-left: none;
-            outline: 0!important;
+            outline: 0 !important;
             border-top: 1px solid #dedede;
             border-bottom: 1px solid #dedede;
             height: 32px;
             font-size: 13px;
-            width: 50px!important;
+            width: 50px !important;
             color: #525252;
           }
 
@@ -62,7 +61,7 @@
               border-radius: 5px;
               border: 1px solid #dedede;
               border-left: none;
-              outline: 0!important;
+              outline: 0 !important;
               height: 32px;
 
               @media screen and (max-width: em(768px)) {
@@ -94,7 +93,8 @@
         }
       }
     }
-    .kg, .unidad {
+    .kg,
+    .unidad {
       margin-top: 2rem;
     }
     .selectorContainer {
@@ -107,7 +107,7 @@
         margin-left: 5px;
         margin-right: 5px;
         text-transform: capitalize;
-        :global(.vtex-button){
+        :global(.vtex-button) {
           margin-top: 1rem;
           width: 100%;
         }
@@ -118,18 +118,18 @@
           font-weight: bold;
           text-transform: capitalize;
           border-radius: 5px;
-          border: 1px solid #1a75cf;
+          border: 1px solid #ab0535;
           background-color: #fff;
           color: #525252;
           height: 100%;
           min-width: 100%;
           &:hover {
-            background-color: #1a75cf;
+            background-color: #ab0535;
             color: #fff;
           }
           &:disabled {
             cursor: default;
-            background-color: #1a75cf;
+            background-color: #ab0535;
             color: #fff;
           }
         }
@@ -150,41 +150,42 @@
     }
   }
 }
-:global(.vtex-product-summary-2-x-element ) {
-  @media screen and (max-width: em(1024px)){
+:global(.vtex-product-summary-2-x-element) {
+  @media screen and (max-width: em(1024px)) {
     height: 450px;
   }
   .container {
-   :global(.vtex-button):disabled {
-     .buttonText {
-       font-size: 0;
-       &::after {
-         font-size: 1rem;
-         color: white;
-         content: "No disponible";
-       }
-     }
-   }
+    :global(.vtex-button):disabled {
+      .buttonText {
+        font-size: 0;
+        &::after {
+          font-size: 1rem;
+          color: white;
+          content: "No disponible";
+        }
+      }
+    }
     bottom: 15px;
     position: absolute;
     width: 100%;
     padding-right: 16px;
-    @media screen and (max-width: em(1023px)){
+    @media screen and (max-width: em(1023px)) {
       width: 30% !important;
       bottom: auto !important;
       margin-top: 400px;
       justify-content: center;
-      .kg, .unidad {
+      .kg,
+      .unidad {
         margin-top: -50px;
       }
     }
-    @media screen and (max-width: em(783px)){
+    @media screen and (max-width: em(783px)) {
       width: 43% !important;
     }
-    @media screen and (max-width: em(690px)){
+    @media screen and (max-width: em(690px)) {
       width: 46% !important;
       margin-top: 340px;
-      :global(.vtex-button):last-child{
+      :global(.vtex-button):last-child {
         margin-top: 50px;
       }
     }
@@ -212,22 +213,22 @@
         }
         :global(.vtex-numeric-stepper-container) {
           :global(.vtex-numeric-stepper__plus-button-container),
-          :global(.vtex-numeric-stepper__minus-button-container){
+          :global(.vtex-numeric-stepper__minus-button-container) {
             z-index: 0;
           }
           :global(.vtex-numeric-stepper__input) {
             z-index: 0;
-            @media screen and (max-width: em(425px)){
+            @media screen and (max-width: em(425px)) {
               font-size: 11px;
             }
             border-right: none;
             border-left: none;
-            outline: 0!important;
+            outline: 0 !important;
             border-top: 1px solid #dedede;
             border-bottom: 1px solid #dedede;
             height: 32px;
             font-size: 13px;
-            width: 50px!important;
+            width: 50px !important;
             color: #525252;
           }
 
@@ -237,7 +238,7 @@
               border-radius: 5px;
               border: 1px solid #dedede;
               border-left: none;
-              outline: 0!important;
+              outline: 0 !important;
               height: 32px;
               @media screen and (max-width: em(768px)) {
                 width: 2em !important;
@@ -286,15 +287,15 @@
         :global(.vtex-button) {
           color: #525252;
           background: transparent;
-          //border: #1A75CF 1px solid;
+          //border: #ab0535 1px solid;
           &:disabled {
             //:global(.vtex-button__label) {
-              background: #1A75CF;
-              border: #1A75CF 2.5px solid;
-              color: white;
+            background: #ab0535;
+            border: #ab0535 2.5px solid;
+            color: white;
             //}
           }
-          @media screen and (max-width: em(1023px)){
+          @media screen and (max-width: em(1023px)) {
             margin-top: 0;
           }
         }
@@ -305,18 +306,18 @@
           font-weight: bold;
           text-transform: capitalize;
           border-radius: 5px;
-          border: 1px solid #1a75cf;
+          border: 1px solid #ab0535;
           background-color: #fff;
           color: #525252;
           height: 100%;
           min-width: 100%;
           &:hover {
-            background-color: #1a75cf;
+            background-color: #ab0535;
             color: #fff;
           }
           &:disabled {
             cursor: default;
-            background-color: #1a75cf;
+            background-color: #ab0535;
             color: #fff;
           }
         }
@@ -325,9 +326,9 @@
   }
 }
 
-:global(.vtex-shelf-1-x-sliderContainer--related-products ),
-:global(.vtex-flex-layout-0-x-flexRow--recommended-you){
-  :global(.vtex-product-summary-2-x-element ) {
+:global(.vtex-shelf-1-x-sliderContainer--related-products),
+:global(.vtex-flex-layout-0-x-flexRow--recommended-you) {
+  :global(.vtex-product-summary-2-x-element) {
     @media screen and (max-width: em(1024px)) {
       height: 400px;
     }
@@ -342,8 +343,8 @@
     }
   }
 }
-:global(.vtex-shelf-1-x-sliderContainer--related-products ){
-  :global(.vtex-product-summary-2-x-element ) {
+:global(.vtex-shelf-1-x-sliderContainer--related-products) {
+  :global(.vtex-product-summary-2-x-element) {
     .container {
       @media screen and (max-width: em(1023px)) {
         bottom: 25px !important;
@@ -356,7 +357,7 @@
   color: #898989;
 }
 
-:global(.vtex-minicart-2-x-minicartContentContainer){
+:global(.vtex-minicart-2-x-minicartContentContainer) {
   .container {
     margin-top: 58px;
     height: auto;
@@ -369,8 +370,8 @@
     .selectorKg {
       @media screen and (max-width: em(450px)) {
         :global(.vtex-button) {
-          //border: #1a75cf 7px solid !important;
-          //background-color: #1A75CF;
+          //border: #ab0535 7px solid !important;
+          //background-color: #ab0535;
           :global(.vtex-button__label) {
             font-size: 0;
             &::after {

@@ -27,9 +27,9 @@
   margin: 113px auto 0 auto !important;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--stuck){
+:global(.vtex-sticky-layout-0-x-wrapper--stuck) {
   :global(.vtex-sticky-layout-0-x-container--sticky-header-1) {
-    margin: 41px auto 0 auto!important;
+    margin: 41px auto 0 auto !important;
   }
 }
 
@@ -114,7 +114,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--headertop) {
-  background: #005CB5;
+  background: #ab0535;
   position: relative;
   z-index: 9999;
   :global(.vtex-flex-layout-0-x-flexRowContent--headertop) {
@@ -168,7 +168,7 @@
       display: block;
       width: 25px;
       height: 25px;
-      background: url(assets/icon_user.svg);
+      background: url(/arquivos/icon_user.svg);
       background-size: 25px 26px !important;
       background-position: -25px -156px !important;
       margin: auto 0;
@@ -184,7 +184,7 @@
 
 :global(.vtex-rich-text-0-x-container--mi-tel) {
   &::before {
-    background: url(assets/icon_favorito.svg);
+    background: url(/arquivos/icon_favorito.svg);
     margin: auto 6px auto 0;
     content: "";
     display: block;
@@ -197,12 +197,12 @@
       //margin: auto -30px auto 30px;
       width: 22px;
       height: 22px;
-      background-size: 21px 21px!important;
-      background-position: -2px -105px!important;
+      background-size: 21px 21px !important;
+      background-position: -2px -105px !important;
     }
 
     @media screen and (max-width: em(768px)) {
-      background-position: 0px -105px!important;
+      background-position: 0px -105px !important;
     }
   }
 }
@@ -228,7 +228,7 @@
 :global(.vtex-store-components-3-x-searchBarIcon--search) {
   &::before {
     content: "";
-    background: url(assets/icon_search.png) no-repeat;
+    background: url(/arquivos/icon_search.png) no-repeat;
     width: 30px;
     height: 25px;
     background-size: 23px 21px !important;
@@ -261,7 +261,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
-  background-color: #1A75CF !important;
+  background-color: #ab0535 !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile-search) {
@@ -304,7 +304,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/lineablanca.png) no-repeat 50%;
+    background: url(/arquivos/lineablanca.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -318,7 +318,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/bitmap.png) no-repeat 50%;
+    background: url(/arquivos/bitmap.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -332,7 +332,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/audio.png) no-repeat 50%;
+    background: url(/arquivos/audio.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -346,7 +346,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/telefonia.png) no-repeat 50%;
+    background: url(/arquivos/telefonia.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -360,7 +360,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/motos.png) no-repeat 50%;
+    background: url(/arquivos/motos.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -374,7 +374,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/colchones.png) no-repeat 50%;
+    background: url(/arquivos/colchones.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -388,7 +388,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/muebles.png) no-repeat 50%;
+    background: url(/arquivos/muebles.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -402,7 +402,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/videojuegos.png) no-repeat 50%;
+    background: url(/arquivos/videojuegos.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -416,7 +416,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/ferreteria.png) no-repeat 50%;
+    background: url(/arquivos/ferreteria.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -430,7 +430,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/hogar.png) no-repeat 50%;
+    background: url(/arquivos/hogar.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -444,7 +444,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/ropa.png) no-repeat 50%;
+    background: url(/arquivos/ropa.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -458,7 +458,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/calzado.png) no-repeat 50%;
+    background: url(/arquivos/calzado.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -472,7 +472,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/bebes.png) no-repeat 50%;
+    background: url(/arquivos/bebes.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -487,7 +487,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/belleza.png) no-repeat 50%;
+    background: url(/arquivos/belleza.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -501,7 +501,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/alimentos.png) no-repeat 50%;
+    background: url(/arquivos/alimentos.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -515,7 +515,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/computo.png) no-repeat 50%;
+    background: url(/arquivos/computo.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -529,7 +529,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/mascotas.png) no-repeat 50%;
+    background: url(/arquivos/mascotas.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -543,7 +543,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/bicicletas.png) no-repeat 50%;
+    background: url(/arquivos/bicicletas.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -557,7 +557,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/moda.png) no-repeat 50%;
+    background: url(/arquivos/moda.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -571,7 +571,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/peliculas.png) no-repeat 50%;
+    background: url(/arquivos/peliculas.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -585,7 +585,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/salud.png) no-repeat 50%;
+    background: url(/arquivos/salud.png) no-repeat 50%;
     background-size: 18px 18px !important;
     position: absolute;
     left: 0px;
@@ -602,7 +602,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/lineablanca.png) no-repeat 50%;
+    background: url(/arquivos/lineablanca.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -616,7 +616,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/bitmap.png) no-repeat 50%;
+    background: url(/arquivos/bitmap.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -630,7 +630,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/audio.png) no-repeat 50%;
+    background: url(/arquivos/audio.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -644,7 +644,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/telefonia.png) no-repeat 50%;
+    background: url(/arquivos/telefonia.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -658,7 +658,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/motos.png) no-repeat 50%;
+    background: url(/arquivos/motos.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -672,7 +672,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/colchones.png) no-repeat 50%;
+    background: url(/arquivos/colchones.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -686,7 +686,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/muebles.png) no-repeat 50%;
+    background: url(/arquivos/muebles.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -700,7 +700,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/videojuegos.png) no-repeat 50%;
+    background: url(/arquivos/videojuegos.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -714,7 +714,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/ferreteria.png) no-repeat 50%;
+    background: url(/arquivos/ferreteria.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -728,7 +728,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/hogar.png) no-repeat 50%;
+    background: url(/arquivos/hogar.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -742,7 +742,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/ropa.png) no-repeat 50%;
+    background: url(/arquivos/ropa.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -756,7 +756,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/calzado.png) no-repeat 50%;
+    background: url(/arquivos/calzado.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -770,7 +770,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/bebes.png) no-repeat 50%;
+    background: url(/arquivos/bebes.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -784,7 +784,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/belleza.png) no-repeat 50%;
+    background: url(/arquivos/belleza.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -798,7 +798,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/alimentos.png) no-repeat 50%;
+    background: url(/arquivos/alimentos.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -812,7 +812,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/computo.png) no-repeat 50%;
+    background: url(/arquivos/computo.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -826,7 +826,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/mascotas.png) no-repeat 50%;
+    background: url(/arquivos/mascotas.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -840,7 +840,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/bicicletas.png) no-repeat 50%;
+    background: url(/arquivos/bicicletas.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -854,7 +854,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/moda.png) no-repeat 50%;
+    background: url(/arquivos/moda.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -868,7 +868,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/peliculas.png) no-repeat 50%;
+    background: url(/arquivos/peliculas.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -882,7 +882,7 @@
     display: block;
     width: 24px;
     height: 23px;
-    background: url(assets/salud.png) no-repeat 50%;
+    background: url(/arquivos/salud.png) no-repeat 50%;
     background-size: 20px 20px !important;
     position: absolute;
     left: -30px;
@@ -904,7 +904,6 @@
 .header-icons {
   color: red !important;
 }
-
 
 :global(.vtex-telemarketing-2-x-wrapper) {
   background-color: #262626;

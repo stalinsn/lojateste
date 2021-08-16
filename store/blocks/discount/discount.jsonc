@@ -1,16 +1,14 @@
 {
-  "store.custom#discount" : {
-      "blocks": [
-        /*"flex-layout.row#first-row-rebajas",*/
-        "flex-layout.row#tabs-temporary-descuento"
-      ]
+  "store.custom#discount": {
+    "blocks": [
+      /*"flex-layout.row#first-row-rebajas",*/
+      "flex-layout.row#tabs-temporary-descuento"
+    ]
   },
 
   "flex-layout.row#first-row-rebajas": {
     "title": "First row",
-    "children": [
-      "list-context.image-list#main-slider-rebajas"
-    ],
+    "children": ["list-context.image-list#main-slider-rebajas"],
     "props": {
       "colGap": 4,
       "blockClass": ["row-walmart", "banner-principal-rebajas"]
@@ -18,9 +16,7 @@
   },
   "list-context.image-list#main-slider-rebajas": {
     "title": "Main Slider",
-    "children": [
-      "slider-layout#main-slider-images-rebajas"
-    ],
+    "children": ["slider-layout#main-slider-images-rebajas"],
     "props": {
       "blockClass": "banner-principal-rebajas",
       "width": "100%",
@@ -66,20 +62,15 @@
     }
   },
 
-  "flex-layout.row#tabs-temporary-descuento":{
-    "children": [
-      "tab-layout#temporary"
-    ],
+  "flex-layout.row#tabs-temporary-descuento": {
+    "children": ["tab-layout#temporary"],
     "props": {
       "blockClass": ["tab-temporary"]
     }
   },
 
   "tab-layout#temporary": {
-    "children": [
-      "tab-list#ss",
-      "tab-content#ss"
-    ],
+    "children": ["tab-list#ss", "tab-content#ss"],
     "props": {
       "blockClass": "tab-home-shelfs",
       "defaultActiveTabId": "temporary-1",
@@ -87,7 +78,7 @@
     }
   },
 
-  "tab-list#ss":{
+  "tab-list#ss": {
     "children": [
       "flex-layout.row#tabs12345"
       /*"flex-layout.row#tabs678910",
@@ -113,55 +104,37 @@
     }
   },
   "flex-layout.col#tab1": {
-    "children": [
-      "logo#tab1",
-      "tab-list.item#temporary-1"
-    ],
+    "children": ["logo#tab1", "tab-list.item#temporary-1"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab-frescos": {
-    "children": [
-      "logo#tab-frescos",
-      "tab-list.item#temporary-frescos"
-    ],
+    "children": ["logo#tab-frescos", "tab-list.item#temporary-frescos"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab2": {
-    "children": [
-      "logo#tab2",
-      "tab-list.item#temporary-2"
-    ],
+    "children": ["logo#tab2", "tab-list.item#temporary-2"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab3": {
-    "children": [
-      "logo#tab3",
-      "tab-list.item#temporary-3"
-    ],
+    "children": ["logo#tab3", "tab-list.item#temporary-3"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab4": {
-    "children": [
-      "logo#tab4",
-      "tab-list.item#temporary-4"
-    ],
+    "children": ["logo#tab4", "tab-list.item#temporary-4"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab5": {
-    "children": [
-      "logo#tab5",
-      "tab-list.item#temporary-5"
-    ],
+    "children": ["logo#tab5", "tab-list.item#temporary-5"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
@@ -180,46 +153,31 @@
     }
   },
   "flex-layout.col#tab6": {
-    "children": [
-      "logo#tab6",
-      "tab-list.item#temporary-6"
-    ],
+    "children": ["logo#tab6", "tab-list.item#temporary-6"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab7": {
-    "children": [
-      "logo#tab7",
-      "tab-list.item#temporary-7"
-    ],
+    "children": ["logo#tab7", "tab-list.item#temporary-7"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab8": {
-    "children": [
-      "logo#tab8",
-      "tab-list.item#temporary-8"
-    ],
+    "children": ["logo#tab8", "tab-list.item#temporary-8"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab9": {
-    "children": [
-      "logo#tab9",
-      "tab-list.item#temporary-9"
-    ],
+    "children": ["logo#tab9", "tab-list.item#temporary-9"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab10": {
-    "children": [
-      "logo#tab10",
-      "tab-list.item#temporary-10"
-    ],
+    "children": ["logo#tab10", "tab-list.item#temporary-10"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
@@ -238,46 +196,31 @@
     }
   },
   "flex-layout.col#tab11": {
-    "children": [
-      "logo#tab11",
-      "tab-list.item#temporary-11"
-    ],
+    "children": ["logo#tab11", "tab-list.item#temporary-11"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab12": {
-    "children": [
-      "logo#tab12",
-      "tab-list.item#temporary-12"
-    ],
+    "children": ["logo#tab12", "tab-list.item#temporary-12"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab13": {
-    "children": [
-      "logo#tab13",
-      "tab-list.item#temporary-13"
-    ],
+    "children": ["logo#tab13", "tab-list.item#temporary-13"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab14": {
-    "children": [
-      "logo#tab14",
-      "tab-list.item#temporary-14"
-    ],
+    "children": ["logo#tab14", "tab-list.item#temporary-14"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab15": {
-    "children": [
-      "logo#tab15",
-      "tab-list.item#temporary-15"
-    ],
+    "children": ["logo#tab15", "tab-list.item#temporary-15"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
@@ -294,72 +237,63 @@
     }
   },
   "flex-layout.col#tab16": {
-    "children": [
-      "logo#tab16",
-      "tab-list.item#temporary-16"
-    ],
+    "children": ["logo#tab16", "tab-list.item#temporary-16"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab17": {
-    "children": [
-      "logo#tab17",
-      "tab-list.item#temporary-17"
-    ],
+    "children": ["logo#tab17", "tab-list.item#temporary-17"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
   "flex-layout.col#tab18": {
-    "children": [
-      "logo#tab18",
-      "tab-list.item#temporary-18"
-    ],
+    "children": ["logo#tab18", "tab-list.item#temporary-18"],
     "props": {
       "blockClass": "tab1-rebajas"
     }
   },
-  
+
   "logo#tab1": {
     "props": {
       "title": "tab 1",
-      "url": "assets/tabs/alacena.svg",
+      "url": "/arquivos/alacena.svg",
       "blockClass": "logotab1"
     }
   },
   "logo#tab-frescos": {
     "props": {
       "title": "tab 1",
-      "url": "assets/tabs/alacena.svg",
+      "url": "/arquivos/alacena.svg",
       "blockClass": "logotab1"
     }
   },
   "logo#tab2": {
     "props": {
       "title": "tab 1",
-      "url": "assets/tabs/cerveza_vinos_licores.svg",
+      "url": "/arquivos/cerveza_vinos_licores.svg",
       "blockClass": "logotab1"
     }
   },
   "logo#tab3": {
     "props": {
       "title": "tab 1",
-      "url": "assets/tabs/limpieza_mascotas.svg",
+      "url": "/arquivos/limpieza_mascotas.svg",
       "blockClass": "logotab1"
     }
   },
   "logo#tab4": {
     "props": {
       "title": "tab 1",
-      "url": "assets/tabs/farmacia.svg",
+      "url": "/arquivos/farmacia.svg",
       "blockClass": "logotab1"
     }
   },
   "logo#tab5": {
     "props": {
       "title": "tab 1",
-      "url": "assets/tabs/jugos_bebidas.svg",
+      "url": "/arquivos/jugos_bebidas.svg",
       "blockClass": "logotab1"
     }
   },
@@ -591,7 +525,6 @@
     }
   },
 
-
   /*CONTENT TAB */
   "tab-content#ss": {
     "children": [
@@ -621,161 +554,122 @@
   },
 
   "tab-content.item#temporary-1": {
-    "children": [
-      "search-result-layout.customQuery#t1"
-    ],
+    "children": ["search-result-layout.customQuery#t1"],
     "props": {
       "tabId": "temporary-1"
     }
   },
   "tab-content.item#temporary-frescos": {
-    "children": [
-      "search-result-layout.customQuery#tfrescos"
-    ],
+    "children": ["search-result-layout.customQuery#tfrescos"],
     "props": {
       "tabId": "temporary-frescos"
     }
   },
   "tab-content.item#temporary-2": {
-    "children": [
-      "search-result-layout.customQuery#t2"
-    ],
+    "children": ["search-result-layout.customQuery#t2"],
     "props": {
       "tabId": "temporary-2"
     }
   },
   "tab-content.item#temporary-3": {
-    "children": [
-      "search-result-layout.customQuery#t3"
-    ],
+    "children": ["search-result-layout.customQuery#t3"],
     "props": {
       "tabId": "temporary-3"
     }
   },
   "tab-content.item#temporary-4": {
-    "children": [
-      "search-result-layout.customQuery#t4"
-    ],
+    "children": ["search-result-layout.customQuery#t4"],
     "props": {
       "tabId": "temporary-4"
     }
   },
   "tab-content.item#temporary-5": {
-    "children": [
-      "search-result-layout.customQuery#t5"
-    ],
+    "children": ["search-result-layout.customQuery#t5"],
     "props": {
       "tabId": "temporary-5"
     }
   },
   "tab-content.item#temporary-6": {
-    "children": [
-      "search-result-layout.customQuery#t6"
-    ],
+    "children": ["search-result-layout.customQuery#t6"],
     "props": {
       "tabId": "temporary-6"
     }
   },
   "tab-content.item#temporary-7": {
-    "children": [
-      "search-result-layout.customQuery#t7"
-    ],
+    "children": ["search-result-layout.customQuery#t7"],
     "props": {
       "tabId": "temporary-7"
     }
   },
   "tab-content.item#temporary-8": {
-    "children": [
-      "search-result-layout.customQuery#t8"
-    ],
+    "children": ["search-result-layout.customQuery#t8"],
     "props": {
       "tabId": "temporary-8"
     }
   },
   "tab-content.item#temporary-9": {
-    "children": [
-      "search-result-layout.customQuery#t9"
-    ],
+    "children": ["search-result-layout.customQuery#t9"],
     "props": {
       "tabId": "temporary-9"
     }
   },
   "tab-content.item#temporary-10": {
-    "children": [
-      "search-result-layout.customQuery#t10"
-    ],
+    "children": ["search-result-layout.customQuery#t10"],
     "props": {
       "tabId": "temporary-10"
     }
   },
   "tab-content.item#temporary-11": {
-    "children": [
-      "search-result-layout.customQuery#t11"
-    ],
+    "children": ["search-result-layout.customQuery#t11"],
     "props": {
       "tabId": "temporary-11"
     }
   },
   "tab-content.item#temporary-12": {
-    "children": [
-      "search-result-layout.customQuery#t12"
-    ],
+    "children": ["search-result-layout.customQuery#t12"],
     "props": {
       "tabId": "temporary-12"
     }
   },
   "tab-content.item#temporary-13": {
-    "children": [
-      "search-result-layout.customQuery#t13"
-    ],
+    "children": ["search-result-layout.customQuery#t13"],
     "props": {
       "tabId": "temporary-13"
     }
   },
   "tab-content.item#temporary-14": {
-    "children": [
-      "search-result-layout.customQuery#t14"
-    ],
+    "children": ["search-result-layout.customQuery#t14"],
     "props": {
       "tabId": "temporary-14"
     }
   },
   "tab-content.item#temporary-15": {
-    "children": [
-      "search-result-layout.customQuery#t15"
-    ],
+    "children": ["search-result-layout.customQuery#t15"],
     "props": {
       "tabId": "temporary-15"
     }
   },
   "tab-content.item#temporary-16": {
-    "children": [
-      "search-result-layout.customQuery#t16"
-    ],
+    "children": ["search-result-layout.customQuery#t16"],
     "props": {
       "tabId": "temporary-16"
     }
   },
   "tab-content.item#temporary-17": {
-    "children": [
-      "search-result-layout.customQuery#t17"
-    ],
+    "children": ["search-result-layout.customQuery#t17"],
     "props": {
       "tabId": "temporary-17"
     }
   },
   "tab-content.item#temporary-18": {
-    "children": [
-      "search-result-layout.customQuery#t18"
-    ],
+    "children": ["search-result-layout.customQuery#t18"],
     "props": {
       "tabId": "temporary-18"
     }
   },
 
-
   "search-result-layout.customQuery#t1": {
-      /*"props": {
+    /*"props": {
         "blockClass": "temporary-products",
         "querySchema": {
           "orderByField": "",
@@ -788,23 +682,23 @@
           "__unstableProductOriginVtex": true
         }
       },*/
-      "props": {
-        "querySchema": {
-            "orderByField": "",
-            "hideUnavailableItems": false,
-            "maxItemsPerPage": 10,
-            "queryField": "296",
-            "mapField": "productClusterIds",
-            "skusFilter": "ALL_AVAILABLE",
-            "simulationBehavior": "skip",
-            "__unstableProductOriginVtex": true
-        }
+    "props": {
+      "querySchema": {
+        "orderByField": "",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 10,
+        "queryField": "296",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
     },
-      "blocks": [
-        "search-result-layout.desktop#temporary",
-        "search-result-layout.mobile#temporary",
-        "search-not-found-layout"
-      ]
+    "blocks": [
+      "search-result-layout.desktop#temporary",
+      "search-result-layout.mobile#temporary",
+      "search-not-found-layout"
+    ]
   },
 
   "search-result-layout.customQuery#tfrescos": {
@@ -823,22 +717,22 @@
     },*/
     "props": {
       "querySchema": {
-          "orderByField": "",
-          "hideUnavailableItems": false,
-          "maxItemsPerPage": 10,
-          "queryField": "349",
-          "mapField": "productClusterIds",
-          "skusFilter": "ALL_AVAILABLE",
-          "simulationBehavior": "skip",
-          "__unstableProductOriginVtex": true
+        "orderByField": "",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 10,
+        "queryField": "349",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
       }
-  },
+    },
     "blocks": [
       "search-result-layout.desktop#temporary",
       "search-result-layout.mobile#temporary",
       "search-not-found-layout"
     ]
-},
+  },
 
   "search-result-layout.customQuery#t2": {
     "props": {
@@ -1197,7 +1091,6 @@
     ]
   },
 
-
   /*MOBILE*/
   "search-result-layout.mobile#temporary": {
     "children": [
@@ -1289,6 +1182,4 @@
       "preventVerticalStretch": true
     }
   }
-
-
 }

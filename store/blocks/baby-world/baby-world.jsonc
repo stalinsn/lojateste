@@ -1,13 +1,13 @@
 {
-  "store.custom#baby-world" : {
-      "blocks": [
-        "responsive-layout.desktop#baby-world",
-        "responsive-layout.phone#baby-world"
-      ]
+  "store.custom#baby-world": {
+    "blocks": [
+      "responsive-layout.desktop#baby-world",
+      "responsive-layout.phone#baby-world"
+    ]
   },
 
-  "responsive-layout.desktop#baby-world":{
-    "children":[
+  "responsive-layout.desktop#baby-world": {
+    "children": [
       /*"flex-layout.row#brands-baby-world",*/
       "flex-layout.row#first-row-bebe-mundo",
       "flex-layout.row#subcategory-baby-world",
@@ -28,8 +28,8 @@
       "flex-layout.row#shelf-fragrance"*/
     ]
   },
-  "responsive-layout.phone#baby-world":{
-    "children":[
+  "responsive-layout.phone#baby-world": {
+    "children": [
       /*"flex-layout.row#brands-baby-world",*/
       "flex-layout.row#first-row-bebe-mundo",
       "flex-layout.row#subcategory-baby-world",
@@ -50,8 +50,8 @@
     ]
   },
 
-  "flex-layout.row#brands-baby-world":{
-    "children":[
+  "flex-layout.row#brands-baby-world": {
+    "children": [
       "flex-layout.col#brand-baby-world-1",
       "flex-layout.col#brand-baby-world-2",
       "flex-layout.col#brand-baby-world-3",
@@ -62,16 +62,14 @@
       "flex-layout.col#brand-baby-world-2",
       "flex-layout.col#brand-baby-world-3"
     ],
-    "props":{
+    "props": {
       "blockClass": "row-brand-baby-world"
     }
   },
 
   "flex-layout.row#first-row-bebe-mundo": {
     "title": "First row",
-    "children": [
-      "list-context.image-list#main-slider-bebe-mundo"
-    ],
+    "children": ["list-context.image-list#main-slider-bebe-mundo"],
     "props": {
       "colGap": 4,
       "blockClass": ["row-walmart", "banner-principal-bebe-mundo"]
@@ -79,37 +77,35 @@
   },
   "list-context.image-list#main-slider-bebe-mundo": {
     "title": "Main Slider",
-    "children": [
-      "slider-layout#main-slider-images-bebe-mundo"
-    ],
+    "children": ["slider-layout#main-slider-images-bebe-mundo"],
     "props": {
       "blockClass": "banner-principal-bebe-mundo",
       "width": "100%",
       "images": [
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -136,9 +132,7 @@
 
   "flex-layout.row#tercer-row-bebe-mundo": {
     "title": "tercer row",
-    "children": [
-      "list-context.image-list#cuadros-slider-bebe-mundo"
-    ],
+    "children": ["list-context.image-list#cuadros-slider-bebe-mundo"],
     "props": {
       "colGap": 4,
       "blockClass": ["row-walmart", "banner-cuadros-bebe-mundo"]
@@ -146,37 +140,35 @@
   },
   "list-context.image-list#cuadros-slider-bebe-mundo": {
     "title": "cuadros Slider",
-    "children": [
-      "slider-layout#cuadros-slider-images-bebe-mundo"
-    ],
+    "children": ["slider-layout#cuadros-slider-images-bebe-mundo"],
     "props": {
       "blockClass": "banner-cuadros-bebe-mundo",
       "width": "100%",
       "images": [
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -200,20 +192,18 @@
 
   "flex-layout.row#textosslider": {
     "children": [
-    "flex-layout.col#texto1slider",
-    "flex-layout.col#texto2slider",
-    "flex-layout.col#texto3slider",
-    "flex-layout.col#texto4slider"
-    ], 
+      "flex-layout.col#texto1slider",
+      "flex-layout.col#texto2slider",
+      "flex-layout.col#texto3slider",
+      "flex-layout.col#texto4slider"
+    ],
     "props": {
       "blockClass": "row-slider-textos"
     }
   },
 
   "flex-layout.col#texto1slider": {
-    "children": [
-      "rich-text#texto1slider"
-    ],
+    "children": ["rich-text#texto1slider"],
     "props": {
       "blockClass": "col-text-slider"
     }
@@ -227,9 +217,7 @@
   },
 
   "flex-layout.col#texto2slider": {
-    "children": [
-      "rich-text#texto2slider"
-    ],
+    "children": ["rich-text#texto2slider"],
     "props": {
       "blockClass": "col-text-slider"
     }
@@ -243,9 +231,7 @@
   },
 
   "flex-layout.col#texto3slider": {
-    "children": [
-      "rich-text#texto3slider"
-    ],
+    "children": ["rich-text#texto3slider"],
     "props": {
       "blockClass": "col-text-slider"
     }
@@ -259,9 +245,7 @@
   },
 
   "flex-layout.col#texto4slider": {
-    "children": [
-      "rich-text#texto4slider"
-    ],
+    "children": ["rich-text#texto4slider"],
     "props": {
       "blockClass": "col-text-slider"
     }
@@ -274,11 +258,9 @@
     }
   },
 
-  "flex-layout.col#brand-baby-world-1":{
-    "children":[
-      "logo#baby-world-1"
-    ],
-    "props":{
+  "flex-layout.col#brand-baby-world-1": {
+    "children": ["logo#baby-world-1"],
+    "props": {
       "blockClass": "col-brand-baby-world"
     }
   },
@@ -286,16 +268,14 @@
     "props": {
       "title": "nuby",
       "href": "/",
-      "url": "assets/disney.jpg",
+      "url": "/arquivos/disney.jpg",
       "blockClass": "baby-world-brand"
     }
   },
 
-  "flex-layout.col#brand-baby-world-2":{
-    "children":[
-      "logo#baby-world-2"
-    ],
-    "props":{
+  "flex-layout.col#brand-baby-world-2": {
+    "children": ["logo#baby-world-2"],
+    "props": {
       "blockClass": "col-brand-baby-world"
     }
   },
@@ -303,16 +283,14 @@
     "props": {
       "title": "nuby",
       "href": "/",
-      "url": "assets/nuby.jpg",
+      "url": "/arquivos/nuby.jpg",
       "blockClass": "baby-world-brand"
     }
   },
 
-  "flex-layout.col#brand-baby-world-3":{
-    "children":[
-      "logo#baby-world-3"
-    ],
-    "props":{
+  "flex-layout.col#brand-baby-world-3": {
+    "children": ["logo#baby-world-3"],
+    "props": {
       "blockClass": "col-brand-baby-world"
     }
   },
@@ -320,13 +298,13 @@
     "props": {
       "title": "nuby",
       "href": "/",
-      "url": "assets/prinsel.jpg",
+      "url": "/arquivos/prinsel.jpg",
       "blockClass": "baby-world-brand"
     }
   },
 
   "flex-layout.row#subcategory-baby-world": {
-    "children":[
+    "children": [
       "flex-layout.col#sub-baby-world-1",
       "flex-layout.col#sub-baby-world-2",
       "flex-layout.col#sub-baby-world-3",
@@ -334,25 +312,21 @@
       "flex-layout.col#sub-baby-world-5",
       "flex-layout.col#sub-baby-world-6"
     ],
-    "props":{
+    "props": {
       "blockClass": ["row-subcat-baby-world", "row-mundo-bebe-principal"]
     }
-
   },
-  "flex-layout.col#sub-baby-world-1":{
-    "children":[
-      "logo#sub-baby-world-1",
-      "rich-text#sub-baby-world-1"
-    ],
-    "props":{
+  "flex-layout.col#sub-baby-world-1": {
+    "children": ["logo#sub-baby-world-1", "rich-text#sub-baby-world-1"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-mundo-bebe-prinicpal"]
     }
   },
-  "logo#sub-baby-world-1":{
+  "logo#sub-baby-world-1": {
     "props": {
       "title": "icon 1",
       "href": "/",
-      "url": "assets/coche.jpg",
+      "url": "/arquivos/coche.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -365,20 +339,17 @@
     }
   },
 
-  "flex-layout.col#sub-baby-world-2":{
-    "children":[
-      "logo#sub-baby-world-2",
-      "rich-text#sub-baby-world-2"
-    ],
-    "props":{
+  "flex-layout.col#sub-baby-world-2": {
+    "children": ["logo#sub-baby-world-2", "rich-text#sub-baby-world-2"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-mundo-bebe-prinicpal"]
     }
   },
-  "logo#sub-baby-world-2":{
+  "logo#sub-baby-world-2": {
     "props": {
       "title": "icon 2",
       "href": "/",
-      "url": "assets/biberon.jpg",
+      "url": "/arquivos/biberon.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -391,21 +362,17 @@
     }
   },
 
-  "flex-layout.col#sub-baby-world-3":{
-    "children":[
-      "logo#sub-baby-world-3",
-      "rich-text#sub-baby-world-3"
-    ],
-    "props":{
+  "flex-layout.col#sub-baby-world-3": {
+    "children": ["logo#sub-baby-world-3", "rich-text#sub-baby-world-3"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-mundo-bebe-prinicpal"]
     }
-
   },
-  "logo#sub-baby-world-3":{
+  "logo#sub-baby-world-3": {
     "props": {
       "title": "icon 3",
       "href": "/",
-      "url": "assets/ropa.jpg",
+      "url": "/arquivos/ropa.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -418,21 +385,17 @@
     }
   },
 
-  "flex-layout.col#sub-baby-world-4":{
-    "children":[
-      "logo#sub-baby-world-4",
-      "rich-text#sub-baby-world-4"
-    ],
-    "props":{
+  "flex-layout.col#sub-baby-world-4": {
+    "children": ["logo#sub-baby-world-4", "rich-text#sub-baby-world-4"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-mundo-bebe-prinicpal"]
     }
-
   },
-  "logo#sub-baby-world-4":{
+  "logo#sub-baby-world-4": {
     "props": {
       "title": "icon 4",
       "href": "/",
-      "url": "assets/juguete.jpg",
+      "url": "/arquivos/juguete.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -445,20 +408,17 @@
     }
   },
 
-  "flex-layout.col#sub-baby-world-5":{
-    "children":[
-      "logo#sub-baby-world-5",
-      "rich-text#sub-baby-world-5"
-    ],
-    "props":{
+  "flex-layout.col#sub-baby-world-5": {
+    "children": ["logo#sub-baby-world-5", "rich-text#sub-baby-world-5"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-mundo-bebe-prinicpal"]
     }
   },
-  "logo#sub-baby-world-5":{
+  "logo#sub-baby-world-5": {
     "props": {
       "title": "icon 5",
       "href": "/",
-      "url": "assets/crema.jpg",
+      "url": "/arquivos/crema.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -471,20 +431,17 @@
     }
   },
 
-  "flex-layout.col#sub-baby-world-6":{
-    "children":[
-      "logo#sub-baby-world-6",
-      "rich-text#sub-baby-world-6"
-    ],
-    "props":{
+  "flex-layout.col#sub-baby-world-6": {
+    "children": ["logo#sub-baby-world-6", "rich-text#sub-baby-world-6"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-mundo-bebe-prinicpal"]
     }
   },
-  "logo#sub-baby-world-6":{
+  "logo#sub-baby-world-6": {
     "props": {
       "title": "icon 6",
       "href": "/",
-      "url": "assets/colonia.jpg",
+      "url": "/arquivos/colonia.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -497,154 +454,136 @@
     }
   },
 
-
-  "flex-layout.row#title-car-baby":{
-    "children": [
-      "rich-text#car-baby"
-    ],
+  "flex-layout.row#title-car-baby": {
+    "children": ["rich-text#car-baby"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#car-baby": {
-      "title": "car baby title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Coche para bebé",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "car baby title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Coche para bebé",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-car-baby": {
     "title": "car baby",
-    "children": [
-      "shelf#car-baby"
-    ],
+    "children": ["shelf#car-baby"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#car-baby": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-  "flex-layout.row#title-baby-botle":{
-    "children": [
-      "rich-text#baby-botle"
-    ],
+  "flex-layout.row#title-baby-botle": {
+    "children": ["rich-text#baby-botle"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#baby-botle": {
-      "title": "baby botle title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Biberones",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "baby botle title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Biberones",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-baby-botle": {
     "title": "baby botle",
-    "children": [
-      "shelf#baby-botle"
-    ],
+    "children": ["shelf#baby-botle"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#baby-botle": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-  "flex-layout.row#title-clotes-baby":{
-    "children": [
-      "rich-text#clotes-baby"
-    ],
+  "flex-layout.row#title-clotes-baby": {
+    "children": ["rich-text#clotes-baby"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#clotes-baby": {
-      "title": "clothes baby title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Ropa para bebé y niños",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "clothes baby title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Ropa para bebé y niños",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-clothes-baby": {
     "title": "clothes baby",
-    "children": [
-      "shelf#clothes-baby"
-    ],
+    "children": ["shelf#clothes-baby"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#clothes-baby": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-
-  "flex-layout.row#row-milkyway":{
-    "children": [
-      "list-context.image-list#row-milkyway"
-    ],
+  "flex-layout.row#row-milkyway": {
+    "children": ["list-context.image-list#row-milkyway"],
     "props": {
       "blockClass": ["row-milkyway"]
     }
   },
   "list-context.image-list#row-milkyway": {
     "title": "Image full width gray",
-    "children": [
-      "slider-layout#banner-milkyway"
-    ],
+    "children": ["slider-layout#banner-milkyway"],
     "props": {
       "images": [
         {
-          "image": "assets/banner_milky_desktop.jpg",
-          "mobileImage": "assets/banner_milky.jpg",
-          "link":{
-            "url":"/test"
+          "image": "/arquivos/banner_milky_desktop.jpg",
+          "mobileImage": "/arquivos/banner_milky.jpg",
+          "link": {
+            "url": "/test"
           }
         }
       ]
@@ -663,132 +602,117 @@
     }
   },
 
-
-  "flex-layout.row#title-toys":{
-    "children": [
-      "rich-text#toys"
-    ],
+  "flex-layout.row#title-toys": {
+    "children": ["rich-text#toys"],
     "props": {
       "blockClass": "title-section"
     }
   },
   "rich-text#toys": {
-      "title": "toys title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Juguetes",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "toys title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Juguetes",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-toys": {
     "title": "toys",
-    "children": [
-      "shelf#toys"
-    ],
+    "children": ["shelf#toys"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#toys": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-  "flex-layout.row#title-creams":{
-    "children": [
-      "rich-text#creams"
-    ],
+  "flex-layout.row#title-creams": {
+    "children": ["rich-text#creams"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#creams": {
-      "title": "creams title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Cremas para bebé",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "creams title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Cremas para bebé",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-creams": {
     "title": "creams",
-    "children": [
-      "shelf#creams"
-    ],
+    "children": ["shelf#creams"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#creams": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-  "flex-layout.row#title-fragrance":{
-    "children": [
-      "rich-text#fragrance"
-    ],
+  "flex-layout.row#title-fragrance": {
+    "children": ["rich-text#fragrance"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#fragrance": {
-      "title": "fragrance title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Colonias para bebé",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "fragrance title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Colonias para bebé",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-fragrance": {
     "title": "fragrance",
-    "children": [
-      "shelf#fragrance"
-    ],
+    "children": ["shelf#fragrance"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#fragrance": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   }
-
-
 }

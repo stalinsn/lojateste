@@ -1,13 +1,13 @@
 {
-  "store.custom#unidos" : {
-      "blocks": [
-        "responsive-layout.desktop#unidos",
-        "responsive-layout.phone#unidos"
-      ]
+  "store.custom#unidos": {
+    "blocks": [
+      "responsive-layout.desktop#unidos",
+      "responsive-layout.phone#unidos"
+    ]
   },
 
-  "responsive-layout.desktop#unidos":{
-    "children":[
+  "responsive-layout.desktop#unidos": {
+    "children": [
       "flex-layout.row#first-row-unidos",
       "flex-layout.row#subcategory-unidos-1",
       "flex-layout.row#subcategory-unidos-2",
@@ -16,12 +16,12 @@
       "flex-layout.row#shelf-car-unidos",
       "flex-layout.row#title-unidos-botle",
       "flex-layout.row#shelf-unidos-botle",
-      
+
       "flex-layout.row#all-products-unidos"
     ]
   },
-  "responsive-layout.phone#unidos":{
-    "children":[
+  "responsive-layout.phone#unidos": {
+    "children": [
       "flex-layout.row#first-row-unidos",
       "flex-layout.row#subcategory-unidos-1-mob",
       "flex-layout.row#subcategory-unidos-2-mob",
@@ -32,18 +32,14 @@
       "flex-layout.row#shelf-car-unidos",
       "flex-layout.row#title-unidos-botle",
       "flex-layout.row#shelf-unidos-botle",
-      
+
       "flex-layout.row#all-products-unidos"
     ]
   },
 
-  
-
   "flex-layout.row#first-row-unidos": {
     "title": "First row",
-    "children": [
-      "list-context.image-list#main-slider-unidos"
-    ],
+    "children": ["list-context.image-list#main-slider-unidos"],
     "props": {
       "colGap": 4,
       "blockClass": ["row-walmart", "banner-principal-unidos"]
@@ -51,37 +47,35 @@
   },
   "list-context.image-list#main-slider-unidos": {
     "title": "Main Slider",
-    "children": [
-      "slider-layout#main-slider-images-unidos"
-    ],
+    "children": ["slider-layout#main-slider-images-unidos"],
     "props": {
       "blockClass": "banner-principal-unidos",
       "width": "100%",
       "images": [
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -108,9 +102,7 @@
 
   "flex-layout.row#tercer-row-unidos": {
     "title": "tercer row",
-    "children": [
-      "list-context.image-list#cuadros-slider-unidos"
-    ],
+    "children": ["list-context.image-list#cuadros-slider-unidos"],
     "props": {
       "colGap": 4,
       "blockClass": ["row-walmart", "banner-cuadros-unidos"]
@@ -118,37 +110,35 @@
   },
   "list-context.image-list#cuadros-slider-unidos": {
     "title": "cuadros Slider",
-    "children": [
-      "slider-layout#cuadros-slider-images-unidos"
-    ],
+    "children": ["slider-layout#cuadros-slider-images-unidos"],
     "props": {
       "blockClass": "banner-cuadros-unidos",
       "width": "100%",
       "images": [
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -170,80 +160,75 @@
     }
   },
 
-  
-
   "flex-layout.row#subcategory-unidos-1": {
-    "children":[
+    "children": [
       "flex-layout.col#sub-unidos-1",
       "flex-layout.col#sub-unidos-2",
       "flex-layout.col#sub-unidos-3",
       "flex-layout.col#sub-unidos-4"
     ],
-    "props":{
+    "props": {
       "blockClass": ["row-subcat-baby-world", "row-subcat-unidos"]
     }
   },
   "flex-layout.row#subcategory-unidos-2": {
-    "children":[
+    "children": [
       "flex-layout.col#sub-unidos-5",
       "flex-layout.col#sub-unidos-6",
       "flex-layout.col#sub-unidos-7",
       "flex-layout.col#sub-unidos-8"
     ],
-    "props":{
+    "props": {
       "blockClass": ["row-subcat-baby-world", "row-subcat-unidos"]
     }
   },
   "flex-layout.row#subcategory-unidos-1-mob": {
-    "children":[
+    "children": [
       "flex-layout.col#sub-unidos-1",
       "flex-layout.col#sub-unidos-2"
     ],
-    "props":{
+    "props": {
       "blockClass": ["row-subcat-baby-world", "row-subcat-unidos-mob"]
     }
   },
   "flex-layout.row#subcategory-unidos-2-mob": {
-    "children":[
+    "children": [
       "flex-layout.col#sub-unidos-3",
       "flex-layout.col#sub-unidos-4"
     ],
-    "props":{
+    "props": {
       "blockClass": ["row-subcat-baby-world", "row-subcat-unidos-mob"]
     }
   },
   "flex-layout.row#subcategory-unidos-3-mob": {
-    "children":[
+    "children": [
       "flex-layout.col#sub-unidos-5",
       "flex-layout.col#sub-unidos-6"
     ],
-    "props":{
+    "props": {
       "blockClass": ["row-subcat-baby-world", "row-subcat-unidos-mob"]
     }
   },
   "flex-layout.row#subcategory-unidos-4-mob": {
-    "children":[
+    "children": [
       "flex-layout.col#sub-unidos-7",
       "flex-layout.col#sub-unidos-8"
     ],
-    "props":{
+    "props": {
       "blockClass": ["row-subcat-baby-world", "row-subcat-unidos-mob"]
     }
   },
-  "flex-layout.col#sub-unidos-1":{
-    "children":[
-      "logo#sub-unidos-1",
-      "rich-text#sub-unidos-1"
-    ],
-    "props":{
+  "flex-layout.col#sub-unidos-1": {
+    "children": ["logo#sub-unidos-1", "rich-text#sub-unidos-1"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-sub-unidos"]
     }
   },
-  "logo#sub-unidos-1":{
+  "logo#sub-unidos-1": {
     "props": {
       "title": "icon 1",
       "href": "/",
-      "url": "assets/coche.jpg",
+      "url": "/arquivos/coche.jpg",
       "blockClass": "logo-unidos"
     }
   },
@@ -256,20 +241,17 @@
     }
   },
 
-  "flex-layout.col#sub-unidos-2":{
-    "children":[
-      "logo#sub-unidos-2",
-      "rich-text#sub-unidos-2"
-    ],
-    "props":{
+  "flex-layout.col#sub-unidos-2": {
+    "children": ["logo#sub-unidos-2", "rich-text#sub-unidos-2"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-sub-unidos"]
     }
   },
-  "logo#sub-unidos-2":{
+  "logo#sub-unidos-2": {
     "props": {
       "title": "icon 2",
       "href": "/",
-      "url": "assets/biberon.jpg",
+      "url": "/arquivos/biberon.jpg",
       "blockClass": "logo-unidos"
     }
   },
@@ -282,21 +264,17 @@
     }
   },
 
-  "flex-layout.col#sub-unidos-3":{
-    "children":[
-      "logo#sub-unidos-3",
-      "rich-text#sub-unidos-3"
-    ],
-    "props":{
+  "flex-layout.col#sub-unidos-3": {
+    "children": ["logo#sub-unidos-3", "rich-text#sub-unidos-3"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-sub-unidos"]
     }
-
   },
-  "logo#sub-unidos-3":{
+  "logo#sub-unidos-3": {
     "props": {
       "title": "icon 3",
       "href": "/",
-      "url": "assets/ropa.jpg",
+      "url": "/arquivos/ropa.jpg",
       "blockClass": "logo-unidos"
     }
   },
@@ -309,21 +287,17 @@
     }
   },
 
-  "flex-layout.col#sub-unidos-4":{
-    "children":[
-      "logo#sub-unidos-4",
-      "rich-text#sub-unidos-4"
-    ],
-    "props":{
+  "flex-layout.col#sub-unidos-4": {
+    "children": ["logo#sub-unidos-4", "rich-text#sub-unidos-4"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-sub-unidos"]
     }
-
   },
-  "logo#sub-unidos-4":{
+  "logo#sub-unidos-4": {
     "props": {
       "title": "icon 4",
       "href": "/",
-      "url": "assets/juguete.jpg",
+      "url": "/arquivos/juguete.jpg",
       "blockClass": "logo-unidos"
     }
   },
@@ -336,20 +310,17 @@
     }
   },
 
-  "flex-layout.col#sub-unidos-5":{
-    "children":[
-      "logo#sub-unidos-5",
-      "rich-text#sub-unidos-5"
-    ],
-    "props":{
+  "flex-layout.col#sub-unidos-5": {
+    "children": ["logo#sub-unidos-5", "rich-text#sub-unidos-5"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-sub-unidos"]
     }
   },
-  "logo#sub-unidos-5":{
+  "logo#sub-unidos-5": {
     "props": {
       "title": "icon 5",
       "href": "/",
-      "url": "assets/crema.jpg",
+      "url": "/arquivos/crema.jpg",
       "blockClass": "logo-unidos"
     }
   },
@@ -362,20 +333,17 @@
     }
   },
 
-  "flex-layout.col#sub-unidos-6":{
-    "children":[
-      "logo#sub-unidos-6",
-      "rich-text#sub-unidos-6"
-    ],
-    "props":{
+  "flex-layout.col#sub-unidos-6": {
+    "children": ["logo#sub-unidos-6", "rich-text#sub-unidos-6"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-sub-unidos"]
     }
   },
-  "logo#sub-unidos-6":{
+  "logo#sub-unidos-6": {
     "props": {
       "title": "icon 6",
       "href": "/",
-      "url": "assets/colonia.jpg",
+      "url": "/arquivos/colonia.jpg",
       "blockClass": "logo-unidos"
     }
   },
@@ -388,21 +356,17 @@
     }
   },
 
-
-  "flex-layout.col#sub-unidos-7":{
-    "children":[
-      "logo#sub-unidos-7",
-      "rich-text#sub-unidos-7"
-    ],
-    "props":{
+  "flex-layout.col#sub-unidos-7": {
+    "children": ["logo#sub-unidos-7", "rich-text#sub-unidos-7"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-sub-unidos"]
     }
   },
-  "logo#sub-unidos-7":{
+  "logo#sub-unidos-7": {
     "props": {
       "title": "icon 7",
       "href": "/",
-      "url": "assets/colonia.jpg",
+      "url": "/arquivos/colonia.jpg",
       "blockClass": "logo-unidos"
     }
   },
@@ -415,21 +379,17 @@
     }
   },
 
-
-  "flex-layout.col#sub-unidos-8":{
-    "children":[
-      "logo#sub-unidos-8",
-      "rich-text#sub-unidos-8"
-    ],
-    "props":{
+  "flex-layout.col#sub-unidos-8": {
+    "children": ["logo#sub-unidos-8", "rich-text#sub-unidos-8"],
+    "props": {
       "blockClass": ["col-sub-baby-world", "col-sub-unidos"]
     }
   },
-  "logo#sub-unidos-8":{
+  "logo#sub-unidos-8": {
     "props": {
       "title": "icon 8",
       "href": "/",
-      "url": "assets/colonia.jpg",
+      "url": "/arquivos/colonia.jpg",
       "blockClass": "logo-unidos"
     }
   },
@@ -442,218 +402,199 @@
     }
   },
 
-
-  "flex-layout.row#title-car-unidos":{
-    "children": [
-      "rich-text#car-unidos",
-      "rich-text#view-all-first"
-    ],
+  "flex-layout.row#title-car-unidos": {
+    "children": ["rich-text#car-unidos", "rich-text#view-all-first"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#car-unidos": {
-      "title": "car unidos title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Coche para bebé",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "car unidos title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Coche para bebé",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "rich-text#view-all-first": {
-      "title": "View all offers",
-      "props": {
-        "textAlignment": "right",
-        "textPosition": "right",
-        "text": "**Ver todo**",
-        "blockClass": "buy-all"
-      }
-    },
+    "title": "View all offers",
+    "props": {
+      "textAlignment": "right",
+      "textPosition": "right",
+      "text": "**Ver todo**",
+      "blockClass": "buy-all"
+    }
+  },
   "flex-layout.row#shelf-car-unidos": {
     "title": "car unidos",
-    "children": [
-      "shelf#car-unidos"
-    ],
+    "children": ["shelf#car-unidos"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#car-unidos": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-  "flex-layout.row#title-unidos-botle":{
-    "children": [
-      "rich-text#unidos-botle",
-      "rich-text#view-all-second"
-    ],
+  "flex-layout.row#title-unidos-botle": {
+    "children": ["rich-text#unidos-botle", "rich-text#view-all-second"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#unidos-botle": {
-      "title": "unidos botle title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Biberones",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "unidos botle title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Biberones",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "rich-text#view-all-second": {
-      "title": "View all offers",
-      "props": {
-        "textAlignment": "right",
-        "textPosition": "right",
-        "text": "**Ver todo**",
-        "blockClass": "buy-all"
-      }
-    },
+    "title": "View all offers",
+    "props": {
+      "textAlignment": "right",
+      "textPosition": "right",
+      "text": "**Ver todo**",
+      "blockClass": "buy-all"
+    }
+  },
   "flex-layout.row#shelf-unidos-botle": {
     "title": "unidos botle",
-    "children": [
-      "shelf#unidos-botle"
-    ],
+    "children": ["shelf#unidos-botle"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#unidos-botle": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
+    }
   },
 
-  "flex-layout.row#title-clotes-unidos":{
-    "children": [
-      "rich-text#clotes-unidos"
-    ],
+  "flex-layout.row#title-clotes-unidos": {
+    "children": ["rich-text#clotes-unidos"],
     "props": {
       "blockClass": ["title-section", "top32"]
     }
   },
   "rich-text#clotes-unidos": {
-      "title": "clothes unidos title",
-      "props": {
-        "textAlignment": "center",
-        "textPosition": "center",
-        "text": "Ropa para bebé y niños",
-        "blockClass": ["title-surprise", "category"]
-      }
+    "title": "clothes unidos title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "Ropa para bebé y niños",
+      "blockClass": ["title-surprise", "category"]
+    }
   },
   "flex-layout.row#shelf-clothes-unidos": {
     "title": "clothes unidos",
-    "children": [
-      "shelf#clothes-unidos"
-    ],
+    "children": ["shelf#clothes-unidos"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#clothes-unidos": {
-      "title": "best seller",
-      "blocks": ["product-summary.shelf"],
-      "props": {
-        "productList": {
-          "maxItems": 8,
-          "itemsPerPage": 5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": "",
-          "gap": "ph5"
-        }
-      }
-  },
-  "flex-layout.row#all-products-unidos": {
-      "children": [
-        "search-result-layout.customQuery#cluster-unidos"
-      ]
-  },
-  "search-result-layout.customQuery#cluster-unidos": {
-      "props": {
-        "blockClass": "temporary-products",
-        "querySchema": {
-          "orderByField": "",
-          "hideUnavailableItems": false,
-          "maxItemsPerPage": 12,
-          "queryField": "348",
-          "mapField": "productClusterIds",
-          "skusFilter": "ALL_AVAILABLE",
-          "simulationBehavior": "skip",
-          "__unstableProductOriginVtex": true
-        },
-        "hiddenFacets": {
-          "priceRange": true
-        },
-        "preventRouteChange": true,
-        "pagination": "infinity-scroll",
-        "mobileLayout": {
-          "mode1": "small",
-          "mode2": "normal"
-        }
-      },
-      "blocks": [
-        "search-result-layout.desktop#unidos",
-        "search-result-layout.mobile",
-        "search-not-found-layout"
-      ]
-    },
-    "search-result-layout.desktop#unidos": {
-        "props": {
-            "showFacetQuantity": true,
-            "hiddenFacets": {
-                "brands": false
-            }
-        },
-        "children": [
-          "flex-layout.row#result-unidos"
-        ]
-    },
-    "flex-layout.row#result-unidos": {
-      "children": ["flex-layout.col#content-unidos"],
-      "props": {
-        "preventHorizontalStretch": true,
-        "fullWidth": true
-      }
-    },
-    "flex-layout.col#content-unidos": {
-      "children": [
-        /*"filter-navigator.v3",*/
-        "flex-layout.row#searchinfo",
-        "flex-layout.row#fetchprevious",
-        //"flex-layout.row#did-you-mean",
-        //"flex-layout.row#suggestion",
-        //"flex-layout.row#banner-one",
-        "flex-layout.row#products",
-        "flex-layout.row#fetchmore"
-      ],
-      "props": {
-        "width": "grow",
-        "preventVerticalStretch": true
+    "title": "best seller",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
       }
     }
+  },
+  "flex-layout.row#all-products-unidos": {
+    "children": ["search-result-layout.customQuery#cluster-unidos"]
+  },
+  "search-result-layout.customQuery#cluster-unidos": {
+    "props": {
+      "blockClass": "temporary-products",
+      "querySchema": {
+        "orderByField": "",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 12,
+        "queryField": "348",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      },
+      "hiddenFacets": {
+        "priceRange": true
+      },
+      "preventRouteChange": true,
+      "pagination": "infinity-scroll",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#unidos",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#unidos": {
+    "props": {
+      "showFacetQuantity": true,
+      "hiddenFacets": {
+        "brands": false
+      }
+    },
+    "children": ["flex-layout.row#result-unidos"]
+  },
+  "flex-layout.row#result-unidos": {
+    "children": ["flex-layout.col#content-unidos"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#content-unidos": {
+    "children": [
+      /*"filter-navigator.v3",*/
+      "flex-layout.row#searchinfo",
+      "flex-layout.row#fetchprevious",
+      //"flex-layout.row#did-you-mean",
+      //"flex-layout.row#suggestion",
+      //"flex-layout.row#banner-one",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
+    }
+  }
 }

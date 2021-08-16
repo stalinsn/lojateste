@@ -1,7 +1,7 @@
 {
-  "vendor": "supermxmcr",
-  "name": "store-theme",
-  "version": "1.0.44",
+  "vendor": "cbgbarbosa",
+  "name": "gbarbosa-app",
+  "version": "0.0.0",
   "builders": {
     "docs": "0.x",
     "sitemap": "0.x",

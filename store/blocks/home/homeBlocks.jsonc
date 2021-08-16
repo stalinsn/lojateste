@@ -1,41 +1,35 @@
 {
   "flex-layout.row#first-row": {
     "title": "First row",
-    "children": [
-      "list-context.image-list#main-slider"
-    ],
+    "children": ["list-context.image-list#main-slider"],
     "props": {
       "colGap": 4,
-      "blockClass": [
-        "row-walmart"
-      ]
+      "blockClass": ["row-walmart"]
     }
   },
   "list-context.image-list#main-slider": {
     "title": "Main Slider",
-    "children": [
-      "slider-layout#main-slider-images"
-    ],
+    "children": ["slider-layout#main-slider-images"],
     "props": {
       "width": "100%",
       "images": [
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "assets/main_banner.jpg",
-          "mobileImage": "assets/mobile/main_banner.jpg",
+          "image": "/arquivos/main_banner.jpg",
+          "mobileImage": "/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -69,53 +63,43 @@
     }
   },
   "flex-layout.col#col-2-images-1": {
-    "children": [
-      "image#col-2-images-1"
-    ],
+    "children": ["image#col-2-images-1"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-2-images-1": {
     "props": {
-      "src": "assets/banner1.jpg",
+      "src": "/arquivos/banner1.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-2-images-2": {
-    "children": [
-      "image#col-2-images-2"
-    ],
+    "children": ["image#col-2-images-2"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-2-images-2": {
     "props": {
-      "src": "assets/banner2.jpg",
+      "src": "/arquivos/banner2.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.row#row-gray": {
-    "children": [
-      "list-context.image-list#row-gray"
-    ],
+    "children": ["list-context.image-list#row-gray"],
     "props": {
-      "blockClass": [
-        "row-gray"
-      ]
+      "blockClass": ["row-gray"]
     }
   },
   "list-context.image-list#row-gray": {
     "title": "Image full width gray",
-    "children": [
-      "slider-layout#banner-full-width"
-    ],
+    "children": ["slider-layout#banner-full-width"],
     "props": {
       "images": [
         {
-          "image": "assets/pago.jpg",
-          "mobileImage": "assets/mobile/pago.jpg",
+          "image": "/arquivos/pago.jpg",
+          "mobileImage": "/arquivos/pago.jpg",
           "link": {
             "url": "/test"
           }
@@ -235,16 +219,13 @@
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": [
-      "logo#circle-1",
-      "menu-item#circle-1"
-    ]
+    "children": ["logo#circle-1", "menu-item#circle-1"]
   },
   "logo#circle-1": {
     "props": {
       "title": "circle 1",
       "href": "/",
-      "url": "assets/mobile/rebajas.webp",
+      "url": "/arquivos/rebajas.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -267,16 +248,13 @@
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": [
-      "logo#circle-2",
-      "menu-item#circle-2"
-    ]
+    "children": ["logo#circle-2", "menu-item#circle-2"]
   },
   "logo#circle-2": {
     "props": {
       "title": "circle 2",
       "href": "/",
-      "url": "assets/mobile/belleza.webp",
+      "url": "/arquivos/belleza.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -299,16 +277,13 @@
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": [
-      "logo#circle-3",
-      "menu-item#circle-3"
-    ]
+    "children": ["logo#circle-3", "menu-item#circle-3"]
   },
   "logo#circle-3": {
     "props": {
       "title": "circle 3",
       "href": "/",
-      "url": "assets/mobile/salud.jpg",
+      "url": "/arquivos/salud.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -331,16 +306,13 @@
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": [
-      "logo#circle-4",
-      "menu-item#circle-4"
-    ]
+    "children": ["logo#circle-4", "menu-item#circle-4"]
   },
   "logo#circle-4": {
     "props": {
       "title": "circle 4",
       "href": "/",
-      "url": "assets/mobile/electronica.jpg",
+      "url": "/arquivos/electronica.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -363,16 +335,13 @@
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": [
-      "logo#circle-5",
-      "menu-item#circle-5"
-    ]
+    "children": ["logo#circle-5", "menu-item#circle-5"]
   },
   "logo#circle-5": {
     "props": {
       "title": "circle 5",
       "href": "/",
-      "url": "assets/mobile/licores.jpg",
+      "url": "/arquivos/licores.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -395,16 +364,13 @@
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": [
-      "logo#circle-6",
-      "menu-item#circle-6"
-    ]
+    "children": ["logo#circle-6", "menu-item#circle-6"]
   },
   "logo#circle-6": {
     "props": {
       "title": "circle 6",
       "href": "/",
-      "url": "assets/mobile/bebe.jpg",
+      "url": "/arquivos/bebe.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -425,15 +391,9 @@
   },
   //LAST CAR
   "flex-layout.row#last-car": {
-    "children": [
-      "rich-text#last-car",
-      "rich-text#buy-all"
-    ],
+    "children": ["rich-text#last-car", "rich-text#buy-all"],
     "props": {
-      "blockClass": [
-        "last-cart",
-        "title-section"
-      ]
+      "blockClass": ["last-cart", "title-section"]
     }
   },
   "rich-text#last-car": {
@@ -465,18 +425,11 @@
     }
   },
   "last-cart#last-cart": {
-    "blocks": [
-      "flex-layout.row#last-car",
-      "list-context.product-list-static"
-    ]
+    "blocks": ["flex-layout.row#last-car", "list-context.product-list-static"]
   },
   "list-context.product-list-static": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#last-cart"
-    ]
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#last-cart"]
   },
   "slider-layout#last-cart": {
     "props": {
@@ -501,45 +454,34 @@
     }
   },
   "flex-layout.col#col-22-images-1": {
-    "children": [
-      "image#col-22-images-1"
-    ],
+    "children": ["image#col-22-images-1"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-22-images-1": {
     "props": {
-      "src": "assets/pasta.jpg",
+      "src": "/arquivos/pasta.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-22-images-2": {
-    "children": [
-      "image#col-22-images-2"
-    ],
+    "children": ["image#col-22-images-2"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-22-images-2": {
     "props": {
-      "src": "assets/baileys.jpg",
+      "src": "/arquivos/baileys.jpg",
       "blockClass": "banner-img"
     }
   },
   //THE NEW
   "flex-layout.row#the-new": {
-    "children": [
-      "rich-text#the-new",
-      "rich-text#view-all-new"
-    ],
+    "children": ["rich-text#the-new", "rich-text#view-all-new"],
     "props": {
-      "blockClass": [
-        "the-new",
-        "title-section",
-        "top32"
-      ]
+      "blockClass": ["the-new", "title-section", "top32"]
     }
   },
   "rich-text#the-new": {
@@ -562,18 +504,14 @@
   },
   "flex-layout.row#shelf-the-new": {
     "title": "We want surprise you",
-    "children": [
-      "shelf#the-new"
-    ],
+    "children": ["shelf#the-new"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#the-new": {
     "title": "the new shelf",
-    "blocks": [
-      "product-summary.shelf"
-    ],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "blockClass": "home-product__recommend",
       "productList": {
@@ -600,58 +538,50 @@
     }
   },
   "flex-layout.col#col-4-images-1": {
-    "children": [
-      "image#col-4-images-1"
-    ],
+    "children": ["image#col-4-images-1"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-4-images-1": {
     "props": {
-      "src": "assets/four1.jpg",
+      "src": "/arquivos/four1.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-4-images-2": {
-    "children": [
-      "image#col-4-images-2"
-    ],
+    "children": ["image#col-4-images-2"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-4-images-2": {
     "props": {
-      "src": "assets/four2.jpg",
+      "src": "/arquivos/four2.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-4-images-3": {
-    "children": [
-      "image#col-4-images-3"
-    ],
+    "children": ["image#col-4-images-3"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-4-images-3": {
     "props": {
-      "src": "assets/four3.jpg",
+      "src": "/arquivos/four3.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-4-images-4": {
-    "children": [
-      "image#col-4-images-4"
-    ],
+    "children": ["image#col-4-images-4"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-4-images-4": {
     "props": {
-      "src": "assets/four4.jpg",
+      "src": "/arquivos/four4.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -674,22 +604,22 @@
       "width":"100%",
       "images": [
         {
-          "image": "assets/four1.jpg",
-          "mobileImage": "assets/four1.jpg",
+          "image": "/arquivos/four1.jpg",
+          "mobileImage": "/arquivos/four1.jpg",
           "link":{
             "url":"/test"
           }
         },
         {
-          "image": "assets/four2.jpg",
-          "mobileImage": "assets/four2.jpg",
+          "image": "/arquivos/four2.jpg",
+          "mobileImage": "/arquivos/four2.jpg",
           "link":{
             "url":"/test"
           }
         },
         {
-          "image": "assets/four3.jpg",
-          "mobileImage": "assets/four3.jpg",
+          "image": "/arquivos/four3.jpg",
+          "mobileImage": "/arquivos/four3.jpg",
           "link":{
             "url":"/test"
           }
@@ -720,10 +650,7 @@
       "rich-text#view-all-feature-product"
     ],
     "props": {
-      "blockClass": [
-        "featured-product",
-        "title-section"
-      ]
+      "blockClass": ["featured-product", "title-section"]
     }
   },
   "rich-text#featured-product": {
@@ -746,18 +673,14 @@
   },
   "flex-layout.row#shelf-featured-product": {
     "title": "We want surprise you",
-    "children": [
-      "shelf#featured-product"
-    ],
+    "children": ["shelf#featured-product"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#featured-product": {
     "title": "recommend",
-    "blocks": [
-      "product-summary.shelf"
-    ],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "blockClass": "home-product__recommend",
       "productList": {
@@ -783,44 +706,38 @@
     }
   },
   "flex-layout.col#col-3-images-1": {
-    "children": [
-      "image#col-3-images-1"
-    ],
+    "children": ["image#col-3-images-1"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-3-images-1": {
     "props": {
-      "src": "assets/three1.jpg",
+      "src": "/arquivos/three1.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-3-images-2": {
-    "children": [
-      "image#col-3-images-2"
-    ],
+    "children": ["image#col-3-images-2"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-3-images-2": {
     "props": {
-      "src": "assets/three2.jpg",
+      "src": "/arquivos/three2.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-3-images-3": {
-    "children": [
-      "image#col-3-images-3"
-    ],
+    "children": ["image#col-3-images-3"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-3-images-3": {
     "props": {
-      "src": "assets/three3.jpg",
+      "src": "/arquivos/three3.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -835,59 +752,46 @@
     }
   },
   "flex-layout.col#col-3-images-1-mobile": {
-    "children": [
-      "image#col-3-images-1-mobile"
-    ],
+    "children": ["image#col-3-images-1-mobile"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-3-images-1-mobile": {
     "props": {
-      "src": "assets/calvo_mobile.jpg",
+      "src": "/arquivos/calvo_mobile.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-3-images-2-mobile": {
-    "children": [
-      "image#col-3-images-2-mobile"
-    ],
+    "children": ["image#col-3-images-2-mobile"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-3-images-2-mobile": {
     "props": {
-      "src": "assets/samsung_mobile.jpg",
+      "src": "/arquivos/samsung_mobile.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#col-3-images-3-mobile": {
-    "children": [
-      "image#col-3-images-3-mobile"
-    ],
+    "children": ["image#col-3-images-3-mobile"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#col-3-images-3-mobile": {
     "props": {
-      "src": "assets/ariel_mobile.jpg",
+      "src": "/arquivos/ariel_mobile.jpg",
       "blockClass": "banner-img"
     }
   },
   //OFFERS
   "flex-layout.row#offers": {
-    "children": [
-      "rich-text#offers",
-      "rich-text#view-all-offers"
-    ],
+    "children": ["rich-text#offers", "rich-text#view-all-offers"],
     "props": {
-      "blockClass": [
-        "offers",
-        "title-section",
-        "top32"
-      ]
+      "blockClass": ["offers", "title-section", "top32"]
     }
   },
   "rich-text#offers": {
@@ -910,18 +814,14 @@
   },
   "flex-layout.row#shelf-offers": {
     "title": "Ofertas nuevo",
-    "children": [
-      "shelf#offers"
-    ],
+    "children": ["shelf#offers"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#offers": {
     "title": "recommend",
-    "blocks": [
-      "product-summary.shelf"
-    ],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "blockClass": "home-product__recommend",
       "productList": {
@@ -938,9 +838,7 @@
   },
   //BEST SELLER
   "flex-layout.row#best-seller": {
-    "children": [
-      "rich-text#best-seller"
-    ],
+    "children": ["rich-text#best-seller"],
     "props": {
       "blockClass": "best-seller"
     }
@@ -951,10 +849,7 @@
       "textAlignment": "center",
       "textPosition": "center",
       "text": "**Productos recomendados**",
-      "blockClass": [
-        "title-surprise",
-        "best-seller"
-      ]
+      "blockClass": ["title-surprise", "best-seller"]
     }
   },
   "flex-layout.row#custom-4-images": {
@@ -972,10 +867,7 @@
       "flex-layout.col#custom-4-images-2"
     ],
     "props": {
-      "blockClass": [
-        "col-four-images",
-        "relative"
-      ]
+      "blockClass": ["col-four-images", "relative"]
     }
   },
   "flex-layout.row#custom-4-images-col-2": {
@@ -988,92 +880,68 @@
     }
   },
   "flex-layout.col#custom-4-images-1": {
-    "children": [
-      "image#custom-4-images-1"
-    ],
+    "children": ["image#custom-4-images-1"],
     "props": {
-      "blockClass": [
-        "col-banner",
-        "custom-four-col",
-        "right-8"
-      ]
+      "blockClass": ["col-banner", "custom-four-col", "right-8"]
     }
   },
   "image#custom-4-images-1": {
     "props": {
-      "src": "assets/1.jpg",
-      "blockClass": [
-        "banner-img",
-        "custom-four"
-      ]
+      "src": "/arquivos/1.jpg",
+      "blockClass": ["banner-img", "custom-four"]
     }
   },
   "flex-layout.col#custom-4-images-2": {
-    "children": [
-      "image#custom-4-images-2",
-      "image#custom-4-images-22"
-    ],
+    "children": ["image#custom-4-images-2", "image#custom-4-images-22"],
     "props": {
-      "blockClass": [
-        "col-banner",
-        "absolute"
-      ]
+      "blockClass": ["col-banner", "absolute"]
     }
   },
   "image#custom-4-images-2": {
     "props": {
-      "src": "assets/2.jpg",
+      "src": "/arquivos/2.jpg",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-22": {
     "props": {
-      "src": "assets/5.jpg",
+      "src": "/arquivos/5.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#custom-4-images-3": {
-    "children": [
-      "image#custom-4-images-3",
-      "image#custom-4-images-33"
-    ],
+    "children": ["image#custom-4-images-3", "image#custom-4-images-33"],
     "props": {
-      "blockClass": [
-        "col-banner",
-        "right-8"
-      ]
+      "blockClass": ["col-banner", "right-8"]
     }
   },
   "image#custom-4-images-3": {
     "props": {
-      "src": "assets/3.jpg",
+      "src": "/arquivos/3.jpg",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-33": {
     "props": {
-      "src": "assets/6.jpg",
+      "src": "/arquivos/6.jpg",
       "blockClass": "banner-img"
     }
   },
   "flex-layout.col#custom-4-images-4": {
-    "children": [
-      "image#custom-4-images-4",
-      "image#custom-4-images-44"
-    ],
+    "children": ["image#custom-4-images-4", "image#custom-4-images-44"],
     "props": {
       "blockClass": "col-banner"
     }
   },
   "image#custom-4-images-4": {
     "props": {
-      "src": "assets/4.jpg",
+      "src": "/arquivos/4.jpg",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-44": {
     "props": {
-      "src": "assets/7.jpg",
+      "src": "/arquivos/7.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -1084,10 +952,7 @@
       "rich-text#view-all-best-electronics"
     ],
     "props": {
-      "blockClass": [
-        "the-best-electronics",
-        "title-section"
-      ]
+      "blockClass": ["the-best-electronics", "title-section"]
     }
   },
   "rich-text#the-best-electronics": {
@@ -1110,18 +975,14 @@
   },
   "flex-layout.row#shelf-the-best-electronics": {
     "title": "the best electronics row",
-    "children": [
-      "shelf#the-best-electronics"
-    ],
+    "children": ["shelf#the-best-electronics"],
     "props": {
       "blockClass": "recommended-you"
     }
   },
   "shelf#the-best-electronics": {
     "title": "the best electronics",
-    "blocks": [
-      "product-summary.shelf"
-    ],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "blockClass": "home-product__recommend",
       "productList": {
@@ -1145,74 +1006,55 @@
       "flex-layout.col#service-4"
     ],
     "props": {
-      "blockClass": [
-        "row-services"
-      ]
+      "blockClass": ["row-services"]
     }
   },
   "flex-layout.col#service-1": {
-    "children": [
-      "flex-layout.row#two-cols-1"
-    ],
+    "children": ["flex-layout.row#two-cols-1"],
     "props": {
       "blockClass": "block-service"
     }
   },
   "flex-layout.col#service-2": {
-    "children": [
-      "flex-layout.row#two-cols-2"
-    ],
+    "children": ["flex-layout.row#two-cols-2"],
     "props": {
       "blockClass": "block-service"
     }
   },
   "flex-layout.col#service-3": {
-    "children": [
-      "flex-layout.row#two-cols-3"
-    ],
+    "children": ["flex-layout.row#two-cols-3"],
     "props": {
       "blockClass": "block-service"
     }
   },
   "flex-layout.col#service-4": {
-    "children": [
-      "flex-layout.row#two-cols-4"
-    ],
+    "children": ["flex-layout.row#two-cols-4"],
     "props": {
       "blockClass": "block-service"
     }
   },
   "flex-layout.row#two-cols-1": {
-    "children": [
-      "flex-layout.col#left-1",
-      "flex-layout.col#right-1"
-    ],
+    "children": ["flex-layout.col#left-1", "flex-layout.col#right-1"],
     "props": {
-      "blockClass": [
-        "two-cols"
-      ]
+      "blockClass": ["two-cols"]
     }
   },
   "flex-layout.col#left-1": {
-    "children": [
-      "image#service-1"
-    ],
+    "children": ["image#service-1"],
     "props": {
       "width": "25%",
       "blockClass": "block-service"
     }
   },
   "flex-layout.col#right-1": {
-    "children": [
-      "rich-text#service-1"
-    ],
+    "children": ["rich-text#service-1"],
     "props": {
       "blockClass": "block-service"
     }
   },
   "image#service-1": {
     "props": {
-      "src": "assets/icon_1.svg",
+      "src": "/arquivos/icon_1.svg",
       "blockClass": "image-service"
     }
   },
@@ -1226,36 +1068,27 @@
     }
   },
   "flex-layout.row#two-cols-2": {
-    "children": [
-      "flex-layout.col#left-2",
-      "flex-layout.col#right-2"
-    ],
+    "children": ["flex-layout.col#left-2", "flex-layout.col#right-2"],
     "props": {
-      "blockClass": [
-        "two-cols"
-      ]
+      "blockClass": ["two-cols"]
     }
   },
   "flex-layout.col#left-2": {
-    "children": [
-      "image#service-2"
-    ],
+    "children": ["image#service-2"],
     "props": {
       "width": "25%",
       "blockClass": "block-service"
     }
   },
   "flex-layout.col#right-2": {
-    "children": [
-      "rich-text#service-2"
-    ],
+    "children": ["rich-text#service-2"],
     "props": {
       "blockClass": "block-service"
     }
   },
   "image#service-2": {
     "props": {
-      "src": "assets/icon_2.svg",
+      "src": "/arquivos/icon_2.svg",
       "blockClass": "image-service"
     }
   },
@@ -1269,36 +1102,27 @@
     }
   },
   "flex-layout.row#two-cols-3": {
-    "children": [
-      "flex-layout.col#left-3",
-      "flex-layout.col#right-3"
-    ],
+    "children": ["flex-layout.col#left-3", "flex-layout.col#right-3"],
     "props": {
-      "blockClass": [
-        "two-cols"
-      ]
+      "blockClass": ["two-cols"]
     }
   },
   "flex-layout.col#left-3": {
-    "children": [
-      "image#service-3"
-    ],
+    "children": ["image#service-3"],
     "props": {
       "width": "25%",
       "blockClass": "block-service"
     }
   },
   "flex-layout.col#right-3": {
-    "children": [
-      "rich-text#service-3"
-    ],
+    "children": ["rich-text#service-3"],
     "props": {
       "blockClass": "block-service"
     }
   },
   "image#service-3": {
     "props": {
-      "src": "assets/icon_3.svg",
+      "src": "/arquivos/icon_3.svg",
       "blockClass": "image-service"
     }
   },
@@ -1312,36 +1136,27 @@
     }
   },
   "flex-layout.row#two-cols-4": {
-    "children": [
-      "flex-layout.col#left-4",
-      "flex-layout.col#right-4"
-    ],
+    "children": ["flex-layout.col#left-4", "flex-layout.col#right-4"],
     "props": {
-      "blockClass": [
-        "two-cols"
-      ]
+      "blockClass": ["two-cols"]
     }
   },
   "flex-layout.col#left-4": {
-    "children": [
-      "image#service-4"
-    ],
+    "children": ["image#service-4"],
     "props": {
       "width": "25%",
       "blockClass": "block-service"
     }
   },
   "flex-layout.col#right-4": {
-    "children": [
-      "rich-text#service-4"
-    ],
+    "children": ["rich-text#service-4"],
     "props": {
       "blockClass": "block-service"
     }
   },
   "image#service-4": {
     "props": {
-      "src": "assets/icon_4.svg",
+      "src": "/arquivos/icon_4.svg",
       "blockClass": "image-service"
     }
   },

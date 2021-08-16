@@ -1,9 +1,6 @@
 {
   "footer": {
-    "blocks": [
-      "footer-layout.desktop",
-      "footer-layout.mobile"
-    ]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
 
   "footer-layout.desktop": {
@@ -17,10 +14,7 @@
   },
 
   "flex-layout.row#newsletter": {
-    "children": [
-      "rich-text#newsletter",
-      "newsletter"
-    ],
+    "children": ["rich-text#newsletter", "newsletter"],
 
     "props": {
       "blockClass": "title-news"
@@ -55,11 +49,9 @@
     }
   },
 
-  "flex-layout.row#txt-news":{
-    "children": [
-      "rich-text#txt-news"
-    ],
-    "props":{
+  "flex-layout.row#txt-news": {
+    "children": ["rich-text#txt-news"],
+    "props": {
       "blockClass": "row-txt-news"
     }
   },
@@ -89,9 +81,7 @@
   },
 
   "flex-layout.col#footer-1-desktop": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu1"
-    ],
+    "children": ["vtex.menu@2.x:menu#footer-menu1"],
 
     "props": {
       "blockClass": "footer-col"
@@ -99,9 +89,7 @@
   },
 
   "flex-layout.col#footer-2-desktop": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu2"
-    ],
+    "children": ["vtex.menu@2.x:menu#footer-menu2"],
 
     "props": {
       "blockClass": "footer-col"
@@ -109,9 +97,7 @@
   },
 
   "flex-layout.col#footer-6-desktop": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu6"
-    ],
+    "children": ["vtex.menu@2.x:menu#footer-menu6"],
 
     "props": {
       "blockClass": "footer-col"
@@ -132,12 +118,10 @@
     }
   },
 
-  "flex-layout.col#footer-3-desktop-1":{
-    "children": [
-      "rich-text#copyright-footer"
-    ],
+  "flex-layout.col#footer-3-desktop-1": {
+    "children": ["rich-text#copyright-footer"],
 
-    "props":{
+    "props": {
       "blockClass": "txt-footer",
       "width": "80%"
     }
@@ -152,12 +136,10 @@
     }
   },
 
-  "flex-layout.col#footer-3-desktop-2":{
-    "children": [
-      "rich-text#powered-by"
-    ],
+  "flex-layout.col#footer-3-desktop-2": {
+    "children": ["rich-text#powered-by"],
 
-    "props":{
+    "props": {
       "width": "6%",
       "blockClass": "txt-footer"
     }
@@ -174,12 +156,10 @@
     }
   },
 
-  "flex-layout.col#footer-3-desktop-3":{
-    "children": [
-      "image#logo-footer-1"
-    ],
+  "flex-layout.col#footer-3-desktop-3": {
+    "children": ["image#logo-footer-1"],
 
-    "props":{
+    "props": {
       "width": "7%",
       "blockClass": "txt-footer"
     }
@@ -189,17 +169,15 @@
     "title": "Footer - Logo",
 
     "props": {
-      "src": "assets/corebiz_logo.svg",
+      "src": "/arquivos/corebiz_logo.svg",
       "blockClass": "logo-footer-corebiz"
     }
   },
 
-  "flex-layout.col#footer-3-desktop-4":{
-    "children": [
-      "image#logo-footer-2"
-    ],
+  "flex-layout.col#footer-3-desktop-4": {
+    "children": ["image#logo-footer-2"],
 
-    "props":{
+    "props": {
       "blockClass": "txt-footer"
     }
   },
@@ -208,7 +186,7 @@
     "title": "Footer - Logo",
 
     "props": {
-      "src": "assets/vtex-1.svg",
+      "src": "/arquivos/vtex-1.svg",
       "blockClass": "logo-footer-corebiz"
     }
   },
@@ -224,9 +202,7 @@
   },
 
   "flex-layout.row#newsletter-mobile": {
-    "children": [
-      "flex-layout.col#newsletter"
-    ],
+    "children": ["flex-layout.col#newsletter"],
 
     "props": {
       "horizontalAlign": "center",
@@ -234,11 +210,8 @@
     }
   },
 
-  "flex-layout.col#newsletter":{
-    "children":[
-      "newsletter#custom",
-      "rich-text#text-notice"
-    ],
+  "flex-layout.col#newsletter": {
+    "children": ["newsletter#custom", "rich-text#text-notice"],
     "props": {
       "fullWidth": true,
       "marginTop": "8",
@@ -257,9 +230,7 @@
     }
   },
   "flex-layout.row#2-footer-mobile": {
-    "children": [
-      "flex-layout.col#footer-1-mobile"
-    ],
+    "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
       "blockClass": "2-footer-mobile",
       "paddingTop": 4,
@@ -290,9 +261,7 @@
   },
 
   "disclosure-trigger#simple-title-know": {
-    "children": [
-      "rich-text#question-title-know"
-    ]
+    "children": ["rich-text#question-title-know"]
   },
 
   "rich-text#question-title-know": {
@@ -303,9 +272,7 @@
   },
 
   "disclosure-content#menu-know": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu1-mobile"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu1-mobile"]
   },
 
   "disclosure-layout#footer-box-menu-help": {
@@ -316,9 +283,7 @@
   },
 
   "disclosure-trigger#simple-title-help": {
-    "children": [
-      "rich-text#question-title-help"
-    ]
+    "children": ["rich-text#question-title-help"]
   },
 
   "rich-text#question-title-help": {
@@ -329,9 +294,7 @@
   },
 
   "disclosure-content#menu-help": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu2"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu2"]
   },
   "disclosure-layout#footer-box-menu-help": {
     "children": [
@@ -341,9 +304,7 @@
   },
 
   "disclosure-trigger#simple-title-help": {
-    "children": [
-      "rich-text#question-title-help"
-    ]
+    "children": ["rich-text#question-title-help"]
   },
 
   "rich-text#question-title-help": {
@@ -354,9 +315,7 @@
   },
 
   "disclosure-content#menu-help": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu2-mobile"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu2-mobile"]
   },
 
   "disclosure-layout#footer-box-menu-services": {
@@ -367,9 +326,7 @@
   },
 
   "disclosure-trigger#simple-title-services": {
-    "children": [
-      "rich-text#question-title-services"
-    ]
+    "children": ["rich-text#question-title-services"]
   },
 
   "rich-text#question-title-services": {
@@ -380,9 +337,7 @@
   },
 
   "disclosure-content#menu-services": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu6"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu6"]
   },
   "disclosure-layout#footer-box-menu-services": {
     "children": [
@@ -392,9 +347,7 @@
   },
 
   "disclosure-trigger#simple-title-services": {
-    "children": [
-      "rich-text#question-title-services"
-    ]
+    "children": ["rich-text#question-title-services"]
   },
 
   "rich-text#question-title-services": {
@@ -405,21 +358,15 @@
   },
 
   "disclosure-content#menu-services": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu3-mobile"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu3-mobile"]
   },
 
   "flex-layout.row#footer-mobile-1": {
     "title": "Footer - Copyright",
-    "children": [
-      "flex-layout.col#footer-3-mobile-1"
-    ]
+    "children": ["flex-layout.col#footer-3-mobile-1"]
   },
   "flex-layout.col#footer-3-mobile-1": {
-    "children":[
-      "rich-text#copyright-footer-mobile"
-    ],
+    "children": ["rich-text#copyright-footer-mobile"],
     "props": {
       "blockClass": "copyright-row-mobile"
     }
@@ -434,7 +381,6 @@
     }
   },
 
-
   "flex-layout.row#footer-mobile-2": {
     "title": "Footer - Copyright",
     "children": [
@@ -447,7 +393,7 @@
     }
   },
   "flex-layout.col#footer-mobile-2-1": {
-    "children":[
+    "children": [
       "rich-text#footer-mobile-2",
       "image#logo-footer-mobile-1",
       "image#logo-footer-mobile-2"
@@ -466,11 +412,9 @@
     }
   },
 
-  "flex-layout.col#footer-mobile-2-2":{
-    "children": [
-      "image#logo-footer-mobile-1"
-    ],
-    "props":{
+  "flex-layout.col#footer-mobile-2-2": {
+    "children": ["image#logo-footer-mobile-1"],
+    "props": {
       //"width": "7%",
       "blockClass": "col-mobile-footer"
     }
@@ -478,35 +422,27 @@
   "image#logo-footer-mobile-1": {
     "title": "Footer - Logo",
     "props": {
-      "src": "assets/corebiz_logo.svg",
+      "src": "/arquivos/corebiz_logo.svg",
       "blockClass": "logo-footer-corebiz-mobile"
     }
   },
 
-  "flex-layout.col#footer-mobile-2-3":{
-    "children": [
-      "image#logo-footer-mobile-2"
-    ],
-    "props":{
+  "flex-layout.col#footer-mobile-2-3": {
+    "children": ["image#logo-footer-mobile-2"],
+    "props": {
       "blockClass": "col-mobile-footer"
     }
   },
   "image#logo-footer-mobile-2": {
     "title": "Footer - Logo",
     "props": {
-      "src": "assets/vtex-1.svg",
+      "src": "/arquivos/vtex-1.svg",
       "blockClass": "logo-footer-corebiz-mobile"
     }
   },
 
-
-
-
-
-
-
-  "back-to-top-button":{
-    "props":{
+  "back-to-top-button": {
+    "props": {
       "displayThreshold": 800
     }
   }

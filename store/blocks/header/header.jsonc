@@ -31,9 +31,7 @@
   },
 
   "flex-layout.row#5-desktop": {
-    "children": [
-      "rich-text#5-desktop"
-    ],
+    "children": ["rich-text#5-desktop"],
     "props": {
       "fullWidth": "true",
       "blockClass": "headertop-end"
@@ -49,12 +47,8 @@
     }
   },
 
-
   "flex-layout.row#2-desktop": {
-    "children": [
-      "flex-layout.col#left",
-      "flex-layout.col#right"
-    ],
+    "children": ["flex-layout.col#left", "flex-layout.col#right"],
     "props": {
       "fullWidth": "true",
       "blockClass": "headertop"
@@ -62,10 +56,7 @@
   },
 
   "flex-layout.col#left": {
-    "children": [
-      "logo#left",
-      "rich-text#how-to-buy"
-    ],
+    "children": ["logo#left", "rich-text#how-to-buy"],
     "props": {
       "blockClass": "first-col-head",
       "width": "13%"
@@ -74,7 +65,7 @@
   "logo#left": {
     "props": {
       "title": "Icon how to buy",
-      "url": "assets/icon_envio.svg",
+      "url": "/arquivos/icon_envio.svg",
       "blockClass": "icon-head"
     }
   },
@@ -89,10 +80,7 @@
   },
 
   "flex-layout.col#right": {
-    "children": [
-      "logo#right",
-      "rich-text#contact-us"
-    ],
+    "children": ["logo#right", "rich-text#contact-us"],
     "props": {
       "blockClass": "first-col-head"
     }
@@ -100,7 +88,7 @@
   "logo#right": {
     "props": {
       "title": "Icon contact us",
-      "url": "assets/icon_atencion.svg",
+      "url": "/arquivos/icon_atencion.svg",
       "blockClass": "icon-head"
     }
   },
@@ -113,8 +101,6 @@
       "blockClass": "txt-first-head"
     }
   },
-
-
 
   "rich-text#termina-en": {
     "title": "Header - Highlight",
@@ -191,30 +177,21 @@
     ]
   },
   "flex-layout.col#express-col-left": {
-    "children": [
-      "stack-layout#prodsum"
-    ]
+    "children": ["stack-layout#prodsum"]
   },
   "flex-layout.col#express-col-right": {
-    "children": [
-      "product-summary-name"
-    ]
+    "children": ["product-summary-name"]
   },
 
   "flex-layout.row#express-row-2": {
-    "children": [
-      "flex-layout.col#express-col-left-2"
-    ]
+    "children": ["flex-layout.col#express-col-left-2"]
   },
   "flex-layout.col#express-col-left-2": {
-    "children": [
-      "product-summary-price"
-    ],
-    "props":{
+    "children": ["product-summary-price"],
+    "props": {
       "blockClass": "price-express"
     }
   },
-
 
   "product-summary.shelf#express": {
     "children": [
@@ -253,7 +230,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo_masxmenos.svg",
+      "url": "/arquivos/logo_masxmenos.svg",
       "width": "180"
     }
   },
@@ -261,10 +238,7 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": [
-      "flex-layout.row#1-mobile",
-      "flex-layout.row#2-mobile"
-    ]
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -341,7 +315,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo_masxmenos.svg",
+      "url": "/arquivos/logo_masxmenos.svg",
       "width": "120"
     }
   },

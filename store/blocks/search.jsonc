@@ -101,16 +101,14 @@
       }
     }
   },
-  "back-to-top-button":{
-    "props":{
+  "back-to-top-button": {
+    "props": {
       "display": "caret-icon"
     }
   },
   "flex-layout.row#slider-product": {
     "title": "Slider product",
-    "children": [
-      "list-context.image-list#slider-product"
-    ],
+    "children": ["list-context.image-list#slider-product"],
     "props": {
       "colGap": 4,
       "blockClass": "row-slider-walmart"
@@ -118,16 +116,14 @@
   },
   "list-context.image-list#slider-product": {
     "title": "Main Slider",
-    "children": [
-      "slider-layout#slider-product"
-    ],
+    "children": ["slider-layout#slider-product"],
     "props": {
       "images": [
         {
-          "image": "assets/zucaritas.jpg",
-          "mobileImage": "assets/zucaritas.jpg",
-          "link":{
-            "url":"/test"
+          "image": "/arquivoszucaritas.jpg",
+          "mobileImage": "/arquivoszucaritas.jpg",
+          "link": {
+            "url": "/test"
           }
         }
       ]
@@ -250,7 +246,6 @@
 
       "flex-layout.row#did-you-mean",
       "flex-layout.row#banner-one",
-
 
       "flex-layout.row#contentmobile"
     ],

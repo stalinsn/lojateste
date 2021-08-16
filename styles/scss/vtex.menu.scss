@@ -13,11 +13,11 @@
       font-size: 14px;
       line-height: 18px;
       color: #fefefe;
-      -webkit-transition: .5s all;
-         -moz-transition: .5s all;
-          -ms-transition: .5s all;
-           -o-transition: .5s all;
-              transition: .5s all;
+      -webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -ms-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      transition: 0.5s all;
 
       &:hover {
         color: #fff;
@@ -222,7 +222,7 @@
           .styledLinkContent:first-child {
             &::after {
               content: "";
-              background: url(assets/arrow-right.svg) no-repeat !important;
+              background: url(/arquivos/arrow-right.svg) no-repeat !important;
               background-size: 7px 10px !important;
               background-position: -1px 0px !important;
               width: 5px !important;
@@ -246,7 +246,6 @@
       .styledLinkContent--menu-item-clube {
         font-weight: bold;
         padding: 0.5em 23px 0.5em 1em;
-
       }
     }
 
@@ -259,14 +258,14 @@
         padding: 0.5em 23px 0.5em 1em;
 
         @media screen and (max-width: em(1413px)) {
-          padding: .5em 17px .5em 17px;
+          padding: 0.5em 17px 0.5em 17px;
         }
         @media screen and (max-width: em(1325px)) {
-          padding: .5em 15px .5em 14px;
+          padding: 0.5em 15px 0.5em 14px;
         }
 
         @media screen and (max-width: em(1279px)) {
-          padding: .5em 12px .5em 12px;
+          padding: 0.5em 12px 0.5em 12px;
         }
 
         &:hover {
@@ -277,7 +276,7 @@
 
     .styledLinkContent {
       font-size: 14px;
-      color: #0075C9;
+      color: #0075c9;
       font-family: GothamBook;
     }
   }
@@ -326,12 +325,11 @@
   overflow-y: auto;
 }
 
-:global(.vtex-minicart-2-x-drawerContent){
+:global(.vtex-minicart-2-x-drawerContent) {
   overflow-y: unset !important;
 }
 
 :global(.vtex-store-drawer-0-x-drawerContent) {
-
   .styledLinkContainer--title-ver-todos {
     :first-child {
       font-weight: bold;
@@ -421,7 +419,7 @@
       display: block;
       width: 20px;
       height: 23px;
-      background: url(assets/arrow-down-new.svg) no-repeat 50%;
+      background: url(/arquivos/arrow-down-new.svg) no-repeat 50%;
       background-size: 14px 23px !important;
     }
   }
@@ -432,7 +430,7 @@
       display: block;
       width: 20px;
       height: 23px;
-      background: url(assets/arrow-up-new.svg) no-repeat 50%;
+      background: url(/arquivos/arrow-up-new.svg) no-repeat 50%;
       background-size: 14px 23px !important;
     }
   }
@@ -448,7 +446,7 @@
       display: block;
       width: 20px;
       height: 23px;
-      background: url(assets/arrow-down-new.svg) no-repeat 50%;
+      background: url(/arquivos/arrow-down-new.svg) no-repeat 50%;
       background-size: 14px 23px !important;
     }
   }
@@ -459,7 +457,7 @@
       display: block;
       width: 20px;
       height: 23px;
-      background: url(assets/arrow-up-new.svg) no-repeat 50%;
+      background: url(/arquivos/arrow-up-new.svg) no-repeat 50%;
       background-size: 14px 23px !important;
     }
   }
@@ -486,7 +484,7 @@
 }
 
 .styledLink--filter-item {
-  color: #0075C9;
+  color: #0075c9;
   font-weight: 600;
   font-size: 16px;
 }
@@ -525,15 +523,15 @@
 }
 
 .styledLinkContainer--marker {
-  &::before{
+  &::before {
     content: "";
-    background: url(assets/icon_location.svg) no-repeat;
+    background: url(/arquivos/icon_location.svg) no-repeat;
     width: 22px;
     height: 22px;
     display: block;
     margin-left: -10px;
     margin-top: 1px;
-    background-size: 22px 27px!important;
+    background-size: 22px 27px !important;
     position: absolute;
   }
 }
@@ -567,20 +565,20 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--title-to-circle-categories) {
-      text-align: center;
-      justify-content: center;
-      margin-top: -20px;
+  text-align: center;
+  justify-content: center;
+  margin-top: -20px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--subtitle-footer) {
-  &:hover{
+  &:hover {
     text-decoration: none !important;
   }
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--read-only) {
   cursor: default;
-  &:hover{
-    text-decoration: none!important;
+  &:hover {
+    text-decoration: none !important;
   }
 }
