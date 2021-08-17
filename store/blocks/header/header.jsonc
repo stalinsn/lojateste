@@ -42,7 +42,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Aprovecha los beneficios que tenemos de **farmacia**",
+      "text": "Veja as promoções que preparamos na categoria **Automotivos**, com frete grátis.",
       "blockClass": "benefits"
     }
   },
@@ -121,27 +121,37 @@
       "fullWidth": true
     },
     "children": [
-      "mega-menu",
-      "flex-layout.col#logo-desktop",
+      "flex-layout.row#desktop-menu-and-logo",
       "search-bar",
-      "rich-text#Tel",
-      "login",
-      "rich-text#mi-tienda",
-      "minicart.v2",
-      "minicart-totalizer"
+      "flex-layout.row#desktop-utils-links",
+      "flex-layout.row#desktop-minicart-links"
     ]
   },
+  "flex-layout.row#desktop-menu-and-logo": {
+    "children": ["mega-menu", "flex-layout.col#logo-desktop"],
+    "props": {
+      "blockClass": "menu-logo",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#desktop-utils-links": {
+    "children": ["rich-text#Tel", "rich-text#mi-tienda", "login"]
+  },
+  "flex-layout.row#desktop-minicart-links": {
+    "children": ["minicart.v2", "minicart-totalizer"]
+  },
+
   "rich-text#Tel": {
     "title": "Header - TEL",
     "props": {
-      "text": "[Mis listas](/account#/shopping-list)",
+      "text": "[Listas](/account#/shopping-list)",
       "blockClass": "mi-tel"
     }
   },
   "rich-text#mi-tienda": {
     "title": "Header - Tiendas",
     "props": {
-      "text": "Mis pedidos",
+      "text": "Pedidos",
       "blockClass": "mi-tienda"
     }
   },
@@ -210,7 +220,7 @@
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": ["flex-layout.col#category-menu", "flex-layout.col#spacer"]
+    "children": ["flex-layout.col#category-menu"]
   },
   "flex-layout.col#logo-desktop": {
     "props": {

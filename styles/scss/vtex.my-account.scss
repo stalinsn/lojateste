@@ -2,7 +2,20 @@
 * {
   font-family: "GothamBook", sans-serif;
 }
-
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
+  > div {
+    &:nth-child(2) {
+      max-width: 560px;
+      width: 100% !important;
+    }
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--main-header)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  > div {
+    width: 100% !important;
+  }
+}
 :global(.vtex-account) {
   /*padding-left: 20px;
   padding-right: 20px;*/
@@ -404,7 +417,7 @@
     }
     a[href*="#/orders"] {
       &::before {
-        content: "Mis pedidos";
+        content: "Pedidos";
       }
     }
     a[href*="#/cards"] {
@@ -612,6 +625,7 @@
         font-family: GothamBook;
         margin-top: 5px;
         text-transform: none;
+        color: #525252;
       }
     }
   }

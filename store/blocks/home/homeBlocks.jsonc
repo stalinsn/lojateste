@@ -684,7 +684,7 @@
     "props": {
       "blockClass": "home-product__recommend",
       "productList": {
-        "collection": "2081",
+        "collection": "193",
         "maxItems": 8,
         "itemsPerPage": 5,
         "minItemsPerPage": 2,
@@ -814,7 +814,7 @@
   },
   "flex-layout.row#shelf-offers": {
     "title": "Ofertas nuevo",
-    "children": ["shelf#offers"],
+    "children": ["list-context.product-list#shelf-home2"],
     "props": {
       "blockClass": "recommended-you"
     }
@@ -833,6 +833,29 @@
         "arrows": true,
         "titleText": "",
         "gap": "ph5"
+      }
+    }
+  },
+  "list-context.product-list#shelf-home2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#main-slider-home2"],
+    "props": {
+      "category": "8"
+    }
+  },
+  "slider-layout#main-slider-home2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "blockClass": "main-slider-home2",
+      "title": "Configuração - Slider",
+      "autoplay": {
+        "timeout": "5000"
       }
     }
   },

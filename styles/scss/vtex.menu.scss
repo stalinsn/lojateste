@@ -1,5 +1,8 @@
 @import "./references";
-
+.menuContainer--category-menu-desk {
+  justify-content: space-between;
+  align-items: center;
+}
 //FOOTER
 .menuContainerNav--footer-top {
   margin-top: 19px;
@@ -252,21 +255,14 @@
     .styledLinkContainer--menu-item-faqs {
       padding: 0.5em 0;
       margin-left: 0.5em !important;
+      color: #ab0535;
+      font-weight: bold;
 
       .styledLinkContent--menu-item-faqs {
-        font-weight: 600;
-        padding: 0.5em 23px 0.5em 1em;
-
-        @media screen and (max-width: em(1413px)) {
-          padding: 0.5em 17px 0.5em 17px;
-        }
-        @media screen and (max-width: em(1325px)) {
-          padding: 0.5em 15px 0.5em 14px;
-        }
-
-        @media screen and (max-width: em(1279px)) {
-          padding: 0.5em 12px 0.5em 12px;
-        }
+        color: #ab0535;
+        font-weight: bold;
+        padding: 0;
+        margin-left: 42px;
 
         &:hover {
           color: $primary;

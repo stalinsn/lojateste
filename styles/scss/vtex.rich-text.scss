@@ -119,7 +119,7 @@
 
   .paragraph--mi-tienda {
     margin: auto 0;
-    color: #fff;
+    color: #525252;
     font-size: 14px;
     font-weight: 600;
     font-stretch: normal;
@@ -132,7 +132,21 @@
     }
   }
 }
+.paragraph--footer-inner-text,
+.link--footer-inner-text {
+  color: #fefefe;
+  font-weight: 300;
+}
+.headingLevel3--footer-text-sac {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+}
 
+.paragraph--footer-text-sac {
+  color: #fff;
+  margin: 0;
+}
 .container--mi-tel {
   @media screen and (min-width: em(320px)) {
     border-right: none;
@@ -140,7 +154,6 @@
     margin-right: -40px;
   }
   @media screen and (min-width: em(1026px)) {
-    border-right: solid 1px #fff;
     margin: 24px 0 24px 40px;
     padding-right: 0px;
     height: 24px;
@@ -152,7 +165,7 @@
     height: 24px;
   }
   :first-child {
-    color: #fff;
+    color: #525252;
     font-size: 14px;
     font-weight: 600;
     font-stretch: normal;

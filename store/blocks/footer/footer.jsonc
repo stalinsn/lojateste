@@ -68,9 +68,11 @@
 
   "flex-layout.row#footer-1-desktop": {
     "children": [
+      "flex-layout.col#footer-desktop-pre-col",
       "flex-layout.col#footer-1-desktop",
       "flex-layout.col#footer-2-desktop",
-      "flex-layout.col#footer-6-desktop"
+      "flex-layout.col#footer-6-desktop",
+      "flex-layout.col#footer-desktop-post-col"
     ],
 
     "props": {
@@ -79,7 +81,47 @@
       "paddingBottom": 3
     }
   },
-
+  "flex-layout.col#footer-desktop-pre-col": {
+    "children": ["rich-text#store-footer", "rich-text#store-footer-text"],
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": true,
+      "blockClass": "footer-precol"
+    }
+  },
+  "rich-text#store-footer": {
+    "props": {
+      "text": "GBarbosa",
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "rich-text#store-footer-text": {
+    "props": {
+      "text": "Fundado em Sergipe, em 1955, o GBarbosa é uma das principais redes de supermercados do Nordeste. Com mais de 75 lojas em cinco estados (Alagoas, Bahia, Ceará, Pernambuco e Sergipe), farmácias e Eletro \n \n [Clique aqui e saiba mais](/)",
+      "blockClass": "footer-inner-text"
+    }
+  },
+  "flex-layout.col#footer-desktop-post-col": {
+    "children": [
+      "rich-text#store-footer-sac",
+      "rich-text#store-footer-text-sac"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#store-footer-sac": {
+    "props": {
+      "text": "SAC",
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "rich-text#store-footer-text-sac": {
+    "props": {
+      "text": "### (71) 9990-16180 0800 000 00 000  \n delivery@gbarbosa.com.br",
+      "blockClass": "footer-text-sac"
+    }
+  },
   "flex-layout.col#footer-1-desktop": {
     "children": ["vtex.menu@2.x:menu#footer-menu1"],
 
@@ -131,7 +173,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© 2021 Copyright. Todos los derechos reservados Masxmenos.",
+      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "copyright-footer"
     }
   },

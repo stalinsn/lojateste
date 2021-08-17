@@ -20,6 +20,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
   transition: background 0.3s ease;
   will-change: padding, background;
+  padding: 4px 0;
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck)
@@ -87,7 +88,7 @@
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
   max-width: $maxContainerWidth;
   margin: 0 auto;
-  justify-content: end;
+  justify-content: space-between;
 }
 
 /* stick wrapper with the same color as the desktop/mobile header */

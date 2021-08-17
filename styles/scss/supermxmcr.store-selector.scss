@@ -1,12 +1,14 @@
-.openButton{
-  padding-right: 29rem !important;
-    @media (max-width: 48em){
-        padding-right: 0 !important;
-    }
+.openButton {
+  @media (max-width: 48em) {
+    padding-right: 0 !important;
+  }
+  :global(.vtex-button__label) {
+    padding: 0;
+  }
 }
 
 .button {
-  :global(.vtex-button){
+  :global(.vtex-button) {
     width: 100% !important;
   }
 }
