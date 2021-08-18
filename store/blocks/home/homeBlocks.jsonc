@@ -14,22 +14,22 @@
       "width": "100%",
       "images": [
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "/arquivos/main_banner_home.png",
+          "mobileImage": "/arquivos/main_banner_home.png",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "/arquivos/main_banner_home.png",
+          "mobileImage": "/arquivos/main_banner_home.png",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "/arquivos/main_banner_home.png",
+          "mobileImage": "/arquivos/main_banner_home.png",
           "link": {
             "url": "/test"
           }
@@ -86,10 +86,50 @@
       "blockClass": "banner-img"
     }
   },
-  "flex-layout.row#row-gray": {
+  "flex-layout.row#row-gray-methods": {
+    "props": {
+      "blockClass": ["row-gray"],
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#methods-icon",
+      "flex-layout.col#methods-inner-text",
+      "flex-layout.col#methods-images"
+    ]
+  },
+  "flex-layout.col#methods-icon": {
     "children": ["list-context.image-list#row-gray"],
     "props": {
-      "blockClass": ["row-gray"]
+      "blockClass": "row-gray-icon"
+    }
+  },
+  "flex-layout.col#methods-inner-text": {
+    "children": [
+      "rich-text#methods-main-text",
+      "rich-text#methods-secondary-text"
+    ],
+    "props": {
+      "blockClass": "methods-text"
+    }
+  },
+  "flex-layout.col#methods-images": {
+    "children": ["image#methods-image"]
+  },
+  "rich-text#methods-main-text": {
+    "props": {
+      "text": "**12 Meses** para você parcelar suas compras",
+      "blockClass": "methods-main-text"
+    }
+  },
+  "rich-text#methods-secondary-text": {
+    "props": {
+      "text": "Válido de 1 de janeiro à 31 de dezembro de 2021.",
+      "blockClass": "methods-secondary-text"
+    }
+  },
+  "image#methods-image": {
+    "props": {
+      "src": "/arquivos/methods_image.png"
     }
   },
   "list-context.image-list#row-gray": {
@@ -98,8 +138,8 @@
     "props": {
       "images": [
         {
-          "image": "/arquivos/pago.jpg",
-          "mobileImage": "/arquivos/pago.jpg",
+          "image": "/arquivos/credit_cart_icon.svg",
+          "mobileImage": "/arquivos/credit_cart_icon.svg",
           "link": {
             "url": "/test"
           }
@@ -225,7 +265,7 @@
     "props": {
       "title": "circle 1",
       "href": "/",
-      "url": "/arquivos/rebajas.webp",
+      "url": "/arquivos/category_item1.png",
       "blockClass": "logo-circle"
     }
   },
@@ -254,7 +294,7 @@
     "props": {
       "title": "circle 2",
       "href": "/",
-      "url": "/arquivos/belleza.webp",
+      "url": "/arquivos/category_item2.png",
       "blockClass": "logo-circle"
     }
   },
@@ -283,7 +323,7 @@
     "props": {
       "title": "circle 3",
       "href": "/",
-      "url": "/arquivos/salud.jpg",
+      "url": "/arquivos/category_item1.png",
       "blockClass": "logo-circle"
     }
   },
@@ -312,7 +352,7 @@
     "props": {
       "title": "circle 4",
       "href": "/",
-      "url": "/arquivos/electronica.jpg",
+      "url": "/arquivos/category_item3.png",
       "blockClass": "logo-circle"
     }
   },
@@ -341,7 +381,7 @@
     "props": {
       "title": "circle 5",
       "href": "/",
-      "url": "/arquivos/licores.jpg",
+      "url": "/arquivos/category_item4.png",
       "blockClass": "logo-circle"
     }
   },
@@ -370,7 +410,7 @@
     "props": {
       "title": "circle 6",
       "href": "/",
-      "url": "/arquivos/bebe.jpg",
+      "url": "/arquivos/category_item5.png",
       "blockClass": "logo-circle"
     }
   },
@@ -461,7 +501,7 @@
   },
   "image#col-22-images-1": {
     "props": {
-      "src": "/arquivos/pasta.jpg",
+      "src": "/arquivos/home_banner1.png?v=1",
       "blockClass": "banner-img"
     }
   },
@@ -473,7 +513,7 @@
   },
   "image#col-22-images-2": {
     "props": {
-      "src": "/arquivos/baileys.jpg",
+      "src": "/arquivos/home_banner2.png?v=1",
       "blockClass": "banner-img"
     }
   },
@@ -489,7 +529,7 @@
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
-      "text": "**Lo nuevo**",
+      "text": "**Produtos em destaque**",
       "blockClass": "title-surprise"
     }
   },
@@ -504,9 +544,16 @@
   },
   "flex-layout.row#shelf-the-new": {
     "title": "We want surprise you",
-    "children": ["shelf#the-new"],
+    "children": ["list-context.product-list#shelf-home2-the-new"],
     "props": {
       "blockClass": "recommended-you"
+    }
+  },
+  "list-context.product-list#shelf-home2-the-new": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#main-slider-home2"],
+    "props": {
+      "category": "8"
     }
   },
   "shelf#the-new": {
@@ -545,7 +592,7 @@
   },
   "image#col-4-images-1": {
     "props": {
-      "src": "/arquivos/four1.jpg",
+      "src": "/arquivos/home_banner3.png",
       "blockClass": "banner-img"
     }
   },
@@ -557,7 +604,7 @@
   },
   "image#col-4-images-2": {
     "props": {
-      "src": "/arquivos/four2.jpg",
+      "src": "/arquivos/home_banner4.png",
       "blockClass": "banner-img"
     }
   },
@@ -569,7 +616,7 @@
   },
   "image#col-4-images-3": {
     "props": {
-      "src": "/arquivos/four3.jpg",
+      "src": "/arquivos/home_banner5.png",
       "blockClass": "banner-img"
     }
   },
@@ -581,7 +628,7 @@
   },
   "image#col-4-images-4": {
     "props": {
-      "src": "/arquivos/four4.jpg",
+      "src": "/arquivos/home_banner6.png",
       "blockClass": "banner-img"
     }
   },
@@ -658,7 +705,7 @@
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
-      "text": "**Súper Parrillero**",
+      "text": "**Novidades**",
       "blockClass": "title-surprise"
     }
   },
@@ -673,9 +720,16 @@
   },
   "flex-layout.row#shelf-featured-product": {
     "title": "We want surprise you",
-    "children": ["shelf#featured-product"],
+    "children": ["list-context.product-list#shelf-home2-featured-product"],
     "props": {
       "blockClass": "recommended-you"
+    }
+  },
+  "list-context.product-list#shelf-home2-featured-product": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#main-slider-home2"],
+    "props": {
+      "category": "8"
     }
   },
   "shelf#featured-product": {
@@ -713,7 +767,7 @@
   },
   "image#col-3-images-1": {
     "props": {
-      "src": "/arquivos/three1.jpg",
+      "src": "/arquivos/home_banner7.png",
       "blockClass": "banner-img"
     }
   },
@@ -725,7 +779,7 @@
   },
   "image#col-3-images-2": {
     "props": {
-      "src": "/arquivos/three2.jpg",
+      "src": "/arquivos/home_banner8.png",
       "blockClass": "banner-img"
     }
   },
@@ -737,7 +791,7 @@
   },
   "image#col-3-images-3": {
     "props": {
-      "src": "/arquivos/three3.jpg",
+      "src": "/arquivos/home_banner9.png",
       "blockClass": "banner-img"
     }
   },
@@ -799,7 +853,7 @@
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
-      "text": "**Rebajas**",
+      "text": "**Principais Ofertas**",
       "blockClass": "title-surprise"
     }
   },
@@ -814,9 +868,18 @@
   },
   "flex-layout.row#shelf-offers": {
     "title": "Ofertas nuevo",
-    "children": ["list-context.product-list#shelf-home2"],
+    "children": [
+      "list-context.product-list#shelf-home2-featured-product-offers"
+    ],
     "props": {
       "blockClass": "recommended-you"
+    }
+  },
+  "list-context.product-list#shelf-home2-featured-product-offers": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#main-slider-home2"],
+    "props": {
+      "category": "8"
     }
   },
   "shelf#offers": {
@@ -846,17 +909,15 @@
   "slider-layout#main-slider-home2": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
       },
       "infinite": false,
       "showNavigationArrows": "never",
+      "showPaginationDots": "never",
       "blockClass": "main-slider-home2",
-      "title": "Configuração - Slider",
-      "autoplay": {
-        "timeout": "5000"
-      }
+      "title": "Configuração - Slider"
     }
   },
   //BEST SELLER
@@ -871,8 +932,16 @@
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
-      "text": "**Productos recomendados**",
+      "text": "**Mais vendidos**",
       "blockClass": ["title-surprise", "best-seller"]
+    }
+  },
+  "flex-layout.row#custom-end-banner": {
+    "children": ["image#end-banner"]
+  },
+  "image#end-banner": {
+    "props": {
+      "src": "/arquivos/home_banner10.png"
     }
   },
   "flex-layout.row#custom-4-images": {
@@ -910,7 +979,7 @@
   },
   "image#custom-4-images-1": {
     "props": {
-      "src": "/arquivos/1.jpg",
+      "src": "/arquivos/home_recommended1.PNG",
       "blockClass": ["banner-img", "custom-four"]
     }
   },
@@ -922,13 +991,13 @@
   },
   "image#custom-4-images-2": {
     "props": {
-      "src": "/arquivos/2.jpg",
+      "src": "/arquivos/home_recommended2.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-22": {
     "props": {
-      "src": "/arquivos/5.jpg",
+      "src": "/arquivos/home_recommended5.png",
       "blockClass": "banner-img"
     }
   },
@@ -940,13 +1009,13 @@
   },
   "image#custom-4-images-3": {
     "props": {
-      "src": "/arquivos/3.jpg",
+      "src": "/arquivos/home_recommended3.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-33": {
     "props": {
-      "src": "/arquivos/6.jpg",
+      "src": "/arquivos/home_recommended6.png",
       "blockClass": "banner-img"
     }
   },
@@ -958,13 +1027,13 @@
   },
   "image#custom-4-images-4": {
     "props": {
-      "src": "/arquivos/4.jpg",
+      "src": "/arquivos/home_recommended4.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-44": {
     "props": {
-      "src": "/arquivos/7.jpg",
+      "src": "/arquivos/home_recommended7.png",
       "blockClass": "banner-img"
     }
   },
@@ -983,7 +1052,7 @@
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
-      "text": "**Lo más vendido**",
+      "text": "**Outras ofertas**",
       "blockClass": "title-surprise"
     }
   },
@@ -998,9 +1067,16 @@
   },
   "flex-layout.row#shelf-the-best-electronics": {
     "title": "the best electronics row",
-    "children": ["shelf#the-best-electronics"],
+    "children": ["list-context.product-list#shelf-home2-eletronics"],
     "props": {
       "blockClass": "recommended-you"
+    }
+  },
+  "list-context.product-list#shelf-home2-eletronics": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#main-slider-home2"],
+    "props": {
+      "category": "8"
     }
   },
   "shelf#the-best-electronics": {
@@ -1077,7 +1153,7 @@
   },
   "image#service-1": {
     "props": {
-      "src": "/arquivos/icon_1.svg",
+      "src": "/arquivos/icon_shipping_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1086,7 +1162,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Programa tu día y hora de entrega",
+      "text": "Programe seu dia e hora de entrega ",
       "blockClass": "subtitle-service"
     }
   },
@@ -1111,7 +1187,7 @@
   },
   "image#service-2": {
     "props": {
-      "src": "/arquivos/icon_2.svg",
+      "src": "/arquivos/icon_store_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1120,7 +1196,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Recoge sin costo en la tienda de tu preferencia (Pickup)",
+      "text": "Retire sem custo na loja de sua escolha (Pickup)",
       "blockClass": "subtitle-service"
     }
   },
@@ -1145,7 +1221,7 @@
   },
   "image#service-3": {
     "props": {
-      "src": "/arquivos/icon_3.svg",
+      "src": "/arquivos/icon_payment_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1154,7 +1230,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Pago con tarjeta de crédito o débito",
+      "text": "Pagamento por cartão de crédito ou débito",
       "blockClass": "subtitle-service"
     }
   },
@@ -1179,7 +1255,7 @@
   },
   "image#service-4": {
     "props": {
-      "src": "/arquivos/icon_4.svg",
+      "src": "/arquivos/icon_security_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1188,7 +1264,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Compra 100% segura ***space space***",
+      "text": "Compra 100% \n segura",
       "blockClass": "subtitle-service"
     }
   }

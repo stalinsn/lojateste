@@ -38,10 +38,24 @@
     padding-left: 2px;
   }
 }
+.flexRowContent--row-gray {
+  max-width: 775px;
+  background: #f4f4f4;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: center;
+}
+.flexCol--methods-text {
+  margin-right: 20px;
+}
+.flexColChild--row-gray-icon {
+  position: relative;
+  bottom: 5px;
+}
 
 .flexRow--recommended-you {
-  background-color: #fff;
-
   @media screen and (max-width: em(768px)) {
     margin-bottom: 0px;
   }
@@ -571,7 +585,7 @@
     :global(.vtex-store-components-3-x-productBrandName) {
       color: #a5a5a5;
       display: -webkit-box;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -784,7 +798,7 @@
   //right: 0;
   position: absolute;
   z-index: 2;
-  top: -14px;
+  top: -7px;
   left: 0;
 
   :global(.vtex-product-price-1-x-savings) {
@@ -994,7 +1008,7 @@
   font-weight: 600;
   color: #525252;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1313,8 +1327,8 @@
 .flexRow--2-banners,
 .flexRow--top32,
 .flexRow--recommended-you {
-  background-color: #fff !important;
   box-shadow: none !important;
+  background: #fff;
 }
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carrusel-todas-las-marcas) {
@@ -1757,7 +1771,6 @@
 
 .flexRow--row-walmart {
   background-color: #fafafa;
-  margin-top: 8px;
 }
 
 .flexRow--2-banners {
@@ -1769,6 +1782,11 @@
     padding-top: 16px;
     padding-bottom: 16px;
   }
+}
+.flexRowContent--util-links {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .flexRow--four-banners {

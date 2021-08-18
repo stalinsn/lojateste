@@ -169,7 +169,7 @@
       display: block;
       width: 25px;
       height: 25px;
-      background: url(/arquivos/icon_user.svg);
+      background: url(/arquivos/icon_user_header.svg);
       background-size: 25px 26px !important;
       background-position: -25px -156px !important;
       margin: auto 0;
@@ -185,14 +185,14 @@
 
 :global(.vtex-rich-text-0-x-container--mi-tel) {
   &::before {
-    background: url(/arquivos/icon_favorito.svg);
+    background: url(/arquivos/icon_favorite.svg);
     margin: auto 6px auto 0;
     content: "";
     display: block;
     width: 31px;
     height: 24px;
     background-size: 24px 24px !important;
-    background-position: -25px -121px !important;
+    background-position: -25px -118px !important;
 
     @media screen and (max-width: em(1024px)) {
       //margin: auto -30px auto 30px;

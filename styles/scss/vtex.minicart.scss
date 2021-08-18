@@ -10,7 +10,7 @@
   padding-left: 1rem;
 
   &::after {
-    content: "Mi carrito";
+    content: "Meu carrinho";
     font-size: 18px;
     font-family: GothamBook;
 
@@ -76,7 +76,9 @@
     border-right: none;
     height: 32px;
   }
-
+  :global(.vtex-numeric-stepper__minus-button__text) {
+    color: #898989 !important;
+  }
   :global(.vtex-numeric-stepper__plus-button) {
     border-radius: 5px;
     border: 1px solid #dedede;
@@ -125,18 +127,18 @@
   &::before {
     content: "";
     display: block;
-    background: url(/arquivos/icon_cart.svg) no-repeat 50%;
-    background-size: 32px 32px !important;
+    background: url(/arquivos/icon_minicart_header.svg) no-repeat 50%;
+    background-size: 23px 23px !important;
 
     @media screen and (min-width: em(1024px)) {
-      width: 32px;
-      height: 32px;
+      width: 23px;
+      height: 23px;
     }
 
     @media (max-width: em(1023px)) {
-      width: 18px;
-      height: 18px;
-      background-size: 19px 19px !important;
+      width: 23px;
+      height: 23px;
+      background-size: 23px 23px !important;
     }
   }
 
@@ -253,10 +255,11 @@
   padding-right: 0px;
 
   :global(.vtex-button) {
-    background-color: #0075c9;
+    background-color: #ab0535;
+    border-color: #ab0535;
 
     &:hover {
-      border-color: #0075c9;
+      border-color: #ab0535;
     }
   }
 
@@ -266,7 +269,7 @@
     padding-right: 5px;
 
     &::before {
-      content: "Continuar con la compra";
+      content: "Ir para pagamento";
       font-size: 14px;
       font-weight: 600;
       text-transform: none;
@@ -309,7 +312,7 @@
 }
 
 :global(.vtex-minicart-2-x-closeIconContainer) {
-  background-color: #0075c9;
+  background-color: #ab0535;
   position: absolute;
   width: 100%;
   z-index: 3;

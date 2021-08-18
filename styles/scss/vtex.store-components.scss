@@ -137,7 +137,6 @@
 
 .logoImage {
   max-width: 120px;
-  height: 37px;
 
   @media (max-width: em(1024px)) {
     min-width: 130px;
@@ -1088,6 +1087,7 @@
   :global(.vtex-button) {
     background-color: #ab0535 !important;
     color: #fff !important;
+    border-color: #ab0535 !important;
   }
 }
 

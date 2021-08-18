@@ -6,7 +6,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#newsletter",
-      "rich-text#text-notice",
+      // "rich-text#text-notice",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-3-desktop",
       "back-to-top-button"
@@ -27,7 +27,7 @@
       "width": "40%",
       "textAlignment": "RIGHT",
       "textPosition": "RIGHT",
-      "text": "¡Recibe las mejores ofertas y promociones!",
+      "text": "Receba as melhores ofertas e promoções!",
       "blockClass": "txt-news"
     }
   },
@@ -36,9 +36,9 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "placeholder": "Ingresa tu correo",
+      "placeholder": "Informe seu e-mail",
       "hideLabel": true,
-      "submit": "Suscribirme"
+      "submit": "Assinar"
     }
   },
 

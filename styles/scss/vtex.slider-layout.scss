@@ -21,10 +21,9 @@
 }
 
 .sliderLayoutContainer--carousel-brand {
-
-  .paginationDotsContainer{
+  .paginationDotsContainer {
     bottom: 15px;
-    @media screen and (max-width:em( 768px) ){
+    @media screen and (max-width: em( 768px)) {
       bottom: 0px;
     }
   }
@@ -38,8 +37,8 @@
 
 .slide--shelf {
   margin-bottom: 25px;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 //Home
@@ -52,7 +51,7 @@
     padding: 8px;
     box-sizing: border-box;
     background: #fff;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,.16);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
     margin: 1em 0;
     :global(.vtex-product-price-1-x-installments--summary) {
       text-align: left !important;
@@ -61,7 +60,6 @@
 }
 
 .sliderLayoutContainer {
-
   .caretIcon {
     color: #333;
   }
@@ -81,9 +79,23 @@
   }
 }
 
+.sliderLayoutContainer--main-slider-home2 {
+  padding: 20px 0;
+  .sliderTrack--main-slider-home2 {
+    padding: 5px 0;
+    .slide--main-slider-home2 {
+      background: #fff;
+      max-width: 240px;
+      padding: 8px;
+      box-shadow: 0 3px 8px 0 rgb(0 0 0 / 8%);
+    }
+  }
+}
 .slideChildrenContainer {
   :global(.vtex-product-summary-2-x-containerNormal) {
-    background: transparent;
+    box-shadow: none;
+    background: #fff;
+    height: 380px;
     padding: 0 !important;
     :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
       text-align: left !important;
@@ -144,8 +156,8 @@
 .sliderLayoutContainer--footer-slider {
   .sliderTrackContainer--footer-slider {
     max-width: 1090px;
-    @media (min-width: em(1026px) ){
-      padding: .7em 0;
+    @media (min-width: em(1026px)) {
+      padding: 0.7em 0;
     }
   }
   .slide--footer-slider {
@@ -158,9 +170,8 @@
 }
 
 :global(.vtex-slider-layout-0-x-paginationDot--carousel--isActive) {
-  background-color: #FF9E19;
+  background-color: #ff9e19;
 }
-
 
 .sliderLayoutContainer--carousel {
   margin-bottom: 8px;
@@ -202,10 +213,10 @@
 }
 
 :global(.vtex-slider-layout-0-x-paginationDot--carousel-brand--isActive) {
-  background-color: #FF9E19;
+  background-color: #ff9e19;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--row-walmart){
+:global(.vtex-flex-layout-0-x-flexRow--row-walmart) {
   .sliderLeftArrow {
     background-color: #cccccc94 !important;
     padding-top: 3px;
@@ -233,7 +244,7 @@
   }
 }
 
-:global(.vtex-product-summary-2-x-imageNormal){
+:global(.vtex-product-summary-2-x-imageNormal) {
   max-height: 144px !important;
 }
 
@@ -249,7 +260,6 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
 
 .sliderLayoutContainer--carrusel-todas-las-marcas {
   background-color: #fff;

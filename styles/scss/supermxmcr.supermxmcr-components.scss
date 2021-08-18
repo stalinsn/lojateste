@@ -63,6 +63,8 @@
               border-left: none;
               outline: 0 !important;
               height: 32px;
+              padding-right: 50px;
+              color: #898989;
 
               @media screen and (max-width: em(768px)) {
                 width: 2em !important;
@@ -84,6 +86,8 @@
               width: 2em !important;
               height: 32px;
               background-color: #fff;
+              padding-left: 50px;
+              color: #898989;
 
               :global(.vtex-numeric-stepper_minus-button_text) {
                 color: #898989;
@@ -168,7 +172,7 @@
     bottom: 15px;
     position: absolute;
     width: 100%;
-    padding-right: 16px;
+    padding-right: 0;
     @media screen and (max-width: em(1023px)) {
       width: 30% !important;
       bottom: auto !important;
@@ -201,6 +205,7 @@
       :global(.vtex-numeric-stepper__plus-button),
       :global(.vtex-numeric-stepper__minus-button) {
         width: 5em !important;
+        color: #898989;
       }
     }
 
@@ -240,6 +245,8 @@
               border-left: none;
               outline: 0 !important;
               height: 32px;
+              padding-right: 50px;
+              color: #898989;
               @media screen and (max-width: em(768px)) {
                 width: 2em !important;
                 background-color: #fff;
@@ -260,6 +267,8 @@
               width: 2em !important;
               height: 32px;
               background-color: #fff;
+              padding-left: 50px;
+              color: #898989;
               @media screen and (min-width: em(768px)) {
                 width: 2em !important;
                 height: 32px;

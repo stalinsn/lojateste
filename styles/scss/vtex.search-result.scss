@@ -5,7 +5,7 @@
 
   .searchNotFoundOops,
   .searchNotFoundWhatDoIDo {
-    color: #7E1F25;
+    color: #7e1f25;
     text-align: center;
   }
 
@@ -46,7 +46,7 @@
 
 .filterIcon {
   .caretIcon {
-    color: #7E1F25;
+    color: #7e1f25;
   }
 }
 
@@ -61,10 +61,10 @@
 }
 
 .galleryItem {
-  padding: .1em;
+  padding: 0.1em;
   margin-bottom: 1.5em;
   @media screen and (max-width: em(768px)) {
-    margin-bottom: .75em;
+    margin-bottom: 0.75em;
   }
   :global(.vtex-product-summary-2-x-element) {
     :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
@@ -107,12 +107,11 @@
       font-size: 12px;
       color: #525252;
       display: -webkit-box;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
     }
-
   }
 
   :global(.vtex-store-components-3-x-productBrandContainer) {
@@ -170,7 +169,7 @@
 
 .filterClearButtonWrapper {
   :global(.vtex-button) {
-    background: #F6F6F6 !important;
+    background: #f6f6f6 !important;
     color: #3f3f40;
   }
 }
@@ -197,16 +196,16 @@
 }
 
 .filterTemplateOverflow::-webkit-scrollbar-track {
-  background-color: #f4f4f4
+  background-color: #f4f4f4;
 }
 
 .filterTemplateOverflow::-webkit-scrollbar {
   width: 6px;
-  background: #f4f4f4
+  background: #f4f4f4;
 }
 
 .filterTemplateOverflow::-webkit-scrollbar-thumb {
-  background: #0075C9;
+  background: #0075c9;
 }
 
 .filter__container--category-4 {
@@ -242,48 +241,48 @@
     .filterTitle {
       font-size: 0 !important;
       &::before {
-       content: "Vendido por";
-       font-size: 1rem !important;
+        content: "Vendido por";
+        font-size: 1rem !important;
       }
     }
   }
 }
-.accordionFilterContainer--sellername{
+.accordionFilterContainer--sellername {
   .filterAccordionItemBox--sellername {
     .accordionFilterContent {
       .accordionFilterItemTitle {
         font-size: 0 !important;
         &::before {
-        content: "Vendido por";
-        font-size: 14px !important;
+          content: "Vendido por";
+          font-size: 14px !important;
         }
       }
     }
   }
 }
-:global(.vtex-search-result-3-x-searchResultContainer){
-  :global(.vtex-flex-layout-0-x-flexRow--conteudo){
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  :global(.vtex-flex-layout-0-x-flexRow--conteudo) {
     margin-left: 2rem;
     margin-bottom: 2rem;
   }
-  :global(.vtex-search-result-3-x-gallery){
-    :global(.vtex-search-result-3-x-galleryItem){
-      :global(.vtex-product-summary-2-x-container){
-        :global(.vtex-product-summary-2-x-clearLink){
-          :global(.vtex-product-summary-2-x-element){
-            :global(.vtex-product-summary-2-x-imageContainer){
+  :global(.vtex-search-result-3-x-gallery) {
+    :global(.vtex-search-result-3-x-galleryItem) {
+      :global(.vtex-product-summary-2-x-container) {
+        :global(.vtex-product-summary-2-x-clearLink) {
+          :global(.vtex-product-summary-2-x-element) {
+            :global(.vtex-product-summary-2-x-imageContainer) {
               max-height: 200px;
               width: auto;
-              :global(.vtex-product-summary-2-x-imageNormal){
+              :global(.vtex-product-summary-2-x-imageNormal) {
                 max-height: 200px !important;
               }
             }
-            :global(.vtex-product-summary-2-x-nameContainer){
+            :global(.vtex-product-summary-2-x-nameContainer) {
               margin-top: 15px;
               height: auto;
               padding-bottom: 0;
-              :global(.vtex-product-summary-2-x-productBrand){
-                @media screen and (max-width: em(1024px)){
+              :global(.vtex-product-summary-2-x-productBrand) {
+                @media screen and (max-width: em(1024px)) {
                   height: 35px;
                 }
                 height: 47px;
@@ -296,5 +295,3 @@
     }
   }
 }
-
-

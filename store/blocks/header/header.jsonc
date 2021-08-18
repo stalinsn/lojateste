@@ -135,7 +135,11 @@
     }
   },
   "flex-layout.row#desktop-utils-links": {
-    "children": ["rich-text#Tel", "rich-text#mi-tienda", "login"]
+    "children": ["rich-text#Tel", "rich-text#mi-tienda", "login"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "util-links"
+    }
   },
   "flex-layout.row#desktop-minicart-links": {
     "children": ["minicart.v2", "minicart-totalizer"]
@@ -151,7 +155,7 @@
   "rich-text#mi-tienda": {
     "title": "Header - Tiendas",
     "props": {
-      "text": "Pedidos",
+      "text": "[Pedidos](/account#/orders)",
       "blockClass": "mi-tienda"
     }
   },
@@ -240,7 +244,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/logo_masxmenos.svg",
+      "url": "/arquivos/header-logo.svg",
       "width": "180"
     }
   },
@@ -325,7 +329,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/logo_masxmenos.svg",
+      "url": "/arquivos/header-logo.svg",
       "width": "120"
     }
   },

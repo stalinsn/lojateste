@@ -1,18 +1,17 @@
 .openIconContainer {
-  &::after{
-    font-weight: normal!important;
-    font-size: 13px!important;
+  &::after {
+    font-size: 13px !important;
     top: 45px !important;
     font-family: GothamBook;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 769px){
+@media screen and (min-width: 768px) and (max-width: 769px) {
   .overlay {
     z-index: auto;
   }
 }
-@media screen and (min-width: 780px) and (max-width: 1024px){
+@media screen and (min-width: 780px) and (max-width: 1024px) {
   .drawer {
     padding-top: 2em;
   }
@@ -20,4 +19,3 @@
     display: block;
   }
 }
-
