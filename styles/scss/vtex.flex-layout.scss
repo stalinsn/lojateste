@@ -522,6 +522,7 @@
   box-shadow: none !important;
   padding-left: 16px;
   padding-right: 16px;
+  background: #f4f4f4;
 }
 
 .flexRow--mobile-subcategory {
@@ -3144,12 +3145,6 @@
   }
 }
 
-.flexRow--minicart-footer {
-  .flexCol {
-    margin-bottom: -35px;
-  }
-}
-
 .flexRowContent--modal-covid-row,
 .flexRowContent--modal-super-parrilleros-row {
   .stretchChildrenWidth {
@@ -3265,12 +3260,6 @@
 
   .flexRowContent {
     margin-bottom: 0px;
-  }
-}
-
-.flexRow--minicart-footer {
-  .flexCol {
-    margin-bottom: -35px;
   }
 }
 

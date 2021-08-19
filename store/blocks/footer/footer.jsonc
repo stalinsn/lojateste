@@ -253,7 +253,7 @@
   },
 
   "flex-layout.col#newsletter": {
-    "children": ["newsletter#custom", "rich-text#text-notice"],
+    "children": ["newsletter#custom"],
     "props": {
       "fullWidth": true,
       "marginTop": "8",
@@ -265,10 +265,10 @@
 
   "newsletter#custom": {
     "props": {
-      "label": "¡Recibe las mejores ofertas y promociones!",
+      "label": "Receba as melhores ofertas e promoções!",
       "placeholder": "E-mail",
       "blockClass": "newsletter-custom",
-      "submit": "Suscribirme"
+      "submit": "Assinar"
     }
   },
   "flex-layout.row#2-footer-mobile": {
@@ -308,13 +308,13 @@
 
   "rich-text#question-title-know": {
     "props": {
-      "text": "Conocenos",
+      "text": "Institucional",
       "blockClass": "title-menu-mobile"
     }
   },
 
   "disclosure-content#menu-know": {
-    "children": ["vtex.menu@2.x:menu#footer-menu1-mobile"]
+    "children": ["vtex.menu@2.x:menu#footer-menu1"]
   },
 
   "disclosure-layout#footer-box-menu-help": {
@@ -330,7 +330,7 @@
 
   "rich-text#question-title-help": {
     "props": {
-      "text": "¿Necesitas ayuda?",
+      "text": "Central de ajuda",
       "blockClass": "title-menu-mobile"
     }
   },
@@ -351,7 +351,7 @@
 
   "rich-text#question-title-help": {
     "props": {
-      "text": "¿Necesitas ayuda?",
+      "text": "Central de ajuda",
       "blockClass": "title-menu-mobile"
     }
   },
@@ -373,7 +373,7 @@
 
   "rich-text#question-title-services": {
     "props": {
-      "text": "¿Necesitas ayuda?",
+      "text": "Central de ajuda",
       "blockClass": "title-menu-mobile"
     }
   },
@@ -394,7 +394,7 @@
 
   "rich-text#question-title-services": {
     "props": {
-      "text": "Servicios",
+      "text": "Atendimento",
       "blockClass": "title-menu-mobile"
     }
   },

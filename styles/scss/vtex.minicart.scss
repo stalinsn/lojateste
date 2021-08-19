@@ -276,7 +276,12 @@
     }
   }
 }
-
+.childrenContainer {
+  height: 100vh;
+  .minicartSideBarContentWrapper {
+    height: 100vh !important;
+  }
+}
 :global(.vtex-checkout-summary-0-x-summarySmallContent) {
   :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
     color: #0075c9;
@@ -285,7 +290,8 @@
 
 :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
   :global(.vtex-checkout-summary-0-x-price) {
-    color: #0075c9 !important;
+    color: #525252 !important;
+    font-weight: bold;
   }
 }
 

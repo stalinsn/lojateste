@@ -211,8 +211,8 @@
         "type": "internal",
         //"href": "/",
         "noFollow": false,
-        "tagTitle": "Contáctanos al 800-8000-722",
-        "text": "Contáctanos al 800-8000-722"
+        "tagTitle": "Entre em contato (71) 9990-16180 0800 000 00 000",
+        "text": "Entre em contato (71) 9990-16180 0800 000 00 000"
       }
     }
   },
@@ -405,8 +405,8 @@
       "menu-item#servicios-1",
       "menu-item#servicios-2",
       "menu-item#servicios-3",
-      "menu-item#servicios-4",
-      "menu-item#servicios-5"
+      "menu-item#servicios-4"
+      // "menu-item#servicios-5"
       // "menu-item#servicios-6"
     ]
   },

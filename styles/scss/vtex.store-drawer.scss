@@ -1,25 +1,33 @@
 @import "./references";
 
 .menuIcon {
-    color: #333;
+  color: #333;
 }
-
+.closeIconButton--minicart-close {
+  width: 100%;
+  border: 1px solid #ab0535;
+  color: #ab0535;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
 .drawer--drawer-mac {
-    background: #000;
+  background: #000;
+  color: #fff;
+  :global(.vtex-menu-2-x-styledLinkContent) {
     color: #fff;
-    :global(.vtex-menu-2-x-styledLinkContent) {
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 25px;
-        line-height: 40px;
-        &:hover {
-            border-bottom: 2px solid #fff;
-        }
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 40px;
+    &:hover {
+      border-bottom: 2px solid #fff;
     }
-    .closeIcon--drawer-mac {
-        color: #fff;
-    }
-    :global(.vtex-menu-2-x-accordionIcon) {
-        color: #fff;
-    }
+  }
+  .closeIcon--drawer-mac {
+    color: #fff;
+  }
+  :global(.vtex-menu-2-x-accordionIcon) {
+    color: #fff;
+  }
 }
