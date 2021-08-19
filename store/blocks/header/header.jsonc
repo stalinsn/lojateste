@@ -48,10 +48,64 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["flex-layout.col#left", "flex-layout.col#right"],
+    "children": [
+      "flex-layout.row#contact-and-brands",
+      "flex-layout.row#timecount"
+    ],
     "props": {
       "fullWidth": "true",
       "blockClass": "headertop"
+    }
+  },
+  "flex-layout.row#timecount": {
+    "children": ["rich-text#timecount"]
+  },
+  "flex-layout.row#contact-and-brands": {
+    "children": ["flex-layout.col#right", "flex-layout.row#rightbrands-2"],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#rightbrands-2": {
+    "children": [
+      "rich-text#brands1",
+      "rich-text#brands2",
+      "rich-text#brands3",
+      "rich-text#brands4"
+    ],
+    "props": {
+      "blockClass": "brands-container",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#timecount": {
+    "props": {
+      "text": "Você tem **30min**. para finalizar a compra pelo **EXPRESS**, e receber hoje.",
+      "blockClass": "timecount"
+    }
+  },
+  "rich-text#brands1": {
+    "props": {
+      "text": "[Bretas](/)",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brands2": {
+    "props": {
+      "text": "[Mercantil]()",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brands3": {
+    "props": {
+      "text": "[Perini]()",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brands4": {
+    "props": {
+      "text": "[Prezunic]()",
+      "blockClass": "brands"
     }
   },
 
@@ -97,7 +151,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Contáctanos al 800-8000-722",
+      "text": "Ligue para: (71) 9821-54016",
       "blockClass": "txt-first-head"
     }
   },
@@ -311,7 +365,7 @@
     "title": "Header - Búsqueda",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "placeholder": "¿Qué estás buscando?",
+      "placeholder": "O que você está procurando?",
       "blockClass": "search-mobile-walmart",
       "openAutocompleteOnFocus": true,
       "maxSuggestedProducts": 3,

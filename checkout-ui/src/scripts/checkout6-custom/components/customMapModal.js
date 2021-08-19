@@ -98,8 +98,14 @@ function initMap() {
     marker.addListener("click", () => {
       selectedStore = s;
       infowindow.setContent(`
-            <div class="store-title">${s.pickupOnly ? '<span style="font-weight: 100; font-size: smaller;">(Sólo Pickup)</span>' : ''}</div>
-            <div class="c-gray elipsis">${s.provincia}, ${s.canton}, ${s.distrito}</div>
+            <div class="store-title">${
+              s.pickupOnly
+                ? '<span style="font-weight: 100; font-size: smaller;">(Sólo Pickup)</span>'
+                : ""
+            }</div>
+            <div class="c-gray elipsis">${s.provincia}, ${s.canton}, ${
+        s.distrito
+      }</div>
             <div class="c-gray elipsis">${s.address}</div>
           `);
       infowindow.open(map, marker);
@@ -116,8 +122,14 @@ function initMap() {
     store.addEventListener("click", () => {
       selectedStore = s;
       infowindow.setContent(`
-            <div class="store-title">${s.pickupOnly ? '<span style="font-weight: 100; font-size: smaller;">(Sólo Pickup)</span>' : ''}</div>
-            <div class="c-gray elipsis">${s.provincia}, ${s.canton}, ${s.distrito}</div>
+            <div class="store-title">${
+              s.pickupOnly
+                ? '<span style="font-weight: 100; font-size: smaller;">(Sólo Pickup)</span>'
+                : ""
+            }</div>
+            <div class="c-gray elipsis">${s.provincia}, ${s.canton}, ${
+        s.distrito
+      }</div>
             <div class="c-gray elipsis">${s.address}</div>
           `);
       infowindow.open(map, marker);
@@ -222,7 +234,7 @@ const ctaWrapperId = "customMapModalCtaWrapper";
 const ctaId = "customMapModalCta";
 const cta = `
 <div id="${ctaWrapperId}" class="customMapModalCtaWrapper">
-    <button id="${ctaId}" class="btn btn-primary customMapModalCta">Selecciona tu tienda</button>
+    <button id="${ctaId}" class="btn btn-primary customMapModalCta">Onde você está?</button>
 </div>
 `;
 const ctaSibling = ".vtex-omnishipping-1-x-ask.ask-for-geolocation";

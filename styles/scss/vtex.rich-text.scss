@@ -33,10 +33,39 @@
 .paragraph--methods-main-text {
   margin: 0;
   font-size: 21px;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 .paragraph--methods-secondary-text {
   margin: 0;
   font-size: 12px;
+}
+.link--brands {
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #fdbb30;
+  }
+}
+.paragraph--timecount {
+  color: #fff;
+  font-weight: bold;
+  .strong--timecount {
+    color: #fdbb30;
+  }
+}
+.container--timecount {
+  display: flex;
+  justify-content: flex-end;
+}
+.container--txt-first-head {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container--brands {
+  padding-right: 24px;
 }
 .strong--methods-main-text {
   font-size: 25px;
@@ -568,9 +597,8 @@
 .paragraph--txt-first-head {
   margin-top: 11px;
   margin-bottom: 11px;
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
-  font-weight: 700;
 }
 
 .paragraph--txt-news {
@@ -786,6 +814,7 @@
 
   @media screen and (max-width: 40em) {
     line-height: 15px;
+    text-align: center;
   }
 }
 

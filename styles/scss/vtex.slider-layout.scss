@@ -88,6 +88,9 @@
       max-width: 240px;
       padding: 8px;
       box-shadow: 0 3px 8px 0 rgb(0 0 0 / 8%);
+      @media screen and (max-width: 768px) {
+        max-width: 200px;
+      }
     }
   }
 }
