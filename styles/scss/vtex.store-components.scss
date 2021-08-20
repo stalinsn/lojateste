@@ -67,7 +67,7 @@
   :global(.vtex-input-prefix__group) {
     border: none;
   }
-  :first-child {
+  :global(.vtex-styleguide-9-x-input) {
     margin-top: 0px;
     width: 100%;
     height: 40px;

@@ -369,7 +369,7 @@
       "blockClass": "search-mobile-walmart",
       "openAutocompleteOnFocus": true,
       "maxSuggestedProducts": 3,
-      "width": "33%"
+      "autocompleteFullWidth": true
     }
   },
   "autocomplete-result-list.v2": {

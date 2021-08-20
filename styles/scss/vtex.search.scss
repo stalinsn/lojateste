@@ -1,46 +1,39 @@
 @import "./references";
 
 @media (min-width: em(1026px)) {
-    .suggestionListWrapper {
-        display: flex;
-        align-items: flex-end;
-    }
+  .suggestionListWrapper {
+    display: flex;
+    align-items: flex-end;
+  }
 }
 
 .tileList {
-    :global(.vtex-product-summary-2-x-containerNormal) {
-        background: #fff;
-        :global(.vtex-stack-layout-0-x-stackItem--quickview) {
-            display: none !important;
-        }
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    background: #fff;
+    :global(.vtex-stack-layout-0-x-stackItem--quickview) {
+      display: none !important;
     }
+  }
 }
 
 .didYouMeanTerm {
-    :first-child {
-        color: $primary;
-    }
+  :first-child {
+    color: $primary;
+  }
 }
 
 .didYouMeanPrefix {
-    margin-bottom: 1em;
-    display: inline-block;
-    margin-right: .3em;
+  margin-bottom: 1em;
+  display: inline-block;
+  margin-right: 0.3em;
 }
 
 .tileListItem {
-    :global(.vtex-product-summary-2-x-element)
+  :global(.vtex-product-summary-2-x-element)
     :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
-        text-align: left !important;
-        &::after {
-            margin-top: 0;
-        }
-    }
-}
-:global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
-  :global(.vtex-search-2-x-tileListList){
-    :global(.vtex-product-summary-2-x-containerNormal) {
-      height: 420px;
+    text-align: left !important;
+    &::after {
+      margin-top: 0;
     }
   }
 }
