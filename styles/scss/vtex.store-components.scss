@@ -8,29 +8,6 @@
   text-decoration: underline;
 }
 
-:global(.vtex-search-1-x-biggy-autocomplete-wrapper),
-:global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
-  width: 50vw;
-  :global(.vtex-search-1-x-biggy-autocomplete),
-  :global(.vtex-search-2-x-biggy-autocomplete) {
-    left: 0;
-    @media screen and (min-width: em(1301px)) {
-      left: 18rem;
-      top: 1px;
-    }
-    @media screen and (min-width: em(1025px)) and (max-width: em(1300px)) {
-      left: 15rem;
-      top: 1px;
-    }
-  }
-  @media screen and (max-width: em(1024px)) {
-    width: 75vw;
-  }
-  @media screen and (max-width: em(769px)) {
-    width: 95vw;
-  }
-}
-
 .searchBarContainer {
   width: 580px;
   padding: 0 !important;
@@ -844,18 +821,6 @@
 :global(.vtex-store-components-3-x-newsletter) {
   :global(.vtex-store-components-3-x-container) {
     margin-left: 20px;
-  }
-}
-
-:global(.vtex-store-components-3-x-autoCompleteOuterContainer--search-mobile-walmart) {
-  @media screen and (max-width: em(1024px)) {
-    border: 2px solid #52525226 !important;
-    margin-top: 5px !important;
-    border-radius: 5px;
-    box-shadow: 0 3px 8px 0 rgb(135 139 169 / 20%);
-    :global(.vtex-styleguide-9-x-input) {
-      background-color: #fafafa;
-    }
   }
 }
 

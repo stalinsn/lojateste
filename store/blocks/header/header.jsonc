@@ -367,16 +367,17 @@
     "props": {
       "placeholder": "O que você está procurando?",
       "blockClass": "search-mobile-walmart",
+      "__unstableProductOriginVtex": true,
+      "width": "grow",
+      "customSearchPageUrl": "/search?_query=${term}",
       "openAutocompleteOnFocus": true,
-      "maxSuggestedProducts": 3,
-      "autocompleteFullWidth": true
+      "autocompleteAlignment": "left"
     }
   },
   "autocomplete-result-list.v2": {
     "blocks": ["product-summary.shelf"],
     "props": {
-      "maxSuggestedProducts": 3
-      // "__unstableProductOriginVtex": true
+      "maxSuggestedProducts": 2
     }
   },
   "logo#mobile": {

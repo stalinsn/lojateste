@@ -86,6 +86,7 @@
     "children": [
       "flex-layout.row#slider-product",
       "flex-layout.row#searchbread",
+      "flex-layout.row#suggestion",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -171,7 +172,7 @@
 
   "flex-layout.col#content": {
     "children": [
-      "sub-categories",
+      // "sub-categories",
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
 

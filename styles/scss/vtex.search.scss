@@ -37,3 +37,43 @@
     }
   }
 }
+.biggy-autocomplete-wrapper {
+  width: 784px;
+  @media screen and (max-width: 768px) {
+    width: calc(100vw - 16px);
+  }
+  .biggy-autocomplete {
+    box-shadow: none;
+    .itemListTitle {
+      color: #525252;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: initial;
+    }
+    .itemListPrefix {
+      color: #525252;
+      font-weight: 400;
+    }
+    .itemListLinkTitle {
+      color: #525252;
+    }
+    .itemListSubItemLink {
+      padding: 0 20px;
+    }
+    .tileListItem {
+      max-width: 240px;
+      box-sizing: content-box;
+      padding-right: 20px;
+    }
+    .itemList--suggestion {
+      max-width: 200px;
+    }
+    .tileListList {
+      justify-content: left;
+      padding: 0 20px;
+    }
+    .tileList {
+      border: 0;
+    }
+  }
+}

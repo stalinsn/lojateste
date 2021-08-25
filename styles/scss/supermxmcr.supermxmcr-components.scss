@@ -169,14 +169,13 @@
         }
       }
     }
-    bottom: 15px;
-    position: absolute;
+    // bottom: 15px;
+    // position: absolute;
     width: 100%;
     padding-right: 0;
     @media screen and (max-width: em(1023px)) {
       width: 30% !important;
       bottom: auto !important;
-      margin-top: 400px;
       justify-content: center;
       .kg,
       .unidad {
@@ -188,9 +187,9 @@
     }
     @media screen and (max-width: em(690px)) {
       width: 46% !important;
-      margin-top: 340px;
+      // margin-top: 340px;
       :global(.vtex-button):last-child {
-        margin-top: 50px;
+        // margin-top: 50px;
       }
     }
     :global(.vtex-button) {
@@ -344,9 +343,9 @@
 
     .container {
       @media screen and (max-width: em(1023px)) {
-        bottom: 45px !important;
-        width: 83% !important;
-        position: absolute;
+        bottom: 25px !important;
+        width: 100% !important;
+        // position: absolute;
         justify-content: center;
       }
     }

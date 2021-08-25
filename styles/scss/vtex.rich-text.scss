@@ -31,7 +31,9 @@
   text-transform: lowercase;
 }
 .container--title-menu-footer {
-  display: none;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 .paragraph--methods-main-text {
   margin: 0;
