@@ -623,10 +623,44 @@
       }
     }
   }
-
+  .flexRowContent--flags-pdp {
+    margin-left: 30px;
+    :global(.vtex-product-price-1-x-savings--alt-marker) {
+      padding: 7px 12px;
+      background: #2faf00;
+      color: #fff;
+      border-radius: 16px;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 768px) {
+      margin-left: 15px;
+      :global(.vtex-product-price-1-x-savings--alt-marker) {
+        width: auto;
+      }
+    }
+  }
+  .flexRowContent--price-details {
+    margin-top: 10px;
+    .stretchChildrenWidth {
+      width: auto !important;
+      &:last-child {
+        display: flex;
+        align-self: flex-end;
+      }
+    }
+    :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
+      width: auto !important;
+    }
+    :global(.vtex-store-components-3-x-listPrice) {
+      width: auto !important;
+    }
+    @media screen and (max-width: 768px) {
+      display: flex !important;
+    }
+  }
   :global(.vtex-store-components-3-x-productNameContainer) {
     :global(.vtex-store-components-3-x-productBrand) {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: bold;
       color: #525252;
     }
@@ -700,17 +734,18 @@
   }
 
   :global(.vtex-store-components-3-x-priceContainer) {
-    margin: 5px 0px 5px 0px;
+    margin: 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
 
     :global(.vtex-store-components-3-x-sellingPriceContainer) {
       :global(.vtex-store-components-3-x-currencyContainer--summary) {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 600;
         @media screen and (max-width: 40em) {
-          font-size: 36px !important;
+          font-size: 24px !important;
         }
       }
     }
@@ -730,7 +765,6 @@
       color: #525252;
       padding: 0;
       font-size: 24px;
-      line-height: 1.5;
     }
     :global(.vtex-store-components-3-x-listPriceValue) {
       padding: 0;
@@ -1076,7 +1110,7 @@
 }
 
 :global(.vtex-shelf-1-x-dot--isActive) {
-  background-color: #0075c9;
+  background-color: #ed1d25;
 }
 
 .flexRow--row-departament {
@@ -1162,7 +1196,7 @@
   :global(.vtex-tab-layout-0-x-listItemActive) {
     margin-bottom: 0px;
     margin-left: 0px;
-    border-bottom: 2px solid #0075c9;
+    border-bottom: 2px solid #ed1d25;
   }
 
   :global(.vtex-tab-layout-0-x-container--tab-home-shelfs) {
@@ -1887,8 +1921,8 @@
   //border-color: #0069B4;
 
   :global(.vtex-button) {
-    background-color: #0075c9;
-    border-color: #0075c9;
+    background-color: #ed1d25;
+    border-color: #ed1d25;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
@@ -2237,7 +2271,7 @@
 }
 
 .flexRow--2-footer-mobile {
-  background-color: #0075c9;
+  background-color: #ed1d25;
 }
 
 .flexCol--power-row-mobile {
@@ -2349,7 +2383,7 @@
     :global(.vtex-rich-text-0-x-paragraph--como-comprar-btn-comprar) {
       margin: 0;
       :first-child {
-        background: #0075c9 0% 0% no-repeat padding-box;
+        background: #ed1d25 0% 0% no-repeat padding-box;
         border-radius: 5px;
         line-height: 40px;
         max-width: 312px;
@@ -2469,7 +2503,7 @@
     margin-top: 2rem !important;
     margin-bottom: 2rem;
     :first-child {
-      color: #ab0535;
+      color: #ed1d25;
     }
   }
 
@@ -2560,7 +2594,7 @@
   }
   :global(.vtex-rich-text-0-x-paragraph--tarjeta-credito-btn-adquira) {
     :first-child {
-      background: #0075c9 0% 0% no-repeat padding-box;
+      background: #ed1d25 0% 0% no-repeat padding-box;
       border-radius: 5px;
       line-height: 40px;
       max-width: 312px;
@@ -2588,7 +2622,7 @@
     //font-weight: bold;
   }
   :global(.vtex-rich-text-0-x-paragraph--tarjeta-credito-title-item) {
-    color: #ab0535;
+    color: #ed1d25;
     //font-weight: bold;
   }
   :global(.vtex-store-components-3-x-imageElement--tarjeta-credito-plus) {
@@ -3268,6 +3302,9 @@
   .stretchChildrenWidth {
     justify-content: end;
   }
+}
+.flexColChild--stack {
+  height: auto !important;
 }
 
 .flexColChild--col-covid {

@@ -29,7 +29,7 @@ header
   :global(.vtex-rich-text-0-x-paragraph--step-number-header) {
     color: #fff;
     border-radius: 100px;
-    background-color: #0075C9;
+    background-color: #ed1d25;
     text-align: center;
     font-weight: bold;
     width: 24px;
@@ -107,7 +107,7 @@ header
     justify-content: space-between;
     align-items: center;
     height: 64px;
-    background-color: #0075C9;
+    background-color: #ed1d25;
     color: #666;
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--cell-header-container) {
@@ -116,8 +116,6 @@ header
     @media (max-width: em(768px)) {
       padding-left: 10px;
     }
-
-
   }
 
   :global(.vtex-flex-layout-0-x-flexRowContent--cell-header-container-3) {
@@ -171,7 +169,7 @@ header
         position: absolute;
         width: 100%;
         height: 2px;
-        background: #0075C9;
+        background: #ed1d25;
         bottom: -16px;
       }
     }

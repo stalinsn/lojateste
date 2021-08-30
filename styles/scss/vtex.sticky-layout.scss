@@ -3,330 +3,333 @@
     margin-top: 0px;
   }
 }
-
+.container--sticky-header-3 {
+  :global(.vtex-flex-layout-0-x-flexRow--headertop) {
+    // display: none;
+  }
+}
 /**Covid**/
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp) {
-	position: relative;
+  position: relative;
 
-	:global(.vtex-flex-layout-0-x-flexCol--covid-col-box-lp-wrapper) {
-		position: relative;
-		z-index: 0;
-		overflow: hidden;
-		line-height: 0;
+  :global(.vtex-flex-layout-0-x-flexCol--covid-col-box-lp-wrapper) {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    line-height: 0;
 
-		:global(.vtex-flex-layout-0-x-flexColChild--covid-col-box-lp-wrapper) {
-			justify-content: center;
-			display: flex;
-			align-items: center;
+    :global(.vtex-flex-layout-0-x-flexColChild--covid-col-box-lp-wrapper) {
+      justify-content: center;
+      display: flex;
+      align-items: center;
 
-			:global(.vtex-rich-text-0-x-paragraph) {
-				margin: 0;
-				padding: 0;
-				line-height: 0.5;
-				color: #FFC220;
-				font-size: 8.5em;
-				font-weight: 600;
+      :global(.vtex-rich-text-0-x-paragraph) {
+        margin: 0;
+        padding: 0;
+        line-height: 0.5;
+        color: #ffc220;
+        font-size: 8.5em;
+        font-weight: 600;
 
-        @media screen and (max-width: 1024px){
+        @media screen and (max-width: 1024px) {
           font-size: 4em;
           padding-top: 15px;
         }
-			}
+      }
 
-			:global(.vtex-rich-text-0-x-paragraph--acciones-box-title-blue) {
-				color: #0071CE;
-				font-weight: 600;
-				font-size: 4em;
-        @media screen and (max-width: 1024px){
+      :global(.vtex-rich-text-0-x-paragraph--acciones-box-title-blue) {
+        color: #0071ce;
+        font-weight: 600;
+        font-size: 4em;
+        @media screen and (max-width: 1024px) {
           font-size: 2em;
         }
-			}
-		}
-	}
+      }
+    }
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-blue) {
-	position: relative;
-	z-index: 0;
-	background: #0075C9;
-	padding: 30px 0;
+  position: relative;
+  z-index: 0;
+  background: #ed1d25;
+  padding: 30px 0;
 
-	:global(.vtex-flex-layout-0-x-flexColChild--covid-col-bg-text) {
-		display: flex;
+  :global(.vtex-flex-layout-0-x-flexColChild--covid-col-bg-text) {
+    display: flex;
 
-		:global(.vtex-rich-text-0-x-paragraph) {
-			color: #fff;
-			padding: 0 15px;
-		}
+    :global(.vtex-rich-text-0-x-paragraph) {
+      color: #fff;
+      padding: 0 15px;
+    }
 
-		:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-a) {
-			font-size: 32px;
-			font-weight: 600;
-			margin: 0;
-			line-height: inherit;
+    :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-a) {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0;
+      line-height: inherit;
 
-      @media screen and (max-width: 1024px){
+      @media screen and (max-width: 1024px) {
         font-size: 1.8em;
       }
-		}
+    }
 
-		:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-b) {
-			color: #fff;
-			font-size: 21px;
-			font-weight: 400;
-		}
-	}
+    :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-b) {
+      color: #fff;
+      font-size: 21px;
+      font-weight: 400;
+    }
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-white) {
-	position: relative;
-	z-index: 0;
-	background: #fff;
-	padding: 30px 0;
+  position: relative;
+  z-index: 0;
+  background: #fff;
+  padding: 30px 0;
 
-	:global(.vtex-flex-layout-0-x-flexColChild--covid-col-bg-text) {
-		display: flex;
+  :global(.vtex-flex-layout-0-x-flexColChild--covid-col-bg-text) {
+    display: flex;
 
-		:global(.vtex-rich-text-0-x-paragraph) {
-			padding: 0 15px;
-		}
+    :global(.vtex-rich-text-0-x-paragraph) {
+      padding: 0 15px;
+    }
 
-		:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-a) {
-			color: #0071CE;
-			font-size: 32px;
-			font-weight: 600;
-			margin: 0;
-			line-height: inherit;
+    :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-a) {
+      color: #0071ce;
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0;
+      line-height: inherit;
 
-      @media screen and (max-width: 1024px){
+      @media screen and (max-width: 1024px) {
         font-size: 1.8em;
       }
-		}
+    }
 
-		:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-b) {
-			color: #000;
-			font-size: 21px;
-			font-weight: 400;
-		}
-	}
+    :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-b) {
+      color: #000;
+      font-size: 21px;
+      font-weight: 400;
+    }
+  }
 
-	:global(.vtex-flex-layout-0-x-flexColChild--covid-col-box-lp-wrapper) {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+  :global(.vtex-flex-layout-0-x-flexColChild--covid-col-box-lp-wrapper) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-bg-003) {
-	position: relative;
-	z-index: 0;
-	background: rgb(255 194 32 / 15%);
-	padding: 30px 0;
+  position: relative;
+  z-index: 0;
+  background: rgb(255 194 32 / 15%);
+  padding: 30px 0;
 
-	:global(.vtex-flex-layout-0-x-flexColChild--covid-col-bg-text) {
-		display: flex;
+  :global(.vtex-flex-layout-0-x-flexColChild--covid-col-bg-text) {
+    display: flex;
 
-		:global(.vtex-rich-text-0-x-paragraph) {
-			padding: 0 15px;
-		}
+    :global(.vtex-rich-text-0-x-paragraph) {
+      padding: 0 15px;
+    }
 
-		:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-a) {
-			color: #0071CE;
-			font-size: 32px;
-			font-weight: 600;
-			margin: 0;
-			line-height: inherit;
+    :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-a) {
+      color: #0071ce;
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0;
+      line-height: inherit;
 
-      @media screen and (max-width: 1024px){
+      @media screen and (max-width: 1024px) {
         font-size: 1.8em;
       }
-		}
+    }
 
-		:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-b) {
-			color: #000;
-			font-size: 21px;
-			font-weight: 400;
-		}
-	}
+    :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-b) {
+      color: #000;
+      font-size: 21px;
+      font-weight: 400;
+    }
+  }
 
-	:global(.vtex-flex-layout-0-x-flexColChild--covid-col-box-lp-wrapper) {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+  :global(.vtex-flex-layout-0-x-flexColChild--covid-col-box-lp-wrapper) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-bg-00f) {
-	padding: 60px 0 15px 0;
-	background: #fff;
+  padding: 60px 0 15px 0;
+  background: #fff;
 
-	:global(.vtex-flex-layout-0-x-flexColChild--covid-col-box-lp-wrapper) {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+  :global(.vtex-flex-layout-0-x-flexColChild--covid-col-box-lp-wrapper) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-bg-00title) {
-	position: relative;
-	background: #fff;
+  position: relative;
+  background: #fff;
 
-	:global(.vtex-rich-text-0-x-wrapper--covid-col-bg-text-title) {
-		font-size: 5em;
-		font-weight: 600;
-		color: #FFC220;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+  :global(.vtex-rich-text-0-x-wrapper--covid-col-bg-text-title) {
+    font-size: 5em;
+    font-weight: 600;
+    color: #ffc220;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @media screen and (max-width: 1024px) {
       font-size: 1.8em;
     }
 
-		:global(.vtex-rich-text-0-x-paragraph) {
-			padding: 0;
-			margin: 0;
-			line-height: inherit;
-		}
+    :global(.vtex-rich-text-0-x-paragraph) {
+      padding: 0;
+      margin: 0;
+      line-height: inherit;
+    }
 
-		:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-assets) {
-			color: #0075C9;
-			margin-left: 15px;
-		}
-	}
+    :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-assets) {
+      color: #ed1d25;
+      margin-left: 15px;
+    }
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-bg-00content) {
-	position: relative;
-	background: #fff;
+  position: relative;
+  background: #fff;
 
-	:global(.vtex-rich-text-0-x-container--covid-col-bg-text-content){
-		background: #FFFFFF 0% 0% no-repeat padding-box;
-		box-shadow: -5.39px 2px 6px #0000001a;
-		border-radius: 34px;
-		opacity: 1;
-		margin: 20px;
+  :global(.vtex-rich-text-0-x-container--covid-col-bg-text-content) {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: -5.39px 2px 6px #0000001a;
+    border-radius: 34px;
+    opacity: 1;
+    margin: 20px;
 
-		:global(.vtex-rich-text-0-x-wrapper--covid-col-bg-text-content) {
-			padding: 25px 50px;
-			width: 100%;
-			height: 280px;
-			@media screen and (max-width: 1024px){
-				padding: 15px 20px;
-				height: 340px;
-			}
+    :global(.vtex-rich-text-0-x-wrapper--covid-col-bg-text-content) {
+      padding: 25px 50px;
+      width: 100%;
+      height: 280px;
+      @media screen and (max-width: 1024px) {
+        padding: 15px 20px;
+        height: 340px;
+      }
 
-			:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-content) {
-				font-size: 20px;
-				color: #0075C9;
-				font-weight: bold;
-				line-height: inherit;
-			}
+      :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-content) {
+        font-size: 20px;
+        color: #ed1d25;
+        font-weight: bold;
+        line-height: inherit;
+      }
 
-			:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-content-text){
-				color: #000;
-				font-size: 16px;
-				font-weight: 400;
-				line-height: 1.5;
-			}
-		}
-	}
+      :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-content-text) {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+    }
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-white) {
-	:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-contents-box) {
-		color: #000;
-		font-size: 16px;
-		font-weight: 400;
-		line-height: 1.5;
-		width: 700px;
-		padding: 0 15px;
+  :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-contents-box) {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 700px;
+    padding: 0 15px;
     @media screen and (max-width: 1024px) {
       width: 100%;
     }
-
-	}
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--covid-row-box-lp-bg-col-bg-00content) {
-	max-width: 1366px;
-	margin: auto;
-	padding: 0 .25rem;
+  max-width: 1366px;
+  margin: auto;
+  padding: 0 0.25rem;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-title-b) {
-	color: #0075C9;
-	margin: 15px 0;
-	font-size: 32px;
-	padding: 0;
-	font-weight: bold;
-	letter-spacing: 1px;
+  color: #ed1d25;
+  margin: 15px 0;
+  font-size: 32px;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
 
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 1024px) {
     font-size: 1.8em;
   }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-bg-000content) {
-	position: relative;
-	:global(.vtex-rich-text-0-x-wrapper--covid-col-bg-text-content) {
-		padding: 25px 50px;
-		width: 100%;
-		height: 280px;
-		@media screen and (max-width: 1024px){
-			padding: 15px 20px;
-			height: 340px;
-		}
+  position: relative;
+  :global(.vtex-rich-text-0-x-wrapper--covid-col-bg-text-content) {
+    padding: 25px 50px;
+    width: 100%;
+    height: 280px;
+    @media screen and (max-width: 1024px) {
+      padding: 15px 20px;
+      height: 340px;
+    }
 
-		:global(.vtex-rich-text-0-x-heading--covid-col-bg-text-content) {
-			line-height: 0;
-			margin: 0;
-			color: #000;
-			font-size: 16px;
-		}
-		:global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-content) {
-			color: rgb(0, 0, 0);
-			font-size: 16px;
-			font-weight: 400;
-			line-height: 1.5;
-		}
-	}
+    :global(.vtex-rich-text-0-x-heading--covid-col-bg-text-content) {
+      line-height: 0;
+      margin: 0;
+      color: #000;
+      font-size: 16px;
+    }
+    :global(.vtex-rich-text-0-x-paragraph--covid-col-bg-text-content) {
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp-bg-col-white) {
-	:global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-items-wl) {
-		position: relative;
-		margin: 15px;
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel-items-wl) {
+    position: relative;
+    margin: 15px;
 
-		:global(.vtex-flex-layout-0-x-flexCol--box-slider-bx-wrapper) {
-			background: #FFFFFF 0% 0% no-repeat padding-box;
-			box-shadow: -5.07px 2px 6px #0000001a;
-			border-radius: 11px;
-			padding: 15px;
+    :global(.vtex-flex-layout-0-x-flexCol--box-slider-bx-wrapper) {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: -5.07px 2px 6px #0000001a;
+      border-radius: 11px;
+      padding: 15px;
 
-			:global(.vtex-rich-text-0-x-heading-level-2) {
-				font-size: 20px;
-				color: #0075C9;
-				font-weight: bold;
-				line-height: inherit;
-				text-align: justify;
-			}
+      :global(.vtex-rich-text-0-x-heading-level-2) {
+        font-size: 20px;
+        color: #ed1d25;
+        font-weight: bold;
+        line-height: inherit;
+        text-align: justify;
+      }
 
-			:global(.vtex-rich-text-0-x-paragraph--btn-primary-short-promo) {
-				font-size: 20px;
-				color: #ffc220;
-				font-weight: bold;
-				line-height: inherit;
-				cursor: pointer;
-			}
-		}
+      :global(.vtex-rich-text-0-x-paragraph--btn-primary-short-promo) {
+        font-size: 20px;
+        color: #ffc220;
+        font-weight: bold;
+        line-height: inherit;
+        cursor: pointer;
+      }
+    }
 
-		:global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-items-wl) {
-			padding: 0 25px;
-		}
-	}
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel-items-wl) {
+      padding: 0 25px;
+    }
+  }
 
-	:global(.vtex-slider-layout-0-x-paginationDotsContainer) {
-		display: none!important;
-	}
+  :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    display: none !important;
+  }
 }

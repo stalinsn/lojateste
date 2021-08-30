@@ -219,9 +219,9 @@
       margin-top: 12px;
 
       .vtex-button {
-        color: #0075c9;
+        color: #ed1d25;
         background: transparent;
-        border: 1px solid #0075c9;
+        border: 1px solid #ed1d25;
         width: 100%;
         min-height: 32px !important;
         max-height: 32px !important;
@@ -236,8 +236,8 @@
       &.disabled {
         .vtex-button {
           .vtex-button__label {
-            background: #0075c9;
-            border: 2.5px solid #0075c9;
+            background: #ed1d25;
+            border: 2.5px solid #ed1d25;
             color: #fff;
             cursor: default;
           }

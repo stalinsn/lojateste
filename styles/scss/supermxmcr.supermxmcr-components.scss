@@ -22,11 +22,86 @@
       }
     }
     padding: 1rem 0;
+
+    //Add to cart button PDP
+
+    :global(.vtex-add-to-cart-container-pdp) {
+      max-width: 340px;
+      :global(.vtex-add-to-cart-container-pdp-unity) {
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+        :global(.vtex-numeric-stepper-wrapper) {
+          max-width: 250px;
+          width: 100%;
+          :global(.vtex-numeric-stepper-container) {
+            max-width: 250px;
+            width: 100%;
+            :global(.vtex-numeric-stepper__input) {
+              appearance: none;
+              margin: 0;
+              border: 1px solid #dedede;
+              border-left: 0;
+              border-right: 0;
+              width: 100%;
+            }
+            :global(.vtex-numeric-stepper__plus-button) {
+              border-top-left-radius: 0px;
+              border-bottom-left-radius: 0px;
+              transition: opacity 150ms ease 0s;
+              border: 1px solid #dedede;
+              height: 40px;
+              width: 100%;
+              background-color: #fff;
+              border-left: 0;
+              padding-right: 42px;
+              box-sizing: border-box;
+              margin: 0;
+            }
+            :global(.vtex-numeric-stepper__minus-button) {
+              border-top-right-radius: 0px;
+              border-bottom-right-radius: 0px;
+              border: 1px solid #dedede;
+              width: auto;
+              transition: opacity 150ms ease 0s;
+              padding-left: 42px;
+              border-color: #dedede;
+              border-right: 0;
+              color: #898989;
+            }
+          }
+        }
+        :global(.vtex-measure-unit) {
+          border: 1px solid #dedede;
+          padding: 11px 13px;
+          border-radius: 5px;
+          margin-left: 15px;
+          color: #898989;
+          font-size: 14px;
+        }
+      }
+      :global(.vtex-add-to-car) {
+        margin: 0;
+        margin-top: 10px;
+        background: #ed1d25;
+        color: #fff;
+        padding: 11px 0;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+        :global(.vtex-add-to-cart-text) {
+          margin: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    //End add to cart button  PDP
     :global(.vtex-button) {
       width: 100%;
       border-radius: 5px;
-      //background-color: #ab0535!important;
-      margin-top: 4rem;
+      //background-color: #ed1d25!important;
       color: #525252;
 
       :global(.vtex-button__label) {
@@ -122,18 +197,18 @@
           font-weight: bold;
           text-transform: capitalize;
           border-radius: 5px;
-          border: 1px solid #ab0535;
+          border: 1px solid #ed1d25;
           background-color: #fff;
           color: #525252;
           height: 100%;
           min-width: 100%;
           &:hover {
-            background-color: #ab0535;
+            background-color: #ed1d25;
             color: #fff;
           }
           &:disabled {
             cursor: default;
-            background-color: #ab0535;
+            background-color: #ed1d25;
             color: #fff;
           }
         }
@@ -295,11 +370,11 @@
         :global(.vtex-button) {
           color: #525252;
           background: transparent;
-          //border: #ab0535 1px solid;
+          //border: #ed1d25 1px solid;
           &:disabled {
             //:global(.vtex-button__label) {
-            background: #ab0535;
-            border: #ab0535 2.5px solid;
+            background: #ed1d25;
+            border: #ed1d25 2.5px solid;
             color: white;
             //}
           }
@@ -314,18 +389,18 @@
           font-weight: bold;
           text-transform: capitalize;
           border-radius: 5px;
-          border: 1px solid #ab0535;
+          border: 1px solid #ed1d25;
           background-color: #fff;
           color: #525252;
           height: 100%;
           min-width: 100%;
           &:hover {
-            background-color: #ab0535;
+            background-color: #ed1d25;
             color: #fff;
           }
           &:disabled {
             cursor: default;
-            background-color: #ab0535;
+            background-color: #ed1d25;
             color: #fff;
           }
         }
@@ -378,8 +453,8 @@
     .selectorKg {
       @media screen and (max-width: em(450px)) {
         :global(.vtex-button) {
-          //border: #ab0535 7px solid !important;
-          //background-color: #ab0535;
+          //border: #ed1d25 7px solid !important;
+          //background-color: #ed1d25;
           :global(.vtex-button__label) {
             font-size: 0;
             &::after {

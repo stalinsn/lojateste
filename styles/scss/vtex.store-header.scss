@@ -25,12 +25,12 @@
 
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck)
   :global(.vtex-sticky-layout-0-x-container--sticky-header) {
-  margin: 113px auto 0 auto !important;
+  margin: 72px auto 0 auto !important;
 }
 
 :global(.vtex-sticky-layout-0-x-wrapper--stuck) {
   :global(.vtex-sticky-layout-0-x-container--sticky-header-1) {
-    margin: 41px auto 0 auto !important;
+    margin: 0 auto 0 auto !important;
   }
 }
 
@@ -115,7 +115,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--headertop) {
-  background: #ab0535;
+  background: #ed1d25;
   position: relative;
   z-index: 9999;
   :global(.vtex-flex-layout-0-x-flexRowContent--headertop) {

@@ -105,7 +105,7 @@
     .store-title {
       font-size: 1.5rem;
       font-weight: 700;
-      color: #0075C9;
+      color: #ed1d25;
     }
 
     .elipsis {
@@ -116,7 +116,7 @@
     }
 
     .store-button {
-      background-color: #0075C9;
+      background-color: #ed1d25;
       border: none;
       width: 100%;
       text-transform: none;
@@ -135,7 +135,7 @@
       cursor: pointer;
       transition: background-color 0.25s ease-in-out;
       &:hover {
-        background-color: lighten(#0075C9, 15%);
+        background-color: lighten(#ed1d25, 15%);
       }
       &.is-loading {
         font-size: 0;
@@ -204,7 +204,7 @@
     text-align: center;
     text-decoration: none !important;
     text-transform: capitalize;
-    background: #0075C9;
+    background: #ed1d25;
     border: none;
     color: #fff;
     font-weight: 700;

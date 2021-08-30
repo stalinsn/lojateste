@@ -154,7 +154,7 @@
     font-size: 0;
 
     &::before {
-      content: "¡ Tu carrito esta vacío !";
+      content: "Seu carrinho está vazio";
       font-size: 16px;
       margin-top: 15px;
     }
@@ -255,11 +255,11 @@
   padding-right: 0px;
 
   :global(.vtex-button) {
-    background-color: #ab0535;
-    border-color: #ab0535;
+    background-color: #ed1d25;
+    border-color: #ed1d25;
 
     &:hover {
-      border-color: #ab0535;
+      border-color: #ed1d25;
     }
   }
 
@@ -284,7 +284,7 @@
 }
 :global(.vtex-checkout-summary-0-x-summarySmallContent) {
   :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
-    color: #0075c9;
+    color: #ed1d25;
   }
 }
 
@@ -297,7 +297,7 @@
 
 :global(.vtex-minicart-2-x-minicartProductListContainer) {
   &::-webkit-scrollbar-thumb {
-    background: #0075c9 !important;
+    background: #ed1d25 !important;
   }
 }
 
@@ -307,7 +307,7 @@
 }
 
 :global(.vtex-button__label-closeminicart) {
-  color: #0075c9;
+  color: #ed1d25;
   font-weight: 600;
   font-size: 16px;
   text-transform: capitalize;
@@ -318,7 +318,7 @@
 }
 
 :global(.vtex-minicart-2-x-closeIconContainer) {
-  background-color: #ab0535;
+  background-color: #ed1d25;
   position: absolute;
   width: 100%;
   z-index: 3;

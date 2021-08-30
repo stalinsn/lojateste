@@ -298,8 +298,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/header-logo.svg",
-      "width": "180"
+      "url": "/arquivos/gbarbosa_logo.png",
+      "width": "62"
     }
   },
   "header-layout.mobile": {
@@ -384,8 +384,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/header-logo.svg",
-      "width": "120"
+      "url": "/arquivos/gbarbosa_logo.png",
+      "width": "62"
     }
   },
   /*"minicart.v2": {
@@ -454,7 +454,7 @@
   "rich-text#empty-state": {
     "title": "Minicart - Mensaje de carrito vacío",
     "props": {
-      "text": "¡ Tu carrito esta vacío !"
+      "text": "Seu carrinho está vazio"
     }
   }
 }

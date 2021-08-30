@@ -154,7 +154,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
-  background-color: #ab0535;
+  background-color: #ed1d25;
   padding-bottom: 40px;
   margin-top: 0px;
 }
@@ -181,9 +181,9 @@
     font-weight: bold;
     text-transform: capitalize;
     border-radius: 5px;
-    border: 1px solid #ab0535;
+    border: 1px solid #ed1d25;
     background-color: #fff;
-    color: #ab0535;
+    color: #ed1d25;
 
     @media screen and (min-width: em(1440px)) {
       margin-left: -42px;
@@ -266,7 +266,7 @@
     border: 0;
     padding: 0 15px;
     outline: 0 !important;
-    background: #ab0535;
+    background: #ed1d25;
     cursor: pointer;
     border-bottom: 1px solid #fff;
     line-height: 0;
@@ -292,7 +292,7 @@
   }
 
   :global(.vtex-disclosure-layout-1-x-content--visible) {
-    background: #0075c9;
+    background: #ed1d25;
     padding: 15px 0 0 0;
     :global(.vtex-menu-2-x-styledLinkContent) {
       font-size: 14px;
@@ -316,7 +316,7 @@
     border: 0;
     padding: 0 15px;
     outline: 0 !important;
-    background: #0075c9;
+    background: #ed1d25;
     cursor: pointer;
     border-bottom: 1px solid #fafafa;
     line-height: 0;
@@ -412,13 +412,13 @@
           :global(.vtex-button) {
             height: 40px;
             width: 100%;
-            border: 1px solid #ab0535;
+            border: 1px solid #ed1d25;
             border-radius: 5px;
             background: #fff;
 
             :global(.vtex-button__label) {
               letter-spacing: 0px;
-              color: #ab0535;
+              color: #ed1d25;
               font-weight: bold;
               font-size: 13px;
               -webkit-transition: 0.5s all;
@@ -427,7 +427,7 @@
               -o-transition: 0.5s all;
               transition: 0.5s all;
               &:hover {
-                background: #ab0535;
+                background: #ed1d25;
                 color: #fff;
               }
             }

@@ -16,13 +16,12 @@
     .react-datepicker__header__dropdown {
     }
     .react-datepicker__day-names {
-      .react-datepicker__day-name{
+      .react-datepicker__day-name {
         font-size: 1.4rem !important;
         margin: 4px;
         width: 2rem;
         line-height: 2rem;
       }
-
     }
   }
   .react-datepicker__day {
@@ -30,8 +29,8 @@
     margin: 4px;
     width: 2rem;
     line-height: 2rem;
-    &.react-datepicker__day--selected{
-      background-color: #0075C9;
+    &.react-datepicker__day--selected {
+      background-color: #ed1d25;
     }
   }
 }
