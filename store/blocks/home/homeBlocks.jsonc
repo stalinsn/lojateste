@@ -556,6 +556,13 @@
       "category": "8"
     }
   },
+  "list-context.product-list#tab-layout-home": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#main-slider-home2-tab"],
+    "props": {
+      "category": "8"
+    }
+  },
   "shelf#the-new": {
     "title": "the new shelf",
     "blocks": ["product-summary.shelf"],
@@ -920,6 +927,20 @@
       "title": "Configuração - Slider"
     }
   },
+  "slider-layout#main-slider-home2-tab": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "main-slider-home2",
+      "title": "Configuração - Slider"
+    }
+  },
   //BEST SELLER
   "flex-layout.row#best-seller": {
     "children": ["rich-text#best-seller"],
@@ -1266,6 +1287,52 @@
       "textPosition": "LEFT",
       "text": "Compra 100% \n segura",
       "blockClass": "subtitle-service"
+    }
+  },
+  "tab-layout#home": {
+    "children": ["tab-list#home", "tab-content#home"],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+
+  "tab-list#home": {
+    "children": ["tab-list.item#home1", "tab-list.item#home2"]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Home 1",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Home 2"
+    }
+  },
+
+  "tab-content#home": {
+    "children": ["tab-content.item#home1", "tab-content.item#home2"]
+  },
+  "tab-content.item#home1": {
+    "children": [
+      "tab-layout-banner-text",
+      "list-context.product-list#tab-layout-home"
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": [
+      "tab-layout-banner-text",
+      "list-context.product-list#tab-layout-home"
+    ],
+    "props": {
+      "tabId": "home2"
     }
   }
 }
