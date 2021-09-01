@@ -47,6 +47,40 @@
 .listItemActive--tab-desc {
   border-bottom: 2px solid #ed1d25 !important;
 }
+.container--home {
+  .listContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1366px;
+    margin: 0 auto;
+    .listItem {
+      :global(.vtex-button) {
+        &:hover {
+          background: none;
+        }
+      }
+      :global(.vtex-button__label) {
+        color: #525252;
+        font-weight: bold;
+        text-transform: initial;
+      }
+      &Active {
+        :global(.vtex-button) {
+          background: none;
+          border: none;
+          color: #ed1d25;
+          text-transform: initial;
+          font-weight: bold;
+          border-bottom: 3px solid #ed1d25;
+          border-radius: 0;
+          :global(.vtex-button__label) {
+            color: #ed1d25;
+          }
+        }
+      }
+    }
+  }
+}
 @media (max-width: em(768px)) {
   .listContainer--tab-list-home-shelfs {
     display: flex;

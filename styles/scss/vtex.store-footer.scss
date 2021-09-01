@@ -193,7 +193,7 @@
     max-height: 40px;
     margin-top: 1px;
     margin-left: 0;
-    width: 70%;
+    width: 100%;
     border: 1px solid #dedede;
   }
 
@@ -206,6 +206,9 @@
     @media screen and (min-width: em(1440px)) {
       width: 677px;
       height: 40px;
+      :global(.vtex-styleguide-9-x-input) {
+        width: 70%;
+      }
     }
   }
 }

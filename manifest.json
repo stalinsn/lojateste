@@ -14,7 +14,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "supermxmcr.supermxmcr-components": "0.x",
+    "cbgbarbosa.gbarbosa-components": "0.x",
     "vtex.countdown-ribbon": "1.x",
     "vtex.product-highlights": "2.x",
     "vtex.recommendation-shelf": "0.x",

@@ -1528,7 +1528,11 @@
     padding-bottom: 20px;
   }
 }
-
+.flexRowContent--best-seller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .flexRow--row-txt-invoice {
   :global(.vtex-store-components-3-x-container) {
     padding-right: 235px;
@@ -1538,7 +1542,19 @@
     }
   }
 }
-
+.flexRowContent--row-tab-home {
+  align-items: center;
+  justify-content: space-between;
+  .stretchChildrenWidth {
+    width: auto !important;
+    &:first-child {
+      max-width: 240px;
+    }
+    &:last-child {
+      width: 80% !important;
+    }
+  }
+}
 .flexRow--main-header-mobile-search-walmart {
   background-color: #fff;
   padding-top: 10px;
