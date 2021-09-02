@@ -6,7 +6,28 @@
     align-items: flex-end;
   }
 }
-
+:global(.vtex-store-components-3-x-portalContainer--search-main) {
+  z-index: 4!important;
+  position: absolute!important;
+  .biggy-autocomplete-wrapper {
+    max-width: 615px;
+    top: 30px;
+    left: -20px;
+    width: calc(100% + 135px);
+    display: grid!important;
+    border-radius: 20px;
+    z-index: 0; 
+    position: relative;
+    .biggy-autocomplete {
+      grid-template-columns: 27% 73%!important;
+      padding-top: 100px;
+      display: grid;
+      border-radius: 20px;
+      left: 0;
+    }
+  }
+  
+}
 .tileList {
   :global(.vtex-product-summary-2-x-containerNormal) {
     background: #fff;

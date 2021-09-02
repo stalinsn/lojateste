@@ -1,12 +1,6 @@
 {
-  "store.custom#discount": {
-    "path": "/rebajas"
-  },
   "store.custom#baby-world": {
     "path": "/mundo-bebe"
-  },
-  "store.custom#unidos": {
-    "path": "/unidos-por-tu-bienestar"
   },
   "store.custom#family-size": {
     "path": "/tamanos-familiares"
@@ -55,8 +49,5 @@
   },
   "store.custom#walmart-te-escucha": {
     "path": "/walmart-te-escucha"
-  },
-  "store.custom#super-parrilleros": {
-    "path": "/super-parrilleros"
   }
 }

@@ -5,7 +5,7 @@
 
   .searchNotFoundOops,
   .searchNotFoundWhatDoIDo {
-    color: #7e1f25;
+    color: #525252;
     text-align: center;
   }
 
@@ -14,16 +14,62 @@
     text-align: center;
   }
 }
-
-.galleryTitle--layout {
+.orderBy--layout {
+  width: 216px;
+  max-width:none;
+}
+.orderByText{
   display: none;
+}
+.orderByButton {
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  height: 32px;
+  padding-left: 16px;
+  background: #f4f4f4;
+}
+.filterPopupArrowIcon{
+  display: flex;
+  height: 30px;
+  background: #ED1D25;
+  border-radius: 0 4px 4px 0;
+  align-items: center;
+  color: #fff;
+}
+.orderByDropdown {
+  padding: 0;
+
+}
+.filterPopupTitle {
+  font-size: 14px;
+  color: #525252;
+  text-transform: initial;
+}
+.showingProducts {
+  font-size: 16px;
+  color: #525252;
+  font-weight: bold;
+}
+.showingProducts {
+  display: flex;
+  align-items: center;
+}
+.galleryTitle--layout {
+  padding: 0 4rem;
+  margin: 0;
+  font-size: 26px;
+  color: #525252;
 }
 
 .filterTitle {
-  font-size: 1rem;
+  font-size: 18px;
   text-decoration: none;
   margin-bottom: 10px;
-  color: #3f3f40;
+  color: #525252;
+  font-weight: bold;
 }
 
 .filterMessage {
@@ -46,7 +92,7 @@
 
 .filterIcon {
   .caretIcon {
-    color: #7e1f25;
+    color: #525252;
   }
 }
 
@@ -121,6 +167,7 @@
 
 .buttonShowMore {
   margin: 1em 0;
+  justify-content: flex-end;
 }
 
 .buttonShowMore--layout {
