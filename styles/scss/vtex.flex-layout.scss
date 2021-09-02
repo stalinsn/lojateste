@@ -65,6 +65,9 @@
 }
 .flexRow--search-title {
   margin-bottom: 42px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 .flexColChild--search-options-1 {
   display: flex;
@@ -939,10 +942,31 @@
     max-width: 192px;
     width: 100%;
   }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 0 auto;
+  }
+ }
+.flexColChild--orderByMobileCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flexCol--recommended-you {
   max-width: 1275px;
   margin: 0 auto;
+}
+.flexRowContent--search-info-mobile {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  z-index: 2;
+  left: 0;
+  .stretchChildrenWidth {
+    &:first-child {
+      box-shadow: 0 -1px 30px rgba(0, 0, 0, 0.16);
+    }
+  }
 }
 .flexRow--shelf-related-search {
   background: #fff;

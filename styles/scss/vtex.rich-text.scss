@@ -26,6 +26,9 @@
   font-weight: bold;
   color: #525252;
   margin-left: 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 }
 
 .paragraph--copyright-footer {

@@ -30,7 +30,7 @@
   },
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#search-result-container"
+      "flex-layout.row#search-result-container-mobile-row"
     ]
   },
   "search-not-found-layout": {
@@ -38,6 +38,48 @@
       "not-found"
     ]
   },
+  "flex-layout.row#search-result-container-mobile-row": {
+    "children": [
+      "flex-layout.col#search-result-container-mobile"
+    ]
+    
+  },
+  "flex-layout.col#search-result-container-mobile": {
+    "children": [
+      "flex-layout.row#first-row-search",
+      "flex-layout.row#filter-and-orderby",
+      "flex-layout.row#search-title",
+      "flex-layout.row#search-button-prev",
+      "search-content",
+      "flex-layout.row#search-button-more"
+
+    ]
+  },
+  "flex-layout.row#filter-and-orderby": {
+    "children": [
+      "flex-layout.col#orderByMobile",
+      "flex-layout.col#filterMobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colJustify": "around",
+      "blockClass": "search-info-mobile",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#orderByMobile": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "orderByMobileCol"
+    }
+  },
+  "flex-layout.col#filterMobile": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+
   "flex-layout.row#search-result-container":{
     "children": [
       "flex-layout.row#filter-navigator",
@@ -105,6 +147,7 @@
         "phone": 2
       },
       "infinite": false,
+      "showNavigationArrows": "DesktopOnly",
       "showPaginationDots": "never",
       "blockClass": ["main-slider-home2", "main-slider-search"],
       "title": "Configuração - Slider"
@@ -228,7 +271,7 @@
           "itemsPerRow":  {
             "desktop": 4,
             "tablet": 3,
-            "mobile": 1
+            "mobile": 2
           }
         },
         {

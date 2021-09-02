@@ -17,9 +17,19 @@
 .orderBy--layout {
   width: 216px;
   max-width:none;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 }
 .orderByText{
   display: none;
+}
+.orderByOptionsContainer {
+  @media screen and (max-width: 768px) {
+    top: -356px;
+    box-shadow: none;
+    border: none;
+  }
 }
 .orderByButton {
   justify-content: space-between;
@@ -30,6 +40,29 @@
   height: 32px;
   padding-left: 16px;
   background: #f4f4f4;
+  @media screen and (max-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: none;
+    background: none;
+    padding-left: 0;
+
+    height: auto;
+  }
+}
+.galleryItem--normal {
+  :global(.vtex-product-summary-2-x-element) {
+    @media screen and (max-width: 768px) {
+      height: 350px;
+      max-width: 170px;
+    }
+  }
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    @media screen and (max-width: 768px) {
+
+      max-width: 170px !important;
+    }
+  }
 }
 .filterPopupArrowIcon{
   display: flex;
@@ -38,6 +71,12 @@
   border-radius: 0 4px 4px 0;
   align-items: center;
   color: #fff;
+  @media screen and (max-width: 768px) {
+    height: auto;
+    background: none;
+    color: #525252;
+
+  }
 }
 .orderByDropdown {
   padding: 0;
@@ -62,6 +101,11 @@
   margin: 0;
   font-size: 26px;
   color: #525252;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    font-size: 18px;
+
+  }
 }
 
 .filterTitle {
@@ -168,6 +212,9 @@
 .buttonShowMore {
   margin: 1em 0;
   justify-content: flex-end;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .buttonShowMore--layout {
