@@ -29,20 +29,33 @@
     "children": ["breadcrumb.search"]
   },
   "search-result-layout.mobile": {
-    "children": [
-      "flex-layout.row#search-result-container-mobile-row"
-    ]
+    "children": ["flex-layout.row#search-result-container-mobile-row"]
   },
   "search-not-found-layout": {
-    "children": [
-      "not-found"
-    ]
+    "children": ["flex-layout.row#not-found-row"]
+  },
+  "flex-layout.row#not-found-row": {
+    "children": ["flex-layout.col#not-found-layout"]
+  },
+  "flex-layout.col#not-found-layout": {
+    "children": ["rich-text#not-found-text", "search-title.v2#not-found"],
+    "props": {
+      "blockClass": "not-found-layout"
+    }
   },
   "flex-layout.row#search-result-container-mobile-row": {
-    "children": [
-      "flex-layout.col#search-result-container-mobile"
-    ]
-    
+    "children": ["flex-layout.col#search-result-container-mobile"]
+  },
+  "rich-text#not-found-text": {
+    "props": {
+      "text": "O termo buscado não foi encontrado:",
+      "blockClass": "not-found-text"
+    }
+  },
+  "search-title.v2#not-found": {
+    "props": {
+      "blockClass": "search-result-not-found"
+    }
   },
   "flex-layout.col#search-result-container-mobile": {
     "children": [
@@ -52,7 +65,6 @@
       "flex-layout.row#search-button-prev",
       "search-content",
       "flex-layout.row#search-button-more"
-
     ]
   },
   "flex-layout.row#filter-and-orderby": {
@@ -80,7 +92,7 @@
     }
   },
 
-  "flex-layout.row#search-result-container":{
+  "flex-layout.row#search-result-container": {
     "children": [
       "flex-layout.row#filter-navigator",
       "flex-layout.col#search-result"
@@ -100,23 +112,16 @@
     ]
   },
   "flex-layout.row#search-button-prev": {
-    "children": [
-      "search-fetch-previous"
-    ]
+    "children": ["search-fetch-previous"]
   },
   "flex-layout.row#search-button-more": {
-    "children": [
-      "search-products-count-per-page",
-      "search-fetch-more"
-    ],
+    "children": ["search-products-count-per-page", "search-fetch-more"],
     "props": {
       "blockClass": "search-more-button"
     }
   },
   "flex-layout.row#shelf-related-search": {
-    "children": [
-      "flex-layout.col#shelf-offers-search"
-    ],
+    "children": ["flex-layout.col#shelf-offers-search"],
     "props": {
       "blockClass": "shelf-related-search",
       "fullWidth": true
@@ -154,9 +159,7 @@
     }
   },
   "flex-layout.row#search-title": {
-    "children": [
-      "search-title.v2"
-    ],
+    "children": ["search-title.v2"],
     "props": {
       "blockClass": "search-title"
     }
@@ -171,9 +174,7 @@
     }
   },
   "flex-layout.col#search-options-1": {
-    "children": [
-      "search-products-count-per-page"
-    ],
+    "children": ["search-products-count-per-page"],
     "props": {
       "blockClass": "search-options-1"
     }
@@ -182,7 +183,7 @@
     "children": [
       "gallery-layout-switcher",
       "rich-text#order-by",
-      "order-by.v2"	
+      "order-by.v2"
     ],
     "props": {
       "blockClass": "search-options-2"
@@ -239,9 +240,7 @@
     }
   },
   "flex-layout.row#filter-navigator": {
-    "children": [
-      "filter-navigator.v3"
-    ],
+    "children": ["filter-navigator.v3"],
     "props": {
       "blockClass": "filter-navigator"
     }
@@ -250,12 +249,9 @@
     "props": {
       "initiallyCollapsed": true
     }
-  },  
+  },
   "search-content": {
-    "blocks": [
-      "gallery",
-      "not-found"
-    ]
+    "blocks": ["gallery", "not-found"]
   },
   "rich-text#not-found": {
     "props": {
@@ -268,7 +264,7 @@
         {
           "name": "default",
           "component": "DefaultGallery",
-          "itemsPerRow":  {
+          "itemsPerRow": {
             "desktop": 4,
             "tablet": 3,
             "mobile": 2
@@ -294,19 +290,39 @@
     "props": {
       "name": "default"
     },
-    "children": [
-      "rich-text#option-whole"
-    ]
+    "children": ["image#grid-layout-image-active", "image#grid-layout-image"]
   },
   "gallery-layout-option#alternative": {
     "props": {
       "name": "alternative"
     },
-    "children": [
-      "rich-text#option-whole"
-    ]
+    "children": ["image#list-layout-active", "image#list-layout"]
   },
-  
+  "image#grid-layout-image-active": {
+    "props": {
+      "src": "/arquivos/icon_card_view_active_search.png",
+      "blockClass": "active-grid"
+    }
+  },
+  "image#grid-layout-image": {
+    "props": {
+      "src": "/arquivos/icon_card_view_active.png",
+      "blockClass": "unactive-grid"
+    }
+  },
+  "image#list-layout-active": {
+    "props": {
+      "src": "/arquivos/icon_list_search_active.png",
+      "blockClass": "active-list"
+    }
+  },
+  "image#list-layout": {
+    "props": {
+      "src": "/arquivos/icon_list_search.png",
+      "blockClass": "unactive-list"
+    }
+  },
+
   "rich-text#option-whole": {
     "props": {
       "text": "Trocar",

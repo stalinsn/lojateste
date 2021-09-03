@@ -21,9 +21,9 @@
       "flex-layout.row#row-3-images-mobile",
       "flex-layout.row#the-best-electronics",
       "flex-layout.row#shelf-the-best-electronics",
+      "flex-layout.row#custom-4-images",
       "flex-layout.row#best-seller",
       "tab-layout#home",
-      "flex-layout.row#custom-4-images",
       "flex-layout.row#custom-end-banner"
     ]
   }

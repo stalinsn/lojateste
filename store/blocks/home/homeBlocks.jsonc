@@ -1315,27 +1315,27 @@
   "tab-list.item#home1": {
     "props": {
       "tabId": "home1",
-      "label": "Home 1",
+      "label": "Automotivos",
       "defaultActiveTab": true
     }
   },
   "tab-list.item#home2": {
     "props": {
       "tabId": "home2",
-      "label": "Home 2"
+      "label": "Frutas e verduras"
     }
   },
   "tab-list.item#home3": {
     "props": {
       "tabId": "home3",
-      "label": "Home 3",
+      "label": "Cafés e Chás",
       "defaultActiveTab": true
     }
   },
   "tab-list.item#home4": {
     "props": {
       "tabId": "home4",
-      "label": "Home 4"
+      "label": "Sucos e Refrigerantes"
     }
   },
 

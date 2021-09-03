@@ -265,6 +265,7 @@
         font-weight: bold;
         padding: 0;
         margin-left: 42px;
+        font-size: 13px !important;
 
         &:hover {
           color: #fdbb30;
@@ -275,7 +276,7 @@
     .styledLinkContent {
       font-size: 14px;
       color: #ed1d25;
-      font-family: GothamBook;
+      font-family: OpenSans;
     }
   }
 

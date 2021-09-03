@@ -89,6 +89,7 @@
         text-align: center;
         border-radius: 5px;
         cursor: pointer;
+        margin-top: 12px;
         :global(.vtex-add-to-cart-text) {
           margin: 0;
           width: 100%;
@@ -231,6 +232,9 @@
       }
     }
   }
+}
+.quantitySelector {
+  margin-top: 12px;
 }
 :global(.vtex-product-summary-2-x-element) {
   @media screen and (max-width: em(1024px)) {

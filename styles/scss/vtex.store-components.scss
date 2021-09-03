@@ -16,7 +16,6 @@
   align-items: center;
   display: flex;
   margin: 0 auto;
-  margin-left: 26px;
 
   @media screen and (max-width: em(1325px)) {
     width: 560px;
@@ -247,7 +246,10 @@
 .skuSelectorOptionsList {
   margin: 0;
 }
-
+.price_sellingPrice--summary {
+  padding: 0;
+  font-size: 24px;
+}
 .subscriberContainer {
   :global(.vtex-styleguide-9-x-input) {
     border: 1px solid #e3e4e6;
@@ -812,7 +814,8 @@
 }*/
 
 :global(.vtex-store-components-3-x-logoImage--icon-head) {
-  width: 20px;
+  width: 24px;
+  opacity: 0.5;
   margin-top: 6px;
   margin-right: 4px;
   height: 28px;
@@ -983,7 +986,7 @@
   color: #525252;
   font-size: 14px;
   font-weight: 600;
-  font-family: GothamBook;
+  font-family: OpenSans;
 }
 
 :global(.vtex-minicart-custom-img) {
@@ -1107,6 +1110,7 @@
     background-color: #ed1d25 !important;
     color: #fff !important;
     border-color: #ed1d25 !important;
+    margin-top: 12px;
   }
 }
 

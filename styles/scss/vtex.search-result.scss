@@ -16,12 +16,12 @@
 }
 .orderBy--layout {
   width: 216px;
-  max-width:none;
+  max-width: none;
   @media screen and (max-width: 768px) {
     width: 100%;
   }
 }
-.orderByText{
+.orderByText {
   display: none;
 }
 .orderByOptionsContainer {
@@ -35,7 +35,7 @@
   justify-content: space-between;
   padding: 0;
   margin: 0;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   border-radius: 5px;
   height: 32px;
   padding-left: 16px;
@@ -59,15 +59,14 @@
   }
   :global(.vtex-product-summary-2-x-containerNormal) {
     @media screen and (max-width: 768px) {
-
       max-width: 170px !important;
     }
   }
 }
-.filterPopupArrowIcon{
+.filterPopupArrowIcon {
   display: flex;
   height: 30px;
-  background: #ED1D25;
+  background: #ed1d25;
   border-radius: 0 4px 4px 0;
   align-items: center;
   color: #fff;
@@ -75,12 +74,10 @@
     height: auto;
     background: none;
     color: #525252;
-
   }
 }
 .orderByDropdown {
   padding: 0;
-
 }
 .filterPopupTitle {
   font-size: 14px;
@@ -107,7 +104,38 @@
   @media screen and (max-width: 768px) {
     padding: 0;
     font-size: 18px;
-
+  }
+}
+.gallery--alternative {
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: none !important;
+  }
+}
+.galleryLayoutSwitcher {
+  min-width: 70px;
+  width: 100%;
+  max-width: 80px;
+  justify-content: space-around;
+  .galleryLayoutOptionButton {
+    padding: 0;
+    :global(.vtex-store-components-3-x-imageElement--unactive-grid),
+    :global(.vtex-store-components-3-x-imageElement--unactive-list) {
+      display: block;
+    }
+    :global(.vtex-store-components-3-x-imageElement--active-grid),
+    :global(.vtex-store-components-3-x-imageElement--active-list) {
+      display: none;
+    }
+    &--selected {
+      :global(.vtex-store-components-3-x-imageElement--unactive-grid),
+      :global(.vtex-store-components-3-x-imageElement--unactive-list) {
+        display: none;
+      }
+      :global(.vtex-store-components-3-x-imageElement--active-grid),
+      :global(.vtex-store-components-3-x-imageElement--active-list) {
+        display: block;
+      }
+    }
   }
 }
 
@@ -368,11 +396,7 @@
         :global(.vtex-product-summary-2-x-clearLink) {
           :global(.vtex-product-summary-2-x-element) {
             :global(.vtex-product-summary-2-x-imageContainer) {
-              max-height: 200px;
               width: auto;
-              :global(.vtex-product-summary-2-x-imageNormal) {
-                max-height: 200px !important;
-              }
             }
             :global(.vtex-product-summary-2-x-nameContainer) {
               margin-top: 15px;

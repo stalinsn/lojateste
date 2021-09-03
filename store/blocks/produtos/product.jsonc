@@ -102,7 +102,7 @@
     "props": {
       "markers": ["hignlight"],
 
-      "message": "- {savingsPercentage}"
+      "message": "{savingsPercentage} off"
     }
   },
   "product-price-savings#alt": {

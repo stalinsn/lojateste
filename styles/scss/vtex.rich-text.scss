@@ -19,7 +19,6 @@
   white-space: nowrap;
   margin: 0 10px;
   font-size: 14px;
-
 }
 .paragraph--slider-search-text {
   font-size: 26px;
@@ -67,6 +66,7 @@
 .link--brands {
   color: #fff;
   text-decoration: none;
+  font-size: 13px;
   &:hover {
     color: #fdbb30;
   }
@@ -74,6 +74,7 @@
 .paragraph--timecount {
   color: #fff;
   font-weight: bold;
+  font-size: 14px;
   .strong--timecount {
     color: #fdbb30;
   }
@@ -88,7 +89,7 @@
   height: 100%;
 }
 .container--brands {
-  padding-right: 24px;
+  padding: 0 24px;
 }
 .strong--methods-main-text {
   font-size: 25px;
@@ -120,7 +121,7 @@
         :first-child {
           color: #525252;
           font-size: 11px;
-          font-weight: 600;
+          font-weight: 400;
           font-stretch: normal;
           font-style: normal;
           line-height: normal;
@@ -130,6 +131,10 @@
         }
       }
     }
+  }
+  .paragraph--not-found-text {
+    font-size: 24px;
+    margin: 0;
   }
   @media screen and (min-width: em(1024px)) {
     //border-right: solid 1px #fff;
@@ -144,7 +149,7 @@
     .paragraph--mi-tienda {
       :first-child {
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 400;
         font-stretch: normal;
         font-style: normal;
         line-height: normal;
@@ -192,7 +197,7 @@
     margin: auto 0;
     color: #525252;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -239,7 +244,7 @@
   :first-child {
     color: #525252;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -445,7 +450,7 @@
   }
   .title-t-product-1,
   .title-t-product-2 {
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-size: 12px;
     font-weight: bold;
     :global(.vtex-rich-text-0-x-heading-level-2) {
@@ -620,7 +625,8 @@
 .paragraph--txt-first-head {
   margin-top: 11px;
   margin-bottom: 11px;
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 13px;
   color: #fff;
 }
 
@@ -972,24 +978,24 @@
   .paragraph--mediano-remesas {
     font-size: 16px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--titulo-remesas {
     font-size: 26px;
     color: #525252;
     font-weight: bold;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--titulo-tres-columnas-1 {
     font-size: 16px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
   }
   .paragraph--titulo-tres-columnas-2 {
     font-size: 16px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
     width: 176px;
     height: 48px;
@@ -1001,7 +1007,7 @@
   .paragraph--titulo-tres-columnas-3 {
     font-size: 16px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
     width: 176px;
     height: 48px;
@@ -1037,25 +1043,25 @@
     height: 40px;
     font-size: 14px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--kiosko-fuerte {
     font-size: 14px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
   }
   .paragraph--trigger-remesas {
     font-size: 16px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
     margin-bottom: 0;
   }
   .paragraph--content-remesas {
     font-size: 16px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     margin-left: 48px;
     width: 954px;
   }
@@ -1065,34 +1071,34 @@
   .paragraph--mediano-remesas {
     font-size: 14px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--titulo-remesas {
     font-size: 20px;
     color: #525252;
     font-weight: bold;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--mediano-remesas {
     font-size: 14px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--titulo-tres-columnas-1 {
     font-size: 16px;
     font-weight: bold;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--texto-tres-columnas {
     font-size: 14px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--titulo-tres-columnas-3 {
     font-size: 16px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
     width: 176px;
     height: 48px;
@@ -1113,31 +1119,31 @@
   .paragraph--Pagamos-remesas {
     font-size: 20px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
     margin-bottom: 0;
   }
   .paragraph--kiosko {
     font-size: 14px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
   .paragraph--kiosko-fuerte {
     font-size: 14px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
   }
   .paragraph--trigger-remesas {
     font-size: 16px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-weight: bold;
   }
   .paragraph--content-remesas {
     font-size: 14px;
     color: #525252;
-    font-family: GothamBook;
+    font-family: OpenSans;
     margin: 0px 16px;
   }
 }
@@ -1290,7 +1296,7 @@
   .paragraph--icono2,
   .paragraph--icono1 {
     font-size: 15px;
-    font-family: GothamBook;
+    font-family: OpenSans;
     color: #525252;
   }
   .paragraph--titulo-horario-atencion {
@@ -1353,20 +1359,20 @@
 
 @media (max-width: 1024px) {
   .paragraph--titulo-pago-servicios {
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-size: 20px;
     font-weight: bold;
     color: #525252;
     margin-bottom: 0;
   }
   .paragraph--texto1-pago-servicios {
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-size: 14px;
     color: #525252;
     margin-bottom: 0;
   }
   .paragraph--titulo-proceso {
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-size: 16px;
     font-weight: bold;
     color: #525252;
@@ -1386,12 +1392,12 @@
     position: absolute;
   }
   .paragraph--texto-proceso {
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-size: 14px;
     color: #525252;
   }
   .paragraph--que-servicios {
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-size: 16px;
     color: #525252;
     font-weight: bold;
@@ -1407,7 +1413,7 @@
   .paragraph--icono2,
   .paragraph--icono1 {
     font-size: 14px;
-    font-family: GothamBook;
+    font-family: OpenSans;
     color: #525252;
     margin-left: 30px;
   }
@@ -1516,12 +1522,12 @@
   }
   .paragraph--texto-horario-atencion {
     font-size: 14px;
-    font-family: GothamBook;
+    font-family: OpenSans;
     color: #525252;
   }
   .paragraph--texto-companias {
     font-size: 16px;
-    font-family: GothamBook;
+    font-family: OpenSans;
     color: #525252;
     font-weight: bold;
     margin-left: 30px;
@@ -1536,12 +1542,12 @@
   }
   .paragraph--ajuste-companias {
     font-size: 14px;
-    font-family: GothamBook;
+    font-family: OpenSans;
     color: #525252;
   }
   .paragraph--texto-pago-companias {
     font-size: 14px;
-    font-family: GothamBook;
+    font-family: OpenSans;
     color: #525252;
   }
 }
