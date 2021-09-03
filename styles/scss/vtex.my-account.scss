@@ -1,6 +1,6 @@
 @import "./references";
 * {
-  font-family: "GothamBook", sans-serif;
+  font-family: "OpenSans", sans-serif;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
   > div {
@@ -544,7 +544,7 @@
       background-color: transparent;
     }
     :global(.vtex-search-result-3-x-seeMoreButton) {
-      font-family: "GothamBook", sans-serif;
+      font-family: "OpenSans", sans-serif;
       font-size: 14px;
     }
     :global(.vtex-search-result-3-x-filter__container--brand) {
@@ -622,7 +622,7 @@
       span > div:last-child {
         font-weight: 600;
         font-size: 14px;
-        font-family: GothamBook;
+        font-family: OpenSans;
         margin-top: 5px;
         text-transform: none;
         color: #525252;

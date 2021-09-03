@@ -47,10 +47,12 @@
       "stack-layout#prodsum",
       "product-rating-inline",
       "product-summary-name",
+      "product-summary-brand",
       //"product-summary-price",
       "price-custom",
       "global-promo#2x",
       "global-promo#3x",
+      "max-installments",
       //"product-summary-space",
       "quantity-selector.summary"
       //"add-to-cart-button"

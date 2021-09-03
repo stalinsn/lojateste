@@ -58,7 +58,10 @@
     }
   },
   "flex-layout.row#timecount": {
-    "children": ["rich-text#timecount"]
+    "children": ["rich-text#timecount"],
+    "props": {
+      "blockClass": "timecount1"
+    }
   },
   "flex-layout.row#contact-and-brands": {
     "children": ["flex-layout.col#right", "flex-layout.row#rightbrands-2"],
@@ -363,18 +366,17 @@
   },
   "search-bar": {
     "title": "Header - Búsqueda",
-    "blocks": ["autocomplete-result-list.v2"],
+    "blocks": ["autocomplete-result-list.v2#main"],
     "props": {
       "placeholder": "O que você está procurando?",
       "blockClass": "search-mobile-walmart",
       "__unstableProductOriginVtex": true,
       "width": "grow",
-      "customSearchPageUrl": "/search?_query=${term}",
       "openAutocompleteOnFocus": true,
       "autocompleteAlignment": "left"
     }
   },
-  "autocomplete-result-list.v2": {
+  "autocomplete-result-list.v2#main": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "maxSuggestedProducts": 2

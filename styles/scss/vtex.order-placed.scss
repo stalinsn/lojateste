@@ -83,7 +83,7 @@ header
     color: #666666;
     margin: 0;
     padding-left: 12px;
-    font-family: GothamBook;
+    font-family: OpenSans;
     font-size: 13px;
     display: flex;
     flex-direction: column;
@@ -185,14 +185,14 @@ header
 :global(.vtex-flex-layout-0-x-flexRow--menu-footer-order-place) {
   background-color: black;
   color: white;
-  font-family: GothamBook;
+  font-family: OpenSans;
   border-bottom: solid 1px #666666;
 }
 :global(.vtex-rich-text-0-x-container--text-footer-order-container) {
   background-color: black;
   color: white !important;
   font-size: 12px;
-  font-family: GothamBook;
+  font-family: OpenSans;
   color: white !important;
   @media (max-width: em(768px)) {
     padding: 0 20px;

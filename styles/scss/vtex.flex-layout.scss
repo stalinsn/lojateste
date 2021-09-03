@@ -38,6 +38,44 @@
     padding-left: 2px;
   }
 }
+.flexRowContent--search-result-container {
+  .stretchChildrenWidth {
+    &:first-child {
+      max-width: 192px;
+      width: 100% !important;
+    }
+    &:last-child {
+      width: 100% !important;
+    }
+  }
+}
+.flexRowContent--search-options-inner {
+  .stretchChildrenWidth {
+    width: 50% !important;
+    max-width: none !important;
+  }
+}
+.flexCol--search-options-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flexColChild--search-options-2 {
+  display: flex;
+  align-items: center;
+}
+.flexRow--search-title {
+  margin-bottom: 42px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+  }
+}
+.flexColChild--search-options-1 {
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+}
 .flexRowContent--2-banners,
 .flexRowContent--22-banners,
 .flexRowContent--section-three-banners {
@@ -95,6 +133,10 @@
 .flexRowContent--menu-logo {
   align-items: center;
   height: 100%;
+}
+.flexRow--timecount1 {
+  display: flex;
+  align-items: center;
 }
 .flexRow--main-header-mobile-search {
   align-items: center;
@@ -253,7 +295,7 @@
   margin-bottom: 20px;
   margin-top: 16px;
   color: #525252;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
   letter-spacing: normal;
   @media screen and (max-width: em(768px)) {
@@ -662,6 +704,8 @@
     :global(.vtex-store-components-3-x-productBrand) {
       font-size: 22px;
       font-weight: bold;
+      margin-bottom: 32px;
+      display: block;
       color: #525252;
     }
   }
@@ -862,37 +906,63 @@
   left: 0;
 
   :global(.vtex-product-price-1-x-savings) {
-    background-color: #ff9e19;
+    background-color: #2faf00;
     color: #f7f7f7;
     font-size: 13px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
     font-weight: bold;
-    padding: 4px 0 4px 5px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    position: relative;
-    margin-right: 8px;
-    ::after {
-      content: "";
-      display: inline-block;
-      vertical-align: middle;
-      width: 0;
-      height: 0;
-      border-top: 11px solid transparent;
-      border-bottom: 11px solid transparent;
-      border-left: 7px solid #ff9e19;
-      position: absolute;
-      top: 0px;
-      right: -7px;
-    }
+    padding: 10px;
+    border-radius: 16px;
+
     :first-child {
       margin: 0 0.2em;
     }
   }
 }
-
+.flexRowContent--search-more-button {
+  max-width: 55%;
+  padding: 0;
+  justify-content: space-between;
+  margin: 0 3.5rem;
+  :global(.vtex-button) {
+    background: #f0f0f0;
+    padding: 0 9px;
+    border: 1px solid #dedede;
+    color: #525252;
+    font-weight: bold;
+    max-width: 192px;
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.flexColChild--orderByMobileCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexCol--recommended-you {
+  max-width: 1275px;
+  margin: 0 auto;
+}
+.flexRowContent--search-info-mobile {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  z-index: 2;
+  left: 0;
+  .stretchChildrenWidth {
+    &:first-child {
+      box-shadow: 0 -1px 30px rgba(0, 0, 0, 0.16);
+    }
+  }
+}
+.flexRow--shelf-related-search {
+  background: #fff;
+  box-shadow: 0px -1px 6px #0000000a;
+}
 .flexRowContent--row-two-components {
   .stretchChildrenWidth {
     /*&:first-child {
@@ -1065,14 +1135,14 @@
 :global(.vtex-product-summary-2-x-brandName) {
   text-transform: capitalize !important;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bold;
   color: #525252;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: GothamBook;
+  font-family: OpenSans;
 }
 
 :global(.vtex-product-summary-2-x-nameWrapper) {
@@ -1101,11 +1171,13 @@
 
 :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
   width: 100%;
+  padding: 0;
 }
 
 :global(.vtex-store-components-3-x-price_listPriceContainer--summary) {
   :global(.vtex-store-components-3-x-price_listPrice--summary) {
     font-size: 14px !important;
+    font-weight: bold;
   }
 }
 
@@ -1679,6 +1751,12 @@
   position: relative;
   display: flex;
   align-items: center;
+}
+.flexCol--not-found-layout {
+  padding: 40px 30px;
+  :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    padding: 0;
+  }
 }
 
 .flexCol--media-col {
@@ -2952,7 +3030,7 @@
     font-weight: 700;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
 }
 :global(.vtex-flex-layout-0-x-flexRow--icons-serivces) {

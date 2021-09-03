@@ -89,6 +89,7 @@
         text-align: center;
         border-radius: 5px;
         cursor: pointer;
+        margin-top: 12px;
         :global(.vtex-add-to-cart-text) {
           margin: 0;
           width: 100%;
@@ -144,6 +145,7 @@
               @media screen and (max-width: em(768px)) {
                 width: 2em !important;
                 background-color: #fff;
+                padding-right: 35px;
               }
 
               :global(.vtex-numeric-stepper_plus-button_text) {
@@ -163,7 +165,9 @@
               background-color: #fff;
               padding-left: 50px;
               color: #898989;
-
+              @media screen and (max-width: 768px) {
+                padding-left: 35px;
+              }
               :global(.vtex-numeric-stepper_minus-button_text) {
                 color: #898989;
               }
@@ -229,6 +233,9 @@
     }
   }
 }
+.quantitySelector {
+  margin-top: 12px;
+}
 :global(.vtex-product-summary-2-x-element) {
   @media screen and (max-width: em(1024px)) {
     height: 450px;
@@ -249,22 +256,11 @@
     width: 100%;
     padding-right: 0;
     @media screen and (max-width: em(1023px)) {
-      width: 30% !important;
       bottom: auto !important;
       justify-content: center;
       .kg,
       .unidad {
         margin-top: -50px;
-      }
-    }
-    @media screen and (max-width: em(783px)) {
-      width: 43% !important;
-    }
-    @media screen and (max-width: em(690px)) {
-      width: 46% !important;
-      // margin-top: 340px;
-      :global(.vtex-button):last-child {
-        // margin-top: 50px;
       }
     }
     :global(.vtex-button) {
@@ -325,7 +321,9 @@
                 width: 2em !important;
                 background-color: #fff;
               }
-
+              @media screen and (max-width: 768px) {
+                padding-right: 35px;
+              }
               :global(.vtex-numeric-stepper_plus-button_text) {
                 color: #898989;
               }
@@ -347,6 +345,9 @@
                 width: 2em !important;
                 height: 32px;
                 background-color: #fff;
+              }
+              @media screen and (max-width: 768px) {
+                padding-left: 35px;
               }
               :global(.vtex-numeric-stepper_minus-button_text) {
                 color: #898989;

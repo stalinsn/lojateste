@@ -3,7 +3,13 @@
 .sliderLayoutContainer {
   justify-content: center;
 }
-
+.sliderRightArrow--main-slider-search{
+    right: -35px;
+  
+}
+.sliderLeftArrow--main-slider-search {
+  left: -35px;
+}
 .sliderLayoutContainer--carousel {
   background-color: transparent;
   align-items: center;

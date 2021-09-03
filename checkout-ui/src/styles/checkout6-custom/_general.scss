@@ -18,7 +18,7 @@ body {
   margin: 0;
   width: 100%;
   overflow-x: hidden;
-  font-family: "GothamBook", "Bogle", "Montserrat", sans-serif !important;
+  font-family: "OpenSans", "Bogle", "Montserrat", sans-serif !important;
 }
 
 body,
@@ -1005,7 +1005,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   padding: 15px 0;
   border: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #525252;
   letter-spacing: 1px;
 }
@@ -4321,7 +4321,7 @@ p.ship-city,
   .box-step
   label {
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   //font-size: 14px;
   color: #545454;
 }
@@ -4568,7 +4568,7 @@ p.ship-city,
   text-align: right;
   float: right;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none !important;
   color: #ed1d25;
 }
@@ -4777,7 +4777,7 @@ p.ship-city,
   cursor: pointer;
   text-align: center;
   float: right;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none !important;
   color: #ed1d25;
   outline: 0;
@@ -4890,7 +4890,7 @@ p.ship-city,
   border: 0;
   outline: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   display: block;
   width: 100%;
@@ -5300,7 +5300,7 @@ p.ship-city,
   .gift-card-section
   label {
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0;
   color: #545454;
   position: absolute;
@@ -5387,7 +5387,7 @@ p.ship-city,
   background: #ffffff;
   height: 40px;
   border: solid #ccc 1px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0;
   color: #000;
   -webkit-border-radius: 5px;
@@ -5679,7 +5679,7 @@ fieldset.box-payment-group2.box-payment-option.SPEIPaymentGroup
 fieldset.box-payment-group2.box-payment-option.SPEIPaymentGroup
   .installments.wrapper-bank-openpay.transfer-wrapper-spei-openpay
   p.sight {
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   font-size: 16px;
   line-height: 2;
@@ -5723,7 +5723,7 @@ fieldset.box-payment-group2.box-payment-option.SPEIPaymentGroup
   * {
   color: #000;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 20px;
 }
 
@@ -5791,7 +5791,7 @@ fieldset.box-payment-group2.box-payment-option.custom202PaymentGroupPaymentGroup
 
 fieldset.box-payment-group2.box-payment-option.custom202PaymentGroupPaymentGroup
   p.sight {
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   font-size: 16px;
   line-height: 2;
@@ -5824,7 +5824,7 @@ fieldset.box-payment-group2.box-payment-option.custom202PaymentGroupPaymentGroup
   * {
   color: #000;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 20px;
 }
 a#payment-group-debitCardPaymentGroup span.payment-group-item-text {
@@ -5862,7 +5862,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
   .payment-paypal-benefit-title {
   color: #000000;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   height: 50px;
   line-height: 1.5;
 }
@@ -5890,7 +5890,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPaymentGroup.payPalPaymentGroupMEX
   .payment-paypal-help-text {
   color: #000000;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
 }
 
@@ -5918,7 +5918,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 .CardForm .PaymentCardNumber.input.text label.FormFieldLabel {
   font-size: 0;
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   color: #545454;
 }
 
@@ -5977,7 +5977,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 
 .CardForm p.PaymentCardHolderName label {
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   color: #545454;
   font-size: 14px;
 }
@@ -5988,7 +5988,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 .CardForm .PaymentCardDueDate label {
   padding: 4px 0;
   width: auto;
-  font-weight: 500;
+  font-weight: 600;
   color: #545454;
   font-size: 14px;
   display: block;
@@ -6259,7 +6259,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
   padding: 0;
   font-size: 14px;
   color: #000;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .body-order-form
@@ -6797,14 +6797,14 @@ label[for="address-toggle-0"] {
   background: #ffffff;
   border-color: transparent;
   box-shadow: inherit;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .CardForm
   .SavedCardsList.btn-group.btn-group-vertical
   .label-vertical-group.active
   span {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .CardForm .SavedCardsList.btn-group.btn-group-vertical .SavedCard .link-delete {
