@@ -16,6 +16,17 @@
     padding: 0 0.25rem;
   }
 }
+.flexRow--login-container,
+.flexRow--custom-register {
+  background-color: #FAFAFA;
+}
+.flexRow--custom-register {
+  max-width: 511px;
+  margin: 0 auto;
+  .stretchChildrenWidth {
+    flex-direction: column;
+  }
+}
 
 .flexRowContent--remember-images,
 .flexRowContent--attractive-images,
