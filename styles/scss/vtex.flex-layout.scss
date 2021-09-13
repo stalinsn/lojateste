@@ -336,7 +336,7 @@
 }
 
 :global(.vtex-store__template) {
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 .flexRowContent--recommended-you {
@@ -1617,6 +1617,7 @@
 .flexRowContent--row-tab-home {
   align-items: center;
   justify-content: space-between;
+  display: flex;
   .stretchChildrenWidth {
     width: auto !important;
     &:first-child {
@@ -1624,6 +1625,11 @@
     }
     &:last-child {
       width: 80% !important;
+    }
+    @media screen and (max-width: 768px) {
+      &:last-child {
+        width: 55% !important;
+      }
     }
   }
 }

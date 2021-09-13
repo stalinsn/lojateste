@@ -73,7 +73,8 @@
     "vtex.overlay-layout": "0.x",
     "vtex.store-form": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "supermxmcr.store-selector": "1.x"
+    "supermxmcr.store-selector": "1.x",
+    "lacolonia.wishlist": "0.x"
   },
   "peerDependencies": {
     "vtexeurope.minicart-freeshipping-bar": "1.x"

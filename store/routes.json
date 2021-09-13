@@ -20,7 +20,7 @@
   "store.custom#como-comprar": {
     "path": "/como-comprar"
   },
-  "store.custom#shop-store" : {
+  "store.custom#shop-store": {
     "path": "/localizador-de-tiendas"
   },
   "store.custom#servicios-financieros": {
@@ -49,5 +49,8 @@
   },
   "store.custom#walmart-te-escucha": {
     "path": "/walmart-te-escucha"
+  },
+  "store.custom#wishlist-custom": {
+    "path": "/wishlist-custom"
   }
 }

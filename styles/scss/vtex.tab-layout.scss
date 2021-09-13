@@ -53,6 +53,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1366px;
     margin: 0 auto;
+    overflow: auto;
     .listItem {
       :global(.vtex-button) {
         &:hover {
@@ -78,6 +79,9 @@
           }
         }
       }
+    }
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr 1fr;
     }
   }
 }
