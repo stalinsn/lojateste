@@ -166,7 +166,7 @@
   &::before {
     content: "";
     display: block;
-    background: url(/arquivos/icon_box_header2.svg) no-repeat;
+    background: url(/arquivos/icon_box_header2.svg?v=1) no-repeat;
     margin: 0px 6px auto 0;
 
     @media (max-width: em(768px)) {

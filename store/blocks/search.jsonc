@@ -141,7 +141,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#main-slider-search"],
     "props": {
-      "category": "8"
+      "category": "4"
     }
   },
   "slider-layout#main-slider-search": {

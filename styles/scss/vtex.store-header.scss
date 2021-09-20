@@ -189,7 +189,7 @@
 
 :global(.vtex-rich-text-0-x-container--mi-tel) {
   &::before {
-    background: url(/arquivos/icon_favorite.svg);
+    background: url(/arquivos/icon_favorite.svg?v=1);
     margin: auto 6px auto 0;
     content: "";
     display: block;
@@ -233,7 +233,7 @@
 :global(.vtex-store-components-3-x-searchBarIcon--search) {
   &::before {
     content: "";
-    background: url(/arquivos/icon_search.png) no-repeat;
+    background: url(/arquivos/icon_search_header.png) no-repeat;
     width: 30px;
     height: 25px;
     background-size: 23px 21px !important;

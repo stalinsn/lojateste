@@ -51,6 +51,9 @@
     "path": "/walmart-te-escucha"
   },
   "store.custom#wishlist-custom": {
-    "path": "/wishlist-custom"
+    "path": "/wishlist-page"
+  },
+  "store.custom#wishlist-custom-list-page": {
+    "path": "/wishlist-page/:slug"
   }
 }

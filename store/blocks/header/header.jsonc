@@ -145,7 +145,7 @@
   "logo#right": {
     "props": {
       "title": "Icon contact us",
-      "url": "/arquivos/icon_atencion.svg",
+      "url": "/arquivos/icon_atencion.svg?v=1",
       "blockClass": "icon-head"
     }
   },
