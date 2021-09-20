@@ -1,0 +1,11 @@
+{
+  "store.custom#wishlist-custom-list-page": {
+    "blocks": ["flex-layout.row#wishlist-inner-page"]
+  },
+  "flex-layout.row#wishlist-inner-page": {
+    "children": ["wishlist-list-page"]
+  },
+  "wishlist-list-page": {
+    "children": ["product-summary.shelf"]
+  }
+}

@@ -10,6 +10,11 @@
     }
   }
 }
+:global(.vtex-dropdown) {
+  :global(.br2.bw1.relative.bg-white.ba.b--light-gray.hover-b--silver) {
+    border: 2px solid #eeee;
+  }
+}
 :global(.vtex-flex-layout-0-x-flexRow--main-header)
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
   > div {
@@ -21,8 +26,8 @@
   padding-right: 20px;*/
   max-width: $maxContainerWidth;
   margin: 0 auto;
+  background: #fff;
   .menu {
-    background-color: #fafafa;
     padding-top: 32px !important;
     padding-left: 22px !important;
   }
@@ -39,20 +44,22 @@
       padding-bottom: 0px;
       margin-bottom: 0px;
       font-size: 0px;
+      display: inline-block;
       color: #666666;
       &::before {
-        content: "¡Hola ";
-        font-size: 16px;
-        color: #525252;
+        content: "Olá  ";
+        font-size: 24px;
+        color: #ed1d25;
         font-weight: bold;
       }
     }
     .userName {
       padding-bottom: 12px;
-      font-size: 16px;
-      font-weight: 600;
-      color: #666666;
+      font-size: 24px;
+      font-weight: bold;
+      color: #ed1d25;
       text-transform: capitalize;
+      display: inline-block;
     }
   }
 
@@ -193,7 +200,9 @@
   }
 
   :global(.vtex-input__label) {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: #898989;
   }
 
   :global(.vtex-address-form__postalCode) {
@@ -202,10 +211,9 @@
 
   :global(.vtex-input-prefix__group) {
     :first-child {
-      border-bottom: solid #b8b5b5 thin;
-      border-top: 0;
-      border-left: 0;
-      border-right: 0;
+      border: 2px solid #eeeeee !important;
+      padding-top: 0.65rem;
+      padding-bottom: 0.65rem;
     }
   }
   :global(.vtex-address-form-4-x-input) {
@@ -266,12 +274,6 @@
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
       font-size: 14px;
       font-weight: 600;
-    }
-  }
-
-  :global(.vtex-account__page-body) {
-    :global(.vtex-my-account-1-x-passwordBoxContainer) {
-      display: none;
     }
   }
 
@@ -357,7 +359,7 @@
   background-color: #fff;
   position: absolute;
   right: 15px;
-  top: 15px;
+  bottom: 5px;
 }
 
 :global(.vtex-my-account-1-x-profileBoxContainer),
@@ -367,12 +369,13 @@
       border: none;
       box-shadow: none;
       :global(.vtex-button__label) {
-        background: url(/arquivos/icon_edit.svg) no-repeat 50%;
-        font-size: 0;
         background-size: 25px;
-        width: 25px;
-        height: 25px;
         outline: 0 !important;
+        background: #ed1d25;
+        color: #fff;
+        height: 40px;
+        border-radius: 5px;
+        padding: 0 34px;
       }
     }
   }
@@ -381,11 +384,7 @@
 :global(.vtex-my-account-1-x-passwordBoxContainer) {
   :global(.vtex-my-account-1-x-boxContainerFooter) {
     :global(.vtex-button__label) {
-      background: url(/arquivos/icon_edit.svg) no-repeat 50%;
-      font-size: 0;
       background-size: 25px;
-      width: 25px;
-      height: 25px;
       outline: 0 !important;
     }
   }
@@ -401,18 +400,19 @@
     a {
       font-size: 0;
       &::before {
-        font-weight: 900;
-        font-size: 16px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #525252;
       }
     }
     a[href*="#/profile"] {
       &::before {
-        content: "Mi perfil";
+        content: "Dados pessoais";
       }
     }
     a[href*="#/addresses"] {
       &::before {
-        content: "Mis direcciones";
+        content: "Endereços";
       }
     }
     a[href*="#/orders"] {
@@ -421,23 +421,24 @@
       }
     }
     a[href*="#/cards"] {
-      display: none;
+      // display: none;
       &::before {
-        content: "Mis tarjetas";
+        content: "Cartões";
       }
     }
     a[href*="#/shopping-list"] {
       display: block;
       &::before {
-        content: "Mis listas";
+        content: "Minhas listas";
       }
     }
     :global(.vtex-my-account-1-x-menuLink) {
       font-size: 0;
       &::before {
-        font-size: 16px;
-        font-weight: 700;
-        content: "Cerrar Sesión";
+        font-size: 14px;
+        color: #ed1d25;
+        font-weight: 400;
+        content: "Sair";
       }
     }
   }
@@ -445,8 +446,9 @@
 :global(.vtex-my-account-1-x-profile) {
   :global(.vtex-my-account-1-x-dataEntryLabel),
   :global(.vtex-my-account-1-x-newsletterContainerTitle) {
-    font-size: 16px;
-    font-weight: 900;
+    font-size: 14px;
+    font-weight: bold;
+    color: #525252;
   }
   :global(.vtex-my-account-1-x-dataEntryChildren),
   :global(.vtex-my-account-1-x-newsletterContainerMessage),
@@ -462,12 +464,23 @@
         :global(.vtex-button) {
           width: 256px;
           height: 40px;
-          background: transparent;
+          background: #ed1d25;
           border: 1px solid #ed1d25;
+          color: #fff;
+          text-transform: initial;
           border-radius: 5px;
           opacity: 1;
         }
       }
+    }
+  }
+}
+.passwordBoxContainer {
+  .boxContainerBody {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    .boxContainerFooter {
+      bottom: 5px;
     }
   }
 }

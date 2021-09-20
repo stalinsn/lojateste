@@ -114,7 +114,7 @@
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#savings",
-      "shopping-list-shelf-button"
+      "add-to-wishlist"
     ]
   },
   "shopping-list-shelf-button": {

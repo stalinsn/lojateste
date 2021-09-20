@@ -19,7 +19,7 @@
     "vtex.product-highlights": "2.x",
     "vtex.recommendation-shelf": "0.x",
     "vtex.condition-layout": "1.x",
-    "supermxmcr.mega-menu": "1.x",
+    "gbarbosa.mega-menu": "1.x",
     "supermxmcr.shopping-list": "0.x",
     "vtex.search": "2.x",
     "vtex.iframe": "0.x",
@@ -73,7 +73,8 @@
     "vtex.overlay-layout": "0.x",
     "vtex.store-form": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "supermxmcr.store-selector": "1.x"
+    "supermxmcr.store-selector": "1.x",
+    "lacolonia.wishlist": "0.x"
   },
   "peerDependencies": {
     "vtexeurope.minicart-freeshipping-bar": "1.x"

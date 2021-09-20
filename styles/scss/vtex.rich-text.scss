@@ -166,7 +166,7 @@
   &::before {
     content: "";
     display: block;
-    background: url(/arquivos/icon_box_header2.svg) no-repeat;
+    background: url(/arquivos/icon_box_header2.svg?v=1) no-repeat;
     margin: 0px 6px auto 0;
 
     @media (max-width: em(768px)) {
@@ -632,7 +632,7 @@
 
 .paragraph--txt-news {
   color: #525252;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: bold;
 }
 
@@ -649,7 +649,8 @@
 }
 
 .paragraph--best-seller {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .container--buy-all {
