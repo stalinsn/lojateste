@@ -114,8 +114,14 @@
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#savings",
-      "add-to-wishlist"
+      "flex-layout.row#add-wishlist"
     ]
+  },
+  "flex-layout.row#add-wishlist": {
+    "props": {
+      "blockClass": "add-wishlist"
+    },
+    "children": ["add-to-wishlist"]
   },
   "shopping-list-shelf-button": {
     "props": {

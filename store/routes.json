@@ -55,5 +55,8 @@
   },
   "store.custom#wishlist-custom-list-page": {
     "path": "/wishlist-page/:slug"
+  },
+  "store.custom#institutional-group": {
+    "path": "/grupo-institucional"
   }
 }
