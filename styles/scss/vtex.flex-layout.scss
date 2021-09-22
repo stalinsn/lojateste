@@ -946,6 +946,26 @@
   align-items: center;
   justify-content: center;
 }
+.flexRow--contact-form {
+  padding: 50px;
+  border: 2px solid #ED1D25;
+  border-radius: 5px;
+  :global(.vtex-input__label), :global(.vtex-textarea__label) {
+    color: #7E7E7E;
+  }
+  :global(.vtex-input-prefix__group), :global(.vtex-textarea__input ) {
+    border: 1px solid #C7C7C7;
+    :global(.vtex-styleguide-9-x-input ) {
+      font-weight: 500;
+    }
+  }
+  :global(.vtex-button) {
+    max-width: 292px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 28px;
+  }
+}
 .flexCol--recommended-you {
   max-width: 1275px;
   margin: 0 auto;

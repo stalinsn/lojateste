@@ -58,5 +58,11 @@
   },
   "store.custom#institutional-group": {
     "path": "/grupo-institucional"
+  },
+  "store.custom#atendance-group": {
+    "path": "/central-de-ajuda"
+  },
+  "store.custom#atendance-group2": {
+    "path": "/atendimento"
   }
 }

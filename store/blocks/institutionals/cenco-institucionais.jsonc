@@ -214,7 +214,6 @@
   "tab-content.item#common-questions": {
     "children": [
       "rich-text#common-questions",
-      "rich-text#how-to-buy",
       "vtex.menu@2.x:menu#common-questions"
     ],
     "props": {
@@ -449,8 +448,9 @@
   },
 
   "rich-text#common-questions": {
-    "props": {
-      "text": "### Perguntas Frenquentes"
+    "props": {   
+      "text": "### Perguntas Frenquentes",
+      "blockClass": "faq-title"
     }
   },
   "rich-text#how-to-buy": {

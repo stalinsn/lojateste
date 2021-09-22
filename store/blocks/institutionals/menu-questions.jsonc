@@ -1,0 +1,375 @@
+{
+    "vtex.menu@2.x:menu#common-questions": {
+      "children": [
+        "menu-item#what-is-e-shopping",
+        "menu-item#how-to-buy-a-product",
+        "menu-item#product-disponibility",
+        "menu-item#see-products-in-cart",
+        "menu-item#how-to-do-the-delivery",
+        "menu-item#delivery-price-shopping",
+        "menu-item#delivery-time-shopping",
+        "menu-item#delivery-trackback-shopping",
+        "menu-item#change-adress-shopping",
+        "menu-item#many-different-deliverys"
+      ]
+    },
+    "menu-item#what-is-e-shopping": {
+      "props": {
+        "id": "menu-item-what-is-e-shopping",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "what is e-shopping",
+          "text": "O QUE FAZER NO MOMENTO DO RECEBIMENTO DO PRODUTO?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description"]
+    },
+    "menu-item#how-to-buy-a-product": {
+      "props": {
+        "id": "menu-item-how-to-buy-a-product",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "how to buy a product",
+          "text": "O QUE ACONTECE CASO NÃO TENHA NINGUÉM PARA RECEBER O PRODUTO NO MOMENTO DA ENTREGA?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description2"]
+    },
+    "menu-item#product-disponibility": {
+      "props": {
+        "id": "menu-item-product-disponibility",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "product disponibility",
+          "text": "QUEM PODE RECEBER O PRODUTO COMPRADO?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description3"]
+    },
+    "menu-item#see-products-in-cart": {
+      "props": {
+        "id": "menu-item-see-products-in-cart",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "see products in cart",
+          "text": "EM QUE HORÁRIO SÃO REALIZADAS AS ENTREGAS DOS PRODUTOS?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description4"]
+    },
+    "menu-item#how-to-do-the-delivery": {
+      "props": {
+        "id": "menu-item-how-to-do-the-delivery",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "how to do the delivery",
+          "text": "COMO COMPRAR O VALE GÁS NO GBARBOSA?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description5"]
+    },
+    "menu-item#delivery-price-shopping": {
+      "props": {
+        "id": "menu-item-delivery-price-shopping",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "delivery price shopping",
+          "text": "COMO FAÇO PARA OFERECER UM IMÓVEL/TERRENO PARA IMPLANTAÇÃO DE UMA UNIDADE GBARBOSA?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description6"]
+    },
+    "menu-item#delivery-time-shopping": {
+      "props": {
+        "id": "menu-item-delivery-time-shopping",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "delivery time shopping",
+          "text": "COMO FAÇO PARA ALUGAR UM ESPAÇO PARA IMPLANTAÇÃO DE UM NEGÓCIO NAS LOJAS GBARBOSA?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description7"]
+    },
+    "menu-item#delivery-trackback-shopping": {
+      "props": {
+        "id": "menu-item-delivery-trackback-shopping",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "delivery trackback shopping",
+          "text": "POSSO OBTER INFORMAÇÕES SOBRE A DISPONIBILIDADE E PREÇO DE UM PRODUTO ATRAVÉS DO SAC?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description8"]
+    },
+    "menu-item#change-adress-shopping": {
+      "props": {
+        "id": "menu-item-delivery-adress-shopping",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "delivery adress shopping",
+          "text": "COMO FAÇO ME TORNAR UM FORNECEDOR DO GBARBOSA?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description9"]
+    },
+  
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu10"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description2": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu2"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description3": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu3"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description4": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu4"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description5": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu5"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description6": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu6"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description7": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu7"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description8": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu8"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description9": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu9"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "vtex.menu@2.x:submenu.accordion#e-shopping-description10": {
+      "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu10"],
+      "props": {
+        "blockClass": "menu-e-shopping-description"
+      }
+    },
+    "menu-item#many-different-deliverys": {
+      "props": {
+        "id": "menu-item-many-different-deliverys",
+        "type": "custom",
+        "blockClass": "e-shopping-menu-item-common-questions",
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "tagTitle": "many different deliverys",
+          "text": "QUAL O PRAZO PARA TROCA DE ELETRODOMÉSTICOS OU ELETRO – PORTÁTEIS?"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu": {
+      "children": ["menu-item#e-shopping-description"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu2": {
+      "children": ["menu-item#e-shopping-description2"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu3": {
+      "children": ["menu-item#e-shopping-description3"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu4": {
+      "children": ["menu-item#e-shopping-description4"]
+    },    
+    "vtex.menu@2.x:menu#e-shopping-description-submenu5": {
+      "children": ["menu-item#e-shopping-description5"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu6": {
+      "children": ["menu-item#e-shopping-description6"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu7": {
+      "children": ["menu-item#e-shopping-description7"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu8": {
+      "children": ["menu-item#e-shopping-description8"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu9": {
+      "children": ["menu-item#e-shopping-description9"]
+    },
+    "vtex.menu@2.x:menu#e-shopping-description-submenu10": {
+      "children": ["menu-item#e-shopping-description10"]
+    },
+    "menu-item#e-shopping-description": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "1 – No ato da entrega verifique se o produto está conforme o solicitado no fechamento do seu pedido, e se estiver em perfeitas condições, assine o Comprovante de Recebimento. Se o produto estiver com avaria, a embalagem violada, ou em desacordo com o seu pedido, com itens ou acessórios faltantes, recuse a entrega e entre em contato conosco imediatamente através do 0800 720 1111 para obter orientação de como deve proceder. \n 2 – Fogões e Lavadoras com embalagem de papelão serão abertas no Centro de Distribuição do GBarbosa pelo transportador para a conferência estética do produto, não se configurando, neste caso, violação de embalagem. \n *Caso não tenha encontrado a resposta para a sua dúvida entre em contato conosco."
+        }
+      }
+    },
+    "menu-item#e-shopping-description2": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "Nossos transportadores realizarão 2(duas) tentativas de entrega e, em caso de ausência e/ou na impossibilidade de efetivar a entrega do pedido, a mercadoria retornará ao Centro de Distribuição do G Barbosa. Neste caso o G Barbosa se reserva o direito de efetuar o cancelamento da venda."
+        }
+      }
+    },
+    "menu-item#e-shopping-description3": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "Poderão receber o produto comprado, as pessoas autorizadas pelo cliente na hora da efetivar a compra junto a Central de Atendimento, desde que assine o Protocolo de Entrega e apresente o respectivo documento de identificação. O produto comprado não será entregue a menores de 18 anos."
+        }
+      }
+    },
+
+
+    "menu-item#e-shopping-description4": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "As entregas serão realizadas em horário comercial de segunda-feira a sábado das 8:00h até 18:00h."
+        }
+      }
+    },
+
+    "menu-item#e-shopping-description5": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "Você deve comparecer em uma de nossas lojas e dirigir-se a qualquer um dos caixas solicitando o tíquete de vale gás.  Ao adquirir-lo você receberá o cupom fiscal e o tíquete do vale gás e deverá entrar em contato com o prestador de serviço impresso no cupom. \n É fundamental que no ato do recebimento do gás seja apresentado o cupom fiscal e entregue o tíquete de vale gás."
+        }
+      }
+    },
+
+    "menu-item#e-shopping-description6": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "Envie a sua oferta através do Fale Conosco para que sejam repassadas ao responsável da área de Expansão. Caso haja interesse entraremos em contato."
+        }
+      }
+    },
+
+    "menu-item#e-shopping-description7": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "Se você deseja ser locatário dos espaços comerciais do GBarbosa, envie as informações* de sua empresa através do nosso Fale Conosco."
+        }
+      }
+    },
+
+    "menu-item#e-shopping-description8": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "Não. Optamos por não disponibilizar essas informações devido às alterações constantes e variações de preço por estado."
+        }
+      }
+    },
+    "menu-item#e-shopping-description9": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "Se você deseja ser nosso fornecedor de mercadorias e possui os requisitos mínimos necessários, envie as informações de sua empresa e produto através do nosso Fale Conosco. As informações serão enviadas para análise da Área Comercial que levarão em consideração as necessidades e interesses da empresa."
+        }
+      }
+    },
+    "menu-item#e-shopping-description10": {
+      "props": {
+        "id": "menu-item-e-shopping-description-text",
+        "type": "custom",
+        "blockClass": "text-e-shopping-description",
+        "itemProps": {
+          "type": "internal",
+          "tagTitle": "e-shopping-description-text",
+          "text": "Oferecemos aos nossos clientes, até 02 dias úteis da data de recebimento para troca do produto por defeito técnico/funcional ou avaria não aparente. Após este prazo a Assistência Técnica do Fabricante deverá ser acionada para fazer avaliação e manutenção do aparelho."
+        }
+      }
+    }
+    
+  }
+  
