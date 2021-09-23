@@ -228,8 +228,23 @@
     },
     "flex-layout.row#hirings-links": {
         "children": [
+            "link#send-curr",
             "link#hiring-linkedin"
-        ]
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colGap": 5,
+            "horizontalAlign": "left",
+            "blockClass": "hiring-links",
+            "preventHorizontalStretch": true
+        }
+    },
+    "link#send-curr": {
+        "props": {
+            "label": "Enviar currículo",
+            "href": "https://eb.vagas.com.br/cencosudbrasil",
+            "blockClass": "send-curr"
+        }
     },
     "link#hiring-linkedin": {
         "props": {
