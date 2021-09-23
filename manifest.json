@@ -1,6 +1,6 @@
 {
-  "vendor": "cbgbarbosa",
-  "name": "gbarbosa-app",
+  "vendor": "gbarbosa",
+  "name": "gbarbosa-store",
   "version": "0.1.2",
   "builders": {
     "docs": "0.x",
