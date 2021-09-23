@@ -1,0 +1,116 @@
+{
+    "store.custom#atendance-group": {
+      "parent": {
+        "header": "header"
+      },
+      "blocks": ["responsive-layout.desktop#atendance", "responsive-layout.phone#atendance"]
+    },
+    "responsive-layout.desktop#atendance": {
+      "children": [
+        "flex-layout.row#atendance-group-main",
+        "tab-layout#institutional-atendance"
+      ]
+    },
+    "responsive-layout.phone#atendance": {
+      "children": [
+        "flex-layout.row#atendance-group-main",
+        "tab-layout#institutional-atendance"
+      ]
+    },
+    "flex-layout.row#atendance-group-main": {
+      "children": ["rich-text#title-atendance", "image#arrow-banner-mobile"],
+      "props": {
+        "blockClass": "institutional-title-container"
+      }
+    },
+    "rich-text#title-atendance": {
+      "props": {
+        "text": "Central de ajuda"
+      }
+    },
+    "tab-layout#institutional-atendance": {
+      "children": ["tab-list#institutional-atendance", "tab-content#institutional-atendance"],
+      "props": {
+        "blockClass": "institutional",
+        "defaultActiveTabId": "how-to-buy"
+      }
+    },
+    "tab-list#institutional-atendance": {
+      "children": [
+        "tab-list.item#how-to-buy",
+        "tab-list.item#faq"
+      ],
+      "props": {
+        "blockClass": "institutional-list-content"
+      }
+    },
+    "tab-list.item#how-to-buy": {
+      "props": {
+        "tabId": "how-to-buy",
+        "label": "Como comprar",
+        "defaultActiveTab": true
+      }
+    },
+    "tab-list.item#faq": {
+        "props": {
+          "tabId": "faq",
+          "label": "Perguntas Frequentes"
+        }
+      },
+    
+  
+    "tab-content#institutional-atendance": {
+      "children": [
+        "tab-content.item#how-to-buy",
+        "tab-content.item#faq"
+      ],
+      "props": {
+        "blockClass": "institutional-tab-content-container"
+      }
+    },
+    "tab-content.item#how-to-buy": {
+      "children": ["flex-layout.row#how-to-buy-row"],
+      "props": {
+        "tabId": "how-to-buy",
+        "blockClass": ["how-to-buy-tab-item-container", "institutional-container"]
+
+      }
+    },
+    "tab-content.item#faq": {
+        "children": ["rich-text#faq", "vtex.menu@2.x:menu#common-questions"],
+        "props": {
+          "tabId": "faq",
+          "blockClass": ["faq-tab-item-container", "institutional-container"]
+  
+        }
+      },
+    "rich-text#faq": {
+        "props": {
+            "text": "Perguntas frequentes",
+            "blockClass": "faq-title"
+
+        }
+    },
+    "flex-layout.row#how-to-buy-row": {
+        "children": [
+            "flex-layout.col#how-to-buy-content-container"
+        ]
+    },
+    "flex-layout.col#how-to-buy-content-container": {
+        "children": [
+            "rich-text#how-to-buy-title", "rich-text#how-to-buy-content"
+        ]
+    },
+    "rich-text#how-to-buy-title": {
+        "props": {
+            "text": "### Como comprar no Delivery GBarbosa"
+        }
+    },
+    "rich-text#how-to-buy-content": {
+        "props": {
+            "text": "**01.** Clique no botão “Crie sua conta”, forneça seus dados e informe um e-mail e uma senha de acesso. \n **02.** Acesse sua conta digitando seu e-mail e senha na parte superior do site. \n **03.** Para inciar uma compra, escolha uma categoria de produtos no menu superior. \n **04.** Categorize os produtos, exibindo-os por preço (maior ou menor) ou em ordem alfabética. \n **05.** Para localizar rapidamente o que você precisa, digite o nome ou o tipo de produto no campo de “Busca” na barra superior . \n **06.** Escolha o produto, defina a quantidade e clique em “Comprar”. \n **07.** Altere a quantidade do produto dentro do carrinho (Minhas Compras), para isso basta clicar nos botões + e - ao lado da quantidade do produto. Para excluir o produto do carrinho (Minhas Compras) basta reduzir sua quantidade a 0. \n **08.** Clique no link “Minhas compras” para conferir os produtos que escolheu, o preço de cada um e o valor total de sua compra. \n **09.** Ciente dos valores e produtos escolhidos, clique em “Finalizar compra”. \n **10.** Confera toda a sua compra, podendo adicionar ou remover algum produto. Em seguida, clique em “Continuar”. \n **11.** Selecione o endereço de entrega dos produtos e o tipo de entrega, informações necessárias para a definição do valor do frete. Em seguida, clique em “Continuar”. \n **12.** Escolha a forma de pagamento e clique em “Continuar”. \n **13.** Confira, enfim, todos os detalhes de sua compra: valor, tipo de entrega, endereço de entrega, frete e forma de pagamento. É possível ainda adicionar mais produtos ao seu carrinho, se desejar. Para confirmação final, clique em “Concluir compra”. Pronto. Em breve, os produtos serão entregues com segurança e qualidade em seu endereço.",
+            "blockClass": "how-to-buy"
+        }
+    }
+  }
+  

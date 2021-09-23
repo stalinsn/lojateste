@@ -29,6 +29,14 @@
     font-size: 18px;
   }
 }
+.strong--how-to-buy {
+  display: inline !important;
+}
+.paragraph--faq-title {
+  font-size: 24px;
+    color: #525252;
+    font-weight: bold;
+}
 
 .paragraph--copyright-footer {
   color: #525252;
@@ -135,6 +143,10 @@
   .paragraph--not-found-text {
     font-size: 24px;
     margin: 0;
+  }
+  .paragraph--obs1 {
+    font-size: 13px;
+    color: #898989;
   }
   @media screen and (min-width: em(1024px)) {
     //border-right: solid 1px #fff;

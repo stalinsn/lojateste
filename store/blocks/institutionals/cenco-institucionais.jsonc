@@ -1,0 +1,546 @@
+{
+  "store.custom#institutional-group": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": ["responsive-layout.desktop", "responsive-layout.phone"]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "flex-layout.row#institutional-group-main",
+      "tab-layout#institutional"
+    ]
+  },
+  "responsive-layout.phone": {
+    "children": [
+      "flex-layout.row#institutional-group-main",
+      "tab-layout#institutional"
+    ]
+  },
+  "flex-layout.row#institutional-group-main": {
+    "children": ["rich-text#title", "image#arrow-banner-mobile"],
+    "props": {
+      "blockClass": "institutional-title-container"
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "Institucional"
+    }
+  },
+  "tab-layout#institutional": {
+    "children": ["tab-list#institutional", "tab-content#institutional"],
+    "props": {
+      "blockClass": "institutional",
+      "defaultActiveTabId": "about-us"
+    }
+  },
+  "tab-list#institutional": {
+    "children": [
+      "tab-list.item#about-us",
+      "tab-list.item#history",
+      "tab-list.item#cencosud-group",
+      "tab-list.item#sustainability",
+      "tab-list.item#terms-of-use",
+      "tab-list.item#shipping",
+      "tab-list.item#payment",
+      "tab-list.item#offers"
+    ],
+    "props": {
+      "blockClass": "institutional-list-content"
+    }
+  },
+  "tab-list.item#about-us": {
+    "props": {
+      "tabId": "about-us",
+      "label": "Quem somos",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#history": {
+    "props": {
+      "tabId": "history",
+      "label": "História"
+    }
+  },
+  "tab-list.item#cencosud-group": {
+    "props": {
+      "tabId": "cencosud-group",
+      "label": "Grupo Cencosud"
+    }
+  },
+  "tab-list.item#sustainability": {
+    "props": {
+      "tabId": "sustainability",
+      "label": "Sustentabilidade"
+    }
+  },
+  "tab-list.item#terms-of-use": {
+    "props": {
+      "label": "Termos de Uso",
+      "tabId": "terms-of-use"
+    }
+  },
+  "tab-list.item#shipping": {
+    "props": {
+      "tabId": "shipping",
+      "label": "Formas de entrega"
+    }
+  },
+  "tab-list.item#payment": {
+    "props": {
+      "tabId": "payment",
+      "label": "Formas de pagamento"
+    }
+  },
+  "tab-list.item#offers": {
+    "props": {
+      "tabId": "offers",
+      "label": "Ofertas App GBarbosa"
+    }
+  },
+  "tab-list.item#common-questions": {
+    "props": {
+      "tabId": "common-questions",
+      "label": "Perguntas Frenquentes"
+    }
+  },
+  "tab-list.item#exchange-policy": {
+    "props": {
+      "tabId": "exchange-policy",
+      "label": "Política de Troca"
+    }
+  },
+  "tab-list.item#product-delivery": {
+    "props": {
+      "tabId": "product-delivery",
+      "label": "Entrega de Produtos"
+    }
+  },
+
+  "tab-content#institutional": {
+    "children": [
+      "tab-content.item#about-us",
+      "tab-content.item#history",
+      "tab-content.item#cencosud-group",
+      "tab-content.item#sustainability",
+      "tab-content.item#terms-of-use",
+      "tab-content.item#shipping",
+      "tab-content.item#payment",
+      "tab-content.item#offers"
+    ],
+    "props": {
+      "blockClass": "institutional-tab-content-container"
+    }
+  },
+  "tab-content.item#about-us": {
+    "children": ["flex-layout.row#about-us-content-container"],
+    "props": {
+      "tabId": "about-us",
+      "blockClass": ["about-us-tab-item-container", "institutional-container"]
+    }
+  },
+  "tab-content.item#cencosud-group": {
+    "children": ["flex-layout.row#cenco-group-content-container"],
+    "props": {
+      "tabId": "cencosud-group",
+      "blockClass": [
+        "cenco-group-tab-item-container",
+        "institutional-container"
+      ]
+    }
+  },
+  "flex-layout.row#about-us-content-container": {
+    "children": ["flex-layout.col#about-us-content"]
+  },
+  "flex-layout.row#cenco-group-content-container": {
+    "children": ["flex-layout.col#cenco-group-content"]
+  },
+
+  "tab-content.item#history": {
+    "children": ["rich-text#history-content"],
+    "props": {
+      "tabId": "history",
+      "blockClass": ["history", "institutional-container"]
+    }
+  },
+  "tab-content.item#terms-of-use": {
+    "children": [
+      "rich-text#terms-of-use",
+      "rich-text#terms-of-use1",
+      "rich-text#terms-of-use2",
+      "rich-text#terms-of-use3",
+      "rich-text#terms-of-use4",
+      "rich-text#terms-of-use5",
+      "rich-text#terms-of-use6",
+      "rich-text#terms-of-use7"
+    ],
+    "props": {
+      "tabId": "terms-of-use",
+      "blockClass": "terms-of-use-tab-item-container"
+    }
+  },
+  "tab-content.item#sustainability": {
+    "children": ["rich-text#sustainability"],
+    "props": {
+      "tabId": "sustainability",
+      "blockClass": [
+        "sustainability-tab-item-container",
+        "institutional-container"
+      ]
+    }
+  },
+  "tab-content.item#shipping": {
+    "children": ["rich-text#shipping"],
+    "props": {
+      "tabId": "shipping",
+      "blockClass": "shipping-tab-item-container"
+    }
+  },
+  "tab-content.item#payment": {
+    "children": ["rich-text#payment", "flex-layout.row#cards-payment"],
+    "props": {
+      "tabId": "payment",
+      "blockClass": "payment-tab-item-container"
+    }
+  },
+  "tab-content.item#offers": {
+    "children": ["rich-text#offers"],
+    "props": {
+      "tabId": "offers",
+      "blockClass": "offers-tab-item-container"
+    }
+  },
+  "tab-content.item#common-questions": {
+    "children": [
+      "rich-text#common-questions",
+      "vtex.menu@2.x:menu#common-questions"
+    ],
+    "props": {
+      "tabId": "common-questions",
+      "blockClass": "common-questions-tab-item-container"
+    }
+  },
+  "tab-content.item#exchange-policy": {
+    "children": ["rich-text#exchange-policy"],
+    "props": {
+      "tabId": "exchange-policy",
+      "blockClass": "exchange-policy-tab-item-container"
+    }
+  },
+  "tab-content.item#product-delivery": {
+    "children": ["rich-text#product-delivery"],
+    "props": {
+      "tabId": "product-delivery",
+      "blockClass": "product-delivery-tab-item-container"
+    }
+  },
+
+  "rich-text#about-us": {
+    "props": {
+      "text": "### Quem somos ",
+      "blockClass": "about-us-text"
+    }
+  },
+  "flex-layout.col#about-us-content": {
+    "children": [
+      "flex-layout.row#image-and-content-aboutus",
+      "rich-text#last-content-aboutus"
+    ]
+  },
+  "flex-layout.col#cenco-group-content": {
+    "children": [
+      "flex-layout.row#image-and-content-cenco-group",
+      "rich-text#last-content-cenco-group"
+    ]
+  },
+  "flex-layout.row#image-and-content-aboutus": {
+    "children": ["rich-text#main-text-aboutus", "image#aboutus-image"]
+  },
+  "flex-layout.row#image-and-content-cenco-group": {
+    "children": ["rich-text#main-text-cenco-group", "image#cenco-group-image"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "group-cencosud"
+    }
+  },
+  "image#aboutus-image": {
+    "props": {
+      "src": "/arquivos/gbarbosa_aboutus.jpg"
+    }
+  },
+  "image#cenco-group-image": {
+    "props": {
+      "src": "/arquivos/cencosud-logo-inst.jpg"
+    }
+  },
+  "rich-text#main-text-aboutus": {
+    "props": {
+      "text": "O que nasceu como uma pequena mercearia que vendia secos e molhados, hoje é uma das marcas mais forte do Nordeste. Fundada em julho de 1955, em Sergipe, pelos irmãos Gentil e Noel Barbosa, sua proposta oferecer variedade de produtos a preços baixos e atendimento de qualidade. Em pouco tempo, a empresa ampliou o número de lojas na capital e nos principais municípios de Sergipe, indo também para os estados da Bahia, Alagoas, Ceará e Pernambuco. Em 2007, a rede GBarbosa foi adquirida pelo grupo Cencosud, uma das maiores varejistas do mercado latino-americano."
+    }
+  },
+  "rich-text#main-text-cenco-group": {
+    "props": {
+      "text": "### Grupo Cencosud \n \n Quarta maior supermercadista do país, a Cencosud Brasil conta com mais de 200 lojas e mais de 25 mil colaboradores, estando presente em oitos estados (Alagoas, Bahia, Ceará, Goiás, Minas Gerais, Pernambuco, Rio de Janeiro e Sergipe) por meio das bandeiras GBarbosa, Bretas, Prezunic, Perini e Mercantil Rodrigues. Possui ainda um escritório administrativo na cidade de São Paulo. O grupo atua com vários modelos de varejo: super e hipermercados, farmácias e lojas de eletroeletrônicos (Eletro Show)."
+    }
+  },
+  "rich-text#sustainability": {
+    "props": {
+      "text": "### Sustentabilidade \n \n Gerir a sustentabilidade dentro de uma empresa de varejo é, antes de tudo, um grande desafio. Mas, é por acreditar nas possibilidades de crescimento e nos aprendizados trazidos pelos grandes desafios que a rede de supermercados GBarbosa firmou-se no mercado como uma das maiores do ramo no país. Para tanto, compreender a sustentabilidade como um novo modelo de gestão de negócios é o principal passo a ser dado rumo à perenidade das atividades de nossa empresa. Ao ouvir falar em Sustentabilidade, muitas pessoas podem de imediato pensar em Meio Ambiente o que, de fato, está correto. Entretanto, sabemos que para alcançar um desenvolvimento sustentável é preciso ainda contemplar os eixos econômicos e sociais. Juntos, esses três pilares formam o Triple Bottom Line, ou seja, o Tripé da Sustentabilidade. Apoiada nesse tripé, a rede de supermercados GBarbosa dá vida a diversas ações em prol do desenvolvimento sustentável, as quais visam contemplar nossos stakeholders. Ao adotar as diretrizes apontadas pela Global Report Initiative (GRI), nossa empresa firma o compromisso de caminhar de mãos dadas com a Sustentabilidade. \n\n Conheça também: Carta de compromisso: [Venda de Ovos Produzidos por Galinhas Livres de Gaiolas](/#) \n Conheça também: Carta de compromisso: [Compra Sustentável de Carne](/#) \n \n **Grupos de interesse** \n \n Acreditamos que todas as práticas executadas pela empresa devem corresponder às expectativas dos nossos grupos de interesse. Por isso, é essencial dialogar com os stakeholders, estabelecer parcerias e envolvê-los em nossos projetos sociais. Fazem parte da rede de relacionamentos do GBarbosa: a comunidade, os clientes, os consumidores, os colaboradores e os fornecedores."
+    }
+  },
+  "rich-text#last-content-aboutus": {
+    "props": {
+      "text": "Desde 2017 o GBarbosa faz parte da Cencosud, líder em vendas na América Latina e 4° maior supermercadista no Brasil. O Grupo Cencosud buscafornecer os melhores serviços, preços e produtos aos seus clientes. Para atingir esta meta, opera no país com mais de 220 lojas e cerca de 30 mil colaboradores, estando presente em oitos estados (Alagoas, Bahia, Ceará, Goiás, Minas Gerais, Pernambuco, Rio de Janeiro e Sergipe) por meio das bandeiras GBarbosa, Bretas, Prezunic, Perini e Mercantil Rodrigues. Possui ainda um escritório administrativo na cidade de São Paulo. O Grupo Cencosud atua com vários modelos de varejo: super e hipermercados, farmácias e lojas de eletroeletrônicos (Eletro Show). Fundado em 1963, possui ações nas bolsas de Santiago e Nova York, além de atuar em cinco países – Argentina, Brasil, Chile, Colômbia e Peru – e manter um escritório comercial na China. A companhia emprega diretamente mais de 140 mil colaboradores em mais de 900 estabelecimentos comerciais. \n \n **Missão e Visão GBarbosa** \n \n A nossa Missão é atender as diferentes necessidades dos nossos clientes, mantendo a sustentabilidade e crescimento da marca. Com a Visão de sermos o melhor supermercado do Nordeste, por meio de uma equipe engajada e trabalhando todos os dias para oferecer uma excelente experiência de compara para os clientes. \n \n **Farmácias GBarbosa** \n \n Desde 2000 a rede comercializa produtos farmacêuticos por meio das Farmácias GBarbosa. Hoje são 51 lojas, que atuam diretamente com os melhores laboratórios locais e nacionais. A rede de Farmácias GBarbosa oferece mais de 9.000 tipos de medicamentos e emprega mais de 400 profissionais da área. Além de preparar futuros farmacêuticos no modelo de estágio, desenvolvendo assim novos talentos. As Farmácias GBarbosa estão sempre buscando oferecer mais saúde aos seus clientes, concedendo descontos para idosos, medicamentos Genéricos a preços populares e facilidade de pagamento. Além de realizar ações de saúde em parceria com órgãos governamentais e fornecedores nas regiões onde estão presentes. \n \n **Eletro Show GBarbosa** \n \n Em 2005 a rede acelerou seu processo de expansão, inaugurando a sua nova unidade de negócio, o Eletro Show GBarbosa, onde o cliente pode comprar eletro eletrônicos virtualmente com conforto, praticidade e economia. Com o formato de negócio diferenciado, a rede oferece aos seus clientes por meio de um sistema moderno a possibilidade de escolher o produto na tela do computador, receber informações técnicas, e contar com as facilidades de pagamento do cartão Cencosud/ GBarbosa. O cliente sai da loja com a nota fiscal e recebe o produto em domicílio em até 72 horas."
+    }
+  },
+  "rich-text#last-content-cenco-group": {
+    "props": {
+      "text": "Fundado em 1963, possui ações nas bolsas de Santiago, atuação em cinco países – Argentina, Brasil, Chile, Colômbia e Peru – e mantém um escritório comercial na China. A companhia emprega diretamente mais de 130 mil colaboradores em mais de 1.000 estabelecimentos comerciais. Para saber mais sobre a companhia, acesse: www.cencosud.com"
+    }
+  },
+  "rich-text#history-content": {
+    "props": {
+      "text": "### Histórico \n \n **1955** \n \n  O GBarbosa foi fundado em julho de 1955 em Sergipe pelos irmãos Gentil e Noel Barbosa. A princípio, tratava-se de uma mercearia que vendia secos e molhados, no centro da capital. Sob o comando da dupla, já na Avenida Otoniel Dórea, área do mercado central aracajuano, o GBarbosa começou a ganhar projeção. \n \n **1960 – 1963** \n \n Em 1961, a primeira filial foi criada no município sergipano de Tobias Barreto. Atentos à tendência do mercado, Gentil e Noel inauguraram em Aracaju, em 1963, o primeiro supermercado do grupo, focado nas classes de menor poder aquisitivo e que desenvolveu, desde o início, a cultura da simplicidade operacional, com o lema de oferecer preços baixos, atendimento de qualidade e variedade de produtos. \n \n **1980’S** \n \n Sempre respeitando esse lema, a empresa começou a ampliar o número de filiais na capital. Também passou a estar presente nos principais municípios de Sergipe. No início da década de 80, o GBarbosa chegou ao interior da Bahia, com a criação da filial na cidade de Esplanada.  \n \n **2000 – 2005** \n \n Em outubro de 2000, a marca estreou na capital da Baiana, Salvador. Nesse mesmo ano a rede passou a comercializar produtos Farmacêuticos por meio das Farmácias GBarbosa. Em 2005 o GBarbosa ampliou e modernizou sua atuação e apresentou ao mercado a primeira loja no formato Eletro Show na cidade de Itaporanga, em Sergipe. \n \n **2006** \n \n Em agosto de 2006, a rede supermercadista se estabeleceu na capital de Alagoas, onde hoje conta com sete unidades. \n \n **2007** \n \n Desde Novembro de 2007 a rede nascida e criada em solo sergipano, ganhou força e passou a ser comandada pela varejista chilena Cencosud. \n \n **2008 – 2010** \n \n Consolidando-se como a quarta maior rede varejista do país, entre 2008 e 2010, o GBarbosa acelerou seu processo de expansão, inaugurando novas unidades e chegou a cidade de Fortaleza – CE, por meio de Farmácias e Cartão GBarbosa. \n \n **2008 – 2010** \n \n Consolidando-se como a quarta maior rede varejista do país, entre 2008 e 2010, o GBarbosa acelerou seu processo de expansão, inaugurando novas unidades e chegou a cidade de Fortaleza – CE, por meio de Farmácias e Cartão GBarbosa. \n\n **2011** \n \n Em 2011 a rede deu continuidade ao crescimento se estabeleceu na cidade de Fortaleza com mais 5 lojas no formato supermercado e 2 lojas no formato hipermercado. Atualmente o GBarbosa conta com 79 lojas entre supermercados e hipermercados, 77 Eletro Shows e 51 Farmácias, distribuídos nos estados de Sergipe, Bahia, Alagoas, Ceará e Pernambuco ao gerar mais de 9 mil empregos. \n\n **2016** \n\n Contribuindo com a economia doméstica, a rede inaugurou o novo formato GBarbosa Desconto, unindo os serviços do varejo com o preço baixo do atacado. As principais mudanças estão no preço dos produtos que ficam até 22% mais em conta, além das etiquetas que passam a ser impressas sempre com dois valores – preço de uma unidade e desconto na compra de duas unidades ou mais. O principal diferencial do GBarbosa Desconto é manter o tripé: qualidade, variedade e preços baixos. O cliente além de economizar encontra mais produtos em embalagens tamanho família, packs promocionais, e itens da linha food service, voltados aos pequenos e médios comerciantes. As prateleiras tradicionais foram substituídas por estruturas mais altas, a fim de estocar caixas de produtos, contribuindo com os clientes que compram em volume. As lojas Iguatemi, Brotas e Pau da Lima, em Salvador; e Hiper Norte, em Aracaju, já contemplam o novo formato. \n \n **2018** \n \n No Dia do Supermercado, 12 de novembro, inauguramos na área externa do GBarbosa Hiper Norte o Instituto GBarbosa 50+, espaço multiuso de 200 metros quadrados dedicado à promoção de atividades gratuitas para a comunidade 50+."
+    }
+  },
+  "rich-text#terms-of-use": {
+    "props": {
+      "text": "Políticas de Privacidade e Proteção de Dados Pessoais"
+    }
+  },
+  "rich-text#terms-of-use1": {
+    "props": {
+      "text": "Última atualização: 27/07/2021",
+      "blockClass": "terms-of-use-date"
+    }
+  },
+
+  "rich-text#terms-of-use2": {
+    "props": {
+      "text": "O Grupo Cencosud Brasil, composto pelas empresas CENCOSUD BRASIL COMERCIAL S/A., pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 39.346.861/0350-38, com sede na Avenida das Nações Unidas n.º 12.995, 21° andar, Edifício Plaza Centenário, bairro Brooklin Paulista, São Paulo/SP, CEP 04578-000, PERINI COMERCIAL DE ALIMENTOS LTDA, pessoa jurídica de direito privado, inscrita no CNPJ sob o n.º 11.965.515/0001-42, com sede na avenida Vasco da Gama n.º 3.051, pavimento 1, 2, 3, sala 3, bairro Federação, Salvador/BA, CEP 40.230-731 e MERCANTIL RODRIGUES COMERCIAL LTDA, pessoa jurídica de direito privado, inscrita no CNPJ sob o n.º 09.182.947/0001-35, AV JEQUITAIA n.º 411, bairro Comércio, Salvador/BA, CEP 40.460-000, respeita a privacidade de seus colaboradores, consumidores, fornecedores e de todos aqueles com os quais possuem relacionamento, principalmente os que utilizam suas plataformas digitais, como sites e aplicativos e serviços de Wi-Fi. \n \n  Esta Política de Privacidade e Proteção de Dados Pessoais expressa nosso compromisso com o tratamento de seus dados pessoais de modo responsável, ético, em linha com nossos princípios e valores e, especialmente, de acordo com as regras da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais - “LGPD”) e demais legislações vigentes aplicáveis. Reconhecemos que esta é uma responsabilidade constante e, portanto, atualizaremos periodicamente esta Política à medida que se fizerem necessários novos procedimentos de privacidade e proteção de seus dados pessoais. \n \n A presente Política contempla todas as atividades de tratamento de dados pessoais realizadas, por meios físicos ou digitais, diretamente pelo Grupo Cencosud Brasil, por meio de suas marcas “Mercantil Rodrigues”, “Perini”, “Prezunic”, “Spid35”, “Cartão Cencosud” “Bretas” e “GBarbosa” ou por seus parceiros comerciais sob sua responsabilidade. \n\n  Ao se relacionar com as empresas do Grupo Cencosud Brasil, adquirir nossos produtos e utilizar nossos serviços, bem como nosso(s) site(s) ou aplicativo(s), você concorda com o tratamento de seus dados pessoais como está descrito nesta Política de Privacidade e Proteção de Dados Pessoais. \n \n  Se você tiver alguma dúvida sobre esta Política de Privacidade e Proteção de Dados Pessoais, entre em contato com o(a) nosso(a) DPO/Encarregado(a) de Dados, Fernanda Menezes, pelo e-mail [privacidade@cencosud.com.br](/#). \n\n Seções desta Política de Privacidade e Proteção de Dados Pessoais \n \n  Esta Política de Privacidade e Proteção de Dados Pessoais informa quais dados pessoais coletamos sobre você, para o que usamos, como e onde armazenamos e com quem compartilhamos. Também define os seus direitos em relação aos seus dados pessoais e quem você pode contatar para obter mais informações ou esclarecimentos a respeito desse tema. Veja abaixo as seções desta Política: \n \n \n ",
+      "blockClass": "terms-of-use-date"
+    }
+  },
+  "rich-text#terms-of-use3": {
+    "props": {
+      "text": "1. Como coletamos os seus dados pessoais; \n 2. Quais tipos de Dados Pessoais podem ser coletados; \n 3. Como utilizamos seus dados pessoais; \n 4. Fundamentos legais para tratar os seus dados pessoais; \n 5. Compartilhamento de seus dados pessoais; \n 6. Dados de Crianças e Adolescentes; \n 7. Retenção de seus dados pessoais; \n 8. Segurança de seus dados pessoais; \n 9. Cookies \n ; 10. Seus direitos; \n 11. Comunicação com o usuário e operações fraudulentas \n 12. Alterações nesta Política de Privacidade e Proteção de Dados Pessoais; \n 13. Reclamações, dúvidas e/ou solicitações; \n \n",
+      "blockClass": "terms-of-use-date"
+    }
+  },
+  "rich-text#terms-of-use4": {
+    "props": {
+      "text": "**1. Como coletamos os seus dados pessoais** \n \n Coletamos seus dados pessoais e dados pessoais sensíveis (em conjunto referidos nesta Política simplesmente como “dados pessoais”) automaticamente quando você visita nosso(s) site(s), utiliza nosso(s) aplicativo(s), e-mails, anúncios ou adere as nossas campanhas promocionais. Também coletamos seus dados pessoais quando você adquire nossos produtos e serviços, em nossos estabelecimentos físicos ou e-commerce, ou ainda, manifesta interesse em adquiri-los por meio de cadastros prévios em nossas lojas ou plataformas. Assim, a coleta de dados pode advir das seguintes fontes: \n\n - Diretamente do titular: podemos coletar seus dados pessoais, por exemplo ao realizar seu cadastro nas plataformas e/ou Programas de Relacionamento, ao participar de nossas campanhas promocionais, por quaisquer meios disponíveis (site, aplicativo, atendimento nas lojas, totem, pontos de WiFi Cencosud). Coletamos todas e quaisquer informações que sejam fornecidas pelo aderente ao usufruir dos benefícios do(s) Programa(s) de Relacionamento, ao comprar nossos produtos, realizar devoluções, solicitar garantia estendida ou até mesmo quando entra em contato conosco através dos nossos canais de comunicação. \n \n - Via interação com o(s) nosso(s) site(s) e/ou aplicativo(s): através de sua interação em nosso(s) site(s), e nosso(s) aplicativo(s), podemos coletar dados pessoais sobre você para oferta de produtos e serviços, bem como, para sua dos nossos cartões. Além disso, podemos coletar ou obter dados pessoais sobre você pela maneira como você interage com nosso(s) site(s) e/ou aplicativo(s) para fornecer informações que acreditamos ser de seu interesse. \n\n - Através de terceiros: também podemos coletar seus dados pessoais através de parceiros e fornecedores. Neste caso, adotamos medidas para garantir que foram cumpridas as regras de privacidade e proteção de dados pessoais, dispostas na LGPD, incluindo a coleta de termo de consentimento, se assim for necessário. \n \n **2. Quais tipos de Dados Pessoais podem ser coletados** \n \n Coletamos seus dados pessoais e dados pessoais sensíveis (em conjunto referidos nesta Política simplesmente como “dados pessoais”) automaticamente quando você visita nosso(s) site(s), utiliza nosso(s) aplicativo(s), e-mails, anúncios ou adere as nossas campanhas promocionais. Também coletamos seus dados pessoais quando você adquire nossos produtos e serviços, em nossos estabelecimentos físicos ou e-commerce, ou ainda, manifesta interesse em adquiri-los por meio de cadastros prévios em nossas lojas ou plataformas. Assim, a coleta de dados pode advir das seguintes fontes: \n \n - Diretamente do titular: podemos coletar seus dados pessoais, por exemplo ao realizar seu cadastro nas plataformas e/ou Programas de Relacionamento, ao participar de nossas campanhas promocionais, por quaisquer meios disponíveis (site, aplicativo, atendimento nas lojas, totem, pontos de WiFi Cencosud). Coletamos todas e quaisquer informações que sejam fornecidas pelo aderente ao usufruir dos benefícios do(s) Programa(s) de Relacionamento, ao comprar nossos produtos, realizar devoluções, solicitar garantia estendida ou até mesmo quando entra em contato conosco através dos nossos canais de comunicação. \n \n  - Via interação com o(s) nosso(s) site(s) e/ou aplicativo(s): através de sua interação em nosso(s) site(s), e nosso(s) aplicativo(s), podemos coletar dados pessoais sobre você para oferta de produtos e serviços, bem como, para sua dos nossos cartões. Além disso, podemos coletar ou obter dados pessoais sobre você pela maneira como você interage com nosso(s) site(s) e/ou aplicativo(s) para fornecer informações que acreditamos ser de seu interesse. \n \n -   Através de terceiros: também podemos coletar seus dados pessoais através de parceiros e fornecedores. Neste caso, adotamos medidas para garantir que foram cumpridas as regras de privacidade e proteção de dados pessoais, dispostas na LGPD, incluindo a coleta de termo de consentimento, se assim for necessário. \n \n Além disso, também coletamos cookies quando você acessa nosso site e/ou aplicativo, para melhorar sua experiência de navegação, otimizar as funcionalidades do site e trazer um conteúdo personalizado para você. \n \n **3. Como utilizamos seus dados pessoais** \n \n Coletamos, armazenamos e tratamos seus dados pessoais para diversas finalidades ligadas ao nosso negócio, tais como: \n \n - Dados identificação: para identificar e confirmar sua identidade durante a venda de produtos e serviços, aquisição cartões, assegurar o acesso às unidades do grupo, atender às determinações legais e regulatórias. \n \n - Dados sensíveis: identificação na contratação, recebimento e/ou utilização do cartão e plataformas digitais, para realizar contestação de compra, controle e ajustes na fatura e programa fidelidade, para o cumprimento de cotas, obrigação regulatória, garantia dos direitos fundamentais e a não discriminação da expressão religiosa. \n \n - Dados financeiros: identificar, agendar e faturar pagamentos, avaliar e aprovar crédito para aquisição dos nossos cartões e atender questões fiscais, legais e regulatórias. \n \n - Dados de navegação: cumprir determinações legais de coleta de dados pessoais dispostas no Marco Civil da Internet (Lei nº 12.965/2014), promover melhorias na experiência de navegação, oferecer produtos e serviços de acordo com os seus interesses e realizar análises estatísticas. \n \n Além das finalidades citadas acima, os seus dados são tratados pelo Grupo Cencosud Brasil para melhorar o atendimento de acordo com suas preferências, gostos e comportamentos, melhorar a experiência de compras e dos serviços ofertados através dos programas de relacionamento, de forma a gerar maior interação com você, informar acerca das promoções, ofertas, sorteios, processamento de benefícios, eventuais alterações no site, no aplicativo, no regulamento e todos os demais documentos, bem como gerar dados estatísticos, respeitados os limites permitidos pela legislação de proteção de dados e legítimos interesses do Grupo Cencosud Brasil. \n \n **4. Fundamentos legais para tratar os seus dados pessoais** \n \n A LGPD dispõe que o tratamento de dados pessoais apenas deve ocorrer mediante fundamento legal. \n \n  Assim, destacamos abaixo as hipóteses legais em que os seus dados pessoais poderão ser tratados, quando estamos na posição de Controlador, aplicando-se de acordo com a categoria dos dados (dados pessoais ou dados pessoais sensíveis: \n \n  (a) mediante o fornecimento do seu consentimento para tratamento de seus dados pessoais, como por exemplo, para lhe conceder acesso ao site, aplicativo ou outras plataformas mantidas pelo Grupo Cencosud Brasil ou receber informações via e-mail sobre seus interesses; \n \n  (b) quando existentes legítimos interesses para tratamento de seus dados pessoais como no oferecimento e entrega de nossos produtos e serviços para você, garantindo um funcionamento eficaz e lícito, desde que tais interesses não sejam superados pelos seus interesses, direitos e liberdades fundamentais; (c) \n \n  para o cumprimento de obrigações legais e regulatórias que podem exigir a coleta, armazenamento e compartilhamento de seus dados pessoais e dados pessoais sensíveis, tais como manutenção de registros para fins fiscais ou fornecimento de informações a um órgão público ou entidade reguladora de leis/atividades do objeto social do Grupo Cencosud Brasil e cumprimento de obrigações de combate à corrupção, lavagem de dinheiro, fraude e condutas irregulares; (d) \n \n  para executar eventual contrato, bem como para fornecer nossos serviços a você; (e) \n \n  para exercer regularmente nossos direitos em contratos, processos judiciais, administrativos ou arbitrais; (f) \n \n  para proteção de nosso crédito; (g) \n \n  para garantir a prevenção à fraude e à sua segurança, nos processos de identificação e autenticação de cadastro em sistemas eletrônicos, especialmente os relacionados ao nosso cartão de crédito. \n \n  Quando o Grupo Cencosud Brasil executa serviços em nome de terceiros, a Cencosud encontra-se na posição de Operador. Nesse caso a hipótese legal em que os dados pessoais serão tratados, será definida pelo Controlador do dado pessoal e a Cencosud seguirá as diretrizes apresentadas, tratando os dados em questão apenas para finalidades específicas. \n \n **5. Compartilhamento de seus dados pessoais** \n \n Ao tratar os seus dados pessoais, poderemos compartilhar com: \n\n - Transportadoras e seguradoras para atender devidamente os serviços contratados e realizar a entrega dos produtos da Cencosud adquiridos por você; \n \n  - Instituição bancária parceira, Sistema Financeiro de Informação (SFI) e Bureaus de Crédito, para as hipóteses de solicitação de crédito e contratação dos serviços do nosso cartão; \n \n - Terceiros que nos prestam serviços nas condições de operadores de tratamento de dados pessoais, como serviços de armazenamento de dados e de comunicação (como envio de e-mails, SMS e outras mídias), envio de correspondências por meios físicos (faturas, cartões), operação e manutenção de sistemas de informática, meios de pagamento; \n \n - Autoridades competentes (incluindo tribunais e autoridades que exercem poder de fiscalização ou regulação dos nossos setores de atuação); \n\n ",
+      "blockClass": "terms-of-use-date"
+    }
+  },
+  "rich-text#terms-of-use5": {
+    "props": {
+      "text": "Por ser uma Multinacional, com atuação em vários países da América do Sul, o Grupo Cencosud, poderá compartilhar seus dados pessoais internamente com suas operações, com o objetivo de prestar um melhor serviço para você. Esses dados serão compartilhados utilizando meios seguros e armazenados em um ou mais Datacenters dentro ou fora do Brasil, buscando sempre a disponibilidade, integridade e confidencialidade dos seus dados pessoais. \n\n  Quaisquer novos compartilhamentos de dados serão comunicados a você, assim como a respectiva finalidade das transferências, as quais serão realizadas conforme a presente Política de Privacidade. \n \n  Ressalta-se que toda e qualquer pessoa, com a qual os seus dados forem compartilhados, está comprometida com as finalidades específicas de prestar serviços ao Grupo Cencosud Brasil e auxiliar nas operações do Programa de Relacionamento, razão pela qual não possuem quaisquer direitos autônomos de uso dos dados.\n\n Ao cadastrar-se no Programa de Relacionamento, você aceita e concorda expressamente com o compartilhamento e transferência dos dados pessoais indicados acima, especialmente aos parceiros comerciais do Grupo Cencosud Brasil, suas filiais, subcontratadas, no Brasil e no exterior, nos termos desta Política de Privacidade. \n\n Outros compartilhamentos podem ser realizados com a finalidade de atender as suas solicitações e prestar devidamente os serviços contratados. Para informações detalhadas sobre os nomes dos terceiros com os quais compartilhamos seus dados pessoais, entre em contato com o nosso canal de Privacidade e Proteção de Dados pelo e-mail [privacidade@cencosud.com.br](/#). \n \n **6. Dados de Crianças e Adolescentes** \n \n Durante a venda de produtos e prestação de serviços, o Grupo Cencosud Brasil poderá coletar dados pessoais de crianças e adolescentes e garantirá que o tratamento sempre ocorra no melhor interesse da criança e do adolescente. \n \n  Crianças: O tratamento de dados pessoais de crianças será realizado mediante consentimento específico e em destaque de pelo menos um de seus pais ou responsável legal. \n \n Adolescentes: Em relação ao adolescente, o tratamento de seus dados pessoais poderá ocorrer independentemente do consentimento de um dos pais ou responsável legal, desde que presente outro fundamento legal que autorize o tratamento, nos termos da LGPD. \n \n **7. Retenção de seus dados pessoais** \n \n Armazenamos e mantemos seus dados pessoais de forma segura em no Brasil e em países que também possuem legislações específicas para privacidade de dados, pelo período necessário ou permitido em vista das finalidades para as quais os dados pessoais foram coletados, conforme exposto nesta Política de Privacidade e Proteção de Dados Pessoais.  \n \n Os critérios utilizados para determinar os períodos de retenção incluem, mas não se limitam a: (i) duração do nosso relacionamento com você; (ii) enquanto válido seu consentimento, nas hipóteses aplicáveis; (iii) diante de eventual obrigação legal ou regulatória que exija a manutenção dos dados pessoais; (iv) quando necessário para atividade ou serviços relevantes; e (v) para atender prazos prescricionais aplicáveis, conforme previsto em lei ou regulamento. \n \n  Quando for verificado que a finalidade de armazenamento dos dados foi alcançada e estes não forem mais necessários, a menos que exista determinação legal ou de autoridade competente para manutenção e ressalvados os casos previsto na legislação ou pela presente Política de Privacidade, os dados pessoais serão eliminados pelo Grupo Cencosud Brasil, bem como pelos terceiros com os quais foram compartilhados.,. \n \n **8. Segurança de seus dados pessoais** \n \n Estamos comprometidos em proteger a sua privacidade e seus dados. Para isso, adotamos medidas de segurança, técnicas e administrativas aptas a proteger os seus dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito, o que inclui, mas não se limita à: \n \n - Limitação do acesso a dados pessoais por parte dos colaboradores, prestadores de serviços e visitantes, restringindo-o apenas nos limites da necessidade e finalidade de tratamento dos dados pessoais; \n \n - Garantia de que os nossos colaboradores, prestadores de serviços e visitantes cumpram o que determina a Legislação, esta Política e todos os procedimentos adequados para o correto tratamento de dados pessoais; e \n \n - Utilização de tecnologias concebidas para proteger os dados pessoais durante a sua transmissão, como encriptação SSL dos dados que você fornece em determinadas partes do nosso site e utilização de segurança adequada para proteger os dados pessoais recebidos. \n \n Tais medidas são observadas desde a fase de concepção do programa, na sua execução e término. \n \n Qualquer outra pessoa que intervenha em uma das fases do tratamento, como os parceiros e colaboradores do Grupo Cencosud Brasil, também obrigam-se a garantir a segurança da informação prevista na Lei em relação aos dados pessoais, mesmo após o seu término. \n \n Vale salientar que o Grupo Cencosud Brasil sempre comunicará à autoridade nacional e a você, titular dos dados, a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante. Essa comunicação mencionará a descrição da natureza dos dados pessoais afetados, a indicação das medidas técnicas e de segurança utilizadas para a proteção dos dados, observados os segredos comercial e industrial, os riscos relacionados ao incidente e as medidas que foram ou que serão adotadas para reverter ou mitigar os efeitos do prejuízo. \n \n  Também aplicamos processos e medidas, padrão da indústria para a detecção e resposta a tentativas de violação dos nossos sistemas. Entretanto, não existe um método de transmissão pela Internet ou um método de armazenamento eletrônico que seja 100% seguro. Por conseguinte, não podemos garantir a segurança absoluta das suas informações, apesar de serem tomadas todas as precauções necessárias e exigidas pelos órgãos competentes. \n \n  A Internet, dada a sua natureza, é um fórum público e por isso recomendamos que você tenha cautela ao divulgar informações online. Frequentemente, você se encontra na melhor posição para proteger a si mesmo online. Você é responsável pela proteção do seu nome de usuário e senha contra o acesso de terceiros, assim como pela escolha de senhas seguras. \n \n  O Grupo Cencosud Brasil recomenda que o aplicativo e demais aplicações de internet sejam acessados de computadores, aparelhos móveis ou periféricos confiáveis, sendo desaconselhável o acesso em dispositivos públicos, vulneráveis, de terceiros ou outros que possam ter fragilidades de segurança. Sugere-se, ainda que você, ao final do acesso, realize o procedimento de logout (sair de sua conta). \n \n Recomenda-se também, que o você utilize em seus periféricos somente programas originais, os quais devem estar atualizados, principalmente em relação às atualizações relativas à segurança do sistema operacional. Destaca-se a indispensável utilização de programas de antivírus que estejam em seus dispositivos no modo “ativo”. \n \n Você também deverá ter prudência com os conteúdos acessados pelos seus computadores, celulares e demais periféricos, tudo no intuito de resguardar a segurança dos aludidos dispositivos.\n \n **9. Utilização de Cookies** \n \n O Grupo Cencosud Brasil utiliza Cookies com o objetivo de melhorar a sua experiência de uso do site, do aplicativo e demais plataformas, deixando-as mais ágeis, dinâmica, atualizada e favorável à utilização. \n \n Os “cookies” são considerados pequenos arquivos, de texto ou imagem, captados em nosso Site, armazenados nos dispositivos utilizados pelos titulares que os acessam (por exemplo, computadores, tablets, smartphones etc.), onde são registrados para a posterior retransmissão aos mesmos sites quando este titular volta a visitá-los. \n \n Esses pequenos arquivos, desempenham diversas funções, tais como permitir que você navegue entre as páginas de maneira eficiente, armazenar suas preferências e, em geral, melhorar sua experiência de navegação. \n \n  O Usuário poderá desabilitar a função de cookies, exclusivamente nos sites, conforme indicado por cada fabricante de cada navegador. Em caso de dúvida, recomenda-se contato com o fornecedor do navegador acerca dos cookies. A desativação dos cookies poderá inviabilizar certas funções dos sites e do aplicativo, a qual irá impossibilitar o fornecimento de todos os recursos, além de instabilidades no sistema. \n \n  Os titulares também podem remover regularmente todos os cookies que já estão nos seus dispositivos, limpando o histórico do seu navegador. Isso removerá todos os cookies de todos os sites visitados. Contudo, esteja ciente de que, se você desabilitar os cookies que utilizamos no seu navegador, é possível que certas seções ou recursos dos nossos sites não funcionem. \n \n Caso os titulares usem dispositivos diferentes para visualizar e acessar os nossos sites devem assegurar-se de que cada navegador de cada dispositivo está ajustado para atender suas preferências quanto aos cookies. \n \n  Para obter mais informações sobre quais cookies utilizamos, você pode entrar em contato pelo canal de Privacidade e Proteção de Dados, enviando a sua solicitação para [privacidade@cencosud.com.br](/#). \n \n **10. Seus direitos** \n\n Você possui vários direitos em relação aos seus dados pessoais, nos termos da LGPD. Para tanto, implementamos controles adicionais de transparência e acesso em nossa área de Privacidade para disponibilizar aos usuários o acesso livre e gratuito a esses direitos. Neste contexto, você tem o direito a: \n\n ",
+      "blockClass": "terms-of-use-date"
+    }
+  },
+  "rich-text#terms-of-use6": {
+    "props": {
+      "text": "- Confirmação de que estamos tratando seus dados pessoais; \n \n - Acessar os dados pessoais que tratamos sobre você; \n \n - Solicitar a alteração ou atualização de seus dados pessoais quando estiverem incorretos, incompletos ou inexatos; \n \n - Solicitar que os dados pessoais que você entenda como desnecessários, excessivos ou tratados em desconformidade com a LGPD sejam anonimizados, bloqueados ou eliminados, desde que permitido pelas legislações/regulamentos que estejam relacionados ao objeto social do Grupo Cencosud Brasil; \n \n  - Se opor ao tratamento de dados pessoais, quando não tivermos mais necessidade legítima ou legal de trata-los; Solicitar a transmissão dos dados pessoais que tratamos sobre você para outro fornecedor; \n\n - Solicitar informações das entidades públicas e privadas com as quais compartilhamos seus dados pessoais; \n\n - Revogar o consentimento concedido, solicitar a eliminação dos dados pessoais tratados com base em consentimento, bem como de ter acesso a informações sobre a possibilidade de você não fornecer o consentimento e as respectivas consequências da negativa; e \n\n - Solicitar a revisão do tratamento de dados pessoais com base em decisões automatizadas. \n \n Caso queira exercer algum(uns) dos seus direitos sobre a coleta ou o uso de seus dados pessoais descritos acima, entre em contato com o nosso canal de Privacidade e Proteção de Dados pelo e-mail [privacidade@cencosud.com.br](/#). \n \n **11. Comunicação com o titular e operações fraudulentas** \n \n As comunicações do Grupo Cencosud Brasil podem ser redefinidas e/ou desabilitadas pelo titular posteriormente à realização do cadastro, com exceção daquelas cujo conteúdo seja relevante e relacionado às políticas, regulamentos, normas e demais situações das quais o titular deva obrigatoriamente ser comunicado, conforme legislação aplicável à espécie e as disposições desta Política de Privacidade e/ou dos Programas de Relacionamento que ele tenha aderido. \n \n  Recomenda-se ao titular prudência ao verificar as comunicações recebidas por qualquer meio, agindo sempre com cautela, com a finalidade de evitar ser vítima de fraudes, principalmente, mas não se limitando, em relação aos remetentes das mensagens, aos conteúdos destas, os links de acesso etc. \n\n Em caso de dúvidas em relação à procedência, recomenda-se que o tenha não tenha qualquer interação com a mensagem, como abrir links, compartilhá-la, responder etc. \n\n  Na hipótese de o titular possuir dúvidas com relação à procedência da mensagem, este poderá entrar em contato com a central de atendimento do Grupo Cencosud Brasil, a qual irá auxiliá-lo em relação à veracidade ou não da comunicação. \n\n É importante ressaltar que o Grupo Cencosud Brasil, em razão do relacionamento com o titular não solicita senhas ou qualquer dado pessoal em suas comunicações, mas tão somente a confirmação dados quando for necessária para prestar o atendimento. Caso existam comunicações com tais situações, recomenda-se a exclusão da comunicação e contato direto com o Grupo Cencosud Brasil para as providências necessárias. \n \n  O Grupo Cencosud Brasil envia mensagens dentro dos padrões de segurança reconhecidos, não se responsabilizando por danos aos dispositivos do Usuário, assim como seus dados, na hipótese de mensagens fraudulentas não enviadas pelo Grupo, mas sim por terceiros estranhos. \n \n **12. Alterações nesta Política de Privacidade e Proteção de Dados Pessoais** \n \n A presente Política de Privacidade e Proteção de Dados Pessoais poderá ser alterada a qualquer tempo. Portanto, recomendamos que você reveja esta Política de tempos em tempos para ser informado sobre como estamos protegendo suas informações. \n \n Todas as alterações serão comunicadas por meio de um aviso em destaque na tela inicial do nosso site/aplicativo ou por meio de qualquer outra forma de comunicação com você. \n \n **13. Reclamações, dúvidas e/ou solicitações** \n \n Se você não estiver satisfeito com a maneira como tratamos os seus dados pessoais ou em caso de qualquer dúvida, reclamação, preocupação relacionada a sua privacidade e proteção de seus dados pessoais, você pode entrar em contato com o(a) nosso(a) DPO/Encarregado(a), através do envio de e-mail para o endereço eletrônico [privacidade@cencosud.com.br](/#). \n \n  Para atendimento aos seus direitos, você pode entrar em contato pelo canal de Privacidade e Proteção de Dados, enviando a sua solicitação para [privacidade@cencosud.com.br](/#). \n \n RECOMENDA-SE A LEITURA DA PRESENTE POLÍTICA DE PRIVACIDADE EM CONJUNTO COM OS REGULAMENTOS E OS TERMOS DE USO, POIS, AO ACESSAR, UTILIZAR QUAISQUER SERVIÇOS OU CADASTRAR-SE NO(S) PROGRAMA(S) DE RELACIONAMENTO, ESTARÃO INCONDICIONALMENTE ACEITAS, DE FORMA LIVRE E ESPONTÂNEA, TODAS AS DISPOSIÇÕES DO(S) REGULAMENTO(S), DOS TERMOS DE USO E DA PRESENTE POLÍTICA DE PRIVACIDADE, ESTANDO EXPRESSAMENTE AUTORIZADA A COLETA E TRATAMENTO DE DADOS CONFORME O INFORMADO. CASO NÃO CONCORDE COM QUAISQUER DISPOSIÇÕES DESSA POLITICA, NÃO UTILIZE OS SITES, OS APLICATIVOS E/OU Wi-Fi E NÃO SE CADASTRE NO(S) PROGRAMA(S) DE RELACIONAMENTO DO GRUPO CENCOSUD BRASIL, POIS A SUA UTILIZAÇÃO DOS SITES, APLICATIVOS, Wi-Fi E/OU CADASTRO EM QUALQUER PROGRAMA DE RELACIONAMENTO DO GRUPO CENCOSUD BRASIL REPRESENTA SUA ACEITAÇÃO INTEGRAL E INCONDICIONAL A ESSA POLÍTICA DE PRIVACIDADE E AOS TERMOS DE USO. \n\n **Glossário** \n \n ",
+      "blockClass": "terms-of-use-date"
+    }
+  },
+  "rich-text#terms-of-use7": {
+    "props": {
+      "text": "**Adolescente**: pessoa física entre 12 (doze) e 18 (dezoito) anos de idade, segundo o Estatuto da Criança e do Adolescente (“ECA”). \n\n **Agentes de tratamento**: controlador e/ou operador. \n\n **Autoridade Nacional de Proteção de Dados** – ANPD: órgão da administração pública responsável por zelar, implementar e fiscalizar o cumprimento da LGPD em todo o território nacional. \n\n **Anonimização**: utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo. \n\n **Bloqueio**: suspensão temporária de qualquer operação de tratamento, mediante guarda do dado pessoal. \n\n **Cliente**: pessoa física que utiliza os serviços do Grupo Cencosud Brasil. \n\n **Criança**: pessoa física com até 12 (doze) anos de idade incompletos, segundo o Estatuto da Criança e do Adolescente (“ECA”). \n \n **Compartilhamento**: transferência ou interconexão de dados pessoais com áreas internas ou terceiros. \n\n **Confidencialidade**: garantia de que os dados pessoais não serão divulgados para pessoas não autorizadas. \n\n **Controlador**: pessoa física ou jurídica, de direito público ou privado, a quem compete a decisão sobre o tratamento do dado pessoal. \n\n  **Consentimento**: manifestação livre, informada e inequívoca do titular do dado confirmando sua concordância quanto ao tratamento de seus dados pessoais. \n\n **Dado Pessoal**: informação que individualmente ou em conjunto com outras, permite a identificação do indivíduo de forma direta ou indireta, tal como, nome, endereço, e-mail, CPF, RG, título de eleitor, telefone (s), profissão, sexo, data de nascimento, estado civil, grau de instrução, nacionalidade, dados do cônjuge/dependentes, entre outros. \n\n **Dado Pessoal Sensível**: categoria de dado pessoal que, pelo seu potencial discriminatório, requer um nível extra de proteção e um elevado dever de cuidado. São dados pessoais que podem revelar origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou à organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural. \n\n  **Direitos do titular**: o titular do dado tem o direito de obter informações e realizar solicitações junto ao controlador, tais como: (i) confirmação da existência de tratamento; (ii) acesso aos dados; (iii) correção de dados incompletos, inexatos ou desatualizados; (iv) anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a Lei Geral de Proteção de Dados Pessoais – “LGPD”; (v) portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa, de acordo com a regulamentação da autoridade nacional, observados os segredos comercial e industrial; (vi) eliminação dos dados pessoais tratados com o consentimento do titular; (vii) informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados; (viii) informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa; e (ix) revogação do consentimento. \n\n **Encarregado de Dados/DPO**: pessoa física ou jurídica indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD). \n\n **Eliminação**: exclusão de dado pessoal ou de conjunto de dados pessoais armazenados em banco de dados, independentemente do procedimento empregado. \n\n **LGPD**: Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 e disposições posteriores) que traz regras e disposições sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural. \n\n  **Operador**: pessoa física ou jurídica, de direito público ou privado, que realiza o tratamento de dados em nome do controlador, sem tomar qualquer decisão sobre como tratar os dados. **Marco Civil da Internet**: Lei 12.965/2014, que estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil. \n\n **Pseudonimização**: processo a ser aplicado em um dado pessoal para torná-lo pseudonimizado, ou seja, dado pessoal que tenha sido descaracterizado ou codificado de modo que não permita a identificação do titular em um primeiro momento, mas que, após associação com outros dados, leva à sua identificação. Os dados pseudonimizados são aqueles que permitem a associação a um indivíduo a partir de informações mantidas pelo controlador em ambiente separado e seguro, como no caso da segregação da base de dados ou da atribuição de identificadores a indivíduos. \n\n **Retenção dos dados pessoais**: período pelo qual os dados pessoais permanecem armazenados mesmo após o término da finalidade do tratamento. \n\n **Terceiros**: pessoas físicas ou jurídicas parceiras do Grupo Cencosud Brasil, prestadores de serviços ou fornecedores. \n\n **Titular**: pessoa física a quem se referem os dados pessoais que são objeto do tratamento. \n\n **Tratamento de Dados**: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração. \n\n  **Vazamento**: divulgação ilícita ou acesso não autorizado a dados pessoais. \n\n **Incidente**: evento que leva a perda, destruição, alteração, divulgação ou acesso não autorizados, de dados pessoais.",
+      "blockClass": "terms-words"
+    }
+  },
+  "rich-text#shipping": {
+    "props": {
+      "text": "### Forma de entrega \n O Delivery GBarbosa prioriza a segurança e qualidade para você receber suas compras com toda a facilidade e comodidade. Nossas entregas ocorrerm das **9hs às 21hs**, exceto domingos e feriados. Realize suas compras online com antecedência e programe sua entrega. Assim, você garante seu recebimento conforme a necessidade."
+    }
+  },
+  "rich-text#offers": {
+    "props": {
+      "text": "### Ofertas App GBarbosa \n\n As ofertas do App GBarbosa também poderão ser aplicadas nas compras em nosso site.\n  Para isso, basta você ativá-las em seu App GBarbosa e quando emitirmos o cupom fiscal da sua compra on-line, ou seja, provavelmente na data da sua entrega programada, concederemos os descontos e preços das ofertas vigentes e ativadas na data da compra. Estes descontos aparecerão diretamente no Cupom Fiscal.\n Atenção: os CPFs utilizados para compra no Site e no App GBarbosa deverão ser os mesmos."
+    }
+  },
+  "rich-text#payment": {
+    "props": {
+      "text": "### Forma de pagamento "
+    }
+  },
+  "flex-layout.row#cards-payment": {
+    "children": [
+      "flex-layout.col#card1-payment",
+      "flex-layout.col#card2-payment",
+      "flex-layout.col#card3-payment"
+    ]
+  },
+  "flex-layout.col#card1-payment": {
+    "children": ["rich-text#card1-content", "image#debito", "rich-text#obs-1"],
+    "props": {
+      "blockClass": "card-payment"
+    }
+  },
+  "rich-text#card1-content": {
+    "props": {
+      "text": "**Cartão de Débito** \n \n - O pagamento com cartão de débito é realizado no momento da entrega. \n - São aceitos os cartões Mastercard Maestro, Elo e Visa Electron."
+    }
+  },
+  "rich-text#obs-1": {
+    "props": {
+      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso para processamento de débito.",
+      "blockClass": "obs1"
+    }
+  },
+  "image#debito": {
+    "props": {
+      "src": "/arquivos/debito.png"
+    }
+  },
+  "image#credito": {
+    "props": {
+      "src": "/arquivos/credito.png"
+    }
+  },
+  "image#alimentacao": {
+    "props": {
+      "src": "/arquivos/alimentacao.png"
+    }
+  },
+
+  "flex-layout.col#card2-payment": {
+    "children": ["rich-text#card2-content", "image#credito", "rich-text#obs-2"],
+    "props": {
+      "blockClass": "card-payment"
+    }
+  },
+  "rich-text#card2-content": {
+    "props": {
+      "text": "**Cartão de Crédito** \n \n - O pagamento é feito no site durante a finalização da compra, de acordo com o valor da compra). \n - São aceitos os cartões Mastercard, Visa, Amex, Elo e Dinner’s."
+    }
+  },
+  "rich-text#obs-2": {
+    "props": {
+      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso via internet para processamento de crédito.",
+      "blockClass": "obs1"
+    }
+  },
+
+  "flex-layout.col#card3-payment": {
+    "children": [
+      "rich-text#card3-content",
+      "image#alimentacao",
+      "rich-text#obs-3"
+    ],
+    "props": {
+      "blockClass": "card-payment"
+    }
+  },
+  "rich-text#card3-content": {
+    "props": {
+      "text": "**Vale Alimentação** \n \n - O pagamento com cartão alimentação é realizado no momento da entrega \n - Atenção, não recebemos em cartão refeição ou restaurante. \n - São aceitos os cartões Visa Vale Alimentação, Ticket Alimentação, VR Alimentação, Sodexo Alimentação, Alelo e Policard Alimentação."
+    }
+  },
+  "rich-text#obs-3": {
+    "props": {
+      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso para processamento de débito.",
+      "blockClass": "obs1"
+    }
+  },
+
+  "rich-text#common-questions": {
+    "props": {   
+      "text": "### Perguntas Frenquentes",
+      "blockClass": "faq-title"
+    }
+  },
+  "rich-text#how-to-buy": {
+    "props": {
+      "text": "### Como comprar?",
+      "blockClass": "how-to-buy-text"
+    }
+  },
+  "rich-text#delivery-intitutional": {
+    "props": {
+      "text": "### Entrega",
+      "blockClass": "delivery-e-shopping-text"
+    }
+  },
+  "rich-text#exchange-policy": {
+    "props": {
+      "text": "### Politica de Troca | E-shopping \n O uso dos Serviços disponibilizados pela Plataforma depende necessariamente de umaconexão a uma rede de internet, sendo o Usuário o único responsável por obter essaconexão. Eventuais taxas e encargos poderão ser aplicadas se Você acessar ou utilizar osServiços pelo seu pacote de dados de rede móvel do seu smartphone ou dispositivo móvel. Você é responsável por adquirir e atualizar os equipamentos e dispositivos necessários para acessar e utilizar os Serviços, que estão sujeitos a atualizações. A BRMALLS NÃO GARANTE QUE OS SERVIÇOS, OU QUALQUER PARTE DELES, FUNCIONARÃO ADEQUADAMENTE EM QUALQUER EQUIPAMENTO OU DISPOSITIVO EM PARTICULAR.Além disso, os Serviços são passíveis de mau funcionamento e atrasos devido ao uso daInternet e de comunicações eletrônicas, ou mesmo indisponibilidades técnicas da própria Plataforma. Cabe a Você portar os equipamentos e serviços necessários para o acesso àPlataforma, não sendo a brMalls responsável por danos ou problemas decorrentes da demora, interrupção ou bloqueio nas transmissões de dados ocorridos por meio de qualquerrede de telecomunicações. A brMalls não se responsabiliza pela descontinuidade naprestação dos Serviços em decorrência de erros e mau funcionamento de equipamentos esistemas públicos ou privados que Você utilize para acessar a Plataforma. Você reconhece que os Serviços podem ser viabilizados por outros meios que não o aplicativo do NorteShopping, e que o aplicativo é uma conveniência e não um serviçoessencial. QUALQUER INTERRUPÇÃO OU MAU FUNCIONAMENTO DO APLICATIVO NÃO IMPLICARÁ A RESPONSABILIZAÇÃO DA BRMALLS."
+    }
+  },
+  "rich-text#product-delivery": {
+    "props": {
+      "text": "### Entrega de Produtos | E-shopping \n O uso dos Serviços disponibilizados pela Plataforma depende necessariamente de umaconexão a uma rede de internet, sendo o Usuário o único responsável por obter essaconexão. Eventuais taxas e encargos poderão ser aplicadas se Você acessar ou utilizar osServiços pelo seu pacote de dados de rede móvel do seu smartphone ou dispositivo móvel. Você é responsável por adquirir e atualizar os equipamentos e dispositivos necessários para acessar e utilizar os Serviços, que estão sujeitos a atualizações. A BRMALLS NÃO GARANTE QUE OS SERVIÇOS, OU QUALQUER PARTE DELES, FUNCIONARÃO ADEQUADAMENTE EM QUALQUER EQUIPAMENTO OU DISPOSITIVO EM PARTICULAR.Além disso, os Serviços são passíveis de mau funcionamento e atrasos devido ao uso daInternet e de comunicações eletrônicas, ou mesmo indisponibilidades técnicas da própria Plataforma. Cabe a Você portar os equipamentos e serviços necessários para o acesso àPlataforma, não sendo a brMalls responsável por danos ou problemas decorrentes da demora, interrupção ou bloqueio nas transmissões de dados ocorridos por meio de qualquerrede de telecomunicações. A brMalls não se responsabiliza pela descontinuidade naprestação dos Serviços em decorrência de erros e mau funcionamento de equipamentos esistemas públicos ou privados que Você utilize para acessar a Plataforma. Você reconhece que os Serviços podem ser viabilizados por outros meios que não o aplicativo do NorteShopping, e que o aplicativo é uma conveniência e não um serviçoessencial. QUALQUER INTERRUPÇÃO OU MAU FUNCIONAMENTO DO APLICATIVO NÃO IMPLICARÁ A RESPONSABILIZAÇÃO DA BRMALLS."
+    }
+  },
+  "rich-text#contact-us": {
+    "props": {
+      "text": "Ligue para: (71) 9821-54016",
+      "blockClass": "txt-first-head"
+    }
+  },
+  "rich-text#title-form-contac-us": {
+    "props": {
+      "text": "Formulário de Contato",
+      "blockClass": "title-contac-form-text"
+    }
+  },
+  "rich-text#text-form-contac-us": {
+    "props": {
+      "text": "Caso precise falar sobre algum assunto específico, por favor, preencha o formulário abaixo e entraremos em contato com você o quanto antes.",
+      "blockClass": "subtitle-form-text"
+    }
+  },
+  "flex-layout.row#sac-attendance": {
+    "props": {
+      "blockClass": "sac-attendence-row",
+      "preventHorizontalStretch": true
+    },
+    "children": ["flex-layout.col#attendance-col", "flex-layout.col#sac-col"]
+  },
+  "flex-layout.col#attendance-col": {
+    "props": {
+      "blockClass": "attendence-col"
+    },
+    "children": ["rich-text#attendance", "rich-text#number-SAC"]
+  },
+  "flex-layout.col#sac-col": {
+    "props": {
+      "blockClass": "sac-col"
+    },
+    "children": ["rich-text#sac", "rich-text#number-SAC"]
+  },
+  "rich-text#sac": {
+    "props": {
+      "text": "SAC",
+      "blockClass": "SAC-text"
+    }
+  },
+  "rich-text#attendance": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "attendance-text"
+    }
+  },
+  "rich-text#number-SAC": {
+    "props": {
+      "text": "(21) 3315-4300",
+      "blockClass": "number-SAC-text"
+    }
+  },
+  "rich-text#opening-hours": {
+    "props": {
+      "text": "Segunda à Sábado 10h às 22h Domingo e Feriados 13h às 21h",
+      "blockClass": "opening-hours-text"
+    }
+  },
+  "image#arrow-banner-mobile": {
+    "props": {
+      "src": "/arquivos/arrow-left-banner-institutional.png",
+      "blockClass": "img-arrow-institutional",
+      "link": "/home"
+    }
+  }
+}
