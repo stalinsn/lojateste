@@ -205,7 +205,7 @@
     }
   },
   "tab-content.item#offers": {
-    "children": ["rich-text#offers"],
+    "children": ["rich-text#offers2"],
     "props": {
       "tabId": "offers",
       "blockClass": "offers-tab-item-container"
@@ -214,7 +214,6 @@
   "tab-content.item#common-questions": {
     "children": [
       "rich-text#common-questions",
-      "rich-text#how-to-buy",
       "vtex.menu@2.x:menu#common-questions"
     ],
     "props": {
@@ -358,7 +357,7 @@
       "text": "### Forma de entrega \n O Delivery GBarbosa prioriza a segurança e qualidade para você receber suas compras com toda a facilidade e comodidade. Nossas entregas ocorrerm das **9hs às 21hs**, exceto domingos e feriados. Realize suas compras online com antecedência e programe sua entrega. Assim, você garante seu recebimento conforme a necessidade."
     }
   },
-  "rich-text#offers": {
+  "rich-text#offers2": {
     "props": {
       "text": "### Ofertas App GBarbosa \n\n As ofertas do App GBarbosa também poderão ser aplicadas nas compras em nosso site.\n  Para isso, basta você ativá-las em seu App GBarbosa e quando emitirmos o cupom fiscal da sua compra on-line, ou seja, provavelmente na data da sua entrega programada, concederemos os descontos e preços das ofertas vigentes e ativadas na data da compra. Estes descontos aparecerão diretamente no Cupom Fiscal.\n Atenção: os CPFs utilizados para compra no Site e no App GBarbosa deverão ser os mesmos."
     }
@@ -449,8 +448,9 @@
   },
 
   "rich-text#common-questions": {
-    "props": {
-      "text": "### Perguntas Frenquentes"
+    "props": {   
+      "text": "### Perguntas Frenquentes",
+      "blockClass": "faq-title"
     }
   },
   "rich-text#how-to-buy": {

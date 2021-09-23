@@ -10,9 +10,55 @@
 .menuItem--menu-item-2 {
   display: none;
 }
+.accordionIcon--e-shopping-menu-item-common-questions {
+  font-size: 0;
+  &::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: url(/arquivos/plusicon.svg);
+  }
+  &--isOpen {
+    &::after {
+      content: '';
+      width: 12px;
+      height: 2px;
+      position: relative;
+      top: 5px;
+      display: block;
+      background: url(/arquivos/lessicon.svg);
+    }
+  }
+}
+.menuItem--e-shopping-menu-item-common-questions {
+  margin: 10px 0;
+  padding: 10px 0;
+  border: 1px solid #EEEEEE;
+  background: #fafafafa;  
+  .styledLinkContent--e-shopping-menu-item-common-questions {
+    color: #ED1D25;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: normal;
+  }
+  &--isOpen {
+    .styledLinkContent--e-shopping-menu-item-common-questions {
+      color: #525252;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+.styledLinkContent--text-e-shopping-description{
+  white-space: normal;
+}
+.styledLinkContainer--text-e-shopping-description {
+  margin: 1rem;
+}
 .menuContainerNav--footer {
   .styledLinkContainer {
-    margin: 0;
+    margin: 0; 
 
     .styledLinkContent {
       font-size: 14px;

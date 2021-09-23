@@ -206,7 +206,7 @@
   "rich-text#Tel": {
     "title": "Header - TEL",
     "props": {
-      "text": "[Listas](/account#/shopping-list)",
+      "text": "[Listas](/wishlist-page)",
       "blockClass": "mi-tel"
     }
   },
