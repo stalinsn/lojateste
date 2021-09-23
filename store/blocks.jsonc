@@ -123,11 +123,6 @@
     },
     "children": ["add-to-wishlist"]
   },
-  "shopping-list-shelf-button": {
-    "props": {
-      "blockClass": "shopping-list-shelf-button"
-    }
-  },
 
   "product-summary-image": {
     "props": {

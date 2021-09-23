@@ -448,12 +448,12 @@
   },
 
   "rich-text#common-questions": {
-    "props": {   
+    "props": {
       "text": "### Perguntas Frenquentes",
       "blockClass": "faq-title"
     }
   },
-  "rich-text#how-to-buy": {
+  "rich-text#how-to-buy1": {
     "props": {
       "text": "### Como comprar?",
       "blockClass": "how-to-buy-text"
@@ -475,7 +475,7 @@
       "text": "### Entrega de Produtos | E-shopping \n O uso dos Serviços disponibilizados pela Plataforma depende necessariamente de umaconexão a uma rede de internet, sendo o Usuário o único responsável por obter essaconexão. Eventuais taxas e encargos poderão ser aplicadas se Você acessar ou utilizar osServiços pelo seu pacote de dados de rede móvel do seu smartphone ou dispositivo móvel. Você é responsável por adquirir e atualizar os equipamentos e dispositivos necessários para acessar e utilizar os Serviços, que estão sujeitos a atualizações. A BRMALLS NÃO GARANTE QUE OS SERVIÇOS, OU QUALQUER PARTE DELES, FUNCIONARÃO ADEQUADAMENTE EM QUALQUER EQUIPAMENTO OU DISPOSITIVO EM PARTICULAR.Além disso, os Serviços são passíveis de mau funcionamento e atrasos devido ao uso daInternet e de comunicações eletrônicas, ou mesmo indisponibilidades técnicas da própria Plataforma. Cabe a Você portar os equipamentos e serviços necessários para o acesso àPlataforma, não sendo a brMalls responsável por danos ou problemas decorrentes da demora, interrupção ou bloqueio nas transmissões de dados ocorridos por meio de qualquerrede de telecomunicações. A brMalls não se responsabiliza pela descontinuidade naprestação dos Serviços em decorrência de erros e mau funcionamento de equipamentos esistemas públicos ou privados que Você utilize para acessar a Plataforma. Você reconhece que os Serviços podem ser viabilizados por outros meios que não o aplicativo do NorteShopping, e que o aplicativo é uma conveniência e não um serviçoessencial. QUALQUER INTERRUPÇÃO OU MAU FUNCIONAMENTO DO APLICATIVO NÃO IMPLICARÁ A RESPONSABILIZAÇÃO DA BRMALLS."
     }
   },
-  "rich-text#contact-us": {
+  "rich-text#contact-us2": {
     "props": {
       "text": "Ligue para: (71) 9821-54016",
       "blockClass": "txt-first-head"
