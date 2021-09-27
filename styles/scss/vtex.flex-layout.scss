@@ -602,6 +602,20 @@
   }
 }
 
+/* cart-io */
+.flexColChild--cart-desktop-content {
+  max-width: 1366px;
+  padding: 0 35px;
+  .flexCol--desktop-cart-right-content {
+    border: 1px solid #dedede;
+    padding: 25px;
+    min-width: 363px;
+  }
+  .flexCol--desktop-cart-col-left {
+    width: 90%;
+  }
+}
+/* cart-io - end */
 .flexRowContent--row-two-price {
   display: flex;
   align-items: center;
@@ -948,14 +962,16 @@
 }
 .flexRow--contact-form {
   padding: 50px;
-  border: 2px solid #ED1D25;
+  border: 2px solid #ed1d25;
   border-radius: 5px;
-  :global(.vtex-input__label), :global(.vtex-textarea__label) {
-    color: #7E7E7E;
+  :global(.vtex-input__label),
+  :global(.vtex-textarea__label) {
+    color: #7e7e7e;
   }
-  :global(.vtex-input-prefix__group), :global(.vtex-textarea__input ) {
-    border: 1px solid #C7C7C7;
-    :global(.vtex-styleguide-9-x-input ) {
+  :global(.vtex-input-prefix__group),
+  :global(.vtex-textarea__input) {
+    border: 1px solid #c7c7c7;
+    :global(.vtex-styleguide-9-x-input) {
       font-weight: 500;
     }
   }

@@ -1,16 +1,44 @@
 @import "./references";
 
 .summarySmallContent {
+  .summaryItemLabel {
+    color: $primary;
+    width: 68%;
+    flex-wrap: wrap;
+    //display: flex;
+  }
+  .summaryItemPrice {
+    width: 35%;
+    .price {
+      color: $primary;
+    }
+  }
+}
+.summaryContent {
+  .summaryItemContainer {
     .summaryItemLabel {
+    }
+    .price {
+        font-weight: 400;
+    }
+    &:last-child {
+      .summaryItemLabel {
         color: $primary;
-        width: 68%;
-        flex-wrap: wrap;
-        //display: flex;
+        font-weight: bold;
+      }
+      .price {
+        color: $primary !important;
+        font-weight: bold;
+      }
     }
-    .summaryItemPrice {
-        width: 35%;
-        .price {
-            color: $primary;
-        }
-    }
+  }
+}
+.summaryTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20px;
+  color: #525252;
+  font-weight: bold;
 }

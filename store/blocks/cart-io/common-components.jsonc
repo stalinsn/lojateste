@@ -1,0 +1,192 @@
+{
+	//Breadcrumb
+	"flex-layout.row#checkout-cart-bread": {
+		"children": ["rich-text#checkout-bread-link"],
+		"props": {
+			"blockClass": ["checkout-cart-bread", "ctnr-default"],
+			"paddingTop": 4,
+			"paddingBottom": 4
+		}
+	},
+
+	"rich-text#checkout-bread-link": {
+		"props": {
+			"blockClass": "checkout-cart-bread-link",
+			"text": "[Continuar comprando](/ 'Continuar comprando')"
+		}
+	},
+
+	//Título do carrinho
+	"flex-layout.row#checkout-cart-title": {
+		"children": ["rich-text#checkout-cart-title"],
+		"props": {
+			"blockClass": "checkout-cart-title-container"
+		}
+	},
+
+	"rich-text#checkout-cart-title": {
+		"props": {
+			"text": "## Meu carrinho",
+			"blockClass": "checkout-cart-title-text"
+		}
+	},
+
+	//Resumo da compra
+	"flex-layout.row#checkout-summary-container": {
+		"children": ["flex-layout.col#checkout-summary-content"],
+		"props": {
+			"blockClass": "checkout-summary-container"
+		}
+	},
+
+	"flex-layout.col#checkout-summary-content": {
+		"children": ["flex-layout.row#checkout-summary-info", "flex-layout.row#go-to-checkout"],
+		"props": {
+			"blockClass": "checkout-summary-content"
+		}
+	},
+	"flex-layout.row#checkout-summary-info": {
+		"children": [ "summary-wrapper#checkout-cart"],
+		"props": {
+			"marginBottom": 0,
+			"blockClass": "checkout-summary-info",
+			"paddingBottom": 3
+		}
+	},
+	"summary-wrapper#checkout-cart": {
+		"blocks": ["checkout-summary#checkout-cart"]
+	},
+
+	"checkout-summary#checkout-cart": {
+		"children": ["summary-totalizers#checkout-cart"],
+		"props": {
+			"title": "Resumo seu pedido"
+		}
+	},
+
+	"summary-totalizers#checkout-cart": {
+		"props": {
+			"showTotal": true,
+			"showDeliveryTotal": false
+		}
+	},
+
+	"flex-layout.row#go-to-checkout": {
+		"children": ["rich-text#go-to-checkout"],
+		"props": {
+			"blockClass": "goToCheckout",
+			"paddingBottom": 0,
+			"paddingTop": 0
+		}
+	},
+
+	"rich-text#go-to-checkout": {
+		"props": {
+			"blockClass": "go-to-checkout",
+			"text": "[Finalizar a compra](/checkout/#/orderform)"
+		}
+	},
+
+	//Lista de produtos
+	//Imagens
+	"flex-layout.col#image-column.checkout": {
+		"children": ["product-list-image"],
+		"props": {
+			"blockClass": "checkout-product-image",
+			"verticalAlign": "top"
+		}
+	},
+
+	//Nome do produto
+	"flex-layout.col#checkout-cart-product-name": {
+		"children": ["flex-layout.row#checkout-product-name", "message#checkout-unavailable-message"],
+		"props": {
+			"blockClass": "checkout-cart-product-name",
+			"verticalAlign": "middle"
+		}
+	},
+
+	"flex-layout.row#checkout-product-name": {
+		"children": ["vtex.product-list:product-name"],
+		"props": {
+			"blockClass": "checkout-product-name",
+			"horizontalAlign": "left",
+			"preserveLayoutOnMobile": true
+		},
+		"title": "Nome do produto"
+	},
+
+	//Preço unitário
+	"flex-layout.col#price-checkout": {
+		"children": ["price"],
+		"props": {
+			"blockClass": "checkout-unit-price",
+			"verticalAlign": "middle"
+		},
+		"title": "Preço"
+	},
+	//Seletor de quantidade
+	"flex-layout.col#checkout-quantity-selector": {
+		"children": ["vtex.product-list:quantity-selector#checkout"],
+		"props": {
+			"blockClass": "checkout-quantity-selector",
+			"verticalAlign": "middle"
+		},
+		"title": "Seletor de quantidade"
+	},
+	"vtex.product-list:quantity-selector#checkout": {
+		"props": {
+			"mode": "stepper"
+		}
+	},
+	//Preço total
+	"flex-layout.row#checkout-price-total": {
+		"children": ["flex-layout.col#checkout-price-total"],
+		"props": {
+			"blockClass": "checkout-price-total",
+			"colSizing": "auto",
+			"horizontalAlign": "left",
+			"preserveLayoutOnMobile": true
+		},
+		"title": "Preço total"
+	},
+
+	"flex-layout.col#checkout-price-total": {
+		"children": ["price"],
+		"props": {
+			"blockClass": "checkout-price-total-content",
+			"verticalAlign": "middle"
+		}
+	},
+
+	//Botão de remover do carrinho
+	"flex-layout.col#remove": {
+		"children": ["remove-button"],
+		"props": {
+			"blockClass": "checkout-remove-icon",
+			"verticalAlign": "middle"
+		},
+		"title": "Ícone de remover"
+	},
+
+	//Mensagem de produto indisponível
+	"message#checkout-unavailable-message": {
+		"props": {
+			"layout": "cols"
+		},
+		"title": "Mensagem de indisponível"
+	},
+	// Botão de escolher mais produtos
+	"flex-layout.row#more-products": {
+		"children": ["rich-text#more-products"],
+		"props": {
+			"blockClass": "more-products"
+		}
+	},
+	"rich-text#more-products": {
+		"props": {
+			"text": "[Escolher mais produtos](/)",
+			"blockClass": "more-products"
+		}
+	}
+}
