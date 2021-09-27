@@ -58,12 +58,11 @@
 	},
 
 	"checkout-summary#checkout-cart": {
-		"children": ["summary-totalizers#checkout-cart"],
+		"children": ["coupon","summary-totalizers#checkout-cart"],
 		"props": {
 			"title": "Resumo seu pedido"
 		}
 	},
-
 	"summary-totalizers#checkout-cart": {
 		"props": {
 			"showTotal": true,

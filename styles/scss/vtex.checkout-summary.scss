@@ -15,11 +15,10 @@
   }
 }
 .summaryContent {
+  max-width: 331px;
   .summaryItemContainer {
-    .summaryItemLabel {
-    }
     .price {
-        font-weight: 400;
+      font-weight: 400;
     }
     &:last-child {
       .summaryItemLabel {
@@ -29,6 +28,32 @@
       .price {
         color: $primary !important;
         font-weight: bold;
+      }
+    }
+  }
+  :global(.vtex-button) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #525252;
+    text-decoration: underline;
+    margin: 20px 0;
+    &:hover {
+      background: transparent;
+    }
+  }
+  :global(.vtex-coupon-0-x-inputForm) {
+    :global(.vtex-input__label) {
+      color: #525252;
+    }
+    :global(.vtex-input-prefix__group) {
+      border: 1px solid #dedede;
+      :global(.vtex-button) {
+          background: #525252;
+          border-radius: 5px;
+          text-decoration: none;
+          color: #fff;
       }
     }
   }
