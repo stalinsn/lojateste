@@ -29,14 +29,20 @@
   },
 
   "flex-layout.col#desktop-col-left": {
-    "children": ["product-list-wrapper#category", "flex-layout.row#product-list-cart"],
+    "children": [
+      "cart-departments",
+      // "product-list-wrapper#category",
+      "flex-layout.row#product-list-cart"
+    ],
     "props": {
       "width": "grow",
       "blockClass": "desktop-cart-col-left",
       "preventVerticalStretch": true
     }
   },
-
+  "cart-departments": {
+    "blocks": ["product-list-content-desktop#checkout-cart"]
+  },
   "flex-layout.col#desktop-col-right": {
     "children": ["flex-layout.row#desktop-right-container"],
     "props": {
