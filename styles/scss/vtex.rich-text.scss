@@ -2072,7 +2072,7 @@
   .wrapper--go-to-checkout {
     width: 100%;
     .paragraph--go-to-checkout {
-      margin: 10px 0;
+      margin: 7px 0;
       width: 100%;
       .link--go-to-checkout {
         width: 100%;
@@ -2085,6 +2085,8 @@
         padding: 10px;
         border-radius: 5px;
         margin: 0;
+        font-weight: bold;
+        font-size: 14px;
       }
     }
   }
@@ -2094,7 +2096,7 @@
   .wrapper--more-products {
     width: 100%;
     .paragraph--more-products {
-      margin: 10px 0;
+      margin: 7px 0;
       width: 100%;
       .link--more-products {
         width: 100%;
@@ -2107,6 +2109,8 @@
         border: 1px solid #ed1d25;
         color: #ed1d25;
         margin: 0;
+        font-weight: bold;
+        font-size: 14px;
       }
     }
   }
@@ -2114,5 +2118,7 @@
 .heading--checkout-cart-title-text {
   color: #525252;
   font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
 }
 /* cart-io end */
