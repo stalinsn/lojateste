@@ -641,7 +641,7 @@
       border-radius: 4px;
       padding: 0;
       margin: 0 8px;
-      border: 1px solid #F4F4F4;
+      border: 1px solid #f4f4f4;
     }
   }
 }
@@ -718,6 +718,25 @@
     width: 64px;
     height: 64px;
   }
+}
+.flexRow--cart-container-mobile {
+  padding: 0 5%;
+  .flexRowContent--product-list-cart-container {
+    border: none;
+  }
+}
+.flexRowContent--checkout-mobile-firstRow {
+  .stretchChildrenWidth {
+    &:nth-child(even) {
+      width: 100% !important;
+    }
+  }
+}
+.flexCol--checkout-product-container {
+  border: 1px solid #f3f3f3;
+  background-color: #fff;
+  padding: 7px;
+  margin: 20px 0;
 }
 /* cart-io - end */
 .flexRowContent--row-two-price {
