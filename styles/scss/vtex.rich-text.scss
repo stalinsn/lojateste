@@ -2115,10 +2115,72 @@
     }
   }
 }
-.heading--checkout-cart-title-text { 
+.heading--checkout-cart-title-text {
   color: #525252;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
 /* cart-io end */
+
+/* Modal cart */
+.wrapper--modal-title {
+  text-align: center;
+  .heading--modal-title {
+    font-size: 24px;
+    color: #ed1d25;
+    font-weight: bold;
+    padding-top: 40px;
+  }
+  .paragraph--modal-title {
+    color: #525252;
+    font-size: 16px;
+  }
+}
+.wrapper--modal-how-it-works {
+  text-align: center;
+  width: 100%;
+  .paragraph--modal-how-it-works {
+    color: #525252;
+    .link--modal-how-it-works {
+      color: #ed1d25;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
+.wrapper--modal-warranty-advantages {
+  text-align: center;
+  width: 100%;
+  .paragraph--modal-warranty-advantages {
+    color: #525252;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px auto;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 40px;
+  }
+}
+.wrapper--warranty-advntages {
+  .paragraph--warranty-advntages {
+    color: #525252;
+    font-size: 14px;
+    .strong--warranty-advntages {
+      color: #525252;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
+}
+.wrapper--modal-content {
+  .paragraph--modal-content {
+    color: #898989;
+    font-size: 12px;
+    .link--modal-content {
+      text-decoration: none;
+    }
+  }
+}
+/* Modal cart end */

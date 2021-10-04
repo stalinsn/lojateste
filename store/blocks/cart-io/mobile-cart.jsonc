@@ -68,7 +68,7 @@
     "blocks": ["product-list#checkout-cart-mobile"]
   },
 
-  "product-list#checkout-cart-mobile": {
+"product-list#checkout-cart-mobile": {
     "blocks": ["product-list-content-mobile#checkout-cart"],
     "props": {
       "blockClass": "product-list-checkout-cart"

@@ -1,191 +1,291 @@
 {
-	//Breadcrumb
-	"flex-layout.row#checkout-cart-bread": {
-		"children": ["rich-text#checkout-bread-link"],
-		"props": {
-			"blockClass": ["checkout-cart-bread", "ctnr-default"],
-			"paddingTop": 4,
-			"paddingBottom": 4
-		}
-	},
+  //Breadcrumb
+  "flex-layout.row#checkout-cart-bread": {
+    "children": ["rich-text#checkout-bread-link"],
+    "props": {
+      "blockClass": ["checkout-cart-bread", "ctnr-default"],
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
 
-	"rich-text#checkout-bread-link": {
-		"props": {
-			"blockClass": "checkout-cart-bread-link",
-			"text": "[Continuar comprando](/ 'Continuar comprando')"
-		}
-	},
+  "rich-text#checkout-bread-link": {
+    "props": {
+      "blockClass": "checkout-cart-bread-link",
+      "text": "[Continuar comprando](/ 'Continuar comprando')"
+    }
+  },
 
-	//Título do carrinho
-	"flex-layout.row#checkout-cart-title": {
-		"children": ["rich-text#checkout-cart-title"],
-		"props": {
-			"blockClass": "checkout-cart-title-container"
-		}
-	},
+  //Título do carrinho
+  "flex-layout.row#checkout-cart-title": {
+    "children": ["rich-text#checkout-cart-title"],
+    "props": {
+      "blockClass": "checkout-cart-title-container"
+    }
+  },
 
-	"rich-text#checkout-cart-title": {
-		"props": {
-			"text": "## Meu carrinho",
-			"blockClass": "checkout-cart-title-text"
-		}
-	},
+  "rich-text#checkout-cart-title": {
+    "props": {
+      "text": "## Meu carrinho",
+      "blockClass": "checkout-cart-title-text"
+    }
+  },
 
-	//Resumo da compra
-	"flex-layout.row#checkout-summary-container": {
-		"children": ["flex-layout.col#checkout-summary-content"],
-		"props": {
-			"blockClass": "checkout-summary-container"
-		}
-	},
+  //Resumo da compra
+  "flex-layout.row#checkout-summary-container": {
+    "children": ["flex-layout.col#checkout-summary-content"],
+    "props": {
+      "blockClass": "checkout-summary-container"
+    }
+  },
 
-	"flex-layout.col#checkout-summary-content": {
-		"children": ["flex-layout.row#checkout-summary-info", "flex-layout.row#go-to-checkout"],
-		"props": {
-			"blockClass": "checkout-summary-content"
-		}
-	},
-	"flex-layout.row#checkout-summary-info": {
-		"children": [ "summary-wrapper#checkout-cart"],
-		"props": {
-			"marginBottom": 0,
-			"blockClass": "checkout-summary-info",
-			"paddingBottom": 3
-		}
-	},
-	"summary-wrapper#checkout-cart": {
-		"blocks": ["checkout-summary#checkout-cart"]
-	},
+  "flex-layout.col#checkout-summary-content": {
+    "children": [
+      "flex-layout.row#checkout-summary-info",
+      "flex-layout.row#go-to-checkout"
+    ],
+    "props": {
+      "blockClass": "checkout-summary-content"
+    }
+  },
+  "flex-layout.row#checkout-summary-info": {
+    "children": ["summary-wrapper#checkout-cart"],
+    "props": {
+      "marginBottom": 0,
+      "blockClass": "checkout-summary-info",
+      "paddingBottom": 3
+    }
+  },
+  "summary-wrapper#checkout-cart": {
+    "blocks": ["checkout-summary#checkout-cart"]
+  },
 
-	"checkout-summary#checkout-cart": {
-		"children": ["coupon","summary-totalizers#checkout-cart"],
-		"props": {
-			"title": "Resumo seu pedido"
-		}
-	},
-	"summary-totalizers#checkout-cart": {
-		"props": {
-			"showTotal": true,
-			"showDeliveryTotal": false
-		}
-	},
+  "checkout-summary#checkout-cart": {
+    "children": ["coupon", "summary-totalizers#checkout-cart"],
+    "props": {
+      "title": "Resumo seu pedido"
+    }
+  },
+  "summary-totalizers#checkout-cart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
 
-	"flex-layout.row#go-to-checkout": {
-		"children": ["rich-text#go-to-checkout"],
-		"props": {
-			"blockClass": "goToCheckout",
-			"paddingBottom": 0,
-			"paddingTop": 0
-		}
-	},
+  "flex-layout.row#go-to-checkout": {
+    "children": ["rich-text#go-to-checkout", "modal-trigger#cart-io"],
+    "props": {
+      "blockClass": "goToCheckout",
+      "paddingBottom": 0,
+      "paddingTop": 0
+    }
+  },
 
-	"rich-text#go-to-checkout": {
-		"props": {
-			"blockClass": "go-to-checkout",
-			"text": "[Finalizar a compra](/checkout/#/orderform)"
-		}
-	},
+  "rich-text#go-to-checkout": {
+    "props": {
+      "blockClass": "go-to-checkout",
+      "text": "[Finalizar a compra](/checkout/#/orderform)"
+    }
+  },
 
-	//Lista de produtos
-	//Imagens
-	"flex-layout.col#image-column.checkout": {
-		"children": ["product-list-image"],
-		"props": {
-			"blockClass": "checkout-product-image",
-			"verticalAlign": "top"
-		}
-	},
+  //Lista de produtos
+  //Imagens
+  "flex-layout.col#image-column.checkout": {
+    "children": ["product-list-image"],
+    "props": {
+      "blockClass": "checkout-product-image",
+      "verticalAlign": "top"
+    }
+  },
 
-	//Nome do produto
-	"flex-layout.col#checkout-cart-product-name": {
-		"children": ["flex-layout.row#checkout-product-name", "message#checkout-unavailable-message"],
-		"props": {
-			"blockClass": "checkout-cart-product-name",
-			"verticalAlign": "middle"
-		}
-	},
+  //Nome do produto
+  "flex-layout.col#checkout-cart-product-name": {
+    "children": [
+      "flex-layout.row#checkout-product-name",
+      "message#checkout-unavailable-message"
+    ],
+    "props": {
+      "blockClass": "checkout-cart-product-name",
+      "verticalAlign": "middle"
+    }
+  },
 
-	"flex-layout.row#checkout-product-name": {
-		"children": ["vtex.product-list:product-name"],
-		"props": {
-			"blockClass": "checkout-product-name",
-			"horizontalAlign": "left",
-			"preserveLayoutOnMobile": true
-		},
-		"title": "Nome do produto"
-	},
+  "flex-layout.row#checkout-product-name": {
+    "children": ["vtex.product-list:product-name"],
+    "props": {
+      "blockClass": "checkout-product-name",
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Nome do produto"
+  },
 
-	//Preço unitário
-	"flex-layout.col#price-checkout": {
-		"children": ["price"],
-		"props": {
-			"blockClass": "checkout-unit-price",
-			"verticalAlign": "middle"
-		},
-		"title": "Preço"
-	},
-	//Seletor de quantidade
-	"flex-layout.col#checkout-quantity-selector": {
-		"children": ["vtex.product-list:quantity-selector#checkout"],
-		"props": {
-			"blockClass": "checkout-quantity-selector",
-			"verticalAlign": "middle"
-		},
-		"title": "Seletor de quantidade"
-	},
-	"vtex.product-list:quantity-selector#checkout": {
-		"props": {
-			"mode": "stepper"
-		}
-	},
-	//Preço total
-	"flex-layout.row#checkout-price-total": {
-		"children": ["flex-layout.col#checkout-price-total"],
-		"props": {
-			"blockClass": "checkout-price-total",
-			"colSizing": "auto",
-			"horizontalAlign": "left",
-			"preserveLayoutOnMobile": true
-		},
-		"title": "Preço total"
-	},
+  //Preço unitário
+  "flex-layout.col#price-checkout": {
+    "children": ["price"],
+    "props": {
+      "blockClass": "checkout-unit-price",
+      "verticalAlign": "middle"
+    },
+    "title": "Preço"
+  },
+  //Seletor de quantidade
+  "flex-layout.col#checkout-quantity-selector": {
+    "children": ["vtex.product-list:quantity-selector#checkout"],
+    "props": {
+      "blockClass": "checkout-quantity-selector",
+      "verticalAlign": "middle"
+    },
+    "title": "Seletor de quantidade"
+  },
+  "vtex.product-list:quantity-selector#checkout": {
+    "props": {
+      "mode": "stepper"
+    }
+  },
+  //Preço total
+  "flex-layout.row#checkout-price-total": {
+    "children": ["flex-layout.col#checkout-price-total"],
+    "props": {
+      "blockClass": "checkout-price-total",
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Preço total"
+  },
 
-	"flex-layout.col#checkout-price-total": {
-		"children": ["price"],
-		"props": {
-			"blockClass": "checkout-price-total-content",
-			"verticalAlign": "middle"
-		}
-	},
+  "flex-layout.col#checkout-price-total": {
+    "children": ["price"],
+    "props": {
+      "blockClass": "checkout-price-total-content",
+      "verticalAlign": "middle"
+    }
+  },
 
-	//Botão de remover do carrinho
-	"flex-layout.col#remove": {
-		"children": ["remove-button"],
-		"props": {
-			"blockClass": "checkout-remove-icon",
-			"verticalAlign": "middle"
-		},
-		"title": "Ícone de remover"
-	},
+  //Botão de remover do carrinho
+  "flex-layout.col#remove": {
+    "children": ["remove-button"],
+    "props": {
+      "blockClass": "checkout-remove-icon",
+      "verticalAlign": "middle"
+    },
+    "title": "Ícone de remover"
+  },
 
-	//Mensagem de produto indisponível
-	"message#checkout-unavailable-message": {
+  //Mensagem de produto indisponível
+  "message#checkout-unavailable-message": {
+    "props": {
+      "layout": "cols"
+    },
+    "title": "Mensagem de indisponível"
+  },
+  // Botão de escolher mais produtos
+  "flex-layout.row#more-products": {
+    "children": ["rich-text#more-products"],
+    "props": {
+      "blockClass": "more-products"
+    }
+  },
+  "rich-text#more-products": {
+    "props": {
+      "text": "[Escolher mais produtos](/)",
+      "blockClass": "more-products"
+    }
+  },
+  // Modal
+  "modal-trigger#cart-io": {
+    "children": ["rich-text#cart-io", "modal-layout#cart-io"]
+  },
+  "rich-text#cart-io": {
+    "props": {
+      "text": "Finalizar Compra",
+      "blockClass": "go-to-checkout"
+    }
+  },
+  "modal-layout#cart-io": {
+    "children": [
+      "modal-header",
+      "flex-layout.row#modal-title",
+      "flex-layout.row#modal-how-it-works",
+      "flex-layout.row#modal-cart-warranty-advantages",
+			"flex-layout.row#modal-cart-warranty-advantages-content",
+      "flex-layout.row#modal-cart-footer"
+    ],
 		"props": {
-			"layout": "cols"
-		},
-		"title": "Mensagem de indisponível"
-	},
-	// Botão de escolher mais produtos
-	"flex-layout.row#more-products": {
-		"children": ["rich-text#more-products"],
-		"props": {
-			"blockClass": "more-products"
+			"blockClass": "cart-io"
 		}
-	},
-	"rich-text#more-products": {
+  },
+  "flex-layout.row#modal-title": {
+    "children": ["rich-text#modal-title"]
+  },
+  "rich-text#modal-title": {
+    "props": {
+      "text": "### Fique tranquilo e proteja seu produto por muito mais tempo \n Contrate o Seguro Garantia Estendida original, que inicia após o término da garantia de fábrica, ou seja, ainda mais tranquilidade pra você. Lembramos que a contratação de seguros é opcional.",
+      "blockClass": "modal-title"
+    }
+  },
+  "flex-layout.row#modal-how-it-works": {
+    "children": ["rich-text#modal-how-it-works"]
+  },
+  "rich-text#modal-how-it-works": {
+    "props": {
+      "text": "Parcele junto com seu pedido. A contratação do seguro é opcional. [Saiba como funciona.](/)",
+      "blockClass": "modal-how-it-works"
+    }
+  },
+  "flex-layout.row#modal-cart-warranty-advantages": {
+    "children": ["rich-text#modal-cart-warranty-advantages"]
+  },
+  "rich-text#modal-cart-warranty-advantages": {
+    "props": {
+      "text": "Vantagens da Garantia Estendida Original",
+      "blockClass": "modal-warranty-advantages"
+    }
+  },
+  "flex-layout.row#modal-cart-warranty-advantages-content": {
+    "children": [
+      "rich-text#first-colunm",
+      "rich-text#second-colunm",
+      "rich-text#third-colunm",
+      "rich-text#fourth-colunm"
+    ],
 		"props": {
-			"text": "[Escolher mais produtos](/)",
-			"blockClass": "more-products"
+			"blockClass":"cart-warranty-advantages-row"
 		}
-	}
+  },
+  "rich-text#first-colunm": {
+    "props": {
+      "text": "**MAIS ECONOMIA** \n A garantia pode ser mais barata que um reparo e não tem custos adicionais de peças ou mão de obra.",
+      "blockClass": "warranty-advntages"
+    }
+  },
+  "rich-text#second-colunm": {
+    "props": {
+      "text": "**MAIS SEGURANÇA** \n Consertos com 100% de peças originais e mão de obra qualificada.",
+      "blockClass": "warranty-advntages"
+    }
+  },
+  "rich-text#third-colunm": {
+    "props": {
+      "text": "**MAIS TRANQUILIDADE** \n CCobertura de defeitos funcionais previstos em garantia de fábrica por muito mais tempo.",
+      "blockClass": "warranty-advntages"
+    }
+  },
+  "rich-text#fourth-colunm": {
+    "props": {
+      "text": "**MAIS QUALIDADE** \n Acionamento simplificado, com diversas assistências técnicas em todo Brasil.",
+      "blockClass": "warranty-advntages"
+    }
+  },
+  "flex-layout.row#modal-cart-footer": {
+    "children": ["rich-text#modal-cart-footer"]
+  },
+  "rich-text#modal-cart-footer": {
+    "props": {
+      "text": "Seguro de Garantia Estendida/Extensão de Garantia – Bens em Geral , Processo Susep nº 15414.900147/2014-11, e Seguro de Roubo ou Furto de Eletrônico Portátil , Processo SUSEP n°15414.901005/2014-71, ambos garantido pela MAPFRE Seguros Gerais S.A - 61.074.175/0001-38 Reg. SUSEP 0623-8, Av. das Nações Unidas, 14.261 – Vila Gertrudes São Paulo-SP – CEP: 04794-000. Site: www.mapfre.com.br. Representante de seguro: B2W – COMPANHIA DIGITAL, CNPJ nº 00.776.574/0001-56. Corretora: TRR Corretora de Seguros Ltda., CNPJ nº 33.105.404/0001- 07, e registro Susep nº 10.0110035. O presente material possui informações resumidas, orientamos a leitura das condições gerais do seguro. &quot; A contratação de seguro é opcional, sendo possível a desistência do contrato em até 7 (sete) dias corridos com a devolução integral do valor pago. &quot;  &quot; É proibido condicionar desconto no preço do bem à aquisição do seguro. &quot;  &quot; A comercialização de seguro é fiscalizada pela SUSEP. www.susep.gov.br - 0800 021 8484 &quot; . &quot A aprovação do Plano pela SUSEP não implica, por parte da Autarquia, em incentivo em incentivo ou recomendação à sua aquisição. &quot \n\n Seguro Roubo e furto com Quebra Acidental: SAC Cancelamento, Reclamações e informações do produto: 0800 775 1676 e 0800 775 5045 (deﬁcientes auditivos e de fala). Abertura e acompanhamento de sinistro: 0800 775 1235 ou www.webprotecao.com.br/mapfre/. \n\n Seguro Garantia Estendida: SAC Cancelamento, Reclamações e informações do produto: 0800 775 1676 e 0800 775 5045 (deﬁcientes auditivos e de fala). Abertura e acompanhamento de sinistro: 0800 775 1235 ou www.webprotecao.com.br/mapfre/ \n\n Ouvidoria 0800 775 1079. Ouvidoria para Deficiente Auditivo ou de Fala 0800 962 7373. Atendimento de 2ª a 6ª feira, das 8h às 20h, exceto feriados. A Ouvidoria poderá ser acionada para atuar na defesa dos direitos dos consumidores, esclarecer e/ou solucionar demandas já tratadas pelos canais de atendimento habituais.",
+      "blockClass": "modal-content"
+    }
+  }
 }
