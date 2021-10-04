@@ -709,6 +709,38 @@
     padding: 0 25px;
     font-size: 14px;
   }
+  :global(.vtex-product-list-0-x-availabilityMessageContainer) {
+    background: #fff;
+    :global(.vtex-product-list-0-x-availabilityMessageTextContainer) {
+      line-height: 1;
+      padding: 5px;
+      :global(.vtex-product-list-0-x-availabilityMessageText) {
+        font-size: 14px;
+        color: #ed1d25;
+      }
+    }
+  }
+}
+.flexCol--empty-cart-messages-content {
+  .flexColChild--empty-cart-messages-content {
+    :global(.vtex-rich-text-0-x-paragraph--empty-cart-message-1) {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    :global(.vtex-rich-text-0-x-paragraph--empty-cart-button) {
+      margin: 50px;
+      margin-bottom: 100px;
+      :global(.vtex-rich-text-0-x-link--empty-cart-button) {
+        border: 1px solid #ed1d25;
+        color: #ed1d25;
+        padding: 10px 70px;
+        border-radius: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    }
+  }
 }
 .flexCol--checkout-quantity-selector {
   max-width: 131px;
@@ -737,6 +769,21 @@
   background-color: #fff;
   padding: 7px;
   margin: 20px 0;
+}
+@media (max-width: 768px) {
+  .flexCol--empty-cart-messages-content {
+    .flexColChild--empty-cart-messages-content {
+      :global(.vtex-rich-text-0-x-paragraph--empty-cart-message-1) {
+        font-size: 22px;
+      }
+      :global(.vtex-rich-text-0-x-paragraph--empty-cart-button) {
+        :global(.vtex-rich-text-0-x-link--empty-cart-button) {
+          padding: 10px 50px;
+      
+        }
+      }
+    }
+  }
 }
 /* cart-io - end */
 .flexRowContent--row-two-price {
