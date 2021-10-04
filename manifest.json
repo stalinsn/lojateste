@@ -1,7 +1,7 @@
 {
   "vendor": "gbarbosa",
-  "name": "gbarbosa-app",
-  "version": "0.1.1",
+  "name": "gbarbosa-store",
+  "version": "0.1.4",
   "builders": {
     "docs": "0.x",
     "sitemap": "0.x",
@@ -14,13 +14,12 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "cbgbarbosa.gbarbosa-components": "0.x",
+    "gbarbosa.gbarbosa-components": "0.x",
     "vtex.countdown-ribbon": "1.x",
     "vtex.product-highlights": "2.x",
     "vtex.recommendation-shelf": "0.x",
     "vtex.condition-layout": "1.x",
     "gbarbosa.mega-menu": "1.x",
-    "supermxmcr.shopping-list": "0.x",
     "vtex.search": "2.x",
     "vtex.iframe": "0.x",
     "vtex.order-placed": "2.x",
@@ -77,7 +76,9 @@
     "lacolonia.wishlist": "0.x",
     "vtex.checkout": "1.x",
     "vtex.coupon": "0.x",
-    "vtex.checkout-cart": "0.x"
+    "vtex.checkout-cart": "0.x",
+    "gbarbosa.store-selector": "1.x",
+    "gbarbosa.wishlist": "0.x"
   },
   "peerDependencies": {
     "vtexeurope.minicart-freeshipping-bar": "1.x"

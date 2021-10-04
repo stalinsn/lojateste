@@ -5,6 +5,6 @@
   },
 
   "op-order": {
-    "children": ["cbgbarbosa.gbarbosa-components:order-placed"]
+    "children": ["gbarbosa.gbarbosa-components:order-placed"]
   }
 }

@@ -426,7 +426,7 @@
         content: "Cartões";
       }
     }
-    a[href*="#/shopping-list"] {
+    a[href*="/wishlist-page"] {
       display: block;
       &::before {
         content: "Minhas listas";

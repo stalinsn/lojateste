@@ -12,7 +12,8 @@
       "sticky-layout#2-desktop",
       "sticky-layout#3-desktop",
       "sticky-layout#4-desktop",
-      "flex-layout.row#5-desktop"
+      "flex-layout.row#5-desktop",
+      "personal-promotion"
     ]
   },
 

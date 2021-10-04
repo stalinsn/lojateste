@@ -58,7 +58,6 @@
 
   "flex-layout.col#product-imagen": {
     "children": [
-      "shopping-list-shelf-button",
       "vtex.product-highlights@2.x:product-highlights",
       // "flex-layout.row#savings",
       "stack-layout"
@@ -413,7 +412,6 @@
 
   "flex-layout.col#product-imagen-mobile": {
     "children": [
-      "shopping-list-shelf-button",
       "vtex.product-highlights@2.x:product-highlights",
       // "flex-layout.row#savings",
       "stack-layout"
@@ -450,7 +448,7 @@
   },
 
   "flex-layout.row#product-image-mobile": {
-    "children": ["shopping-list-shelf-button", "product-images#mobile"]
+    "children": ["product-images#mobile"]
   },
 
   "product-images#mobile": {
