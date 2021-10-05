@@ -196,11 +196,14 @@
   },
   // Modal
   "modal-trigger#cart-io": {
-    "children": ["rich-text#cart-io", "modal-layout#cart-io"]
+    "children": ["rich-text#cart-io", "modal-layout#cart-io"],
+    "props": {
+      "blockClass": "cart-io"
+    }
   },
   "rich-text#cart-io": {
     "props": {
-      "text": "Finalizar Compra",
+      "text": "Finalizar a compra",
       "blockClass": "go-to-checkout"
     }
   },
