@@ -213,12 +213,26 @@
       "flex-layout.row#modal-title",
       "flex-layout.row#modal-how-it-works",
       "flex-layout.row#modal-cart-warranty-advantages",
-			"flex-layout.row#modal-cart-warranty-advantages-content",
+      "flex-layout.row#modal-cart-warranty-advantages-content",
+      "cb-checkbox#cart",
       "flex-layout.row#modal-cart-footer"
     ],
-		"props": {
-			"blockClass": "cart-io"
-		}
+    "props": {
+      "blockClass": "cart-io"
+    }
+  },
+  "cb-checkbox#cart": {
+    "props": {
+      "buttonLabel": "Continuar",
+      "buttonLink": "/checkout/#/orderform"
+    },
+    "blocks": ["rich-text#cart-checkbox"]
+  },
+  "rich-text#cart-checkbox": {
+    "props": {
+      "blockClass": "cart-checkbox",
+      "text": "Li e aceito as [condições da Garantia Estendida](/) e [Termo de Autorização de Pagamento de Prêmio de Seguro](/). \n Caso não esteja de acordo, proceda sua compra sem a Garantia Estendida Original."
+    }
   },
   "flex-layout.row#modal-title": {
     "children": ["rich-text#modal-title"]
@@ -254,9 +268,9 @@
       "rich-text#third-colunm",
       "rich-text#fourth-colunm"
     ],
-		"props": {
-			"blockClass":"cart-warranty-advantages-row"
-		}
+    "props": {
+      "blockClass": "cart-warranty-advantages-row"
+    }
   },
   "rich-text#first-colunm": {
     "props": {

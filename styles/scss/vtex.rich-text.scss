@@ -2161,7 +2161,7 @@
     color: #525252;
     font-size: 20px;
     font-weight: bold;
-    width: 80%;
+    width: 93%;
     margin: 10px auto;
     border-bottom: 1px solid #dedede;
     padding-bottom: 40px;
@@ -2185,6 +2185,16 @@
     font-size: 12px;
     .link--modal-content {
       text-decoration: none;
+    }
+  }
+}
+.wrapper--cart-checkbox {
+  .paragraph--cart-checkbox {
+    color: #898989;
+    font-size: 14px;
+    .link--cart-checkbox {
+      color: #ED1D25;
+      font-size: 14px;
     }
   }
 }
