@@ -74,7 +74,7 @@
   },
 
   "flex-layout.row#go-to-checkout": {
-    "children": ["rich-text#go-to-checkout", "modal-trigger#cart-io"],
+    "children": ["rich-text#go-to-checkout"/* , "modal-trigger#cart-io" */],
     "props": {
       "blockClass": "goToCheckout",
       "paddingBottom": 0,
