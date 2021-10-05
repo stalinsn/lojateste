@@ -1,0 +1,8 @@
+{
+  "store.custom#wishlist-custom": {
+    "blocks": ["flex-layout.row#wishlist-custom"]
+  },
+  "flex-layout.row#wishlist-custom": {
+    "children": ["wishlist-component"]
+  }
+}

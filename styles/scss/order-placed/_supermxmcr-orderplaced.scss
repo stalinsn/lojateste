@@ -1,5 +1,5 @@
 .walmartOrderPlaced {
-  font-family: "GothamBook", Arial, Helvetica, sans-serif;
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
   color: #525252;
 
   .section1 {
@@ -20,7 +20,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
-    font-family: "GothamBook", Arial, Helvetica, sans-serif;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
     font-size: 0.875rem;
     font-weight: bold;
     text-align: center;
@@ -33,19 +33,17 @@
     width: 100%;
   }
   .buttonSeguirComprando {
-    border: 1px solid #0075C9;
-    background-color: #0075C9;
+    border: 1px solid #ed1d25;
+    background-color: #ed1d25;
     color: #fff;
     &:hover {
-
     }
   }
   .buttonMisPedidos {
-    border: 1px solid #0075C9;
+    border: 1px solid #ed1d25;
     background-color: #fff;
-    color: #0075C9;
+    color: #ed1d25;
     &:hover {
-
     }
   }
 

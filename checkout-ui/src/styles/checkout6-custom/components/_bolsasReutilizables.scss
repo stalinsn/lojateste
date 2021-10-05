@@ -26,8 +26,8 @@
         transition: all 0.3s ease-in-out;
         &.button-bolsasreutilizables {
           background: #ffffff;
-          border: 1px solid #0075C9;
-          color: #0075C9;
+          border: 1px solid #ed1d25;
+          color: #ed1d25;
           &:hover {
             background: #368ee6;
             color: #fff;
@@ -37,7 +37,7 @@
           }
 
           &.active {
-            background: #0075C9;
+            background: #ed1d25;
             color: #ffffff;
             &:hover {
               background: #368ee6;

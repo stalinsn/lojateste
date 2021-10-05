@@ -27,7 +27,6 @@
           color: $primary;
         }
       }
-
     }
   }
 
@@ -45,7 +44,47 @@
     }
   }
 }
-
+.listItemActive--tab-desc {
+  border-bottom: 2px solid #ed1d25 !important;
+}
+.container--home {
+  .listContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow: auto;
+    .listItem {
+      :global(.vtex-button) {
+        &:hover {
+          background: none;
+        }
+      }
+      :global(.vtex-button__label) {
+        color: #525252;
+        font-weight: bold;
+        text-transform: initial;
+      }
+      &Active {
+        :global(.vtex-button) {
+          background: none;
+          border: none;
+          color: #ed1d25;
+          text-transform: initial;
+          font-weight: bold;
+          border-bottom: 3px solid #ed1d25;
+          border-radius: 0;
+          :global(.vtex-button__label) {
+            color: #ed1d25;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
 @media (max-width: em(768px)) {
   .listContainer--tab-list-home-shelfs {
     display: flex;
@@ -58,18 +97,18 @@
 :global(.vtex-flex-layout-0-x-flexRow--product-description) {
   .container--tab-description {
     .listContainer {
-      justify-content: end;
+      justify-content: flex-start;
     }
   }
 }
 
 :global(.vtex-tab-layout-0-x-listItem--tab-list-promo) {
   margin-right: 0 !important;
-  background: #E8E8E8 !important;
-  border-left: 6px solid #E8E8E8;
+  background: #e8e8e8 !important;
+  border-left: 6px solid #e8e8e8;
   @media (max-width: em(768px)) {
     border-left: 0px !important;
-    border-bottom: 6px solid #E8E8E8 !important;;
+    border-bottom: 6px solid #e8e8e8 !important;
   }
 }
 
@@ -85,25 +124,25 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--product-description) {
-    max-width: 600px;
-    background: white;
-    padding: 1rem;
-    margin: 0;
+  max-width: 600px;
+  background: white;
+  padding: 1rem;
+  margin: 0;
 }
 
-:global(.vtex-tab-layout-0-x-container--tab-description){
+:global(.vtex-tab-layout-0-x-container--tab-description) {
   :global(.vtex-tab-layout-0-x-listItem--tab-desc) {
     margin: 0 0 15px;
     text-align: left;
     border-bottom: 2px solid #ccc;
-    :global(.vtex-button ){
+    :global(.vtex-button) {
       display: block;
       width: 100%;
       border: 0;
       background: none;
       :global(.vtex-button__label) {
         color: #525252;
-        font-size:16px;
+        font-size: 16px;
         text-transform: none;
         font-weight: 600;
 
@@ -116,7 +155,7 @@
   }
 
   :global(.vtex-tab-layout-0-x-listItemActive) {
-    border-bottom: solid 2px #0075C9;
+    border-bottom: solid 2px #ed1d25;
   }
 
   :global(.vtex-tab-layout-0-x-contentContainer) {
@@ -133,13 +172,13 @@
     }
 
     :global(.vtex-store-components-3-x-specificationsTableRow) {
-      &:nth-child(2n+1){
+      &:nth-child(2n + 1) {
         background: #f6f6f6;
       }
     }
 
     :global(.vtex-store-components-3-x-specificationsTableRow) {
-      &:nth-child(2n+0){
+      &:nth-child(2n + 0) {
         background: #fff;
       }
     }
@@ -160,25 +199,163 @@
 }
 
 // //Tabs Masxmenos te escucha
-.listContainer--tab-list-home-walmart-te-escucha{
+.listContainer--tab-list-home-walmart-te-escucha {
   justify-content: flex-start;
 }
 
-.listItem--tab-walmart-te-escucha{
-  :first-child{
+.listItem--tab-walmart-te-escucha {
+  :first-child {
     text-transform: none;
     background: none;
-    color:#525252;
+    color: #525252;
     border: none;
     opacity: 1;
     font-weight: bold;
-    font-size: .9rem;
+    font-size: 0.9rem;
     border-bottom: none;
     padding-bottom: 0;
   }
 }
 
-.listItemActive--tab-walmart-te-escucha{
-  border-bottom: 2px #0075C9 solid;
+.listItemActive--tab-walmart-te-escucha {
+  border-bottom: 2px #ed1d25 solid;
   padding-bottom: 0;
+}
+.container--institutional {
+  display: flex;
+  max-width: 1366px;
+  margin: 0 auto;
+  :global(.vtex-rich-text-0-x-headingLevel3) {
+    margin-top: 49px;
+    margin-bottom: 34px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #2e3840;
+  }
+  :global(.vtex-rich-text-0-x-wrapper--how-to-buy-text) {
+    :global(.vtex-rich-text-0-x-headingLevel3) {
+      font-size: 22px;
+      color: #000;
+      margin-top: 0;
+      margin-bottom: 38px;
+    }
+  }
+  :global(.vtex-rich-text-0-x-wrapper--delivery-e-shopping-text) {
+    :global(.vtex-rich-text-0-x-headingLevel3) {
+      font-size: 22px;
+      color: #000;
+      margin-top: 32px;
+      margin-bottom: 31px;
+    }
+  }
+  :global(.vtex-menu-2-x-menuContainer) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--institutional-title-container) {
+  height: 196px;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  :global(.vtex-rich-text-0-x-paragraph) {
+    color: #ed1d25;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--institutional-title-container) {
+  height: 196px;
+  display: flex;
+  align-items: center;
+}
+
+.listContainer--institutional-list-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 49px;
+  width: 344px !important;
+  :global(.vtex-button__label) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7f92;
+    text-transform: initial;
+  }
+  :global(.vtex-button) {
+    background: none;
+    border: none;
+  }
+  .listItemActive {
+    border-left: 2px solid #ed1d25;
+  }
+}
+
+.listItemActive {
+  :global(.vtex-button__label) {
+    font-weight: bold;
+    color: #ed1d25;
+  }
+}
+.contentItem--institutional-container {
+  :global(.vtex-rich-text-0-x-strong) {
+    font-size: 18px;
+    margin: 24px 0;
+    display: block;
+  }
+  :global(.vtex-rich-text-0-x-link) {
+    color: #ed1d25;
+    text-decoration: none;
+  }
+}
+.contentContainer--institutional-tab-content-container {
+  padding: 0;
+  width: 898px;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+//mobile
+@media screen and (max-width: 768px) {
+  .container--institutional {
+    :global(.vtex-rich-text-0-x-heading) {
+      font-size: 22px;
+    }
+    :global(.vtex-rich-text-0-x-paragraph) {
+      font-size: 14px;
+    }
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--institutional-title-container) {
+    :global(.vtex-rich-text-0-x-paragraph) {
+      font-size: 22px;
+    }
+  }
+  .contentContainer--institutional-tab-content-container {
+    padding: 0px 20px 0px 0px;
+  }
+
+  .listContainer--institutional-list-content {
+    :global(.vtex-button__label) {
+      font-size: 16px;
+      width: 80px;
+    }
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--institutional-title-container) {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 30px;
+    }
+  }
 }

@@ -93,7 +93,7 @@
   },
   "image#four-icon-step": {
     "props": {
-      "src": "assets/icon_package.svg",
+      "src": "/arquivos/icon_package.svg",
       "blockClass": "image-method"
     }
   },
@@ -127,7 +127,7 @@
   },
   "image#third-icon-step": {
     "props": {
-      "src": "assets/icon_send.svg",
+      "src": "/arquivos/icon_send.svg",
       "blockClass": "image-method--disabled",
       "width": "auto"
     }
@@ -162,7 +162,7 @@
   },
   "image#second-icon-step": {
     "props": {
-      "src": "assets/icon_mail.svg",
+      "src": "/arquivos/icon_mail.svg",
       "blockClass": "image-method--disabled",
       "width": "auto"
     }
@@ -197,7 +197,7 @@
   },
   "image#first-icon-step": {
     "props": {
-      "src": "assets/icon_bag.svg",
+      "src": "/arquivos/icon_bag.svg",
       "blockClass": "image-method--disabled",
       "width": "auto"
     }

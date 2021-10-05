@@ -156,7 +156,7 @@ export default class CustomAddToCart extends Component {
     console.log("Item id is", id);
     const { scopeName } = vtexid.getAuthData();
     const sc = scopeName === "supermxmcr" ? 2 : 1;
-        this.setState(
+    this.setState(
       {
         loading: true,
       },
@@ -188,7 +188,7 @@ export default class CustomAddToCart extends Component {
     if (loading) {
       return (
         <div className="add-to-cart-button-container">
-          <Spinner size={32} borderWidth={4} borderColor="#0075C9" />
+          <Spinner size={32} borderWidth={4} borderColor="#ed1d25" />
         </div>
       );
     }

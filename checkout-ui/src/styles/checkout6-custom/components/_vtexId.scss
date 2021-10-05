@@ -22,7 +22,7 @@
           background: #fff;
           padding: 0px 0px;
           line-height: 100%;
-          color: #0075C9;
+          color: #ed1d25;
           padding-top: 0;
           text-shadow: none;
           opacity: 1;
@@ -60,7 +60,7 @@
               cursor: pointer;
               color: #ffffff;
               text-shadow: none;
-              background-color: #0075C9;
+              background-color: #ed1d25;
               background-image: none;
               border-radius: 4px;
               border: none;
@@ -96,7 +96,7 @@
               }
             }
             button#loginWithAccessKeyBtn {
-              background: #0075C9;
+              background: #ed1d25;
               background-image: none;
               box-shadow: none;
               border-radius: 4px;
@@ -115,15 +115,15 @@
               background: #fff;
               box-shadow: none;
               border-radius: 4px;
-              border: 1px solid #0075C9;
+              border: 1px solid #ed1d25;
               text-align: center;
               display: flex;
               justify-content: center;
               align-items: center;
-              color: #0075C9;
+              color: #ed1d25;
               text-shadow: none;
               &:hover {
-                background: #0075C9;
+                background: #ed1d25;
                 color: #fff;
               }
             }
@@ -134,7 +134,7 @@
   }
 
   .btn.btn-large.btn-success {
-    background: #0075C9;
+    background: #ed1d25;
     border: none;
     border-radius: 4px;
     box-shadow: none;

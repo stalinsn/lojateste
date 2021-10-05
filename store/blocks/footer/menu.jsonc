@@ -13,7 +13,8 @@
       "menu-item#contactanos-2",
       "menu-item#contactanos-3",
       "menu-item#contactanos-4",
-      "menu-item#contactanos-5"
+      "menu-item#contactanos-5",
+      "menu-item#contactanos-6"
     ]
   },
 
@@ -23,7 +24,7 @@
     "props": {
       "textAlignment": "",
       "textPosition": "",
-      "text": "Conocenos",
+      "text": "Institucional",
       "blockClass": "title-menu-footer"
     }
   },
@@ -39,8 +40,8 @@
         "type": "internal",
         "href": "/terminos-y-condiciones-de-compra",
         "noFollow": false,
-        "tagTitle": "Términos y Condiciones",
-        "text": "Términos y Condiciones"
+        "tagTitle": "Quem somos ",
+        "text": "Quem somos "
       }
     }
   },
@@ -55,8 +56,8 @@
         "type": "internal",
         "href": "/aviso-de-privacidad-ecommerce",
         "noFollow": false,
-        "tagTitle": "Aviso de Privacidad Integral eCommerce ",
-        "text": "Aviso de Privacidad Integral eCommerce "
+        "tagTitle": "Quem somos",
+        "text": "Quem somos"
       }
     }
   },
@@ -71,8 +72,8 @@
         "type": "internal",
         "href": "/reglamento-de-promociones",
         "noFollow": false,
-        "tagTitle": "Reglamento de promociones",
-        "text": "Reglamento de promociones"
+        "tagTitle": "Forma de Entrega",
+        "text": "Forma de Entrega"
       }
     }
   },
@@ -87,8 +88,8 @@
         "type": "internal",
         "href": "/acciones-contra-el-covid-19",
         "noFollow": false,
-        "tagTitle": "Acciones contra el COVID-19 en nuestras tiendas",
-        "text": "Acciones contra el COVID-19 en nuestras tiendas"
+        "tagTitle": "Formas de Pagamento",
+        "text": "Formas de Pagamento"
       }
     }
   },
@@ -103,8 +104,23 @@
         "type": "internal",
         "href": "/walmart-te-escucha",
         "noFollow": false,
-        "tagTitle": "Masxmenos te escucha",
-        "text": "Masxmenos te escucha"
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  "menu-item#contactanos-6": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/walmart-te-escucha",
+        "noFollow": false,
+        "tagTitle": "App GBarbosa",
+        "text": "App GBarbosa"
       }
     }
   },
@@ -121,8 +137,8 @@
       "rich-text#footer-ayuda",
       "menu-item#ayuda-1",
       "menu-item#ayuda-2",
-      "menu-item#ayuda-3",
-      "menu-item#ayuda-4"
+      "menu-item#ayuda-3"
+      // "menu-item#ayuda-4"
     ]
   },
 
@@ -131,7 +147,7 @@
     "props": {
       "textAlignment": "",
       "textPosition": "",
-      "text": "¿Necesitas ayuda?",
+      "text": "Central de ajuda",
       "blockClass": "title-menu-footer"
     }
   },
@@ -146,8 +162,8 @@
         "type": "internal",
         "href": "/como-comprar",
         "noFollow": false,
-        "tagTitle": "¿Cómo comprar en masxmenos.co.cr?",
-        "text": "¿Cómo comprar en masxmenos.co.cr?"
+        "tagTitle": "Como comprar",
+        "text": "Como comprar"
       }
     }
   },
@@ -162,8 +178,8 @@
         "type": "internal",
         "href": "/localizador-de-tiendas",
         "noFollow": false,
-        "tagTitle": "Nuestras tiendas",
-        "text": "Nuestras tiendas"
+        "tagTitle": "Nossas lojas",
+        "text": "Nossas lojas"
       }
     }
   },
@@ -178,8 +194,8 @@
         "type": "internal",
         "href": "/preguntas-frecuentes",
         "noFollow": false,
-        "tagTitle": "Preguntas frecuentes",
-        "text": "Preguntas frecuentes"
+        "tagTitle": "Preguntas frequentes",
+        "text": "Preguntas frequentes"
       }
     }
   },
@@ -195,8 +211,8 @@
         "type": "internal",
         //"href": "/",
         "noFollow": false,
-        "tagTitle": "Contáctanos al 800-8000-722",
-        "text": "Contáctanos al 800-8000-722"
+        "tagTitle": "Entre em contato (71) 9990-16180 0800 000 00 000",
+        "text": "Entre em contato (71) 9990-16180 0800 000 00 000"
       }
     }
   },
@@ -205,7 +221,7 @@
     "props": {
       "title": "Facebook",
       "href": "/",
-      "url": "assets/fb.svg",
+      "url": "/arquivos/fb.svg",
       "maxWidth": "50%",
       "blockClass": "icon-social-fb"
     }
@@ -214,7 +230,7 @@
     "props": {
       "title": "Youtube",
       "href": "/",
-      "url": "assets/youtube.svg",
+      "url": "/arquivos/youtube.svg",
       "maxWidth": "50%",
       "blockClass": "icon-social-fb"
     }
@@ -226,13 +242,13 @@
       "orientation": "vertical",
       "blockClass": "footer"
     },
-    "children":[
+    "children": [
       "rich-text#footer-menu6",
       "menu-item#servicios-1",
       "menu-item#servicios-2",
       "menu-item#servicios-3",
-      "menu-item#servicios-4",
-      "menu-item#servicios-5"
+      "menu-item#servicios-4"
+      // "menu-item#servicios-5"
       // "menu-item#servicios-6"
     ]
   },
@@ -242,7 +258,7 @@
     "props": {
       "textAlignment": "",
       "textPosition": "",
-      "text": "Servicio",
+      "text": "Atendimento",
       "blockClass": "title-menu-footer"
     }
   },
@@ -257,8 +273,8 @@
         "type": "internal",
         "href": "/tarjeta-de-credito",
         "noFollow": false,
-        "tagTitle": "Tarjeta de crédito",
-        "text": "Tarjeta de crédito"
+        "tagTitle": "Minha conta",
+        "text": "Minha conta"
       }
     }
   },
@@ -273,8 +289,8 @@
         "type": "internal",
         "href": "/tarjeta-de-regalo",
         "noFollow": false,
-        "tagTitle": "Tarjeta de regalo",
-        "text": "Tarjeta de regalo"
+        "tagTitle": "Meus pedidos",
+        "text": "Meus pedidos"
       }
     }
   },
@@ -290,8 +306,8 @@
         "type": "internal",
         //"href": "/",
         "noFollow": false,
-        "tagTitle": "Otros servicios",
-        "text": "Otros servicios:"
+        "tagTitle": "Trabalhe Conosco",
+        "text": "Trabalhe Conosco"
       }
     }
   },
@@ -306,8 +322,8 @@
         "type": "internal",
         "href": "/remesas",
         "noFollow": false,
-        "tagTitle": "Remesas",
-        "text": "- Remesas"
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
       }
     }
   },
@@ -389,28 +405,22 @@
       "menu-item#servicios-1",
       "menu-item#servicios-2",
       "menu-item#servicios-3",
-      "menu-item#servicios-4",
-      "menu-item#servicios-5"
+      "menu-item#servicios-4"
+      // "menu-item#servicios-5"
       // "menu-item#servicios-6"
     ]
   },
 
   "modal-layout#sales-for-enterprise": {
-    "children": [
-      "flex-layout.row#form-sales-enterprise"
-    ]
+    "children": ["flex-layout.row#form-sales-enterprise"]
   },
 
   "flex-layout.row#form-sales-enterprise": {
-    "children": [
-      "flex-layout.col#form-sales-enterprise"
-    ]
+    "children": ["flex-layout.col#form-sales-enterprise"]
   },
 
   "flex-layout.col#form-sales-enterprise": {
-    "children": [
-      "form"
-    ],
+    "children": ["form"],
 
     "props": {
       "blockClass": "form-contact"
@@ -423,7 +433,7 @@
       "schema": "VI_schema"
     },
 
-    "children":[
+    "children": [
       "rich-text#title-modal",
       "form-input.text#name",
       "form-input.text#corporate",
@@ -436,9 +446,7 @@
   },
 
   "form-success": {
-    "children": [
-      "rich-text#successSubmit"
-    ]
+    "children": ["rich-text#successSubmit"]
   },
 
   "rich-text#successSubmit": {
@@ -471,10 +479,7 @@
   },
 
   "flex-layout.row#form-two-input": {
-    "children": [
-      "form-input.text#phone",
-      "form-input.text#email"
-    ]
+    "children": ["form-input.text#phone", "form-input.text#email"]
   },
 
   "form-input.text#phone": {

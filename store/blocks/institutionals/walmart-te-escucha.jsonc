@@ -1,0 +1,906 @@
+{
+  "store.custom#walmart-te-escucha": {
+    "blocks": [
+      "responsive-layout.desktop#walmart-te-escucha",
+      "responsive-layout.mobile#walmart-te-escucha"
+    ]
+  },
+  "responsive-layout.mobile#walmart-te-escucha": {
+    "children": ["flex-layout.row#walmart-te-escucha-mob"]
+  },
+
+  "flex-layout.row#walmart-te-escucha-mob": {
+    "children": [
+      "flex-layout.col#walmart-te-escucha-col1",
+      "flex-layout.col#walmart-te-escucha-linea2",
+      "flex-layout.col#walmart-te-escucha-col2"
+    ],
+    "props": {
+      "blockClass": ["walmart-te-escucha-pag", "walmart-te-escucha-pag-mob"]
+    }
+  },
+
+  "responsive-layout.desktop#walmart-te-escucha": {
+    "children": ["flex-layout.row#walmart-te-escucha"]
+  },
+  "flex-layout.row#walmart-te-escucha": {
+    "children": ["flex-layout.col#walmart-te-escucha"],
+    "props": {
+      "blockClass": "walmart-te-escucha-pag"
+    }
+  },
+  "flex-layout.col#walmart-te-escucha": {
+    "children": [
+      "flex-layout.row#walmart-te-escucha-linea1",
+      "flex-layout.col#walmart-te-escucha-linea2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "walmart-te-escucha-pag"
+    }
+  },
+
+  "flex-layout.row#walmart-te-escucha-linea1": {
+    "children": [
+      "flex-layout.col#walmart-te-escucha-col1",
+      "flex-layout.col#walmart-te-escucha-col2"
+    ],
+    "props": {
+      "blockClass": "walmart-te-escucha-linea-middle"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-col1": {
+    "children": [
+      "rich-text#walmart-te-escucha-titulo-de-pagina",
+      "flex-layout.col#walmart-te-escucha-imagen",
+      "flex-layout.row#walmart-te-escucha-activar"
+    ],
+    "props": {
+      "blockClass": "walmart-te-escucha-activa-col1",
+      "width": "43%",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#walmart-te-escucha-titulo-de-pagina": {
+    "props": {
+      "text": "Masxmenos te escucha",
+      "blockClass": "first-titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-imagen": {
+    "children": ["flex-layout.col#walmart-te-escucha-activa-codigo"],
+    "props": {
+      "blockClass": "backgrondBlueWalmartTeEscucha",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-activa-codigo": {
+    "children": [
+      "image#walmart-te-escucha-logo",
+      "image#walmart-te-escucha",
+      // "image#walmart-te-escucha-activa-codigo"
+      "rich-text#walmart-te-escucha-texto-linea1",
+      "rich-text#walmart-te-escucha-texto-linea2",
+      "rich-text#walmart-te-escucha-texto-linea3"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "walmart-te-escucha-activa-codigo"
+    }
+  },
+
+  "image#walmart-te-escucha-logo": {
+    "props": {
+      "src": "/arquivos/logo-masxmenos.svg",
+      "blockClass": "icon-walmart-te-escucha"
+    }
+  },
+
+  "image#walmart-te-escucha": {
+    "props": {
+      "src": "/arquivos/art-masxmenos.png",
+      "blockClass": "img-walmart-te-escucha"
+    }
+  },
+
+  "image#walmart-te-escucha-activa-codigo": {
+    "props": {
+      "src": "/arquivos/cierre-masxmenos.png",
+      "link": "https://experiencia.walmart.com/survey/selfserve/5c2/wal20120#?",
+      "blockClass": "img-walmart-te-escucha"
+    }
+  },
+
+  "rich-text#walmart-te-escucha-texto-linea1": {
+    "props": {
+      "text": "Activando tu código de factura en",
+      "blockClass": "text-pag-walmart-te-escucha-white"
+    }
+  },
+  "rich-text#walmart-te-escucha-texto-linea2": {
+    "props": {
+      "text": "<a target='_blank' href='https://experiencia.walmart.com/survey/selfserve/5c2/wal20120#?'>experiencia.walmart.com</a>",
+      "blockClass": "text-pag-walmart-te-escucha-link"
+    }
+  },
+  "rich-text#walmart-te-escucha-texto-linea3": {
+    "props": {
+      "text": "*Tarjeta de regalo",
+      "blockClass": "text-pag-walmart-te-escucha-tarjeta"
+    }
+  },
+
+  "flex-layout.row#walmart-te-escucha-activar": {
+    "children": [
+      "rich-text#walmart-te-escucha-activar-btn",
+      "image#walmart-te-escucha-activar-codigo"
+    ],
+    "props": {
+      "blockClass": "walmart-te-escucha-QR",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#walmart-te-escucha-activar-btn": {
+    "props": {
+      "text": "<a target='_blank' href='https://experiencia.walmart.com/survey/selfserve/5c2/wal20120#?'>¡Activar ahora!</a>",
+      "blockClass": "como-comprar-btn-comprar",
+      "width": "68%"
+    }
+  },
+
+  "image#walmart-te-escucha-activar-codigo": {
+    "props": {
+      "src": "/arquivos/walmart-te-escucha-QR.jpg",
+      "blockClass": "clasedeprueba"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-col2": {
+    "children": ["flex-layout.row#tabs-calendario-ganadores"],
+    "props": {
+      "blockClass": "walmart-te-escucha-activa-col2",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#tabs-calendario-ganadores": {
+    "children": ["tab-layout#tabs-walmart-te-escucha-calendario-ganadores"]
+  },
+
+  "tab-layout#tabs-walmart-te-escucha-calendario-ganadores": {
+    "children": [
+      "tab-list#tabs-walmart-te-escucha",
+      "tab-content#tabs-walmart-te-escucha"
+    ],
+    "props": {
+      "blockClass": "tab-home-walmart-te-escucha",
+      "defaultActiveTabId": "tab-calendario",
+      "width": "100%"
+    }
+  },
+
+  "tab-list#tabs-walmart-te-escucha": {
+    "children": ["tab-list.item#tab-calendario", "tab-list.item#tab-ganadores"],
+    "props": {
+      "blockClass": "tab-list-home-walmart-te-escucha"
+    }
+  },
+
+  "tab-list.item#tab-calendario": {
+    "props": {
+      "tabId": "tab-calendario",
+      "label": "Calendario",
+      "blockClass": "tab-walmart-te-escucha",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#tab-ganadores": {
+    "props": {
+      "tabId": "tab-ganadores",
+      "label": "Ganadores ",
+      "blockClass": "tab-walmart-te-escucha",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-content#tabs-walmart-te-escucha": {
+    "children": [
+      "tab-content.item#tab-calendario",
+      "tab-content.item#tab-ganadores"
+    ],
+    "props": {
+      "blockClass": "tab-content-walmart-te-escucha"
+    }
+  },
+
+  "tab-content.item#tab-calendario": {
+    "children": ["flex-layout.col#walmart-te-escucha-calendario"],
+    "props": {
+      "tabId": "tab-calendario"
+    }
+  },
+
+  "tab-content.item#tab-ganadores": {
+    "children": ["flex-layout.col#walmart-te-escucha-ganadores"],
+    "props": {
+      "tabId": "tab-ganadores"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario": {
+    "children": [
+      "flex-layout.row#walmart-te-escucha-calendario-actividades-title",
+      "flex-layout.row#walmart-te-escucha-calendario-actividades"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#walmart-te-escucha-calendario-actividades-title": {
+    "children": ["rich-text#walmart-te-escucha-calendario-title"],
+    "props": {
+      "blockClass": "walmart-te-escucha-calendario-actividades-title",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#walmart-te-escucha-calendario-title": {
+    "props": {
+      "text": "Actividades 2021",
+      "blockClass": "walmart-te-escucha-calendario-title",
+      "width": "auto"
+    }
+  },
+
+  "flex-layout.row#walmart-te-escucha-calendario-actividades": {
+    "children": [
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-col1",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-col2"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-col1": {
+    "children": [
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-enero",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-febrero",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-marzo",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-abril",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-mayo",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-junio"
+    ],
+    "props": {
+      "blockClass": "walmart-te-escucha-calendario-actividades",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-enero": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-enero-title",
+      "rich-text#walmart-te-escucha-calendario-enero"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-enero-title": {
+    "props": {
+      "text": "Enero",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-enero": {
+    "props": {
+      "text": "- 31 Cierre de sorteo Enero",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-febrero": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-febrero-title",
+      "rich-text#walmart-te-escucha-calendario-febrero"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-febrero-title": {
+    "props": {
+      "text": "Febrero",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-febrero": {
+    "props": {
+      "text": "- 01 Sorteo Enero\n- 15 Se comunican ganadores del mes\n- 28 Cierre de sorteo Febrero",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-marzo": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-marzo-title",
+      "rich-text#walmart-te-escucha-calendario-marzo"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-marzo-title": {
+    "props": {
+      "text": "Marzo",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-marzo": {
+    "props": {
+      "text": "- 01 Sorteo Febrero\n- 15 Se comunican ganadores del mes\n- 31 Cierre de sorteo Marzo",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-abril": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-abril-title",
+      "rich-text#walmart-te-escucha-calendario-abril"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-abril-title": {
+    "props": {
+      "text": "Abril",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-abril": {
+    "props": {
+      "text": "- 01 Sorteo Marzo\n- 15 Se comunican ganadores del mes\n- 30 Cierre de sorteo Abril",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-mayo": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-mayo-title",
+      "rich-text#walmart-te-escucha-calendario-mayo"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-mayo-title": {
+    "props": {
+      "text": "Mayo",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-mayo": {
+    "props": {
+      "text": "- 03 Sorteo Abril\n- 17 Se comunican ganadores del mes\n- 30 Cierre de sorteo Mayo",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-junio": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-junio-title",
+      "rich-text#walmart-te-escucha-calendario-junio"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-junio-title": {
+    "props": {
+      "text": "Junio",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-junio": {
+    "props": {
+      "text": "- 01 Sorteo Mayo\n- 15 Se comunican ganadores del mes\n- 30 Cierre de sorteo Junio",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-col2": {
+    "children": [
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-julio",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-agosto",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-septiembre",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-octubre",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-noviembre",
+      "flex-layout.col#walmart-te-escucha-calendario-actividades-diciembre"
+    ],
+    "props": {
+      "blockClass": [
+        "walmart-te-escucha-calendario-actividades",
+        "walmart-te-escucha-calendario-actividades-col2"
+      ],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-julio": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-julio-title",
+      "rich-text#walmart-te-escucha-calendario-julio"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-julio-title": {
+    "props": {
+      "text": "Julio",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-julio": {
+    "props": {
+      "text": "- 01 Sorteo Junio\n- 15 Se comunican ganadores del mes\n- 31 Cierre de sorteo Julio",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-agosto": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-agosto-title",
+      "rich-text#walmart-te-escucha-calendario-agosto"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-agosto-title": {
+    "props": {
+      "text": "Agosto",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-agosto": {
+    "props": {
+      "text": "- 02 Sorteo Julio\n- 16 Se comunican ganadores del mes\n- 31 Cierre de sorteo Agosto",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-septiembre": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-septiembre-title",
+      "rich-text#walmart-te-escucha-calendario-septiembre"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-septiembre-title": {
+    "props": {
+      "text": "Septiembre",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-septiembre": {
+    "props": {
+      "text": "- 01 Sorteo Agosto\n- 15 Se comunican ganadores del mes\n- 30 Cierre de sorteo Septiembre",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-octubre": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-octubre-title",
+      "rich-text#walmart-te-escucha-calendario-octubre"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-octubre-title": {
+    "props": {
+      "text": "Octubre",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-octubre": {
+    "props": {
+      "text": "- 01 Sorteo Septiembre\n- 15 Se comunican ganadores del mes\n- 31 Cierre de sorteo Octubre",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-noviembre": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-noviembre-title",
+      "rich-text#walmart-te-escucha-calendario-noviembre"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-noviembre-title": {
+    "props": {
+      "text": "Noviembre",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-noviembre": {
+    "props": {
+      "text": "- 01 Sorteo Octubre\n- 15 Se comunican ganadores del mes\n- 31 Cierre de sorteo Noviembre",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-calendario-actividades-diciembre": {
+    "children": [
+      "rich-text#walmart-te-escucha-calendario-diciembre-title",
+      "rich-text#walmart-te-escucha-calendario-diciembre"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-diciembre-title": {
+    "props": {
+      "text": "Diciembre",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+  "rich-text#walmart-te-escucha-calendario-diciembre": {
+    "props": {
+      "text": "- 01 Sorteo Noviembre\n- 15 Se comunican ganadores del mes\n- 31 Cierre de sorteo Diciembre",
+      "blockClass": "titulo-pag-walmart-te-escucha"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-ganadores": {
+    "children": [
+      "flex-layout.col#walmart-te-escucha-ganadores-abril",
+      "flex-layout.col#walmart-te-escucha-ganadores-marzo",
+      "flex-layout.col#walmart-te-escucha-ganadores-febrero",
+      "flex-layout.col#walmart-te-escucha-ganadores-enero",
+      "flex-layout.col#walmart-te-escucha-ganadores-diciembre"
+    ]
+  },
+
+  "flex-layout.col#walmart-te-escucha-ganadores-abril": {
+    "children": [
+      "rich-text#walmart-te-escucha-ganadores-abril-title",
+      "rich-text#walmart-te-escucha-ganadores-abril"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#walmart-te-escucha-ganadores-abril-title": {
+    "props": {
+      "text": "Ganadores Abril 2021",
+      "blockClass": "titulo-pag-walmart-te-escucha-ganadores"
+    }
+  },
+  "rich-text#walmart-te-escucha-ganadores-abril": {
+    "props": {
+      "text": "- Kareen Barquero\n- Jeffrey Sanabria\n- Diego Perez",
+      "blockClass": "titulo-pag-walmart-te-escucha-lst"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-ganadores-marzo": {
+    "children": [
+      "rich-text#walmart-te-escucha-ganadores-marzo-title",
+      "rich-text#walmart-te-escucha-ganadores-marzo"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#walmart-te-escucha-ganadores-marzo-title": {
+    "props": {
+      "text": "Ganadores Marzo 2021",
+      "blockClass": "titulo-pag-walmart-te-escucha-ganadores"
+    }
+  },
+  "rich-text#walmart-te-escucha-ganadores-marzo": {
+    "props": {
+      "text": "- María del Rocío Solano Navarro\n- Flor de María Argeñal\n- Pamela Méndez\n- Angelica Vasquez Vargas",
+      "blockClass": "titulo-pag-walmart-te-escucha-lst"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-ganadores-febrero": {
+    "children": [
+      "rich-text#walmart-te-escucha-ganadores-febrero-title",
+      "rich-text#walmart-te-escucha-ganadores-febrero"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#walmart-te-escucha-ganadores-febrero-title": {
+    "props": {
+      "text": "Ganadores Febrero 2021",
+      "blockClass": "titulo-pag-walmart-te-escucha-ganadores"
+    }
+  },
+  "rich-text#walmart-te-escucha-ganadores-febrero": {
+    "props": {
+      "text": "- Isaac Herrera\n- Lilliam Valverde Alvarado\n- Gloriana Vargas Villalobos\n- Francine Ocampo Rodriguez",
+      "blockClass": "titulo-pag-walmart-te-escucha-lst"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-ganadores-enero": {
+    "children": [
+      "rich-text#walmart-te-escucha-ganadores-enero-title",
+      "rich-text#walmart-te-escucha-ganadores-enero"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#walmart-te-escucha-ganadores-enero-title": {
+    "props": {
+      "text": "Ganadores Enero 2021",
+      "blockClass": "titulo-pag-walmart-te-escucha-ganadores"
+    }
+  },
+  "rich-text#walmart-te-escucha-ganadores-enero": {
+    "props": {
+      "text": "- Priscilla Cubillo Pérez\n- Franciny Fallas Vargas\n- Israel León\n- Iván Víquez",
+      "blockClass": "titulo-pag-walmart-te-escucha-lst"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-ganadores-diciembre": {
+    "children": [
+      "rich-text#walmart-te-escucha-ganadores-diciembre-title",
+      "rich-text#walmart-te-escucha-ganadores-diciembre"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#walmart-te-escucha-ganadores-diciembre-title": {
+    "props": {
+      "text": "Ganadores Diciembre 2020",
+      "blockClass": "titulo-pag-walmart-te-escucha-ganadores"
+    }
+  },
+  "rich-text#walmart-te-escucha-ganadores-diciembre": {
+    "props": {
+      "text": "- María de los Ángeles Mora Medina\n- Juan francisco Alfaro alvarez\n- Sileny López Durán\n- Jose Angel Vega Cisneros",
+      "blockClass": "titulo-pag-walmart-te-escucha-lst"
+    }
+  },
+
+  "flex-layout.col#walmart-te-escucha-linea2": {
+    "children": [
+      "rich-text#walmart-te-escucha-terminos-condiciones",
+      "rich-text#walmart-te-escucha-linea3-title",
+      "flex-layout.col#walmart-te-escucha-preguntas"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "walmart-te-escucha-linea-footer"
+    }
+  },
+
+  "rich-text#walmart-te-escucha-terminos-condiciones": {
+    "props": {
+      "text": "<a target='_blank' href='https://wmcamcdn.com/walmart/pdf/Terminos_y_Condiciones-Encuestas.pdf'>Términos y condiciones Masxmenos te escucha</a>",
+      "blockClass": "titulo-walmart-te-escucha-terminos-condiciones"
+    }
+  },
+
+  "rich-text#walmart-te-escucha-linea3-title": {
+    "props": {
+      "text": "Preguntas frecuentes",
+      "blockClass": "titulo-walmart-te-escucha-preguntas"
+    }
+  },
+  "flex-layout.col#walmart-te-escucha-preguntas": {
+    "children": [
+      "disclosure-layout#walmart-te-escucha-pregunta1",
+      "disclosure-layout#walmart-te-escucha-pregunta2",
+      "disclosure-layout#walmart-te-escucha-pregunta3",
+      "disclosure-layout#walmart-te-escucha-pregunta4",
+      "disclosure-layout#walmart-te-escucha-pregunta5"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "walmart-te-escucha-pregunta"
+    }
+  },
+
+  "disclosure-layout#walmart-te-escucha-pregunta1": {
+    "children": [
+      "disclosure-trigger#walmart-te-escucha-pregunta1",
+      "disclosure-content#walmart-te-escucha-pregunta1"
+    ]
+  },
+  "disclosure-trigger#walmart-te-escucha-pregunta1": {
+    "children": ["rich-text#walmart-te-escucha-pregunta1-title"],
+    "props": {
+      "blockClass": "disclosure-trigger-walmart-te-escucha"
+    }
+  },
+  "disclosure-content#walmart-te-escucha-pregunta1": {
+    "children": ["rich-text#walmart-te-escucha-pregunta1-text"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta1-title": {
+    "props": {
+      "text": "¿Qué necesito para participar?",
+      "blockClass": "walmart-te-escucha-pregunta-title"
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta1-text": {
+    "props": {
+      "text": "Necesitás guardar tu factura para poder ingresar al sorteo. Debajo de tu ticket encontrarás un código único que necesitarás para participar en el sorteo.",
+      "blockClass": "walmart-te-escucha-respuesta"
+    }
+  },
+
+  "disclosure-layout#walmart-te-escucha-pregunta2": {
+    "children": [
+      "disclosure-trigger#walmart-te-escucha-pregunta2",
+      "disclosure-content#walmart-te-escucha-pregunta2"
+    ]
+  },
+  "disclosure-trigger#walmart-te-escucha-pregunta2": {
+    "children": ["rich-text#walmart-te-escucha-pregunta2-title"],
+    "props": {
+      "blockClass": "disclosure-trigger-walmart-te-escucha"
+    }
+  },
+  "disclosure-content#walmart-te-escucha-pregunta2": {
+    "children": ["rich-text#walmart-te-escucha-pregunta2-text"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta2-title": {
+    "props": {
+      "text": "¿Cuántas veces puedo participar?",
+      "blockClass": "walmart-te-escucha-pregunta-title"
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta2-text": {
+    "props": {
+      "text": "Tu ticket de compra es válido para participar sólo una vez.",
+      "blockClass": "walmart-te-escucha-respuesta"
+    }
+  },
+
+  "disclosure-layout#walmart-te-escucha-pregunta3": {
+    "children": [
+      "disclosure-trigger#walmart-te-escucha-pregunta3",
+      "disclosure-content#walmart-te-escucha-pregunta3"
+    ]
+  },
+  "disclosure-trigger#walmart-te-escucha-pregunta3": {
+    "children": ["rich-text#walmart-te-escucha-pregunta3-title"],
+    "props": {
+      "blockClass": "disclosure-trigger-walmart-te-escucha"
+    }
+  },
+  "disclosure-content#walmart-te-escucha-pregunta3": {
+    "children": ["rich-text#walmart-te-escucha-pregunta3-text"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta3-title": {
+    "props": {
+      "text": "¿Con que frecuencia se hacen los sorteos?",
+      "blockClass": "walmart-te-escucha-pregunta-title"
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta3-text": {
+    "props": {
+      "text": "Los sorteos se realizan 1 vez al mes.",
+      "blockClass": "walmart-te-escucha-respuesta"
+    }
+  },
+
+  "disclosure-layout#walmart-te-escucha-pregunta4": {
+    "children": [
+      "disclosure-trigger#walmart-te-escucha-pregunta4",
+      "disclosure-content#walmart-te-escucha-pregunta4"
+    ]
+  },
+  "disclosure-trigger#walmart-te-escucha-pregunta4": {
+    "children": ["rich-text#walmart-te-escucha-pregunta4-title"],
+    "props": {
+      "blockClass": "disclosure-trigger-walmart-te-escucha"
+    }
+  },
+  "disclosure-content#walmart-te-escucha-pregunta4": {
+    "children": ["rich-text#walmart-te-escucha-pregunta4-text"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta4-title": {
+    "props": {
+      "text": "¿Cuánto tiempo vale mi ticket para participar?",
+      "blockClass": "walmart-te-escucha-pregunta-title"
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta4-text": {
+    "props": {
+      "text": "Tu ticket es válido por 7 días para poder ingresar al sorteo.",
+      "blockClass": "walmart-te-escucha-respuesta"
+    }
+  },
+
+  "disclosure-layout#walmart-te-escucha-pregunta5": {
+    "children": [
+      "disclosure-trigger#walmart-te-escucha-pregunta5",
+      "disclosure-content#walmart-te-escucha-pregunta5"
+    ]
+  },
+  "disclosure-trigger#walmart-te-escucha-pregunta5": {
+    "children": ["rich-text#walmart-te-escucha-pregunta5-title"],
+    "props": {
+      "blockClass": "disclosure-trigger-walmart-te-escucha"
+    }
+  },
+  "disclosure-content#walmart-te-escucha-pregunta5": {
+    "children": ["rich-text#walmart-te-escucha-pregunta5-text"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta5-title": {
+    "props": {
+      "text": "¿En dónde puedo ver a los ganadores?",
+      "blockClass": "walmart-te-escucha-pregunta-title"
+    }
+  },
+  "rich-text#walmart-te-escucha-pregunta5-text": {
+    "props": {
+      "text": "Podés ver a los ganadores del mes <a target='_blank' class='textoazul' href='https://ganadores.33mkt.com/'>ganadores.33mkt.com</a>",
+      "blockClass": "walmart-te-escucha-respuesta"
+    }
+  }
+}

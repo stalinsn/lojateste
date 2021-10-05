@@ -1,23 +1,74 @@
 @import "./references";
-
+.menuContainer--category-menu-desk {
+  justify-content: space-between;
+  align-items: center;
+}
 //FOOTER
 .menuContainerNav--footer-top {
   margin-top: 19px;
 }
-
+.menuItem--menu-item-2 {
+  display: none;
+}
+.accordionIcon--e-shopping-menu-item-common-questions {
+  font-size: 0;
+  &::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: url(/arquivos/plusicon.svg);
+  }
+  &--isOpen {
+    &::after {
+      content: '';
+      width: 12px;
+      height: 2px;
+      position: relative;
+      top: 5px;
+      display: block;
+      background: url(/arquivos/lessicon.svg);
+    }
+  }
+}
+.menuItem--e-shopping-menu-item-common-questions {
+  margin: 10px 0;
+  padding: 10px 0;
+  border: 1px solid #EEEEEE;
+  background: #fafafafa;  
+  .styledLinkContent--e-shopping-menu-item-common-questions {
+    color: #ED1D25;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: normal;
+  }
+  &--isOpen {
+    .styledLinkContent--e-shopping-menu-item-common-questions {
+      color: #525252;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+.styledLinkContent--text-e-shopping-description{
+  white-space: normal;
+}
+.styledLinkContainer--text-e-shopping-description {
+  margin: 1rem;
+}
 .menuContainerNav--footer {
   .styledLinkContainer {
-    margin: 0;
+    margin: 0; 
 
     .styledLinkContent {
       font-size: 14px;
       line-height: 18px;
       color: #fefefe;
-      -webkit-transition: .5s all;
-         -moz-transition: .5s all;
-          -ms-transition: .5s all;
-           -o-transition: .5s all;
-              transition: .5s all;
+      -webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -ms-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      transition: 0.5s all;
 
       &:hover {
         color: #fff;
@@ -222,7 +273,7 @@
           .styledLinkContent:first-child {
             &::after {
               content: "";
-              background: url(assets/arrow-right.svg) no-repeat !important;
+              background: url(/arquivos/arrow-right.svg) no-repeat !important;
               background-size: 7px 10px !important;
               background-position: -1px 0px !important;
               width: 5px !important;
@@ -246,39 +297,32 @@
       .styledLinkContent--menu-item-clube {
         font-weight: bold;
         padding: 0.5em 23px 0.5em 1em;
-
       }
     }
 
     .styledLinkContainer--menu-item-faqs {
       padding: 0.5em 0;
       margin-left: 0.5em !important;
+      color: #ed1d25;
+      font-weight: bold;
 
       .styledLinkContent--menu-item-faqs {
-        font-weight: 600;
-        padding: 0.5em 23px 0.5em 1em;
-
-        @media screen and (max-width: em(1413px)) {
-          padding: .5em 17px .5em 17px;
-        }
-        @media screen and (max-width: em(1325px)) {
-          padding: .5em 15px .5em 14px;
-        }
-
-        @media screen and (max-width: em(1279px)) {
-          padding: .5em 12px .5em 12px;
-        }
+        color: #ed1d25;
+        font-weight: bold;
+        padding: 0;
+        margin-left: 42px;
+        font-size: 13px !important;
 
         &:hover {
-          color: $primary;
+          color: #fdbb30;
         }
       }
     }
 
     .styledLinkContent {
       font-size: 14px;
-      color: #0075C9;
-      font-family: GothamBook;
+      color: #ed1d25;
+      font-family: OpenSans;
     }
   }
 
@@ -326,12 +370,11 @@
   overflow-y: auto;
 }
 
-:global(.vtex-minicart-2-x-drawerContent){
+:global(.vtex-minicart-2-x-drawerContent) {
   overflow-y: unset !important;
 }
 
 :global(.vtex-store-drawer-0-x-drawerContent) {
-
   .styledLinkContainer--title-ver-todos {
     :first-child {
       font-weight: bold;
@@ -421,7 +464,7 @@
       display: block;
       width: 20px;
       height: 23px;
-      background: url(assets/arrow-down-new.svg) no-repeat 50%;
+      background: url(/arquivos/arrow-down-new.svg) no-repeat 50%;
       background-size: 14px 23px !important;
     }
   }
@@ -432,7 +475,7 @@
       display: block;
       width: 20px;
       height: 23px;
-      background: url(assets/arrow-up-new.svg) no-repeat 50%;
+      background: url(/arquivos/arrow-up-new.svg) no-repeat 50%;
       background-size: 14px 23px !important;
     }
   }
@@ -448,7 +491,7 @@
       display: block;
       width: 20px;
       height: 23px;
-      background: url(assets/arrow-down-new.svg) no-repeat 50%;
+      background: url(/arquivos/arrow-down-new.svg) no-repeat 50%;
       background-size: 14px 23px !important;
     }
   }
@@ -459,7 +502,7 @@
       display: block;
       width: 20px;
       height: 23px;
-      background: url(assets/arrow-up-new.svg) no-repeat 50%;
+      background: url(/arquivos/arrow-up-new.svg) no-repeat 50%;
       background-size: 14px 23px !important;
     }
   }
@@ -486,7 +529,7 @@
 }
 
 .styledLink--filter-item {
-  color: #0075C9;
+  color: #ed1d25;
   font-weight: 600;
   font-size: 16px;
 }
@@ -525,15 +568,15 @@
 }
 
 .styledLinkContainer--marker {
-  &::before{
+  &::before {
     content: "";
-    background: url(assets/icon_location.svg) no-repeat;
+    background: url(/arquivos/icon_location.svg) no-repeat;
     width: 22px;
     height: 22px;
     display: block;
     margin-left: -10px;
     margin-top: 1px;
-    background-size: 22px 27px!important;
+    background-size: 22px 27px !important;
     position: absolute;
   }
 }
@@ -567,20 +610,21 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--title-to-circle-categories) {
-      text-align: center;
-      justify-content: center;
-      margin-top: -20px;
+  display: none;
+  text-align: center;
+  justify-content: center;
+  margin-top: -20px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--subtitle-footer) {
-  &:hover{
+  &:hover {
     text-decoration: none !important;
   }
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--read-only) {
   cursor: default;
-  &:hover{
-    text-decoration: none!important;
+  &:hover {
+    text-decoration: none !important;
   }
 }

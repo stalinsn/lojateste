@@ -1,5 +1,7 @@
 @import "./references";
-
+.searchIcon--search-main {
+  display: none;
+}
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
@@ -8,37 +10,12 @@
   text-decoration: underline;
 }
 
-:global(.vtex-search-1-x-biggy-autocomplete-wrapper),
-:global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
-  width: 50vw;
-  :global(.vtex-search-1-x-biggy-autocomplete),
-  :global(.vtex-search-2-x-biggy-autocomplete){
-    left: 0;
-    @media screen and (min-width: em(1301px)){
-      left: 18rem;
-      top: 1px;
-    }
-    @media screen and (min-width: em(1025px)) and (max-width: em(1300px)) {
-      left: 15rem;
-      top: 1px;
-
-    }
-  }
-  @media screen and (max-width: em(1024px)) {
-    width: 75vw;
-  }
-  @media screen and (max-width: em(769px)) {
-    width: 95vw;
-  }
-}
-
 .searchBarContainer {
   width: 580px;
-  padding: 0!important;
+  padding: 0 !important;
   align-items: center;
   display: flex;
   margin: 0 auto;
-  margin-left: 26px;
 
   @media screen and (max-width: em(1325px)) {
     width: 560px;
@@ -68,11 +45,12 @@
   :global(.vtex-input-prefix__group) {
     border: none;
   }
-  :first-child {
+  :global(.vtex-styleguide-9-x-input) {
     margin-top: 0px;
+    width: 100%;
+    height: 40px;
     //border: 0;
   }
-
 }
 
 :global(.vtex-styleguide-9-x-input) {
@@ -135,17 +113,15 @@
   text-align: center;
 }
 
-
-
 .logoImage {
-  max-width: 160px;
-  height: 37px;
+  max-width: 120px;
 
   @media (max-width: em(1024px)) {
     min-width: 130px;
     max-width: 140px;
     margin-left: -40px;
     height: 32px;
+    margin: 0;
   }
 }
 
@@ -191,12 +167,12 @@
       margin-right: 0;
       .figure {
         padding: 2px;
-        border: 1px solid #e8e8e8;
+        border: none;
         border-radius: 5px;
         overflow: hidden;
         display: flex;
         align-items: center;
-        background: #f5f5f5;
+        background: transparent;
         .thumbImg {
           mix-blend-mode: darken;
         }
@@ -204,7 +180,7 @@
     }
     .productImagesThumbActive {
       .figure {
-        border: 1px solid #666;
+        border: none;
       }
     }
   }
@@ -270,7 +246,10 @@
 .skuSelectorOptionsList {
   margin: 0;
 }
-
+.price_sellingPrice--summary {
+  padding: 0;
+  font-size: 24px;
+}
 .subscriberContainer {
   :global(.vtex-styleguide-9-x-input) {
     border: 1px solid #e3e4e6;
@@ -304,26 +283,38 @@
 }
 .skuSelectorItem {
   .skuSelectorInternalBox {
-    border-radius: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
   }
   .diagonalCross {
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #f3f1f1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
   }
 }
 .skuSelectorItem--selected {
   .frameAround {
-    background: $primary;
+    background: #f4f4f4;
+    // border: 2px solid #ed1d25;
     box-shadow: none;
-    border: 0;
     bottom: 0;
     left: 0;
     right: 0;
     top: 0;
-    border-radius: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
   }
-  .skuSelectorItemTextValue {
-    color: #fff;
+  .skuSelectorInternalBox {
+    border: 2px solid #ed1d25;
   }
 }
 .skuSelectorSubcontainer--talla {
@@ -347,7 +338,6 @@
   position: relative;
   background-color: #262626;
 }
-
 
 :global(.vtex-logout-button) {
   @media screen and (max-width: em(1024px)) {
@@ -426,10 +416,10 @@
 }
 
 :global(.vtex-disponibilidad) {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.33;
-    text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.33;
+  text-decoration: none;
 }
 
 :global(.vtex-disponible-bp) {
@@ -443,7 +433,7 @@
   font-size: 13px;
 }
 
-:global(.vtex-zona){
+:global(.vtex-zona) {
   color: #666666;
   font-size: 13px;
 }
@@ -453,9 +443,8 @@
   color: #333333;
 }
 
-
 :global(.vtex-store-form-0-x-formSubmitButton) {
-  :global(.vtex-button){
+  :global(.vtex-button) {
     width: 100%;
     margin-top: 15px;
     font-size: 1.25rem;
@@ -513,78 +502,84 @@
 
 //rojo
 :global(.vtex-promotion-active-1) {
-  background-image: linear-gradient(rgb(251, 46, 19), rgb(185, 25, 5)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  background-image: linear-gradient(rgb(251, 46, 19), rgb(185, 25, 5)),
+    linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
   box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px 0px;
 
   :global(.vtex-body-promotion) {
     color: #fff;
   }
-  :global(.vtex-body-promotion-percent){
+  :global(.vtex-body-promotion-percent) {
     color: #fff;
   }
 }
 
 //verde
 :global(.vtex-promotion-active-2) {
-  background-image: linear-gradient(rgb(107, 151, 138), rgb(0, 102, 72)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  background-image: linear-gradient(rgb(107, 151, 138), rgb(0, 102, 72)),
+    linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
   box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px 0px;
 
   :global(.vtex-body-promotion) {
     color: #fff;
   }
-  :global(.vtex-body-promotion-percent){
+  :global(.vtex-body-promotion-percent) {
     color: #fff;
   }
 }
 
 //gris
 :global(.vtex-promotion-active-3) {
-  background-image: linear-gradient(rgb(165, 165, 165), rgb(102, 102, 102)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  background-image: linear-gradient(rgb(165, 165, 165), rgb(102, 102, 102)),
+    linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
   box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px 0px;
 
   :global(.vtex-body-promotion) {
     color: #fff;
   }
-  :global(.vtex-body-promotion-percent){
+  :global(.vtex-body-promotion-percent) {
     color: #fff;
   }
 }
 
 //PAYPAL
 :global(.vtex-promotion-active-4) {
-  background-image: linear-gradient(rgb(0, 163, 218), rgb(5, 173, 229)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  background-image: linear-gradient(rgb(0, 163, 218), rgb(5, 173, 229)),
+    linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
   box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px 0px;
 
   :global(.vtex-body-promotion) {
     color: #fff;
   }
-  :global(.vtex-body-promotion-percent){
+  :global(.vtex-body-promotion-percent) {
     color: #fff;
   }
 }
 
 //bbva italika
 :global(.vtex-promotion-active-5) {
-  background-image: linear-gradient(rgb(0, 156, 222), rgb(0, 48, 135)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  background-image: linear-gradient(rgb(0, 156, 222), rgb(0, 48, 135)),
+    linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
   box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px 0px;
 
   :global(.vtex-body-promotion) {
     color: #fff;
   }
-  :global(.vtex-body-promotion-percent){
+  :global(.vtex-body-promotion-percent) {
     color: #fff;
   }
 }
 
 //bancos participantes
 :global(.vtex-promotion-active-6) {
-  background-image: linear-gradient(rgb(1, 60, 131), rgb(20, 20, 30)), linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  background-image: linear-gradient(rgb(1, 60, 131), rgb(20, 20, 30)),
+    linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
   box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px 0px;
 
   :global(.vtex-body-promotion) {
     color: #fff;
   }
-  :global(.vtex-body-promotion-percent){
+  :global(.vtex-body-promotion-percent) {
     color: #fff;
   }
 }
@@ -597,7 +592,7 @@
   :global(.vtex-body-promotion) {
     color: #fff;
   }
-  :global(.vtex-body-promotion-percent){
+  :global(.vtex-body-promotion-percent) {
     color: #fff;
   }
 }
@@ -690,7 +685,7 @@
   }
 
   :global(.vtex-product-summary-2-x-containerNormal) {
-    border-radius: 0!important;
+    border-radius: 0 !important;
     background-color: #fff;
     padding: 0px;
     box-shadow: none;
@@ -718,7 +713,7 @@
 
   :global(.vtex-product-summary-2-x-price_listPrice) {
     font-size: 14px !important;
-    &::before{
+    &::before {
       content: "De: ";
     }
   }
@@ -727,7 +722,7 @@
     color: #000 !important;
     font-weight: bold;
     font-size: 18px !important;
-    &::before{
+    &::before {
       content: "A: ";
     }
   }
@@ -761,8 +756,8 @@
 }
 
 :global(.vtex-express-promotion-0-x-closeButton) {
-  :global(.vtex-button){
-    &:hover{
+  :global(.vtex-button) {
+    &:hover {
       background-color: #000 !important;
     }
   }
@@ -792,7 +787,7 @@
 }
 
 :global(.vtex-store-components-3-x-imageElementLink--carousel-text) {
-  color: #0075C9;
+  color: #ed1d25;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
@@ -819,10 +814,13 @@
 }*/
 
 :global(.vtex-store-components-3-x-logoImage--icon-head) {
-  width: 20px;
+  width: 24px;
+  opacity: 0.5;
   margin-top: 6px;
   margin-right: 4px;
   height: 28px;
+  position: relative;
+  top: 8px;
 }
 
 :global(.vtex-store-components-3-x-searchIcon--search-mobile-walmart) {
@@ -838,31 +836,53 @@
 }
 
 :global(.vtex-store-components-3-x-newsletter) {
-  :global(.vtex-store-components-3-x-container){
+  :global(.vtex-store-components-3-x-container) {
     margin-left: 20px;
-  }
-
-}
-
-
-:global(.vtex-store-components-3-x-autoCompleteOuterContainer--search-mobile-walmart) {
-  @media screen and (max-width: em(1024px)) {
-    border: 2px solid #52525226 !important;
-    margin-top: 5px !important;
-    border-radius: 5px;
-    box-shadow: 0 3px 8px 0 rgb(135 139 169 / 20%);
-    :global(.vtex-styleguide-9-x-input){
-      background-color: #fafafa;
-    }
   }
 }
 
 :global(.vtex-store-components-3-x-searchBarIcon--search-mobile-walmart--search) {
   @media screen and (max-width: em(1024px)) {
-    background-color: #fafafa;
+    background-color: #fff;
   }
 }
-
+.productImagesGallerySwiperContainer {
+  .swiperCaretNext {
+    .caretIcon {
+      color: #898989;
+      background: #ffffff80;
+      box-shadow: 0px 3px 6px #0000001a;
+      padding: 8px 5px 8px 11px;
+      cursor: pointer;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+  .swiperCaretPrev {
+    .caretIcon {
+      color: #898989;
+      background: #ffffff80;
+      box-shadow: 0px 3px 6px #0000001a;
+      padding: 8px 9px 8px 7px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+  }
+}
+.productImagesContainer--carousel {
+  .caretIcon {
+    color: #898989;
+    background: #ffffff80;
+    box-shadow: 0px 3px 6px #0000001a;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+}
 :global(.vtex-subcategory-lv2) {
   box-shadow: 0px 3px 6px #0000000d;
   border-radius: 5px;
@@ -925,20 +945,20 @@
 }
 
 :global(.vtex-store-components-3-x-listPriceValue) {
-  :global(.vtex-product-summary-2-x-currencyContainer){
+  :global(.vtex-product-summary-2-x-currencyContainer) {
     font-size: 14px;
     color: #898989;
   }
 }
 
-:global(.vtex-add-to-cart-button-0-x-buttonText ){
+:global(.vtex-add-to-cart-button-0-x-buttonText) {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 :global(.vtex-store-components-3-x-content) {
-    z-index: 0;
+  z-index: 0;
 }
 
 //css pagina principal financieros
@@ -949,24 +969,24 @@
 :global(.vtex-minicart-totalizer) {
   display: flex;
   align-items: center;
-  color:#F7F7F7;
+  color: #f7f7f7;
   font-size: 14px;
   font-weight: 600;
 }
 
 //css pagina de pago de servicios institucional
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
   .imageElement--banner-institucional {
     width: 1366px !important;
     height: 320px !important;
-    }
+  }
 }
 
 :global(.vtex-minicart-custom-title) {
   color: #525252;
   font-size: 14px;
   font-weight: 600;
-  font-family: GothamBook;
+  font-family: OpenSans;
 }
 
 :global(.vtex-minicart-custom-img) {
@@ -986,21 +1006,21 @@
 }
 
 :global(.vtex-globalPromo-2) {
-  color: #F51B1B;
+  color: #f51b1b;
   font-weight: bolder;
   font-size: 16px;
   text-align: left;
-  padding-left: .25rem;
-  padding-right: .25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
-:global(.vtex-globalPromo-3){
-  color: #F51B1B;
+:global(.vtex-globalPromo-3) {
+  color: #f51b1b;
   font-weight: bold;
   font-size: 18px;
   text-align: left;
-  padding-left: .25rem;
-  padding-right: .25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 :global(.vtex-store-components-3-x-logoImage--parrilleros-img) {
@@ -1017,8 +1037,8 @@
 
 :global(.vtex-store-components-3-x-logoContainer--parrilleros-img) {
   @media screen and (max-width: em(1024px)) {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
     display: flex;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -1072,27 +1092,30 @@
   height: auto;
 }
 
-@media screen and (max-width: 64em){
+@media screen and (max-width: 64em) {
   :global(.vtex-store-components-3-x-logoImage) {
     width: 100%;
-    max-width: 100%;
+    max-width: 64px;
     height: auto;
     border-radius: 0px !important;
     margin-left: 0px;
     margin-top: 16px;
     margin-bottom: 16px;
+    min-width: auto;
   }
 }
 
 :global(.vtex-add-to-car) {
-  :global(.vtex-button){
-    background-color: #1a75cf!important;
+  :global(.vtex-button) {
+    background-color: #ed1d25 !important;
     color: #fff !important;
+    border-color: #ed1d25 !important;
+    margin-top: 12px;
   }
 }
 
 :global(.vtex-store-components-3-x-carouselContainer) {
-  @media screen and (max-width: em(1024px)){
+  @media screen and (max-width: em(1024px)) {
     justify-content: center !important;
   }
 }
@@ -1123,7 +1146,7 @@
   opacity: 1;
 }
 
-@media(max-width:480px){
+@media (max-width: 480px) {
   .logoContainer--logo-sub-mundo-bebe {
     padding: 0px;
   }
@@ -1153,7 +1176,7 @@
   height: 250px;
 }
 
-@media(min-width:1025px) {
+@media (min-width: 1025px) {
   .logoImage--imagen-reglamento-bicicletas {
     width: auto;
     height: auto;

@@ -1,6 +1,6 @@
 {
   "name": "checkout-ui-settings",
-  "vendor": "supermxmcr",
+  "vendor": "gbarbosa",
   "version": "0.2.42",
   "title": "Checkout UI Settings",
   "description": "Declare custom settings to be used by checkout ui",

@@ -5,7 +5,7 @@
 
   .searchNotFoundOops,
   .searchNotFoundWhatDoIDo {
-    color: #7E1F25;
+    color: #525252;
     text-align: center;
   }
 
@@ -14,16 +14,137 @@
     text-align: center;
   }
 }
-
-.galleryTitle--layout {
+.orderBy--layout {
+  width: 216px;
+  max-width: none;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+.orderByText {
   display: none;
+}
+.orderByOptionsContainer {
+  @media screen and (max-width: 768px) {
+    top: -356px;
+    box-shadow: none;
+    border: none;
+  }
+}
+.orderByButton {
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  height: 32px;
+  padding-left: 16px;
+  background: #f4f4f4;
+  @media screen and (max-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: none;
+    background: none;
+    padding-left: 0;
+
+    height: auto;
+  }
+}
+.galleryItem--normal {
+  :global(.vtex-product-summary-2-x-element) {
+    @media screen and (max-width: 768px) {
+      height: 350px;
+      max-width: 170px;
+    }
+  }
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    @media screen and (max-width: 768px) {
+      max-width: 170px !important;
+    }
+  }
+}
+.filterPopupArrowIcon {
+  display: flex;
+  height: 30px;
+  background: #ed1d25;
+  border-radius: 0 4px 4px 0;
+  align-items: center;
+  color: #fff;
+  @media screen and (max-width: 768px) {
+    height: auto;
+    background: none;
+    color: #525252;
+  }
+}
+.orderByDropdown {
+  padding: 0;
+}
+.filterPopupTitle {
+  font-size: 14px;
+  color: #525252;
+  text-transform: initial;
+}
+.showingProducts {
+  font-size: 16px;
+  color: #525252;
+  font-weight: bold;
+}
+.showingProducts {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
+}
+.galleryTitle--layout {
+  padding: 0 4rem;
+  margin: 0;
+  font-size: 26px;
+  color: #525252;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    font-size: 18px;
+  }
+}
+.gallery--alternative {
+  :global(.vtex-product-summary-2-x-containerNormal) {
+    max-width: none !important;
+  }
+}
+.galleryLayoutSwitcher {
+  min-width: 70px;
+  width: 100%;
+  max-width: 80px;
+  justify-content: space-around;
+  .galleryLayoutOptionButton {
+    padding: 0;
+    :global(.vtex-store-components-3-x-imageElement--unactive-grid),
+    :global(.vtex-store-components-3-x-imageElement--unactive-list) {
+      display: block;
+    }
+    :global(.vtex-store-components-3-x-imageElement--active-grid),
+    :global(.vtex-store-components-3-x-imageElement--active-list) {
+      display: none;
+    }
+    &--selected {
+      :global(.vtex-store-components-3-x-imageElement--unactive-grid),
+      :global(.vtex-store-components-3-x-imageElement--unactive-list) {
+        display: none;
+      }
+      :global(.vtex-store-components-3-x-imageElement--active-grid),
+      :global(.vtex-store-components-3-x-imageElement--active-list) {
+        display: block;
+      }
+    }
+  }
 }
 
 .filterTitle {
-  font-size: 1rem;
+  font-size: 18px;
   text-decoration: none;
   margin-bottom: 10px;
-  color: #3f3f40;
+  color: #525252;
+  font-weight: bold;
 }
 
 .filterMessage {
@@ -46,7 +167,7 @@
 
 .filterIcon {
   .caretIcon {
-    color: #7E1F25;
+    color: #525252;
   }
 }
 
@@ -61,10 +182,10 @@
 }
 
 .galleryItem {
-  padding: .1em;
+  padding: 0.1em;
   margin-bottom: 1.5em;
   @media screen and (max-width: em(768px)) {
-    margin-bottom: .75em;
+    margin-bottom: 0.75em;
   }
   :global(.vtex-product-summary-2-x-element) {
     :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
@@ -107,12 +228,11 @@
       font-size: 12px;
       color: #525252;
       display: -webkit-box;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
     }
-
   }
 
   :global(.vtex-store-components-3-x-productBrandContainer) {
@@ -122,6 +242,10 @@
 
 .buttonShowMore {
   margin: 1em 0;
+  justify-content: flex-end;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .buttonShowMore--layout {
@@ -170,7 +294,7 @@
 
 .filterClearButtonWrapper {
   :global(.vtex-button) {
-    background: #F6F6F6 !important;
+    background: #f6f6f6 !important;
     color: #3f3f40;
   }
 }
@@ -197,16 +321,16 @@
 }
 
 .filterTemplateOverflow::-webkit-scrollbar-track {
-  background-color: #f4f4f4
+  background-color: #f4f4f4;
 }
 
 .filterTemplateOverflow::-webkit-scrollbar {
   width: 6px;
-  background: #f4f4f4
+  background: #f4f4f4;
 }
 
 .filterTemplateOverflow::-webkit-scrollbar-thumb {
-  background: #0075C9;
+  background: #ed1d25;
 }
 
 .filter__container--category-4 {
@@ -242,48 +366,44 @@
     .filterTitle {
       font-size: 0 !important;
       &::before {
-       content: "Vendido por";
-       font-size: 1rem !important;
+        content: "Vendido por";
+        font-size: 1rem !important;
       }
     }
   }
 }
-.accordionFilterContainer--sellername{
+.accordionFilterContainer--sellername {
   .filterAccordionItemBox--sellername {
     .accordionFilterContent {
       .accordionFilterItemTitle {
         font-size: 0 !important;
         &::before {
-        content: "Vendido por";
-        font-size: 14px !important;
+          content: "Vendido por";
+          font-size: 14px !important;
         }
       }
     }
   }
 }
-:global(.vtex-search-result-3-x-searchResultContainer){
-  :global(.vtex-flex-layout-0-x-flexRow--conteudo){
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  :global(.vtex-flex-layout-0-x-flexRow--conteudo) {
     margin-left: 2rem;
     margin-bottom: 2rem;
   }
-  :global(.vtex-search-result-3-x-gallery){
-    :global(.vtex-search-result-3-x-galleryItem){
-      :global(.vtex-product-summary-2-x-container){
-        :global(.vtex-product-summary-2-x-clearLink){
-          :global(.vtex-product-summary-2-x-element){
-            :global(.vtex-product-summary-2-x-imageContainer){
-              max-height: 200px;
+  :global(.vtex-search-result-3-x-gallery) {
+    :global(.vtex-search-result-3-x-galleryItem) {
+      :global(.vtex-product-summary-2-x-container) {
+        :global(.vtex-product-summary-2-x-clearLink) {
+          :global(.vtex-product-summary-2-x-element) {
+            :global(.vtex-product-summary-2-x-imageContainer) {
               width: auto;
-              :global(.vtex-product-summary-2-x-imageNormal){
-                max-height: 200px !important;
-              }
             }
-            :global(.vtex-product-summary-2-x-nameContainer){
+            :global(.vtex-product-summary-2-x-nameContainer) {
               margin-top: 15px;
               height: auto;
               padding-bottom: 0;
-              :global(.vtex-product-summary-2-x-productBrand){
-                @media screen and (max-width: em(1024px)){
+              :global(.vtex-product-summary-2-x-productBrand) {
+                @media screen and (max-width: em(1024px)) {
                   height: 35px;
                 }
                 height: 47px;
@@ -296,5 +416,3 @@
     }
   }
 }
-
-

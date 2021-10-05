@@ -1,435 +1,471 @@
- /*
+/*
     To use the icons, just use @import icon_name; in any other file.
     The file that you'll use have to import this file _iconos.scss or _references.scss file.
 
     To define icon size as 20px for example, use @import icon_name(20px), have to be px;
  */
 
- $defaultBgWidth: 521px;
- $defaultBgHeight: 508px;
- $defaultBgSize: $defaultBgWidth $defaultBgHeight;
-
- @function getPercent($value, $newValue) {
-   @return $newValue*100/$value;
- }
-
- @function calcPercent($value, $percent) {
-   @return $value*$percent/100;
- }
-
- @mixin icon($width: "", $height: "", $percent: 100) {
-   $bgWidth: calcPercent($defaultBgWidth, $percent);
-   $bgHeight: calcPercent($defaultBgHeight, $percent);
-
-   width: $width;
-   height: $height;
-   background: url('assets/icon_user.svg');
-   background-size: $bgWidth $bgHeight;
- }
-
- @mixin arrow_down($setWidth: "") {
-   $defaultWidth: 28px;
-   $defaultHeight: 14px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-322px, $percent);
- }
-
- @mixin arrow_down_gray($setWidth: "") {
-   $defaultWidth: 28px;
-   $defaultHeight: 14px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-356px, $percent);
- }
-
- @mixin arrow_left($setWidth: "") {
-   $defaultWidth: 14px;
-   $defaultHeight: 28px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-390px, $percent);
- }
-
- @mixin arrow_left_gray($setWidth: "") {
-   $defaultWidth: 14px;
-   $defaultHeight: 28px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-297px, $percent) calcPercent(-224px, $percent);
- }
-
- @mixin arrow_right($setWidth: "") {
-   $defaultWidth: 14px;
-   $defaultHeight: 28px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-331px, $percent) calcPercent(-224px, $percent);
- }
-
- @mixin arrow_right_gray($setWidth: "") {
-   $defaultWidth: 14px;
-   $defaultHeight: 28px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-72px, $percent) calcPercent(-464px, $percent);
- }
-
- @mixin arrow_up($setWidth: "") {
-   $defaultWidth: 28px;
-   $defaultHeight: 14px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-164px, $percent) calcPercent(-410px, $percent);
- }
-
- @mixin arrow_up_gray($setWidth: "") {
-   $defaultWidth: 28px;
-   $defaultHeight: 14px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-212px, $percent) calcPercent(-410px, $percent);
- }
-
- @mixin callcenter_icon($setWidth: "") {
-   $defaultWidth: 88px;
-   $defaultHeight: 88px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-171px, $percent) calcPercent(-116px, $percent);
- }
-
- @mixin cart_icon($setWidth: "") {
-   $defaultWidth: 41px;
-   $defaultHeight: 41px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-323px, $percent) calcPercent(-345px, $percent);
- }
-
- @mixin cart_icon_red($setWidth: "") {
-   $defaultWidth: 41px;
-   $defaultHeight: 41px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-384px, $percent) calcPercent(-345px, $percent);
- }
-
- @mixin check_form_icon($setWidth: "") {
-   $defaultWidth: 44px;
-   $defaultHeight: 45px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-10px, $percent) calcPercent(-345px, $percent);
- }
-
- @mixin credsiman_logo($setWidth: "") {
-   $defaultWidth: 106px;
-   $defaultHeight: 32px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-171px, $percent) calcPercent(-224px, $percent);
- }
-
- @mixin dots_slider($setWidth: "") {
-   $defaultWidth: 29px;
-   $defaultHeight: 29px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-224px, $percent);
- }
-
- @mixin dots_slider_red($setWidth: "") {
-   $defaultWidth: 29px;
-   $defaultHeight: 29px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-273px, $percent);
- }
-
- @mixin facebook_icon($setWidth: "") {
-   $defaultWidth: 21px;
-   $defaultHeight: 39px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-165px, $percent);
- }
-
- @mixin filter_bars_icon($setWidth: "") {
-   $defaultWidth: 36px;
-   $defaultHeight: 27px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-69px, $percent);
- }
-
- @mixin heart_icon($setWidth: "") {
-   $defaultWidth: 32px;
-   $defaultHeight: 29px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-116px, $percent);
- }
-
- @mixin instagram_icon($setWidth: "") {
-   $defaultWidth: 39px;
-   $defaultHeight: 39px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-472px, $percent) calcPercent(-10px, $percent);
- }
-
- @mixin mastercard_logo($setWidth: "") {
-   $defaultWidth: 62px;
-   $defaultHeight: 51px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-374px, $percent) calcPercent(-200px, $percent);
- }
-
- @mixin menu_bars_icon($setWidth: "") {
-   $defaultWidth: 57px;
-   $defaultHeight: 42px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-296px, $percent) calcPercent(-277px, $percent);
- }
-
- @mixin norton_secured_icon($setWidth: "") {
-   $defaultWidth: 78px;
-   $defaultHeight: 78px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-374px, $percent) calcPercent(-10px, $percent);
- }
-
- @mixin phone_icon($setWidth: "") {
-   $defaultWidth: 50px;
-   $defaultHeight: 50px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-279px, $percent) calcPercent(-116px, $percent);
- }
-
- @mixin phone_icon_gray($setWidth: "") {
-   $defaultWidth: 42px;
-   $defaultHeight: 42px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-137px, $percent) calcPercent(-345px, $percent);
- }
-
- @mixin play_store($setWidth: "") {
-   $defaultWidth: 52px;
-   $defaultHeight: 52px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-374px, $percent) calcPercent(-271px, $percent);
- }
-
- @mixin search_icon($setWidth: "") {
-   $defaultWidth: 42px;
-   $defaultHeight: 42px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-199px, $percent) calcPercent(-345px, $percent);
- }
-
- @mixin search_icon_big($setWidth: "") {
-   $defaultWidth: 141px;
-   $defaultHeight: 141px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-10px, $percent) calcPercent(-116px, $percent);
- }
-
- @mixin siman_dot_com($setWidth: "") {
-   $defaultWidth: 344px;
-   $defaultHeight: 86px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-10px, $percent) calcPercent(-10px, $percent);
- }
-
- @mixin siman_logo_red($setWidth: "") {
-   $defaultWidth: 266px;
-   $defaultHeight: 48px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-10px, $percent) calcPercent(-277px, $percent);
- }
-
- @mixin trash_icon($setWidth: "") {
-   $defaultWidth: 42px;
-   $defaultHeight: 42px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-261px, $percent) calcPercent(-345px, $percent);
- }
-
- @mixin twitter_icon($setWidth: "") {
-   $defaultWidth: 42px;
-   $defaultHeight: 34px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-10px, $percent) calcPercent(-464px, $percent);
- }
-
- @mixin up_mark($setWidth: "") {
-   $defaultWidth: 54px;
-   $defaultHeight: 14px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-279px, $percent) calcPercent(-186px, $percent);
- }
-
- @mixin user_icon($setWidth: "") {
-   $defaultWidth: 43px;
-   $defaultHeight: 43px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-74px, $percent) calcPercent(-345px, $percent);
- }
-
- @mixin Visa_Logo($setWidth: "") {
-   $defaultWidth: 34px;
-   $defaultHeight: 10px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-260px, $percent) calcPercent(-410px, $percent);
- }
-
- @mixin visa_logo($setWidth: "") {
-   $defaultWidth: 67px;
-   $defaultHeight: 20px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-77px, $percent) calcPercent(-410px, $percent);
- }
-
- @mixin whatsapp_icon($setWidth: "") {
-   $defaultWidth: 72px;
-   $defaultHeight: 72px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-374px, $percent) calcPercent(-108px, $percent);
- }
-
- @mixin youtube_icon($setWidth: "") {
-   $defaultWidth: 47px;
-   $defaultHeight: 34px;
-   $percent: getPercent($defaultWidth, $setWidth);
-   $width: $setWidth;
-   $height: calcPercent($defaultHeight, $percent);
-
-   @include icon($width, $height, $percent);
-   background-position: calcPercent(-10px, $percent) calcPercent(-410px, $percent);
- }
+$defaultBgWidth: 521px;
+$defaultBgHeight: 508px;
+$defaultBgSize: $defaultBgWidth $defaultBgHeight;
+
+@function getPercent($value, $newValue) {
+  @return $newValue * 100 / $value;
+}
+
+@function calcPercent($value, $percent) {
+  @return $value * $percent/100;
+}
+
+@mixin icon($width: "", $height: "", $percent: 100) {
+  $bgWidth: calcPercent($defaultBgWidth, $percent);
+  $bgHeight: calcPercent($defaultBgHeight, $percent);
+
+  width: $width;
+  height: $height;
+  background: url("/arquivos/icon_user_header2.svg?v=1");
+  background-size: $bgWidth $bgHeight;
+}
+
+@mixin arrow_down($setWidth: "") {
+  $defaultWidth: 28px;
+  $defaultHeight: 14px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-322px, $percent);
+}
+
+@mixin arrow_down_gray($setWidth: "") {
+  $defaultWidth: 28px;
+  $defaultHeight: 14px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-356px, $percent);
+}
+
+@mixin arrow_left($setWidth: "") {
+  $defaultWidth: 14px;
+  $defaultHeight: 28px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-390px, $percent);
+}
+
+@mixin arrow_left_gray($setWidth: "") {
+  $defaultWidth: 14px;
+  $defaultHeight: 28px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-297px, $percent)
+    calcPercent(-224px, $percent);
+}
+
+@mixin arrow_right($setWidth: "") {
+  $defaultWidth: 14px;
+  $defaultHeight: 28px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-331px, $percent)
+    calcPercent(-224px, $percent);
+}
+
+@mixin arrow_right_gray($setWidth: "") {
+  $defaultWidth: 14px;
+  $defaultHeight: 28px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-72px, $percent)
+    calcPercent(-464px, $percent);
+}
+
+@mixin arrow_up($setWidth: "") {
+  $defaultWidth: 28px;
+  $defaultHeight: 14px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-164px, $percent)
+    calcPercent(-410px, $percent);
+}
+
+@mixin arrow_up_gray($setWidth: "") {
+  $defaultWidth: 28px;
+  $defaultHeight: 14px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-212px, $percent)
+    calcPercent(-410px, $percent);
+}
+
+@mixin callcenter_icon($setWidth: "") {
+  $defaultWidth: 88px;
+  $defaultHeight: 88px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-171px, $percent)
+    calcPercent(-116px, $percent);
+}
+
+@mixin cart_icon($setWidth: "") {
+  $defaultWidth: 41px;
+  $defaultHeight: 41px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-323px, $percent)
+    calcPercent(-345px, $percent);
+}
+
+@mixin cart_icon_red($setWidth: "") {
+  $defaultWidth: 41px;
+  $defaultHeight: 41px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-384px, $percent)
+    calcPercent(-345px, $percent);
+}
+
+@mixin check_form_icon($setWidth: "") {
+  $defaultWidth: 44px;
+  $defaultHeight: 45px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-10px, $percent)
+    calcPercent(-345px, $percent);
+}
+
+@mixin credsiman_logo($setWidth: "") {
+  $defaultWidth: 106px;
+  $defaultHeight: 32px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-171px, $percent)
+    calcPercent(-224px, $percent);
+}
+
+@mixin dots_slider($setWidth: "") {
+  $defaultWidth: 29px;
+  $defaultHeight: 29px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-224px, $percent);
+}
+
+@mixin dots_slider_red($setWidth: "") {
+  $defaultWidth: 29px;
+  $defaultHeight: 29px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-273px, $percent);
+}
+
+@mixin facebook_icon($setWidth: "") {
+  $defaultWidth: 21px;
+  $defaultHeight: 39px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-165px, $percent);
+}
+
+@mixin filter_bars_icon($setWidth: "") {
+  $defaultWidth: 36px;
+  $defaultHeight: 27px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-69px, $percent);
+}
+
+@mixin heart_icon($setWidth: "") {
+  $defaultWidth: 32px;
+  $defaultHeight: 29px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-116px, $percent);
+}
+
+@mixin instagram_icon($setWidth: "") {
+  $defaultWidth: 39px;
+  $defaultHeight: 39px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-472px, $percent)
+    calcPercent(-10px, $percent);
+}
+
+@mixin mastercard_logo($setWidth: "") {
+  $defaultWidth: 62px;
+  $defaultHeight: 51px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-374px, $percent)
+    calcPercent(-200px, $percent);
+}
+
+@mixin menu_bars_icon($setWidth: "") {
+  $defaultWidth: 57px;
+  $defaultHeight: 42px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-296px, $percent)
+    calcPercent(-277px, $percent);
+}
+
+@mixin norton_secured_icon($setWidth: "") {
+  $defaultWidth: 78px;
+  $defaultHeight: 78px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-374px, $percent)
+    calcPercent(-10px, $percent);
+}
+
+@mixin phone_icon($setWidth: "") {
+  $defaultWidth: 50px;
+  $defaultHeight: 50px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-279px, $percent)
+    calcPercent(-116px, $percent);
+}
+
+@mixin phone_icon_gray($setWidth: "") {
+  $defaultWidth: 42px;
+  $defaultHeight: 42px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-137px, $percent)
+    calcPercent(-345px, $percent);
+}
+
+@mixin play_store($setWidth: "") {
+  $defaultWidth: 52px;
+  $defaultHeight: 52px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-374px, $percent)
+    calcPercent(-271px, $percent);
+}
+
+@mixin search_icon($setWidth: "") {
+  $defaultWidth: 42px;
+  $defaultHeight: 42px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-199px, $percent)
+    calcPercent(-345px, $percent);
+}
+
+@mixin search_icon_big($setWidth: "") {
+  $defaultWidth: 141px;
+  $defaultHeight: 141px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-10px, $percent)
+    calcPercent(-116px, $percent);
+}
+
+@mixin siman_dot_com($setWidth: "") {
+  $defaultWidth: 344px;
+  $defaultHeight: 86px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-10px, $percent) calcPercent(-10px, $percent);
+}
+
+@mixin siman_logo_red($setWidth: "") {
+  $defaultWidth: 266px;
+  $defaultHeight: 48px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-10px, $percent)
+    calcPercent(-277px, $percent);
+}
+
+@mixin trash_icon($setWidth: "") {
+  $defaultWidth: 42px;
+  $defaultHeight: 42px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-261px, $percent)
+    calcPercent(-345px, $percent);
+}
+
+@mixin twitter_icon($setWidth: "") {
+  $defaultWidth: 42px;
+  $defaultHeight: 34px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-10px, $percent)
+    calcPercent(-464px, $percent);
+}
+
+@mixin up_mark($setWidth: "") {
+  $defaultWidth: 54px;
+  $defaultHeight: 14px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-279px, $percent)
+    calcPercent(-186px, $percent);
+}
+
+@mixin user_icon($setWidth: "") {
+  $defaultWidth: 43px;
+  $defaultHeight: 43px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-74px, $percent)
+    calcPercent(-345px, $percent);
+}
+
+@mixin Visa_Logo($setWidth: "") {
+  $defaultWidth: 34px;
+  $defaultHeight: 10px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-260px, $percent)
+    calcPercent(-410px, $percent);
+}
+
+@mixin visa_logo($setWidth: "") {
+  $defaultWidth: 67px;
+  $defaultHeight: 20px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-77px, $percent)
+    calcPercent(-410px, $percent);
+}
+
+@mixin whatsapp_icon($setWidth: "") {
+  $defaultWidth: 72px;
+  $defaultHeight: 72px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-374px, $percent)
+    calcPercent(-108px, $percent);
+}
+
+@mixin youtube_icon($setWidth: "") {
+  $defaultWidth: 47px;
+  $defaultHeight: 34px;
+  $percent: getPercent($defaultWidth, $setWidth);
+  $width: $setWidth;
+  $height: calcPercent($defaultHeight, $percent);
+
+  @include icon($width, $height, $percent);
+  background-position: calcPercent(-10px, $percent)
+    calcPercent(-410px, $percent);
+}

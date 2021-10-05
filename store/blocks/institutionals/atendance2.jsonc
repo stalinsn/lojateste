@@ -1,0 +1,221 @@
+{
+  "store.custom#atendance-group2": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": [
+      "responsive-layout.desktop#atendance2",
+      "responsive-layout.phone#atendance2"
+    ]
+  },
+  "responsive-layout.desktop#atendance2": {
+    "children": [
+      "flex-layout.row#atendance-group-main2",
+      "tab-layout#institutional-atendance2"
+    ]
+  },
+  "responsive-layout.phone#atendance2": {
+    "children": [
+      "flex-layout.row#atendance-group-main2",
+      "tab-layout#institutional-atendance2"
+    ]
+  },
+  "flex-layout.row#atendance-group-main2": {
+    "children": ["rich-text#title-atendance2", "image#arrow-banner-mobile"],
+    "props": {
+      "blockClass": "institutional-title-container"
+    }
+  },
+  "rich-text#title-atendance2": {
+    "props": {
+      "text": "Atendimento"
+    }
+  },
+  "tab-layout#institutional-atendance2": {
+    "children": [
+      "tab-list#institutional-atendance2",
+      "tab-content#institutional-atendance2"
+    ],
+    "props": {
+      "blockClass": "institutional",
+      "defaultActiveTabId": "hiring"
+    }
+  },
+  "tab-list#institutional-atendance2": {
+    "children": ["tab-list.item#hiring", "tab-list.item#form"],
+    "props": {
+      "blockClass": "institutional-list-content"
+    }
+  },
+  "tab-list.item#hiring": {
+    "props": {
+      "tabId": "hiring",
+      "label": "Trabalhe conosco",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#form": {
+    "props": {
+      "tabId": "form",
+      "label": "Fale Conosco"
+    }
+  },
+
+  "tab-content#institutional-atendance2": {
+    "children": ["tab-content.item#hiring", "tab-content.item#form"],
+    "props": {
+      "blockClass": "institutional-tab-content-container"
+    }
+  },
+  "tab-content.item#hiring": {
+    "children": ["flex-layout.row#hiring"],
+    "props": {
+      "tabId": "hiring",
+      "blockClass": ["hiring-tab-item-container", "institutional-container"]
+    }
+  },
+  "tab-content.item#form": {
+    "children": ["flex-layout.row#contact-form"],
+    "props": {
+      "tabId": "form",
+      "blockClass": ["faq-tab-item-container", "institutional-container"]
+    }
+  },
+  "flex-layout.row#contact-form": {
+    "children": ["form#contact-form"],
+    "props": {
+      "blockClass": "contact-form"
+    }
+  },
+  "form#contact-form": {
+    "props": {
+      "entity": "CT",
+      "schema": "default"
+    },
+    "children": [
+      "flex-layout.row#contact-form-row1",
+      "flex-layout.row#contact-form-row2",
+      "flex-layout.row#contact-form-row3",
+      "flex-layout.row#contact-form-row4",
+      "flex-layout.row#contact-form-row5"
+    ],
+    "blocks": ["form-success#success-2"]
+  },
+  "form-success#success-2": {
+    "children": ["rich-text#successSubmit1"]
+  },
+  "rich-text#successSubmit1": {
+    "props": {
+      "text": "Enviado com sucesso!"
+    }
+  },
+  "flex-layout.row#contact-form-row1": {
+    "children": ["form-input.text#email1"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#contact-form-row2": {
+    "children": ["form-input.text#firstName1", "form-input.text#lastName1"],
+    "props": {
+      "colGap": 5,
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#contact-form-row3": {
+    "children": ["form-input.text#phone1", "form-input.text#subject1"],
+    "props": {
+      "colGap": 5,
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#contact-form-row4": {
+    "children": ["form-input.textarea#message1"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#contact-form-row5": {
+    "children": ["form-submit#1"]
+  },
+  "form-input.text#firstName1": {
+    "props": {
+      "pointer": "#/properties/firstName"
+    }
+  },
+  "form-input.text#lastName1": {
+    "props": {
+      "pointer": "#/properties/lastName"
+    }
+  },
+  "form-input.text#email1": {
+    "props": {
+      "pointer": "#/properties/emailAddress"
+    }
+  },
+  "form-input.text#phone1": {
+    "props": {
+      "pointer": "#/properties/phone"
+    }
+  },
+  "form-input.text#subject1": {
+    "props": {
+      "pointer": "#/properties/subject"
+    }
+  },
+  "form-input.textarea#message1": {
+    "props": {
+      "pointer": "#/properties/message"
+    }
+  },
+  "form-submit#1": {
+    "props": {
+      "label": "Enviar"
+    }
+  },
+
+  "flex-layout.row#hiring": {
+    "children": ["flex-layout.col#hiring"]
+  },
+  "flex-layout.col#hiring": {
+    "children": [
+      "rich-text#hiring-title",
+      "rich-text#hiring-text",
+      "flex-layout.row#hirings-links"
+    ]
+  },
+  "rich-text#hiring-title": {
+    "props": {
+      "text": "### Trabalhe conosco"
+    }
+  },
+  "rich-text#hiring-text": {
+    "props": {
+      "text": "Para atingirmos nossa visão estratégica, buscamos sempre ter em nosso time pessoas bem preparadas e motivadas para assumir novos desafios e riscos, que gostem de servir com simplicidade e alegria, buscando sempre evoluir com ousadia. Envie seu currículo para a gente e para conferir as vagas abertas no momento, acesse nossa página Cencosud no LinkedIn. \n **Venha fazer parte do nosso time!**"
+    }
+  },
+  "flex-layout.row#hirings-links": {
+    "children": ["link#send-curr", "link#hiring-linkedin"],
+    "props": {
+      "colSizing": "auto",
+      "colGap": 5,
+      "horizontalAlign": "left",
+      "blockClass": "hiring-links",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#send-curr": {
+    "props": {
+      "label": "Enviar currículo",
+      "href": "https://eb.vagas.com.br/cencosudbrasil",
+      "blockClass": "send-curr"
+    }
+  },
+  "link#hiring-linkedin": {
+    "props": {
+      "label": "LinkedIn",
+      "href": "#",
+      "blockClass": "hiring-linkedin"
+    }
+  }
+}

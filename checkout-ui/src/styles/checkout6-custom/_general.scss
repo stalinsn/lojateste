@@ -18,7 +18,7 @@ body {
   margin: 0;
   width: 100%;
   overflow-x: hidden;
-  font-family: "GothamBook", "Bogle", "Montserrat", sans-serif !important;
+  font-family: "OpenSans", "Bogle", "Montserrat", sans-serif !important;
 }
 
 body,
@@ -658,7 +658,7 @@ body {
 /** HEADER **/
 header.header-wl .middle-bar {
   z-index: 99;
-  background: #0075C9;
+  background: #ed1d25;
   text-align: center;
   padding: 15px 0;
 }
@@ -744,7 +744,7 @@ header.header-wl .col-wl-brand-box img {
 
 #breadcrumb-line-cart .header-breadcrumb .header-breadcrumb-active {
   opacity: 1;
-  border-bottom: solid 2px #0075C9;
+  border-bottom: solid 2px #ed1d25;
 }
 
 #breadcrumb-line-cart
@@ -752,7 +752,7 @@ header.header-wl .col-wl-brand-box img {
   .header-breadcrumb-active
   span.bread-number-box {
   color: #ffffff;
-  background: #0075C9;
+  background: #ed1d25;
 }
 
 @media screen and (max-width: 992px) {
@@ -816,7 +816,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   right: 15px;
   z-index: 1000;
   cursor: pointer;
-  background-color: #0075C9;
+  background-color: #ed1d25;
   opacity: 0.8;
   padding: 10px;
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -910,7 +910,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   border: none;
   text-shadow: none;
   font-size: 14px;
-  background: #0075C9;
+  background: #ed1d25;
   letter-spacing: 1px;
   font-weight: 600;
   color: #fff;
@@ -1005,7 +1005,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   padding: 15px 0;
   border: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #525252;
   letter-spacing: 1px;
 }
@@ -1831,7 +1831,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   border: 0;
   font-size: 0;
   font-weight: 400;
-  color: #0075C9;
+  color: #ed1d25;
   display: block;
   text-align: initial;
   text-decoration: none !important;
@@ -2001,7 +2001,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   padding: 0 10px;
   margin: 0 !important;
   outline: 0;
-  background: #0075C9;
+  background: #ed1d25;
   height: 40px;
   border: 0;
   font-size: 0px;
@@ -2243,8 +2243,8 @@ footer.site-wl #footer-delivery ul #vtex .a {
   text-decoration: none !important;
   text-transform: capitalize;
   background: #fff;
-  color: #0075C9;
-  border: 1px solid #0075C9;
+  color: #ed1d25;
+  border: 1px solid #ed1d25;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -2299,7 +2299,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   text-align: center;
   text-decoration: none !important;
   text-transform: capitalize;
-  background: #0075C9;
+  background: #ed1d25;
   border: none;
   color: #fff;
   -webkit-border-radius: 4px;
@@ -2337,7 +2337,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   .clearfix.cart-links
   .btn-place-order-wrapper
   #cart-to-orderform:focus {
-  background: lighten(#0075C9, 10%);
+  background: lighten(#ed1d25, 10%);
 }
 /** BOTONES **/
 /** CAJA 2 **/
@@ -2453,7 +2453,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   p.link.link-cart.pull-right
   small
   a {
-  color: #0075C9;
+  color: #ed1d25;
   font-size: 14px;
   font-weight: 600;
 }
@@ -2638,7 +2638,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   right: 0;
   padding: 0 10px;
   outline: 0;
-  background: #0075C9;
+  background: #ed1d25;
   height: 45px;
   border: 0;
   font-size: 14px;
@@ -2690,7 +2690,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   fieldset.pre-email
   .client-email
   button#btn-client-pre-email:active {
-  background: lighten(#0075C9, 10%);
+  background: lighten(#ed1d25, 10%);
 }
 .body-order-form
   .container-order-form
@@ -2881,7 +2881,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   border-radius: 0 !important;
   background: transparent;
   border-color: initial;
-  color: #0075C9 !important;
+  color: #ed1d25 !important;
   font-size: 20px;
   opacity: 1;
   outline: 0 !important;
@@ -2898,7 +2898,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   .step.accordion-group.client-profile-data
   .accordion-toggle
   .link-box-edit:hover {
-  color: lighten(#0075C9, 10%) !important;
+  color: lighten(#ed1d25, 10%) !important;
 }
 
 .body-order-form
@@ -2932,7 +2932,7 @@ footer.site-wl #footer-delivery ul #vtex .a {
   .link-box-edit
   i.icon-edit:before {
   content: "\e61c";
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -3203,7 +3203,7 @@ p.ship-city,
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0px;
-  color: #0075C9;
+  color: #ed1d25;
   text-decoration: none !important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -3251,7 +3251,7 @@ p.ship-city,
   ul
   li
   a:active {
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -3351,7 +3351,7 @@ p.ship-city,
   .btn-submit-wrapper
   button.submit.btn.btn-large.btn-success {
   padding: 10px 35px;
-  background: #0075C9;
+  background: #ed1d25;
   height: 40px;
   border: 0;
   font-size: 0;
@@ -3445,7 +3445,7 @@ p.ship-city,
   form
   .btn-submit-wrapper
   button.submit.btn.btn-large.btn-success:active {
-  background: lighten(#0075C9, 10%);
+  background: lighten(#ed1d25, 10%);
 }
 /** IDENTIDAD **/
 
@@ -3492,7 +3492,7 @@ p.ship-city,
   border-radius: 0 !important;
   background: transparent;
   border-color: initial;
-  color: #0075C9 !important;
+  color: #ed1d25 !important;
   font-size: 20px;
   opacity: 1;
   outline: 0 !important;
@@ -3509,7 +3509,7 @@ p.ship-city,
   .step.accordion-group.shipping-data
   .accordion-toggle
   .link-box-edit:hover {
-  color: lighten(#0075C9, 10%) !important;
+  color: lighten(#ed1d25, 10%) !important;
 }
 
 .body-order-form
@@ -3530,7 +3530,7 @@ p.ship-city,
   font-weight: normal;
   text-decoration: none;
   text-transform: none;
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -3544,7 +3544,7 @@ p.ship-city,
   .link-box-edit
   i.icon-edit:before {
   content: "\e61c";
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -3711,8 +3711,8 @@ p.ship-city,
   div#postalCode-finished-loading
   .vtex-omnishipping-1-x-deliveryChannelsWrapper
   .vtex-omnishipping-1-x-deliveryChannelsToggle {
-  background: #0075C9 !important;
-  border: solid 1px #0075C9 !important;
+  background: #ed1d25 !important;
+  border: solid 1px #ed1d25 !important;
   box-shadow: none !important;
   height: calc(100% - 0px) !important;
   top: 0 !important;
@@ -3901,7 +3901,7 @@ p.ship-city,
   .vtex-omnishipping-1-x-addressItemOption
   svg.vtex-omnishipping-1-x-svg
   path {
-  fill: #0075C9;
+  fill: #ed1d25;
 }
 
 .body-order-form
@@ -3945,7 +3945,7 @@ p.ship-city,
   outline: 0;
   font-size: 16px;
   font-weight: 400;
-  color: #0075C9;
+  color: #ed1d25;
   display: block;
   width: 100%;
   margin: 20px 0;
@@ -4057,7 +4057,7 @@ p.ship-city,
   .vtex-omnishipping-1-x-addressFormPart1
   .vtex-omnishipping-1-x-addressList
   .vtex-omnishipping-1-x-buttonCreateAddress:active {
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -4196,7 +4196,7 @@ p.ship-city,
   .vtex-omnishipping-1-x-leanShippingOption
   svg
   path {
-  fill: #0075C9;
+  fill: #ed1d25;
 }
 
 .body-order-form
@@ -4251,7 +4251,7 @@ p.ship-city,
   p
   button#btn-go-to-payment {
   padding: 10px 35px;
-  background: #0075C9;
+  background: #ed1d25;
   height: 40px;
   border: 0 !important;
   outline: 0;
@@ -4307,7 +4307,7 @@ p.ship-city,
   .box-step
   p
   button#btn-go-to-payment:active {
-  background: lighten(#0075C9, 10%);
+  background: lighten(#ed1d25, 10%);
 }
 
 .body-order-form
@@ -4321,7 +4321,7 @@ p.ship-city,
   .box-step
   label {
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   //font-size: 14px;
   color: #545454;
 }
@@ -4486,7 +4486,7 @@ p.ship-city,
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0px;
-  color: #0075C9;
+  color: #ed1d25;
   text-decoration: none !important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -4529,7 +4529,7 @@ p.ship-city,
   .box-step
   small
   a:active {
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -4568,9 +4568,9 @@ p.ship-city,
   text-align: right;
   float: right;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none !important;
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -4624,7 +4624,7 @@ p.ship-city,
   .pickup-point-info
   svg
   path:nth-child(1) {
-  fill: #0075C9;
+  fill: #ed1d25;
 }
 
 .body-order-form
@@ -4708,7 +4708,7 @@ p.ship-city,
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0px;
-  color: #0075C9;
+  color: #ed1d25;
   text-decoration: none !important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -4760,7 +4760,7 @@ p.ship-city,
   .pickup-point-info
   .vtex-omnishipping-1-x-pointWrapper
   button#details-pickup-button:active {
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -4777,9 +4777,9 @@ p.ship-city,
   cursor: pointer;
   text-align: center;
   float: right;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none !important;
-  color: #0075C9;
+  color: #ed1d25;
   outline: 0;
   border: 0;
   padding: 0;
@@ -4840,7 +4840,7 @@ p.ship-city,
   label
   svg
   path {
-  fill: #0075C9;
+  fill: #ed1d25;
 }
 
 .body-order-form
@@ -4890,7 +4890,7 @@ p.ship-city,
   border: 0;
   outline: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   display: block;
   width: 100%;
@@ -4956,7 +4956,7 @@ p.ship-city,
   .vtex-omnishipping-1-x-ask
   button#find-pickups-manualy-button-denied {
   padding: 10px 35px;
-  background: #0075C9;
+  background: #ed1d25;
   height: 40px;
   border: 0 !important;
   outline: 0;
@@ -4992,7 +4992,7 @@ p.ship-city,
   text-align: center;
   font-weight: bold;
   text-decoration: none !important;
-  color: #0075C9;
+  color: #ed1d25;
   outline: 0;
   border: 0;
   padding: 0;
@@ -5174,7 +5174,7 @@ p.ship-city,
   .box-step
   p.link-gift-card
   #show-gift-card-group {
-  background: #0075C9
+  background: #ed1d25
     url(https://doto.vteximg.com.br/arquivos/icon_dotopoint_checkout.png)
     no-repeat 30px center;
   padding: 10px 5px 10px 75px;
@@ -5263,7 +5263,7 @@ p.ship-city,
   .box-step
   p.link-gift-card
   #show-gift-card-group:active {
-  background: #0075C9
+  background: #ed1d25
     url(https://doto.vteximg.com.br/arquivos/icon_dotopoint_checkout.png)
     no-repeat 30px center;
   background-size: 40px;
@@ -5300,7 +5300,7 @@ p.ship-city,
   .gift-card-section
   label {
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0;
   color: #545454;
   position: absolute;
@@ -5387,7 +5387,7 @@ p.ship-city,
   background: #ffffff;
   height: 40px;
   border: solid #ccc 1px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0;
   color: #000;
   -webkit-border-radius: 5px;
@@ -5679,7 +5679,7 @@ fieldset.box-payment-group2.box-payment-option.SPEIPaymentGroup
 fieldset.box-payment-group2.box-payment-option.SPEIPaymentGroup
   .installments.wrapper-bank-openpay.transfer-wrapper-spei-openpay
   p.sight {
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   font-size: 16px;
   line-height: 2;
@@ -5723,7 +5723,7 @@ fieldset.box-payment-group2.box-payment-option.SPEIPaymentGroup
   * {
   color: #000;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 20px;
 }
 
@@ -5791,7 +5791,7 @@ fieldset.box-payment-group2.box-payment-option.custom202PaymentGroupPaymentGroup
 
 fieldset.box-payment-group2.box-payment-option.custom202PaymentGroupPaymentGroup
   p.sight {
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   font-size: 16px;
   line-height: 2;
@@ -5824,7 +5824,7 @@ fieldset.box-payment-group2.box-payment-option.custom202PaymentGroupPaymentGroup
   * {
   color: #000;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 20px;
 }
 a#payment-group-debitCardPaymentGroup span.payment-group-item-text {
@@ -5862,7 +5862,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
   .payment-paypal-benefit-title {
   color: #000000;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   height: 50px;
   line-height: 1.5;
 }
@@ -5890,7 +5890,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPaymentGroup.payPalPaymentGroupMEX
   .payment-paypal-help-text {
   color: #000000;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
 }
 
@@ -5918,7 +5918,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 .CardForm .PaymentCardNumber.input.text label.FormFieldLabel {
   font-size: 0;
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   color: #545454;
 }
 
@@ -5977,7 +5977,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 
 .CardForm p.PaymentCardHolderName label {
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   color: #545454;
   font-size: 14px;
 }
@@ -5988,7 +5988,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 .CardForm .PaymentCardDueDate label {
   padding: 4px 0;
   width: auto;
-  font-weight: 500;
+  font-weight: 600;
   color: #545454;
   font-size: 14px;
   display: block;
@@ -6051,7 +6051,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0px;
-  color: #0075C9;
+  color: #ed1d25;
   text-decoration: none !important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -6066,7 +6066,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 .CardForm .DontKnowPostalCode a:hover,
 .CardForm .DontKnowPostalCode a:focus,
 .CardForm .DontKnowPostalCode a:active {
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .body-order-form
@@ -6198,7 +6198,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
   .item
   .quantity {
   position: absolute;
-  background: #0075C9;
+  background: #ed1d25;
   color: #fff;
   left: 45px;
   top: -10px;
@@ -6259,7 +6259,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
   padding: 0;
   font-size: 14px;
   color: #000;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .body-order-form
@@ -6290,7 +6290,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0px;
-  color: #0075C9;
+  color: #ed1d25;
   text-decoration: none !important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -6403,7 +6403,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
   button#payment-data-submit {
   width: 100%;
   padding: 10px 0;
-  background: #0075C9;
+  background: #ed1d25;
   height: 40px;
   border: 0;
   font-size: 14px;
@@ -6500,7 +6500,7 @@ fieldset.box-payment-group2.box-payment-option.box-payment-paypal.newPayPalPayme
 .body-order-form .default-modal button#btn-identified-user-button {
   display: block !important;
   width: auto;
-  background: #0075C9;
+  background: #ed1d25;
   border: 0;
   font-size: 16px;
   font-weight: 600;
@@ -6695,7 +6695,7 @@ label[for="address-toggle-0"] {
   display: block !important;
   width: auto;
   padding: 15px;
-  background: #0075C9;
+  background: #ed1d25;
   border: 0;
   font-size: 16px;
   font-weight: 600;
@@ -6724,7 +6724,7 @@ label[for="address-toggle-0"] {
 .body-order-form
   .default-modal
   button.btn.btn-large.payment-unauthorized-button:active {
-  background: #0075C9;
+  background: #ed1d25;
 }
 
 .body-cart
@@ -6797,14 +6797,14 @@ label[for="address-toggle-0"] {
   background: #ffffff;
   border-color: transparent;
   box-shadow: inherit;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .CardForm
   .SavedCardsList.btn-group.btn-group-vertical
   .label-vertical-group.active
   span {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .CardForm .SavedCardsList.btn-group.btn-group-vertical .SavedCard .link-delete {

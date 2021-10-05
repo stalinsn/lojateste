@@ -1,12 +1,6 @@
 {
-  "store.custom#discount": {
-    "path": "/rebajas"
-  },
   "store.custom#baby-world": {
     "path": "/mundo-bebe"
-  },
-  "store.custom#unidos": {
-    "path": "/unidos-por-tu-bienestar"
   },
   "store.custom#family-size": {
     "path": "/tamanos-familiares"
@@ -26,7 +20,7 @@
   "store.custom#como-comprar": {
     "path": "/como-comprar"
   },
-  "store.custom#shop-store" : {
+  "store.custom#shop-store": {
     "path": "/localizador-de-tiendas"
   },
   "store.custom#servicios-financieros": {
@@ -56,7 +50,19 @@
   "store.custom#walmart-te-escucha": {
     "path": "/walmart-te-escucha"
   },
-  "store.custom#super-parrilleros": {
-    "path": "/super-parrilleros"
+  "store.custom#wishlist-custom": {
+    "path": "/wishlist-page"
+  },
+  "store.custom#wishlist-custom-list-page": {
+    "path": "/wishlist-page/:slug"
+  },
+  "store.custom#institutional-group": {
+    "path": "/grupo-institucional"
+  },
+  "store.custom#atendance-group": {
+    "path": "/central-de-ajuda"
+  },
+  "store.custom#atendance-group2": {
+    "path": "/atendimento"
   }
 }

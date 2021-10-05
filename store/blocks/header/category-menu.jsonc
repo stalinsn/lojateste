@@ -1,14 +1,25 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
+    "children": ["store-selector", "flex-layout.row#menu-items-header-row"],
+    "props": {
+      "blockClass": "category-menu-desk"
+    }
+  },
+  "flex-layout.row#menu-items-header-row": {
     "children": [
-      "store-selector",
+      "menu-item#institutional-header",
       "menu-item#reduction",
       "menu-item#our-brands",
       "menu-item#family-size",
-      "menu-item#parrilleros"
-    ]
+      "menu-item#parrilleros",
+      "menu-item#solds"
+    ],
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "colSizing": "auto",
+      "width": "100%"
+    }
   },
-
   "menu-item#choise-your-store": {
     "props": {
       "blockClass": ["menu-item-faqs", "marker"],
@@ -20,8 +31,24 @@
         "type": "internal",
         "noFollow": false,
         "href": "#",
-        "tagTitle": "Selecciona tu tienda",
-        "text": "Selecciona tu tienda"
+        "tagTitle": "Onde você está?",
+        "text": "Onde você está?"
+      }
+    }
+  },
+  "menu-item#institutional-header": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/",
+        "tagTitle": "Rebajas",
+        "text": "Institucional"
       }
     }
   },
@@ -35,9 +62,9 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "href": "/rebajas",
+        "href": "/",
         "tagTitle": "Rebajas",
-        "text": "Rebajas"
+        "text": "Cartão Cencosud"
       }
     }
   },
@@ -51,9 +78,9 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "href": "/tamanos-familiares",
-        "tagTitle": "Tamaños Familiares",
-        "text": "Tamaños Familiares"
+        "href": "/",
+        "tagTitle": "Coleções",
+        "text": "Coleções"
       }
     }
   },
@@ -67,9 +94,9 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "href": "/nuestras-marcas",
-        "tagTitle": "Nuestras marcas",
-        "text": "Nuestras marcas"
+        "href": "",
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
       }
     }
   },
@@ -83,11 +110,26 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "href": "/super-parrilleros",
-        "tagTitle": "Super parrilleros",
-        "text": "Super parrilleros"
+        "href": "/",
+        "tagTitle": "Receitas",
+        "text": "Receitas"
+      }
+    }
+  },
+  "menu-item#solds": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/",
+        "tagTitle": "Mais vendidos",
+        "text": "Mais vendidos"
       }
     }
   }
-
 }

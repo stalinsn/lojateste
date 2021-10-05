@@ -1,15 +1,12 @@
 {
   "footer": {
-    "blocks": [
-      "footer-layout.desktop",
-      "footer-layout.mobile"
-    ]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
 
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#newsletter",
-      "rich-text#text-notice",
+      // "rich-text#text-notice",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-3-desktop",
       "back-to-top-button"
@@ -17,10 +14,7 @@
   },
 
   "flex-layout.row#newsletter": {
-    "children": [
-      "rich-text#newsletter",
-      "newsletter"
-    ],
+    "children": ["rich-text#newsletter", "newsletter"],
 
     "props": {
       "blockClass": "title-news"
@@ -33,7 +27,7 @@
       "width": "40%",
       "textAlignment": "RIGHT",
       "textPosition": "RIGHT",
-      "text": "¡Recibe las mejores ofertas y promociones!",
+      "text": "Receba as melhores ofertas e promoções!",
       "blockClass": "txt-news"
     }
   },
@@ -42,9 +36,9 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "placeholder": "Ingresa tu correo",
+      "placeholder": "Informe seu e-mail",
       "hideLabel": true,
-      "submit": "Suscribirme"
+      "submit": "Assinar"
     }
   },
 
@@ -55,11 +49,9 @@
     }
   },
 
-  "flex-layout.row#txt-news":{
-    "children": [
-      "rich-text#txt-news"
-    ],
-    "props":{
+  "flex-layout.row#txt-news": {
+    "children": ["rich-text#txt-news"],
+    "props": {
       "blockClass": "row-txt-news"
     }
   },
@@ -76,9 +68,11 @@
 
   "flex-layout.row#footer-1-desktop": {
     "children": [
+      "flex-layout.col#footer-desktop-pre-col",
       "flex-layout.col#footer-1-desktop",
       "flex-layout.col#footer-2-desktop",
-      "flex-layout.col#footer-6-desktop"
+      "flex-layout.col#footer-6-desktop",
+      "flex-layout.col#footer-desktop-post-col"
     ],
 
     "props": {
@@ -87,11 +81,49 @@
       "paddingBottom": 3
     }
   },
-
-  "flex-layout.col#footer-1-desktop": {
+  "flex-layout.col#footer-desktop-pre-col": {
+    "children": ["rich-text#store-footer", "rich-text#store-footer-text"],
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": true,
+      "blockClass": "footer-precol"
+    }
+  },
+  "rich-text#store-footer": {
+    "props": {
+      "text": "GBarbosa",
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "rich-text#store-footer-text": {
+    "props": {
+      "text": "Fundado em Sergipe, em 1955, o GBarbosa é uma das principais redes de supermercados do Nordeste. Com mais de 75 lojas em cinco estados (Alagoas, Bahia, Ceará, Pernambuco e Sergipe), farmácias e Eletro \n \n [Clique aqui e saiba mais](/)",
+      "blockClass": "footer-inner-text"
+    }
+  },
+  "flex-layout.col#footer-desktop-post-col": {
     "children": [
-      "vtex.menu@2.x:menu#footer-menu1"
+      "rich-text#store-footer-sac",
+      "rich-text#store-footer-text-sac"
     ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#store-footer-sac": {
+    "props": {
+      "text": "SAC",
+      "blockClass": "title-menu-footer"
+    }
+  },
+  "rich-text#store-footer-text-sac": {
+    "props": {
+      "text": "### (71) 9990-16180 0800 000 00 000  \n delivery@gbarbosa.com.br",
+      "blockClass": "footer-text-sac"
+    }
+  },
+  "flex-layout.col#footer-1-desktop": {
+    "children": ["vtex.menu@2.x:menu#footer-menu1"],
 
     "props": {
       "blockClass": "footer-col"
@@ -99,9 +131,7 @@
   },
 
   "flex-layout.col#footer-2-desktop": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu2"
-    ],
+    "children": ["vtex.menu@2.x:menu#footer-menu2"],
 
     "props": {
       "blockClass": "footer-col"
@@ -109,9 +139,7 @@
   },
 
   "flex-layout.col#footer-6-desktop": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu6"
-    ],
+    "children": ["vtex.menu@2.x:menu#footer-menu6"],
 
     "props": {
       "blockClass": "footer-col"
@@ -132,12 +160,10 @@
     }
   },
 
-  "flex-layout.col#footer-3-desktop-1":{
-    "children": [
-      "rich-text#copyright-footer"
-    ],
+  "flex-layout.col#footer-3-desktop-1": {
+    "children": ["rich-text#copyright-footer"],
 
-    "props":{
+    "props": {
       "blockClass": "txt-footer",
       "width": "80%"
     }
@@ -147,17 +173,15 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© 2021 Copyright. Todos los derechos reservados Masxmenos.",
+      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "copyright-footer"
     }
   },
 
-  "flex-layout.col#footer-3-desktop-2":{
-    "children": [
-      "rich-text#powered-by"
-    ],
+  "flex-layout.col#footer-3-desktop-2": {
+    "children": ["rich-text#powered-by"],
 
-    "props":{
+    "props": {
       "width": "6%",
       "blockClass": "txt-footer"
     }
@@ -174,12 +198,10 @@
     }
   },
 
-  "flex-layout.col#footer-3-desktop-3":{
-    "children": [
-      "image#logo-footer-1"
-    ],
+  "flex-layout.col#footer-3-desktop-3": {
+    "children": ["image#logo-footer-1"],
 
-    "props":{
+    "props": {
       "width": "7%",
       "blockClass": "txt-footer"
     }
@@ -189,17 +211,15 @@
     "title": "Footer - Logo",
 
     "props": {
-      "src": "assets/corebiz_logo.svg",
+      "src": "/arquivos/corebiz_logo.svg",
       "blockClass": "logo-footer-corebiz"
     }
   },
 
-  "flex-layout.col#footer-3-desktop-4":{
-    "children": [
-      "image#logo-footer-2"
-    ],
+  "flex-layout.col#footer-3-desktop-4": {
+    "children": ["image#logo-footer-2"],
 
-    "props":{
+    "props": {
       "blockClass": "txt-footer"
     }
   },
@@ -208,7 +228,7 @@
     "title": "Footer - Logo",
 
     "props": {
-      "src": "assets/vtex-1.svg",
+      "src": "/arquivos/vtex-1.svg",
       "blockClass": "logo-footer-corebiz"
     }
   },
@@ -224,9 +244,7 @@
   },
 
   "flex-layout.row#newsletter-mobile": {
-    "children": [
-      "flex-layout.col#newsletter"
-    ],
+    "children": ["flex-layout.col#newsletter"],
 
     "props": {
       "horizontalAlign": "center",
@@ -234,11 +252,8 @@
     }
   },
 
-  "flex-layout.col#newsletter":{
-    "children":[
-      "newsletter#custom",
-      "rich-text#text-notice"
-    ],
+  "flex-layout.col#newsletter": {
+    "children": ["newsletter#custom"],
     "props": {
       "fullWidth": true,
       "marginTop": "8",
@@ -250,16 +265,14 @@
 
   "newsletter#custom": {
     "props": {
-      "label": "¡Recibe las mejores ofertas y promociones!",
+      "label": "Receba as melhores ofertas e promoções!",
       "placeholder": "E-mail",
       "blockClass": "newsletter-custom",
-      "submit": "Suscribirme"
+      "submit": "Assinar"
     }
   },
   "flex-layout.row#2-footer-mobile": {
-    "children": [
-      "flex-layout.col#footer-1-mobile"
-    ],
+    "children": ["flex-layout.col#footer-1-mobile"],
     "props": {
       "blockClass": "2-footer-mobile",
       "paddingTop": 4,
@@ -290,22 +303,18 @@
   },
 
   "disclosure-trigger#simple-title-know": {
-    "children": [
-      "rich-text#question-title-know"
-    ]
+    "children": ["rich-text#question-title-know"]
   },
 
   "rich-text#question-title-know": {
     "props": {
-      "text": "Conocenos",
+      "text": "Institucional",
       "blockClass": "title-menu-mobile"
     }
   },
 
   "disclosure-content#menu-know": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu1-mobile"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu1"]
   },
 
   "disclosure-layout#footer-box-menu-help": {
@@ -316,22 +325,18 @@
   },
 
   "disclosure-trigger#simple-title-help": {
-    "children": [
-      "rich-text#question-title-help"
-    ]
+    "children": ["rich-text#question-title-help"]
   },
 
   "rich-text#question-title-help": {
     "props": {
-      "text": "¿Necesitas ayuda?",
+      "text": "Central de ajuda",
       "blockClass": "title-menu-mobile"
     }
   },
 
   "disclosure-content#menu-help": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu2"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu2"]
   },
   "disclosure-layout#footer-box-menu-help": {
     "children": [
@@ -341,22 +346,18 @@
   },
 
   "disclosure-trigger#simple-title-help": {
-    "children": [
-      "rich-text#question-title-help"
-    ]
+    "children": ["rich-text#question-title-help"]
   },
 
   "rich-text#question-title-help": {
     "props": {
-      "text": "¿Necesitas ayuda?",
+      "text": "Central de ajuda",
       "blockClass": "title-menu-mobile"
     }
   },
 
   "disclosure-content#menu-help": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu2-mobile"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu2-mobile"]
   },
 
   "disclosure-layout#footer-box-menu-services": {
@@ -367,22 +368,18 @@
   },
 
   "disclosure-trigger#simple-title-services": {
-    "children": [
-      "rich-text#question-title-services"
-    ]
+    "children": ["rich-text#question-title-services"]
   },
 
   "rich-text#question-title-services": {
     "props": {
-      "text": "¿Necesitas ayuda?",
+      "text": "Central de ajuda",
       "blockClass": "title-menu-mobile"
     }
   },
 
   "disclosure-content#menu-services": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu6"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu6"]
   },
   "disclosure-layout#footer-box-menu-services": {
     "children": [
@@ -392,34 +389,26 @@
   },
 
   "disclosure-trigger#simple-title-services": {
-    "children": [
-      "rich-text#question-title-services"
-    ]
+    "children": ["rich-text#question-title-services"]
   },
 
   "rich-text#question-title-services": {
     "props": {
-      "text": "Servicios",
+      "text": "Atendimento",
       "blockClass": "title-menu-mobile"
     }
   },
 
   "disclosure-content#menu-services": {
-    "children": [
-      "vtex.menu@2.x:menu#footer-menu3-mobile"
-    ]
+    "children": ["vtex.menu@2.x:menu#footer-menu3-mobile"]
   },
 
   "flex-layout.row#footer-mobile-1": {
     "title": "Footer - Copyright",
-    "children": [
-      "flex-layout.col#footer-3-mobile-1"
-    ]
+    "children": ["flex-layout.col#footer-3-mobile-1"]
   },
   "flex-layout.col#footer-3-mobile-1": {
-    "children":[
-      "rich-text#copyright-footer-mobile"
-    ],
+    "children": ["rich-text#copyright-footer-mobile"],
     "props": {
       "blockClass": "copyright-row-mobile"
     }
@@ -434,7 +423,6 @@
     }
   },
 
-
   "flex-layout.row#footer-mobile-2": {
     "title": "Footer - Copyright",
     "children": [
@@ -447,7 +435,7 @@
     }
   },
   "flex-layout.col#footer-mobile-2-1": {
-    "children":[
+    "children": [
       "rich-text#footer-mobile-2",
       "image#logo-footer-mobile-1",
       "image#logo-footer-mobile-2"
@@ -466,11 +454,9 @@
     }
   },
 
-  "flex-layout.col#footer-mobile-2-2":{
-    "children": [
-      "image#logo-footer-mobile-1"
-    ],
-    "props":{
+  "flex-layout.col#footer-mobile-2-2": {
+    "children": ["image#logo-footer-mobile-1"],
+    "props": {
       //"width": "7%",
       "blockClass": "col-mobile-footer"
     }
@@ -478,35 +464,27 @@
   "image#logo-footer-mobile-1": {
     "title": "Footer - Logo",
     "props": {
-      "src": "assets/corebiz_logo.svg",
+      "src": "/arquivos/corebiz_logo.svg",
       "blockClass": "logo-footer-corebiz-mobile"
     }
   },
 
-  "flex-layout.col#footer-mobile-2-3":{
-    "children": [
-      "image#logo-footer-mobile-2"
-    ],
-    "props":{
+  "flex-layout.col#footer-mobile-2-3": {
+    "children": ["image#logo-footer-mobile-2"],
+    "props": {
       "blockClass": "col-mobile-footer"
     }
   },
   "image#logo-footer-mobile-2": {
     "title": "Footer - Logo",
     "props": {
-      "src": "assets/vtex-1.svg",
+      "src": "/arquivos/vtex-1.svg",
       "blockClass": "logo-footer-corebiz-mobile"
     }
   },
 
-
-
-
-
-
-
-  "back-to-top-button":{
-    "props":{
+  "back-to-top-button": {
+    "props": {
       "displayThreshold": 800
     }
   }

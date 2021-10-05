@@ -47,18 +47,20 @@
       "stack-layout#prodsum",
       "product-rating-inline",
       "product-summary-name",
+      "product-summary-brand",
       //"product-summary-price",
       "price-custom",
       "global-promo#2x",
       "global-promo#3x",
+      "max-installments",
       //"product-summary-space",
       "quantity-selector.summary"
       //"add-to-cart-button"
     ]
   },
 
-  "global-promo#2x":{
-    "props":{
+  "global-promo#2x": {
+    "props": {
       "qty": "2",
       "account": "supermxmcr",
       "country": "CRI",
@@ -69,8 +71,8 @@
     }
   },
 
-  "global-promo#3x":{
-    "props":{
+  "global-promo#3x": {
+    "props": {
       "qty": "3",
       "account": "supermxmcr",
       "country": "CRI",
@@ -112,13 +114,14 @@
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#savings",
-      "shopping-list-shelf-button"
+      "flex-layout.row#add-wishlist"
     ]
   },
-  "shopping-list-shelf-button": {
+  "flex-layout.row#add-wishlist": {
     "props": {
-      "blockClass": "shopping-list-shelf-button"
-    }
+      "blockClass": "add-wishlist"
+    },
+    "children": ["add-to-wishlist"]
   },
 
   "product-summary-image": {
@@ -151,9 +154,7 @@
     "props": {
       "blockClass": "not-found-main"
     },
-    "children": [
-      "flex-layout.col#txt-not-found"
-    ]
+    "children": ["flex-layout.col#txt-not-found"]
   },
 
   "flex-layout.col#txt-not-found": {
@@ -189,7 +190,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/notfound.svg",
+      "url": "/arquivos/notfound.svg",
       "width": "180"
     }
   }*/

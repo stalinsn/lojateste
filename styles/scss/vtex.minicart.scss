@@ -9,10 +9,10 @@
   z-index: 99;
   padding-left: 1rem;
 
-  &::after{
-    content: "Mi carrito";
+  &::after {
+    content: "Meu carrinho";
     font-size: 18px;
-    font-family: GothamBook;
+    font-family: OpenSans;
 
     @media screen and (max-width: 60em) {
       padding-left: 15px;
@@ -61,12 +61,12 @@
   :global(.vtex-numeric-stepper__input) {
     border-right: none;
     border-left: none;
-    outline: 0!important;
+    outline: 0 !important;
     border-top: 1px solid #dedede;
     border-bottom: 1px solid #dedede;
     height: 32px;
     font-size: 13px;
-    width: 50px!important;
+    width: 50px !important;
     color: #525252;
   }
 
@@ -76,16 +76,18 @@
     border-right: none;
     height: 32px;
   }
-
+  :global(.vtex-numeric-stepper__minus-button__text) {
+    color: #898989 !important;
+  }
   :global(.vtex-numeric-stepper__plus-button) {
     border-radius: 5px;
     border: 1px solid #dedede;
     border-left: none;
-    outline: 0!important;
+    outline: 0 !important;
     height: 32px;
   }
 
-  :global(.vtex-minicart-custom-contentBtns){
+  :global(.vtex-minicart-custom-contentBtns) {
     :global(.vtex-button) {
       min-height: 32px;
       font-size: 12px;
@@ -102,13 +104,12 @@
       }
     }
   }
-
 }
 
 .minicartIconContainer {
   .minicartQuantityBadge {
-    border: 2px solid #FF9E19;
-    background-color: #FF9E19;
+    border: 2px solid #ff9e19;
+    background-color: #ff9e19;
     padding-right: 3px;
     padding-top: 2px;
     padding-bottom: 1px;
@@ -126,18 +127,18 @@
   &::before {
     content: "";
     display: block;
-    background: url(assets/icon_cart.svg) no-repeat 50%;
-    background-size: 32px 32px !important;
+    background: url(/arquivos/icon_minicart_header2.svg?v=1) no-repeat 50%;
+    background-size: 23px 23px !important;
 
     @media screen and (min-width: em(1024px)) {
-      width: 32px;
-      height: 32px;
+      width: 23px;
+      height: 23px;
     }
 
     @media (max-width: em(1023px)) {
-      width: 18px;
-      height: 18px;
-      background-size: 19px 19px !important;
+      width: 23px;
+      height: 23px;
+      background-size: 23px 23px !important;
     }
   }
 
@@ -153,7 +154,7 @@
     font-size: 0;
 
     &::before {
-      content: "¡ Tu carrito esta vacío !";
+      content: "Seu carrinho está vazio";
       font-size: 16px;
       margin-top: 15px;
     }
@@ -254,10 +255,11 @@
   padding-right: 0px;
 
   :global(.vtex-button) {
-    background-color: #0075C9;
+    background-color: #ed1d25;
+    border-color: #ed1d25;
 
     &:hover {
-      border-color: #0075C9;
+      border-color: #ed1d25;
     }
   }
 
@@ -267,29 +269,35 @@
     padding-right: 5px;
 
     &::before {
-      content: "Continuar con la compra";
+      content: "Ir para pagamento";
       font-size: 14px;
       font-weight: 600;
       text-transform: none;
     }
   }
 }
-
+.childrenContainer {
+  height: 100vh;
+  .minicartSideBarContentWrapper {
+    height: 100vh !important;
+  }
+}
 :global(.vtex-checkout-summary-0-x-summarySmallContent) {
   :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
-    color: #0075C9;
+    color: #ed1d25;
   }
 }
 
 :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
   :global(.vtex-checkout-summary-0-x-price) {
-    color: #0075C9 !important;
+    color: #525252 !important;
+    font-weight: bold;
   }
 }
 
 :global(.vtex-minicart-2-x-minicartProductListContainer) {
   &::-webkit-scrollbar-thumb {
-    background: #0075C9 !important;
+    background: #ed1d25 !important;
   }
 }
 
@@ -299,7 +307,7 @@
 }
 
 :global(.vtex-button__label-closeminicart) {
-  color: #0075C9;
+  color: #ed1d25;
   font-weight: 600;
   font-size: 16px;
   text-transform: capitalize;
@@ -310,7 +318,7 @@
 }
 
 :global(.vtex-minicart-2-x-closeIconContainer) {
-  background-color: #0075C9;
+  background-color: #ed1d25;
   position: absolute;
   width: 100%;
   z-index: 3;
@@ -327,6 +335,6 @@
 
 /*:global(.vtex-minicart-totalizer-label) {
   & > span{
-    font-family: GothamBook;
+    font-family: OpenSans;
   }
 }*/

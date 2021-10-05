@@ -48,11 +48,11 @@
 }
 
 .arrowRight {
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .arrowLeft {
-  color: #0075C9;
+  color: #ed1d25;
 }
 
 .relatedProducts--shelf-dep {
@@ -98,7 +98,7 @@
         font-size: 12px !important;
         color: $primary;
         display: -webkit-box;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -135,7 +135,7 @@
   border-radius: 40px;
   margin-left: -32px;*/
   :global(.vtex-shelf-1-x-caretIcon) {
-    color: #0075C9;
+    color: #ed1d25;
     //width: 30px;
     //height: 30px;
   }
@@ -150,7 +150,7 @@
   border-radius: 40px;
   margin-right: -32px;*/
   :global(.vtex-shelf-1-x-caretIcon) {
-    color: #0075C9;
+    color: #ed1d25;
     //width: 30px;
     //height: 30px;
   }

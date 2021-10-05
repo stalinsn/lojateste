@@ -154,7 +154,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
-  background-color: #0075C9;
+  background-color: #ed1d25;
   padding-bottom: 40px;
   margin-top: 0px;
 }
@@ -181,9 +181,9 @@
     font-weight: bold;
     text-transform: capitalize;
     border-radius: 5px;
-    border: 1px solid #0075C9;
+    border: 1px solid #ed1d25;
     background-color: #fff;
-    color: #0075C9;
+    color: #ed1d25;
 
     @media screen and (min-width: em(1440px)) {
       margin-left: -42px;
@@ -193,8 +193,8 @@
     max-height: 40px;
     margin-top: 1px;
     margin-left: 0;
-    width: 70%;
-    border: 1px solid #DEDEDE;
+    width: 100%;
+    border: 1px solid #dedede;
   }
 
   :global(.vtex-input-prefix__group) {
@@ -206,12 +206,15 @@
     @media screen and (min-width: em(1440px)) {
       width: 677px;
       height: 40px;
+      :global(.vtex-styleguide-9-x-input) {
+        width: 70%;
+      }
     }
   }
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--title-news) {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   margin-top: 0px;
   padding-top: 20px;
 }
@@ -241,38 +244,39 @@
 }
 
 :global(.vtex-store-components-3-x-backToTopButtonContainer) {
-  :global(.vtex-button){
+  :global(.vtex-button) {
     padding: 0;
     margin: 0;
     width: 0;
     height: 0;
     min-width: 60px;
     min-height: 60px;
-    background: transparent url(/arquivos/assets-up-button.png) center center no-repeat;
+    background: transparent url(/arquivos/assets-up-button.png) center center
+      no-repeat;
     background-size: 50px;
     border: 0;
     bottom: 80px;
     :global(.vtex-button__label) {
-        font-size: 0;
+      font-size: 0;
     }
   }
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--2-footer-mobile ){
+:global(.vtex-flex-layout-0-x-flexRow--2-footer-mobile) {
   :global(.vtex-disclosure-layout-1-x-trigger) {
     display: block;
     width: 100%;
     border: 0;
     padding: 0 15px;
-    outline: 0!important;
-    background: #0075C9;
+    outline: 0 !important;
+    background: #ed1d25;
     cursor: pointer;
     border-bottom: 1px solid #fff;
     line-height: 0;
     :global(.vtex-rich-text-0-x-container) {
       :global(.vtex-rich-text-0-x-wrapper) {
         width: 100%;
-        :global(.vtex-rich-text-0-x-paragraph){
+        :global(.vtex-rich-text-0-x-paragraph) {
           display: flex;
           font-weight: bold;
           color: #fafafa;
@@ -291,17 +295,17 @@
   }
 
   :global(.vtex-disclosure-layout-1-x-content--visible) {
-    background: #0075C9;
+    background: #ed1d25;
     padding: 15px 0 0 0;
-    :global(.vtex-menu-2-x-styledLinkContent){
+    :global(.vtex-menu-2-x-styledLinkContent) {
       font-size: 14px;
       font-weight: 400;
       color: #fefefe;
-      -webkit-transition: .5s all;
-         -moz-transition: .5s all;
-          -ms-transition: .5s all;
-           -o-transition: .5s all;
-              transition: .5s all;
+      -webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -ms-transition: 0.5s all;
+      -o-transition: 0.5s all;
+      transition: 0.5s all;
       &:hover {
         color: #fff;
         text-decoration: underline;
@@ -314,15 +318,15 @@
     width: 100%;
     border: 0;
     padding: 0 15px;
-    outline: 0!important;
-    background: #0075C9;
+    outline: 0 !important;
+    background: #ed1d25;
     cursor: pointer;
     border-bottom: 1px solid #fafafa;
     line-height: 0;
     :global(.vtex-rich-text-0-x-container) {
       :global(.vtex-rich-text-0-x-wrapper) {
         width: 100%;
-        :global(.vtex-rich-text-0-x-paragraph){
+        :global(.vtex-rich-text-0-x-paragraph) {
           display: flex;
           font-weight: bold;
           color: #fff;
@@ -342,11 +346,11 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--newsletter-main) {
-    width: 100%;
+  width: 100%;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--newsletter-mobile) {
-  background: #F4F4F4;
+  background: #f4f4f4;
   position: relative;
 
   :global(.vtex-store-components-3-x-container--newsletter-custom) {
@@ -382,12 +386,12 @@
           :global(.vtex-input-prefix__group) {
             height: 40px;
             border: 0;
-            outline: 0!important;
+            outline: 0 !important;
 
             :global(.vtex-styleguide-9-x-input) {
               border: 1px solid var(--unnamed-color-dedede);
-              background: #FFFFFF 0% 0% no-repeat padding-box;
-              border: 1px solid #DEDEDE;
+              background: #ffffff 0% 0% no-repeat padding-box;
+              border: 1px solid #dedede;
               border-radius: 5px;
               font-size: 13px;
             }
@@ -411,22 +415,22 @@
           :global(.vtex-button) {
             height: 40px;
             width: 100%;
-            border: 1px solid #0075C9;
+            border: 1px solid #ed1d25;
             border-radius: 5px;
             background: #fff;
 
-            :global(.vtex-button__label){
+            :global(.vtex-button__label) {
               letter-spacing: 0px;
-              color: #0075C9;
+              color: #ed1d25;
               font-weight: bold;
               font-size: 13px;
-              -webkit-transition: .5s all;
-                 -moz-transition: .5s all;
-                  -ms-transition: .5s all;
-                   -o-transition: .5s all;
-                      transition: .5s all;
+              -webkit-transition: 0.5s all;
+              -moz-transition: 0.5s all;
+              -ms-transition: 0.5s all;
+              -o-transition: 0.5s all;
+              transition: 0.5s all;
               &:hover {
-                background: #0075C9;
+                background: #ed1d25;
                 color: #fff;
               }
             }

@@ -1,0 +1,20 @@
+.openButton {
+  @media (max-width: 48em) {
+    padding-right: 0 !important;
+    margin: 10px;
+  }
+  :global(.vtex-button__label) {
+    padding: 0;
+    @media screen and (max-width: 768px) {
+      color: #525252;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.button {
+  :global(.vtex-button) {
+    width: 100% !important;
+  }
+}

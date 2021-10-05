@@ -208,9 +208,10 @@
         border-right: none;
         border-left: none;
         height: 32px;
-        font-size: 13px;
+        font-size: 14px;
         width: 50px !important;
         color: #525252;
+        font-weight: bold;
       }
     }
 
@@ -218,9 +219,9 @@
       margin-top: 12px;
 
       .vtex-button {
-        color: #0075C9;
+        color: #ed1d25;
         background: transparent;
-        border: 1px solid #0075C9;
+        border: 1px solid #ed1d25;
         width: 100%;
         min-height: 32px !important;
         max-height: 32px !important;
@@ -235,8 +236,8 @@
       &.disabled {
         .vtex-button {
           .vtex-button__label {
-            background: #0075C9;
-            border: 2.5px solid #0075C9;
+            background: #ed1d25;
+            border: 2.5px solid #ed1d25;
             color: #fff;
             cursor: default;
           }

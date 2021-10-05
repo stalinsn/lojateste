@@ -12,7 +12,8 @@
       "sticky-layout#2-desktop",
       "sticky-layout#3-desktop",
       "sticky-layout#4-desktop",
-      "flex-layout.row#5-desktop"
+      "flex-layout.row#5-desktop",
+      "personal-promotion"
     ]
   },
 
@@ -31,9 +32,7 @@
   },
 
   "flex-layout.row#5-desktop": {
-    "children": [
-      "rich-text#5-desktop"
-    ],
+    "children": ["rich-text#5-desktop"],
     "props": {
       "fullWidth": "true",
       "blockClass": "headertop-end"
@@ -44,28 +43,78 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Aprovecha los beneficios que tenemos de **farmacia**",
+      "text": "Veja as promoções que preparamos na categoria **Automotivos**, com frete grátis.",
       "blockClass": "benefits"
     }
   },
 
-
   "flex-layout.row#2-desktop": {
     "children": [
-      "flex-layout.col#left",
-      "flex-layout.col#right"
+      "flex-layout.row#contact-and-brands",
+      "flex-layout.row#timecount"
     ],
     "props": {
       "fullWidth": "true",
       "blockClass": "headertop"
     }
   },
+  "flex-layout.row#timecount": {
+    "children": ["rich-text#timecount"],
+    "props": {
+      "blockClass": "timecount1"
+    }
+  },
+  "flex-layout.row#contact-and-brands": {
+    "children": ["flex-layout.col#right", "flex-layout.row#rightbrands-2"],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#rightbrands-2": {
+    "children": [
+      "rich-text#brands1",
+      "rich-text#brands2",
+      "rich-text#brands3",
+      "rich-text#brands4"
+    ],
+    "props": {
+      "blockClass": "brands-container",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#timecount": {
+    "props": {
+      "text": "Você tem **30min**. para finalizar a compra pelo **EXPRESS**, e receber hoje.",
+      "blockClass": "timecount"
+    }
+  },
+  "rich-text#brands1": {
+    "props": {
+      "text": "[Bretas](/)",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brands2": {
+    "props": {
+      "text": "[Mercantil]()",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brands3": {
+    "props": {
+      "text": "[Perini]()",
+      "blockClass": "brands"
+    }
+  },
+  "rich-text#brands4": {
+    "props": {
+      "text": "[Prezunic]()",
+      "blockClass": "brands"
+    }
+  },
 
   "flex-layout.col#left": {
-    "children": [
-      "logo#left",
-      "rich-text#how-to-buy"
-    ],
+    "children": ["logo#left", "rich-text#how-to-buy"],
     "props": {
       "blockClass": "first-col-head",
       "width": "13%"
@@ -74,7 +123,7 @@
   "logo#left": {
     "props": {
       "title": "Icon how to buy",
-      "url": "assets/icon_envio.svg",
+      "url": "/arquivos/icon_envio.svg",
       "blockClass": "icon-head"
     }
   },
@@ -89,10 +138,7 @@
   },
 
   "flex-layout.col#right": {
-    "children": [
-      "logo#right",
-      "rich-text#contact-us"
-    ],
+    "children": ["logo#right", "rich-text#contact-us"],
     "props": {
       "blockClass": "first-col-head"
     }
@@ -100,7 +146,7 @@
   "logo#right": {
     "props": {
       "title": "Icon contact us",
-      "url": "assets/icon_atencion.svg",
+      "url": "/arquivos/icon_atencion.svg?v=1",
       "blockClass": "icon-head"
     }
   },
@@ -109,12 +155,10 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Contáctanos al 800-8000-722",
+      "text": "Ligue para: (71) 9821-54016",
       "blockClass": "txt-first-head"
     }
   },
-
-
 
   "rich-text#termina-en": {
     "title": "Header - Highlight",
@@ -135,27 +179,41 @@
       "fullWidth": true
     },
     "children": [
-      "mega-menu",
-      "flex-layout.col#logo-desktop",
+      "flex-layout.row#desktop-menu-and-logo",
       "search-bar",
-      "rich-text#Tel",
-      "login",
-      "rich-text#mi-tienda",
-      "minicart.v2",
-      "minicart-totalizer"
+      "flex-layout.row#desktop-utils-links",
+      "flex-layout.row#desktop-minicart-links"
     ]
   },
+  "flex-layout.row#desktop-menu-and-logo": {
+    "children": ["mega-menu", "flex-layout.col#logo-desktop"],
+    "props": {
+      "blockClass": "menu-logo",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#desktop-utils-links": {
+    "children": ["rich-text#Tel", "rich-text#mi-tienda", "login"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "util-links"
+    }
+  },
+  "flex-layout.row#desktop-minicart-links": {
+    "children": ["minicart.v2", "minicart-totalizer"]
+  },
+
   "rich-text#Tel": {
     "title": "Header - TEL",
     "props": {
-      "text": "[Mis listas](/account#/shopping-list)",
+      "text": "[Listas](/wishlist-page)",
       "blockClass": "mi-tel"
     }
   },
   "rich-text#mi-tienda": {
     "title": "Header - Tiendas",
     "props": {
-      "text": "Mis pedidos",
+      "text": "[Pedidos](/account#/orders)",
       "blockClass": "mi-tienda"
     }
   },
@@ -191,30 +249,21 @@
     ]
   },
   "flex-layout.col#express-col-left": {
-    "children": [
-      "stack-layout#prodsum"
-    ]
+    "children": ["stack-layout#prodsum"]
   },
   "flex-layout.col#express-col-right": {
-    "children": [
-      "product-summary-name"
-    ]
+    "children": ["product-summary-name"]
   },
 
   "flex-layout.row#express-row-2": {
-    "children": [
-      "flex-layout.col#express-col-left-2"
-    ]
+    "children": ["flex-layout.col#express-col-left-2"]
   },
   "flex-layout.col#express-col-left-2": {
-    "children": [
-      "product-summary-price"
-    ],
-    "props":{
+    "children": ["product-summary-price"],
+    "props": {
       "blockClass": "price-express"
     }
   },
-
 
   "product-summary.shelf#express": {
     "children": [
@@ -233,7 +282,7 @@
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": ["flex-layout.col#category-menu", "flex-layout.col#spacer"]
+    "children": ["flex-layout.col#category-menu"]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -253,18 +302,15 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo_masxmenos.svg",
-      "width": "180"
+      "url": "/arquivos/gbarbosa_logo.png",
+      "width": "62"
     }
   },
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": [
-      "flex-layout.row#1-mobile",
-      "flex-layout.row#2-mobile"
-    ]
+    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -321,28 +367,28 @@
   },
   "search-bar": {
     "title": "Header - Búsqueda",
-    "blocks": ["autocomplete-result-list.v2"],
+    "blocks": ["autocomplete-result-list.v2#main"],
     "props": {
-      "placeholder": "¿Qué estás buscando?",
+      "placeholder": "O que você está procurando?",
       "blockClass": "search-mobile-walmart",
+      "__unstableProductOriginVtex": true,
+      "width": "grow",
       "openAutocompleteOnFocus": true,
-      "maxSuggestedProducts": 3,
-      "width": "33%"
+      "autocompleteAlignment": "left"
     }
   },
-  "autocomplete-result-list.v2": {
+  "autocomplete-result-list.v2#main": {
     "blocks": ["product-summary.shelf"],
     "props": {
-      "maxSuggestedProducts": 3
-      // "__unstableProductOriginVtex": true
+      "maxSuggestedProducts": 2
     }
   },
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo_masxmenos.svg",
-      "width": "120"
+      "url": "/arquivos/gbarbosa_logo.png",
+      "width": "62"
     }
   },
   /*"minicart.v2": {
@@ -411,7 +457,7 @@
   "rich-text#empty-state": {
     "title": "Minicart - Mensaje de carrito vacío",
     "props": {
-      "text": "¡ Tu carrito esta vacío !"
+      "text": "Seu carrinho está vazio"
     }
   }
 }

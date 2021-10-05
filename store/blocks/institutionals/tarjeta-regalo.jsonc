@@ -1,0 +1,610 @@
+{
+  "store.custom#tarjeta-regalo": {
+    "blocks": [
+      "responsive-layout.desktop#tarjeta-regalo",
+      "responsive-layout.mobile#tarjeta-regalo"
+    ]
+  },
+  "responsive-layout.mobile#tarjeta-regalo": {
+    "children": ["flex-layout.row#tarjeta-regalo-mobile"]
+  },
+  "flex-layout.row#tarjeta-regalo-mobile": {
+    "children": ["flex-layout.col#tarjeta-regalo-mobile"],
+    "props": {
+      "blockClass": "tarjeta-regalo-pag"
+    }
+  },
+  "flex-layout.col#tarjeta-regalo-mobile": {
+    "children": [
+      "image#tarjeta-regalo-banner-top-mobile",
+      "rich-text#tarjeta-regalo-titulo-de-pagina",
+      "rich-text#tarjeta-regalo-texto-linea1",
+      "image#tarjeta-regalo-card",
+      "flex-layout.col#tarjeta-regalo-item1",
+      "flex-layout.col#tarjeta-regalo-item2",
+      "flex-layout.col#tarjeta-regalo-item3",
+      "flex-layout.col#tarjeta-regalo-item4",
+
+      "flex-layout.col#tarjeta-regalo-especial1",
+      "flex-layout.col#tarjeta-regalo-especial2",
+
+      "rich-text#tarjeta-regalo-linea3-titulo-de-pagina",
+      "rich-text#tarjeta-regalo-linea3-texto-linea1",
+      "image#tarjeta-regalo-card",
+      "flex-layout.col#tarjeta-regalo-linea3-item1",
+      "flex-layout.col#tarjeta-regalo-linea3-item3",
+      "flex-layout.col#tarjeta-regalo-linea3-item4",
+
+      "rich-text#tarjeta-regalo-linea3-especial1"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["tarjeta-regalo-pag", "tarjeta-regalo-pag-mob"]
+    }
+  },
+  "image#tarjeta-regalo-banner-top-mobile": {
+    "props": {
+      "src": "/arquivos/regalo_desktop.jpg"
+    }
+  },
+
+  "responsive-layout.desktop#tarjeta-regalo": {
+    "children": ["flex-layout.row#tarjeta-regalo"]
+  },
+  "flex-layout.row#tarjeta-regalo": {
+    "children": ["flex-layout.col#tarjeta-regalo"],
+    "props": {
+      "blockClass": "tarjeta-regalo-pag"
+    }
+  },
+  "flex-layout.col#tarjeta-regalo": {
+    "children": [
+      "flex-layout.col#tarjeta-regalo-linea1",
+      "flex-layout.row#tarjeta-regalo-linea2",
+      "flex-layout.row#tarjeta-regalo-linea3"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "tarjeta-regalo-pag"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-linea1": {
+    "children": ["image#tarjeta-regalo-banner-top"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "image#tarjeta-regalo-banner-top": {
+    "props": {
+      "src": "/arquivos/banner_regalo_desktop.jpg"
+    }
+  },
+
+  "flex-layout.row#tarjeta-regalo-linea2": {
+    "children": [
+      "flex-layout.col#tarjeta-regalo-col1",
+      "flex-layout.col#tarjeta-regalo-col2"
+    ],
+    "props": {
+      "blockClass": ["tarjeta-regalo-linea-middle", "border-bottom"]
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-col1": {
+    "children": [
+      "rich-text#tarjeta-regalo-titulo-de-pagina",
+      "rich-text#tarjeta-regalo-texto-linea1",
+      "flex-layout.col#tarjeta-regalo-item1",
+      "flex-layout.col#tarjeta-regalo-item2",
+      "flex-layout.col#tarjeta-regalo-item3",
+      "flex-layout.col#tarjeta-regalo-item4"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-titulo-de-pagina": {
+    "props": {
+      "text": "Tarjeta de Regalo",
+      "blockClass": "titulo-pag-tarjeta-regalo"
+    }
+  },
+  "rich-text#tarjeta-regalo-texto-linea1": {
+    "props": {
+      "text": "¿No sabés que regalar? Con nuestras tarjetas de regalo vos decidís el monto y quien lo recibe escoge lo que quiera",
+      "blockClass": "text-pag-tarjeta-regalo"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-item1": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-item1-linea1",
+      "flex-layout.row#tarjeta-regalo-item1-linea2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-item1-linea1": {
+    "children": [
+      "image#tarjeta-regalo-item1",
+      "rich-text#tarjeta-regalo-item1"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item"
+    }
+  },
+  "image#tarjeta-regalo-item1": {
+    "props": {
+      "src": "/arquivos/icon_beneficios.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-item1": {
+    "props": {
+      "text": "Beneficios",
+      "blockClass": "tarjeta-regalo-title-item"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-item1-linea2": {
+    "children": ["rich-text#tarjeta-regalo-item1-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-item1-linea2": {
+    "props": {
+      "text": "• Son recargables. \n\n• Variedad de diseños a elegir. \n\n• Podés realizar canjes parciales o en una solo compra \n\n• No hay restricciones de compra en productos con precios especiales.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-item2": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-item2-linea1",
+      "flex-layout.row#tarjeta-regalo-item2-linea2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-item2-linea1": {
+    "children": [
+      "image#tarjeta-regalo-item2",
+      "rich-text#tarjeta-regalo-item2"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item"
+    }
+  },
+  "image#tarjeta-regalo-item2": {
+    "props": {
+      "src": "/arquivos/icon_cuotas.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-item2": {
+    "props": {
+      "text": "¿Cómo Funciona?",
+      "blockClass": "tarjeta-regalo-title-item"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-item2-linea2": {
+    "children": ["rich-text#tarjeta-regalo-item2-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-item2-linea2": {
+    "props": {
+      "text": "La vigencia es de un año a partir de su activación o última compra. Ver restricciones al dorso del plástico.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-item3": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-item3-linea1",
+      "flex-layout.row#tarjeta-regalo-item3-linea2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-item3-linea1": {
+    "children": [
+      "image#tarjeta-regalo-item3",
+      "rich-text#tarjeta-regalo-item3"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item"
+    }
+  },
+  "image#tarjeta-regalo-item3": {
+    "props": {
+      "src": "/arquivos/icon_cuotas.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-item3": {
+    "props": {
+      "text": "¿Cómo adquirirla?",
+      "blockClass": "tarjeta-regalo-title-item"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-item3-linea2": {
+    "children": ["rich-text#tarjeta-regalo-item3-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-item3-linea2": {
+    "props": {
+      "text": "Acercate a cualquier caja y solicitala indicando el monto a recargar y listo. Obsequiá la opción de elegir.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-item4": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-item4-linea1",
+      "flex-layout.row#tarjeta-regalo-item4-linea2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-item4-linea1": {
+    "children": [
+      "image#tarjeta-regalo-item4",
+      "rich-text#tarjeta-regalo-item4"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item"
+    }
+  },
+  "image#tarjeta-regalo-item4": {
+    "props": {
+      "src": "/arquivos/icon_cuotas.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-item4": {
+    "props": {
+      "text": "Monto",
+      "blockClass": "tarjeta-regalo-title-item"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-item4-linea2": {
+    "children": ["rich-text#tarjeta-regalo-item4-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-item4-linea2": {
+    "props": {
+      "text": "Recargá desde ₡ 3.000 hasta un máximo de ₡ 280.000.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-col2": {
+    "children": [
+      "image#tarjeta-regalo-card",
+      "flex-layout.col#tarjeta-regalo-especial1",
+      "flex-layout.col#tarjeta-regalo-especial2"
+    ],
+    "props": {
+      "blockClass": "tarjeta-regalo-col2",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#tarjeta-regalo-card": {
+    "props": {
+      "src": "/arquivos/regalo_card.png",
+      "blockClass": "tarjeta-de-regalo-card"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-especial1": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-especial1-linea1",
+      "flex-layout.row#tarjeta-regalo-especial1-linea2"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-especial1-linea1": {
+    "children": [
+      "image#tarjeta-regalo-especial1",
+      "rich-text#tarjeta-regalo-especial1"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item-especial"
+    }
+  },
+  "image#tarjeta-regalo-especial1": {
+    "props": {
+      "src": "/arquivos/vineta.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-especial1": {
+    "props": {
+      "text": "Proceso de canje",
+      "blockClass": "tarjeta-regalo-title-item-especial"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-especial1-linea2": {
+    "children": ["rich-text#tarjeta-regalo-especial1-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-especial1-linea2": {
+    "props": {
+      "text": "• Visitá tu tienda mas cercana y elegí el producto que más te guste. \n\n• En el área de cajas utilizá la Tarjeta de Regalo como medio de pago. \n\n• Si el monto disponible en la Tarjeta de Regalo es mayor a tu compra, podés utilizar el saldo en tu próxima compra. \n\n• Si el monto disponible en la Tarjeta de Regalo es menor a tu compra, podés cancelar la diferencia en efectivo o con tarjeta de crédito o débito.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-especial2": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-especial2-linea1",
+      "flex-layout.row#tarjeta-regalo-especial2-linea2"
+    ],
+    "props": {
+      "blockClass": "",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-especial2-linea1": {
+    "children": [
+      "image#tarjeta-regalo-especial2",
+      "rich-text#tarjeta-regalo-especial2"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item-especial"
+    }
+  },
+  "image#tarjeta-regalo-especial2": {
+    "props": {
+      "src": "/arquivos/vineta.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-especial2": {
+    "props": {
+      "text": "Consulta de saldo",
+      "blockClass": "tarjeta-regalo-title-item-especial"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-especial2-linea2": {
+    "children": ["rich-text#tarjeta-regalo-especial2-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-especial2-linea2": {
+    "props": {
+      "text": "Existen tres formas de conocer el saldo de tu tarjeta de regalo: \n\n• Llamando a la línea de Servicio al Cliente que aparece al reverso de tu Tarjeta de Regalo. \n\n• En las tiendas consultando en caja. \n\n• En la parte inferior de tu tiquete de compra.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.row#tarjeta-regalo-linea3": {
+    "children": [
+      "flex-layout.col#tarjeta-regalo-linea3-col1",
+      "flex-layout.col#tarjeta-regalo-linea3-col2"
+    ],
+    "props": {
+      "blockClass": "tarjeta-regalo-linea-middle"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-linea3-col1": {
+    "children": [
+      "rich-text#tarjeta-regalo-linea3-titulo-de-pagina",
+      "rich-text#tarjeta-regalo-linea3-texto-linea1",
+      "flex-layout.col#tarjeta-regalo-linea3-item1",
+      "flex-layout.col#tarjeta-regalo-linea3-item3",
+      "flex-layout.col#tarjeta-regalo-linea3-item4"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-linea3-titulo-de-pagina": {
+    "props": {
+      "text": "Tarjeta de Regalo Insitucional",
+      "blockClass": [
+        "titulo-pag-tarjeta-regalo",
+        "titulo-pag-tarjeta-regalo-mob"
+      ]
+    }
+  },
+  "rich-text#tarjeta-regalo-linea3-texto-linea1": {
+    "props": {
+      "text": "Ideales para reconocer, agradecer o recompensar a tu equipo de trabajo.",
+      "blockClass": "text-pag-tarjeta-regalo"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-linea3-item1": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-linea3-item1-linea1",
+      "flex-layout.row#tarjeta-regalo-linea3-item1-linea2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-linea3-item1-linea1": {
+    "children": [
+      "image#tarjeta-regalo-linea3-item1",
+      "rich-text#tarjeta-regalo-linea3-item1"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item"
+    }
+  },
+  "image#tarjeta-regalo-linea3-item1": {
+    "props": {
+      "src": "/arquivos/icon_beneficios.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-linea3-item1": {
+    "props": {
+      "text": "Beneficios",
+      "blockClass": "tarjeta-regalo-title-item"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-linea3-item1-linea2": {
+    "children": ["rich-text#tarjeta-regalo-linea3-item1-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-linea3-item1-linea2": {
+    "props": {
+      "text": "• Variedad de diseños a elegir. \n\n• Fáciles de almacenar \n\n• Prácticas para cualquier ocasión.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-linea3-item3": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-linea3-item3-linea1",
+      "flex-layout.row#tarjeta-regalo-linea3-item3-linea2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-linea3-item3-linea1": {
+    "children": [
+      "image#tarjeta-regalo-linea3-item3",
+      "rich-text#tarjeta-regalo-linea3-item3"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item"
+    }
+  },
+  "image#tarjeta-regalo-linea3-item3": {
+    "props": {
+      "src": "/arquivos/icon_cuotas.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-linea3-item3": {
+    "props": {
+      "text": "¿Cómo adquirirla?",
+      "blockClass": "tarjeta-regalo-title-item"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-linea3-item3-linea2": {
+    "children": ["rich-text#tarjeta-regalo-linea3-item3-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-linea3-item3-linea2": {
+    "props": {
+      "text": "Para compras mayores a $3,000, comunícate al <span class='vtex-rich-text-0-x-paragraph--textoazul'>(506) 2582-8762</span> o envía tu solicitud a <span class='vtex-rich-text-0-x-paragraph--textoazul'>ventascr@walmart.com</span>. \n\n La vigencia es de un año a partir de su activación o última compra. Ver restricciones al dorso del plástico.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-linea3-item4": {
+    "children": [
+      "flex-layout.row#tarjeta-regalo-linea3-item4-linea1",
+      "flex-layout.row#tarjeta-regalo-linea3-item4-linea2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ""
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-linea3-item4-linea1": {
+    "children": [
+      "image#tarjeta-regalo-linea3-item4",
+      "rich-text#tarjeta-regalo-linea3-item4"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "tarjeta-regalo-item"
+    }
+  },
+  "image#tarjeta-regalo-linea3-item4": {
+    "props": {
+      "src": "/arquivos/icon_cuotas.svg",
+      "blockClass": "tarjeta-regalo-item-icono"
+    }
+  },
+  "rich-text#tarjeta-regalo-linea3-item4": {
+    "props": {
+      "text": "Monto",
+      "blockClass": "tarjeta-regalo-title-item"
+    }
+  },
+  "flex-layout.row#tarjeta-regalo-linea3-item4-linea2": {
+    "children": ["rich-text#tarjeta-regalo-linea3-item4-linea2"],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "rich-text#tarjeta-regalo-linea3-item4-linea2": {
+    "props": {
+      "text": "Recargá desde ₡ 3.000 hasta un máximo de ₡ 280.000.",
+      "blockClass": "como-comprar-white-text"
+    }
+  },
+
+  "flex-layout.col#tarjeta-regalo-linea3-col2": {
+    "children": [
+      "image#tarjeta-regalo-linea3-card",
+      "rich-text#tarjeta-regalo-linea3-especial1"
+    ],
+    "props": {
+      "blockClass": "tarjeta-regalo-col2",
+      "preventVerticalStretch": true
+    }
+  },
+  "image#tarjeta-regalo-linea3-card": {
+    "props": {
+      "src": "/arquivos/regalo_card.png",
+      "blockClass": [
+        "tarjeta-de-regalo-card",
+        "tarjeta-de-regalo-card-margin-bottom"
+      ]
+    }
+  },
+
+  "rich-text#tarjeta-regalo-linea3-especial1": {
+    "props": {
+      "text": "<span class='vtex-rich-text-0-x-paragraph--textomediano'>Envíos disponibles únicamente para ventas corporativas y sujeto a ubicación geográfica.</span>",
+      "blockClass": ["como-comprar-white-text", "text-margin-mobile"]
+    }
+  }
+}
