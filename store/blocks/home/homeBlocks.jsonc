@@ -553,14 +553,14 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#main-slider-home2"],
     "props": {
-      "category": "4"
+      "category": "8"
     }
   },
   "list-context.product-list#tab-layout-home": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#main-slider-home2-tab"],
     "props": {
-      "category": "4"
+      "category": "8"
     }
   },
   "shelf#the-new": {
@@ -736,7 +736,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#main-slider-home2"],
     "props": {
-      "category": "4"
+      "category": "8"
     }
   },
   "shelf#featured-product": {
@@ -883,10 +883,10 @@
     }
   },
   "list-context.product-list#shelf-home2-featured-product-offers": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#offers-home"],
     "children": ["slider-layout#main-slider-home2"],
     "props": {
-      "category": "4"
+      "category": "8"
     }
   },
   "shelf#offers": {
@@ -910,7 +910,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#main-slider-home2"],
     "props": {
-      "category": "4"
+      "category": "8"
     }
   },
   "slider-layout#main-slider-home2": {
@@ -1104,7 +1104,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#main-slider-home2"],
     "props": {
-      "category": "4"
+      "category": "8"
     }
   },
   "shelf#the-best-electronics": {

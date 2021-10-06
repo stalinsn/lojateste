@@ -58,6 +58,22 @@
       //"add-to-cart-button"
     ]
   },
+  "product-summary.shelf#offers-home": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-rating-inline",
+      "product-summary-name",
+      "product-summary-brand",
+      //"product-summary-price",
+      "price-custom",
+      "global-promo#2x",
+      "global-promo#3x",
+      "max-installments",
+      //"product-summary-space",
+      "quantity-selector.summary"
+      //"add-to-cart-button"
+    ]
+  },
 
   "global-promo#2x": {
     "props": {
@@ -114,7 +130,8 @@
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#savings",
-      "flex-layout.row#add-wishlist"
+      "flex-layout.row#add-wishlist",
+      "personal-flag"
     ]
   },
   "flex-layout.row#add-wishlist": {
