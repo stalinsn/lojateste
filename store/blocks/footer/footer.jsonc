@@ -118,7 +118,7 @@
   },
   "rich-text#store-footer-text-sac": {
     "props": {
-      "text": "### (71) 9990-16180 0800 000 00 000  \n delivery@gbarbosa.com.br",
+      "text": "(71) 9990-16180 \n 0800 000 00 000  \n delivery@gbarbosa.com.br",
       "blockClass": "footer-text-sac"
     }
   },
