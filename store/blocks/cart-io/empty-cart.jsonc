@@ -1,0 +1,160 @@
+
+{
+	//Container
+	"flex-layout.row#empty-cart-container": {
+		"children": ["flex-layout.col#empty-cart-content"],
+		"props": {
+			"blockClass": ["empty-cart-container", "ctnr-default"]
+		},
+		"title": "Carrinho vazio"
+	},
+
+	"flex-layout.col#empty-cart-content": {
+		"children": ["flex-layout.row#checkout-cart-title","flex-layout.row#empty-cart-infos-container"],
+		"props": {
+			"blockClass": "empty-cart-content"
+		}
+	},
+	"flex-layout.row#empty-cart-infos-container": {
+		"children": ["flex-layout.col#empty-cart-infos"]
+	},
+	"flex-layout.col#empty-cart-infos": {
+		"children": [
+			"flex-layout.row#empty-cart-container-1"
+		],
+		"props": {
+			"blockClass": "empty-cart-infos"
+		}
+	},
+
+	"flex-layout.row#empty-cart-container-1": {
+		"children": ["flex-layout.col#empty-cart-content-1"],
+		"props": {
+			"blockClass": "empty-cart-container-1"
+		}
+	},
+
+	"flex-layout.col#empty-cart-content-1": {
+		"children": ["flex-layout.row#empty-cart-messages"],
+		"props": {
+			"blockClass": "empty-cart-content-1"
+		}
+	},
+
+	"flex-layout.row#empty-cart-container-2": {
+		"children": ["flex-layout.col#empty-cart-content-2"],
+		"props": {
+			"blockClass": "empty-cart-container-2"
+		},
+		"title": "Content 2"
+	},
+
+	"flex-layout.col#empty-cart-content-2": {
+		"children": ["flex-layout.row#empty-cart-line", "flex-layout.row#empty-cart-login"],
+		"props": {
+			"blockClass": "empty-cart-content-2"
+		}
+	},
+
+	//Mensagens do carrinho
+	"flex-layout.row#empty-cart-messages": {
+		"children": ["flex-layout.col#empty-cart-messages"],
+		"props": {
+			"blockClass": "empty-cart-messages-container",
+			"paddingTop": 4,
+			"paddingBottom": 4
+		},
+		"title": "Mensagens do carrinho"
+	},
+
+	"flex-layout.col#empty-cart-messages": {
+		"children": ["rich-text#empty-cart-message-1", "rich-text#empty-cart-message-2", "rich-text#empty-cart-message-3"],
+		"props": {
+			"blockClass": "empty-cart-messages-content"
+		}
+	},
+
+	"rich-text#empty-cart-message-1": {
+		"props": {
+			"text": "Seu carrinho está vazio :(",
+			"blockClass": "empty-cart-message-1",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		},
+		"title": "Mensagem 1"
+	},
+
+	"rich-text#empty-cart-message-2": {
+		"props": {
+			"text": "Para continuar comprando, navegue pelas categorias do site ou faça uma busca pelo seu produto.",
+			"blockClass": "empty-cart-message-2",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		},
+		"title": "Mensagem 2"
+	},
+	"rich-text#empty-cart-message-3": {
+		"props": {
+			"text": "[Escolher produtos](/)",
+			"blockClass": "empty-cart-button",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		},
+		"title": "Mensagem 2"
+	},
+
+	//Linha divisória
+	"flex-layout.row#empty-cart-line": {
+		"children": ["rich-text#empty-cart-line"],
+		"props": {
+			"blockClass": "empty-cart-line-container"
+		},
+		"title": "Linha de quebra"
+	},
+
+	"rich-text#empty-cart-line": {
+		"props": {
+			"text": "ou",
+			"blockClass": "empty-cart-line-text",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		},
+		"title": "Texto de quebra"
+	},
+
+	//Login
+	"flex-layout.row#empty-cart-login": {
+		"children": ["flex-layout.col#empty-cart-login"],
+		"props": {
+			"blockClass": "empty-cart-login-container"
+		},
+		"title": "Container de login"
+	},
+
+	"flex-layout.col#empty-cart-login": {
+		"children": ["rich-text#empty-cart-login1", "rich-text#empty-cart-login2"],
+		"props": {
+			"blockClass": "empty-cart-login-content"
+		}
+	},
+
+	"rich-text#empty-cart-login1": {
+		"props": {
+			"text": "[entrar](/login 'Entrar')",
+			"blockClass": "empty-cart-login1",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		},
+		"title": "Link de login"
+	},
+
+	"rich-text#empty-cart-login2": {
+		"props": {
+			"text": "Ainda não tem conta? [Cadastre-se](/login 'Cadastre-se')",
+			"blockClass": "empty-cart-login2",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		},
+		"title": "Link de cadastro"
+	}
+}
