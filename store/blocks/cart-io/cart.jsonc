@@ -1,0 +1,30 @@
+{
+  "store.checkout.cart#gbarbosa": {
+    "blocks": ["checkout-cart#checkout-cart"],
+    "render": "client"
+  },
+
+  "checkout-cart#checkout-cart": {
+    "blocks": [
+      "checkout-cart-single-col#checkout-cart-mobile",
+      "checkout-cart-two-cols#checkout-cart-desktop",
+      "empty-state#checkout-cart-empty"
+    ],
+    "render": "client"
+  },
+
+  //Mobile
+  "checkout-cart-single-col#checkout-cart-mobile": {
+    "children": ["flex-layout.row#mobile-cart-container"]
+  },
+
+  //Desktop
+  "checkout-cart-two-cols#checkout-cart-desktop": {
+    "children": ["flex-layout.row#desktop-cart-container"]
+  },
+
+  //Carrinho vazio
+  "empty-state#checkout-cart-empty": {
+    "children": ["flex-layout.row#empty-cart-container"]
+  }
+}
