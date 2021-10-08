@@ -8,11 +8,14 @@
   "flex-layout.row#menu-items-header-row": {
     "children": [
       "menu-item#institutional-header",
-      "menu-item#reduction",
-      "menu-item#our-brands",
-      "menu-item#family-size",
-      "menu-item#parrilleros",
-      "menu-item#solds"
+      "menu-item#sales",
+      "menu-item#services",
+      "menu-item#collections",
+      "menu-item#recipes",
+      "menu-item#our-stores",
+      "menu-item#gproducts",
+      "menu-item#cencosud-card",
+      "menu-item#best sales"
     ],
     "props": {
       "blockClass": "menu-item-faqs",
@@ -52,7 +55,7 @@
       }
     }
   },
-  "menu-item#reduction": {
+  "menu-item#cencosud-card": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -68,7 +71,7 @@
       }
     }
   },
-  "menu-item#family-size": {
+  "menu-item#collections": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -79,12 +82,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Coleções",
-        "text": "Coleções"
+        "tagTitle": "Coleção",
+        "text": "Coleção"
       }
     }
   },
-  "menu-item#our-brands": {
+  "menu-item#sales": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -100,7 +103,7 @@
       }
     }
   },
-  "menu-item#parrilleros": {
+  "menu-item#recipes": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -116,7 +119,7 @@
       }
     }
   },
-  "menu-item#solds": {
+  "menu-item#our-stores": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -127,8 +130,56 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Mais vendidos",
-        "text": "Mais vendidos"
+        "tagTitle": "Lojas",
+        "text": "Lojas"
+      }
+    }
+  },
+  "menu-item#services": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/",
+        "tagTitle": "Serviços",
+        "text": "Serviços"
+      }
+    }
+  },
+  "menu-item#gproducts": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/",
+        "tagTitle": "Produtos GBarbosa",
+        "text": "Produtos GBarbosa"
+      }
+    }
+  },
+  "menu-item#best sales": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/",
+        "tagTitle": "Top Vendas",
+        "text": "Top Vendas"
       }
     }
   }

@@ -942,10 +942,19 @@
   },
   //BEST SELLER
   "flex-layout.row#best-seller": {
-    "children": ["rich-text#best-seller", "link#ver-tudo#home-6"],
+    "children": ["rich-text#departments-title", "link#ver-tudo#home-6"],
     "props": {
       "blockClass": "best-seller",
       "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#departments-title": {
+    "title": "Recomended products title",
+    "props": {
+      "textAlignment": "center",
+      "textPosition": "center",
+      "text": "**O melhor de cada departamento**",
+      "blockClass": ["title-surprise", "best-seller"]
     }
   },
   "rich-text#best-seller": {
@@ -971,6 +980,17 @@
     "props": {
       "src": "/arquivos/home_banner10.png"
     }
+  },
+  "flex-layout.row#custom-4-images-container": {
+    "children": [
+      "flex-layout.col#custom-4-images-container"
+    ]
+  },
+  "flex-layout.col#custom-4-images-container": {
+    "children": [
+      "rich-text#best-seller",
+      "flex-layout.row#custom-4-images"
+    ]
   },
   "flex-layout.row#custom-4-images": {
     "children": [

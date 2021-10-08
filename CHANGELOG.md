@@ -7,13 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.2.3] - 2021-10-07
+### Added
+- Shipping simulator implemented on pdp
+### Fixed
 
-## [0.2.2] - 2021-10-07
-
-## [0.2.1] - 2021-10-07
-
-## [0.2.0] - 2021-10-07
+- Link of "trabalhe conosco" on footer
+- Menu links on header
+- SAC phone styling
+- Title of best sellers section
 
 ## [0.1.4] - 2021-09-23
 
