@@ -146,6 +146,7 @@
       "global-promo#2x",
       "global-promo#3x",
       "flex-layout.row#components-qty",
+      "flex-layout.row#shipping-simulator",
       "flex-layout.row#product-tabs"
     ],
 
@@ -156,6 +157,17 @@
     }
   },
 
+  "flex-layout.row#shipping-simulator": {
+    "children": [
+      "flex-layout.col#shipping-simulator-content"
+    ],
+    "props": {
+      "blockClass": "shipping-simulator"
+    }
+  },
+  "flex-layout.col#shipping-simulator-content": {
+    "children": ["shipping-simulator"]
+  },
   "flex-layout.row#upcbox": {
     "children": ["product-identifier.product"],
 
