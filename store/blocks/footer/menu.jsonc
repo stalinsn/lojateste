@@ -297,14 +297,13 @@
 
   "menu-item#servicios-3": {
     "props": {
-      "blockClass": ["read-only", "subtitle-footer"],
       "id": "menu-item-2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        //"href": "/",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Trabalhe Conosco",
         "text": "Trabalhe Conosco"
