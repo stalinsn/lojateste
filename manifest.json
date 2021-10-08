@@ -1,7 +1,7 @@
 {
   "vendor": "gbarbosa",
   "name": "gbarbosa-store",
-  "version": "0.1.4",
+  "version": "0.2.3",
   "builders": {
     "docs": "0.x",
     "sitemap": "0.x",
@@ -72,6 +72,9 @@
     "vtex.overlay-layout": "0.x",
     "vtex.store-form": "0.x",
     "vtex.disclosure-layout": "1.x",
+    "vtex.checkout": "1.x",
+    "vtex.coupon": "0.x",
+    "vtex.checkout-cart": "0.x",
     "gbarbosa.store-selector": "1.x",
     "gbarbosa.wishlist": "0.x"
   },

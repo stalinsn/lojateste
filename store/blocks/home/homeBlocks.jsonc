@@ -883,7 +883,7 @@
     }
   },
   "list-context.product-list#shelf-home2-featured-product-offers": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#offers-home"],
     "children": ["slider-layout#main-slider-home2"],
     "props": {
       "category": "4"

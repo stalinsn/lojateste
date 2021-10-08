@@ -1,0 +1,14 @@
+<svg  height="0" version="1.1" width="0" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="hpa-delete">
+      <g id="Grupo_1749" data-name="Grupo 1749">
+       <path id="Caminho_7109" data-name="Caminho 7109" d="M0,0H16V16H0Z" fill="none"/>
+      </g>
+      <g id="Grupo_1751" data-name="Grupo 1751" transform="translate(3.605 3.605)">
+        <g id="Grupo_1750" data-name="Grupo 1750">
+          <path id="Caminho_7110" data-name="Caminho 7110" d="M19.25,5.732h0a1.069,1.069,0,0,0-1.514,0l-5.25,5.24-5.25-5.25a1.069,1.069,0,0,0-1.514,0h0a1.069,1.069,0,0,0,0,1.514l5.25,5.25-5.25,5.25a1.069,1.069,0,0,0,0,1.514h0a1.069,1.069,0,0,0,1.514,0L12.486,14l5.25,5.25a1.069,1.069,0,0,0,1.514,0h0a1.069,1.069,0,0,0,0-1.514L14,12.486l5.25-5.25A1.076,1.076,0,0,0,19.25,5.732Z" transform="translate(-8.091 -8.091)" fill="#898989"/>
+       </g>
+      </g>
+    </g>
+  </defs>
+</svg>
