@@ -220,7 +220,7 @@
     }
   },
   "flex-layout.row#price-details": {
-    "children": ["price-custom", "flex-layout.row#flags-pdp"],
+    "children": ["price-custom", "flex-layout.row#flags-pdp", "installments"],
     "props": {
       "blockClass": "price-details"
     }
