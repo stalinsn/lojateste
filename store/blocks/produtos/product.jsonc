@@ -143,8 +143,8 @@
       "flex-layout.row#namebox",
       "flex-layout.row#sku",
       "flex-layout.col#product-price",
-      "global-promo#2x",
-      "global-promo#3x",
+      // "global-promo#2x",
+      // "global-promo#3x",
       "flex-layout.row#components-qty",
       "flex-layout.row#shipping-simulator",
       "flex-layout.row#product-tabs"
@@ -497,8 +497,8 @@
       "flex-layout.row#namebox",
       "flex-layout.row#sku",
       "flex-layout.col#product-price",
-      "global-promo#2x",
-      "global-promo#3x",
+      // "global-promo#2x",
+      // "global-promo#3x",
       "flex-layout.row#components-qty"
     ]
   }
