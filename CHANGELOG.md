@@ -7,10 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Payment Options on PDP
+
+### Fix
+- Newsletter submit text
+
 ## [0.2.4] - 2021-10-08
 
 ### Added
 - Shipping simulator implemented on pdp
+
 ### Fixed
 
 - Link of "trabalhe conosco" on footer
