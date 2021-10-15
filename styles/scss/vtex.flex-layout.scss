@@ -3,7 +3,10 @@
 .flexRowContent--menu-link {
   padding: 0 0.5rem;
 }
-
+.flexCol--minicart-main-infos {
+  max-width: 225px;
+    margin: 0 10px;
+}
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link {
     padding: 0 1rem;
