@@ -14,9 +14,54 @@
     "blocks": ["minicart-empty-state#custom"],
     "children": [
       "empty-car",
-      "quantity-selector.minicart", ///all products
+      "minicart-product-list#new-minicart",
+      // "quantity-selector.minicart",
+      // "quantity-selector-custom",
+      ///all products
       "flex-layout.row#minicart-footer-custom"
     ]
+  },
+  "minicart-product-list#new-minicart": {
+    "blocks": ["product-list#minicart-new"]
+  },
+  "product-list#minicart-new": {
+    "blocks": ["product-list-content-desktop", "product-list-content-mobile"]
+  },
+  "product-list-content-desktop": {
+    "children": ["flex-layout.row#minicart-content-container"]
+  },
+  "product-list-content-mobile": {
+    "children": ["flex-layout.row#minicart-content-container"]
+  },
+  "flex-layout.row#minicart-content-container": {
+    "children": [
+      "product-list-image",
+      "flex-layout.col#minicart-main-infos",
+      "remove-button"
+    ],
+    "props": {
+      "blockClass": "minicart-container-content"
+    }
+  },
+  "flex-layout.col#minicart-main-infos": {
+    "children": [
+      "vtex.product-list:product-name",
+       "flex-layout.row#pricing-infos-minicart"
+      //  "remove-button"
+      ]
+  },
+  "flex-layout.row#pricing-infos-minicart": {
+    "children": [
+      "quantity-selector-custom#minicart",
+      "vtex.product-list:price"
+
+    ]
+  },
+  "quantity-selector-custom#minicart": {
+    "props": {
+      "isMinicart": true
+      
+    }
   },
   "flex-layout.row#minicart-footer-custom": {
     "props": {
@@ -41,16 +86,16 @@
     }
   },
 
-  "minicart-product-list#custom": {
-    "blocks": ["product-list#minicart-custom"]
-  },
+  // "minicart-product-list#custom": {
+  //   "blocks": ["product-list#minicart-custom"]
+  // },
   "product-list#minicart-custom": {
     "blocks": ["product-list-content-desktop", "product-list-content-mobile"]
   },
 
-  "product-list-content-desktop": {
-    "children": ["flex-layout.row#list-row.desktop"]
-  },
+  // "product-list-content-desktop": {
+  //   "children": ["flex-layout.row#list-row.desktop"]
+  // },
 
   "flex-layout.row#list-row.desktop": {
     "children": [
@@ -159,9 +204,9 @@
       "layout": "cols"
     }
   },
-  "product-list-content-mobile": {
-    "children": ["flex-layout.row#list-row.mobile"]
-  },
+  // "product-list-content-mobile": {
+  //   "children": ["flex-layout.row#list-row.mobile"]
+  // },
   "flex-layout.row#list-row.mobile": {
     "children": [
       "flex-layout.col#image.mobile",

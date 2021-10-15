@@ -55,7 +55,8 @@
       "personal-price",
       "max-installments",
       //"product-summary-space",
-      "quantity-selector.summary"
+      "quantity-selector-custom"
+
       //"add-to-cart-button"
     ]
   },
