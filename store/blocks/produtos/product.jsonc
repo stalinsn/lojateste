@@ -239,7 +239,7 @@
     }
   },
   "flex-layout.row#components-qty": {
-    "children": ["quantity-selector.pdp"],
+    "children": ["quantity-selector-custom"],
 
     "props": {
       "marginTop": 4,
