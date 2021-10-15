@@ -484,4 +484,32 @@
   }
 }
 
+/* QUANTITY SELECTOR CUSTOM - SHELF */
+
+:global(.vtex-product-summary-2-x-container) {
+  :global(.vtex-numeric-stepper-container) {
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+
+    :global(.vtex-numeric-stepper__input),
+    :global(.vtex-numeric-stepper__plus-button),
+    :global(.vtex-numeric-stepper__minus-button) {
+      border: 0;
+      height: 32px;
+    }
+
+    :global(.vtex-numeric-stepper__input) {
+      max-width: 64px;
+    }
+
+    :global(.vtex-numeric-stepper__plus-button-container) {
+      margin-right: auto;
+    }
+
+    :global(.vtex-numeric-stepper__minus-button-container) {
+      margin-left: auto;
+    }
+  }
+}
+
 @import "./order-placed/supermxmcr-orderplaced";
