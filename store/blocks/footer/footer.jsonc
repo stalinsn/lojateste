@@ -68,7 +68,7 @@
 
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "image#footer-logo",
+      "flex-layout.col#footer-logo",
       "flex-layout.col#footer-desktop-pre-col",
       "flex-layout.col#footer-1-desktop",
       "flex-layout.col#footer-2-desktop",
@@ -89,6 +89,14 @@
       "blockClass": "footer-logo"
     }
   },
+  "flex-layout.col#footer-logo": {
+    "children": ["image#footer-logo"],
+    "props": {
+      "width": "9%",
+      "preventVerticalStretch": true,
+      "blockClass": "footer-logo"
+    }
+  },
   "flex-layout.col#footer-desktop-pre-col": {
     "children": ["rich-text#store-footer", "rich-text#store-footer-text"],
     "props": {
@@ -99,7 +107,7 @@
   },
   "rich-text#store-footer": {
     "props": {
-      "text": "GBarbosa",
+      "text": "",
       "blockClass": "title-menu-footer"
     }
   },
