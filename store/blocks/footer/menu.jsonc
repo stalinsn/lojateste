@@ -38,7 +38,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/terminos-y-condiciones-de-compra",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Quem somos ",
         "text": "Quem somos "
@@ -54,7 +54,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/aviso-de-privacidad-ecommerce",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Quem somos",
         "text": "Quem somos"
@@ -70,10 +70,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/reglamento-de-promociones",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Forma de Entrega",
-        "text": "Forma de Entrega"
+        "tagTitle": "Grupo Cencosud",
+        "text": "Grupo Cencosud"
       }
     }
   },
@@ -86,10 +86,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acciones-contra-el-covid-19",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Formas de Pagamento",
-        "text": "Formas de Pagamento"
+        "tagTitle": "Trabalhe conosco",
+        "text": "Trabalhe conosco"
       }
     }
   },
@@ -102,7 +102,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/walmart-te-escucha",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Política de Privacidade",
         "text": "Política de Privacidade"
@@ -117,10 +117,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/walmart-te-escucha",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "App GBarbosa",
-        "text": "App GBarbosa"
+        "tagTitle": "Portal do fornecedor",
+        "text": "Portal do fornecedor"
       }
     }
   },
@@ -137,8 +137,11 @@
       "rich-text#footer-ayuda",
       "menu-item#ayuda-1",
       "menu-item#ayuda-2",
-      "menu-item#ayuda-3"
-      // "menu-item#ayuda-4"
+      "menu-item#ayuda-3",
+      "menu-item#ayuda-4",
+      "menu-item#ayuda-5",
+      "menu-item#ayuda-6",
+      "menu-item#ayuda-7"
     ]
   },
 
@@ -147,7 +150,7 @@
     "props": {
       "textAlignment": "",
       "textPosition": "",
-      "text": "Central de ajuda",
+      "text": "Gbarbosa",
       "blockClass": "title-menu-footer"
     }
   },
@@ -160,10 +163,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/como-comprar",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Como comprar",
-        "text": "Como comprar"
+        "tagTitle": "Cartão GBarbosa Cencosud",
+        "text": "Cartão GBarbosa Cencosud"
       }
     }
   },
@@ -176,10 +179,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/localizador-de-tiendas",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Nossas lojas",
-        "text": "Nossas lojas"
+        "tagTitle": "Produtos GBarbosa",
+        "text": "Produtos GBarbosa"
       }
     }
   },
@@ -192,10 +195,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/preguntas-frecuentes",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Preguntas frequentes",
-        "text": "Preguntas frequentes"
+        "tagTitle": "Dicas da Gê",
+        "text": "Dicas da Gê"
       }
     }
   },
@@ -209,10 +212,58 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        //"href": "/",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Entre em contato (71) 9990-16180 0800 000 00 000",
-        "text": "Entre em contato (71) 9990-16180 0800 000 00 000"
+        "tagTitle": "Encontre uma loja",
+        "text": "Encontre uma loja"
+      }
+    }
+  },
+  "menu-item#ayuda-5": {
+    "props": {
+      "blockClass": "read-only",
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Farmácias",
+        "text": "Farmácias"
+      }
+    }
+  },
+  "menu-item#ayuda-6": {
+    "props": {
+      "blockClass": "read-only",
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Eletroshow",
+        "text": "Eletroshow"
+      }
+    }
+  },
+  "menu-item#ayuda-7": {
+    "props": {
+      "blockClass": "read-only",
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Serviços",
+        "text": "Serviços"
       }
     }
   },
@@ -247,9 +298,9 @@
       "menu-item#servicios-1",
       "menu-item#servicios-2",
       "menu-item#servicios-3",
-      "menu-item#servicios-4"
-      // "menu-item#servicios-5"
-      // "menu-item#servicios-6"
+      "menu-item#servicios-4",
+      "menu-item#servicios-5",
+      "menu-item#servicios-6"
     ]
   },
 
@@ -258,7 +309,7 @@
     "props": {
       "textAlignment": "",
       "textPosition": "",
-      "text": "Atendimento",
+      "text": "Central de Atendimento",
       "blockClass": "title-menu-footer"
     }
   },
@@ -271,10 +322,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/tarjeta-de-credito",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Minha conta",
-        "text": "Minha conta"
+        "tagTitle": "Meus pedidos",
+        "text": "Meus pedidos"
       }
     }
   },
@@ -287,10 +338,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/tarjeta-de-regalo",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Meus pedidos",
-        "text": "Meus pedidos"
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
       }
     }
   },
@@ -305,8 +356,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Trabalhe Conosco",
-        "text": "Trabalhe Conosco"
+        "tagTitle": "Formas de pagamento",
+        "text": "Formas de pagamento"
       }
     }
   },
@@ -319,10 +370,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/remesas",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Fale Conosco",
-        "text": "Fale Conosco"
+        "tagTitle": "Dúvidas frequentes (FAQ)",
+        "text": "Dúvidas frequentes (FAQ)"
       }
     }
   },
@@ -335,10 +386,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pago-de-servicios",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Pagos de servicios",
-        "text": "- Pagos de servicios"
+        "tagTitle": "Ofertas do APP",
+        "text": "Ofertas do APP"
       }
     }
   },
@@ -351,10 +402,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/financiamiento",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Financiamiento",
-        "text": "Financiamiento"
+        "tagTitle": "(71) 99901-6180",
+        "text": "(71) 99901-6180"
       }
     }
   },
