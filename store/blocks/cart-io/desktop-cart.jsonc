@@ -54,10 +54,6 @@
     }
   },
 
-  "flex-layout.row#cenconsud-card": {
-    "children": ["cenconsud-card"]
-  },
-
   "flex-layout.row#desktop-right-container": {
     "children": ["flex-layout.col#desktop-right-content"],
     "props": {

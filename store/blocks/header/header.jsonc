@@ -373,8 +373,7 @@
       "__unstableProductOriginVtex": true,
       "width": "grow",
       "openAutocompleteOnFocus": true,
-      "autocompleteAlignment": "left",
-      "DisplayMode": "clear-button"
+      "autocompleteAlignment": "left"
     }
   },
   "autocomplete-result-list.v2#main": {
