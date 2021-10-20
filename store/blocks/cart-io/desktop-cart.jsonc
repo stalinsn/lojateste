@@ -40,14 +40,22 @@
       "preventVerticalStretch": true
     }
   },
+
   "cart-departments": {
     "blocks": ["product-list-content-desktop#checkout-cart"]
   },
   "flex-layout.col#desktop-col-right": {
-    "children": ["flex-layout.row#desktop-right-container"],
+    "children": [
+      "flex-layout.row#desktop-right-container",
+      "flex-layout.row#cenconsud-card"
+    ],
     "props": {
       "blockClass": "checkout-desktop-col-right"
     }
+  },
+
+  "flex-layout.row#cenconsud-card": {
+    "children": ["cenconsud-card"]
   },
 
   "flex-layout.row#desktop-right-container": {
