@@ -44,8 +44,8 @@
     justify-content: center;
   }
 
-  @media screen and (max-width: 767px){
-    :global(.vtex-numeric-stepper-wrapper){
+  @media screen and (max-width: 767px) {
+    :global(.vtex-numeric-stepper-wrapper) {
       position: absolute;
       top: 84px;
       left: 4px;
@@ -75,7 +75,7 @@
 
     padding-bottom: 16px;
 
-    @media screen and (max-width: 767px){
+    @media screen and (max-width: 767px) {
       padding-bottom: 0;
 
       :global(.vtex-button) {
@@ -91,7 +91,7 @@
         }
 
         &::after {
-          content: '';
+          content: "";
           width: 8px;
           height: 8px;
           display: inline-block;
@@ -103,13 +103,47 @@
     }
   }
 }
+
+:global(.vtex-search-2-x-tileListList) {
+  :global(.vtex-product-summary-2-x-element) {
+
+    :global(.vtex-button) {
+      width: 22px !important;
+      min-height: 22px !important;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 12px;
+
+      :global(.vtex-button__label) {
+        display: none;
+      }
+
+      &::after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.461' height='8.461' viewBox='0 0 8.461 8.461'%3E%3Cpath id='Path_36486' data-name='Path 36486' d='M23.4,3.173H21.288V1.058a1.058,1.058,0,1,0-2.115,0V3.173H17.058a1.058,1.058,0,0,0,0,2.115h2.115V7.4a1.058,1.058,0,1,0,2.115,0V5.288H23.4a1.058,1.058,0,1,0,0-2.115Z' transform='translate(-16)' fill='%23fff'/%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      margin-right: 0;
+    }
+  }
+}
+
 .productBrandContainer {
   display: flex;
   border-left: 2px solid #ffd500;
   padding-left: 5px;
   font-size: 13px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }

@@ -559,4 +559,57 @@
   }
 }
 
+:global(.vtex-search-2-x-tileListList){
+  :global(.vtex-product-summary-2-x-container--compact) {
+    :global(.vtex-numeric-stepper-wrapper) {
+      margin-right: 12px;
+      position: inherit;
+
+      :global(.vtex-numeric-stepper__input) {
+        min-width: 32px;
+      }
+
+      :global(.vtex-numeric-stepper__plus-button) {
+        width: 24px !important;
+
+        &::after {
+          content: '';
+          background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.461' height='8.461' viewBox='0 0 8.461 8.461'%3E%3Cpath id='Path_36155' data-name='Path 36155' d='M23.4,3.173H21.288V1.058a1.058,1.058,0,1,0-2.115,0V3.173H17.058a1.058,1.058,0,0,0,0,2.115h2.115V7.4a1.058,1.058,0,1,0,2.115,0V5.288H23.4a1.058,1.058,0,1,0,0-2.115Z' transform='translate(-16)' fill='%23ed1d25'/%3E%3C/svg%3E%0A");
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 8px;
+          height: 8px;
+          display: inline-block;
+        }
+
+        :global(.vtex-numeric-stepper__plus-button__text) {
+          display: none;
+        }
+      }
+
+      :global(.vtex-numeric-stepper__minus-button) {
+        width: 24px !important;
+
+        &::after {
+          content: '';
+          background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.461' height='2.134' viewBox='0 0 8.461 2.134'%3E%3Cpath id='Path_36484' data-name='Path 36484' d='M23.4,3.173H21.288c.017-.028-2.143,0-2.115,0H17.058a1.058,1.058,0,0,0,0,2.115h2.115c.021-.006,2.124.015,2.115,0H23.4a1.058,1.058,0,1,0,0-2.115Z' transform='translate(-16 -3.16)' fill='%23ed1d25'/%3E%3C/svg%3E%0A");
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 8px;
+          height: 2px;
+          display: inline-block;
+        }
+
+        :global(.vtex-numeric-stepper__minus-button__text) {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
 @import "./order-placed/supermxmcr-orderplaced";
