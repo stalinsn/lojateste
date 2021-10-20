@@ -95,6 +95,7 @@
       box-shadow: 0 3px 8px 0 rgb(0 0 0 / 8%);
       @media screen and (max-width: 768px) {
         max-width: 170px;
+        width: 112px!important;
       }
     }
   }
@@ -150,6 +151,10 @@
       &::after {
         margin-top: 0 !important;
       }
+    }
+
+    @media screen and (max-width: 768px) {
+      height: 188px;
     }
   }
 }
