@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fix
 - Dynamic payment options
+- Delivery options on checkout
+
+### Added
+- Cenconsud Card on Cart
 
 ## [0.2.6] - 2021-10-15
 
