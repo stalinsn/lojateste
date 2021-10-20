@@ -7,15 +7,11 @@
   },
   "flex-layout.row#menu-items-header-row": {
     "children": [
-      "menu-item#institutional-header",
-      "menu-item#sales",
-      "menu-item#services",
-      "menu-item#collections",
-      "menu-item#recipes",
-      "menu-item#our-stores",
-      "menu-item#gproducts",
-      "menu-item#cencosud-card",
-      "menu-item#best sales"
+      "menu-item#supermaket",
+      "menu-item#offers",
+      "menu-item#category1",
+      "menu-item#category2",
+      "menu-item#gbarbosa-card"
     ],
     "props": {
       "blockClass": "menu-item-faqs",
@@ -39,7 +35,7 @@
       }
     }
   },
-  "menu-item#institutional-header": {
+  "menu-item#supermaket": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -50,12 +46,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Rebajas",
-        "text": "Institucional"
+        "tagTitle": "Supermercado",
+        "text": "Supermercado"
       }
     }
   },
-  "menu-item#cencosud-card": {
+  "menu-item#offers": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -66,12 +62,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Rebajas",
-        "text": "Cartão Cencosud"
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
       }
     }
   },
-  "menu-item#collections": {
+  "menu-item#category1": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -82,12 +78,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Coleção",
-        "text": "Coleção"
+        "tagTitle": "Categoria1",
+        "text": "Categoria1"
       }
     }
   },
-  "menu-item#sales": {
+  "menu-item#category2": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -98,12 +94,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "",
-        "tagTitle": "Ofertas",
-        "text": "Ofertas"
+        "tagTitle": "Categoria2",
+        "text": "Categoria2"
       }
     }
   },
-  "menu-item#recipes": {
+  "menu-item#gbarbosa-card": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -114,8 +110,8 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Receitas",
-        "text": "Receitas"
+        "tagTitle": "Cartão GBarbosa Cencosud",
+        "text": "Cartão GBarbosa Cencosud"
       }
     }
   },

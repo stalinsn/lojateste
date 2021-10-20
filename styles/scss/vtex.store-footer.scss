@@ -155,7 +155,7 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
   background-color: #ed1d25;
-  padding-bottom: 40px;
+  padding-bottom: 0;
   margin-top: 0px;
 }
 
@@ -438,5 +438,32 @@
         }
       }
     }
+  }
+}
+/* social media */
+.socialNetworksContainer--footer {
+  justify-content: center;
+  .socialNetworkLink {
+    background-position: center !important;
+    margin: 0 !important;
+    margin-right: 10px !important;
+    .socialNetworkImage {
+      display: none;
+    }
+  }
+  .socialNetworkLink--facebook {
+    background: url("/arquivos/footer-facebook.svg") no-repeat;
+  }
+  .socialNetworkLink--twitter {
+    background: url("/arquivos/footer-twitter.svg") no-repeat;
+  }
+  .socialNetworkLink--youtube {
+    background: url("/arquivos/footer-youtube.svg") no-repeat;
+  }
+  .socialNetworkLink--instagram {
+    background: url("/arquivos/footer-instagram.svg") no-repeat;
+  }
+  .socialNetworkLink--linkedin {
+    background: url("/arquivos/footer-linkedin.svg") no-repeat;
   }
 }
