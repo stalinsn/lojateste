@@ -379,6 +379,37 @@
       }
     }
   }
+
+  :global(.vtex-my-cards-1-x-boxContainer){
+    position: relative;
+
+    :global(.vtex-my-cards-1-x-boxContainerBody) {
+      padding: 22px;
+    }
+
+    :global(.vtex-my-cards-1-x-boxContainerFooter) {
+      position: absolute;
+      top: 50%;
+      right: 28px;
+      transform: translateY(-50%);
+
+      :global(.vtex-button) {
+        &::after {
+          content: '';
+          display: inline-block;
+          width: 14px;
+          height: 18px;
+          background-image: url("data:image/svg+xml,%0A%3Csvg id='Group_1777' data-name='Group 1777' xmlns='http://www.w3.org/2000/svg' width='14' height='18' viewBox='0 0 14 18'%3E%3Cpath id='Path_7132' data-name='Path 7132' d='M6,19a2.006,2.006,0,0,0,2,2h8a2.006,2.006,0,0,0,2-2V7H6ZM18,4H15.5l-.71-.71a1.009,1.009,0,0,0-.7-.29H9.91a1.009,1.009,0,0,0-.7.29L8.5,4H6A1,1,0,0,0,6,6H18a1,1,0,0,0,0-2Z' transform='translate(-5 -3)' fill='%23898989'/%3E%3C/svg%3E%0A");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+        :global(.vtex-button__label) {
+          display: none;
+        }
+      }
+    }
+  }
 }
 
 :global(.vtex-my-account-1-x-passwordBoxContainer) {
