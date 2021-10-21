@@ -7,26 +7,25 @@
   }
 }
 :global(.vtex-store-components-3-x-portalContainer--search-main) {
-  z-index: 4!important;
-  position: absolute!important;
+  z-index: 4 !important;
+  position: absolute !important;
   .biggy-autocomplete-wrapper {
     max-width: 615px;
     top: 30px;
     left: -20px;
     width: calc(100% + 135px);
-    display: grid!important;
+    display: grid !important;
     border-radius: 20px;
     z-index: 0;
     position: relative;
     .biggy-autocomplete {
-      grid-template-columns: 27% 73%!important;
+      grid-template-columns: 27% 73% !important;
       padding-top: 100px;
       display: grid;
       border-radius: 20px;
       left: 0;
     }
   }
-
 }
 .tileList {
   :global(.vtex-product-summary-2-x-containerNormal) {
@@ -50,8 +49,7 @@
 }
 
 .tileListItem {
-  :global(.vtex-product-summary-2-x-element)
-    :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
+  :global(.vtex-product-summary-2-x-element) :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
     text-align: left !important;
     &::after {
       margin-top: 0;
@@ -77,7 +75,7 @@
 
     &::-webkit-scrollbar-thumb {
       border: 2px solid #fff;
-      background-color: #ED1D25;
+      background-color: #ed1d25;
       border-radius: 20px;
     }
 
@@ -101,8 +99,42 @@
       box-sizing: content-box;
       margin: 12px 0;
 
+      :global(.vtex-product-summary-2-x-containerNormal){
+        height: auto!important;
+      }
+
+      :global(.vtex-product-summary-2-x-element) {
+        :global(.vtex-button) {
+          width: 22px !important;
+          min-height: 22px !important;
+          position: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 12px;
+
+          :global(.vtex-button__label) {
+            display: none;
+          }
+
+          &::after {
+            content: "";
+            width: 8px;
+            height: 8px;
+            display: inline-block;
+            background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.461' height='8.461' viewBox='0 0 8.461 8.461'%3E%3Cpath id='Path_36486' data-name='Path 36486' d='M23.4,3.173H21.288V1.058a1.058,1.058,0,1,0-2.115,0V3.173H17.058a1.058,1.058,0,0,0,0,2.115h2.115V7.4a1.058,1.058,0,1,0,2.115,0V5.288H23.4a1.058,1.058,0,1,0,0-2.115Z' transform='translate(-16)' fill='%23fff'/%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        }
+
+        @media screen and (max-width: 767px) {
+          margin-right: 0;
+        }
+      }
+
       :global(.vtex-product-summary-2-x-container--compact) {
-        max-width: initial!important;
+        max-width: initial !important;
       }
 
       :global(.vtex-product-summary-2-x-nameContainer) {
@@ -123,25 +155,48 @@
       :global(.vtex-store-components-3-x-priceContainer) {
         margin: 0;
 
-        :global(.vtex-store-components-3-x-currencyContainer) {
-          font-size: 12px;
-          color: #ED1D25;
+        :global(.vtex-store-components-3-x-listPrice) {
+          margin: 0;
+
+          :global(.vtex-store-components-3-x-listPriceValue) {
+            padding: 0;
+
+            :global(.vtex-store-components-3-x-currencyContainer) {
+              font-weight: 400;
+              color: #898989;
+            }
+          }
+        }
+
+        :global(.vtex-store-components-3-x-sellingPrice) {
+          font-size: inherit;
+
+          :global(.vtex-store-components-3-x-currencyContainer) {
+            font-size: 12px;
+            color: #ed1d25;
+          }
         }
       }
     }
+
     .itemList--suggestion {
       max-width: 200px;
     }
+
     .tileListList {
       justify-content: left;
       padding: 0 20px;
+
+      @media screen and (max-width: 767px) {
+        padding: 0 8px;
+      }
     }
     .tileList {
       border: 0;
     }
 
     @media screen and (max-width: 767px) {
-      padding: 0 8px;
+      max-height: 508px;
     }
   }
 }

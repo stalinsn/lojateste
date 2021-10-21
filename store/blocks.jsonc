@@ -63,10 +63,7 @@
   "product-summary.shelf#list": {
     "children": [
       "flex-layout.row#shelf-list"
-    ],
-    "props": {
-      "blockClass": "compact"
-    }
+    ]
   },
   "flex-layout.row#shelf-list": {
     "children": [

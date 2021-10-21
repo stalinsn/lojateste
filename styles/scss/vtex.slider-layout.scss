@@ -140,6 +140,7 @@
     display: none;
   }
 }
+
 .slideChildrenContainer {
   :global(.vtex-product-summary-2-x-containerNormal) {
     box-shadow: none;
@@ -151,10 +152,6 @@
       &::after {
         margin-top: 0 !important;
       }
-    }
-
-    @media screen and (max-width: 768px) {
-      height: 188px;
     }
   }
 }
