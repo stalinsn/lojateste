@@ -19,6 +19,19 @@
     padding: 0 0.25rem;
   }
 }
+:global(.vtex-flex-layout-0-x-flexRow--login-container),
+:global(.vtex-flex-layout-0-x-flexRow--custom-register) {
+  background-color: #FAFAFA;
+}
+:global(.vtex-flex-layout-0-x-flexRow--custom-register) {
+  margin: 0 auto;
+  .stretchChildrenWidth {
+    flex-direction: column;
+  }
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 511px;
+  }
+}
 
 .flexRowContent--remember-images,
 .flexRowContent--attractive-images,
