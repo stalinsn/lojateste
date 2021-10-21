@@ -244,7 +244,7 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 0,
-      "blockClass": "row-two-components"
+      "blockClass": ["row-two-components", "quantity-pdp"]
     }
   },
 
