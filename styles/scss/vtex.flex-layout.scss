@@ -1132,6 +1132,11 @@
     :first-child {
       margin: 0 0.2em;
     }
+
+    @media screen and (max-width: 767px) {
+      font-size: 11px;
+      padding: 4px 8px;
+    }
   }
 }
 .flexRowContent--search-more-button {
