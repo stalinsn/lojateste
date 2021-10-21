@@ -7,12 +7,11 @@
   },
   "flex-layout.row#menu-items-header-row": {
     "children": [
-      "menu-item#institutional-header",
-      "menu-item#reduction",
-      "menu-item#our-brands",
-      "menu-item#family-size",
-      "menu-item#parrilleros",
-      "menu-item#solds"
+      "menu-item#supermaket",
+      "menu-item#offers",
+      "menu-item#category1",
+      "menu-item#category2",
+      "menu-item#gbarbosa-card"
     ],
     "props": {
       "blockClass": "menu-item-faqs",
@@ -36,7 +35,7 @@
       }
     }
   },
-  "menu-item#institutional-header": {
+  "menu-item#supermaket": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -47,12 +46,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Rebajas",
-        "text": "Institucional"
+        "tagTitle": "Supermercado",
+        "text": "Supermercado"
       }
     }
   },
-  "menu-item#reduction": {
+  "menu-item#offers": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -63,12 +62,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Rebajas",
-        "text": "Cartão Cencosud"
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
       }
     }
   },
-  "menu-item#family-size": {
+  "menu-item#category1": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -79,12 +78,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Coleções",
-        "text": "Coleções"
+        "tagTitle": "Categoria1",
+        "text": "Categoria1"
       }
     }
   },
-  "menu-item#our-brands": {
+  "menu-item#category2": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -95,12 +94,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "",
-        "tagTitle": "Ofertas",
-        "text": "Ofertas"
+        "tagTitle": "Categoria2",
+        "text": "Categoria2"
       }
     }
   },
-  "menu-item#parrilleros": {
+  "menu-item#gbarbosa-card": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -111,12 +110,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Receitas",
-        "text": "Receitas"
+        "tagTitle": "Cartão GBarbosa Cencosud",
+        "text": "Cartão GBarbosa Cencosud"
       }
     }
   },
-  "menu-item#solds": {
+  "menu-item#our-stores": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
@@ -127,8 +126,56 @@
         "type": "internal",
         "noFollow": false,
         "href": "/",
-        "tagTitle": "Mais vendidos",
-        "text": "Mais vendidos"
+        "tagTitle": "Lojas",
+        "text": "Lojas"
+      }
+    }
+  },
+  "menu-item#services": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/",
+        "tagTitle": "Serviços",
+        "text": "Serviços"
+      }
+    }
+  },
+  "menu-item#gproducts": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/",
+        "tagTitle": "Produtos GBarbosa",
+        "text": "Produtos GBarbosa"
+      }
+    }
+  },
+  "menu-item#best sales": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/",
+        "tagTitle": "Top Vendas",
+        "text": "Top Vendas"
       }
     }
   }

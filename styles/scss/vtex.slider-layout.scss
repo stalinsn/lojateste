@@ -95,6 +95,7 @@
       box-shadow: 0 3px 8px 0 rgb(0 0 0 / 8%);
       @media screen and (max-width: 768px) {
         max-width: 170px;
+        width: 112px!important;
       }
     }
   }
@@ -139,11 +140,12 @@
     display: none;
   }
 }
+
 .slideChildrenContainer {
   :global(.vtex-product-summary-2-x-containerNormal) {
     box-shadow: none;
     background: #fff;
-    height: 380px;
+    height: 420px;
     padding: 0 !important;
     :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
       text-align: left !important;

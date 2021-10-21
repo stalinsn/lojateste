@@ -143,9 +143,10 @@
       "flex-layout.row#namebox",
       "flex-layout.row#sku",
       "flex-layout.col#product-price",
-      "global-promo#2x",
-      "global-promo#3x",
+      // "global-promo#2x",
+      // "global-promo#3x",
       "flex-layout.row#components-qty",
+      "flex-layout.row#shipping-simulator",
       "flex-layout.row#product-tabs"
     ],
 
@@ -156,6 +157,17 @@
     }
   },
 
+  "flex-layout.row#shipping-simulator": {
+    "children": [
+      "flex-layout.col#shipping-simulator-content"
+    ],
+    "props": {
+      "blockClass": "shipping-simulator"
+    }
+  },
+  "flex-layout.col#shipping-simulator-content": {
+    "children": ["shipping-simulator"]
+  },
   "flex-layout.row#upcbox": {
     "children": ["product-identifier.product"],
 
@@ -208,7 +220,7 @@
     }
   },
   "flex-layout.row#price-details": {
-    "children": ["price-custom", "flex-layout.row#flags-pdp"],
+    "children": ["price-custom", "flex-layout.row#flags-pdp", "installment-options"],
     "props": {
       "blockClass": "price-details"
     }
@@ -227,7 +239,7 @@
     }
   },
   "flex-layout.row#components-qty": {
-    "children": ["quantity-selector.pdp"],
+    "children": ["quantity-selector-custom"],
 
     "props": {
       "marginTop": 4,
@@ -485,9 +497,98 @@
       "flex-layout.row#namebox",
       "flex-layout.row#sku",
       "flex-layout.col#product-price",
-      "global-promo#2x",
-      "global-promo#3x",
+      // "global-promo#2x",
+      // "global-promo#3x",
       "flex-layout.row#components-qty"
     ]
+  },
+  "installment-options": {
+    "children": [
+      "payment-method-item#american",
+      "payment-method-item#visa",
+      "payment-method-item#diners",
+      "payment-method-item#mastercard",
+      "payment-method-item#hipercard",
+      "payment-method-item#elo",
+      "payment-method-item#dinheiro"
+    ]
+  },
+  "payment-method-item#american": {
+    "props": {
+      "paymentWith": "American"
+    },
+    "blocks": ["image#american"]
+  },
+  "image#american": {
+    "props": {
+      "src": "/arquivos/payment-american.png"
+    }
+  },
+  "payment-method-item#visa": {
+    "props": {
+      "paymentWith": "Visa"
+    },
+    "blocks": ["image#visa"]
+  },
+  "image#visa": {
+    "props": {
+      "src": "/arquivos/payment-visa.png"
+    }
+  },
+
+  "payment-method-item#diners": {
+    "props": {
+      "paymentWith": "Diners"
+    },
+    "blocks": ["image#diners"]
+  },
+  "image#diners": {
+    "props": {
+      "src": "/arquivos/payment-master.png"
+    }
+  },
+  "payment-method-item#mastercard": {
+    "props": {
+      "paymentWith": "Mastercard"
+    },
+    "blocks": ["image#mastercard"]
+  },
+  "image#mastercard": {
+    "props": {
+      "src": "/arquivos/payment-mastercard.png"
+    }
+  },
+  "payment-method-item#hipercard": {
+    "props": {
+      "paymentWith": "Hipercard"
+    },
+    "blocks": ["image#hipercard"]
+  },
+  "image#hipercard": {
+    "props": {
+      "src": "/arquivos/payment-hipercard.png"
+    }
+  },
+  "payment-method-item#elo": {
+    "props": {
+      "paymentWith": "Elo"
+    },
+    "blocks": ["image#elo"]
+  },
+  "image#elo": {
+    "props": {
+      "src": "/arquivos/payment-elo.png"
+    }
+  },
+  "payment-method-item#dinheiro": {
+    "props": {
+      "paymentWith": "Dinheiro"
+    },
+    "blocks": ["image#dinheiro"]
+  },
+  "image#dinheiro": {
+    "props": {
+      "src": "/arquivos/payment-dinheiro.png"
+    }
   }
 }

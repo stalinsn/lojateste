@@ -7,6 +7,43 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.8] - 2021-10-20
+
+### Added
+
+- Cenconsud Card on Cart
+
+### Fix
+
+- Dynamic payment options
+- Delivery options on checkout
+- Footer layout
+- Header layout
+
+## [0.2.7] - 2021-10-20
+
+## [0.2.6] - 2021-10-15
+
+## [0.2.5] - 2021-10-15
+
+### Added
+- Payment Options on PDP
+
+### Fix
+- Newsletter submit text
+
+## [0.2.4] - 2021-10-08
+
+### Added
+- Shipping simulator implemented on pdp
+
+### Fixed
+
+- Link of "trabalhe conosco" on footer
+- Menu links on header
+- SAC phone styling
+- Title of best sellers section
+
 ## [0.1.4] - 2021-09-23
 
 ## [0.1.3] - 2021-09-23

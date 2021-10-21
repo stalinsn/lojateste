@@ -12,8 +12,7 @@
       "sticky-layout#2-desktop",
       "sticky-layout#3-desktop",
       "sticky-layout#4-desktop",
-      "flex-layout.row#5-desktop",
-      "personal-promotion"
+      "flex-layout.row#5-desktop"
     ]
   },
 
@@ -21,7 +20,7 @@
     "props": {
       "blockClass": "sticky-header-3"
     },
-    "children": ["flex-layout.row#2-desktop"]
+    "children": ["flex-layout.row#2-desktop"/* , "personal-promotion" */]
   },
 
   "sticky-layout#3-desktop": {
@@ -378,9 +377,10 @@
     }
   },
   "autocomplete-result-list.v2#main": {
-    "blocks": ["product-summary.shelf"],
     "props": {
-      "maxSuggestedProducts": 2
+      "maxSuggestedProducts": 4,
+      "productLayout": "HORIZONTAL",
+      "HorizontalProductSummary": "product-summary.shelf#list"
     }
   },
   "logo#mobile": {
