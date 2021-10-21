@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fix
+- Quantity selector on pdp
+
 ## [0.2.8] - 2021-10-20
 
 ### Added
