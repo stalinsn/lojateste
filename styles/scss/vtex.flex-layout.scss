@@ -21,7 +21,7 @@
 }
 :global(.vtex-flex-layout-0-x-flexRow--login-container),
 :global(.vtex-flex-layout-0-x-flexRow--custom-register) {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 :global(.vtex-flex-layout-0-x-flexRow--custom-register) {
   margin: 0 auto;
@@ -631,6 +631,21 @@
 }
 
 /* cart-io */
+.flexRow--cart-container {
+  width: 100%;
+  .flexRowContent--cart-container {
+    justify-content: space-between;
+  }
+  .flexRow--right-side-orderplaced {
+    .flexRowContent--right-side-orderplaced {
+      align-items: center;
+      height: 100%;
+    }
+  }
+}
+:global(.vtex-store-header-2-x-headerRowBackground--cart-content) {
+  box-shadow: 0px 3px 6px #00000014;
+}
 .flexCol--cart-desktop-content {
   display: flex;
   align-items: center;
@@ -1128,7 +1143,7 @@
 .flexRow--quantity-pdp {
   margin: 16px 0;
   :global(.vtex-numeric-stepper-container) {
-    border: 0.5px solid #CBCBCB;
+    border: 0.5px solid #cbcbcb;
     border-radius: 5px;
 
     :global(.vtex-numeric-stepper__input) {
@@ -1271,7 +1286,6 @@
 }
 .flexRowContent--row-two-components {
   .stretchChildrenWidth {
-
     width: inherit !important;
     padding: 0 !important;
     :global(.vtex-product-quantity-1-x-quantitySelectorContainer--quantity) {
@@ -1448,7 +1462,7 @@
   text-overflow: ellipsis;
   font-family: OpenSans;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     font-size: 12px;
     font-weight: 400;
   }
@@ -1488,7 +1502,7 @@
 
     @media screen and (max-width: 767px) {
       font-size: 16px;
-      color: #ED1D25;
+      color: #ed1d25;
     }
   }
 }

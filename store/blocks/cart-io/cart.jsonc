@@ -1,7 +1,10 @@
 {
   "store.checkout.cart#gbarbosa": {
     "blocks": ["checkout-cart#checkout-cart"],
-    "render": "client"
+    "render": "client",
+    "parent": {
+      "header": "header.full#cart"
+    }
   },
 
   "checkout-cart#checkout-cart": {
