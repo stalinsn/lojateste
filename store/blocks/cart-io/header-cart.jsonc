@@ -18,7 +18,7 @@
     }
   },
   "header-layout.mobile#cart": {
-    "children": ["header-row#logo-mobile"],
+    "children": ["header-row#cart"],
     "props": {
       "blockClass": "mobile"
     }
@@ -48,10 +48,16 @@
     }
   },
   "flex-layout.col#logo-cart": {
-    "children": ["image#cart-logo"],
+    "children": ["image#cart-logo", "rich-text#cart-back-button"],
     "props": {
       "blockClass": "logo-cart",
       "width": "10%"
+    }
+  },
+  "rich-text#cart-back-button": {
+    "props": {
+      "text": "[Voltar](/)",
+      "blockClass": "cart-back-button"
     }
   },
   "image#cart-logo": {
@@ -67,7 +73,7 @@
     "children": ["flex-layout.row#right-side-cart"],
     "props": {
       "blockClass": "right-side-cart",
-      "width": "80%"
+      "width": "75%"
     }
   },
   "flex-layout.row#right-side-cart": {

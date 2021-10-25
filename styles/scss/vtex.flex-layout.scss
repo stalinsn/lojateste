@@ -645,6 +645,7 @@
 }
 :global(.vtex-store-header-2-x-headerRowBackground--cart-content) {
   box-shadow: 0px 3px 6px #00000014;
+  padding: 4px 0;
 }
 .flexCol--cart-desktop-content {
   display: flex;
@@ -814,6 +815,9 @@
   padding: 7px;
   margin: 20px 0;
 }
+.flexRow--right-side-orderplaced {
+  height: 100%;
+}
 @media (max-width: 768px) {
   .flexCol--empty-cart-messages-content {
     .flexColChild--empty-cart-messages-content {
@@ -826,6 +830,24 @@
         }
       }
     }
+  }
+  .flexRow--cart-container {
+    .flexRow--right-side-orderplaced {
+      .flexRowContent--right-side-orderplaced {
+        display: flex;
+        max-width: 100%;
+        border-top: 2px solid #e2e2e2;
+        border-bottom: 2px solid #e2e2e2;
+        padding: 0 5px;
+      }
+    }
+  }
+  .flexCol--logo-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5px;
+    align-items: center;
   }
 }
 /* cart-io - end */
