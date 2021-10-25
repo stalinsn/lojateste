@@ -2459,6 +2459,12 @@
   }
 }
 
+// INSTITUTIONALS - CENCOSUD CARD
+.flexRowContent--cencosud-card{
+  background-image: url("/arquivos/cartao-cencosud-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {
   display: flex;
