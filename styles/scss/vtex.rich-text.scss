@@ -892,6 +892,65 @@
   }
 }
 
+// Institutional GBarbosa App
+.heading--gbarbosa-app,
+.heading--institutional-title {
+  margin: 0 0 32px;
+  font-size: 24px;
+}
+
+.paragraph--gbarbosa-app {
+  font-size: 14px;
+}
+
+.paragraph--obs1 {
+  color: #898989;
+  font-size: 13px;
+}
+
+.paragraph--call-center-link{
+  margin: 12px 0;
+  padding: 0 12px;
+
+  .link--call-center-link {
+    text-decoration: none;
+
+    .strong--call-center-link {
+      color: #ed1d25;
+    }
+  }
+
+  &.paragraph--link-active{
+    border-left: 2px solid #ed1d25;
+  }
+
+}
+
+.paragraph--back-to-call-center{
+  padding: 0 16px;
+
+  .link--back-to-call-center {
+    text-decoration: none;
+    color: #ED1D25;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.243' height='10.484' viewBox='0 0 13.243 10.484'%3E%3Cg id='Arrow_L' data-name='Arrow L' transform='translate(-15.757 -16.758)'%3E%3Cpath id='Union_81' data-name='Union 81' d='M5.244,13.244a1,1,0,0,1-.708-.293L4.5,12.915.3,8.708A1,1,0,0,1,1.709,7.294L4.244,9.829V1a1,1,0,0,1,2,0V9.828L8.78,7.294a1,1,0,1,1,1.414,1.415L5.975,12.927l-.023.024a1,1,0,0,1-.707.293Z' transform='translate(29.001 16.756) rotate(90)' fill='%23ed1d25'/%3E%3C/g%3E%3C/svg%3E%0A");
+      content: '';
+      width: 14px;
+      height: 11px;
+      display: inline-block;
+      margin-right: 8px;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+
+
 // css andres paginas institucionales servicios financieros
 .paragraph--titulo-tarjeta-de-credito,
 .paragraph--titulo-walmart-te-escucha {
