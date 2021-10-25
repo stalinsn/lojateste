@@ -3,7 +3,8 @@
     "blocks": ["checkout-cart#checkout-cart"],
     "render": "client",
     "parent": {
-      "header": "header.full#cart"
+      "header": "header.full#cart",
+      "footer": "footer#cart-io"
     }
   },
 

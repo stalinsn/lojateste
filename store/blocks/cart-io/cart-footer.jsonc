@@ -1,0 +1,151 @@
+{
+  "footer#cart-io": {
+    "blocks": ["footer-layout.desktop#cart-io", "footer-layout.mobile#cart-io"]
+  },
+  "footer-layout.desktop#cart-io": {
+    "children": ["flex-layout.row#cart-io"]
+  },
+  "footer-layout.mobile#cart-io": {
+    "children": ["flex-layout.row#cart-io-mobile"]
+  },
+  "flex-layout.row#cart-io": {
+    "children": [
+      "flex-layout.col#cart-io-title-col",
+      "image#cart-io-security",
+      "flex-layout.col#payment-method",
+      "flex-layout.col#developed-by",
+      "flex-layout.col#safe-store"
+    ],
+    "props": {
+      "blockClass": "cart-io"
+    }
+  },
+  "flex-layout.col#cart-io-title-col": {
+    "children": ["rich-text#cart-io-title"],
+    "props": {
+      "width": "30%",
+      "blockClass": "cart-io-title-col"
+    }
+  },
+  "rich-text#cart-io-title": {
+    "props": {
+      "text": "2021 G. Barbosa | Todos os direitos reservados.",
+      "blockClass": "cart-io-title"
+    }
+  },
+  "image#cart-io-security": {
+    "props": {
+      "src": "/arquivos/compra-segura.png",
+      "maxHeight": 68,
+      "blockClass": "cart-io-security"
+    }
+  },
+  "flex-layout.col#payment-method": {
+    "children": [
+      "rich-text#payment-method-title",
+      "image#payment-method-title"
+    ],
+    "props": {
+      "blockClass": "cart-io-col-container"
+    }
+  },
+  "rich-text#payment-method-title": {
+    "props": {
+      "text": "Formas de Pagamento",
+      "blockClass": "footer-cart-title"
+    }
+  },
+  "image#payment-method-title": {
+    "props": {
+      "src": "/arquivos/payment-flag.png",
+      "blockClass": "cart-io-security"
+    }
+  },
+  "flex-layout.col#developed-by": {
+    "children": ["rich-text#developed-by-title", "image#developed-by-title"],
+    "props": {
+      "blockClass": ["cart-io-col-container", "developed-by"]
+    }
+  },
+  "rich-text#developed-by-title": {
+    "props": {
+      "text": "Desenvolvido por",
+      "blockClass": "footer-cart-title"
+    }
+  },
+  "image#developed-by-title": {
+    "props": {
+      "src": "/arquivos/corebiz-checkout-logo.png",
+      "blockClass": "cart-io-security"
+    }
+  },
+  "flex-layout.col#safe-store": {
+    "children": [
+      "rich-text#safe-store-title",
+      "flex-layout.row#safe-store-row"
+    ],
+    "props": {
+      "blockClass": "cart-io-col-container"
+    }
+  },
+  "rich-text#safe-store-title": {
+    "props": {
+      "text": "Loja segura",
+      "blockClass": "footer-cart-title"
+    }
+  },
+  "flex-layout.row#safe-store-row": {
+    "children": [
+      "image#safe-store-title-1",
+      "image#safe-store-title-2",
+      "image#safe-store-title-3"
+    ],
+    "props": {
+      "blockClass": "safe-store-row"
+    }
+  },
+  "image#safe-store-title-1": {
+    "props": {
+      "src": "/arquivos/site-blindado.png",
+      "maxHeight": 23,
+      "blockClass": "cart-io-security"
+    }
+  },
+  "image#safe-store-title-2": {
+    "props": {
+      "src": "/arquivos/vtex-logo.png",
+      "maxHeight": 17,
+      "blockClass": "cart-io-security"
+    }
+  },
+  "image#safe-store-title-3": {
+    "props": {
+      "src": "/arquivos/pcj.png",
+      "maxHeight": 20,
+      "blockClass": "cart-io-security"
+    }
+  },
+
+  "flex-layout.row#cart-io-mobile": {
+    "children": [
+      "flex-layout.col#cart-io-title-col",
+      "flex-layout.row#first-row-footer-cart",
+      "flex-layout.row#second-row-footer-cart"
+    ],
+    "props": {
+      "blockClass": "cart-io"
+    }
+  },
+  "flex-layout.row#first-row-footer-cart": {
+    "children": ["image#cart-io-security", "flex-layout.col#payment-method"],
+    "props": {
+      "blockClass": "row-footer-cart"
+    }
+  },
+  "flex-layout.row#second-row-footer-cart": {
+    "children": ["flex-layout.col#developed-by", "flex-layout.col#safe-store"],
+    "props": {
+      "blockClass": "row-footer-cart"
+    }
+  }
+}
