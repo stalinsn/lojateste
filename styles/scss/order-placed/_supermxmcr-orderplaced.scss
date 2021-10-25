@@ -1,6 +1,29 @@
-.walmartOrderPlaced {
+.orderPlacedContainer {
   font-family: "OpenSans", Arial, Helvetica, sans-serif;
   color: #525252;
+
+  .orderPlacedTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .orderPlacedTitle {
+      color: #525252;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .orderPlacedBackButton {
+      text-decoration: none;
+      color: #525252;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .orderPlacedWrapper {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    padding: 25px;
+  }
 
   .section1 {
     .title {
