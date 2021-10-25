@@ -2447,6 +2447,18 @@
   }
 }
 
+// INSTITUTIONALS - SERVICES
+.flexRowContent--services-container {
+  max-width: 1238px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    justify-content: space-around;
+  }
+}
+
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {
   display: flex;

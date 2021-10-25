@@ -64,5 +64,11 @@
   },
   "store.custom#atendance-group2": {
     "path": "/atendimento"
+  },
+  "store.custom#services": {
+    "path": "/servicos"
+  },
+  "store.custom#cartao-cenco": {
+    "path": "/servicos/cartao-cenco"
   }
 }
