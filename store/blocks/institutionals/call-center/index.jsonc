@@ -1,0 +1,36 @@
+{
+  "store.custom#call-center": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": ["responsive-layout.desktop#contact-us", "responsive-layout.tablet#contact-us", "responsive-layout.phone#call-center"]
+  },
+  "responsive-layout.phone#call-center": {
+    "children": [
+      "flex-layout.row#call-center-title-mobile",
+      "flex-layout.row#call-center"
+    ]
+  },
+  "flex-layout.row#call-center-title-mobile": {
+    "children": ["rich-text#call-center-title"]
+  },
+  "flex-layout.row#call-center": {
+    "children": ["flex-layout.col#call-center-links"],
+    "props": {
+      "marginBottom": 8
+    }
+  },
+  "flex-layout.col#call-center-links": {
+    "children": [
+      "rich-text#call-center-link-1",
+      "rich-text#call-center-link-2",
+      "rich-text#call-center-link-3",
+      "rich-text#call-center-link-4",
+      "rich-text#call-center-link-5"
+    ],
+    "props": {
+      "blockClass": ["contact-us"],
+      "preventVerticalStretch": true
+    }
+  }
+}

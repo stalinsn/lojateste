@@ -1,0 +1,129 @@
+{
+  "store.custom#gbarbosa-app": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": ["responsive-layout.desktop#app-offers", "responsive-layout.tablet#app-offers", "responsive-layout.phone#app-offers"]
+  },
+  "responsive-layout.desktop#app-offers": {
+    "children": [
+      "flex-layout.row#call-center-title",
+      "flex-layout.row#app-offers-container"
+    ]
+  },
+  "responsive-layout.tablet#app-offers": {
+    "children": [
+      "flex-layout.row#call-center-title",
+      "flex-layout.row#app-offers-container"
+    ]
+  },
+  "responsive-layout.phone#app-offers": {
+    "children": [
+      "rich-text#back-to-call-center",
+      "flex-layout.row#app-offers-container-mobile"
+    ]
+  },
+  "rich-text#back-to-call-center": {
+    "props": {
+      "text": "[Central de atendimento](/central-de-atendimento)",
+      "font": "t-small",
+      "blockClass": ["back-to-call-center"]
+    }
+  },
+  "flex-layout.row#app-offers-container": {
+    "children": ["flex-layout.col#app-offers-links", "flex-layout.col#app-offers-content"],
+    "props": {
+      "blockClass": ["call-center-content"],
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.row#app-offers-container-mobile": {
+    "children": ["flex-layout.col#app-offers-content"],
+    "props": {
+      "blockClass": ["call-center-content"],
+      "marginBottom": 6
+    }
+  },
+  "flex-layout.col#app-offers-links": {
+    "children": [
+      "rich-text#call-center-link-1",
+      "rich-text#call-center-link-2",
+      "rich-text#call-center-link-3",
+      "rich-text#call-center-link-4",
+      "rich-text#call-center-link-5-active"
+    ],
+    "props": {
+      "blockClass": ["app-offers-links"],
+      "preventVerticalStretch": true,
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#app-offers-content": {
+    "children": [
+      "flex-layout.row#app-offers"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "flex-layout.row#app-offers": {
+    "children": [
+      "flex-layout.col#app-offers-col1",
+      "flex-layout.col#app-offers-col2"
+    ],
+    "props": {
+      "colGap": 6
+    }
+  },
+  "flex-layout.col#app-offers-col1": {
+    "children": [
+      "rich-text#offers2",
+      "flex-layout.row#download-apps"
+    ]
+  },
+  "flex-layout.col#app-offers-col2": {
+    "children": ["image#app-gbarbosa"]
+  },
+  "flex-layout.row#download-apps": {
+    "children": [
+      "image#app-store",
+      "image#play-store"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#offers2": {
+    "props": {
+      "text": "## Ofertas App GBarbosa \n\n As ofertas do App GBarbosa também poderão ser aplicadas nas compras em nosso site.\n\n  Para isso, basta você ativá-las em seu App GBarbosa e quando emitirmos o cupom fiscal da sua compra on-line, ou seja, provavelmente na data da sua entrega programada, concederemos os descontos e preços das ofertas vigentes e ativadas na data da compra. Estes descontos aparecerão diretamente no Cupom Fiscal.\n\n Atenção: os CPFs utilizados para compra no Site e no App GBarbosa deverão ser os mesmos.\n\n **Baixe o app**",
+      "blockClass": "gbarbosa-app"
+    }
+  },
+  "image#app-gbarbosa": {
+    "props": {
+      "src": "/arquivos/gbarbosa-app.png",
+      "maxHeight": 420
+    }
+  },
+  "image#app-store": {
+    "props": {
+      "src": "/arquivos/gbarbosa-app-store.png",
+      "maxHeight": 54,
+      "link": {
+        "url": "#",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#play-store": {
+    "props": {
+      "src": "/arquivos/gbarbosa-play-store.png",
+      "maxHeight": 54,
+      "link": {
+        "url": "#",
+        "openNewTab": true
+      }
+    }
+  }
+}

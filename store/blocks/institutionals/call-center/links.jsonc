@@ -1,0 +1,65 @@
+{
+  "rich-text#call-center-link-1": {
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Meus pedidos](/account#/orders)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-2": {
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Fale conosco](/central-de-atendimento/fale-conosco)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-2-active": {
+    "props": {
+      "blockClass": ["call-center-link", "link-active"],
+      "text": "[**Fale conosco**](/central-de-atendimento/fale-conosco)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-3": {
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Formas de pagamento](/central-de-atendimento/formas-de-pagamento)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-3-active": {
+    "props": {
+      "blockClass": ["call-center-link", "link-active"],
+      "text": "[**Formas de pagamento**](/central-de-atendimento/formas-de-pagamento)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-4": {
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Dúvidas frequentes (FAQ)](/central-de-atendimento/faq)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-4-active": {
+    "props": {
+      "blockClass": ["call-center-link", "link-active"],
+      "text": "[**Dúvidas frequentes (FAQ)**](/central-de-atendimento/faq)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-5": {
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Ofertas do APP](/central-de-atendimento/ofertas-app)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-5-active": {
+    "props": {
+      "blockClass": ["call-center-link", "link-active"],
+      "text": "[**Ofertas do APP**](/central-de-atendimento/ofertas-app)",
+      "font": "t-small"
+    }
+  }
+}

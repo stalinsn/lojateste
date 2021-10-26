@@ -56,10 +56,10 @@
   "store.custom#wishlist-custom-list-page": {
     "path": "/wishlist-page/:slug"
   },
-  "store.custom#institutional-group": {
+  "store.custom#atendance-group": {
     "path": "/grupo-institucional"
   },
-  "store.custom#atendance-group": {
+  "store.custom#institutional-group": {
     "path": "/central-de-ajuda"
   },
   "store.custom#atendance-group2": {
@@ -70,5 +70,20 @@
   },
   "store.custom#cartao-cenco": {
     "path": "/servicos/cartao-cenco"
+  },
+  "store.custom#call-center": {
+    "path": "/central-de-atendimento"
+  },
+  "store.custom#payment-methods": {
+    "path": "/central-de-atendimento/formas-de-pagamento"
+  },
+  "store.custom#faq": {
+    "path": "/central-de-atendimento/faq"
+  },
+  "store.custom#gbarbosa-app": {
+    "path": "/central-de-atendimento/ofertas-app"
+  },
+  "store.custom#contact-us": {
+    "path": "/central-de-atendimento/fale-conosco"
   }
 }

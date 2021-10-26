@@ -50,14 +50,14 @@
   "tab-list.item#hiring": {
     "props": {
       "tabId": "hiring",
-      "label": "Trabalhe conosco",
-      "defaultActiveTab": true
+      "label": "Trabalhe conosco"
     }
   },
   "tab-list.item#form": {
     "props": {
-      "tabId": "form",
-      "label": "Fale Conosco"
+      "tabId": "form-contact-us",
+      "label": "Fale Conosco",
+      "defaultActiveTab": true
     }
   },
 
@@ -79,98 +79,6 @@
     "props": {
       "tabId": "form",
       "blockClass": ["faq-tab-item-container", "institutional-container"]
-    }
-  },
-  "flex-layout.row#contact-form": {
-    "children": ["form#contact-form"],
-    "props": {
-      "blockClass": "contact-form"
-    }
-  },
-  "form#contact-form": {
-    "props": {
-      "entity": "CT",
-      "schema": "default"
-    },
-    "children": [
-      "flex-layout.row#contact-form-row1",
-      "flex-layout.row#contact-form-row2",
-      "flex-layout.row#contact-form-row3",
-      "flex-layout.row#contact-form-row4",
-      "flex-layout.row#contact-form-row5"
-    ],
-    "blocks": ["form-success#success-2"]
-  },
-  "form-success#success-2": {
-    "children": ["rich-text#successSubmit1"]
-  },
-  "rich-text#successSubmit1": {
-    "props": {
-      "text": "Enviado com sucesso!"
-    }
-  },
-  "flex-layout.row#contact-form-row1": {
-    "children": ["form-input.text#email1"],
-    "props": {
-      "marginBottom": 5
-    }
-  },
-  "flex-layout.row#contact-form-row2": {
-    "children": ["form-input.text#firstName1", "form-input.text#lastName1"],
-    "props": {
-      "colGap": 5,
-      "marginBottom": 5
-    }
-  },
-  "flex-layout.row#contact-form-row3": {
-    "children": ["form-input.text#phone1", "form-input.text#subject1"],
-    "props": {
-      "colGap": 5,
-      "marginBottom": 5
-    }
-  },
-  "flex-layout.row#contact-form-row4": {
-    "children": ["form-input.textarea#message1"],
-    "props": {
-      "marginBottom": 5
-    }
-  },
-  "flex-layout.row#contact-form-row5": {
-    "children": ["form-submit#1"]
-  },
-  "form-input.text#firstName1": {
-    "props": {
-      "pointer": "#/properties/firstName"
-    }
-  },
-  "form-input.text#lastName1": {
-    "props": {
-      "pointer": "#/properties/lastName"
-    }
-  },
-  "form-input.text#email1": {
-    "props": {
-      "pointer": "#/properties/emailAddress"
-    }
-  },
-  "form-input.text#phone1": {
-    "props": {
-      "pointer": "#/properties/phone"
-    }
-  },
-  "form-input.text#subject1": {
-    "props": {
-      "pointer": "#/properties/subject"
-    }
-  },
-  "form-input.textarea#message1": {
-    "props": {
-      "pointer": "#/properties/message"
-    }
-  },
-  "form-submit#1": {
-    "props": {
-      "label": "Enviar"
     }
   },
 

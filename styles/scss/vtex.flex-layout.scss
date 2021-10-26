@@ -1230,10 +1230,11 @@
 .flexRow--contact-form {
   padding: 50px;
   border: 2px solid #ed1d25;
-  border-radius: 5px;
+  border-radius: 8px;
   :global(.vtex-input__label),
   :global(.vtex-textarea__label) {
     color: #7e7e7e;
+    font-size: 16px;
   }
   :global(.vtex-input-prefix__group),
   :global(.vtex-textarea__input) {
@@ -1247,6 +1248,10 @@
     font-size: 14px;
     font-weight: 300;
     border-radius: 28px;
+  }
+
+  @media scree and (max-width: 767px) {
+    padding: 26px;
   }
 }
 .flexCol--recommended-you {
@@ -1454,6 +1459,7 @@
   }
 }
 .flexCol--card-payment {
+  max-width: 300px;
   margin: 0 10px;
   box-shadow: 0px 3px 6px #00000014;
   padding: 15px;
@@ -1463,6 +1469,13 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .flexRowContent--call-center-content {
+    padding: 0 8px;
+  }
+}
+
 
 :global(.vtex-product-summary-2-x-nameWrapper) {
   text-align: left;
