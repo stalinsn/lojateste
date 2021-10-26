@@ -71,6 +71,9 @@
   "store.custom#cartao-cenco": {
     "path": "/servicos/cartao-cenco"
   },
+  "store.custom#gbarbosa-odonto": {
+    "path": "/servicos/plano-odonto"
+  },
   "store.custom#call-center": {
     "path": "/central-de-atendimento"
   },

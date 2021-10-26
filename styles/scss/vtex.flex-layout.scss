@@ -2485,7 +2485,7 @@
 }
 
 .flexRow--cencosud-card-container2{
-  background-color: #FFD500;
+  background-color: $secondary;
 
   .flexColChild--content-section-bottom{
     margin-top: -68px;
@@ -2508,6 +2508,22 @@
   }
 }
 
+// INSTITUTIONALS - GBARBOSA ODONTO
+.flexRowContent--gbarbosa-odonto-banner {
+  height: 703px;
+}
+
+.flexCol--gbarbosa-odonto-content{
+  background: #E10A17;
+  border-radius: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .flexColChild--gbarbosa-odonto-content {
+    justify-content: center;
+    display: flex;
+  }
+}
 
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {

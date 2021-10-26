@@ -1060,11 +1060,23 @@
   }
 }
 
+// INSTITUTIONALS - GBARBOSA ODONTO
+.imageElement--gbarbosa-odonto-background{
+  height: 100%;
+}
+
 @media screen and (max-width: 767px) {
   .infoCardContainer--cencosud-card-benefits{
     .infoCardImageContainer--cencosud-card-benefits{
       width: auto
     }
+  }
+}
+
+// INSTITUTIONALS - GBARBOSA ODONTO
+@media screen and (max-width: 768px) {
+  .imageElement--gbarbosa-odonto-brands {
+    max-height: 32px !important;
   }
 }
 

@@ -36,7 +36,7 @@
     "children": [
       "info-card#service-1",
       "info-card#service-2",
-      "info-card#service-3",
+      // "info-card#service-3",
       "info-card#service-4",
       "info-card#service-5",
       "info-card#service-6",
@@ -150,7 +150,7 @@
     "props": {
       "id": "info-card-example",
       "imageUrl": "/arquivos/card-plano-controle.jpg",
-      "headline": "Plano Odonto",
+      "headline": "Plano Controle",
       "subhead": "Franquia mensal de ligações, SMS e Internet, a depender do pacote escolhido.",
       "callToActionText": "Saiba mais",
       "callToActionUrl": "/servicos/plano-odonto",

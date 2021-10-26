@@ -1006,6 +1006,82 @@
   }
 }
 
+// INSTITUTIONAL - GBARBOSA ODONTO
+.container--gbarbosa-odonto  {
+  margin-top: 110px;
+  margin-left: 52px;
+
+  .wrapper--gbarbosa-odonto{
+    color: #fff;
+
+    .heading--gbarbosa-odonto{
+      font-size: 42px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.wrapper--gbarbosa-odonto-content{
+  color: #fff;
+
+  .heading--gbarbosa-odonto-content{
+    margin-bottom: 0;
+    font-size: 48px;
+    color: $secondary;
+    line-height: 65px;
+    letter-spacing: -0.77px;
+    text-transform: uppercase;
+  }
+
+  .paragraph--gbarbosa-odonto-content {
+    margin: 0;
+    font-size: 22px;
+
+    .strong--gbarbosa-odonto-content{
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: -0.51px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container--gbarbosa-odonto  {
+    margin: 0;
+    justify-content: center;
+
+    .wrapper--gbarbosa-odonto{
+      .heading--gbarbosa-odonto{
+        font-size: 26px;
+      }
+
+      .paragraph--gbarbosa-odonto {
+        font-size: 14px;
+
+        .strong--gbarbosa-odonto{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .container--gbarbosa-odonto-content {
+    justify-content: center;
+
+    .heading--gbarbosa-odonto-content{
+      font-size: 22px;
+    }
+
+    .paragraph--gbarbosa-odonto-content {
+      font-size: 14px;
+
+      .strong--gbarbosa-odonto-content{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
 // Institutional GBarbosa App
 .heading--gbarbosa-app,
 .heading--institutional-title {
