@@ -1163,7 +1163,59 @@
       }
     }
   }
+}
 
+//INSTITUTIONALS - RECARGA CELULAR
+.infoCardContainer--recarga-celular-section-1{
+  background: transparent;
+  padding: 0;
+
+  .infoCardTextContainer--recarga-celular-section-1{
+    max-width: 530px;
+    margin: 0 auto;
+
+    .infoCardHeadline--recarga-celular-section-1{
+      margin: 0;
+      font-size: 42px;
+      color: #FDBB30;
+      line-height: 57px;
+      letter-spacing: -1.01px;
+    }
+
+    .infoCardSubhead--recarga-celular-section-1{
+      font-size: 20px;
+      color: #FAFAFA;
+      line-height: 27px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .infoCardContainer--recarga-celular-section-1{
+    .infoCardTextContainer--recarga-celular-section-1{
+      align-items: center;
+      padding: 0 24px;
+
+      .infoCardHeadline--recarga-celular-section-1{
+        font-size: 35px;
+        line-height: 47px;
+        letter-spacing: -0.84px;
+      }
+
+      .infoCardSubhead--recarga-celular-section-1{
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0;
+        text-align: center;
+        margin-top: 16px;
+      }
+    }
+
+    .infoCardImage--recarga-celular-section-1{
+      display: flex;
+      border-radius: 0 0 30px 30px;
+    }
+  }
 }
 
 //css pagina de pago de servicios institucional

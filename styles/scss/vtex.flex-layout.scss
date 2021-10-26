@@ -2525,6 +2525,21 @@
   }
 }
 
+// INSTITUTIONALS - RECARGA CELULAR
+.flexRowContent--recarga-celular-section-1{
+  background-image: url("/arquivos/gbarbosa-recarga-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .flexRowContent--recarga-celular-section-1{
+    padding-top: 32px;
+    background-image: url("/arquivos/gbarbosa-recarga-background-mobile.jpg");
+  }
+}
+
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {
   display: flex;
