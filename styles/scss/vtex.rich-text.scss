@@ -892,6 +892,120 @@
   }
 }
 
+// INSTITUTIONALS CENCOSUD CARD
+.heading--cencosud-card-title {
+  font-size: 40px;
+  color: #fff;
+}
+.wrapper--cencosud-card-download{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  color: #ED1D25;
+
+  .headingLevel1--cencosud-card-download{
+    font-size: 82px;
+    letter-spacing: -6.56px;
+    margin-bottom: 0;
+  }
+
+  .paragraph--cencosud-card-download{
+    letter-spacing: -4.8px;
+    font-size: 64px;
+    margin: 0;
+    margin-left: auto;
+  }
+}
+
+.wrapper--cencosud-card-call-to-action{
+  padding: 0 80px;
+  background: yellow;
+  background: #FDBB30;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.wrapper--cencosud-card-benefits {
+  color: #fff;
+  max-width: 668px;
+  .strong--cencosud-card-benefits {
+    color: #FDBB30;
+    font-size: 20px;
+
+    &::before {
+      content: '';
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      background: #FDBB30;
+      border-radius: 50%;
+      margin-right: 10px;
+      transform: translateY(-20%);
+    }
+  }
+}
+
+.wrapper--cencosud-card-text-1 {
+  color: #fff;
+  font-size: 18px;
+  max-width: 578px;
+}
+
+.wrapper--cencosud-card-benefits-item{
+  max-width: 360px;
+}
+
+@media screen and (max-width: 767px) {
+  .heading--cencosud-card-title {
+    font-size: 35px;
+    text-align: center;
+    line-height: 47px;
+  }
+
+  .wrapper--cencosud-card-text-1 {
+    font-size: 14px;
+
+  }
+
+  .heading--cencosud-card-benefits{
+    font-size: 18px;
+  }
+
+  .paragraph--cencosud-card-benefits {
+    font-size: 12px;
+  }
+
+  .strong--cencosud-card-benefits {
+    font-size: 18px;
+  }
+
+  .wrapper--cencosud-card-call-to-action {
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper--cencosud-card-download{
+    .heading--cencosud-card-download{
+      font-size: 53px;
+      letter-spacing: -4.24px;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .paragraph--cencosud-card-download{
+      font-size: 40px;
+      letter-spacing: -3px;
+    }
+  }
+
+  .wrapper--cencosud-card-benefits-item{
+    max-width: 285px;
+    font-size: 14px;
+  }
+}
+
 // Institutional GBarbosa App
 .heading--gbarbosa-app,
 .heading--institutional-title {

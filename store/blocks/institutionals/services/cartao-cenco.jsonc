@@ -12,22 +12,45 @@
   "responsive-layout.desktop#cartao-cenco": {
     "children": [
       "breadcrumb",
-      "flex-layout.row#cartao-cenco-container"
+      "flex-layout.row#cartao-cenco-container",
+      "flex-layout.row#cartao-cenco-container2",
+      "flex-layout.row#cartao-cenco-container3",
+      "flex-layout.row#cartao-cenco-container4"
     ]
   },
   "responsive-layout.tablet#cartao-cenco": {
     "children": [
-      "flex-layout.row#cartao-cenco-title",
-      "flex-layout.row#cartao-cenco-container"
+      "flex-layout.row#cartao-cenco-container",
+      "flex-layout.row#cartao-cenco-container2",
+      "flex-layout.row#cartao-cenco-container3",
+      "flex-layout.row#cartao-cenco-container4"
     ]
   },
   "responsive-layout.phone#cartao-cenco": {
     "children": [
-      "flex-layout.row#cartao-cenco-title",
-      "flex-layout.row#cartao-cenco-container"
+      "flex-layout.row#cartao-cenco-container",
+      "flex-layout.row#cartao-cenco-container2",
+      "flex-layout.row#cartao-cenco-container3",
+      "flex-layout.row#cartao-cenco-container4"
     ]
   },
   "flex-layout.row#cartao-cenco-container": {
+    "children": [
+      "flex-layout.col#cartao-cenco-content"
+    ],
+    "props": {
+      "blockClass": "cencosud-card-container1"
+    }
+  },
+  "flex-layout.row#cartao-cenco-container2": {
+    "children": [
+      "flex-layout.col#cartao-cenco-content-bottom"
+    ],
+    "props": {
+      "blockClass": "cencosud-card-container2"
+    }
+  },
+  "flex-layout.col#cartao-cenco-container": {
     "children": [
       "flex-layout.col#cartao-cenco-content"
     ],
@@ -39,16 +62,32 @@
     "children": [
       "flex-layout.row#cartao-cenco-title",
       "flex-layout.row#cartao-cenco-section-1",
-      "flex-layout.row#cartao-cenco-section-2",
-      "flex-layout.row#cartao-cenco-section-3"
-    ]
+      "flex-layout.row#cartao-cenco-section-2"
+    ],
+    "props": {
+      "paddingLeft": 9,
+      "blockClass": "cencosud-card-content"
+    }
   },
   "flex-layout.row#cartao-cenco-title": {
-    "children": ["rich-text#cenco-card-title"]
+    "children": ["rich-text#cenco-card-title"],
+    "props": {
+      "paddinLeft": 5
+    }
+  },
+  "flex-layout.col#cartao-cenco-content-bottom": {
+    "children": [
+      "flex-layout.row#cartao-cenco-section-3"
+    ],
+    "props": {
+      "blockClass": "content-section-bottom",
+      "preventVerticalStretch": true
+    }
   },
   "rich-text#cenco-card-title": {
     "props": {
-      "text": "Cartão de crédito Cenconsud"
+      "text": "## Cartão de crédito Cenconsud",
+      "blockClass": "cencosud-card-title"
     }
   },
   "flex-layout.row#cartao-cenco-section-1": {
@@ -58,16 +97,21 @@
     ]
   },
   "flex-layout.col#cartao-cenco-section-1-col-1": {
-    "children": ["image#cencon-card"]
+    "children": ["image#cencon-card"],
+    "props": {
+      "horizontalAlign": "center"
+    }
   },
   "flex-layout.col#cartao-cenco-section-1-col-2": {
     "children": ["rich-text#cartao-cenco-text"]
   },
   "rich-text#cartao-cenco-text": {
     "props": {
-      "text": "Seu Cartão Cencosud/GBarbosa Gold possui Chip, uma moderna tecnologia que agrega segurança e praticidade na realização de suas compras e transações com seu cartão. \n\n O seu Cartão Cencosud/GBarbosa Gold é aceito em todas as Lojas Cencosud Brasil e em milhares de estabelecimentos espalhados por diversos países em todo o mundo. É o companheiro ideal para qualquer viagem e para suas compras do dia a dia."
+      "text": "Seu Cartão Cencosud/GBarbosa Gold possui Chip, uma moderna tecnologia que agrega segurança e praticidade na realização de suas compras e transações com seu cartão. \n\n O seu Cartão Cencosud/GBarbosa Gold é aceito em todas as Lojas Cencosud Brasil e em milhares de estabelecimentos espalhados por diversos países em todo o mundo. É o companheiro ideal para qualquer viagem e para suas compras do dia a dia.",
+      "blockClass": "cencosud-card-text-1"
     }
   },
+
   "image#cencon-card": {
     "props": {
       "src": "/arquivos/cartao-cencosud.png"
@@ -80,17 +124,27 @@
     ]
   },
   "flex-layout.col#cartao-cenco-section-2-col-1": {
-    "children": ["rich-text#cartao-cenco-text-2"]
+    "children": ["rich-text#cartao-cenco-text-2", "rich-text#cartao-cenco-call-to-action"],
+    "props": {
+      "width": "60%"
+    }
   },
   "flex-layout.col#cartao-cenco-section-2-col-2": {
     "children": ["image#cencon-card-2"],
     "props": {
-      "horizontalAlign": "right"
+      "horizontalAlign": "left"
     }
   },
   "rich-text#cartao-cenco-text-2": {
     "props": {
-      "text": "### Vantagens do Cartão Cencosud \n\n **Crédito fácil** \nCupom de 1ª Compra – Dá o direito de aproveitar todas as vantagens do Cartão Cencosud logo após a contratação (somente na primeira compra). \n\n **Parcelamento fácil**\n Parcelamento Facilitado em 24x fixas – Exclusivamente para compras com o Cartão Cencosud/GBarbosa \n\n **Seguros com prêmios**\n Seguros e Serviços e ainda pode concorrer a prêmios todo mês. \n\n **Descontos Exclusivos** \n Desconto Exclusivos – Em diversos produtos e seções nas Lojas Gbarbosa."
+      "text": "### Vantagens do Cartão Cencosud \n\n **Crédito fácil** \nCupom de 1ª Compra – Dá o direito de aproveitar todas as vantagens do Cartão Cencosud logo após a contratação (somente na primeira compra). \n\n **Parcelamento fácil**\n Parcelamento Facilitado em 24x fixas – Exclusivamente para compras com o Cartão Cencosud/GBarbosa \n\n **Seguros com prêmios**\n Seguros e Serviços e ainda pode concorrer a prêmios todo mês. \n\n **Descontos Exclusivos** \n Desconto Exclusivos – Em diversos produtos e seções nas Lojas Gbarbosa.",
+      "blockClass": "cencosud-card-benefits"
+    }
+  },
+  "rich-text#cartao-cenco-call-to-action": {
+    "props": {
+      "text": "Peça já o seu",
+      "blockClass": "cencosud-card-call-to-action"
     }
   },
   "image#cencon-card-2": {
@@ -106,26 +160,129 @@
     ]
   },
   "flex-layout.col#cartao-cenco-section-3-col-1": {
-    "children": ["image#cencon-card-phone"],
+    "children": [
+      "responsive-layout.desktop#cencosud-card-phone",
+      "responsive-layout.mobile#cencosud-card-phone"
+    ],
     "props": {
+      "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "width": "70%"
+      "width": "60%"
     }
   },
   "flex-layout.col#cartao-cenco-section-3-col-2": {
-    "children": ["rich-text#cartao-cenco-text-3"],
+    "children": [
+      "rich-text#cartao-cenco-text-3",
+      "flex-layout.row#download-apps"
+    ],
     "props": {
-      "horizontalAlign": "left"
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "cencosud-card-download-app"
     }
   },
   "rich-text#cartao-cenco-text-3": {
     "props": {
-      "text": "# _Baixe o App \n e peça já o seu!"
+      "text": "# _Baixe o App \n e peça já o seu!",
+      "blockClass": "cencosud-card-download"
     }
+  },
+  "responsive-layout.desktop#cencosud-card-phone": {
+    "children": ["image#cencon-card-phone"]
+  },
+  "responsive-layout.mobile#cencosud-card-phone": {
+    "children": ["image#cencon-card-phone-mobile"]
   },
   "image#cencon-card-phone": {
     "props": {
       "src": "/arquivos/cartao-cencosud-phone.png"
+    }
+  },
+  "image#cencon-card-phone-mobile": {
+    "props": {
+      "src": "/arquivos/cartao-cencosud-phone-mobie.png"
+    }
+  },
+  "flex-layout.row#cartao-cenco-container3": {
+    "children": [
+      "flex-layout.col#cartao-cencosud-benefit-1",
+      "flex-layout.col#cartao-cencosud-benefit-2",
+      "flex-layout.col#cartao-cencosud-benefit-3"
+    ],
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8
+    }
+  },
+  "flex-layout.col#cartao-cencosud-benefit-1": {
+    "children": ["image#cartao-cencosud-benefit-1", "rich-text#cartao-cencosud-benefit-1"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#cartao-cencosud-benefit-1": {
+    "props": {
+      "src": "/arquivos/cencosud-benefit-cinemark.png"
+    }
+  },
+  "rich-text#cartao-cencosud-benefit-1": {
+    "props": {
+      "text": "Cupom de 1ª Compra – Dá o direito de aproveitar todas as vantagens do Cartão Cencosud logo após a contratação.",
+      "textAlignment": "CENTER",
+      "blockClass": "cencosud-card-benefits-item"
+    }
+  },
+  "flex-layout.col#cartao-cencosud-benefit-2": {
+    "children": ["image#cartao-cencosud-benefit-2", "rich-text#cartao-cencosud-benefit-2"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#cartao-cencosud-benefit-2": {
+    "props": {
+      "src": "/arquivos/cencosud-benefit-tag.png"
+    }
+  },
+  "rich-text#cartao-cencosud-benefit-2": {
+    "props": {
+      "text": "Desconto Exclusivos – Em diversos produtos e seções nas Lojas Gbarbosa.",
+      "textAlignment": "CENTER",
+      "blockClass": "cencosud-card-benefits-item"
+    }
+  },
+  "flex-layout.col#cartao-cencosud-benefit-3": {
+    "children": ["image#cartao-cencosud-benefit-3", "rich-text#cartao-cencosud-benefit-3"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#cartao-cencosud-benefit-3": {
+    "props": {
+      "src": "/arquivos/cencosud-benefit-pagamento-24x.png"
+    }
+  },
+  "rich-text#cartao-cencosud-benefit-3": {
+    "props": {
+      "text": "Parcelamento Facilitado em 24x fixas – Exclusivamente para compras com o Cartão.",
+      "textAlignment": "CENTER",
+      "blockClass": "cencosud-card-benefits-item"
+    }
+  },
+  "flex-layout.row#cartao-cenco-container4": {
+    "children": [
+      "info-card#cencosud-card"
+    ]
+  },
+  "info-card#cencosud-card": {
+    "props": {
+      "imageUrl": "/arquivos/card.jpg",
+      "headline": "Seja bem-vindo ao mundo de vantagens do seu cartão Cenconsud/GBarbosa Gold",
+      "callToActionText": "Baixe o guia de benefícios",
+      "callToActionUrl": "/servicos/garantia-extendida",
+      "blockClass": "cencosud-card-benefits"
     }
   }
 }

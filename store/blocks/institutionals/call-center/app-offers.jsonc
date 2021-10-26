@@ -91,7 +91,8 @@
     ],
     "props": {
       "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colGap": 4
     }
   },
   "rich-text#offers2": {

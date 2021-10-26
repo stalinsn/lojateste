@@ -1027,6 +1027,47 @@
   }
 }
 
+// INSTITUTIONALS - CENCOSUD CARD
+.infoCardContainer--cencosud-card-benefits{
+  padding: 0;
+  background: #ED1D25;
+
+  .infoCardTextContainer--cencosud-card-benefits{
+    max-width: 300px;
+    margin: 0 auto;
+
+    .infoCardHeadline--cencosud-card-benefits {
+      font-size: 24px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .infoCardCallActionContainer--cencosud-card-benefits {
+      :global(.vtex-button){
+        font-size: 16px;
+        background: #FFD500;
+        border-color: #FFD500;
+      }
+    }
+  }
+
+  .infoCardImageContainer--cencosud-card-benefits{
+    width: 60%;
+
+    .infoCardImage--cencosud-card-benefits {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .infoCardContainer--cencosud-card-benefits{
+    .infoCardImageContainer--cencosud-card-benefits{
+      width: auto
+    }
+  }
+}
+
 //css pagina de pago de servicios institucional
 @media (min-width: 1025px) {
   .imageElement--banner-institucional {

@@ -2473,11 +2473,42 @@
 }
 
 // INSTITUTIONALS - CENCOSUD CARD
-.flexRowContent--cencosud-card{
-  background-image: url("/arquivos/cartao-cencosud-background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.flexRow--cencosud-card-container1{
+  background-color: #ED1D25;
+
+
+  .flexRowContent--cencosud-card-container1{
+    background-image: url("/arquivos/cartao-cencosud-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
+
+.flexRow--cencosud-card-container2{
+  background-color: #FFD500;
+
+  .flexColChild--content-section-bottom{
+    margin-top: -68px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flexCol--cencosud-card-content {
+    padding: 42px 8px 0;
+  }
+
+  .flexRow--cencosud-card-container2{
+    .flexColChild--content-section-bottom{
+      margin-top: auto;
+    }
+  }
+
+  .flexCol--cencosud-card-download-app{
+    margin-bottom: 42px;
+  }
+}
+
+
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {
   display: flex;
