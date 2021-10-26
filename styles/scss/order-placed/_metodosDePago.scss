@@ -6,22 +6,22 @@
   border: 1px solid #dedede;
   border-radius: 5px;
   padding: 18px;
-  @media (min-width: em(769px)) {
-    margin-left: 4em;
-    margin-right: 1em;
+  .titleContainer {
+    align-items: center;
+    border-bottom: 2px solid #dedede;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
   }
-
   .title {
     margin-top: 12px;
   }
-
   .row {
     .paymentName {
-      font-size: 0.875rem;
+      font-size: 16px;
+      color: #525252;
     }
     .paymentValue {
-      font-size: 0.875rem;
-      font-weight: bold;
+      font-size: 16px;
     }
     .additionalInfoContainer {
       .collapseAdditionalInfoButton {
@@ -45,6 +45,26 @@
         .additionalInfoItem {
           font-size: 0.875rem;
         }
+      }
+    }
+    .paymentBankLinkContainer {
+      align-items: center;
+      background-color: #ed1d25;
+      border-radius: 5px;
+      height: 40px;
+      margin-top: 25px;
+      .paymentBankLink {
+        width: 100%;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-family: "OpenSans", sans-serif;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
       }
     }
   }
