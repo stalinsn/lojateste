@@ -74,6 +74,9 @@
   "store.custom#gbarbosa-odonto": {
     "path": "/servicos/plano-odonto"
   },
+  "store.custom#vale-gas": {
+    "path": "/servicos/vale-gas"
+  },
   "store.custom#call-center": {
     "path": "/central-de-atendimento"
   },

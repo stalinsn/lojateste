@@ -1080,6 +1080,92 @@
   }
 }
 
+// INSTITUTIONALS - VALE GAS
+.infoCardContainer--vale-gas-section-1 {
+  height: 349px;
+
+  .infoCardTextContainer--vale-gas-section-1{
+    max-width: 273px;
+
+    .infoCardHeadline--vale-gas-section-1 {
+      letter-spacing: -1.01px;
+      color: #F4F4F4;
+      font-size: 42px;
+      margin: 0;
+    }
+
+    .infoCardSubhead--vale-gas-section-1 {
+      margin: 0;
+      font-size: 26px;
+      color: #FAFAFA;
+    }
+  }
+}
+
+.infoCardContainer--vale-gas-section-2{
+  background: $secondary;
+  padding: 0;
+
+  .infoCardTextContainer--vale-gas-section-2{
+    max-width: 440px;
+    margin: 0 auto;
+
+    .infoCardHeadline--vale-gas-section-2 {
+      letter-spacing: -0.77px;
+      color: $primary;
+      font-size: 32px;
+    }
+
+    .infoCardSubhead--vale-gas-section-2 {
+      letter-spacing: -0.29px;
+      font-size: 18px;
+    }
+
+  }
+
+  .infoCardImage--vale-gas-section-2{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .infoCardTextContainer--vale-gas-section-1 {
+    max-width: initial;
+    margin: 0 auto;
+
+    .infoCardHeadline--vale-gas-section-1 {
+      font-size: 28px;
+    }
+
+    .infoCardSubhead--vale-gas-section-1 {
+      font-size: 16px;
+    }
+  }
+
+  .infoCardContainer--vale-gas-section-2{
+    .infoCardTextContainer--vale-gas-section-2{
+      max-width: 324px;
+      padding: 16px 0 115px;
+
+      .infoCardHeadline--vale-gas-section-2{
+        text-align: center;
+        width: 100%;
+        font-size: 28px;
+        letter-spacing: -0.67px;
+        line-height: 38px;
+      }
+
+      .infoCardSubhead--vale-gas-section-2 {
+        text-align: center;
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: -0.22px;
+      }
+    }
+  }
+
+}
+
 //css pagina de pago de servicios institucional
 @media (min-width: 1025px) {
   .imageElement--banner-institucional {
