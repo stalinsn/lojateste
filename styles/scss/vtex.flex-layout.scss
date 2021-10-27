@@ -2540,6 +2540,30 @@
   }
 }
 
+// INSTITUTIONALS - PLANO CONTROLE
+.flexRow--plano-controle-section-1{
+  background-image: url('/arquivos/gbarbosa-plano-controle-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 432px;
+
+  .flexRowContent--plano-controle-section-1{
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+}
+
+.flexRowContent--plano-controle-section-2 {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRow--plano-controle-section-1{
+    background-image: url('/arquivos/gbarbosa-plano-controle-background-mobile.jpg');
+  }
+}
+
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {
   display: flex;

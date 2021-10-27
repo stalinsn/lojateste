@@ -80,6 +80,9 @@
   "store.custom#recarga-celular": {
     "path": "/servicos/recarga-de-celular"
   },
+  "store.custom#plano-controle": {
+    "path": "/servicos/plano-controle"
+  },
   "store.custom#call-center": {
     "path": "/central-de-atendimento"
   },

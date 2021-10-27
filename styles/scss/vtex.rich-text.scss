@@ -1103,6 +1103,83 @@
   }
 }
 
+// INSTITUTIONALS - PLANO CELULAR
+.wrapper--plano-controle-section-1{
+  max-width: 583px;
+  margin: 129px;
+
+  .heading--plano-controle-section-1{
+    color: #FDBB30;
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -1.01px;
+    margin: 0;
+  }
+
+  .paragraph--plano-controle-section-1 {
+    color: $white;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.32px;
+
+    .strong--plano-controle-section-1 {
+      font-size: 20px;
+    }
+  }
+}
+
+.wrapper--plano-controle-section-2 {
+  max-width: 650px;
+  margin: 56px 142px;
+
+  .paragraph--plano-controle-section-2{
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 5px;
+      left: -22px;
+      background: $primary;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .wrapper--plano-controle-section-1 {
+    margin: 129px 32px 232px;
+  }
+
+  .wrapper--plano-controle-section-2 {
+    margin: 232px 64px 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper--plano-controle-section-1{
+    margin: 62px 24px 188px;
+    text-align: center;
+
+    .heading--plano-controle-section-1{
+      font-size: 35px;
+      line-height: 47px;
+      letter-spacing: -0.84px;
+    }
+  }
+
+  .wrapper--plano-controle-section-2{
+    margin: 220px 24px 24px;
+
+    .paragraph--plano-controle-section-2 {
+      text-align: center;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
 // Institutional GBarbosa App
 .heading--gbarbosa-app,
 .heading--institutional-title {

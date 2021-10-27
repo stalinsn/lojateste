@@ -17,10 +17,12 @@
   left: auto;
 }
 
+// INSTITUTIONALS - GBARBOSA ODONTO
 .stackItem--gbarbosa-odonto{
   height: 100%;
 }
 
+// INSTITUTIONALS - VALE GAS
 .stackItem--vale-gas:last-child{
   left: 50%;
   top: 50%;
@@ -33,5 +35,29 @@
     left: 50%;
     transform: translate(-50%, -75%);
     width: 264px;
+  }
+}
+
+// INSTITUTIONALS - PLANO CONTROLE
+
+.stackItem--plano-controle:last-child{
+  top: 13%;
+  left: 55%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .stackItem--plano-controle:last-child{
+    top: 27%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stackItem--plano-controle:last-child{
+    top: 37%;
+    left: auto;
   }
 }
