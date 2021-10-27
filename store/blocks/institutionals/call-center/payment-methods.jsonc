@@ -1,0 +1,204 @@
+{
+  "store.custom#payment-methods": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": [
+      "responsive-layout.desktop#payment-methods",
+      "responsive-layout.tablet#payment-methods",
+      "responsive-layout.phone#payment-methods"
+    ]
+  },
+  "responsive-layout.desktop#payment-methods": {
+    "children": [
+      "flex-layout.row#call-center-title",
+      "flex-layout.row#payment-methods-container"
+    ]
+  },
+  "responsive-layout.tablet#payment-methods": {
+    "children": [
+      "flex-layout.row#call-center-title",
+      "flex-layout.row#payment-methods-container"
+    ]
+  },
+  "responsive-layout.phone#payment-methods": {
+    "children": [
+      "rich-text#back-to-call-center",
+      "flex-layout.row#payment-methods-container-mobile"
+    ]
+  },
+  "flex-layout.row#call-center-title": {
+    "children": [
+      "rich-text#call-center-title"
+    ],
+    "props": {
+      "blockClass": [
+        "call-center-title"
+      ]
+    }
+  },
+  "rich-text#call-center-title": {
+    "props": {
+      "blockClass": [
+        "call-center-title"
+      ],
+      "text": "#### Central de atendimento",
+      "textColor": "c-on-action-secondary"
+    }
+  },
+  "flex-layout.row#payment-methods-container-mobile": {
+    "children": [
+      "flex-layout.col#payment-methods-content"
+    ],
+    "props": {
+      "blockClass": [
+        "call-center-content"
+      ],
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.row#payment-methods-container": {
+    "children": [
+      "flex-layout.col#payment-methods-links",
+      "flex-layout.col#payment-methods-content"
+    ],
+    "props": {
+      "blockClass": [
+        "call-center-content"
+      ],
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.col#payment-methods-links": {
+    "children": [
+      "rich-text#call-center-link-1",
+      "rich-text#call-center-link-2",
+      "rich-text#call-center-link-3-active",
+      "rich-text#call-center-link-4",
+      "rich-text#call-center-link-5"
+    ],
+    "props": {
+      "blockClass": [
+        "payment-methods-links"
+      ],
+      "preventVerticalStretch": true,
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#payment-methods-content": {
+    "children": [
+      "rich-text#payment-methods-title",
+      "flex-layout.row#payment-methods-content"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "rich-text#payment-methods-title": {
+    "props": {
+      "text": "#### Formas de pagamento"
+    }
+  },
+  "flex-layout.row#payment-methods-content": {
+    "children": [
+      "flex-layout.col#card1-payment",
+      "flex-layout.col#card2-payment",
+      "flex-layout.col#card3-payment"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#cards-payment": {
+    "children": [
+      "flex-layout.col#card1-payment",
+      "flex-layout.col#card2-payment",
+      "flex-layout.col#card3-payment"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#card1-payment": {
+    "children": [
+      "rich-text#card1-content",
+      "image#debito",
+      "rich-text#obs-1"
+    ],
+    "props": {
+      "blockClass": "card-payment",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#card2-payment": {
+    "children": [
+      "rich-text#card2-content",
+      "image#credito",
+      "rich-text#obs-2"
+    ],
+    "props": {
+      "blockClass": "card-payment",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#card3-payment": {
+    "children": [
+      "rich-text#card3-content",
+      "image#alimentacao",
+      "rich-text#obs-3"
+    ],
+    "props": {
+      "blockClass": "card-payment",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#card1-content": {
+    "props": {
+      "text": "**Cartão de débito** \n \n - O pagamento com cartão de débito é realizado no momento da entrega. \n - São aceitos os cartões Mastercard Maestro, Elo e Visa Electron."
+    }
+  },
+  "rich-text#obs-1": {
+    "props": {
+      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso para processamento de débito.",
+      "blockClass": "obs1"
+    }
+  },
+  "image#debito": {
+    "props": {
+      "src": "/arquivos/payments-cartao-debito.png"
+    }
+  },
+  "image#credito": {
+    "props": {
+      "src": "/arquivos/payments-cartao-credito.png"
+    }
+  },
+  "image#alimentacao": {
+    "props": {
+      "src": "/arquivos/payments-vale.png"
+    }
+  },
+  "rich-text#card2-content": {
+    "props": {
+      "text": "**Cartão de crédito** \n \n - O pagamento é feito no site durante a finalização da compra, de acordo com o valor da compra). \n - São aceitos os cartões Mastercard, Visa, Amex, Elo e Dinner’s."
+    }
+  },
+  "rich-text#obs-2": {
+    "props": {
+      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso via internet para processamento de crédito.",
+      "blockClass": "obs1"
+    }
+  },
+  "rich-text#card3-content": {
+    "props": {
+      "text": "**Vale alimentação** \n \n - O pagamento com cartão alimentação é realizado no momento da entrega \n - Atenção, não recebemos em cartão refeição ou restaurante. \n - São aceitos os cartões Visa Vale Alimentação, Ticket Alimentação, VR Alimentação, Sodexo Alimentação, Alelo e Policard Alimentação."
+    }
+  },
+  "rich-text#obs-3": {
+    "props": {
+      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso para processamento de débito.",
+      "blockClass": "obs1"
+    }
+  }
+}
