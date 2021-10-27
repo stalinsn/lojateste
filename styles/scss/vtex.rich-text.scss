@@ -1270,6 +1270,103 @@
   }
 }
 
+// INSTITUTIONALS - GIFT CARDS
+.wrapper--gift-cards-section-1 {
+  color: #fafafa;
+
+  .heading--gift-cards-section-1 {
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -1.01px;
+  }
+
+  .paragraph--gift-cards-section-1 {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.29px;
+  }
+}
+
+.wrapper--gift-cards-section-2  {
+  max-width: 514px;
+  margin-left: 82px;
+
+  .heading--gift-cards-section-2 {
+    font-size: 32px;
+    color: #fafafa;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+  .paragraph--gift-cards-section-2 {
+    font-size: 20px;
+    line-height: 24px;
+    color: $secondary;
+    font-weight: 600;
+  }
+}
+
+.wrapper--gift-cards-title {
+  color: $primary;
+  font-size: 32px;
+  line-height: 43px;
+  letter-spacing: -0.77px;
+}
+
+.wrapper--gift-cards-item{
+  max-width: 150px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .wrapper--gift-cards-title-mobile{
+    width: 100%;
+
+    .heading--gift-cards-title-mobile {
+      font-size: 32px;
+      line-height: 47px;
+      letter-spacing: -0.84px;
+      color: $white;
+      text-align: center;
+    }
+  }
+
+  .wrapper--gift-cards-text-mobile {
+    padding: 0 8px;
+
+    .paragraph--gift-cards-text-mobile {
+      font-size: 14px;
+      color: $white;
+      line-height: 24px;
+      letter-spacing: -0.22px;
+    }
+  }
+
+  .wrapper--gift-cards-section-2{
+    margin: 0;
+    padding: 0 8px;
+
+    .heading--gift-cards-section-2,
+    .paragraph--gift-cards-section-2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .wrapper--gift-cards-title{
+    width: 100%;
+
+    .heading--gift-cards-title {
+      text-align: center;
+      font-size: 28px;
+      line-height: 38px;
+      letter-spacing: -0.67px;
+      margin-bottom: 62px;
+    }
+  }
+}
+
 // Institutional GBarbosa App
 .heading--gbarbosa-app,
 .heading--institutional-title {

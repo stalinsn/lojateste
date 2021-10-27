@@ -86,6 +86,9 @@
   "store.custom#troca-cel": {
     "path": "/servicos/troca-cel"
   },
+  "store.custom#gift-cards": {
+    "path": "/servicos/gift-cards"
+  },
   "store.custom#call-center": {
     "path": "/central-de-atendimento"
   },

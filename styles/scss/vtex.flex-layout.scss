@@ -2575,6 +2575,41 @@
   }
 }
 
+// INSTITUTIONALS - GIFT CARDS
+.flexCol--gift-cards-content{
+  background-image: url("/arquivos/gbarbosa-gift-cards-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px 116px 42px;
+}
+
+.flexCol--gift-cards-item {
+  border-color: #DEDEDE;
+}
+
+@media screen and (max-width: 767px) {
+  .flexCol--gift-cards-mobile{
+    background-image: url('/arquivos/gbarbosa-gift-cards-background-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 32px 8px 212px;
+  }
+
+  .flexCol--gift-cards-section-2-mobile{
+    padding: 208px 16px 32px;
+  }
+
+  .flexRowContent--gift-cards-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 16px;
+
+    .flexCol--gift-cards-item{
+      padding: 0;
+      border: 0;
+    }
+  }
+}
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {
   display: flex;
