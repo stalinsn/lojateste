@@ -2564,6 +2564,17 @@
   }
 }
 
+// INSTITUTIONALS - TROCA CEL
+.flexRowContent--troca-cel-section-1 {
+  min-height: 349px;
+}
+
+@media screen and (max-width: 767px) {
+  .flexRow--troca-cel-section-3 {
+    margin-top: 142px;
+  }
+}
+
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {
   display: flex;

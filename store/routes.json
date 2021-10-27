@@ -83,6 +83,9 @@
   "store.custom#plano-controle": {
     "path": "/servicos/plano-controle"
   },
+  "store.custom#troca-cel": {
+    "path": "/servicos/troca-cel"
+  },
   "store.custom#call-center": {
     "path": "/central-de-atendimento"
   },

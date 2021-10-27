@@ -1218,6 +1218,47 @@
   }
 }
 
+// INSTITUTIONALS - TROCA CEL
+.infoCardHeadline--troca-cel-section-1{
+  color: $white;
+  margin: 0;
+  font-size: 42px;
+  line-height: 57px;
+  letter-spacing: -1.01px;
+}
+
+.infoCardSubhead--troca-cel-section-1 {
+  color: $white;
+  margin: 0;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .infoCardContainer--troca-cel-section-1 {
+    height: 350px;
+
+    .infoCardTextContainer--troca-cel-section-1{
+      margin-left: 32px;
+
+      .infoCardHeadline--troca-cel-section-1{
+        font-size: 27px;
+        line-height: 37px;
+        letter-spacing: -0.65px;
+      }
+
+      .infoCardSubhead--troca-cel-section-1 {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .imageElement--troca-cel {
+    max-width: 224px;
+  }
+}
+
 //css pagina de pago de servicios institucional
 @media (min-width: 1025px) {
   .imageElement--banner-institucional {

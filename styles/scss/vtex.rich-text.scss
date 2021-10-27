@@ -1180,6 +1180,96 @@
   }
 }
 
+// INSTITUTIONALS - TROCA CEL
+
+.container--troca-cel{
+  justify-content: center;
+  padding: 64px 0;
+
+  .wrapper--troca-cel{
+    max-width: 440px;
+
+    .heading--troca-cel{
+      color: $primary;
+    }
+
+    .headingLevel2--troca-cel {
+      font-size: 32px;
+      line-height: 38.4px;
+      letter-spacing: -0.77px;
+    }
+
+    .headingLevel4--troca-cel {
+      font-size: 26px;
+      line-height: 36px;
+      letter-spacing: -0.62px;
+    }
+
+    .paragraph--troca-cel {
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: -0.29px;
+    }
+
+    .list--troca-cel{
+      padding-left: 20px;
+
+      .listItem--troca-cel::marker {
+        color: $secondary
+      }
+    }
+  }
+}
+
+.paragraph--troca-cel-aviso {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.29px;
+
+  .strong--troca-cel-aviso {
+    color: $primary;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container--troca-cel{
+    padding: 68px 0 0;
+
+    .wrapper--troca-cel{
+      max-width: 324px;
+
+      .headingLevel2--troca-cel {
+        font-size: 30px;
+        line-height: 38.4px;
+        letter-spacing: -0.72px;
+        margin-top: 0;
+      }
+
+      .headingLevel4--troca-cel {
+        font-size: 28px;
+        letter-spacing: -0.67px;
+        line-height: 38.4px;
+      }
+
+      .paragraph--troca-cel {
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: -0.22px;
+      }
+    }
+  }
+
+  .wrapper--troca-cel-aviso {
+    max-width: 324px;
+
+    .paragraph--troca-cel-aviso {
+      font-size: 14px;
+      text-align: center;
+      line-height: 27px;
+    }
+  }
+}
+
 // Institutional GBarbosa App
 .heading--gbarbosa-app,
 .heading--institutional-title {

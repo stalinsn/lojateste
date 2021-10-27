@@ -61,3 +61,18 @@
     left: auto;
   }
 }
+
+// INSTITUTIONALS - TROCA CEL
+.stackItem--troca-cel:last-child{
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+@media screen and (max-width: 768px) {
+  .stackItem--troca-cel-mobile:last-child {
+    top: 95%;
+    display: flex;
+    justify-content: center;
+  }
+}
