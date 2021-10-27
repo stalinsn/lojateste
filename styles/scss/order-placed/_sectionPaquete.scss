@@ -2,7 +2,7 @@
 
 .sectionPaquete {
   margin-top: 36px;
-  background: #fff 0% 0% no-repeat padding-box;
+  background: #fff;
   border-radius: 5px;
   padding: 18px;
   margin-left: 0;
@@ -25,7 +25,7 @@
 
   .itemsTableWrapper {
     width: 100%;
-    background: #fff 0% 0% no-repeat padding-box;
+    background: #fff;
     border: 1px solid #dedede;
     border-radius: 5px;
     padding: 11px;
@@ -33,11 +33,21 @@
     .itemsTable {
       width: 100%;
       border-collapse: collapse;
+      overflow-y: scroll;
+      height: 180px;
+      display: flex;
+      .itemsTableBody {
+        width: 100%;
+      }
       .itemsTableHeader {
         font-size: 0.875rem;
       }
       .itemTableRow {
         border-bottom: 1px solid #dedede;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         &:last-child {
           border-bottom: none;
         }

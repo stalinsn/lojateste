@@ -40,7 +40,7 @@
   }
   .section2 {
     margin-left: 7px;
-    background: #fff 0% 0% no-repeat padding-box;
+    background: #fff;
     border: 1px solid #dedede;
     border-radius: 5px;
   }
@@ -63,10 +63,19 @@
     width: 100%;
   }
   .buttonSeguirComprando {
-    border: 1px solid #ed1d25;
-    background-color: #ed1d25;
+    background: #ed1d25;
+    border-radius: 5px;
+    text-decoration: none;
     color: #fff;
-    &:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 257px;
+    max-height: 59px;
+    font-size: 14px;
+    .backToSiteIcon {
+      margin-top: 7px;
+      margin-left: 10px;
     }
   }
   .buttonMisPedidos {

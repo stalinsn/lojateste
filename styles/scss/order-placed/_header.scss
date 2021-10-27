@@ -1,9 +1,6 @@
 @import "../references";
 
 .headerWrapper {
-  @media (max-width: em(769px)) {
-    margin-bottom: 24px;
-  }
   .headerTitle {
     font-size: 1.25rem;
   }
@@ -51,6 +48,31 @@
     .backToSiteIcon {
       margin-top: 7px;
       margin-left: 10px;
+    }
+  }
+}
+
+@media (max-width: (768px)) {
+  .headerWrapper {
+    margin-bottom: 24px;
+    .confirmationMessageWrapper {
+      flex-direction: column;
+      justify-content: center;
+      .confirmationIconContainer {
+        display: flex;
+        justify-content: center;
+      }
+      .confirmationMessagesContainer {
+        margin-left: 0;
+        .confirmationMessageTitle {
+          font-size: 20px;
+          text-align: center;
+          margin-top: 10px;
+        }
+        .backToSiteButton {
+          display: none;
+        }
+      }
     }
   }
 }
