@@ -1,0 +1,156 @@
+{
+  "store.custom#contact-us": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": ["responsive-layout.desktop#contact-us", "responsive-layout.tablet#contact-us", "responsive-layout.phone#contact-us"]
+  },
+  "responsive-layout.desktop#contact-us": {
+    "children": [
+      "flex-layout.row#call-center-title",
+      "flex-layout.row#contact-us-container"
+    ]
+  },
+  "responsive-layout.tablet#contact-us": {
+    "children": [
+      "flex-layout.row#call-center-title",
+      "flex-layout.row#contact-us-container"
+    ]
+  },
+  "responsive-layout.phone#contact-us": {
+    "children": [
+      "rich-text#back-to-call-center",
+      "flex-layout.row#contact-us-container-mobile"
+    ]
+  },
+  "flex-layout.row#contact-us-container": {
+    "children": ["flex-layout.col#contact-us-links", "flex-layout.col#contact-us-content"],
+    "props": {
+      "blockClass": ["call-center-content"],
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.row#contact-us-container-mobile": {
+    "children": ["flex-layout.row#contact-form"]
+  },
+  "flex-layout.col#contact-us-links": {
+    "children": [
+      "rich-text#call-center-link-1",
+      "rich-text#call-center-link-2-active",
+      "rich-text#call-center-link-3",
+      "rich-text#call-center-link-4",
+      "rich-text#call-center-link-5"
+    ],
+    "props": {
+      "blockClass": ["contact-us"],
+      "preventVerticalStretch": true,
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#contact-us-content": {
+    "children": [
+      "flex-layout.row#contact-form"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "flex-layout.row#contact-form": {
+    "children": ["form#contact-us"],
+    "props": {
+      "blockClass": "contact-form"
+    }
+  },
+  "form#contact-us": {
+    "props": {
+      "entity": "CT",
+      "schema": "default"
+    },
+    "children": [
+      "flex-layout.row#contact-us-row1",
+      "flex-layout.row#contact-us-row2",
+      "flex-layout.row#contact-us-row3",
+      "flex-layout.row#contact-us-row4",
+      "flex-layout.row#contact-us-row5"
+    ],
+    "blocks": ["form-success#success-2"]
+  },
+  "form-success#success-2": {
+    "children": ["rich-text#successSubmit1"]
+  },
+  "rich-text#successSubmit1": {
+    "props": {
+      "text": "Enviado com sucesso!"
+    }
+  },
+  "flex-layout.row#contact-us-row1": {
+    "children": ["form-input.text#email1"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#contact-us-row2": {
+    "children": ["form-input.text#firstName1", "form-input.text#lastName1"],
+    "props": {
+      "colGap": 5,
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#contact-us-row3": {
+    "children": ["form-input.text#phone1", "form-input.text#subject1"],
+    "props": {
+      "colGap": 5,
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#contact-us-row4": {
+    "children": ["form-input.textarea#message1"],
+    "props": {
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.row#contact-us-row5": {
+    "children": ["form-submit#1"]
+  },
+  "form-input.text#firstName1": {
+    "props": {
+      "pointer": "#/properties/firstName",
+      "label": "Primeiro nome"
+    }
+  },
+  "form-input.text#lastName1": {
+    "props": {
+      "pointer": "#/properties/lastName",
+      "label": "Sobrenome"
+    }
+  },
+  "form-input.text#email1": {
+    "props": {
+      "pointer": "#/properties/emailAddress",
+      "label": "Email"
+    }
+  },
+  "form-input.text#phone1": {
+    "props": {
+      "pointer": "#/properties/phone",
+      "label": "Celular"
+    }
+  },
+  "form-input.text#subject1": {
+    "props": {
+      "pointer": "#/properties/subject",
+      "label": "Assunto"
+    }
+  },
+  "form-input.textarea#message1": {
+    "props": {
+      "pointer": "#/properties/message",
+      "label": "Mensagem"
+    }
+  },
+  "form-submit#1": {
+    "props": {
+      "label": "Enviar"
+    }
+  }
+}

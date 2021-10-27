@@ -11,7 +11,10 @@
         "menu-item#delivery-trackback-shopping",
         "menu-item#change-adress-shopping",
         "menu-item#many-different-deliverys"
-      ]
+      ],
+      "props": {
+        "blockClass": "faq"
+      }
     },
     "menu-item#what-is-e-shopping": {
       "props": {
@@ -139,7 +142,7 @@
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description9"]
     },
-  
+
     "vtex.menu@2.x:submenu.accordion#e-shopping-description": {
       "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu10"],
       "props": {
@@ -225,7 +228,7 @@
     },
     "vtex.menu@2.x:menu#e-shopping-description-submenu4": {
       "children": ["menu-item#e-shopping-description4"]
-    },    
+    },
     "vtex.menu@2.x:menu#e-shopping-description-submenu5": {
       "children": ["menu-item#e-shopping-description5"]
     },
@@ -370,6 +373,5 @@
         }
       }
     }
-    
+
   }
-  

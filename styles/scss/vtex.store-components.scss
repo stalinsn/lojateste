@@ -449,9 +449,10 @@
 :global(.vtex-store-form-0-x-formSubmitButton) {
   :global(.vtex-button) {
     width: 100%;
-    margin-top: 15px;
-    font-size: 1.25rem;
+    font-size: 18px;
     text-transform: capitalize;
+    border-radius: 5px;
+    padding: 8px;
   }
 }
 

@@ -25,36 +25,37 @@
   },
   "rich-text#title": {
     "props": {
-      "text": "Institucional"
+      "text": "Central de atendimento"
     }
   },
   "tab-layout#institutional": {
     "children": ["tab-list#institutional", "tab-content#institutional"],
     "props": {
       "blockClass": "institutional",
-      "defaultActiveTabId": "about-us"
+      "defaultActiveTabId": "form-contact-us"
     }
   },
   "tab-list#institutional": {
     "children": [
-      "tab-list.item#about-us",
-      "tab-list.item#history",
-      "tab-list.item#cencosud-group",
-      "tab-list.item#sustainability",
-      "tab-list.item#terms-of-use",
-      "tab-list.item#shipping",
+      "rich-text#my-orders-link",
+      "tab-list.item#form",
       "tab-list.item#payment",
+      "tab-list.item#faq",
       "tab-list.item#offers"
     ],
     "props": {
       "blockClass": "institutional-list-content"
     }
   },
+  "rich-text#my-orders-link": {
+    "props": {
+      "text": "[Meus pedidos](#)"
+    }
+  },
   "tab-list.item#about-us": {
     "props": {
       "tabId": "about-us",
-      "label": "Quem somos",
-      "defaultActiveTab": true
+      "label": "Quem somos"
     }
   },
   "tab-list.item#history": {
@@ -96,13 +97,13 @@
   "tab-list.item#offers": {
     "props": {
       "tabId": "offers",
-      "label": "Ofertas App GBarbosa"
+      "label": "Ofertas do App"
     }
   },
   "tab-list.item#common-questions": {
     "props": {
       "tabId": "common-questions",
-      "label": "Perguntas Frenquentes"
+      "label": "Dúvidas frequentes (FAQ)"
     }
   },
   "tab-list.item#exchange-policy": {
@@ -120,14 +121,10 @@
 
   "tab-content#institutional": {
     "children": [
-      "tab-content.item#about-us",
-      "tab-content.item#history",
-      "tab-content.item#cencosud-group",
-      "tab-content.item#sustainability",
-      "tab-content.item#terms-of-use",
-      "tab-content.item#shipping",
+      "tab-content#institutional-atendance2",
       "tab-content.item#payment",
-      "tab-content.item#offers"
+      "tab-content.item#offers",
+      "tab-content.item#faq"
     ],
     "props": {
       "blockClass": "institutional-tab-content-container"
@@ -205,7 +202,7 @@
     }
   },
   "tab-content.item#offers": {
-    "children": ["rich-text#offers2"],
+    "children": ["flex-layout.row#app-offers"],
     "props": {
       "tabId": "offers",
       "blockClass": "offers-tab-item-container"
@@ -276,7 +273,8 @@
   },
   "rich-text#main-text-aboutus": {
     "props": {
-      "text": "O que nasceu como uma pequena mercearia que vendia secos e molhados, hoje é uma das marcas mais forte do Nordeste. Fundada em julho de 1955, em Sergipe, pelos irmãos Gentil e Noel Barbosa, sua proposta oferecer variedade de produtos a preços baixos e atendimento de qualidade. Em pouco tempo, a empresa ampliou o número de lojas na capital e nos principais municípios de Sergipe, indo também para os estados da Bahia, Alagoas, Ceará e Pernambuco. Em 2007, a rede GBarbosa foi adquirida pelo grupo Cencosud, uma das maiores varejistas do mercado latino-americano."
+      "text": "## Quem somos \n\n O que nasceu como uma pequena mercearia que vendia secos e molhados, hoje é uma das marcas mais forte do Nordeste. Fundada em julho de 1955, em Sergipe, pelos irmãos Gentil e Noel Barbosa, sua proposta oferecer variedade de produtos a preços baixos e atendimento de qualidade. Em pouco tempo, a empresa ampliou o número de lojas na capital e nos principais municípios de Sergipe, indo também para os estados da Bahia, Alagoas, Ceará e Pernambuco. Em 2007, a rede GBarbosa foi adquirida pelo grupo Cencosud, uma das maiores varejistas do mercado latino-americano.",
+      "blockClass": "institutional-title"
     }
   },
   "rich-text#main-text-cenco-group": {
@@ -354,98 +352,20 @@
   },
   "rich-text#shipping": {
     "props": {
-      "text": "### Forma de entrega \n O Delivery GBarbosa prioriza a segurança e qualidade para você receber suas compras com toda a facilidade e comodidade. Nossas entregas ocorrerm das **9hs às 21hs**, exceto domingos e feriados. Realize suas compras online com antecedência e programe sua entrega. Assim, você garante seu recebimento conforme a necessidade."
-    }
-  },
-  "rich-text#offers2": {
-    "props": {
-      "text": "### Ofertas App GBarbosa \n\n As ofertas do App GBarbosa também poderão ser aplicadas nas compras em nosso site.\n  Para isso, basta você ativá-las em seu App GBarbosa e quando emitirmos o cupom fiscal da sua compra on-line, ou seja, provavelmente na data da sua entrega programada, concederemos os descontos e preços das ofertas vigentes e ativadas na data da compra. Estes descontos aparecerão diretamente no Cupom Fiscal.\n Atenção: os CPFs utilizados para compra no Site e no App GBarbosa deverão ser os mesmos."
+      "text": "## Forma de entrega \n O Delivery GBarbosa prioriza a segurança e qualidade para você receber suas compras com toda a facilidade e comodidade. Nossas entregas ocorrerm das **9hs às 21hs**, exceto domingos e feriados. Realize suas compras online com antecedência e programe sua entrega. Assim, você garante seu recebimento conforme a necessidade."
     }
   },
   "rich-text#payment": {
     "props": {
-      "text": "### Forma de pagamento "
-    }
-  },
-  "flex-layout.row#cards-payment": {
-    "children": [
-      "flex-layout.col#card1-payment",
-      "flex-layout.col#card2-payment",
-      "flex-layout.col#card3-payment"
-    ]
-  },
-  "flex-layout.col#card1-payment": {
-    "children": ["rich-text#card1-content", "image#debito", "rich-text#obs-1"],
-    "props": {
-      "blockClass": "card-payment"
-    }
-  },
-  "rich-text#card1-content": {
-    "props": {
-      "text": "**Cartão de Débito** \n \n - O pagamento com cartão de débito é realizado no momento da entrega. \n - São aceitos os cartões Mastercard Maestro, Elo e Visa Electron."
-    }
-  },
-  "rich-text#obs-1": {
-    "props": {
-      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso para processamento de débito.",
-      "blockClass": "obs1"
-    }
-  },
-  "image#debito": {
-    "props": {
-      "src": "/arquivos/debito.png"
-    }
-  },
-  "image#credito": {
-    "props": {
-      "src": "/arquivos/credito.png"
-    }
-  },
-  "image#alimentacao": {
-    "props": {
-      "src": "/arquivos/alimentacao.png"
+      "text": "## Forma de pagamento",
+      "blockClass": "institutional-title"
     }
   },
 
-  "flex-layout.col#card2-payment": {
-    "children": ["rich-text#card2-content", "image#credito", "rich-text#obs-2"],
-    "props": {
-      "blockClass": "card-payment"
-    }
-  },
-  "rich-text#card2-content": {
-    "props": {
-      "text": "**Cartão de Crédito** \n \n - O pagamento é feito no site durante a finalização da compra, de acordo com o valor da compra). \n - São aceitos os cartões Mastercard, Visa, Amex, Elo e Dinner’s."
-    }
-  },
-  "rich-text#obs-2": {
-    "props": {
-      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso via internet para processamento de crédito.",
-      "blockClass": "obs1"
-    }
-  },
 
-  "flex-layout.col#card3-payment": {
-    "children": [
-      "rich-text#card3-content",
-      "image#alimentacao",
-      "rich-text#obs-3"
-    ],
-    "props": {
-      "blockClass": "card-payment"
-    }
-  },
-  "rich-text#card3-content": {
-    "props": {
-      "text": "**Vale Alimentação** \n \n - O pagamento com cartão alimentação é realizado no momento da entrega \n - Atenção, não recebemos em cartão refeição ou restaurante. \n - São aceitos os cartões Visa Vale Alimentação, Ticket Alimentação, VR Alimentação, Sodexo Alimentação, Alelo e Policard Alimentação."
-    }
-  },
-  "rich-text#obs-3": {
-    "props": {
-      "text": "Observação: Delivery GBarbosa não se responsabiliza por eventuais problemas relacionados diretamente aos bancos e às operadoras de cartões, tais como indisponibilidade de acesso para processamento de débito.",
-      "blockClass": "obs1"
-    }
-  },
+
+
+
 
   "rich-text#common-questions": {
     "props": {
