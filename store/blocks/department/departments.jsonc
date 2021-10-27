@@ -1,0 +1,366 @@
+{
+  "store.custom#departments": {
+    "title": "Página de departamento",
+    "children": ["flex-layout.row#department-container"]
+  },
+  "flex-layout.row#department-container": {
+    "props": {
+      "blockClass": "department-container",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#department-breadcrumb",
+      "flex-layout.row#categories-container",
+      "flex-layout.col#department-banner",
+      "flex-layout.row#product-list-department-1",
+      "flex-layout.row#product-list-department-2",
+      "flex-layout.row#product-list-department-3",
+      "image#deparment-banner-5",
+      "flex-layout.row#product-list-department-4",
+      "flex-layout.row#product-list-department-5",
+      "flex-layout.row#product-list-department-6"
+    ]
+  },
+  "flex-layout.row#department-breadcrumb": {
+    "title": "Container Breadcrumb",
+    "props": {
+      "blockClass": "department-breadcumb-container",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#department-breadcrumb-home",
+      "rich-text#department-breadcrumb"
+    ]
+  },
+  "rich-text#department-breadcrumb-home": {
+    "title": "Home",
+    "props": {
+      "text": "[Home](/)",
+      "blockClass": ["deparment-breadcrumb"]
+    }
+  },
+  "rich-text#department-breadcrumb": {
+    "title": "Breadcrumb do departamento",
+    "props": {
+      "text": "Eletro",
+      "blockClass": ["deparment-breadcumb", "deparment-breadcrumb-current"]
+    }
+  },
+  "flex-layout.row#categories-container": {
+    "props": {
+      "blockClass": "categories-container",
+      "fullWidth": true
+    },
+    "children": ["rich-text#categories-title"]
+  },
+  "rich-text#categories-title": {
+    "title": "Título Categorias em destaque",
+    "props": {
+      "text": "#### Categorias em destaque \n Navegue pelas categorias mais acessadas"
+    }
+  },
+
+  /* list */
+
+  "flex-layout.col#department-banner": {
+    "title": "Banner Container",
+    "props": {
+      "blockClass": "deparment-banner-title"
+    },
+    "children": [
+      "rich-text#deparment-banner-title",
+      "flex-layout.row#deparment-banner-row"
+    ]
+  },
+  "rich-text#deparment-banner-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": "deparment-banner-title",
+      "text": "AQUELE SEU ELETRO E ELETRÔNICO VOCÊ ENCONTRA AQUI!"
+    }
+  },
+  "flex-layout.row#deparment-banner-row": {
+    "title": "Container dos banners",
+    "children": [
+      "image#deparment-banner-1",
+      "image#deparment-banner-2",
+      "image#deparment-banner-3",
+      "image#deparment-banner-4"
+    ],
+    "props": {}
+  },
+  "image#deparment-banner-1": {
+    "props": {
+      "src": "/arquivos/department-banner-1.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 400,
+      "blockClass": "deparment-banner"
+    }
+  },
+  "image#deparment-banner-2": {
+    "props": {
+      "src": "/arquivos/department-banner-2.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 400,
+      "blockClass": "deparment-banner"
+    }
+  },
+  "image#deparment-banner-3": {
+    "props": {
+      "src": "/arquivos/department-banner-3.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 400,
+      "blockClass": "deparment-banner"
+    }
+  },
+  "image#deparment-banner-4": {
+    "props": {
+      "src": "/arquivos/department-banner-4.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 400,
+      "blockClass": "deparment-banner"
+    }
+  },
+  "flex-layout.row#product-list-department-1": {
+    "title": "Slider 1",
+    "children": ["flex-layout.col#product-list-department-1"],
+    "props": {
+      "blockClass": "product-list-department"
+    }
+  },
+  "flex-layout.col#product-list-department-1": {
+    "children": [
+      "rich-text#department-product-list-title-1",
+      "list-context.product-list#department-slider-1"
+    ]
+  },
+  "rich-text#department-product-list-title-1": {
+    "title": "Título slider 1",
+    "props": {
+      "blockClass": "deparment-product-list-title",
+      "text": "Novidades"
+    }
+  },
+  "list-context.product-list#department-slider-1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#department-slider-1"]
+  },
+  "slider-layout#department-slider-1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      // "showNavigationArrows": "DesktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": ["main-slider-home2"],
+      "title": "Configuração - Slider 1"
+    }
+  },
+  "flex-layout.row#product-list-department-2": {
+    "title": "Slider 2",
+    "children": ["flex-layout.col#product-list-department-2"],
+    "props": {
+      "blockClass": "product-list-department"
+    }
+  },
+  "flex-layout.col#product-list-department-2": {
+    "children": [
+      "rich-text#department-product-list-title-2",
+      "list-context.product-list#department-slider-2"
+    ]
+  },
+  "rich-text#department-product-list-title-2": {
+    "title": "Título slider 2",
+    "props": {
+      "blockClass": "deparment-product-list-title",
+      "text": "Mais vendidos"
+    }
+  },
+  "list-context.product-list#department-slider-2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#department-slider-2"]
+  },
+  "slider-layout#department-slider-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      // "showNavigationArrows": "DesktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": ["main-slider-home2"],
+      "title": "Configuração - Slider 2"
+    }
+  },
+  "flex-layout.row#product-list-department-3": {
+    "title": "Slider 3",
+    "children": ["flex-layout.col#product-list-department-3"],
+    "props": {
+      "blockClass": "product-list-department"
+    }
+  },
+  "flex-layout.col#product-list-department-3": {
+    "children": [
+      "rich-text#department-product-list-title-3",
+      "list-context.product-list#department-slider-3"
+    ]
+  },
+  "rich-text#department-product-list-title-3": {
+    "title": "Título slider 3",
+    "props": {
+      "blockClass": "deparment-product-list-title",
+      "text": "Televisores"
+    }
+  },
+  "list-context.product-list#department-slider-3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#department-slider-3"]
+  },
+  "slider-layout#department-slider-3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      // "showNavigationArrows": "DesktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": ["main-slider-home2"],
+      "title": "Configuração - Slider 3"
+    }
+  },
+  "image#deparment-banner-5": {
+    "props": {
+      "src": "/arquivos/department-banner-5.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 152,
+      "blockClass": "deparment-banner-full"
+    }
+  },
+  "flex-layout.row#product-list-department-4": {
+    "title": "Slider 4",
+    "children": ["flex-layout.col#product-list-department-4"],
+    "props": {
+      "blockClass": "product-list-department"
+    }
+  },
+  "flex-layout.col#product-list-department-4": {
+    "children": [
+      "rich-text#department-product-list-title-4",
+      "list-context.product-list#department-slider-4"
+    ]
+  },
+  "rich-text#department-product-list-title-4": {
+    "title": "Título slider 4",
+    "props": {
+      "blockClass": "deparment-product-list-title",
+      "text": "Geladeiras"
+    }
+  },
+  "list-context.product-list#department-slider-4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#department-slider-4"]
+  },
+  "slider-layout#department-slider-4": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      // "showNavigationArrows": "DesktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": ["main-slider-home2"],
+      "title": "Configuração - Slider 4"
+    }
+  },
+  "flex-layout.row#product-list-department-5": {
+    "title": "Slider 5",
+    "children": ["flex-layout.col#product-list-department-5"],
+    "props": {
+      "blockClass": "product-list-department"
+    }
+  },
+  "flex-layout.col#product-list-department-5": {
+    "children": [
+      "rich-text#department-product-list-title-5",
+      "list-context.product-list#department-slider-5"
+    ]
+  },
+  "rich-text#department-product-list-title-5": {
+    "title": "Título slider 5",
+    "props": {
+      "blockClass": "deparment-product-list-title",
+      "text": "Lavadoras"
+    }
+  },
+  "list-context.product-list#department-slider-5": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#department-slider-5"]
+  },
+  "slider-layout#department-slider-5": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      // "showNavigationArrows": "DesktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": ["main-slider-home2"],
+      "title": "Configuração - Slider 5"
+    }
+  },
+  "flex-layout.row#product-list-department-6": {
+    "title": "Slider 6",
+    "children": ["flex-layout.col#product-list-department-4"],
+    "props": {
+      "marginBottom": 5,
+      "blockClass": "product-list-department"
+    }
+  },
+  "flex-layout.col#product-list-department-6": {
+    "children": [
+      "rich-text#department-product-list-title-6",
+      "list-context.product-list#department-slider-6"
+    ]
+  },
+  "rich-text#department-product-list-title-6": {
+    "title": "Título slider 6",
+    "props": {
+      "blockClass": "deparment-product-list-title",
+      "text": "Automotivo"
+    }
+  },
+  "list-context.product-list#department-slider-6": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#department-slider-6"]
+  },
+  "slider-layout#department-slider-6": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      // "showNavigationArrows": "DesktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": ["main-slider-home2"],
+      "title": "Configuração - Slider 6"
+    }
+  }
+}

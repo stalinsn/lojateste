@@ -79,5 +79,8 @@
   },
   "store.custom#contact-us": {
     "path": "/central-de-atendimento/fale-conosco"
+  },
+  "store.custom#departments": {
+    "path": "/eletro"
   }
 }
