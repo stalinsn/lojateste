@@ -143,7 +143,7 @@
   },
   "rich-text#cartao-cenco-call-to-action": {
     "props": {
-      "text": "Peça já o seu",
+      "text": "[Peça já o seu](https://cartaocencosud.com.br/facaseucartao/)",
       "blockClass": "cencosud-card-call-to-action"
     }
   },

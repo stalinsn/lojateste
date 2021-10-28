@@ -197,8 +197,7 @@
     "children": [
       "flex-layout.col#footer-3-desktop-1",
       "flex-layout.col#footer-3-desktop-2",
-      "flex-layout.col#footer-3-desktop-3",
-      "flex-layout.col#footer-3-desktop-4"
+      "flex-layout.col#footer-3-desktop-3"
     ],
 
     "props": {
@@ -211,7 +210,7 @@
 
     "props": {
       "blockClass": "txt-footer",
-      "width": "80%"
+      "width": "grow"
     }
   },
   "rich-text#copyright-footer": {
@@ -228,7 +227,7 @@
     "children": ["rich-text#powered-by"],
 
     "props": {
-      "width": "6%",
+      "verticalAlign": "middle",
       "blockClass": "txt-footer"
     }
   },
@@ -258,23 +257,6 @@
 
     "props": {
       "src": "/arquivos/corebiz_logo.svg",
-      "blockClass": "logo-footer-corebiz"
-    }
-  },
-
-  "flex-layout.col#footer-3-desktop-4": {
-    "children": ["image#logo-footer-2"],
-
-    "props": {
-      "blockClass": "txt-footer"
-    }
-  },
-
-  "image#logo-footer-2": {
-    "title": "Footer - Logo",
-
-    "props": {
-      "src": "/arquivos/vtex-1.svg",
       "blockClass": "logo-footer-corebiz"
     }
   },

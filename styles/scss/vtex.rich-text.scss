@@ -917,18 +917,23 @@
   }
 }
 
-.wrapper--cencosud-card-call-to-action{
-  padding: 0 80px;
-  background: yellow;
+.link--cencosud-card-call-to-action{
+  padding: 16px 80px;
   background: #FDBB30;
   border-radius: 4px;
-  color: #fff;
+  color: $white;
   font-weight: 700;
   text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.link--cencosud-card-call-to-action:hover {
+  color: $white;
 }
 
 .wrapper--cencosud-card-benefits {
-  color: #fff;
+  color: $white;
   max-width: 668px;
   .strong--cencosud-card-benefits {
     color: #FDBB30;
