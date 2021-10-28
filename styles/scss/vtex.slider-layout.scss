@@ -95,7 +95,7 @@
       box-shadow: 0 3px 8px 0 rgb(0 0 0 / 8%);
       @media screen and (max-width: 768px) {
         max-width: 170px;
-        width: 112px!important;
+        width: 112px !important;
       }
     }
   }
@@ -322,3 +322,68 @@
 .imageElementLink--carrusel-cuadros {
   margin: 15px;
 }
+
+/* deparment page */
+.infoCardContainer--deparment-infocards {
+  flex-direction: column-reverse;
+  background: transparent;
+  .infoCardCallActionContainer--deparment-infocards {
+    :global(.vtex-button) {
+      background: transparent;
+      border: none;
+      width: 100%;
+      :global(.vtex-button__label) {
+        color: #525252;
+        font-size: 12px;
+        padding: 0;
+        white-space: nowrap;
+      }
+    }
+  }
+  .infoCardImageContainer--deparment-infocards {
+    width: 100%;
+    text-align: center;
+  }
+  .infoCardImage--deparment-infocards {
+    width: 116px;
+    height: 116px;
+    border: 1px solid #dedede;
+    border-radius: 100%;
+    display: flex;
+    margin: 0;
+    text-align: center;
+
+    &:hover {
+      border: 4px solid #ffd500;
+      margin: -3px;
+    }
+  }
+  .infoCardTextContainer--deparment-infocards {
+    width: 100%;
+    .infoCardCallActionContainer--deparment-infocards {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+.sliderLayoutContainer--deparment-infocards {
+  margin-bottom: 40px;
+}
+.slide--deparment-infocards {
+  padding: 0 6px;
+  margin-top: 10px;
+}
+.paginationDotsContainer--deparment-infocards {
+  bottom: -10px;
+}
+.sliderTrackContainer--deparment-infocards {
+  max-width: 95%;
+}
+.sliderRightArrow--deparment-infocards,
+.sliderLeftArrow--deparment-infocards {
+  .caretIcon--deparment-infocards {
+    display: none;
+  }
+  background: url();
+}
+/* deparment page end */

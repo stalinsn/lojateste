@@ -48,11 +48,19 @@
     }
   },
   "flex-layout.row#categories-container": {
+    "title": "Slider de categorias",
     "props": {
       "blockClass": "categories-container",
-      "fullWidth": true
+      "fullWidth": true,
+      "preventHorizontalStretch": true
     },
-    "children": ["rich-text#categories-title"]
+    "children": ["flex-layout.col#categories-container"]
+  },
+  "flex-layout.col#categories-container": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#categories-title", "list-context.info-card-list#department"]
   },
   "rich-text#categories-title": {
     "title": "Título Categorias em destaque",
@@ -61,7 +69,146 @@
     }
   },
 
-  /* list */
+  "list-context.info-card-list#department": {
+    "title": "Lista de categorias",
+    "children": ["slider-layout#department-infocards"],
+    "props": {
+      "infoCards": [
+        {
+          "id": "deparment-infocard-list1",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/fogao.png",
+          "headline": "",
+          "callToActionText": "Fogão",
+          "callToActionUrl": "/",
+          "imageActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list2",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/cooktop.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "cooktop",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list3",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/televisor.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "Televisor",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list4",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/lavaeseca.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "Lava e seca",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list5",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/forno.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "forno de embutir",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list6",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/videogame.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "videogame",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list7",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/freezer.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "freezer",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list8",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/coifas.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "coifas",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list9",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/coifas.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "coifas",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list10",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/coifas.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "coifas",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        }
+      ]
+    }
+  },
+  "slider-layout#department-infocards": {
+    "title": "Configuração de slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 5,
+        "phone": 4
+      },
+      "infinite": true,
+      "blockClass": "deparment-infocards"
+    }
+  },
 
   "flex-layout.col#department-banner": {
     "title": "Banner Container",

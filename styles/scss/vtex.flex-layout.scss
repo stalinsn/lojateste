@@ -1550,7 +1550,6 @@
   }
 }
 
-
 :global(.vtex-product-summary-2-x-nameWrapper) {
   text-align: left;
   width: 100%;
@@ -4137,10 +4136,9 @@
   justify-content: center;
 }
 
-
 /* Department page - start */
 .flexRow--department-container {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   .flexRowContent--department-container {
     flex-direction: column;
   }
@@ -4148,7 +4146,14 @@
     width: 100%;
     background-color: #fff;
     margin-top: 45px;
-    box-shadow: 0px -1px 6px #0000000A;
+    box-shadow: 0px -1px 6px #0000000a;
+  }
+}
+.flexRow--categories-container {
+  width: 100%;
+  .flexRowContent--categories-container {
+    width: 100%;
+    justify-content: center;
   }
 }
 /* Department page - end */
