@@ -22,7 +22,13 @@
   },
   "responsive-layout.tablet#cencosud-protege": {
     "children": [
-      "flex-layout.row#cencosud-protege-section-1"
+      "flex-layout.row#cencosud-protege-section-1",
+      "flex-layout.row#cencosud-protege-section-2",
+      "flex-layout.row#cencosud-protege-section-3",
+      "flex-layout.row#cencosud-protege-section-4",
+      "flex-layout.row#cencosud-protege-section-5",
+      "flex-layout.row#cencosud-protege-section-6",
+      "flex-layout.row#cencosud-protege-section-7"
     ]
   },
   "responsive-layout.phone#cencosud-protege": {
