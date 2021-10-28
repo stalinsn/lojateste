@@ -89,6 +89,9 @@
   "store.custom#gift-cards": {
     "path": "/servicos/gift-cards"
   },
+  "store.custom#cencosud-protege": {
+    "path": "/servicos/cencosud-protege"
+  },
   "store.custom#call-center": {
     "path": "/central-de-atendimento"
   },

@@ -1259,6 +1259,16 @@
   }
 }
 
+.imageElement--cenconsud-protege-background {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .imageElement--cencosud-protege-tags {
+    margin-top: 32px;
+  }
+}
+
 //css pagina de pago de servicios institucional
 @media (min-width: 1025px) {
   .imageElement--banner-institucional {

@@ -1367,6 +1367,262 @@
   }
 }
 
+// INSTITUTIONALS - GBARBOSA PROTEGE
+.wrapper--cencosud-protege-section-1 {
+  color: $white;
+
+  .heading--cencosud-protege-section-1 {
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -1.01px;
+    margin: 0;
+  }
+
+  .paragraph--cencosud-protege-section-1 {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.26px;
+
+    .strong--cencosud-protege-section-1 {
+      font-size: 20px;
+    }
+  }
+}
+
+.container--cencosud-protege-section-2 {
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-2 {
+    color: $white;
+    max-width: 705px;
+
+    .heading--cencosud-protege-section-2 {
+      font-size: 32px;
+      line-height: 24px;
+      letter-spacing: -0.51px;
+    }
+
+    .list--cencosud-protege-section-2{
+      padding: 0;
+
+      .listItem--cencosud-protege-section-2::marker {
+        color: $secondary;
+      }
+    }
+
+    .paragraph--cencosud-protege-section-2 {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.26px;
+
+      .strong--cencosud-protege-section-2{
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.container--cencosud-protege-section-3 {
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-3 {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.26px;
+
+    .heading--cencosud-protege-section-3 {
+      color: $primary;
+      margin: 0;
+    }
+
+    .list--cencosud-protege-section-3{
+      padding: 0;
+
+      .listItem--cencosud-protege-section-3::marker {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.container--cencosud-protege-section-4 {
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-4 {
+    max-width: 1124px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.26px;
+
+    .strong--cencosud-protege-section-4 {
+      color: $primary;
+      margin: 0;
+    }
+  }
+}
+
+.container--cencosud-protege-section-5 {
+  justify-content: flex-end;
+
+  .wrapper--cencosud-protege-section-5 {
+    max-width: 385px;
+    margin-right: 52px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.26px;
+
+    .heading--cencosud-protege-section-5 {
+      color: $white;
+      font-size: 32px;
+      letter-spacing: -0.51px;
+    }
+
+    .paragraph--cencosud-protege-section-5 {
+      font-size: 14px;
+      letter-spacing: -0.22px;
+      color: $white;
+
+      .strong--cencosud-protege-section-5 {
+        .italic--cencosud-protege-section-5 {
+          color: $secondary;
+          font-style: normal;
+          font-size: 20px;
+          letter-spacing: -0.32px;
+        }
+      }
+    }
+  }
+}
+
+.container--cencosud-protege-section-6{
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-6 {
+    max-width: 1124px;
+    letter-spacing: -0.26px;
+  }
+}
+
+.container--cencosud-protege-section-7{
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-7 {
+    max-width: 1124px;
+    letter-spacing: -0.26px;
+
+    .link--cencosud-protege-section-7{
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper--cencosud-protege-section-1 {
+    .heading--cencosud-protege-section-1 {
+      font-size: 26px;
+      line-height: 36px;
+      letter-spacing: -0.62px;
+    }
+
+    .paragraph--cencosud-protege-section-1  {
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: -0.22px;
+
+      .strong--cencosud-protege-section-1 {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.26px;
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-2 {
+    .wrapper--cencosud-protege-section-2 {
+      max-width: 324px;
+      margin-left: 12px;
+
+      .heading--cencosud-protege-section-2{
+        font-size: 18px;
+        letter-spacing: -0.29px;
+        line-height: 24px;
+      }
+
+      .paragraph--cencosud-protege-section-2{
+        font-size: 12px;
+        line-height: 24px;
+
+        .strong--cencosud-protege-section-2 {
+          font-size: 18px;
+          letter-spacing: -0.29px;
+        }
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-3 {
+    justify-content: center;
+
+    .wrapper--cencosud-protege-section-3 {
+      max-width: 324px;
+
+      .heading--cencosud-protege-section-3 {
+        font-size: 16px;
+        letter-spacing: -0.26px;
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-4 {
+    justify-content: center;
+
+    .wrapper--cencosud-protege-section-4 {
+      max-width: 324px;
+
+      .heading--cencosud-protege-section-4 {
+        font-size: 16px;
+        letter-spacing: -0.26px;
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-5 {
+    padding: 82px 22px;
+
+    .wrapper--cencosud-protege-section-5 {
+      max-width: 324px;
+      margin: 0;
+
+      .heading--cencosud-protege-section-5 {
+        font-size: 16px;
+        letter-spacing: -0.26px;
+      }
+
+      .paragraph--cencosud-protege-section-5 {
+        .strong--cencosud-protege-section-5 {
+          .italic--cencosud-protege-section-5 {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-6{
+    .wrapper--cencosud-protege-section-6 {
+      padding: 0 16px;
+    }
+  }
+
+  .container--cencosud-protege-section-7{
+    .wrapper--cencosud-protege-section-7 {
+      padding: 0 16px;
+    }
+  }
+}
+
 // Institutional GBarbosa App
 .heading--gbarbosa-app,
 .heading--institutional-title {

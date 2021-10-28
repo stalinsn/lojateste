@@ -90,3 +90,18 @@
     top: 48%;
   }
 }
+
+
+// INSTITUTIONALS - CENCONSUD PROTEGE
+.stackItem--cenconsud-protege{
+  right: 8%;
+  top: 14%;
+  left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .stackItem--cenconsud-protege:last-child{
+    right: 0;
+    padding: 36px;
+  }
+}
