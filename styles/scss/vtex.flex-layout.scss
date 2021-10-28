@@ -4137,6 +4137,9 @@
 }
 
 /* Department page - start */
+.flexCol--deparment-banner-title {
+  padding: 0 40px;
+}
 .flexRow--department-container {
   background-color: #fafafa;
   .flexRowContent--department-container {
@@ -4151,9 +4154,22 @@
 }
 .flexRow--categories-container {
   width: 100%;
+
   .flexRowContent--categories-container {
     width: 100%;
     justify-content: center;
+  }
+}
+.flexRowContent--department-breadcumb-container {
+  padding: 0 60px;
+}
+@media (max-width: 768px) {
+  .flexRowContent--department-breadcumb-container {
+    padding: 0 15px;
+    display: flex;
+  }
+  .flexCol--deparment-banner-title {
+    padding: 0;
   }
 }
 /* Department page - end */

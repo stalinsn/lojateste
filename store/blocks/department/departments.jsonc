@@ -60,12 +60,16 @@
     "props": {
       "width": "100%"
     },
-    "children": ["rich-text#categories-title", "list-context.info-card-list#department"]
+    "children": [
+      "rich-text#categories-title",
+      "list-context.info-card-list#department"
+    ]
   },
   "rich-text#categories-title": {
     "title": "Título Categorias em destaque",
     "props": {
-      "text": "#### Categorias em destaque \n Navegue pelas categorias mais acessadas"
+      "text": "#### Categorias em destaque \n Navegue pelas categorias mais acessadas",
+      "blockClass": "categories-title"
     }
   },
 
@@ -174,16 +178,88 @@
           "id": "deparment-infocard-list9",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/coifas.png",
+          "imageUrl": "/arquivos/fogao.png",
           "headline": "",
-          "imageActionUrl": "/",
-          "callToActionText": "coifas",
+          "callToActionText": "Fogão",
           "callToActionUrl": "/",
+          "imageActionUrl": "/",
           "blockClass": "deparment-infocard-list",
           "textAlignment": "center"
         },
         {
           "id": "deparment-infocard-list10",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/cooktop.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "cooktop",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list11",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/televisor.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "Televisor",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list12",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/lavaeseca.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "Lava e seca",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list13",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/forno.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "forno de embutir",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list14",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/videogame.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "videogame",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list15",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "/arquivos/freezer.png",
+          "headline": "",
+          "imageActionUrl": "/",
+          "callToActionText": "freezer",
+          "callToActionUrl": "/",
+          "blockClass": "deparment-infocard-list",
+          "textAlignment": "center"
+        },
+        {
+          "id": "deparment-infocard-list16",
           "isFullModeStyle": false,
           "textPosition": "center",
           "imageUrl": "/arquivos/coifas.png",
@@ -205,7 +281,7 @@
         "tablet": 5,
         "phone": 4
       },
-      "infinite": true,
+      "infinite": false,
       "blockClass": "deparment-infocards"
     }
   },

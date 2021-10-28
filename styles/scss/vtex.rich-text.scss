@@ -908,7 +908,7 @@
   font-size: 13px;
 }
 
-.paragraph--call-center-link{
+.paragraph--call-center-link {
   margin: 12px 0;
   padding: 0 12px;
 
@@ -920,25 +920,24 @@
     }
   }
 
-  &.paragraph--link-active{
+  &.paragraph--link-active {
     border-left: 2px solid #ed1d25;
   }
-
 }
 
-.paragraph--back-to-call-center{
+.paragraph--back-to-call-center {
   padding: 0 16px;
 
   .link--back-to-call-center {
     text-decoration: none;
-    color: #ED1D25;
+    color: #ed1d25;
     font-weight: 400;
     display: flex;
     align-items: center;
 
     &::before {
       background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.243' height='10.484' viewBox='0 0 13.243 10.484'%3E%3Cg id='Arrow_L' data-name='Arrow L' transform='translate(-15.757 -16.758)'%3E%3Cpath id='Union_81' data-name='Union 81' d='M5.244,13.244a1,1,0,0,1-.708-.293L4.5,12.915.3,8.708A1,1,0,0,1,1.709,7.294L4.244,9.829V1a1,1,0,0,1,2,0V9.828L8.78,7.294a1,1,0,1,1,1.414,1.415L5.975,12.927l-.023.024a1,1,0,0,1-.707.293Z' transform='translate(29.001 16.756) rotate(90)' fill='%23ed1d25'/%3E%3C/g%3E%3C/svg%3E%0A");
-      content: '';
+      content: "";
       width: 14px;
       height: 11px;
       display: inline-block;
@@ -948,8 +947,6 @@
     }
   }
 }
-
-
 
 // css andres paginas institucionales servicios financieros
 .paragraph--titulo-tarjeta-de-credito,
@@ -2394,7 +2391,6 @@
 }
 /* Modal cart end */
 
-
 /* Deparment page  */
 .wrapper--deparment-banner-title {
   width: 100%;
@@ -2408,5 +2404,76 @@
   font-size: 24px;
   font-weight: bold;
   margin-left: 45px;
+}
+.headingLevel4--categories-title {
+  color: #525252;
+  font-size: 24px;
+  margin: 0;
+}
+.paragraph--categories-title {
+  margin-top: 5px;
+  color: #525252;
+}
+.container--categories-title {
+  padding: 0 60px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.link--deparment-breadcrumb {
+  color: #898989;
+  text-decoration: none;
+  font-size: 13px;
+  display: flex;
+  &::after {
+    content: "";
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_route_new' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath id='Caminho_6467' data-name='Caminho 6467' d='M0,0H16V16H0Z' fill='none'/%3E%3Cpath id='Caminho_6531' data-name='Caminho 6531' d='M9.227,6.627a.713.713,0,0,0,0,1.01l2.78,2.78L9.227,13.2a.714.714,0,0,0,1.01,1.01l3.288-3.288a.713.713,0,0,0,0-1.01L10.237,6.62A.72.72,0,0,0,9.227,6.627Z' transform='translate(-3.018 -2.416)' fill='%23898989'/%3E%3C/svg%3E")
+      no-repeat;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px;
+    margin-top: 2px;
+  }
+}
+.paragraph--deparment-breadcumb {
+  color: #525252;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .container--categories-title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .paragraph--deparment-banner-title {
+    font-size: 16px;
+  }
+  .link--deparment-breadcrumb {
+    &::after {
+      margin: 0 5px;
+      margin-top: 2px;
+    }
+  }
+  .paragraph--deparment-breadcumb {
+    margin-left: 5px;
+  }
+  .headingLevel4--categories-title {
+    color: #525252;
+    font-size: 24px;
+    margin: 0;
+  }
+  .paragraph--categories-title {
+    margin-top: 5px;
+    color: #525252;
+  }
+  .paragraph--categories-title,
+  .headingLevel4--categories-title {
+    font-size: 16px;
+  }
 }
 /* Deparment page end */
