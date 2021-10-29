@@ -2546,21 +2546,20 @@
 }
 
 // INSTITUTIONALS - CENCOSUD CARD
-.flexRow--cencosud-card-container1{
-  background-color: #ED1D25;
+.flexRow--cencosud-card-container1 {
+  background-color: #ed1d25;
 
-
-  .flexRowContent--cencosud-card-container1{
+  .flexRowContent--cencosud-card-container1 {
     background-image: url("/arquivos/cartao-cencosud-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
 }
 
-.flexRow--cencosud-card-container2{
+.flexRow--cencosud-card-container2 {
   background-color: $secondary;
 
-  .flexColChild--content-section-bottom{
+  .flexColChild--content-section-bottom {
     margin-top: -68px;
   }
 }
@@ -2570,13 +2569,13 @@
     padding: 42px 8px 0;
   }
 
-  .flexRow--cencosud-card-container2{
-    .flexColChild--content-section-bottom{
+  .flexRow--cencosud-card-container2 {
+    .flexColChild--content-section-bottom {
       margin-top: auto;
     }
   }
 
-  .flexCol--cencosud-card-download-app{
+  .flexCol--cencosud-card-download-app {
     margin-bottom: 42px;
   }
 }
@@ -2586,8 +2585,8 @@
   height: 703px;
 }
 
-.flexCol--gbarbosa-odonto-content{
-  background: #E10A17;
+.flexCol--gbarbosa-odonto-content {
+  background: #e10a17;
   border-radius: 0 0 30px 30px;
 }
 
@@ -2599,7 +2598,7 @@
 }
 
 // INSTITUTIONALS - RECARGA CELULAR
-.flexRowContent--recarga-celular-section-1{
+.flexRowContent--recarga-celular-section-1 {
   background-image: url("/arquivos/gbarbosa-recarga-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -2607,20 +2606,20 @@
 }
 
 @media screen and (max-width: 767px) {
-  .flexRowContent--recarga-celular-section-1{
+  .flexRowContent--recarga-celular-section-1 {
     padding-top: 32px;
     background-image: url("/arquivos/gbarbosa-recarga-background-mobile.jpg");
   }
 }
 
 // INSTITUTIONALS - PLANO CONTROLE
-.flexRow--plano-controle-section-1{
-  background-image: url('/arquivos/gbarbosa-plano-controle-background.jpg');
+.flexRow--plano-controle-section-1 {
+  background-image: url("/arquivos/gbarbosa-plano-controle-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 432px;
 
-  .flexRowContent--plano-controle-section-1{
+  .flexRowContent--plano-controle-section-1 {
     max-width: 1366px;
     margin: 0 auto;
   }
@@ -2632,8 +2631,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .flexRow--plano-controle-section-1{
-    background-image: url('/arquivos/gbarbosa-plano-controle-background-mobile.jpg');
+  .flexRow--plano-controle-section-1 {
+    background-image: url("/arquivos/gbarbosa-plano-controle-background-mobile.jpg");
   }
 }
 
@@ -2649,7 +2648,7 @@
 }
 
 // INSTITUTIONALS - GIFT CARDS
-.flexCol--gift-cards-content{
+.flexCol--gift-cards-content {
   background-image: url("/arquivos/gbarbosa-gift-cards-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -2657,18 +2656,18 @@
 }
 
 .flexCol--gift-cards-item {
-  border-color: #DEDEDE;
+  border-color: #dedede;
 }
 
 @media screen and (max-width: 767px) {
-  .flexCol--gift-cards-mobile{
-    background-image: url('/arquivos/gbarbosa-gift-cards-background-mobile.jpg');
+  .flexCol--gift-cards-mobile {
+    background-image: url("/arquivos/gbarbosa-gift-cards-background-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 32px 8px 212px;
   }
 
-  .flexCol--gift-cards-section-2-mobile{
+  .flexCol--gift-cards-section-2-mobile {
     padding: 208px 16px 32px;
   }
 
@@ -2677,7 +2676,7 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 16px;
 
-    .flexCol--gift-cards-item{
+    .flexCol--gift-cards-item {
       padding: 0;
       border: 0;
     }
@@ -2690,7 +2689,7 @@
   border-radius: 0 0 30px 30px;
 }
 
-.flexCol--cencosud-protege-section-5{
+.flexCol--cencosud-protege-section-5 {
   background-color: $primary;
 }
 
@@ -4305,6 +4304,8 @@
   background-color: #fafafa;
   .flexRowContent--department-container {
     flex-direction: column;
+    max-width: 1366px;
+    margin: 0 auto;
   }
   .flexRow--product-list-department {
     width: 100%;
