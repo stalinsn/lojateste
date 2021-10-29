@@ -41,12 +41,23 @@
     font-size: 20px;
     font-weight: bold;
     white-space: normal;
+    @media (max-width: 768px) {
+      text-transform: inherit;
+      font-size: 19px;
+      .accordionIcon--e-shopping-menu-item-common-questions {
+        color: #ed1d25;
+        font-size: 20px;
+      }
+    }
   }
   &--isOpen {
     .styledLinkContent--e-shopping-menu-item-common-questions {
       color: #525252;
       font-size: 20px;
       font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      background: #fff !important;
     }
   }
 }

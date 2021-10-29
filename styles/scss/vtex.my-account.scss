@@ -472,6 +472,10 @@
         content: "Sair";
       }
     }
+    a[href*="/shopping-list"],
+    a[href*="/authentication"] {
+      display: none;
+    }
   }
 }
 :global(.vtex-my-account-1-x-profile) {
