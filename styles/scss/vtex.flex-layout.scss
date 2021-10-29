@@ -2533,6 +2533,167 @@
   }
 }
 
+// INSTITUTIONALS - SERVICES
+.flexRowContent--services-container {
+  max-width: 1238px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    justify-content: space-around;
+  }
+}
+
+// INSTITUTIONALS - CENCOSUD CARD
+.flexRow--cencosud-card-container1{
+  background-color: #ED1D25;
+
+
+  .flexRowContent--cencosud-card-container1{
+    background-image: url("/arquivos/cartao-cencosud-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.flexRow--cencosud-card-container2{
+  background-color: $secondary;
+
+  .flexColChild--content-section-bottom{
+    margin-top: -68px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flexCol--cencosud-card-content {
+    padding: 42px 8px 0;
+  }
+
+  .flexRow--cencosud-card-container2{
+    .flexColChild--content-section-bottom{
+      margin-top: auto;
+    }
+  }
+
+  .flexCol--cencosud-card-download-app{
+    margin-bottom: 42px;
+  }
+}
+
+// INSTITUTIONALS - GBARBOSA ODONTO
+.flexRowContent--gbarbosa-odonto-banner {
+  height: 703px;
+}
+
+.flexCol--gbarbosa-odonto-content{
+  background: #E10A17;
+  border-radius: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .flexColChild--gbarbosa-odonto-content {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+// INSTITUTIONALS - RECARGA CELULAR
+.flexRowContent--recarga-celular-section-1{
+  background-image: url("/arquivos/gbarbosa-recarga-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .flexRowContent--recarga-celular-section-1{
+    padding-top: 32px;
+    background-image: url("/arquivos/gbarbosa-recarga-background-mobile.jpg");
+  }
+}
+
+// INSTITUTIONALS - PLANO CONTROLE
+.flexRow--plano-controle-section-1{
+  background-image: url('/arquivos/gbarbosa-plano-controle-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 432px;
+
+  .flexRowContent--plano-controle-section-1{
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+}
+
+.flexRowContent--plano-controle-section-2 {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRow--plano-controle-section-1{
+    background-image: url('/arquivos/gbarbosa-plano-controle-background-mobile.jpg');
+  }
+}
+
+// INSTITUTIONALS - TROCA CEL
+.flexRowContent--troca-cel-section-1 {
+  min-height: 349px;
+}
+
+@media screen and (max-width: 767px) {
+  .flexRow--troca-cel-section-3 {
+    margin-top: 142px;
+  }
+}
+
+// INSTITUTIONALS - GIFT CARDS
+.flexCol--gift-cards-content{
+  background-image: url("/arquivos/gbarbosa-gift-cards-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px 116px 42px;
+}
+
+.flexCol--gift-cards-item {
+  border-color: #DEDEDE;
+}
+
+@media screen and (max-width: 767px) {
+  .flexCol--gift-cards-mobile{
+    background-image: url('/arquivos/gbarbosa-gift-cards-background-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 32px 8px 212px;
+  }
+
+  .flexCol--gift-cards-section-2-mobile{
+    padding: 208px 16px 32px;
+  }
+
+  .flexRowContent--gift-cards-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 16px;
+
+    .flexCol--gift-cards-item{
+      padding: 0;
+      border: 0;
+    }
+  }
+}
+
+// INSTITUTIONALS - CENCOSUD PROTEGE
+.flexRowContent--cencosud-protege-section-2 {
+  background: $primary;
+  border-radius: 0 0 30px 30px;
+}
+
+.flexCol--cencosud-protege-section-5{
+  background-color: $primary;
+}
+
 //css pagina terminos y condiciones andres institucionales
 .flexRowContent--primer-fila {
   display: flex;

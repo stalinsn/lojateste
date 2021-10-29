@@ -1,0 +1,141 @@
+{
+  "store.custom#troca-cel": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": [
+      "responsive-layout.desktop#troca-cel",
+      "responsive-layout.tablet#troca-cel",
+      "responsive-layout.phone#troca-cel"
+    ]
+  },
+  "responsive-layout.desktop#troca-cel": {
+    "children": [
+      "breadcrumb",
+      "stack-layout#troca-cel"
+    ]
+  },
+  "responsive-layout.tablet#troca-cel": {
+    "children": [
+      "stack-layout#troca-cel"
+    ]
+  },
+  "responsive-layout.phone#troca-cel": {
+    "children": [
+      "flex-layout.row#troca-cel-section-1",
+      "flex-layout.row#troca-cel-content-mobile"
+    ]
+  },
+  "flex-layout.row#troca-cel-content-mobile": {
+    "children": [
+      "stack-layout#troca-cel-mobile",
+      "flex-layout.row#troca-cel-section-3"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#troca-cel-content": {
+    "children": [
+      "flex-layout.col#troca-cel-content"
+    ]
+  },
+  "flex-layout.col#troca-cel-content": {
+    "children": [
+      "flex-layout.row#troca-cel-section-1",
+      "flex-layout.row#troca-cel-section-2",
+      "flex-layout.row#troca-cel-section-3"
+    ]
+  },
+  "stack-layout#troca-cel": {
+    "children": ["flex-layout.row#troca-cel-content", "image#troca-cel"],
+    "props": {
+      "blockClass": "troca-cel"
+    }
+  },
+  "stack-layout#troca-cel-mobile": {
+    "children": ["flex-layout.row#troca-cel-section-2", "image#troca-cel"],
+    "props": {
+      "blockClass": "troca-cel-mobile"
+    }
+  },
+  "flex-layout.row#troca-cel-section-1": {
+    "title": "Seção 1",
+    "children": [
+      "info-card#troca-cel-section-1"
+    ],
+    "props": {
+      "blockClass": "troca-cel-section-1",
+      "fullWidth": true
+    }
+  },
+  "info-card#troca-cel-section-1": {
+    "title": "Infocard - seção 1",
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "/arquivos/gbarbosa-man-choosing-smartphone-in-store.jpg",
+      "mobileImageUrl": "/arquivos/gbarbosa-man-choosing-smartphone-in-store-mobile.jpg",
+      "headline": "Troca Cel GBarbosa",
+      "subhead": "Seu usado vale desconto",
+      "callToActionMode": "none",
+      "blockClass": "troca-cel-section-1"
+    }
+  },
+  "flex-layout.row#troca-cel-section-2": {
+    "title": "Seção 2",
+    "children": [
+      "flex-layout.col#troca-cel-col-1",
+      "flex-layout.col#troca-cel-col-2"
+    ],
+    "props": {
+      "blockClass": "troca-cel-section-2"
+    }
+  },
+  "flex-layout.col#troca-cel-col-1": {
+    "children": [
+      "rich-text#troca-cel"
+    ]
+  },
+  "flex-layout.col#troca-cel-col-2": {
+    "children": [
+      "image#troca-cel-2"
+    ]
+  },
+  "image#troca-cel": {
+    "title": "Imagem central",
+    "props": {
+      "src": "/arquivos/gbarbosa-troca-cel.png",
+      "maxHeight": 279,
+      "blockClass": "troca-cel"
+    }
+  },
+  "image#troca-cel-2": {
+    "title": "Imagem coluna 2",
+    "props": {
+      "src": "/arquivos/gbarbosa-woman-smiling.jpg"
+    }
+  },
+  "rich-text#troca-cel": {
+    "props": {
+      "text": "## O que é o Troca Cel GBarbosa? \n\n É o serviço em que seu aparelho usado, smartphone ou tablet, vale como parte do pagamento na compra de um novo. \n\n #### Como funciona? \n\n * Leve seu aparelho até a loja GBarbosa mais próxima e solicite uma avaliação aos nossos vendedores; \n\n * Veja o bônus obtido e escolha o produto que deseja comprar; \n\n * Utilize seu voucher como parte do pagamento na compra do smartphone ou tablet novo;",
+      "blockClass": "troca-cel"
+    }
+  },
+  "flex-layout.row#troca-cel-section-3": {
+    "title": "Seção 3",
+    "children": [
+      "rich-text#troca-cel-aviso"
+    ],
+    "props": {
+      "blockClass": "troca-cel-section-3"
+    }
+  },
+  "rich-text#troca-cel-aviso": {
+    "title": "Texto de aviso",
+    "props": {
+      "text": "**Atenção**: Ele deve ligar e desligar normalmente; Deve possuir o selo da Anatel; Deverá estar desbloqueado",
+      "textPosition": "CENTER",
+      "blockClass": "troca-cel-aviso"
+    }
+  }
+}
