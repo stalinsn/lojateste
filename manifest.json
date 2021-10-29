@@ -76,7 +76,8 @@
     "vtex.coupon": "0.x",
     "vtex.checkout-cart": "0.x",
     "gbarbosa.store-selector": "1.x",
-    "gbarbosa.wishlist": "0.x"
+    "gbarbosa.wishlist": "0.x",
+    "vtex.info-card-list": "0.x"
   },
   "peerDependencies": {
     "vtexeurope.minicart-freeshipping-bar": "1.x"

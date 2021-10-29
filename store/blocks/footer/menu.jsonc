@@ -139,8 +139,8 @@
       "menu-item#ayuda-2",
       "menu-item#ayuda-3",
       "menu-item#ayuda-4",
-      "menu-item#ayuda-5",
-      "menu-item#ayuda-6",
+      // "menu-item#ayuda-5",
+      // "menu-item#ayuda-6",
       "menu-item#ayuda-7"
     ]
   },
@@ -163,7 +163,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/servicos/cartao-cenco",
         "noFollow": false,
         "tagTitle": "Cartão GBarbosa Cencosud",
         "text": "Cartão GBarbosa Cencosud"
@@ -322,7 +322,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/account#/orders",
         "noFollow": false,
         "tagTitle": "Meus pedidos",
         "text": "Meus pedidos"
@@ -338,7 +338,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/central-de-atendimento/fale-conosco",
         "noFollow": false,
         "tagTitle": "Fale Conosco",
         "text": "Fale Conosco"
@@ -354,7 +354,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/central-de-atendimento/formas-de-pagamento",
         "noFollow": false,
         "tagTitle": "Formas de pagamento",
         "text": "Formas de pagamento"
@@ -370,7 +370,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/central-de-atendimento/faq",
         "noFollow": false,
         "tagTitle": "Dúvidas frequentes (FAQ)",
         "text": "Dúvidas frequentes (FAQ)"
@@ -386,7 +386,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/central-de-atendimento/ofertas-app",
         "noFollow": false,
         "tagTitle": "Ofertas do APP",
         "text": "Ofertas do APP"

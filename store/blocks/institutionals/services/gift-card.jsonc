@@ -1,0 +1,214 @@
+{
+  "store.custom#gift-cards": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": [
+      "responsive-layout.desktop#gift-card",
+      "responsive-layout.tablet#gift-card",
+      "responsive-layout.phone#gift-card"
+    ]
+  },
+  "responsive-layout.desktop#gift-card": {
+    "children": [
+      "breadcrumb",
+      "stack-layout#gift-cards",
+      "flex-layout.row#gift-cards-section-3"
+    ]
+  },
+  "responsive-layout.tablet#gift-card": {
+    "children": [
+      "stack-layout#gift-cards",
+      "flex-layout.row#gift-cards-section-3"
+    ]
+  },
+  "responsive-layout.phone#gift-card": {
+    "children": [
+      "stack-layout#gift-cards-mobile"
+    ]
+  },
+  "stack-layout#gift-cards": {
+    "children": ["flex-layout.row#gift-cards-content", "image#gift-cards-2"],
+    "props": {
+      "blockClass": "gift-cards"
+    }
+  },
+  "flex-layout.row#gift-cards-content": {
+    "children": ["flex-layout.col#gift-cards-content"]
+  },
+  "flex-layout.col#gift-cards-content": {
+    "children": [
+      "flex-layout.row#gift-card-section-1",
+      "flex-layout.row#gift-card-section-2"
+    ],
+    "props": {
+      "blockClass": "gift-cards-content"
+    }
+  },
+  "flex-layout.row#gift-card-section-1": {
+    "children": ["flex-layout.col#gift-cards-section-1-col-1", "flex-layout.col#gift-cards-section-1-col-2"]
+  },
+  "flex-layout.row#gift-card-section-2": {
+    "children": ["flex-layout.col#gift-cards-section-2"]
+  },
+  "flex-layout.col#gift-cards-section-1-col-1": {
+    "children": [
+      "image#gift-cards-1"
+    ]
+  },
+  "image#gift-cards-1": {
+    "props": {
+      "src": "/arquivos/gbarbosa-gift-cards.png",
+      "maxHeight": 473
+    }
+  },
+  "flex-layout.col#gift-cards-section-1-col-2": {
+    "children": [
+      "rich-text#gift-cards-text-1"
+    ]
+  },
+  "rich-text#gift-cards-text-1": {
+    "props": {
+      "text": "## O que são Gift Cards? \n\n Gift cards são cartões pré-pagos com limite fixo para ter acesso/navegar em diversas plataformas como Google Play, Netflix, Spotify, entre outras \n\n O cartão Pré- pago é um presente que agrada a todos, ele é prático e seguro.",
+      "blockClass": "gift-cards-section-1"
+    }
+  },
+  "flex-layout.col#gift-cards-section-2-col-1": {
+    "children": [
+      "image#gift-cards-1"
+    ]
+  },
+  "flex-layout.col#gift-cards-section-2": {
+    "children": [
+      "rich-text#gift-cards-text-2"
+    ]
+  },
+  "rich-text#gift-cards-text-2": {
+    "props": {
+      "text": "### Como funciona? \n 1 - Você escolhe o gift card em um dos displays espalhados pela loja. \n 2 - Leva o gift card até o caixa \n 3 -O operador ativa o cartão no sistema e pronto, você já pode utilizar o crédito.",
+      "blockClass": "gift-cards-section-2"
+    }
+  },
+  "image#gift-cards-2": {
+    "props": {
+      "src": "/arquivos/gbarbosa-google-play.png",
+      "maxHeight": 564
+    }
+  },
+  "flex-layout.row#gift-cards-section-3": {
+    "children": [
+      "flex-layout.col#gift-cards-section-3-content"
+    ],
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 5,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#gift-cards-section-3-content": {
+    "children": ["rich-text#gift-cards-section-3", "flex-layout.row#gift-cards-section-3-content"],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#gift-cards-section-3": {
+    "props": {
+      "text": "#### Onde usar",
+      "blockClass": "gift-cards-title"
+    }
+  },
+  "flex-layout.row#gift-cards-section-3-content": {
+    "children": [
+      "flex-layout.col#gift-cards-onde-usar-1",
+      "flex-layout.col#gift-cards-onde-usar-2",
+      "flex-layout.col#gift-cards-onde-usar-3",
+      "flex-layout.col#gift-cards-onde-usar-4"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "blockClass": "gift-cards-items"
+    }
+  },
+  "flex-layout.col#gift-cards-onde-usar-1": {
+    "children": ["image#gift-cards-onde-usar-1", "rich-text#gift-cards-onde-usar-1"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "gift-cards-item",
+      "border": ["right"],
+      "borderColor": "#fafafa",
+      "paddingLeft": 8,
+      "paddingRight": 8
+    }
+  },
+  "rich-text#gift-cards-onde-usar-1": {
+    "props": {
+      "text": "Jogos online"
+    }
+  },
+  "image#gift-cards-onde-usar-1": {
+    "props": {
+      "src": "/arquivos/gbarbosa-game-controller-sharp.svg"
+    }
+  },
+  "flex-layout.col#gift-cards-onde-usar-2": {
+    "children": ["image#gift-cards-onde-usar-2", "rich-text#gift-cards-onde-usar-2"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "gift-cards-item",
+      "border": ["right"],
+      "paddingLeft": 8,
+      "paddingRight": 8
+    }
+  },
+  "rich-text#gift-cards-onde-usar-2": {
+    "props": {
+      "text": "Streaming"
+    }
+  },
+  "image#gift-cards-onde-usar-2": {
+    "props": {
+      "src": "/arquivos/gbarbosa-netflix.svg"
+    }
+  },
+  "flex-layout.col#gift-cards-onde-usar-3": {
+    "children": ["image#gift-cards-onde-usar-3", "rich-text#gift-cards-onde-usar-3"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "gift-cards-item",
+      "border": ["right"],
+      "paddingLeft": 8,
+      "paddingRight": 8
+    }
+  },
+  "rich-text#gift-cards-onde-usar-3": {
+    "props": {
+      "text": "Mobilidade"
+    }
+  },
+  "image#gift-cards-onde-usar-3": {
+    "props": {
+      "src": "/arquivos/gbarbosa-car.svg"
+    }
+  },
+  "flex-layout.col#gift-cards-onde-usar-4": {
+    "children": ["image#gift-cards-onde-usar-4", "rich-text#gift-cards-onde-usar-4"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "gift-cards-item",
+      "paddingLeft": 4
+    }
+  },
+  "rich-text#gift-cards-onde-usar-4": {
+    "props": {
+      "text": "Software e Segurança",
+      "blockClass": "gift-cards-item"
+    }
+  },
+  "image#gift-cards-onde-usar-4": {
+    "props": {
+      "src": "/arquivos/gbarbosa-securityalt.svg"
+    }
+  }
+}

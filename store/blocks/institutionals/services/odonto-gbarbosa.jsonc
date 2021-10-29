@@ -1,0 +1,140 @@
+{
+  "store.custom#gbarbosa-odonto": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": [
+      "responsive-layout.desktop#gbarbosa-odonto",
+      "responsive-layout.tablet#gbarbosa-odonto",
+      "responsive-layout.phone#gbarbosa-odonto"
+    ]
+  },
+  "responsive-layout.desktop#gbarbosa-odonto": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#gbarbosa-odonto-section-1",
+      "flex-layout.row#gbarbosa-odonto-section-2"
+    ]
+  },
+  "responsive-layout.tablet#gbarbosa-odonto": {
+    "children": [
+      "flex-layout.row#gbarbosa-odonto-section-1",
+      "flex-layout.row#gbarbosa-odonto-section-2"
+    ]
+  },
+  "responsive-layout.phone#gbarbosa-odonto": {
+    "children": [
+      "flex-layout.row#gbarbosa-odonto-mobile"
+    ]
+  },
+  "flex-layout.row#gbarbosa-odonto-mobile": {
+    "children": ["flex-layout.col#gbarbosa-odonto-mobile"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#gbarbosa-odonto-mobile": {
+    "children": [
+      "image#gbarbosa-odonto-background",
+      "rich-text#gbarbosa-odonto-text",
+      "rich-text#gbarbosa-odonto-section-2",
+      "link#gbarbosa-odonto",
+      "flex-layout.row#gbarbosa-odonto-brands"
+    ],
+    "props": {
+      "blockClass": "gbarbosa-odonto-content"
+    }
+  },
+  "flex-layout.row#gbarbosa-odonto-section-1": {
+    "children": [
+      "stack-layout#gbarbosa-odonto"
+    ],
+    "props": {
+      "blockClass": "gbarbosa-odonto-banner"
+    }
+  },
+  "stack-layout#gbarbosa-odonto": {
+    "children": ["image#gbarbosa-odonto-background", "rich-text#gbarbosa-odonto-text"],
+    "props": {
+      "blockClass": "gbarbosa-odonto"
+    }
+  },
+  "image#gbarbosa-odonto-background": {
+    "title": "Imagem de fundo",
+    "props": {
+      "src": "/arquivos/background-family-smiling.jpg",
+      "blockClass": "gbarbosa-odonto-background"
+    }
+  },
+  "rich-text#gbarbosa-odonto-text": {
+    "title": "Texto - seção 1",
+    "props": {
+      "text": "## Plano Odonto GBarbosa \n **Aproveite a nossa promoção especial!** \n\n • 30 dias para clínica geral \n • 90 dias para prótese \n • 180 dias para clareamento em gel",
+      "blockClass": "gbarbosa-odonto"
+    }
+  },
+  "flex-layout.row#gbarbosa-odonto-section-2": {
+    "children": [
+      "flex-layout.col#gbarbosa-odonto-section-2"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#gbarbosa-odonto-section-2": {
+    "children": [
+      "rich-text#gbarbosa-odonto-section-2",
+      "link#gbarbosa-odonto",
+      "flex-layout.row#gbarbosa-odonto-brands"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "rowGap": 6,
+      "blockClass": "gbarbosa-odonto-content"
+    }
+  },
+  "rich-text#gbarbosa-odonto-section-2": {
+    "title": "Texto - seção 2",
+    "props": {
+      "text": "## Vem sorrir com a gente! \n **Um plano odontológico para toda sua família.** \n Podendo incluir até 5 dependentes.",
+      "textAlignment": "CENTER",
+      "blockClass": "gbarbosa-odonto-content"
+    }
+  },
+  "link#gbarbosa-odonto": {
+    "title": "Link",
+    "props": {
+      "href": "#",
+      "label": "Abrir o plano >",
+      "displayMode": "button",
+      "blockClass": "gbarbosa-odonto"
+    }
+  },
+  "flex-layout.row#gbarbosa-odonto-brands": {
+    "children": ["image#gbarbosa-odonto-brand-1", "image#gbarbosa-odonto-brand-2"],
+    "props": {
+      "blockClass": ["gbarbosa-odonto-brands"],
+      "preventHorizontalStretch": true,
+      "colGap": 4,
+      "marginBottom": 6,
+      "marginTop": 4,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "image#gbarbosa-odonto-brand-1": {
+    "title": "Logo 1",
+    "props": {
+      "src": "/arquivos/gbarbosa-odontoprev.png",
+      "maxHeight": 60,
+      "blockClass": ["gbarbosa-odonto-brands"]
+    }
+  },
+  "image#gbarbosa-odonto-brand-2": {
+    "title": "Logo 2",
+    "props": {
+      "src": "/arquivos/gbarbosa-bradesco.png",
+      "maxHeight": 60,
+      "blockClass": ["gbarbosa-odonto-brands"]
+    }
+  }
+}

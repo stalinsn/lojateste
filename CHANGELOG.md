@@ -7,8 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Institutional pages - Services
 ### Fix
 - Institutional pages - call center
+- Footer links
+
 ## [0.3.0] - 2021-10-21
 
 ### Added
