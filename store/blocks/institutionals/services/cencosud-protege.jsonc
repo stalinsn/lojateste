@@ -1,0 +1,217 @@
+{
+  "store.custom#cencosud-protege": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": [
+      "responsive-layout.desktop#cencosud-protege",
+      "responsive-layout.tablet#cencosud-protege",
+      "responsive-layout.phone#cencosud-protege"
+    ]
+  },
+  "responsive-layout.desktop#cencosud-protege": {
+    "children": [
+      "flex-layout.row#cencosud-protege-section-1",
+      "flex-layout.row#cencosud-protege-section-2",
+      "flex-layout.row#cencosud-protege-section-3",
+      "flex-layout.row#cencosud-protege-section-4",
+      "flex-layout.row#cencosud-protege-section-5",
+      "flex-layout.row#cencosud-protege-section-6",
+      "flex-layout.row#cencosud-protege-section-7"
+    ]
+  },
+  "responsive-layout.tablet#cencosud-protege": {
+    "children": [
+      "flex-layout.row#cencosud-protege-section-1",
+      "flex-layout.row#cencosud-protege-section-2",
+      "flex-layout.row#cencosud-protege-section-3",
+      "flex-layout.row#cencosud-protege-section-4",
+      "flex-layout.row#cencosud-protege-section-5",
+      "flex-layout.row#cencosud-protege-section-6",
+      "flex-layout.row#cencosud-protege-section-7"
+    ]
+  },
+  "responsive-layout.phone#cencosud-protege": {
+    "children": [
+      "flex-layout.row#cencosud-protege-content-mobile"
+    ]
+  },
+  "flex-layout.row#cencosud-protege-section-1": {
+    "children": [
+      "stack-layout#cencosud-protege"
+    ]
+  },
+  "stack-layout#cencosud-protege": {
+    "children": [
+      "image#cencosud-protege-background",
+      "flex-layout.row#cencosud-protege-section-1-content"
+    ],
+    "props": {
+      "blockClass": "cenconsud-protege"
+    }
+  },
+  "flex-layout.row#cencosud-protege-section-1-content": {
+    "children":["flex-layout.col#cencosud-protege-section-1-content"]
+  },
+  "flex-layout.col#cencosud-protege-section-1-content": {
+    "children": [
+      "rich-text#cencosud-protege-section-1-text",
+      "image#cencosud-protege-tags"
+    ],
+    "props": {
+      "rowGap": 4
+    }
+  },
+  "rich-text#cencosud-protege-section-1-text": {
+    "props": {
+      "text": "## Cencosud Protege \n **3 opções de seguro para a sua tranquilidade e economia:** \n\n PLANO 1 – GBARBOSA REPARO. \n\n PLANO 2 – GBARBOSA PROTEGE \n\n PLANO 3 – GBARBOSA DUPLA PROTEÇÃO",
+      "blockClass": "cencosud-protege-section-1"
+    }
+  },
+  "image#cencosud-protege-tags": {
+    "props": {
+      "src": "/arquivos/gbarbosa-badges.png",
+      "blockClass": "cencosud-protege-tags"
+    }
+  },
+  "image#cencosud-protege-background": {
+    "props": {
+      "src": "/arquivos/gbarbosa-cencosud-protege-background.jpg",
+      "blockClass": "cenconsud-protege-background"
+    }
+  },
+  "flex-layout.row#cencosud-protege-section-2": {
+    "children": [
+      "flex-layout.col#cencosud-protege-section-2-col-1",
+      "flex-layout.col#cencosud-protege-section-2-col-2"
+    ],
+    "props": {
+      "blockClass": "cencosud-protege-section-2",
+      "paddingTop": 8,
+      "paddingBottom": 8
+    }
+  },
+  "flex-layout.col#cencosud-protege-section-2-col-1": {
+    "children": [
+      "rich-text#cencosud-protege-section-2-text"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "rich-text#cencosud-protege-section-2-text": {
+    "props": {
+      "text": "## Quais os benefícios do Cencosud Protege? \n\n * **Comodidade** \n O cliente tem a sua disposição uma Central de Atendimento que ele poderá acionar da sua própria casa \n\n * **Tranquilidade** \n O atendimento é realizado por profissionais capacitados para lhe orientar no momento de stress \n\n * **Proteção** \n O cliente tem a certeza que está seguro numa situação imprevista e desagradável \n\n * **Segurança** \n Em caso de Roubo ou Furto mediante Arrombamento e/ou Acidentes de Causa Externa o cliente será reembolsado com um produto igual ou similar conforme o plano de seguro contratado",
+      "blockClass": "cencosud-protege-section-2"
+    }
+  },
+  "flex-layout.col#cencosud-protege-section-2-col-2": {
+    "children": [
+      "image#cencosud-protege-section-2"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "image#cencosud-protege-section-2": {
+    "props": {
+      "src": "/arquivos/gbarbosa-cencosud-protege-phone.png",
+      "maxHeight": 370
+    }
+  },
+  "flex-layout.row#cencosud-protege-section-3": {
+    "children": [
+      "flex-layout.col#cencosud-protege-section-3-col-1",
+      "flex-layout.col#cencosud-protege-section-3-col-2"
+    ],
+    "props": {
+      "blockClass": "cencosud-protege-section-3",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+  "flex-layout.col#cencosud-protege-section-3-col-1": {
+    "children": [
+      "rich-text#cencosud-protege-section-3-text"
+    ]
+  },
+  "rich-text#cencosud-protege-section-3-text": {
+    "props": {
+      "text": "#### GBARBOSA PROTEGE \n Cobre os danos materiais causados diretamente ao equipamento segurado em consequência de Roubo ou Furto Mediante Arrombamento. Para efeito desta cobertura, considera-se:\n\n * **Roubo:** Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência à pessoa, ou depois de havê-la, por qualquer meio, reduzido à impossibilidade de resistência.\n * **Furto Mediante Arrombamento:** Subtrair, para si ou para outrem, coisa alheia móvel com destruição ou rompimento de obstáculo à subtração da coisa.",
+      "blockClass": ["cencosud-protege-section-3"]
+    }
+  },
+  "flex-layout.col#cencosud-protege-section-3-col-2": {
+    "children": [
+      "rich-text#cencosud-protege-section-3-text-2"
+    ]
+  },
+  "rich-text#cencosud-protege-section-3-text-2": {
+    "props": {
+      "text": "**Produtos cobertos:** Celular/Smartphone \n\n **Quem pode contratar:** Clientes maiores de 18 anos. \n\n **Franquia:** É a participação do segurado em caso de sinistro. O valor cobrado refere-se a 25% do valor do bem adquirido ou dos danos do aparelho.",
+      "blockClass": "cencosud-protege-section-3"
+    }
+  },
+  "flex-layout.row#cencosud-protege-section-4": {
+    "children": ["rich-text#cencosud-protege-section-3-text-3"]
+  },
+  "rich-text#cencosud-protege-section-3-text-3": {
+    "props": {
+      "text": "**GBARBOSA REPARO** \n Cobre os danos materiais por acidentes decorrentes de causa externa, exceto aqueles expressamente excluídos pelo presente seguro, sofridos pelo equipamento segurado.",
+      "blockClass": "cencosud-protege-section-4"
+    }
+  },
+  "flex-layout.row#cencosud-protege-section-5": {
+    "children": ["flex-layout.col#cencosud-protege-section-5-col-1", "flex-layout.col#cencosud-protege-section-5-col-2"],
+    "props": {
+      "paddingBottom":5,
+      "paddingTop":5
+    }
+  },
+  "flex-layout.col#cencosud-protege-section-5-col-1": {
+    "children": ["rich-text#cencosud-protege-section-5-text"],
+    "props": {
+      "blockClass": "cencosud-protege-section-5",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#cencosud-protege-section-5-text": {
+    "props": {
+      "text": "## Canais de atendimento \n\n ***Abertura De Sinistro: \n 0800 888 7018*** \n\n **Atendimento:**\n •Seg a Sex das 08h às 20 \n •Sábados das 08h às 17h \n\n ***Central de Atendimento a Seguros: \n 0800 888 7017*** \n **Atendimento: 24 horas**\n **Ouvidoria:** 0800 701 7000:\n Seg. a Sex das 8h às 18h, exceto feriados.\n **Deficiente Auditiva/Fala:** 0800 701 7877, Seg. a Sex das 8h às 18h, exceto feriados.",
+      "blockClass": "cencosud-protege-section-5"
+    }
+  },
+  "flex-layout.col#cencosud-protege-section-5-col-2": {
+    "children": ["image#cencosud-protege-section-5"],
+    "props": {
+      "width": "55%"
+    }
+  },
+  "image#cencosud-protege-section-5": {
+    "props": {
+      "src": "/arquivos/gbarbosa-man-repairing-a-phone.jpg"
+    }
+  },
+  "flex-layout.row#cencosud-protege-section-6": {
+    "children": ["rich-text#cencosud-protege-section-6-text"]
+  },
+  "rich-text#cencosud-protege-section-6-text": {
+    "props": {
+      "text": "Se preferir acesse https://www.webprotecao.com.br/sinistro ou utilize o WhatsApp +551145017837.\n\n Concorra a 5 mil reais Liquido de impostos por mês – Ao aderir o Seguro Cencosud Protege, você recebe um número para concorrer no primeiro sábado de cada mês. Para acesso ao detalhamento de valores, regras e periodicidades sobre o Certificado de Cessão de Direitos a Participação em Sorteios de Capitalização acesse o site: Portal Proteção",
+      "blockClass": "cencosud-protege-section-6"
+    }
+  },
+  "flex-layout.row#cencosud-protege-section-7": {
+    "children": ["rich-text#cencosud-protege-section-7-text"],
+    "props": {
+      "marginTop": 6,
+      "marginBottom": 8
+    }
+  },
+  "rich-text#cencosud-protege-section-7-text": {
+    "props": {
+      "text": "**Condições Gerais do Seguro:**\n\n A contratação do seguro é opcional. Para esta modalidade de seguro, é oferecido exclusivamente o produto disponibilizado pela Seguradora: Bradesco Auto/RE Cia de Seguros. CNPJ 92.682.038/0001-00. Código SUSEP: 0531-2. Processo SUSEP: 15414.900478/2018-84. Ramo Susep: Riscos Diversos – Código 0171. Representante de Seguros: Cencosud Brasil Comercial Ltda. CNPJ 39.346.861/0001-61. Corretor: Bradescor Corretora de Seguros LTDA. CNPJ: 43.338.235/0001-09. Registro SUSEP: 202100227. O segurado poderá consultar a situação cadastral do corretor de seguros e da sociedade seguradora no sítio eletrônico www.susep.gov.br . O registro do produto é automático e não representa aprovação ou recomendação por parte da SUSEP. As condições contratuais deste produto protocolizadas pela sociedade junto à Superintendência de Seguros Privados (SUSEP) poderão ser consultadas no endereço eletrônico www.susep.gov.br , de acordo com o número de processo constante nesse bilhete. Superintendência de Seguros Privados (SUSEP): Autarquia Federal responsável pela fiscalização, normatização e controle dos mercados de seguro, previdência complementar aberta, capitalização, resseguro e corretagem de seguros. Telefone gratuito de atendimento ao público: 0800 021 8484. Lei 12.741/12 sobre tributos incidentes. PIS: 0,65%; COFINS: 4,00% e IOF: entre 0% e 7,38%, apurados e recolhidos nos termos da legislação aplicável. As informações exigidas pela Resolução CNSP 382/20 estão disponíveis na Central de Atendimento 0800 888 7017. As informações de participação societária das companhias do Grupo Bradesco Seguros estão disponíveis no site www.bradescori.com.br Telefone para Contato: Sinistro: 0800 888 7018, de segunda a sexta feira das 8h ás 20h, e aos sábados, das 8h às 17h. Se preferir acesse https://www.webprotecao.com.br/sinistro ou utilize o WhatsApp +551145017837. Serviço de Atendimento ao Consumidor SAC: 0800 888 7017, 7 dias por semana, 24h por dia. Ouvidoria: 0800 701 7000. Ouvidoria Deficiente Auditiva/Fala: 0800 701 7877, de segunda a sexta das 8h às 18h, exceto feriados.\n\n A adesão a este produto NÃO está vinculada à transação com o Cartão\n\n **MANUAIS E GUIAS COMPLETOS DOS PRODUTOS \n GUIA RÁPIDO DE SERVIÇOS;**\n [Manual Gbarbosa Reparo](#);\n [Manual GBarbosa Protege](#);\n [Manual GBarbosa Dupla Proteção.](#)",
+      "blockClass": "cencosud-protege-section-7"
+    }
+  }
+}

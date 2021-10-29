@@ -892,6 +892,742 @@
   }
 }
 
+// INSTITUTIONALS CENCOSUD CARD
+.heading--cencosud-card-title {
+  font-size: 40px;
+  color: #fff;
+}
+.wrapper--cencosud-card-download{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  color: #ED1D25;
+
+  .headingLevel1--cencosud-card-download{
+    font-size: 82px;
+    letter-spacing: -6.56px;
+    margin-bottom: 0;
+  }
+
+  .paragraph--cencosud-card-download{
+    letter-spacing: -4.8px;
+    font-size: 64px;
+    margin: 0;
+    margin-left: auto;
+  }
+}
+
+.link--cencosud-card-call-to-action{
+  padding: 16px 80px;
+  background: #FDBB30;
+  border-radius: 4px;
+  color: $white;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.link--cencosud-card-call-to-action:hover {
+  color: $white;
+}
+
+.wrapper--cencosud-card-benefits {
+  color: $white;
+  max-width: 668px;
+  .strong--cencosud-card-benefits {
+    color: #FDBB30;
+    font-size: 20px;
+
+    &::before {
+      content: '';
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      background: #FDBB30;
+      border-radius: 50%;
+      margin-right: 10px;
+      transform: translateY(-20%);
+    }
+  }
+}
+
+.wrapper--cencosud-card-text-1 {
+  color: #fff;
+  font-size: 18px;
+  max-width: 578px;
+}
+
+.wrapper--cencosud-card-benefits-item{
+  max-width: 360px;
+}
+
+@media screen and (max-width: 767px) {
+  .heading--cencosud-card-title {
+    font-size: 35px;
+    text-align: center;
+    line-height: 47px;
+  }
+
+  .wrapper--cencosud-card-text-1 {
+    font-size: 14px;
+
+  }
+
+  .heading--cencosud-card-benefits{
+    font-size: 18px;
+  }
+
+  .paragraph--cencosud-card-benefits {
+    font-size: 12px;
+  }
+
+  .strong--cencosud-card-benefits {
+    font-size: 18px;
+  }
+
+  .wrapper--cencosud-card-call-to-action {
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper--cencosud-card-download{
+    .heading--cencosud-card-download{
+      font-size: 53px;
+      letter-spacing: -4.24px;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .paragraph--cencosud-card-download{
+      font-size: 40px;
+      letter-spacing: -3px;
+    }
+  }
+
+  .wrapper--cencosud-card-benefits-item{
+    max-width: 285px;
+    font-size: 14px;
+  }
+}
+
+// INSTITUTIONAL - GBARBOSA ODONTO
+.container--gbarbosa-odonto  {
+  margin-top: 110px;
+  margin-left: 52px;
+
+  .wrapper--gbarbosa-odonto{
+    color: #fff;
+
+    .heading--gbarbosa-odonto{
+      font-size: 42px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.wrapper--gbarbosa-odonto-content{
+  color: #fff;
+
+  .heading--gbarbosa-odonto-content{
+    margin-bottom: 0;
+    font-size: 48px;
+    color: $secondary;
+    line-height: 65px;
+    letter-spacing: -0.77px;
+    text-transform: uppercase;
+  }
+
+  .paragraph--gbarbosa-odonto-content {
+    margin: 0;
+    font-size: 22px;
+
+    .strong--gbarbosa-odonto-content{
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: -0.51px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container--gbarbosa-odonto  {
+    margin: 0;
+    justify-content: center;
+
+    .wrapper--gbarbosa-odonto{
+      .heading--gbarbosa-odonto{
+        font-size: 26px;
+      }
+
+      .paragraph--gbarbosa-odonto {
+        font-size: 14px;
+
+        .strong--gbarbosa-odonto{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .container--gbarbosa-odonto-content {
+    justify-content: center;
+
+    .heading--gbarbosa-odonto-content{
+      font-size: 22px;
+    }
+
+    .paragraph--gbarbosa-odonto-content {
+      font-size: 14px;
+
+      .strong--gbarbosa-odonto-content{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// INSTITUTIONAL - RECARGA DE CELULAR
+.container--recarga-celular-aviso {
+  max-width: 1112px;
+
+  .paragraph--recarga-celular-aviso {
+    font-size: 16px;
+    letter-spacing: -0.26px;
+    line-height: 24px;
+
+    .strong--recarga-celular-aviso{
+      color: $primary;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container--recarga-celular-aviso{
+    padding: 0 20px;
+  }
+}
+
+// INSTITUTIONALS - PLANO CELULAR
+.wrapper--plano-controle-section-1{
+  max-width: 583px;
+  margin: 129px;
+
+  .heading--plano-controle-section-1{
+    color: #FDBB30;
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -1.01px;
+    margin: 0;
+  }
+
+  .paragraph--plano-controle-section-1 {
+    color: $white;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.32px;
+
+    .strong--plano-controle-section-1 {
+      font-size: 20px;
+    }
+  }
+}
+
+.wrapper--plano-controle-section-2 {
+  max-width: 650px;
+  margin: 56px 142px;
+
+  .paragraph--plano-controle-section-2{
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 5px;
+      left: -22px;
+      background: $primary;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .wrapper--plano-controle-section-1 {
+    margin: 129px 32px 232px;
+  }
+
+  .wrapper--plano-controle-section-2 {
+    margin: 232px 64px 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper--plano-controle-section-1{
+    margin: 62px 24px 188px;
+    text-align: center;
+
+    .heading--plano-controle-section-1{
+      font-size: 35px;
+      line-height: 47px;
+      letter-spacing: -0.84px;
+    }
+  }
+
+  .wrapper--plano-controle-section-2{
+    margin: 220px 24px 24px;
+
+    .paragraph--plano-controle-section-2 {
+      text-align: center;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
+// INSTITUTIONALS - TROCA CEL
+
+.container--troca-cel{
+  justify-content: center;
+  padding: 64px 0;
+
+  .wrapper--troca-cel{
+    max-width: 440px;
+
+    .heading--troca-cel{
+      color: $primary;
+    }
+
+    .headingLevel2--troca-cel {
+      font-size: 32px;
+      line-height: 38.4px;
+      letter-spacing: -0.77px;
+    }
+
+    .headingLevel4--troca-cel {
+      font-size: 26px;
+      line-height: 36px;
+      letter-spacing: -0.62px;
+    }
+
+    .paragraph--troca-cel {
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: -0.29px;
+    }
+
+    .list--troca-cel{
+      padding-left: 20px;
+
+      .listItem--troca-cel::marker {
+        color: $secondary
+      }
+    }
+  }
+}
+
+.paragraph--troca-cel-aviso {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.29px;
+
+  .strong--troca-cel-aviso {
+    color: $primary;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container--troca-cel{
+    padding: 68px 0 0;
+
+    .wrapper--troca-cel{
+      max-width: 324px;
+
+      .headingLevel2--troca-cel {
+        font-size: 30px;
+        line-height: 38.4px;
+        letter-spacing: -0.72px;
+        margin-top: 0;
+      }
+
+      .headingLevel4--troca-cel {
+        font-size: 28px;
+        letter-spacing: -0.67px;
+        line-height: 38.4px;
+      }
+
+      .paragraph--troca-cel {
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: -0.22px;
+      }
+    }
+  }
+
+  .wrapper--troca-cel-aviso {
+    max-width: 324px;
+
+    .paragraph--troca-cel-aviso {
+      font-size: 14px;
+      text-align: center;
+      line-height: 27px;
+    }
+  }
+}
+
+// INSTITUTIONALS - GIFT CARDS
+.wrapper--gift-cards-section-1 {
+  color: #fafafa;
+
+  .heading--gift-cards-section-1 {
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -1.01px;
+  }
+
+  .paragraph--gift-cards-section-1 {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.29px;
+  }
+}
+
+.wrapper--gift-cards-section-2  {
+  max-width: 514px;
+  margin-left: 82px;
+
+  .heading--gift-cards-section-2 {
+    font-size: 32px;
+    color: #fafafa;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+  .paragraph--gift-cards-section-2 {
+    font-size: 20px;
+    line-height: 24px;
+    color: $secondary;
+    font-weight: 600;
+  }
+}
+
+.wrapper--gift-cards-title {
+  color: $primary;
+  font-size: 32px;
+  line-height: 43px;
+  letter-spacing: -0.77px;
+}
+
+.wrapper--gift-cards-item{
+  max-width: 150px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .wrapper--gift-cards-title-mobile{
+    width: 100%;
+
+    .heading--gift-cards-title-mobile {
+      font-size: 32px;
+      line-height: 47px;
+      letter-spacing: -0.84px;
+      color: $white;
+      text-align: center;
+    }
+  }
+
+  .wrapper--gift-cards-text-mobile {
+    padding: 0 8px;
+
+    .paragraph--gift-cards-text-mobile {
+      font-size: 14px;
+      color: $white;
+      line-height: 24px;
+      letter-spacing: -0.22px;
+    }
+  }
+
+  .wrapper--gift-cards-section-2{
+    margin: 0;
+    padding: 0 8px;
+
+    .heading--gift-cards-section-2,
+    .paragraph--gift-cards-section-2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .wrapper--gift-cards-title{
+    width: 100%;
+
+    .heading--gift-cards-title {
+      text-align: center;
+      font-size: 28px;
+      line-height: 38px;
+      letter-spacing: -0.67px;
+      margin-bottom: 62px;
+    }
+  }
+}
+
+// INSTITUTIONALS - GBARBOSA PROTEGE
+.wrapper--cencosud-protege-section-1 {
+  color: $white;
+
+  .heading--cencosud-protege-section-1 {
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -1.01px;
+    margin: 0;
+  }
+
+  .paragraph--cencosud-protege-section-1 {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.26px;
+
+    .strong--cencosud-protege-section-1 {
+      font-size: 20px;
+    }
+  }
+}
+
+.container--cencosud-protege-section-2 {
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-2 {
+    color: $white;
+    max-width: 705px;
+
+    .heading--cencosud-protege-section-2 {
+      font-size: 32px;
+      line-height: 24px;
+      letter-spacing: -0.51px;
+    }
+
+    .list--cencosud-protege-section-2{
+      padding: 0;
+
+      .listItem--cencosud-protege-section-2::marker {
+        color: $secondary;
+      }
+    }
+
+    .paragraph--cencosud-protege-section-2 {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.26px;
+
+      .strong--cencosud-protege-section-2{
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.container--cencosud-protege-section-3 {
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-3 {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.26px;
+
+    .heading--cencosud-protege-section-3 {
+      color: $primary;
+      margin: 0;
+    }
+
+    .list--cencosud-protege-section-3{
+      padding: 0;
+
+      .listItem--cencosud-protege-section-3::marker {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.container--cencosud-protege-section-4 {
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-4 {
+    max-width: 1124px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.26px;
+
+    .strong--cencosud-protege-section-4 {
+      color: $primary;
+      margin: 0;
+    }
+  }
+}
+
+.container--cencosud-protege-section-5 {
+  justify-content: flex-end;
+
+  .wrapper--cencosud-protege-section-5 {
+    max-width: 385px;
+    margin-right: 52px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.26px;
+
+    .heading--cencosud-protege-section-5 {
+      color: $white;
+      font-size: 32px;
+      letter-spacing: -0.51px;
+    }
+
+    .paragraph--cencosud-protege-section-5 {
+      font-size: 14px;
+      letter-spacing: -0.22px;
+      color: $white;
+
+      .strong--cencosud-protege-section-5 {
+        .italic--cencosud-protege-section-5 {
+          color: $secondary;
+          font-style: normal;
+          font-size: 20px;
+          letter-spacing: -0.32px;
+        }
+      }
+    }
+  }
+}
+
+.container--cencosud-protege-section-6{
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-6 {
+    max-width: 1124px;
+    letter-spacing: -0.26px;
+  }
+}
+
+.container--cencosud-protege-section-7{
+  justify-content: center;
+
+  .wrapper--cencosud-protege-section-7 {
+    max-width: 1124px;
+    letter-spacing: -0.26px;
+
+    .link--cencosud-protege-section-7{
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper--cencosud-protege-section-1 {
+    .heading--cencosud-protege-section-1 {
+      font-size: 26px;
+      line-height: 36px;
+      letter-spacing: -0.62px;
+    }
+
+    .paragraph--cencosud-protege-section-1  {
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: -0.22px;
+
+      .strong--cencosud-protege-section-1 {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.26px;
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-2 {
+    .wrapper--cencosud-protege-section-2 {
+      max-width: 324px;
+      margin-left: 12px;
+
+      .heading--cencosud-protege-section-2{
+        font-size: 18px;
+        letter-spacing: -0.29px;
+        line-height: 24px;
+      }
+
+      .paragraph--cencosud-protege-section-2{
+        font-size: 12px;
+        line-height: 24px;
+
+        .strong--cencosud-protege-section-2 {
+          font-size: 18px;
+          letter-spacing: -0.29px;
+        }
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-3 {
+    justify-content: center;
+
+    .wrapper--cencosud-protege-section-3 {
+      max-width: 324px;
+
+      .heading--cencosud-protege-section-3 {
+        font-size: 16px;
+        letter-spacing: -0.26px;
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-4 {
+    justify-content: center;
+
+    .wrapper--cencosud-protege-section-4 {
+      max-width: 324px;
+
+      .heading--cencosud-protege-section-4 {
+        font-size: 16px;
+        letter-spacing: -0.26px;
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-5 {
+    padding: 82px 22px;
+
+    .wrapper--cencosud-protege-section-5 {
+      max-width: 324px;
+      margin: 0;
+
+      .heading--cencosud-protege-section-5 {
+        font-size: 16px;
+        letter-spacing: -0.26px;
+      }
+
+      .paragraph--cencosud-protege-section-5 {
+        .strong--cencosud-protege-section-5 {
+          .italic--cencosud-protege-section-5 {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .container--cencosud-protege-section-6{
+    .wrapper--cencosud-protege-section-6 {
+      padding: 0 16px;
+    }
+  }
+
+  .container--cencosud-protege-section-7{
+    .wrapper--cencosud-protege-section-7 {
+      padding: 0 16px;
+    }
+  }
+}
+
 // Institutional GBarbosa App
 .heading--gbarbosa-app,
 .heading--institutional-title {
