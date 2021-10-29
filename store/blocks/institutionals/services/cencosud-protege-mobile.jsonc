@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#cencosud-protege-content-mobile": {
+    "children": ["flex-layout.col#cencosud-protege-content-mobile"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#cencosud-protege-content-mobile": {
+    "children": [
+      "flex-layout.row#cencosud-protege-section-1-mobile",
+      "flex-layout.row#cencosud-protege-section-2",
+      "flex-layout.row#cencosud-protege-section-3",
+      "flex-layout.row#cencosud-protege-section-4",
+      "flex-layout.row#cencosud-protege-section-5",
+      "flex-layout.row#cencosud-protege-section-6",
+      "flex-layout.row#cencosud-protege-section-7"
+    ]
+  },
+  "flex-layout.row#cencosud-protege-section-1-mobile": {
+    "children": [
+      "stack-layout#cencosud-protege-mobile"
+    ]
+  },
+  "stack-layout#cencosud-protege-mobile": {
+    "children": [
+      "image#cencosud-protege-background-mobile",
+      "flex-layout.row#cencosud-protege-section-1-content"
+    ],
+    "props": {
+      "blockClass": "cenconsud-protege"
+    }
+  },
+  "image#cencosud-protege-background-mobile": {
+    "props": {
+      "src": "/arquivos/gbarbosa-cencosud-protege-background-mobile.jpg",
+      "blockClass": "cenconsud-protege-background"
+    }
+  }
+}

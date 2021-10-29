@@ -1,0 +1,57 @@
+{
+  "stack-layout#gift-cards-mobile": {
+    "children": [
+      "flex-layout.row#gift-cards-section-1-mobile",
+      "image#gift-cards-2"
+    ],
+    "props": {
+      "blockClass": "gift-cards-mobile"
+    }
+  },
+  "flex-layout.row#gift-cards-section-1-mobile": {
+    "children": [
+      "flex-layout.col#gift-cards-section-1-mobile-content",
+      "flex-layout.col#gift-cards-section-2-mobile-content"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#gift-cards-section-1-mobile-content": {
+    "children": [
+      "rich-text#gift-cards-title",
+      "image#gift-cards-mobile",
+      "rich-text#gift-cards-text-mobile",
+      "rich-text#gift-cards-text-2"
+    ],
+    "props": {
+      "blockClass": "gift-cards-mobile"
+    }
+  },
+  "rich-text#gift-cards-title": {
+    "props": {
+      "text": "### O que são Gift Cards?",
+      "blockClass": "gift-cards-title-mobile"
+    }
+  },
+  "rich-text#gift-cards-text-mobile": {
+    "props": {
+      "text": "Gift cards são cartões pré-pagos com limite fixo para ter acesso/navegar em diversas plataformas como Google Play, Netflix, Spotify, entre outras \n\n O cartão Pré- pago é um presente que agrada a todos, ele é prático e seguro.",
+      "blockClass": "gift-cards-text-mobile"
+    }
+  },
+  "flex-layout.col#gift-cards-section-2-mobile-content": {
+    "children": [
+      "rich-text#gift-cards-section-3",
+      "flex-layout.row#gift-cards-section-3-content"
+    ],
+    "props": {
+      "blockClass": "gift-cards-section-2-mobile"
+    }
+  },
+  "image#gift-cards-mobile": {
+    "props": {
+      "src": "/arquivos/gbarbosa-gift-cards-mobile.png"
+    }
+  }
+}
