@@ -243,7 +243,7 @@
     "props": {
       "blockClass": "col-not-found"
     },
-    "children": ["rich-text#not-found-1", "rich-text#not-found-2"]
+    "children": ["not-found"]
   },
   "rich-text#not-found-1": {
     "props": {
