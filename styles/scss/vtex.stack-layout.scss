@@ -78,16 +78,21 @@
 }
 
 // INSTITUTIONALS - GIFT CARDS
-.stackItem--gift-cards{
-  top: 46%;
-  right: 5%;
-  justify-content: flex-end;
-  display: flex;
+.stackContainer--gift-cards{
+  width: fit-content;
+  margin: 0 auto;
+
+  .stackItem--gift-cards:last-child{
+    top: 46%;
+    right: 5%;
+    justify-content: flex-end;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .stackItem--gift-cards-mobile {
-    top: 48%;
+    top: 46%;
   }
 }
 
