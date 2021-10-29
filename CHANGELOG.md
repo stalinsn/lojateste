@@ -7,9 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### Added
+### Added 
+
+- Header and footer for cart IO and Orderplaced
+- Orderplaced desktop and mobile
 - Institutional pages - Services
+
 ### Fix
+
+- Institutional pages - call center
 - Institutional pages - call center
 - Footer links
 

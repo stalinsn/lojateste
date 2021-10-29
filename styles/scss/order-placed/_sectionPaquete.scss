@@ -2,10 +2,20 @@
 
 .sectionPaquete {
   margin-top: 36px;
-  .title {
-    font-size: 1.5rem;
-    @media (max-width: em(768px)) {
-      margin: 4px 0;
+  background: #fff;
+  border-radius: 5px;
+  padding: 18px;
+  margin-left: 0;
+  .orderTitleContainer {
+    border-bottom: 2px solid #dedede;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    align-items: center;
+    .title {
+      width: 100%;
+      font-size: 20px;
+      margin: 12px 0;
+      margin-left: 10px;
     }
   }
   .shippingEstimate {
@@ -15,18 +25,33 @@
 
   .itemsTableWrapper {
     width: 100%;
-    padding-right: 24px;
+    background: #fff;
+    // border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 11px;
+    margin-top: 15px;
     .itemsTable {
       width: 100%;
       border-collapse: collapse;
+      overflow-y: auto;
+      height: 180px;
+      display: flex;
+      padding-right: 5px;
+      .itemsTableBody {
+        width: 100%;
+      }
       .itemsTableHeader {
         font-size: 0.875rem;
       }
       .itemTableRow {
-        border-bottom: 1px solid #dedede;
-        &:last-child {
-          border-bottom: none;
-        }
+        border: 1px solid #dedede;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 10px;
         .itemTableCell {
           font-size: 0.9rem;
           font-weight: bold;
@@ -34,6 +59,8 @@
           display: flex;
           align-items: center;
           .itemTableProductInfo {
+            display: flex;
+            align-items: center;
             .productImageWrapper {
               display: inline-block;
               margin-right: 10px;

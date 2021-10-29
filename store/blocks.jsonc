@@ -10,8 +10,8 @@
 {
   "store.orderplaced": {
     "parent": {
-      "header": "header#order",
-      "footer": "footer#order"
+      "header": "header#cart",
+      "footer": "footer#cart-io"
     },
     "children": ["vtex.order-placed:order-placed"]
   },

@@ -1,0 +1,34 @@
+@import "../references";
+
+.profileDataContainer {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 18px;
+  margin-top: 15px;
+  .profileDataTitleContainer {
+    border-bottom: 2px solid #dedede;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    align-items: center;
+    .profileDataTitle {
+      margin: 12px 0;
+      margin-left: 10px;
+      font-size: 20px;
+    }
+  }
+  .profileData {
+    .profileDataName {
+      font-size: 14px;
+      color: #525252;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .profileDataPhone,
+    .profileDataEmail {
+      font-size: 14px;
+      color: #525252;
+    }
+  }
+}
