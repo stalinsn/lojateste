@@ -1013,3 +1013,11 @@ header FB
     }
   }
 }
+@media (max-width: 768px) {
+  .headerRowContentContainer--cart-content {
+    padding: 0;
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+    }
+  }
+}
