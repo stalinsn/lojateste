@@ -203,7 +203,7 @@
     "props": {
       "blockClass": "add-wishlist"
     },
-    "children": ["add-to-wishlist"]
+    "children": [/* "add-to-wishlist" */]
   },
 
   "product-summary-image": {
@@ -277,3 +277,4 @@
     }
   }*/
 }
+    

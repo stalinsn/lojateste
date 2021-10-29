@@ -279,7 +279,22 @@
     margin: 13px 6px 0 0;
   }
 }
-
+// footer mobile
+@media (max-width: 1024px) {
+  .wrapper--footer-inner-text {
+    .paragraph--footer-inner-text {
+      font-size: 14px;
+      color: #fff;
+      padding: 0 22px;
+      .link--footer-inner-text {
+        padding: 0;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
 // PRODUTO
 .container--compra-protegida {
   @media screen and (max-width: 40em) {
@@ -897,19 +912,19 @@
   font-size: 40px;
   color: #fff;
 }
-.wrapper--cencosud-card-download{
+.wrapper--cencosud-card-download {
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
-  color: #ED1D25;
+  color: #ed1d25;
 
-  .headingLevel1--cencosud-card-download{
+  .headingLevel1--cencosud-card-download {
     font-size: 82px;
     letter-spacing: -6.56px;
     margin-bottom: 0;
   }
 
-  .paragraph--cencosud-card-download{
+  .paragraph--cencosud-card-download {
     letter-spacing: -4.8px;
     font-size: 64px;
     margin: 0;
@@ -917,15 +932,14 @@
   }
 }
 
-.link--cencosud-card-call-to-action{
+.link--cencosud-card-call-to-action {
   padding: 16px 80px;
-  background: #FDBB30;
+  background: #fdbb30;
   border-radius: 4px;
   color: $white;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-
 }
 
 .link--cencosud-card-call-to-action:hover {
@@ -936,15 +950,15 @@
   color: $white;
   max-width: 668px;
   .strong--cencosud-card-benefits {
-    color: #FDBB30;
+    color: #fdbb30;
     font-size: 20px;
 
     &::before {
-      content: '';
+      content: "";
       width: 10px;
       height: 10px;
       display: inline-block;
-      background: #FDBB30;
+      background: #fdbb30;
       border-radius: 50%;
       margin-right: 10px;
       transform: translateY(-20%);
@@ -958,7 +972,7 @@
   max-width: 578px;
 }
 
-.wrapper--cencosud-card-benefits-item{
+.wrapper--cencosud-card-benefits-item {
   max-width: 360px;
 }
 
@@ -971,10 +985,9 @@
 
   .wrapper--cencosud-card-text-1 {
     font-size: 14px;
-
   }
 
-  .heading--cencosud-card-benefits{
+  .heading--cencosud-card-benefits {
     font-size: 18px;
   }
 
@@ -991,45 +1004,45 @@
     text-align: center;
   }
 
-  .wrapper--cencosud-card-download{
-    .heading--cencosud-card-download{
+  .wrapper--cencosud-card-download {
+    .heading--cencosud-card-download {
       font-size: 53px;
       letter-spacing: -4.24px;
       text-align: center;
       margin-top: 0;
     }
 
-    .paragraph--cencosud-card-download{
+    .paragraph--cencosud-card-download {
       font-size: 40px;
       letter-spacing: -3px;
     }
   }
 
-  .wrapper--cencosud-card-benefits-item{
+  .wrapper--cencosud-card-benefits-item {
     max-width: 285px;
     font-size: 14px;
   }
 }
 
 // INSTITUTIONAL - GBARBOSA ODONTO
-.container--gbarbosa-odonto  {
+.container--gbarbosa-odonto {
   margin-top: 110px;
   margin-left: 52px;
 
-  .wrapper--gbarbosa-odonto{
+  .wrapper--gbarbosa-odonto {
     color: #fff;
 
-    .heading--gbarbosa-odonto{
+    .heading--gbarbosa-odonto {
       font-size: 42px;
       margin-bottom: 0;
     }
   }
 }
 
-.wrapper--gbarbosa-odonto-content{
+.wrapper--gbarbosa-odonto-content {
   color: #fff;
 
-  .heading--gbarbosa-odonto-content{
+  .heading--gbarbosa-odonto-content {
     margin-bottom: 0;
     font-size: 48px;
     color: $secondary;
@@ -1042,7 +1055,7 @@
     margin: 0;
     font-size: 22px;
 
-    .strong--gbarbosa-odonto-content{
+    .strong--gbarbosa-odonto-content {
       font-weight: 400;
       font-size: 32px;
       letter-spacing: -0.51px;
@@ -1051,19 +1064,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container--gbarbosa-odonto  {
+  .container--gbarbosa-odonto {
     margin: 0;
     justify-content: center;
 
-    .wrapper--gbarbosa-odonto{
-      .heading--gbarbosa-odonto{
+    .wrapper--gbarbosa-odonto {
+      .heading--gbarbosa-odonto {
         font-size: 26px;
       }
 
       .paragraph--gbarbosa-odonto {
         font-size: 14px;
 
-        .strong--gbarbosa-odonto{
+        .strong--gbarbosa-odonto {
           font-size: 16px;
         }
       }
@@ -1073,14 +1086,14 @@
   .container--gbarbosa-odonto-content {
     justify-content: center;
 
-    .heading--gbarbosa-odonto-content{
+    .heading--gbarbosa-odonto-content {
       font-size: 22px;
     }
 
     .paragraph--gbarbosa-odonto-content {
       font-size: 14px;
 
-      .strong--gbarbosa-odonto-content{
+      .strong--gbarbosa-odonto-content {
         font-size: 14px;
       }
     }
@@ -1096,25 +1109,25 @@
     letter-spacing: -0.26px;
     line-height: 24px;
 
-    .strong--recarga-celular-aviso{
+    .strong--recarga-celular-aviso {
       color: $primary;
     }
   }
 }
 
 @media screen and (max-width: 767px) {
-  .container--recarga-celular-aviso{
+  .container--recarga-celular-aviso {
     padding: 0 20px;
   }
 }
 
 // INSTITUTIONALS - PLANO CELULAR
-.wrapper--plano-controle-section-1{
+.wrapper--plano-controle-section-1 {
   max-width: 583px;
   margin: 129px;
 
-  .heading--plano-controle-section-1{
-    color: #FDBB30;
+  .heading--plano-controle-section-1 {
+    color: #fdbb30;
     font-size: 42px;
     line-height: 57px;
     letter-spacing: -1.01px;
@@ -1137,10 +1150,10 @@
   max-width: 650px;
   margin: 56px 142px;
 
-  .paragraph--plano-controle-section-2{
+  .paragraph--plano-controle-section-2 {
     position: relative;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       height: 100%;
       width: 5px;
@@ -1161,18 +1174,18 @@
 }
 
 @media screen and (max-width: 767px) {
-  .wrapper--plano-controle-section-1{
+  .wrapper--plano-controle-section-1 {
     margin: 62px 24px 188px;
     text-align: center;
 
-    .heading--plano-controle-section-1{
+    .heading--plano-controle-section-1 {
       font-size: 35px;
       line-height: 47px;
       letter-spacing: -0.84px;
     }
   }
 
-  .wrapper--plano-controle-section-2{
+  .wrapper--plano-controle-section-2 {
     margin: 220px 24px 24px;
 
     .paragraph--plano-controle-section-2 {
@@ -1187,14 +1200,14 @@
 
 // INSTITUTIONALS - TROCA CEL
 
-.container--troca-cel{
+.container--troca-cel {
   justify-content: center;
   padding: 64px 0;
 
-  .wrapper--troca-cel{
+  .wrapper--troca-cel {
     max-width: 440px;
 
-    .heading--troca-cel{
+    .heading--troca-cel {
       color: $primary;
     }
 
@@ -1216,11 +1229,11 @@
       letter-spacing: -0.29px;
     }
 
-    .list--troca-cel{
+    .list--troca-cel {
       padding-left: 20px;
 
       .listItem--troca-cel::marker {
-        color: $secondary
+        color: $secondary;
       }
     }
   }
@@ -1236,11 +1249,11 @@
   }
 }
 
-@media screen and (max-width: 768px){
-  .container--troca-cel{
+@media screen and (max-width: 768px) {
+  .container--troca-cel {
     padding: 68px 0 0;
 
-    .wrapper--troca-cel{
+    .wrapper--troca-cel {
       max-width: 324px;
 
       .headingLevel2--troca-cel {
@@ -1292,7 +1305,7 @@
   }
 }
 
-.wrapper--gift-cards-section-2  {
+.wrapper--gift-cards-section-2 {
   max-width: 514px;
   margin-left: 82px;
 
@@ -1318,14 +1331,13 @@
   letter-spacing: -0.77px;
 }
 
-.wrapper--gift-cards-item{
+.wrapper--gift-cards-item {
   max-width: 150px;
   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-
-  .wrapper--gift-cards-title-mobile{
+  .wrapper--gift-cards-title-mobile {
     width: 100%;
 
     .heading--gift-cards-title-mobile {
@@ -1348,7 +1360,7 @@
     }
   }
 
-  .wrapper--gift-cards-section-2{
+  .wrapper--gift-cards-section-2 {
     margin: 0;
     padding: 0 8px;
 
@@ -1359,7 +1371,7 @@
     }
   }
 
-  .wrapper--gift-cards-title{
+  .wrapper--gift-cards-title {
     width: 100%;
 
     .heading--gift-cards-title {
@@ -1407,7 +1419,7 @@
       letter-spacing: -0.51px;
     }
 
-    .list--cencosud-protege-section-2{
+    .list--cencosud-protege-section-2 {
       padding: 0;
 
       .listItem--cencosud-protege-section-2::marker {
@@ -1420,7 +1432,7 @@
       line-height: 24px;
       letter-spacing: -0.26px;
 
-      .strong--cencosud-protege-section-2{
+      .strong--cencosud-protege-section-2 {
         color: $secondary;
       }
     }
@@ -1441,7 +1453,7 @@
       margin: 0;
     }
 
-    .list--cencosud-protege-section-3{
+    .list--cencosud-protege-section-3 {
       padding: 0;
 
       .listItem--cencosud-protege-section-3::marker {
@@ -1500,7 +1512,7 @@
   }
 }
 
-.container--cencosud-protege-section-6{
+.container--cencosud-protege-section-6 {
   justify-content: center;
 
   .wrapper--cencosud-protege-section-6 {
@@ -1509,14 +1521,14 @@
   }
 }
 
-.container--cencosud-protege-section-7{
+.container--cencosud-protege-section-7 {
   justify-content: center;
 
   .wrapper--cencosud-protege-section-7 {
     max-width: 1124px;
     letter-spacing: -0.26px;
 
-    .link--cencosud-protege-section-7{
+    .link--cencosud-protege-section-7 {
       color: $primary;
       text-decoration: none;
     }
@@ -1531,7 +1543,7 @@
       letter-spacing: -0.62px;
     }
 
-    .paragraph--cencosud-protege-section-1  {
+    .paragraph--cencosud-protege-section-1 {
       font-size: 14px;
       line-height: 19px;
       letter-spacing: -0.22px;
@@ -1549,13 +1561,13 @@
       max-width: 324px;
       margin-left: 12px;
 
-      .heading--cencosud-protege-section-2{
+      .heading--cencosud-protege-section-2 {
         font-size: 18px;
         letter-spacing: -0.29px;
         line-height: 24px;
       }
 
-      .paragraph--cencosud-protege-section-2{
+      .paragraph--cencosud-protege-section-2 {
         font-size: 12px;
         line-height: 24px;
 
@@ -1615,13 +1627,13 @@
     }
   }
 
-  .container--cencosud-protege-section-6{
+  .container--cencosud-protege-section-6 {
     .wrapper--cencosud-protege-section-6 {
       padding: 0 16px;
     }
   }
 
-  .container--cencosud-protege-section-7{
+  .container--cencosud-protege-section-7 {
     .wrapper--cencosud-protege-section-7 {
       padding: 0 16px;
     }

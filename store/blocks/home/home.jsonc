@@ -2,11 +2,10 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#first-row",
-      "flex-layout.row#services-1",
-
+      "responsive-layout.desktop#services-home",
       "flex-layout.row#row-2-images",
-      "flex-layout.row#row-gray-methods",
-      "flex-layout.row#slider-circles-1",
+      "responsive-layout.desktop#row-gray-methods",
+      "responsive-layout.desktop#slider-circles",
       "__fold__.experimentalLazyAssets",
       // "flex-layout.row#shelf-last-car",
       "flex-layout.row#offers",
@@ -18,13 +17,15 @@
       "flex-layout.row#the-new",
       "flex-layout.row#shelf-the-new",
       "flex-layout.row#row-3-images",
-      "flex-layout.row#row-3-images-mobile",
+      // "flex-layout.row#row-3-images-mobile",
       "flex-layout.row#the-best-electronics",
       "flex-layout.row#shelf-the-best-electronics",
       "flex-layout.row#custom-4-images-container",
-      "flex-layout.row#best-seller",
-      "tab-layout#home",
-      "flex-layout.row#custom-end-banner"
+      "responsive-layout.desktop#best-seller",
+      "responsive-layout.desktop#shelf-home",
+      "responsive-layout.desktop#custom-end-banner",
+      "responsive-layout.mobile#eletro",
+      "responsive-layout.mobile#services-home"
     ]
   }
 }
