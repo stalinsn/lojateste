@@ -4305,6 +4305,8 @@
   background-color: #fafafa;
   .flexRowContent--department-container {
     flex-direction: column;
+    max-width: 1366x;
+    margin: 0 auto;
   }
   .flexRow--product-list-department {
     width: 100%;

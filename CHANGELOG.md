@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Our Stores page
+## [0.4.0] - 2021-10-29
+
 ### Added 
 
 - Header and footer for cart IO and Orderplaced

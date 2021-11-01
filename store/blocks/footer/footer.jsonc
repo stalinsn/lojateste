@@ -124,7 +124,8 @@
       "flex-layout.row#footer-social-bottom"
     ],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "paddingLeft": 6
     }
   },
   "rich-text#store-footer-sac": {
@@ -139,11 +140,11 @@
   "social-networks": {
     "props": {
       "socialNetworks": [
-        { "url": "https://facebook.com/", "name": "Facebook" },
-        { "url": "https://instagram.com/", "name": "instagram" },
-        { "url": "https://twitter.com/", "name": "Twitter" },
-        { "url": "https://youtube.com/", "name": "Youtube" },
-        { "url": "https://linkedin.com/", "name": "linkedin" }
+        { "url": "https://www.facebook.com/oficialgbarbosa/", "name": "Facebook" },
+        { "url": "https://www.instagram.com/gbarbosa_oficial/", "name": "instagram" },
+        { "url": "https://twitter.com/gbarbosa", "name": "Twitter" },
+        { "url": "https://www.youtube.com/user/gbarbosaoficial", "name": "Youtube" },
+        { "url": "https://www.linkedin.com/company/cencosud-s-a-/", "name": "linkedin" }
       ],
       "blockClass": "footer"
     }
@@ -196,8 +197,7 @@
     "title": "Footer - Copyright",
     "children": [
       "flex-layout.col#footer-3-desktop-1",
-      "flex-layout.col#footer-3-desktop-2",
-      "flex-layout.col#footer-3-desktop-3"
+      "flex-layout.col#footer-3-desktop-2"
     ],
 
     "props": {
@@ -224,11 +224,21 @@
   },
 
   "flex-layout.col#footer-3-desktop-2": {
-    "children": ["rich-text#powered-by"],
+    "children": ["flex-layout.row#poweredby"],
 
     "props": {
       "verticalAlign": "middle",
-      "blockClass": "txt-footer"
+      "blockClass": "txt-footer",
+      "width": "15%",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.row#poweredby": {
+    "children":["rich-text#powered-by", "image#logo-footer-1"],
+    "props": {
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "right"
     }
   },
 
@@ -243,21 +253,13 @@
     }
   },
 
-  "flex-layout.col#footer-3-desktop-3": {
-    "children": ["image#logo-footer-1"],
-
-    "props": {
-      "width": "7%",
-      "blockClass": "txt-footer"
-    }
-  },
-
   "image#logo-footer-1": {
     "title": "Footer - Logo",
 
     "props": {
       "src": "/arquivos/corebiz_logo.svg",
-      "blockClass": "logo-footer-corebiz"
+      "blockClass": "logo-footer-corebiz",
+      "maxHeight": 10
     }
   },
 
