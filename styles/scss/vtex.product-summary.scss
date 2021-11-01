@@ -272,8 +272,15 @@
   padding: 0;
 
   @media screen and (max-width: em(1024px)) {
-    height: 42px;
+    height: 34px;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .productBrand {
+    font-size: 10px!important;
+    height: auto!important;
   }
 }
 

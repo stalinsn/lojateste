@@ -414,13 +414,8 @@
               width: auto;
             }
             :global(.vtex-product-summary-2-x-nameContainer) {
-              margin-top: 15px;
-              height: auto;
               padding-bottom: 0;
               :global(.vtex-product-summary-2-x-productBrand) {
-                @media screen and (max-width: em(1024px)) {
-                  height: 35px;
-                }
                 height: 47px;
                 font-size: 14px;
               }
