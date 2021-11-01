@@ -186,12 +186,18 @@
     max-width: 108px!important;
     max-height: 184px;
     border-radius: 15px;
+    position: relative;
 
     :global(.vtex-numeric-stepper-wrapper) {
       position: absolute;
       top: 84px;
       left: 4px;
       right: 4px;
+
+      :global(.vtex-numeric-stepper__plus-button),
+      :global(.vtex-numeric-stepper__minus-button){
+        width: 24px!important;
+      }
     }
 
     :global(.vtex-product-price-1-x-savings){
