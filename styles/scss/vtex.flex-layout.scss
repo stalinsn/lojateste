@@ -4,8 +4,49 @@
   padding: 0 0.5rem;
 }
 .flexCol--minicart-main-infos {
-  max-width: 225px;
+  width: 225px !important;
   margin: 0 10px;
+}
+.flexRowContent--minicart-container-content {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  margin: 10px 0;
+  padding: 11px;
+  padding-left: 0;
+  padding-right: 0;
+  flex-direction: row;
+  display: flex;
+  :global(.vtex-product-list-0-x-productPrice) {
+    :global(.vtex-product-list-0-x-price) {
+      color: #ed1d25;
+      font-size: 12px;
+      font-weight: bold;
+      &::before {
+        content: "por: ";
+      }
+    }
+  }
+  :global(.vtex-product-list-0-x-currencyContainer) {
+    color: #525252;
+    font-weight: 12px;
+    &::before {
+      content: "de: ";
+    }
+  }
+  :global(.vtex-product-list-0-x-productImageContainer) {
+    max-width: 56px;
+    max-height: 56px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+    flex-direction: row;
+    display: flex;
+  }
+  :global(.vtex-numeric-stepper-container) {
+    margin-right: -30px;
+  }
+  @media (max-width: 768px) {
+    padding-bottom: 0;
+  }
 }
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link {
@@ -1542,6 +1583,16 @@
     color: #525252;
     font-size: 14px;
   }
+  @media (max-width: 768px) {
+    :global(.vtex-rich-text-0-x-strong) {
+      font-size: 20px;
+      margin-bottom: 31px;
+    }
+    max-width: 100%;
+    margin: 0;
+    background: #fff;
+    margin-bottom: 37px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2043,7 +2094,7 @@
     }
   }
 }
-.flexRow--main-header-mobile-search-walmart {
+.flexRow--main-header-mobile-search-bar {
   background-color: #fff;
   padding-top: 10px;
   @media (max-width: em(768px)) {
@@ -2051,7 +2102,7 @@
     background-color: #fafafa !important;
   }
 }
-.flexCol--search-walmart {
+.flexCol--search-bar {
   padding-bottom: 10px;
 
   @media (max-width: em(768px)) {
@@ -2392,10 +2443,26 @@
   }
 
   .flexRow--section-three-banners-desktop {
-    display: none;
+    // display: none;
   }
 }
-
+@media (max-width: 768px) {
+  .flexRow--section-three-banners-desktop {
+    padding-bottom: 16px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    .flexRowContent--section-three-banners-desktop {
+      flex-direction: row;
+      display: flex;
+      .stretchChildrenWidth {
+        width: 350px !important;
+        padding-right: 20px;
+      }
+    }
+  }
+}
 /* Media Query for Laptops and Desktops */
 @media screen and (min-width: em(1025px)) {
   .flexRow--section-three-banners-mobile {

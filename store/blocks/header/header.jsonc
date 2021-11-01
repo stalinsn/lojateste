@@ -313,9 +313,8 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "flex-layout.col#col-walmart-1",
+      "flex-layout.col#col-1",
       "logo#mobile",
-
       "rich-text#Tel",
       "login",
       "minicart.v2"
@@ -327,33 +326,32 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#col-walmart-1": {
+  "flex-layout.col#col-1": {
     "children": [
       // "drawer",
       "mega-menu"
     ],
     "props": {
-      "blockClass": ["col-walmart", "menu-burguer"]
+      "blockClass": ["col", "menu-burguer"]
     }
   },
 
   "flex-layout.row#2-mobile": {
     "children": [
-      //"flex-layout.col#col-walmart-1",
-      "flex-layout.col#col-walmart-2"
+      "flex-layout.col#col-2"
     ],
     "props": {
-      "blockClass": "main-header-mobile-search-walmart"
+      "blockClass": "main-header-mobile-search-bar"
       //"preventHorizontalStretch": true
       //"preserveLayoutOnMobile": false
       //"fullWidth": true
     }
   },
 
-  "flex-layout.col#col-walmart-2": {
-    "children": ["search-bar", "store-selector"],
+  "flex-layout.col#col-2": {
+    "children": ["search-bar"/* , "store-selector" */],
     "props": {
-      "blockClass": ["col-walmart", "search-walmart"]
+      "blockClass": ["col-search", "search-bar"]
     }
   },
   "drawer": {

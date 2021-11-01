@@ -32,7 +32,7 @@
     "children": ["flex-layout.row#search-result-container-mobile-row"]
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#not-found-row"]
+    "children": [/* "flex-layout.row#not-found-row" */"flex-layout.row#not-found-1"]
   },
   "flex-layout.row#not-found-row": {
     "children": ["flex-layout.col#not-found-layout"]

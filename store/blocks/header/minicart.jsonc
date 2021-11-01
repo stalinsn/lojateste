@@ -59,13 +59,16 @@
   },
   "flex-layout.row#pricing-infos-minicart": {
     "children": [
-      "quantity-selector-custom#minicart",
-      "vtex.product-list:price"
+      "vtex.product-list:price",
+      "quantity-selector-custom#minicart"
 
     ],
     "props": {
       "colSizing": "auto"
     }
+  },
+  "flex-layout.col#pricing-info-minicart": {
+    "children": ["vtex.product-list:price"]
   },
   "quantity-selector-custom#minicart": {
     "props": {
@@ -91,7 +94,7 @@
   },
   "drawer-close-button#minicart-close": {
     "props": {
-      "text": "Adicionar ao carrinho",
+      "text": "Continuar comprando",
       "blockClass": "minicart-close"
     }
   },

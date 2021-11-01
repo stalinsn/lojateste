@@ -270,7 +270,7 @@
     padding-right: 5px;
 
     &::before {
-      content: "Ir para pagamento";
+      content: "Finalizar pedido";
       font-size: 14px;
       font-weight: 600;
       text-transform: none;
@@ -339,3 +339,10 @@
     font-family: OpenSans;
   }
 }*/
+
+
+@media(max-width: 768px) {
+  .drawer {
+    width: 95% !important;
+  }
+}
