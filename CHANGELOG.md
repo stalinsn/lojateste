@@ -7,7 +7,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-
 ### Fix
 
 - Shelves size on mobile,
@@ -16,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Footer mobile
 - My-account
 - Institutional pages mobile
+- search-bar icon
 
 ### Added
 
