@@ -16,3 +16,97 @@
   top: 0;
   left: auto;
 }
+
+// INSTITUTIONALS - GBARBOSA ODONTO
+.stackItem--gbarbosa-odonto{
+  height: 100%;
+}
+
+// INSTITUTIONALS - VALE GAS
+.stackItem--vale-gas:last-child{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+}
+
+@media screen and (max-width: 767px) {
+  .stackItem--vale-gas-mobile:last-child{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    width: 264px;
+  }
+}
+
+// INSTITUTIONALS - PLANO CONTROLE
+
+.stackItem--plano-controle:last-child{
+  top: 13%;
+  left: 55%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .stackItem--plano-controle:last-child{
+    top: 27%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stackItem--plano-controle:last-child{
+    top: 37%;
+    left: auto;
+  }
+}
+
+// INSTITUTIONALS - TROCA CEL
+.stackItem--troca-cel:last-child{
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+@media screen and (max-width: 768px) {
+  .stackItem--troca-cel-mobile:last-child {
+    top: 95%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+// INSTITUTIONALS - GIFT CARDS
+.stackContainer--gift-cards{
+  width: fit-content;
+  margin: 0 auto;
+
+  .stackItem--gift-cards:last-child{
+    top: 46%;
+    right: 5%;
+    justify-content: flex-end;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stackItem--gift-cards-mobile {
+    top: 46%;
+  }
+}
+
+
+// INSTITUTIONALS - CENCONSUD PROTEGE
+.stackItem--cenconsud-protege{
+  right: 8%;
+  top: 14%;
+  left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .stackItem--cenconsud-protege:last-child{
+    right: 0;
+    padding: 36px;
+  }
+}

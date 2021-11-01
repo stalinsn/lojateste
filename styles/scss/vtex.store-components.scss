@@ -109,6 +109,10 @@
   }
 }
 
+.imageElement--logo-footer-corebiz {
+  align-self: center;
+}
+
 .imageElementLink--image-home {
   padding: 0;
   box-sizing: border-box;
@@ -835,10 +839,6 @@
   margin-right: 10px;
 }
 
-:global(.vtex-store-components-3-x-imageElement--logo-footer-corebiz) {
-  width: 72px;
-}
-
 :global(.vtex-store-components-3-x-newsletter) {
   :global(.vtex-store-components-3-x-container) {
     margin-left: 20px;
@@ -955,6 +955,9 @@
   }
 }
 
+.imageElement--cart-io-security {
+  max-height: 48px;
+}
 :global(.vtex-add-to-cart-button-0-x-buttonText) {
   font-size: 14px;
   font-weight: 700;
@@ -976,6 +979,297 @@
   color: #f7f7f7;
   font-size: 14px;
   font-weight: 600;
+}
+
+// INSTITUTIONALS - SERVICES
+
+.infoCardContainer--services-cards {
+  flex-direction: column-reverse;
+  width: 290px!important;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000014;
+  border-radius: 5px;
+  margin-bottom: 42px;
+
+  .infoCardTextContainer--services-cards{
+    width: 100%;
+
+    .infoCardHeadline--services-cards{
+      font-size: 24px;
+      color: #ED1D25;
+    }
+
+    .infoCardSubhead--services-cards {
+      font-size: 14px;
+    }
+
+    .infoCardCallActionContainer--services-cards {
+      width: 100%;
+      margin: 12px 0;
+
+      :global(.vtex-button) {
+        width: 100%;
+        background: #F4F4F4;
+        border-color: #F4F4F4;
+        border-radius: 4px;
+        color: #ED1D25;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .infoCardImageContainer--services-cards {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 172px !important;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+// INSTITUTIONALS - CENCOSUD CARD
+.infoCardContainer--cencosud-card-benefits{
+  padding: 0;
+  background: #ED1D25;
+
+  .infoCardTextContainer--cencosud-card-benefits{
+    max-width: 300px;
+    margin: 0 auto;
+
+    .infoCardHeadline--cencosud-card-benefits {
+      font-size: 24px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .infoCardCallActionContainer--cencosud-card-benefits {
+      :global(.vtex-button){
+        font-size: 16px;
+        background: #FFD500;
+        border-color: #FFD500;
+      }
+    }
+  }
+
+  .infoCardImageContainer--cencosud-card-benefits{
+    width: 60%;
+
+    .infoCardImage--cencosud-card-benefits {
+      display: flex;
+    }
+  }
+}
+
+// INSTITUTIONALS - GBARBOSA ODONTO
+.imageElement--gbarbosa-odonto-background{
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .infoCardContainer--cencosud-card-benefits{
+    .infoCardImageContainer--cencosud-card-benefits{
+      width: auto
+    }
+  }
+}
+
+// INSTITUTIONALS - GBARBOSA ODONTO
+@media screen and (max-width: 768px) {
+  .imageElement--gbarbosa-odonto-brands {
+    max-height: 32px !important;
+  }
+}
+
+// INSTITUTIONALS - VALE GAS
+.infoCardContainer--vale-gas-section-1 {
+  height: 349px;
+
+  .infoCardTextContainer--vale-gas-section-1{
+    max-width: 273px;
+
+    .infoCardHeadline--vale-gas-section-1 {
+      letter-spacing: -1.01px;
+      color: #F4F4F4;
+      font-size: 42px;
+      margin: 0;
+    }
+
+    .infoCardSubhead--vale-gas-section-1 {
+      margin: 0;
+      font-size: 26px;
+      color: #FAFAFA;
+    }
+  }
+}
+
+.infoCardContainer--vale-gas-section-2{
+  background: $secondary;
+  padding: 0;
+
+  .infoCardTextContainer--vale-gas-section-2{
+    max-width: 440px;
+    margin: 0 auto;
+
+    .infoCardHeadline--vale-gas-section-2 {
+      letter-spacing: -0.77px;
+      color: $primary;
+      font-size: 32px;
+    }
+
+    .infoCardSubhead--vale-gas-section-2 {
+      letter-spacing: -0.29px;
+      font-size: 18px;
+    }
+
+  }
+
+  .infoCardImage--vale-gas-section-2{
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .infoCardTextContainer--vale-gas-section-1 {
+    max-width: initial;
+    margin: 0 auto;
+
+    .infoCardHeadline--vale-gas-section-1 {
+      font-size: 28px;
+    }
+
+    .infoCardSubhead--vale-gas-section-1 {
+      font-size: 16px;
+    }
+  }
+
+  .infoCardContainer--vale-gas-section-2{
+    .infoCardTextContainer--vale-gas-section-2{
+      max-width: 324px;
+      padding: 16px 0 115px;
+
+      .infoCardHeadline--vale-gas-section-2{
+        text-align: center;
+        width: 100%;
+        font-size: 28px;
+        letter-spacing: -0.67px;
+        line-height: 38px;
+      }
+
+      .infoCardSubhead--vale-gas-section-2 {
+        text-align: center;
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: -0.22px;
+      }
+    }
+  }
+}
+
+//INSTITUTIONALS - RECARGA CELULAR
+.infoCardContainer--recarga-celular-section-1{
+  background: transparent;
+  padding: 0;
+
+  .infoCardTextContainer--recarga-celular-section-1{
+    max-width: 530px;
+    margin: 0 auto;
+
+    .infoCardHeadline--recarga-celular-section-1{
+      margin: 0;
+      font-size: 42px;
+      color: #FDBB30;
+      line-height: 57px;
+      letter-spacing: -1.01px;
+    }
+
+    .infoCardSubhead--recarga-celular-section-1{
+      font-size: 20px;
+      color: #FAFAFA;
+      line-height: 27px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .infoCardContainer--recarga-celular-section-1{
+    .infoCardTextContainer--recarga-celular-section-1{
+      align-items: center;
+      padding: 0 24px;
+
+      .infoCardHeadline--recarga-celular-section-1{
+        font-size: 35px;
+        line-height: 47px;
+        letter-spacing: -0.84px;
+      }
+
+      .infoCardSubhead--recarga-celular-section-1{
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0;
+        text-align: center;
+        margin-top: 16px;
+      }
+    }
+
+    .infoCardImage--recarga-celular-section-1{
+      display: flex;
+      border-radius: 0 0 30px 30px;
+    }
+  }
+}
+
+// INSTITUTIONALS - TROCA CEL
+.infoCardHeadline--troca-cel-section-1{
+  color: $white;
+  margin: 0;
+  font-size: 42px;
+  line-height: 57px;
+  letter-spacing: -1.01px;
+}
+
+.infoCardSubhead--troca-cel-section-1 {
+  color: $white;
+  margin: 0;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .infoCardContainer--troca-cel-section-1 {
+    height: 350px;
+
+    .infoCardTextContainer--troca-cel-section-1{
+      margin-left: 32px;
+
+      .infoCardHeadline--troca-cel-section-1{
+        font-size: 27px;
+        line-height: 37px;
+        letter-spacing: -0.65px;
+      }
+
+      .infoCardSubhead--troca-cel-section-1 {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .imageElement--troca-cel {
+    max-width: 224px;
+  }
+}
+
+.imageElement--cenconsud-protege-background {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .imageElement--cencosud-protege-tags {
+    margin-top: 32px;
+  }
 }
 
 //css pagina de pago de servicios institucional
@@ -1191,3 +1485,25 @@
     margin-right: 10px;
   }
 }
+
+/* department page */
+.imageElementLink--deparment-banner {
+  text-align: center;
+}
+.imageElementLink--deparment-banner-full {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+@media (max-width: 768px) {
+  .imageElement--deparment-banner {
+    max-width: 217px;
+    width: 217px;
+    padding: 0 10px;
+    margin-top: 15px;
+  }
+  .imageElement--deparment-banner-full {
+    display: none;
+  }
+}
+/* department page end */

@@ -1,0 +1,89 @@
+{
+  "store.custom#plano-controle": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": [
+      "responsive-layout.desktop#plano-controle",
+      "responsive-layout.tablet#plano-controle",
+      "responsive-layout.phone#plano-controle"
+    ]
+  },
+  "responsive-layout.desktop#plano-controle": {
+    "children": [
+      "breadcrumb",
+      "stack-layout#plano-controle"
+    ]
+  },
+  "responsive-layout.tablet#plano-controle": {
+    "children": [
+      "stack-layout#plano-controle"
+    ]
+  },
+  "responsive-layout.phone#plano-controle": {
+    "children": [
+      "stack-layout#plano-controle"
+    ]
+  },
+  "stack-layout#plano-controle": {
+    "children": [
+      "flex-layout.row#plano-controle-content",
+      "image#plano-controle"
+    ],
+    "props": {
+      "blockClass": "plano-controle"
+    }
+  },
+  "flex-layout.row#plano-controle-content": {
+    "children": [
+      "flex-layout.col#plano-controle-content"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#plano-controle-content": {
+    "children": [
+      "flex-layout.row#plano-controle-section-1",
+      "flex-layout.row#plano-controle-section-2"
+    ]
+  },
+  "flex-layout.row#plano-controle-section-1": {
+    "title": "Seção 1",
+    "children": [
+      "rich-text#plano-controle-section-1"
+    ],
+    "props": {
+      "blockClass": "plano-controle-section-1"
+    }
+  },
+  "rich-text#plano-controle-section-1": {
+    "title": "Texto - seção 1",
+    "props": {
+      "text": "## Plano controle \n **O plano controle funciona da seguinte forma:** \n\n O cliente paga um valor fixo por mês e recebe uma franquia mensal de ligações, SMS e Internet, a depender do pacote escolhido. Todo mês, uma fatura é emitida com o valor fixo do plano;",
+      "blockClass": "plano-controle-section-1"
+    }
+  },
+  "flex-layout.row#plano-controle-section-2": {
+    "title": "Seção 2",
+    "children": [
+      "rich-text#plano-controle-section-2"
+    ],
+    "props": {
+      "blockClass": "plano-controle-section-2"
+    }
+  },
+  "rich-text#plano-controle-section-2": {
+    "title": "Texto - seção 2",
+    "props": {
+      "text": "O plano controle é pago no final do mês, como o pós, porém possui um gasto pré-limitado, como ocorre com os créditos; Esse é mais um serviço que você encontra no GBarbosa.",
+      "blockClass": "plano-controle-section-2"
+    }
+  },
+  "image#plano-controle": {
+    "title": "Imagem central",
+    "props": {
+      "src": "/arquivos/gbarbosa-plano-controle-phone.png"
+    }
+  }
+}

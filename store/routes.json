@@ -65,6 +65,33 @@
   "store.custom#atendance-group2": {
     "path": "/atendimento"
   },
+  "store.custom#services": {
+    "path": "/servicos"
+  },
+  "store.custom#cartao-cenco": {
+    "path": "/servicos/cartao-cenco"
+  },
+  "store.custom#gbarbosa-odonto": {
+    "path": "/servicos/plano-odonto"
+  },
+  "store.custom#vale-gas": {
+    "path": "/servicos/vale-gas"
+  },
+  "store.custom#recarga-celular": {
+    "path": "/servicos/recarga-de-celular"
+  },
+  "store.custom#plano-controle": {
+    "path": "/servicos/plano-controle"
+  },
+  "store.custom#troca-cel": {
+    "path": "/servicos/troca-cel"
+  },
+  "store.custom#gift-cards": {
+    "path": "/servicos/gift-cards"
+  },
+  "store.custom#cencosud-protege": {
+    "path": "/servicos/cencosud-protege"
+  },
   "store.custom#call-center": {
     "path": "/central-de-atendimento"
   },
@@ -82,5 +109,8 @@
   },
   "store.custom#stores": {
     "path": "/lojas"
+  },
+  "store.custom#departments": {
+    "path": "/eletro"
   }
 }

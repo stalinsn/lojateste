@@ -1,7 +1,8 @@
 {
   "store.custom#gbarbosa-app": {
     "parent": {
-      "header": "header"
+      "header": "header",
+      "footer": "footer"
     },
     "blocks": ["responsive-layout.desktop#app-offers", "responsive-layout.tablet#app-offers", "responsive-layout.phone#app-offers"]
   },
@@ -91,7 +92,8 @@
     ],
     "props": {
       "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colGap": 4
     }
   },
   "rich-text#offers2": {
@@ -111,7 +113,7 @@
       "src": "/arquivos/gbarbosa-app-store.png",
       "maxHeight": 54,
       "link": {
-        "url": "#",
+        "url": "https://apps.apple.com/br/app/gbarbosa/id1513424696",
         "openNewTab": true
       }
     }
@@ -121,7 +123,7 @@
       "src": "/arquivos/gbarbosa-play-store.png",
       "maxHeight": 54,
       "link": {
-        "url": "#",
+        "url": "https://play.google.com/store/apps/details?id=br.com.cencosud.gbarbosa",
         "openNewTab": true
       }
     }

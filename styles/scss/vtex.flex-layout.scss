@@ -21,7 +21,7 @@
 }
 :global(.vtex-flex-layout-0-x-flexRow--login-container),
 :global(.vtex-flex-layout-0-x-flexRow--custom-register) {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 :global(.vtex-flex-layout-0-x-flexRow--custom-register) {
   margin: 0 auto;
@@ -631,6 +631,21 @@
 }
 
 /* cart-io */
+.flexRow--cart-container {
+  width: 100%;
+  .flexRowContent--cart-container {
+    justify-content: space-between;
+  }
+  .flexRow--right-side-orderplaced {
+    .flexRowContent--right-side-orderplaced {
+      align-items: center;
+      height: 100%;
+    }
+  }
+}
+:global(.vtex-store-header-2-x-headerRowBackground--cart-content) {
+  box-shadow: 0px 3px 6px #00000014;
+}
 .flexCol--cart-desktop-content {
   display: flex;
   align-items: center;
@@ -799,6 +814,27 @@
   padding: 7px;
   margin: 20px 0;
 }
+.flexRow--right-side-orderplaced {
+  height: 100%;
+}
+.flexCol--developed-by {
+  max-width: 70%;
+  margin-left: 25px;
+}
+.flexRowContent--cart-io {
+  justify-content: space-between;
+}
+.flexColChild--cart-io-col-container {
+  align-items: center;
+  display: flex;
+}
+.flexRow--cart-io {
+  padding: 15px 0;
+}
+.flexColChild--cart-io-title-col {
+  align-items: center;
+  display: flex;
+}
 @media (max-width: 768px) {
   .flexCol--empty-cart-messages-content {
     .flexColChild--empty-cart-messages-content {
@@ -811,6 +847,45 @@
         }
       }
     }
+  }
+  .flexRow--cart-container {
+    .flexRow--right-side-orderplaced {
+      .flexRowContent--right-side-orderplaced {
+        display: flex;
+        max-width: 100%;
+        border-top: 2px solid #e2e2e2;
+        border-bottom: 2px solid #e2e2e2;
+        padding: 0 5px;
+      }
+    }
+  }
+  .flexCol--logo-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5px;
+    align-items: center;
+  }
+  .flexRowContent--row-footer-cart {
+    display: flex;
+    margin-top: 20px;
+  }
+  .flexColChild--cart-io-col-container {
+    justify-content: center;
+    height: auto !important;
+  }
+  .flexRowContent--safe-store-row {
+    flex-direction: row;
+    display: flex;
+  }
+  .flexCol--developed-by {
+    margin-left: 0;
+  }
+  .flexColChild--cart-io-title-col {
+    justify-content: center;
+  }
+  .flexRow--cart-io {
+    padding: 15px 15px 25px 0;
   }
 }
 /* cart-io - end */
@@ -1128,7 +1203,7 @@
 .flexRow--quantity-pdp {
   margin: 16px 0;
   :global(.vtex-numeric-stepper-container) {
-    border: 0.5px solid #CBCBCB;
+    border: 0.5px solid #cbcbcb;
     border-radius: 5px;
 
     :global(.vtex-numeric-stepper__input) {
@@ -1276,7 +1351,6 @@
 }
 .flexRowContent--row-two-components {
   .stretchChildrenWidth {
-
     width: inherit !important;
     padding: 0 !important;
     :global(.vtex-product-quantity-1-x-quantitySelectorContainer--quantity) {
@@ -1453,7 +1527,7 @@
   text-overflow: ellipsis;
   font-family: OpenSans;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     font-size: 12px;
     font-weight: 400;
   }
@@ -1475,7 +1549,6 @@
     padding: 0 8px;
   }
 }
-
 
 :global(.vtex-product-summary-2-x-nameWrapper) {
   text-align: left;
@@ -1501,7 +1574,7 @@
 
     @media screen and (max-width: 767px) {
       font-size: 16px;
-      color: #ED1D25;
+      color: #ed1d25;
     }
   }
 }
@@ -2458,6 +2531,167 @@
       width: 100% !important;
     }
   }
+}
+
+// INSTITUTIONALS - SERVICES
+.flexRowContent--services-container {
+  max-width: 1238px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    justify-content: space-around;
+  }
+}
+
+// INSTITUTIONALS - CENCOSUD CARD
+.flexRow--cencosud-card-container1{
+  background-color: #ED1D25;
+
+
+  .flexRowContent--cencosud-card-container1{
+    background-image: url("/arquivos/cartao-cencosud-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.flexRow--cencosud-card-container2{
+  background-color: $secondary;
+
+  .flexColChild--content-section-bottom{
+    margin-top: -68px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flexCol--cencosud-card-content {
+    padding: 42px 8px 0;
+  }
+
+  .flexRow--cencosud-card-container2{
+    .flexColChild--content-section-bottom{
+      margin-top: auto;
+    }
+  }
+
+  .flexCol--cencosud-card-download-app{
+    margin-bottom: 42px;
+  }
+}
+
+// INSTITUTIONALS - GBARBOSA ODONTO
+.flexRowContent--gbarbosa-odonto-banner {
+  height: 703px;
+}
+
+.flexCol--gbarbosa-odonto-content{
+  background: #E10A17;
+  border-radius: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .flexColChild--gbarbosa-odonto-content {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+// INSTITUTIONALS - RECARGA CELULAR
+.flexRowContent--recarga-celular-section-1{
+  background-image: url("/arquivos/gbarbosa-recarga-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .flexRowContent--recarga-celular-section-1{
+    padding-top: 32px;
+    background-image: url("/arquivos/gbarbosa-recarga-background-mobile.jpg");
+  }
+}
+
+// INSTITUTIONALS - PLANO CONTROLE
+.flexRow--plano-controle-section-1{
+  background-image: url('/arquivos/gbarbosa-plano-controle-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 432px;
+
+  .flexRowContent--plano-controle-section-1{
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+}
+
+.flexRowContent--plano-controle-section-2 {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexRow--plano-controle-section-1{
+    background-image: url('/arquivos/gbarbosa-plano-controle-background-mobile.jpg');
+  }
+}
+
+// INSTITUTIONALS - TROCA CEL
+.flexRowContent--troca-cel-section-1 {
+  min-height: 349px;
+}
+
+@media screen and (max-width: 767px) {
+  .flexRow--troca-cel-section-3 {
+    margin-top: 142px;
+  }
+}
+
+// INSTITUTIONALS - GIFT CARDS
+.flexCol--gift-cards-content{
+  background-image: url("/arquivos/gbarbosa-gift-cards-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px 116px 42px;
+}
+
+.flexCol--gift-cards-item {
+  border-color: #DEDEDE;
+}
+
+@media screen and (max-width: 767px) {
+  .flexCol--gift-cards-mobile{
+    background-image: url('/arquivos/gbarbosa-gift-cards-background-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 32px 8px 212px;
+  }
+
+  .flexCol--gift-cards-section-2-mobile{
+    padding: 208px 16px 32px;
+  }
+
+  .flexRowContent--gift-cards-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 16px;
+
+    .flexCol--gift-cards-item{
+      padding: 0;
+      border: 0;
+    }
+  }
+}
+
+// INSTITUTIONALS - CENCOSUD PROTEGE
+.flexRowContent--cencosud-protege-section-2 {
+  background: $primary;
+  border-radius: 0 0 30px 30px;
+}
+
+.flexCol--cencosud-protege-section-5{
+  background-color: $primary;
 }
 
 //css pagina terminos y condiciones andres institucionales
@@ -4062,3 +4296,43 @@
 .flexRowContent--row-subcat-unidos {
   justify-content: center;
 }
+
+/* Department page - start */
+.flexCol--deparment-banner-title {
+  padding: 0 40px;
+}
+.flexRow--department-container {
+  background-color: #fafafa;
+  .flexRowContent--department-container {
+    flex-direction: column;
+    max-width: 1366x;
+    margin: 0 auto;
+  }
+  .flexRow--product-list-department {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 45px;
+    box-shadow: 0px -1px 6px #0000000a;
+  }
+}
+.flexRow--categories-container {
+  width: 100%;
+
+  .flexRowContent--categories-container {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.flexRowContent--department-breadcumb-container {
+  padding: 0 60px;
+}
+@media (max-width: 768px) {
+  .flexRowContent--department-breadcumb-container {
+    padding: 0 15px;
+    display: flex;
+  }
+  .flexCol--deparment-banner-title {
+    padding: 0;
+  }
+}
+/* Department page - end */
