@@ -4,6 +4,7 @@
     "children": ["flex-layout.row#department-container"]
   },
   "flex-layout.row#department-container": {
+    "title": "Página departamento",
     "props": {
       "blockClass": "department-container",
       "fullWidth": true,
