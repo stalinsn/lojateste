@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - search-bar icon
 
+### Added
+- Our Stores page
+
 ## [0.4.0] - 2021-10-29
 
 ### Added 

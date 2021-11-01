@@ -205,7 +205,6 @@
 
   "menu-item#ayuda-4": {
     "props": {
-      "blockClass": "read-only",
       "id": "menu-item-2",
       "type": "custom",
       "iconId": null,
@@ -253,14 +252,13 @@
   },
   "menu-item#ayuda-7": {
     "props": {
-      "blockClass": "read-only",
       "id": "menu-item-2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/servicos",
         "noFollow": false,
         "tagTitle": "Serviços",
         "text": "Serviços"

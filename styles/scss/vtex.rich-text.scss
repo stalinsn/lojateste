@@ -2771,9 +2771,6 @@
     left: 19rem;
   }
 }
-.container--social-media {
-  margin-left: 25px;
-}
 
 .strong--text-btn-covid-5 {
   margin-left: 16.3rem;
@@ -3127,6 +3124,16 @@
 }
 /* Modal cart end */
 
+// OUR STORES
+.container--our-stores {
+  padding: 0 18px;
+
+  .heading--our-stores{
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.58px;
+  }
+}
 /* Deparment page  */
 .wrapper--deparment-banner-title {
   width: 100%;
