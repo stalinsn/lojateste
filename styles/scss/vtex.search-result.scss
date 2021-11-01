@@ -1,18 +1,37 @@
 @import "./references";
 
 .searchNotFound {
-  flex-direction: column;
-
-  .searchNotFoundOops,
+  flex-direction: row;
+  .searchNotFoundOops {
+    color: #ed1d25;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 30px;
+  }
   .searchNotFoundWhatDoIDo {
-    color: #525252;
-    text-align: center;
+    color: #ed1d25;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
   }
 
   .searchNotFoundInfo {
-    color: #000;
-    text-align: center;
+    color: #525252;
+    text-align: left;
+    font-size: 14px;
+    line-height: 2em;
+    padding-left: 17px;
+    margin: 0;
   }
+  .searchNotFoundWhatToDoDots {
+    color: #525252;
+    text-align: left;
+    font-size: 14px;
+  }
+}
+.notFound--layout {
+  background: #fafafa;
 }
 .orderBy--layout {
   width: 216px;
@@ -311,12 +330,13 @@
   padding-right: 20px;
   max-width: $maxContainerWidth;
   margin: 0 auto;
-  padding-top: 20px;
-
+  padding: 50px;
   .searchNotFoundWhatToDoDotsContainer {
     text-align: left;
     font-size: 13px;
-    line-height: 2em;
+    line-height: 1.5em;
+    padding-left: 17px;
+    margin-top: 0;
   }
 }
 
@@ -413,6 +433,18 @@
           }
         }
       }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .searchNotFound {
+    flex-direction: column;
+    .searchNotFoundOops {
+      padding: 0;
+    }
+    .searchNotFoundInfo  {
+      padding: 0;
+      text-align: center;
     }
   }
 }

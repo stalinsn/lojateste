@@ -15,21 +15,21 @@
       "images": [
         {
           "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_home.png",
+          "mobileImage": "/arquivos/main_banner_mobile.png",
           "link": {
             "url": "/test"
           }
         },
         {
           "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_home.png",
+          "mobileImage": "/arquivos/main_banner_mobile.png",
           "link": {
             "url": "/test"
           }
         },
         {
           "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_home.png",
+          "mobileImage": "/arquivos/main_banner_mobile.png",
           "link": {
             "url": "/test"
           }
@@ -49,7 +49,7 @@
         "timeout": 6000
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": "carousel"
     }
   },
@@ -75,16 +75,34 @@
     }
   },
   "flex-layout.col#col-2-images-2": {
-    "children": ["image#col-2-images-2"],
+    "children": [
+      "responsive-layout.desktop#col-2-images-2",
+      "responsive-layout.mobile#col-2-images-2-mobile"
+    ],
     "props": {
       "blockClass": "col-banner"
     }
+  },
+  "responsive-layout.desktop#col-2-images-2": {
+    "children": ["image#col-2-images-2"]
   },
   "image#col-2-images-2": {
     "props": {
       "src": "/arquivos/banner2.jpg",
       "blockClass": "banner-img"
     }
+  },
+  "responsive-layout.mobile#col-2-images-2-mobile": {
+    "children": ["image#col-2-images-2-mobile"]
+  },
+  "image#col-2-images-2-mobile": {
+    "props": {
+      "src": "/arquivos/banner2-mobile.png",
+      "blockClass": "banner-img"
+    }
+  },
+  "responsive-layout.desktop#row-gray-methods": {
+    "children": ["flex-layout.row#row-gray-methods"]
   },
   "flex-layout.row#row-gray-methods": {
     "props": {
@@ -242,6 +260,9 @@
         "showPaginationDots": "always"
     }
   },*/
+  "responsive-layout.desktop#slider-circles": {
+    "children": ["flex-layout.row#slider-circles-1"]
+  },
   "flex-layout.row#slider-circles-1": {
     "children": [
       "flex-layout.col#circle-1",
@@ -941,6 +962,10 @@
     }
   },
   //BEST SELLER
+
+  "responsive-layout.desktop#best-seller": {
+    "children": ["flex-layout.row#best-seller"]
+  },
   "flex-layout.row#best-seller": {
     "children": ["rich-text#departments-title", "link#ver-tudo#home-6"],
     "props": {
@@ -973,6 +998,9 @@
       "blockClass": "ver-tudo-link"
     }
   },
+  "responsive-layout.desktop#custom-end-banner": {
+    "children": ["flex-layout.row#custom-end-banner"]
+  },
   "flex-layout.row#custom-end-banner": {
     "children": ["image#end-banner"]
   },
@@ -982,15 +1010,10 @@
     }
   },
   "flex-layout.row#custom-4-images-container": {
-    "children": [
-      "flex-layout.col#custom-4-images-container"
-    ]
+    "children": ["flex-layout.col#custom-4-images-container"]
   },
   "flex-layout.col#custom-4-images-container": {
-    "children": [
-      "rich-text#best-seller",
-      "flex-layout.row#custom-4-images"
-    ]
+    "children": ["rich-text#best-seller", "flex-layout.row#custom-4-images"]
   },
   "flex-layout.row#custom-4-images": {
     "children": [
@@ -1144,7 +1167,25 @@
       }
     }
   },
+  "responsive-layout.mobile#eletro": {
+    "children": [
+      "flex-layout.row#the-best-electronics",
+      "flex-layout.row#shelf-the-best-electronics"
+    ]
+  },
   //ROW SERVICES
+  "responsive-layout.desktop#services-home": {
+    "props": {
+      "blockClass": "services"
+    },
+    "children": ["flex-layout.row#services-1"]
+  },
+  "responsive-layout.mobile#services-home": {
+    "props": {
+      "blockClass": "services"
+    },
+    "children": ["flex-layout.row#services-1"]
+  },
   "flex-layout.row#services-1": {
     "children": [
       "flex-layout.col#service-1",
@@ -1315,6 +1356,9 @@
       "text": "Compra 100% \n segura",
       "blockClass": "subtitle-service"
     }
+  },
+  "responsive-layout.desktop#shelf-home": {
+    "children": ["tab-layout#home"]
   },
   "tab-layout#home": {
     "children": ["tab-list#home", "tab-content#home"],

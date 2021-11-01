@@ -25,7 +25,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "what is e-shopping",
-          "text": "O QUE FAZER NO MOMENTO DO RECEBIMENTO DO PRODUTO?"
+          "text": "O que fazer no momento do recebimento do produto?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description"]
@@ -39,7 +39,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "how to buy a product",
-          "text": "O QUE ACONTECE CASO NÃO TENHA NINGUÉM PARA RECEBER O PRODUTO NO MOMENTO DA ENTREGA?"
+          "text": "O que acontece caso não tenha ninguém para receber o produto no momento da entrega?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description2"]
@@ -53,7 +53,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "product disponibility",
-          "text": "QUEM PODE RECEBER O PRODUTO COMPRADO?"
+          "text": "Quem pode receber o produto comprado?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description3"]
@@ -67,7 +67,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "see products in cart",
-          "text": "EM QUE HORÁRIO SÃO REALIZADAS AS ENTREGAS DOS PRODUTOS?"
+          "text": "Em que horário são realizadas as entregas dos produtos?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description4"]
@@ -81,7 +81,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "how to do the delivery",
-          "text": "COMO COMPRAR O VALE GÁS NO GBARBOSA?"
+          "text": "Como comprar o vale gás no gbarbosa?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description5"]
@@ -95,7 +95,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "delivery price shopping",
-          "text": "COMO FAÇO PARA OFERECER UM IMÓVEL/TERRENO PARA IMPLANTAÇÃO DE UMA UNIDADE GBARBOSA?"
+          "text": "Como faço para oferecer um imóvel/terreno para implantação de uma unidade gbarbosa?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description6"]
@@ -109,7 +109,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "delivery time shopping",
-          "text": "COMO FAÇO PARA ALUGAR UM ESPAÇO PARA IMPLANTAÇÃO DE UM NEGÓCIO NAS LOJAS GBARBOSA?"
+          "text": "Como faço para alugar um espaço para implantação de um negócio nas lojas gbarbosa?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description7"]
@@ -123,7 +123,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "delivery trackback shopping",
-          "text": "POSSO OBTER INFORMAÇÕES SOBRE A DISPONIBILIDADE E PREÇO DE UM PRODUTO ATRAVÉS DO SAC?"
+          "text": "Posso obter informações sobre a disponibilidade e preço de um produto através do sac?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description8"]
@@ -137,7 +137,7 @@
           "type": "internal",
           "href": "#",
           "tagTitle": "delivery adress shopping",
-          "text": "COMO FAÇO ME TORNAR UM FORNECEDOR DO GBARBOSA?"
+          "text": "Como faço me tornar um fornecedor do gbarbosa?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description9"]

@@ -7,11 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### Fixed
+### Fix
 
+- Shelves size on mobile,
+- Home Banners
+- Home mobile layout
+- Footer mobile
+- My-account
+- Institutional pages mobile
 - search-bar icon
 
 ### Added
+
 - Our Stores page
 
 ## [0.4.0] - 2021-10-29

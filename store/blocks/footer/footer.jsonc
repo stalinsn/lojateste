@@ -312,7 +312,12 @@
 
   "flex-layout.col#footer-1-mobile": {
     "children": [
-     /*  "disclosure-layout#footer-box-menu-know",
+      "flex-layout.col#footer-desktop-pre-col",
+      "menu-item#mobilefooter-1",
+      "menu-item#mobilefooter-2",
+      "menu-item#mobilefooter-3",
+      "menu-item#mobilefooter-4"
+      /*  "disclosure-layout#footer-box-menu-know",
       "disclosure-layout#footer-box-menu-help",
       "disclosure-layout#footer-box-menu-services" */
     ],
@@ -324,7 +329,91 @@
       "rowGap": 4
     }
   },
-
+  "menu-item#mobilefooter-1": {
+    "props": {
+      "blockClass": "mobilefooter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Institucional",
+        "text": "Institucional"
+      }
+    },
+    "blocks": ["submenu.accordion#mobilefooter-1"]
+  },
+  "submenu.accordion#mobilefooter-1": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["flex-layout.col#footer-1-desktop"]
+  },
+  "menu-item#mobilefooter-2": {
+    "props": {
+      "blockClass": "mobilefooter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "GBarbosa",
+        "text": "GBarbosa"
+      }
+    },
+    "blocks": ["submenu.accordion#mobilefooter-2"]
+  },
+  "submenu.accordion#mobilefooter-2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["flex-layout.col#footer-2-desktop"]
+  },
+  "menu-item#mobilefooter-3": {
+    "props": {
+      "blockClass": "mobilefooter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Central de atendimento",
+        "text": "Central de atendimento"
+      }
+    },
+    "blocks": ["submenu.accordion#mobilefooter-3"]
+  },
+  "submenu.accordion#mobilefooter-3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["flex-layout.col#footer-6-desktop"]
+  },
+  "menu-item#mobilefooter-4": {
+    "props": {
+      "blockClass": "mobilefooter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Nossos canais",
+        "text": "Nossos canais"
+      }
+    }
+    // "blocks": ["submenu.accordion#mobilefooter-3"]
+  },
+  /* ,
+      "flex-layout.col#footer-6-desktop",
+      "flex-layout.col#footer-desktop-post-col" */
   "disclosure-layout#footer-box-menu-know": {
     "children": [
       "disclosure-trigger#simple-title-know",
