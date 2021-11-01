@@ -28,19 +28,20 @@
 }
 
 .containerNormal {
-  border-radius: 5px;
-  background-color: #fff;
-  padding: 1em;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-bottom: 0px;
-  box-shadow: 0 3px 8px 0 rgba(135, 139, 169, 0.2);
+  max-height: 350px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000014;
+  max-width: 240px!important;
+  padding: 8px;
+  height: 350px;
+  border-radius: 30px;
 
   @media screen and (min-width: em(1024px)) {
     position: relative;
   }
 
   :global(.vtex-store-components-3-x-listPrice) {
+    margin: 0;
     justify-content: center;
   }
 
@@ -59,16 +60,40 @@
 
 .container {
   :global(.vtex-button) {
-    background-color: #ed1d25;
-    //border: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 20px;
+    background-color: $primary;
     min-height: 32px !important;
     max-height: 32px !important;
+
+    &:hover {
+      background-color: $secondary;
+      border-color: $secondary;
+      color: $primary;
+    }
+
+    :global(.vtex-button__label){
+      &::after{
+        content: '+';
+        margin-left: 4px;
+      }
+    }
+  }
+
+  :global(.vtex-product-price-1-x-savings){
+    background: #525252;
+    border-radius: 13px;
+    font-size: 14px;
+    padding: 2px 6px;
+    color: #f7f7f7;
+    font-weight: bold;
+    width: auto;
   }
 
   :global(.vtex-product-summary-2-x-element) {
     justify-content: space-between;
-
-    padding-bottom: 16px;
 
     @media screen and (max-width: 767px) {
       padding-bottom: 0;
@@ -94,6 +119,10 @@
           background-repeat: no-repeat;
           background-size: cover;
         }
+      }
+
+      :global(.vtex-product-summary-2-x-imageNormal) {
+        max-height: 90px !important;
       }
     }
   }
@@ -154,11 +183,19 @@
   }
 
   @media screen and (max-width: 767px) {
+    max-width: 108px!important;
+    max-height: 184px;
+    border-radius: 15px;
+
     :global(.vtex-numeric-stepper-wrapper) {
       position: absolute;
       top: 84px;
       left: 4px;
       right: 4px;
+    }
+
+    :global(.vtex-product-price-1-x-savings){
+      font-size: 11px;
     }
 
     :global(.vtex-store-components-3-x-priceContainer) {
@@ -216,7 +253,6 @@
   :global(.vtex-store-components-3-x-priceContainer) {
     text-align: left;
     width: 100%;
-    margin-top: 25px;
 
     @media screen and (max-width: 767px) {
       margin: 0;
@@ -226,9 +262,8 @@
 
 :global(.vtex-product-summary-2-x-nameContainer) {
   border-bottom: none;
-  height: 75px;
   align-items: normal;
-  padding-top: 1px;
+  padding: 0;
 
   @media screen and (max-width: em(1024px)) {
     height: 42px;

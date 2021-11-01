@@ -483,6 +483,15 @@
   }
 }
 
+:global(.vtex-product-summary-2-x-container) {
+  .installments_value {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 8px;
+    color: #525252;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .installments_value{
     display: none;

@@ -76,11 +76,6 @@
       max-width: 170px;
     }
   }
-  :global(.vtex-product-summary-2-x-containerNormal) {
-    @media screen and (max-width: 768px) {
-      max-width: 170px !important;
-    }
-  }
 }
 .filterPopupArrowIcon {
   display: flex;
