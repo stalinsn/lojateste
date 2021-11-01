@@ -365,15 +365,16 @@
     "children": ["vtex.menu@2.x:menu#category-drawer"]
   },
   "search-bar": {
-    "title": "Header - Búsqueda",
+    "title": "Header - Busca",
     "blocks": ["autocomplete-result-list.v2#main"],
     "props": {
       "placeholder": "O que você está procurando?",
-      "blockClass": "search-mobile-walmart",
+      "blockClass": "search-mobile",
       "__unstableProductOriginVtex": true,
       "width": "grow",
       "openAutocompleteOnFocus": true,
-      "autocompleteAlignment": "left"
+      "autocompleteAlignment": "left",
+      "displayMode": "search-button"
     }
   },
   "autocomplete-result-list.v2#main": {

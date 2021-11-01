@@ -35,7 +35,7 @@
     padding: 0;
     margin-left: 0px;
   }
-  .searchBarIcon--search-mobile--clear {
+  .searchBarIcon--search-mobile-clear {
     color: #fff;
     text-align: center;
     padding: 0 0.7em;
@@ -831,8 +831,10 @@
   top: 8px;
 }
 
-:global(.vtex-store-components-3-x-searchIcon--search-mobile-walmart) {
-  display: none;
+:global(.vtex-store-components-3-x-searchIcon--search-mobile) {
+  overflow: visible;
+  width: calc(var(--letter-width) * var(--letter-count));
+  height: 18px;
 }
 
 :global(.vtex-store-components-3-x-logoImage--icon-social-fb) {
@@ -845,7 +847,7 @@
   }
 }
 
-:global(.vtex-store-components-3-x-searchBarIcon--search-mobile-walmart--search) {
+:global(.vtex-store-components-3-x-searchBarIcon--search-mobile-search) {
   @media screen and (max-width: em(1024px)) {
     background-color: #fff;
   }
