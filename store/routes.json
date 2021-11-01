@@ -107,6 +107,9 @@
   "store.custom#contact-us": {
     "path": "/central-de-atendimento/fale-conosco"
   },
+  "store.custom#stores": {
+    "path": "/lojas"
+  },
   "store.custom#departments": {
     "path": "/eletro"
   }
