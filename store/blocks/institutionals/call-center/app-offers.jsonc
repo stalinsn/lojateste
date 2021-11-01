@@ -1,7 +1,8 @@
 {
   "store.custom#gbarbosa-app": {
     "parent": {
-      "header": "header"
+      "header": "header",
+      "footer": "footer"
     },
     "blocks": ["responsive-layout.desktop#app-offers", "responsive-layout.tablet#app-offers", "responsive-layout.phone#app-offers"]
   },

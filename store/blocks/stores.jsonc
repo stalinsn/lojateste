@@ -1,0 +1,40 @@
+{
+  "store.custom#stores": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": ["responsive-layout.desktop#nossas-lojas", "responsive-layout.tablet#nossas-lojas", "responsive-layout.phone#nossas-lojas"]
+  },
+  "responsive-layout.desktop#nossas-lojas": {
+    "children": [
+      "flex-layout.row#nossas-lojas",
+      "flex-layout.row#nossas-lojas-content"
+    ]
+  },
+  "responsive-layout.tablet#nossas-lojas": {
+    "children": [
+      "flex-layout.row#nossas-lojas",
+      "flex-layout.row#nossas-lojas-content"
+    ]
+  },
+  "responsive-layout.phone#nossas-lojas": {
+    "children": [
+      "flex-layout.row#nossas-lojas",
+      "flex-layout.row#nossas-lojas-content"
+    ]
+  },
+  "flex-layout.row#nossas-lojas": {
+    "children": ["rich-text#nossas-lojas"]
+  },
+  "rich-text#nossas-lojas": {
+    "props": {
+      "text": "### Nossas lojas",
+      "blockClass": "our-stores"
+    }
+  },
+  "flex-layout.row#nossas-lojas-content": {
+    "children": [
+      "cb-stores"
+    ]
+  }
+}

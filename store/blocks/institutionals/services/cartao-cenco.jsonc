@@ -1,7 +1,8 @@
 {
   "store.custom#cartao-cenco": {
     "parent": {
-      "header": "header"
+      "header": "header",
+      "footer": "footer"
     },
     "blocks": [
       "responsive-layout.desktop#cartao-cenco",

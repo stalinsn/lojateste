@@ -19,7 +19,6 @@
   }
 }
 .socialNetworksContainer {
-  padding-left: 10px;
   .socialNetworkLink {
     margin-right: 0.5em !important;
   }
@@ -442,7 +441,7 @@
 }
 /* social media */
 .socialNetworksContainer--footer {
-  justify-content: center;
+  justify-content: flex-start;
   .socialNetworkLink {
     background-position: center !important;
     margin: 0 !important;
@@ -452,18 +451,18 @@
     }
   }
   .socialNetworkLink--facebook {
-    background: url("/arquivos/footer-facebook.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-facebook.svg") no-repeat;
   }
   .socialNetworkLink--twitter {
-    background: url("/arquivos/footer-twitter.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-twitter.svg") no-repeat;
   }
   .socialNetworkLink--youtube {
-    background: url("/arquivos/footer-youtube.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-youtube.svg") no-repeat;
   }
   .socialNetworkLink--instagram {
-    background: url("/arquivos/footer-instagram.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-instagram.svg") no-repeat;
   }
   .socialNetworkLink--linkedin {
-    background: url("/arquivos/footer-linkedin.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-linkedin.svg") no-repeat;
   }
 }
