@@ -2099,6 +2099,9 @@
   @media (max-width: em(768px)) {
     padding-top: 0px;
     background-color: #fafafa !important;
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+    }
   }
 }
 .flexRow--main-header-mobile {

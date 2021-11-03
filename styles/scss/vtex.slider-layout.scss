@@ -228,6 +228,9 @@
   @media screen and (max-width: em(1024px)) {
     margin-bottom: 0px;
   }
+  @media (max-width: 768px) {
+    margin-top: 10px;
+  }
 }
 
 .imageElementLink--carousel-brand {
