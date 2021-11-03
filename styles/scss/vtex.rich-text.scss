@@ -36,6 +36,7 @@
   font-size: 24px;
   color: #525252;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .paragraph--copyright-footer {
@@ -1646,7 +1647,9 @@
   margin: 0 0 32px;
   font-size: 24px;
 }
-
+.heading--gbarbosa-app {
+  color: #525252;
+}
 .paragraph--gbarbosa-app {
   font-size: 14px;
 }
@@ -1655,13 +1658,16 @@
   color: #898989;
   font-size: 13px;
 }
-
+.wrapper--link-active {
+  padding: 10px 0;
+}
 .paragraph--call-center-link {
   margin: 12px 0;
   padding: 0 12px;
 
   .link--call-center-link {
     text-decoration: none;
+    color: #525252;
 
     .strong--call-center-link {
       color: #ed1d25;
@@ -3140,7 +3146,7 @@
 .container--our-stores {
   padding: 0 18px;
 
-  .heading--our-stores{
+  .heading--our-stores {
     font-size: 24px;
     line-height: 33px;
     letter-spacing: -0.58px;
@@ -3232,3 +3238,8 @@
   }
 }
 /* Deparment page end */
+
+.heading--payment-methods-title {
+  font-weight: bold;
+  color: #525252;
+}

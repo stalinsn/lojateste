@@ -43,13 +43,25 @@
   font-weight: 700;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: url(assets/fonts/OpenSans-ExtraBoldItalic.ttf);
+  font-family: "BOGLE";
+  src: url(assets/fonts/BOGLEREGULAR.OTF);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "BOGLE";
+  src: url(assets/fonts/BOGLEBLACKITALIC.OTF);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "BOGLE";
+  src: url(assets/fonts/BOGLEBOLDITALIC.OTF);
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: url(assets/fonts/OpenSans-ExtraBold.ttf);
+  font-family: "BOGLE";
+  src: url(assets/fonts/BOGLEBOLD.OTF);
   font-weight: 700;
-}
+  font-style: bold;
+}   
