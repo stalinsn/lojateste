@@ -9,8 +9,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.5.2] - 2021-11-04
 
-## [0.5.1] - 2021-11-04
+### Fixed
 
+- Remove personal component
+
+## [0.5.1] - 2021-11-04
 
 ### Fix
 
