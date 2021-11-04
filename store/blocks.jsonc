@@ -64,7 +64,7 @@
   "flex-layout.col#product-price": {
     "children": [
       "price-custom",
-      "personal-price",
+      // "personal-price",
       "max-installments"
     ],
     "props": {
