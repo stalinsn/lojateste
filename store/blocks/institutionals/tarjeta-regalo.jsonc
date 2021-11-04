@@ -44,7 +44,7 @@
   },
   "image#tarjeta-regalo-banner-top-mobile": {
     "props": {
-      "src": "/arquivos/regalo_desktop.jpg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/regalo_desktop.jpg"
     }
   },
 
@@ -78,7 +78,7 @@
   },
   "image#tarjeta-regalo-banner-top": {
     "props": {
-      "src": "/arquivos/banner_regalo_desktop.jpg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_regalo_desktop.jpg"
     }
   },
 
@@ -141,7 +141,7 @@
   },
   "image#tarjeta-regalo-item1": {
     "props": {
-      "src": "/arquivos/icon_beneficios.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_beneficios.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -186,7 +186,7 @@
   },
   "image#tarjeta-regalo-item2": {
     "props": {
-      "src": "/arquivos/icon_cuotas.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -231,7 +231,7 @@
   },
   "image#tarjeta-regalo-item3": {
     "props": {
-      "src": "/arquivos/icon_cuotas.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -276,7 +276,7 @@
   },
   "image#tarjeta-regalo-item4": {
     "props": {
-      "src": "/arquivos/icon_cuotas.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -312,7 +312,7 @@
   },
   "image#tarjeta-regalo-card": {
     "props": {
-      "src": "/arquivos/regalo_card.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/regalo_card.png",
       "blockClass": "tarjeta-de-regalo-card"
     }
   },
@@ -339,7 +339,7 @@
   },
   "image#tarjeta-regalo-especial1": {
     "props": {
-      "src": "/arquivos/vineta.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/vineta.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -384,7 +384,7 @@
   },
   "image#tarjeta-regalo-especial2": {
     "props": {
-      "src": "/arquivos/vineta.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/vineta.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -468,7 +468,7 @@
   },
   "image#tarjeta-regalo-linea3-item1": {
     "props": {
-      "src": "/arquivos/icon_beneficios.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_beneficios.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -513,7 +513,7 @@
   },
   "image#tarjeta-regalo-linea3-item3": {
     "props": {
-      "src": "/arquivos/icon_cuotas.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -531,7 +531,7 @@
   },
   "rich-text#tarjeta-regalo-linea3-item3-linea2": {
     "props": {
-      "text": "Para compras mayores a $3,000, comunícate al <span class='vtex-rich-text-0-x-paragraph--textoazul'>(506) 2582-8762</span> o envía tu solicitud a <span class='vtex-rich-text-0-x-paragraph--textoazul'>ventascr@walmart.com</span>. \n\n La vigencia es de un año a partir de su activación o última compra. Ver restricciones al dorso del plástico.",
+      "text": "Para compras mayores a $3,000, comunícate al <span class='vtex-rich-text-0-x-paragraph--textoazul'>(506) 2582-8762</span> o envía tu solicitud a <span class='vtex-rich-text-0-x-paragraph--textoazul'>ventascr@.com</span>. \n\n La vigencia es de un año a partir de su activación o última compra. Ver restricciones al dorso del plástico.",
       "blockClass": "como-comprar-white-text"
     }
   },
@@ -558,7 +558,7 @@
   },
   "image#tarjeta-regalo-linea3-item4": {
     "props": {
-      "src": "/arquivos/icon_cuotas.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas.svg",
       "blockClass": "tarjeta-regalo-item-icono"
     }
   },
@@ -593,7 +593,7 @@
   },
   "image#tarjeta-regalo-linea3-card": {
     "props": {
-      "src": "/arquivos/regalo_card.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/regalo_card.png",
       "blockClass": [
         "tarjeta-de-regalo-card",
         "tarjeta-de-regalo-card-margin-bottom"

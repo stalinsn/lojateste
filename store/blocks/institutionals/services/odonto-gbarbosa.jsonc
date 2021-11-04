@@ -62,7 +62,7 @@
   "image#gbarbosa-odonto-background": {
     "title": "Imagem de fundo",
     "props": {
-      "src": "/arquivos/background-family-smiling.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/background-family-smiling.jpg",
       "blockClass": "gbarbosa-odonto-background"
     }
   },
@@ -124,7 +124,7 @@
   "image#gbarbosa-odonto-brand-1": {
     "title": "Logo 1",
     "props": {
-      "src": "/arquivos/gbarbosa-odontoprev.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-odontoprev.png",
       "maxHeight": 60,
       "blockClass": ["gbarbosa-odonto-brands"]
     }
@@ -132,7 +132,7 @@
   "image#gbarbosa-odonto-brand-2": {
     "title": "Logo 2",
     "props": {
-      "src": "/arquivos/gbarbosa-bradesco.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-bradesco.png",
       "maxHeight": 60,
       "blockClass": ["gbarbosa-odonto-brands"]
     }

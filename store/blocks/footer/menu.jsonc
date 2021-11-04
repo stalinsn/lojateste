@@ -270,7 +270,7 @@
     "props": {
       "title": "Facebook",
       "href": "/",
-      "url": "/arquivos/fb.svg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/fb.svg",
       "maxWidth": "50%",
       "blockClass": "icon-social-fb"
     }
@@ -279,7 +279,7 @@
     "props": {
       "title": "Youtube",
       "href": "/",
-      "url": "/arquivos/youtube.svg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/youtube.svg",
       "maxWidth": "50%",
       "blockClass": "icon-social-fb"
     }

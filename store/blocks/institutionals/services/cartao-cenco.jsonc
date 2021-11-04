@@ -115,7 +115,7 @@
 
   "image#cencon-card": {
     "props": {
-      "src": "/arquivos/cartao-cencosud.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cartao-cencosud.png"
     }
   },
   "flex-layout.row#cartao-cenco-section-2": {
@@ -150,7 +150,7 @@
   },
   "image#cencon-card-2": {
     "props": {
-      "src": "/arquivos/cartao-cencosud-gbarbosa.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cartao-cencosud-gbarbosa.png"
     }
   },
 
@@ -196,12 +196,12 @@
   },
   "image#cencon-card-phone": {
     "props": {
-      "src": "/arquivos/cartao-cencosud-phone.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cartao-cencosud-phone.png"
     }
   },
   "image#cencon-card-phone-mobile": {
     "props": {
-      "src": "/arquivos/cartao-cencosud-phone-mobie.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cartao-cencosud-phone-mobie.png"
     }
   },
   "flex-layout.row#cartao-cenco-container3": {
@@ -224,7 +224,7 @@
   },
   "image#cartao-cencosud-benefit-1": {
     "props": {
-      "src": "/arquivos/cencosud-benefit-cinemark.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cencosud-benefit-cinemark.png"
     }
   },
   "rich-text#cartao-cencosud-benefit-1": {
@@ -243,7 +243,7 @@
   },
   "image#cartao-cencosud-benefit-2": {
     "props": {
-      "src": "/arquivos/cencosud-benefit-tag.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cencosud-benefit-tag.png"
     }
   },
   "rich-text#cartao-cencosud-benefit-2": {
@@ -262,7 +262,7 @@
   },
   "image#cartao-cencosud-benefit-3": {
     "props": {
-      "src": "/arquivos/cencosud-benefit-pagamento-24x.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cencosud-benefit-pagamento-24x.png"
     }
   },
   "rich-text#cartao-cencosud-benefit-3": {
@@ -279,7 +279,7 @@
   },
   "info-card#cencosud-card": {
     "props": {
-      "imageUrl": "/arquivos/card.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card.jpg",
       "headline": "Seja bem-vindo ao mundo de vantagens do seu cartão Cenconsud/GBarbosa Gold",
       "callToActionText": "Baixe o guia de benefícios",
       "callToActionUrl": "/servicos/garantia-extendida",

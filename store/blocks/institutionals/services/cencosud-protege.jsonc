@@ -70,13 +70,13 @@
   },
   "image#cencosud-protege-tags": {
     "props": {
-      "src": "/arquivos/gbarbosa-badges.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-badges.png",
       "blockClass": "cencosud-protege-tags"
     }
   },
   "image#cencosud-protege-background": {
     "props": {
-      "src": "/arquivos/gbarbosa-cencosud-protege-background.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-cencosud-protege-background.jpg",
       "blockClass": "cenconsud-protege-background"
     }
   },
@@ -115,7 +115,7 @@
   },
   "image#cencosud-protege-section-2": {
     "props": {
-      "src": "/arquivos/gbarbosa-cencosud-protege-phone.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-cencosud-protege-phone.png",
       "maxHeight": 370
     }
   },
@@ -189,7 +189,7 @@
   },
   "image#cencosud-protege-section-5": {
     "props": {
-      "src": "/arquivos/gbarbosa-man-repairing-a-phone.jpg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-man-repairing-a-phone.jpg"
     }
   },
   "flex-layout.row#cencosud-protege-section-6": {

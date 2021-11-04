@@ -87,7 +87,7 @@
       right: 0;
     }
     &::before {
-      content: url(/arquivos/tab_home_arrow.svg);
+      content: url(https://gbarbosa.vteximg.com.br/arquivos/tab_home_arrow.svg);
       display: block;
 
       position: relative;
@@ -103,7 +103,7 @@
       top: -9px;
     }
     &::before {
-      content: url(/arquivos/tab_home_arrow.svg);
+      content: url(https://gbarbosa.vteximg.com.br/arquivos/tab_home_arrow.svg);
       display: block;
       position: relative;
       transform: rotate(180deg);
@@ -228,7 +228,7 @@
   background-color: #ff9e19;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--row-walmart) {
+:global(.vtex-flex-layout-0-x-flexRow--row-) {
   .sliderLeftArrow {
     background-color: #cccccc94 !important;
     padding-top: 3px;

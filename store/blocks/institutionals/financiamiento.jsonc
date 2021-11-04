@@ -23,7 +23,7 @@
   },
   "image#financiamiento-banner-top-mobile": {
     "props": {
-      "src": "/arquivos/banner_creditom.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_creditom.png",
       "blockClass": "financiamiento-img-banner-mob"
     }
   },
@@ -57,7 +57,7 @@
   },
   "image#financiamiento-banner-top": {
     "props": {
-      "src": "/arquivos/credito_banner.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/credito_banner.png"
     }
   },
 
@@ -114,7 +114,7 @@
   },
   "image#financiamiento-item1": {
     "props": {
-      "src": "/arquivos/icon_articulos.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_articulos.svg",
       "blockClass": "financiamiento-item-icono"
     }
   },
@@ -165,7 +165,7 @@
   },
   "image#financiamiento-item7": {
     "props": {
-      "src": "/arquivos/icon_solicitar_credito.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_solicitar_credito.svg",
       "blockClass": "financiamiento-item-icono"
     }
   },
@@ -218,7 +218,7 @@
   },
   "image#financiamiento-requisito": {
     "props": {
-      "src": "/arquivos/icon_requisitos.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_requisitos.svg",
       "blockClass": "financiamiento-item-icono"
     }
   },

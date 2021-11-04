@@ -56,7 +56,7 @@
   "info-card#recarga-celular-section-1": {
     "title": "Infocard - seção 1",
     "props": {
-      "imageUrl": "/arquivos/gbarbosa-hand-using-phone.png",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-hand-using-phone.png",
       "headline": "Recarga de celular",
       "subhead": "Não fique sem falar. Recarregue seu celular no caixa da loja e ainda parcele no cartão (verifique nas lojas as condições de parcelamento).",
       "callToActionMode": "none",
@@ -83,7 +83,7 @@
   "image#recarga-celular": {
     "title": "Imagem central",
     "props": {
-      "src": "/arquivos/gbarbosa-recarga-celular.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-recarga-celular.png"
     }
   }
 }
