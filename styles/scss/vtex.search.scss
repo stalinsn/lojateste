@@ -102,6 +102,9 @@
       :global(.vtex-product-summary-2-x-containerNormal){
         height: auto!important;
         max-width: inherit !important;
+        border: 1px solid #DEDEDE;
+        border-radius: 4px;
+        box-shadow: none;
 
         :global(.vtex-product-summary-2-x-element) {
           :global(.vtex-button) {
@@ -211,6 +214,10 @@
 
     @media screen and (max-width: 767px) {
       max-height: 508px;
+
+      :global(.vtex-product-summary-2-x-image){
+        max-width: 54px!important;
+      }
     }
   }
 }

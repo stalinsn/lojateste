@@ -268,7 +268,6 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
@@ -1130,7 +1129,7 @@
 
     :global(.vtex-store-components-3-x-sellingPriceContainer) {
       :global(.vtex-store-components-3-x-currencyContainer--summary) {
-        font-size: 24px;
+        font-size: 23px;
         font-weight: 600;
         @media screen and (max-width: 40em) {
           font-size: 24px !important;
@@ -1290,22 +1289,8 @@
 }
 
 .flexRow--savings-porcentaje {
-  //top: 0;
-  //right: 0;
-  position: absolute;
-  z-index: 2;
-  top: -7px;
-  left: 0;
 
   :global(.vtex-product-price-1-x-savings) {
-    background-color: #2faf00;
-    color: #f7f7f7;
-    font-size: 13px;
-    display: flex;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 16px;
-
     :first-child {
       margin: 0 0.2em;
     }
@@ -1559,7 +1544,7 @@
 :global(.vtex-product-summary-2-x-brandName) {
   text-transform: capitalize !important;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 400;
   color: #525252;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -1569,7 +1554,7 @@
   font-family: OpenSans;
 
   @media screen and (max-width: 767px) {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
   }
 }
@@ -1619,9 +1604,9 @@
 
 :global(.vtex-store-components-3-x-sellingPriceValue) {
   :global(.vtex-store-components-3-x-currencyContainer--summary) {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: bold;
-    color: #525252;
+    color: $primary;
 
     @media screen and (max-width: 767px) {
       font-size: 16px;
@@ -1633,13 +1618,6 @@
 :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
   width: 100%;
   padding: 0;
-}
-
-:global(.vtex-store-components-3-x-price_listPriceContainer--summary) {
-  :global(.vtex-store-components-3-x-price_listPrice--summary) {
-    font-size: 14px !important;
-    font-weight: bold;
-  }
 }
 
 :global(.vtex-shelf-1-x-dot--isActive) {
@@ -2100,7 +2078,13 @@
   @media (max-width: em(768px)) {
     padding-top: 0px;
     background-color: #fafafa !important;
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+    }
   }
+}
+.flexRow--main-header-mobile {
+  background-color: #ED1D25 !important;
 }
 .flexCol--search-bar {
   padding-bottom: 10px;

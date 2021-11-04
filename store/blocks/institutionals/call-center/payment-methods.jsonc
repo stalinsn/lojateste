@@ -96,7 +96,8 @@
   },
   "rich-text#payment-methods-title": {
     "props": {
-      "text": "#### Formas de pagamento"
+      "text": "#### Formas de pagamento",
+      "blockClass": "payment-methods-title"
     }
   },
   "flex-layout.row#payment-methods-content": {
