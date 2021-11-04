@@ -438,10 +438,13 @@
 
   "flex-layout.row#footer-mobile-1": {
     "title": "Footer - Copyright",
-    "children": ["flex-layout.col#footer-3-mobile-1"]
+    "children": ["flex-layout.col#footer-3-mobile-1"],
+    "props": {
+      "fullWidth": true
+    }
   },
   "flex-layout.col#footer-3-mobile-1": {
-    "children": ["rich-text#copyright-footer-mobile"],
+    "children": ["rich-text#copyright-footer-mobile", "flex-layout.row#footer-mobile-2"],
     "props": {
       "blockClass": "copyright-row-mobile"
     }
@@ -451,15 +454,16 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© 2021 Copyright. Todos los derechos reservados Masxmenos Centroamérica.",
+      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "copyright-footer"
     }
   },
+  
 
   "flex-layout.row#footer-mobile-2": {
     "title": "Footer - Copyright",
     "children": [
-      "flex-layout.col#footer-mobile-2-1"
+      "flex-layout.row#footer-mobile-2-1"
       /*"flex-layout.col#footer-mobile-2-2",
       "flex-layout.col#footer-mobile-2-3"*/
     ],
@@ -467,14 +471,15 @@
       "blockClass": "row-end-mobile"
     }
   },
-  "flex-layout.col#footer-mobile-2-1": {
+  "flex-layout.row#footer-mobile-2-1": {
     "children": [
       "rich-text#footer-mobile-2",
       "image#logo-footer-mobile-1",
       "image#logo-footer-mobile-2"
     ],
     "props": {
-      "blockClass": "power-row-mobile"
+      "blockClass": "power-row-mobile",
+      "colSizing": "auto"
     }
   },
   "rich-text#footer-mobile-2": {
@@ -512,7 +517,7 @@
     "title": "Footer - Logo",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/vtex-1.svg",
-      "blockClass": "logo-footer-corebiz-mobile"
+      "blockClass": ["logo-footer-corebiz-mobile", "vtex-footer-logo"]
     }
   },
 

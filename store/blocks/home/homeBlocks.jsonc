@@ -65,7 +65,7 @@
   "flex-layout.col#col-2-images-1": {
     "children": ["image#col-2-images-1"],
     "props": {
-      "blockClass": "col-banner"
+      "blockClass": ["col-banner", "main-banner-land"]
     }
   },
   "image#col-2-images-1": {
@@ -80,7 +80,7 @@
       "responsive-layout.mobile#col-2-images-2-mobile"
     ],
     "props": {
-      "blockClass": "col-banner"
+      "blockClass": ["col-banner", "main-banner-land"]
     }
   },
   "responsive-layout.desktop#col-2-images-2": {
