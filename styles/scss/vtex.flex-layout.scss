@@ -430,6 +430,23 @@
       justify-content: center !important;
     }
   }
+  @media screen and  (max-width:768px){
+    margin-top: 0;
+    display: flex;
+    &::before {
+      content: "Segurança:";
+      font-weight: 600;
+      color: #fff;
+    }
+    .flexRowContent--footer-social-bottom {
+      justify-content: flex-start;
+      .stretchChildrenWidth {
+        width: auto !important;
+        margin-right: 40px;
+        margin-left: 30px;
+      }
+    }
+  } 
 }
 .flexColChild--footer-logo {
   margin: 0 auto;

@@ -441,7 +441,10 @@
 }
 /* social media */
 .socialNetworksContainer--footer {
-  justify-content: flex-start;
+  justify-content: flex-start !important;
+  @media screen and (max-width: 768px) {
+    margin-left: 30px;
+  }
   .socialNetworkLink {
     background-position: center !important;
     margin: 0 !important;
@@ -451,18 +454,18 @@
     }
   }
   .socialNetworkLink--facebook {
-    background: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-facebook.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-facebook.svg") no-repeat;
   }
   .socialNetworkLink--twitter {
-    background: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-twitter.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-twitter.svg") no-repeat;
   }
   .socialNetworkLink--youtube {
-    background: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-youtube.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-youtube.svg") no-repeat;
   }
   .socialNetworkLink--instagram {
-    background: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-instagram.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-instagram.svg?v=2") no-repeat;
   }
   .socialNetworkLink--linkedin {
-    background: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-linkedin.svg") no-repeat;
+    background: url("/arquivos/gbarbosa-linkedin.svg") no-repeat;
   }
 }

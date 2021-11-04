@@ -131,7 +131,7 @@
   "rich-text#store-footer-sac": {
     "props": {
       "text": "Nossos canais",
-      "blockClass": ["title-menu-footer", "social-media"]
+      "blockClass": ["title-menu-footer", "social-networks"]
     }
   },
   "flex-layout.row#footer-social-links": {
@@ -316,7 +316,8 @@
       "menu-item#mobilefooter-1",
       "menu-item#mobilefooter-2",
       "menu-item#mobilefooter-3",
-      "menu-item#mobilefooter-4"
+      "menu-item#mobilefooter-4",
+      "flex-layout.col#footer-desktop-post-col"
       /*  "disclosure-layout#footer-box-menu-know",
       "disclosure-layout#footer-box-menu-help",
       "disclosure-layout#footer-box-menu-services" */
