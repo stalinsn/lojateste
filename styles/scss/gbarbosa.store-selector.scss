@@ -1,4 +1,6 @@
 .openButton {
+  visibility: hidden;
+  pointer-events: none;
   @media (max-width: 48em) {
     padding-right: 0 !important;
     margin: 10px;
