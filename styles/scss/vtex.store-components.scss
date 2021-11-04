@@ -731,6 +731,8 @@
     }
   }
 
+
+
   :global(.vtex-product-summary-2-x-price_sellingPrice) {
     color: #000 !important;
     font-weight: bold;
@@ -743,6 +745,16 @@
   :global(.vtex-flex-layout-0-x-flexCol--price-express) {
     border-right: 1px solid #e2251b;
     margin-right: 10px;
+  }
+}
+
+.listPriceValue {
+  padding: 0;
+
+  .currencyContainer {
+    font-size: 9px;
+    line-height: 8px;
+    color: #525252;
   }
 }
 

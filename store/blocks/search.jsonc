@@ -149,7 +149,7 @@
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
-        "phone": 2
+        "phone": 3
       },
       "infinite": false,
       "showNavigationArrows": "DesktopOnly",
@@ -267,7 +267,7 @@
           "itemsPerRow": {
             "desktop": 4,
             "tablet": 3,
-            "mobile": 2
+            "mobile": 3
           }
         },
         {
