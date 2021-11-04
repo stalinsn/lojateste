@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Header mobile
 - OpenSans bold
+- Shelfs style
 
 ## [0.5.0] - 2021-11-01
 

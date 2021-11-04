@@ -64,39 +64,12 @@
   }
 }
 
-.sliderLayoutContainer {
-  .caretIcon {
-    color: #333;
-  }
-
-  .sliderLeftArrow {
-    /*&::before {
-      content: "";
-      @include arrow_left(14px);
-    }*/
-  }
-
-  .sliderRightArrow {
-    /*&::before {
-      content: "";
-      @include arrow_right(14px);
-    }*/
-  }
-}
-
 .sliderLayoutContainer--main-slider-home2 {
   padding: 20px 0;
   .sliderTrack--main-slider-home2 {
     padding: 5px 0;
     .slide--main-slider-home2 {
-      background: #fff;
-      max-width: 240px;
       padding: 8px;
-      box-shadow: 0 3px 8px 0 rgb(0 0 0 / 8%);
-      @media screen and (max-width: 768px) {
-        max-width: 170px;
-        width: 112px !important;
-      }
     }
   }
 }
@@ -141,20 +114,6 @@
   }
 }
 
-.slideChildrenContainer {
-  :global(.vtex-product-summary-2-x-containerNormal) {
-    box-shadow: none;
-    background: #fff;
-    height: 420px;
-    padding: 0 !important;
-    :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
-      text-align: left !important;
-      &::after {
-        margin-top: 0 !important;
-      }
-    }
-  }
-}
 
 :global(.vtex-shelf-1-x-slide) {
   :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
@@ -295,10 +254,6 @@
     width: 16px;
     font-weight: bold;
   }
-}
-
-:global(.vtex-product-summary-2-x-imageNormal) {
-  max-height: 144px !important;
 }
 
 .sliderTrackContainer--parrillero-banner {
