@@ -135,7 +135,7 @@
       "stack-layout#prodsum",
       // "product-rating-inline",
       "product-summary-name",
-      "product-summary-brand",
+      // "product-summary-brand",
       //"product-summary-price",
       "price-custom",
       // "global-promo#2x",
