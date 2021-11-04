@@ -52,7 +52,7 @@
       "price-custom",
       // "global-promo#2x",
       // "global-promo#3x",
-      "personal-price",
+      //"personal-price",
       "max-installments",
       //"product-summary-space",
       "quantity-selector-custom"
@@ -87,8 +87,8 @@
     "children": [
       "product-summary-name",
       "product-summary-brand",
-      "price-custom",
-      "personal-price"
+      "price-custom"
+      //"personal-price"
     ],
     "props": {
       "width": "grow"
@@ -108,8 +108,8 @@
     "children": [
       "product-summary-image#shelf-list",
       "vtex.product-highlights@2.x:product-highlights",
-      "flex-layout.row#savings",
-      "personal-flag"
+      "flex-layout.row#savings"
+      //"personal-flag"
     ]
   },
   "product-summary-image#shelf-list": {
@@ -129,7 +129,7 @@
       "price-custom",
       // "global-promo#2x",
       // "global-promo#3x",
-      "personal-price",
+      //"personal-price",
       "max-installments",
 
       //"product-summary-space",
@@ -195,8 +195,8 @@
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#savings",
-      "flex-layout.row#add-wishlist",
-      "personal-flag"
+      "flex-layout.row#add-wishlist"
+      //"personal-flag"
     ]
   },
   "flex-layout.row#add-wishlist": {
@@ -277,4 +277,3 @@
     }
   }*/
 }
-    
