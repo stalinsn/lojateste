@@ -440,6 +440,8 @@
     }
     .flexRowContent--footer-social-bottom {
       justify-content: flex-start;
+      width: auto !important;
+      overflow: hidden;
       .stretchChildrenWidth {
         width: auto !important;
         margin-right: 40px;
