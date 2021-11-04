@@ -130,6 +130,11 @@
     height: 32px;
     margin: 0;
   }
+  @media (max-width: 768px) {
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: -50px !important;
+  }
 }
 
 .specificationsTitle,
@@ -999,18 +1004,18 @@
 
 .infoCardContainer--services-cards {
   flex-direction: column-reverse;
-  width: 290px!important;
-  background: #FFFFFF;
+  width: 290px !important;
+  background: #ffffff;
   box-shadow: 0px 3px 6px #00000014;
   border-radius: 5px;
   margin-bottom: 42px;
 
-  .infoCardTextContainer--services-cards{
+  .infoCardTextContainer--services-cards {
     width: 100%;
 
-    .infoCardHeadline--services-cards{
+    .infoCardHeadline--services-cards {
       font-size: 24px;
-      color: #ED1D25;
+      color: #ed1d25;
     }
 
     .infoCardSubhead--services-cards {
@@ -1023,10 +1028,10 @@
 
       :global(.vtex-button) {
         width: 100%;
-        background: #F4F4F4;
-        border-color: #F4F4F4;
+        background: #f4f4f4;
+        border-color: #f4f4f4;
         border-radius: 4px;
-        color: #ED1D25;
+        color: #ed1d25;
         font-size: 16px;
         font-weight: 700;
       }
@@ -1045,11 +1050,11 @@
 }
 
 // INSTITUTIONALS - CENCOSUD CARD
-.infoCardContainer--cencosud-card-benefits{
+.infoCardContainer--cencosud-card-benefits {
   padding: 0;
-  background: #ED1D25;
+  background: #ed1d25;
 
-  .infoCardTextContainer--cencosud-card-benefits{
+  .infoCardTextContainer--cencosud-card-benefits {
     max-width: 300px;
     margin: 0 auto;
 
@@ -1060,15 +1065,15 @@
     }
 
     .infoCardCallActionContainer--cencosud-card-benefits {
-      :global(.vtex-button){
+      :global(.vtex-button) {
         font-size: 16px;
-        background: #FFD500;
-        border-color: #FFD500;
+        background: #ffd500;
+        border-color: #ffd500;
       }
     }
   }
 
-  .infoCardImageContainer--cencosud-card-benefits{
+  .infoCardImageContainer--cencosud-card-benefits {
     width: 60%;
 
     .infoCardImage--cencosud-card-benefits {
@@ -1078,14 +1083,14 @@
 }
 
 // INSTITUTIONALS - GBARBOSA ODONTO
-.imageElement--gbarbosa-odonto-background{
+.imageElement--gbarbosa-odonto-background {
   height: 100%;
 }
 
 @media screen and (max-width: 767px) {
-  .infoCardContainer--cencosud-card-benefits{
-    .infoCardImageContainer--cencosud-card-benefits{
-      width: auto
+  .infoCardContainer--cencosud-card-benefits {
+    .infoCardImageContainer--cencosud-card-benefits {
+      width: auto;
     }
   }
 }
@@ -1101,12 +1106,12 @@
 .infoCardContainer--vale-gas-section-1 {
   height: 349px;
 
-  .infoCardTextContainer--vale-gas-section-1{
+  .infoCardTextContainer--vale-gas-section-1 {
     max-width: 273px;
 
     .infoCardHeadline--vale-gas-section-1 {
       letter-spacing: -1.01px;
-      color: #F4F4F4;
+      color: #f4f4f4;
       font-size: 42px;
       margin: 0;
     }
@@ -1114,16 +1119,16 @@
     .infoCardSubhead--vale-gas-section-1 {
       margin: 0;
       font-size: 26px;
-      color: #FAFAFA;
+      color: #fafafa;
     }
   }
 }
 
-.infoCardContainer--vale-gas-section-2{
+.infoCardContainer--vale-gas-section-2 {
   background: $secondary;
   padding: 0;
 
-  .infoCardTextContainer--vale-gas-section-2{
+  .infoCardTextContainer--vale-gas-section-2 {
     max-width: 440px;
     margin: 0 auto;
 
@@ -1137,15 +1142,14 @@
       letter-spacing: -0.29px;
       font-size: 18px;
     }
-
   }
 
-  .infoCardImage--vale-gas-section-2{
+  .infoCardImage--vale-gas-section-2 {
     display: flex;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .infoCardTextContainer--vale-gas-section-1 {
     max-width: initial;
     margin: 0 auto;
@@ -1159,12 +1163,12 @@
     }
   }
 
-  .infoCardContainer--vale-gas-section-2{
-    .infoCardTextContainer--vale-gas-section-2{
+  .infoCardContainer--vale-gas-section-2 {
+    .infoCardTextContainer--vale-gas-section-2 {
       max-width: 324px;
       padding: 16px 0 115px;
 
-      .infoCardHeadline--vale-gas-section-2{
+      .infoCardHeadline--vale-gas-section-2 {
         text-align: center;
         width: 100%;
         font-size: 28px;
@@ -1183,43 +1187,43 @@
 }
 
 //INSTITUTIONALS - RECARGA CELULAR
-.infoCardContainer--recarga-celular-section-1{
+.infoCardContainer--recarga-celular-section-1 {
   background: transparent;
   padding: 0;
 
-  .infoCardTextContainer--recarga-celular-section-1{
+  .infoCardTextContainer--recarga-celular-section-1 {
     max-width: 530px;
     margin: 0 auto;
 
-    .infoCardHeadline--recarga-celular-section-1{
+    .infoCardHeadline--recarga-celular-section-1 {
       margin: 0;
       font-size: 42px;
-      color: #FDBB30;
+      color: #fdbb30;
       line-height: 57px;
       letter-spacing: -1.01px;
     }
 
-    .infoCardSubhead--recarga-celular-section-1{
+    .infoCardSubhead--recarga-celular-section-1 {
       font-size: 20px;
-      color: #FAFAFA;
+      color: #fafafa;
       line-height: 27px;
     }
   }
 }
 
 @media screen and (max-width: 767px) {
-  .infoCardContainer--recarga-celular-section-1{
-    .infoCardTextContainer--recarga-celular-section-1{
+  .infoCardContainer--recarga-celular-section-1 {
+    .infoCardTextContainer--recarga-celular-section-1 {
       align-items: center;
       padding: 0 24px;
 
-      .infoCardHeadline--recarga-celular-section-1{
+      .infoCardHeadline--recarga-celular-section-1 {
         font-size: 35px;
         line-height: 47px;
         letter-spacing: -0.84px;
       }
 
-      .infoCardSubhead--recarga-celular-section-1{
+      .infoCardSubhead--recarga-celular-section-1 {
         font-size: 18px;
         line-height: 24px;
         letter-spacing: 0;
@@ -1228,7 +1232,7 @@
       }
     }
 
-    .infoCardImage--recarga-celular-section-1{
+    .infoCardImage--recarga-celular-section-1 {
       display: flex;
       border-radius: 0 0 30px 30px;
     }
@@ -1236,7 +1240,7 @@
 }
 
 // INSTITUTIONALS - TROCA CEL
-.infoCardHeadline--troca-cel-section-1{
+.infoCardHeadline--troca-cel-section-1 {
   color: $white;
   margin: 0;
   font-size: 42px;
@@ -1255,10 +1259,10 @@
   .infoCardContainer--troca-cel-section-1 {
     height: 350px;
 
-    .infoCardTextContainer--troca-cel-section-1{
+    .infoCardTextContainer--troca-cel-section-1 {
       margin-left: 32px;
 
-      .infoCardHeadline--troca-cel-section-1{
+      .infoCardHeadline--troca-cel-section-1 {
         font-size: 27px;
         line-height: 37px;
         letter-spacing: -0.65px;

@@ -28,9 +28,7 @@
     ]
   },
   "flex-layout.row#services-title": {
-    "children": [
-      "rich-text#services-title"
-    ]
+    "children": ["rich-text#services-title"]
   },
   "flex-layout.row#services-cards": {
     "children": [
@@ -55,7 +53,8 @@
   "rich-text#services-title": {
     "props": {
       "text": "#### Serviços",
-      "textColor": "c-on-base"
+      "textColor": "c-on-base",
+      "blockClass": "services-title"
     }
   },
   "info-card#service-1": {
