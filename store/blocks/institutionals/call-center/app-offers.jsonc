@@ -104,13 +104,13 @@
   },
   "image#app-gbarbosa": {
     "props": {
-      "src": "/arquivos/gbarbosa-app.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-app.png",
       "maxHeight": 420
     }
   },
   "image#app-store": {
     "props": {
-      "src": "/arquivos/gbarbosa-app-store.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-app-store.png",
       "maxHeight": 54,
       "link": {
         "url": "https://apps.apple.com/br/app/gbarbosa/id1513424696",
@@ -120,7 +120,7 @@
   },
   "image#play-store": {
     "props": {
-      "src": "/arquivos/gbarbosa-play-store.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-play-store.png",
       "maxHeight": 54,
       "link": {
         "url": "https://play.google.com/store/apps/details?id=br.com.cencosud.gbarbosa",

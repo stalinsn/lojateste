@@ -4,7 +4,7 @@
     "children": ["list-context.image-list#main-slider"],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart"]
+      "blockClass": ["row-"]
     }
   },
   "list-context.image-list#main-slider": {
@@ -14,22 +14,22 @@
       "width": "100%",
       "images": [
         {
-          "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_mobile.png",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_mobile.png",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_mobile.png",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_mobile.png",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_mobile.png",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_mobile.png",
           "link": {
             "url": "/test"
           }
@@ -70,7 +70,7 @@
   },
   "image#col-2-images-1": {
     "props": {
-      "src": "/arquivos/banner1.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner1.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -88,7 +88,7 @@
   },
   "image#col-2-images-2": {
     "props": {
-      "src": "/arquivos/banner2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner2.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -97,7 +97,7 @@
   },
   "image#col-2-images-2-mobile": {
     "props": {
-      "src": "/arquivos/banner2-mobile.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner2-mobile.png",
       "blockClass": "banner-img"
     }
   },
@@ -147,7 +147,7 @@
   },
   "image#methods-image": {
     "props": {
-      "src": "/arquivos/methods_image.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/methods_image.png"
     }
   },
   "list-context.image-list#row-gray": {
@@ -156,8 +156,8 @@
     "props": {
       "images": [
         {
-          "image": "/arquivos/credit_cart_icon.svg",
-          "mobileImage": "/arquivos/credit_cart_icon.svg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/credit_cart_icon.svg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/credit_cart_icon.svg",
           "link": {
             "url": "/test"
           }
@@ -286,7 +286,7 @@
     "props": {
       "title": "circle 1",
       "href": "/",
-      "url": "/arquivos/category_item1.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item1.png",
       "blockClass": "logo-circle"
     }
   },
@@ -315,7 +315,7 @@
     "props": {
       "title": "circle 2",
       "href": "/",
-      "url": "/arquivos/category_item2.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item2.png",
       "blockClass": "logo-circle"
     }
   },
@@ -344,7 +344,7 @@
     "props": {
       "title": "circle 3",
       "href": "/",
-      "url": "/arquivos/category_item1.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item1.png",
       "blockClass": "logo-circle"
     }
   },
@@ -373,7 +373,7 @@
     "props": {
       "title": "circle 4",
       "href": "/",
-      "url": "/arquivos/category_item3.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item3.png",
       "blockClass": "logo-circle"
     }
   },
@@ -402,7 +402,7 @@
     "props": {
       "title": "circle 5",
       "href": "/",
-      "url": "/arquivos/category_item4.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item4.png",
       "blockClass": "logo-circle"
     }
   },
@@ -431,7 +431,7 @@
     "props": {
       "title": "circle 6",
       "href": "/",
-      "url": "/arquivos/category_item5.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item5.png",
       "blockClass": "logo-circle"
     }
   },
@@ -522,7 +522,7 @@
   },
   "image#col-22-images-1": {
     "props": {
-      "src": "/arquivos/home_banner1.png?v=1",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner1.png?v=1",
       "blockClass": "banner-img"
     }
   },
@@ -534,7 +534,7 @@
   },
   "image#col-22-images-2": {
     "props": {
-      "src": "/arquivos/home_banner2.png?v=1",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner2.png?v=1",
       "blockClass": "banner-img"
     }
   },
@@ -620,7 +620,7 @@
   },
   "image#col-4-images-1": {
     "props": {
-      "src": "/arquivos/home_banner3.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner3.png",
       "blockClass": "banner-img"
     }
   },
@@ -632,7 +632,7 @@
   },
   "image#col-4-images-2": {
     "props": {
-      "src": "/arquivos/home_banner4.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner4.png",
       "blockClass": "banner-img"
     }
   },
@@ -644,7 +644,7 @@
   },
   "image#col-4-images-3": {
     "props": {
-      "src": "/arquivos/home_banner5.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner5.png",
       "blockClass": "banner-img"
     }
   },
@@ -656,7 +656,7 @@
   },
   "image#col-4-images-4": {
     "props": {
-      "src": "/arquivos/home_banner6.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner6.png",
       "blockClass": "banner-img"
     }
   },
@@ -667,7 +667,7 @@
     ],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart"]
+      "blockClass": ["row-"]
     }
   },
   "list-context.image-list#slider-4-images-mobile": {
@@ -679,22 +679,22 @@
       "width":"100%",
       "images": [
         {
-          "image": "/arquivos/four1.jpg",
-          "mobileImage": "/arquivos/four1.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/four1.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/four1.jpg",
           "link":{
             "url":"/test"
           }
         },
         {
-          "image": "/arquivos/four2.jpg",
-          "mobileImage": "/arquivos/four2.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/four2.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/four2.jpg",
           "link":{
             "url":"/test"
           }
         },
         {
-          "image": "/arquivos/four3.jpg",
-          "mobileImage": "/arquivos/four3.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/four3.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/four3.jpg",
           "link":{
             "url":"/test"
           }
@@ -795,7 +795,7 @@
   },
   "image#col-3-images-1": {
     "props": {
-      "src": "/arquivos/home_banner7.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner7.png",
       "blockClass": "banner-img"
     }
   },
@@ -807,7 +807,7 @@
   },
   "image#col-3-images-2": {
     "props": {
-      "src": "/arquivos/home_banner8.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner8.png",
       "blockClass": "banner-img"
     }
   },
@@ -819,7 +819,7 @@
   },
   "image#col-3-images-3": {
     "props": {
-      "src": "/arquivos/home_banner9.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner9.png",
       "blockClass": "banner-img"
     }
   },
@@ -841,7 +841,7 @@
   },
   "image#col-3-images-1-mobile": {
     "props": {
-      "src": "/arquivos/calvo_mobile.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/calvo_mobile.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -853,7 +853,7 @@
   },
   "image#col-3-images-2-mobile": {
     "props": {
-      "src": "/arquivos/samsung_mobile.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/samsung_mobile.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -865,7 +865,7 @@
   },
   "image#col-3-images-3-mobile": {
     "props": {
-      "src": "/arquivos/ariel_mobile.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/ariel_mobile.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -1006,7 +1006,7 @@
   },
   "image#end-banner": {
     "props": {
-      "src": "/arquivos/home_banner10.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner10.png"
     }
   },
   "flex-layout.row#custom-4-images-container": {
@@ -1050,7 +1050,7 @@
   },
   "image#custom-4-images-1": {
     "props": {
-      "src": "/arquivos/home_recommended1.PNG",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended1.PNG",
       "blockClass": ["banner-img", "custom-four"]
     }
   },
@@ -1062,13 +1062,13 @@
   },
   "image#custom-4-images-2": {
     "props": {
-      "src": "/arquivos/home_recommended2.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended2.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-22": {
     "props": {
-      "src": "/arquivos/home_recommended5.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended5.png",
       "blockClass": "banner-img"
     }
   },
@@ -1080,13 +1080,13 @@
   },
   "image#custom-4-images-3": {
     "props": {
-      "src": "/arquivos/home_recommended3.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended3.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-33": {
     "props": {
-      "src": "/arquivos/home_recommended6.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended6.png",
       "blockClass": "banner-img"
     }
   },
@@ -1098,13 +1098,13 @@
   },
   "image#custom-4-images-4": {
     "props": {
-      "src": "/arquivos/home_recommended4.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended4.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-44": {
     "props": {
-      "src": "/arquivos/home_recommended7.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended7.png",
       "blockClass": "banner-img"
     }
   },
@@ -1242,7 +1242,7 @@
   },
   "image#service-1": {
     "props": {
-      "src": "/arquivos/icon_shipping_spec.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_shipping_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1276,7 +1276,7 @@
   },
   "image#service-2": {
     "props": {
-      "src": "/arquivos/icon_store_spec.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_store_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1310,7 +1310,7 @@
   },
   "image#service-3": {
     "props": {
-      "src": "/arquivos/icon_payment_spec.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_payment_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1344,7 +1344,7 @@
   },
   "image#service-4": {
     "props": {
-      "src": "/arquivos/icon_security_spec.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_security_spec.svg",
       "blockClass": "image-service"
     }
   },

@@ -83,7 +83,7 @@
   "image#plano-controle": {
     "title": "Imagem central",
     "props": {
-      "src": "/arquivos/gbarbosa-plano-controle-phone.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-plano-controle-phone.png"
     }
   }
 }

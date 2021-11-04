@@ -133,7 +133,7 @@
   },
   "image#number-1": {
     "props": {
-      "src": "/arquivos/step1.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step1.jpg",
       "blockClass": "img-proceso-de-compra-number-1"
     }
   },
@@ -166,7 +166,7 @@
   },
   "image#number-2": {
     "props": {
-      "src": "/arquivos/step2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step2.jpg",
       "blockClass": "img-proceso-de-compra-number-2"
     }
   },
@@ -213,13 +213,13 @@
   },
   "image#number-3": {
     "props": {
-      "src": "/arquivos/step3.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step3.jpg",
       "blockClass": "img-proceso-de-compra-number-3"
     }
   },
   "image#number-3-2": {
     "props": {
-      "src": "/arquivos/step3-2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step3-2.jpg",
       "blockClass": "img-proceso-de-compra-number-3"
     }
   },
@@ -252,7 +252,7 @@
   },
   "image#number-4": {
     "props": {
-      "src": "/arquivos/step4.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step4.jpg",
       "blockClass": "img-proceso-de-compra-number-4"
     }
   },
@@ -295,7 +295,7 @@
   },
   "image#number-5": {
     "props": {
-      "src": "/arquivos/step5.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step5.jpg",
       "blockClass": "img-proceso-de-compra-number-5"
     }
   },
@@ -328,7 +328,7 @@
   },
   "image#number-6": {
     "props": {
-      "src": "/arquivos/step6.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step6.jpg",
       "blockClass": "img-proceso-de-compra-number-6"
     }
   },
@@ -371,7 +371,7 @@
   },
   "image#number-7": {
     "props": {
-      "src": "/arquivos/step7.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step7.jpg",
       "blockClass": "img-proceso-de-compra-number-7"
     }
   },
@@ -404,7 +404,7 @@
   },
   "image#number-8": {
     "props": {
-      "src": "/arquivos/step8.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step8.jpg",
       "blockClass": "img-proceso-de-compra-number-8"
     }
   },
@@ -450,7 +450,7 @@
   },
   "image#number-9": {
     "props": {
-      "src": "/arquivos/step9.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step9.jpg",
       "blockClass": "img-proceso-de-compra-number-9"
     }
   },
@@ -477,7 +477,7 @@
   },
   "image#number-10": {
     "props": {
-      "src": "/arquivos/step10.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/step10.png",
       "blockClass": "img-proceso-de-compra-number-10"
     }
   },
@@ -518,7 +518,7 @@
 
   "image#loguinho": {
     "props": {
-      "src": "/arquivos/banderin.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banderin.svg",
       "blockClass": "como-comprar-loguinho"
     }
   },
@@ -542,7 +542,7 @@
   },
   "image#horario": {
     "props": {
-      "src": "/arquivos/icon_horario.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_horario.svg",
       "blockClass": "icon-como-comprar"
     }
   },
@@ -578,7 +578,7 @@
   },
   "image#minimo": {
     "props": {
-      "src": "/arquivos/icon_devolver.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_devolver.svg",
       "blockClass": "icon-como-comprar"
     }
   },
@@ -614,7 +614,7 @@
   },
   "image#costo-entrega": {
     "props": {
-      "src": "/arquivos/icon_entrega_costo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_entrega_costo.svg",
       "blockClass": "icon-como-comprar"
     }
   },
@@ -650,7 +650,7 @@
   },
   "image#forma-pago": {
     "props": {
-      "src": "/arquivos/icon_forma_pago.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_forma_pago.svg",
       "blockClass": "icon-como-comprar"
     }
   },
@@ -686,7 +686,7 @@
   },
   "image#cobertura": {
     "props": {
-      "src": "/arquivos/icon_cobertura.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cobertura.svg",
       "blockClass": "icon-como-comprar"
     }
   },
@@ -722,7 +722,7 @@
   },
   "image#contactanos": {
     "props": {
-      "src": "/arquivos/icon_contacteno.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_contacteno.svg",
       "blockClass": "icon-como-comprar"
     }
   },

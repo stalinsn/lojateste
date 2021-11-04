@@ -522,7 +522,7 @@
   },
   "image#american": {
     "props": {
-      "src": "/arquivos/payment-american.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-american.png"
     }
   },
   "payment-method-item#visa": {
@@ -533,7 +533,7 @@
   },
   "image#visa": {
     "props": {
-      "src": "/arquivos/payment-visa.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-visa.png"
     }
   },
 
@@ -545,7 +545,7 @@
   },
   "image#diners": {
     "props": {
-      "src": "/arquivos/payment-master.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-master.png"
     }
   },
   "payment-method-item#mastercard": {
@@ -556,7 +556,7 @@
   },
   "image#mastercard": {
     "props": {
-      "src": "/arquivos/payment-mastercard.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-mastercard.png"
     }
   },
   "payment-method-item#hipercard": {
@@ -567,7 +567,7 @@
   },
   "image#hipercard": {
     "props": {
-      "src": "/arquivos/payment-hipercard.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-hipercard.png"
     }
   },
   "payment-method-item#elo": {
@@ -578,7 +578,7 @@
   },
   "image#elo": {
     "props": {
-      "src": "/arquivos/payment-elo.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-elo.png"
     }
   },
   "payment-method-item#dinheiro": {
@@ -589,7 +589,7 @@
   },
   "image#dinheiro": {
     "props": {
-      "src": "/arquivos/payment-dinheiro.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-dinheiro.png"
     }
   }
 }

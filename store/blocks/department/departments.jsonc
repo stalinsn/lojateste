@@ -83,7 +83,7 @@
           "id": "deparment-infocard-list1",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/fogao.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/fogao.png",
           "headline": "",
           "callToActionText": "Fogão",
           "callToActionUrl": "/",
@@ -95,7 +95,7 @@
           "id": "deparment-infocard-list2",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/cooktop.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/cooktop.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "cooktop",
@@ -107,7 +107,7 @@
           "id": "deparment-infocard-list3",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/televisor.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/televisor.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "Televisor",
@@ -119,7 +119,7 @@
           "id": "deparment-infocard-list4",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/lavaeseca.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/lavaeseca.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "Lava e seca",
@@ -131,7 +131,7 @@
           "id": "deparment-infocard-list5",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/forno.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/forno.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "forno de embutir",
@@ -143,7 +143,7 @@
           "id": "deparment-infocard-list6",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/videogame.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/videogame.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "videogame",
@@ -155,7 +155,7 @@
           "id": "deparment-infocard-list7",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/freezer.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/freezer.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "freezer",
@@ -167,7 +167,7 @@
           "id": "deparment-infocard-list8",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/coifas.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/coifas.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "coifas",
@@ -179,7 +179,7 @@
           "id": "deparment-infocard-list9",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/fogao.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/fogao.png",
           "headline": "",
           "callToActionText": "Fogão",
           "callToActionUrl": "/",
@@ -191,7 +191,7 @@
           "id": "deparment-infocard-list10",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/cooktop.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/cooktop.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "cooktop",
@@ -203,7 +203,7 @@
           "id": "deparment-infocard-list11",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/televisor.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/televisor.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "Televisor",
@@ -215,7 +215,7 @@
           "id": "deparment-infocard-list12",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/lavaeseca.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/lavaeseca.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "Lava e seca",
@@ -227,7 +227,7 @@
           "id": "deparment-infocard-list13",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/forno.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/forno.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "forno de embutir",
@@ -239,7 +239,7 @@
           "id": "deparment-infocard-list14",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/videogame.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/videogame.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "videogame",
@@ -251,7 +251,7 @@
           "id": "deparment-infocard-list15",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/freezer.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/freezer.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "freezer",
@@ -263,7 +263,7 @@
           "id": "deparment-infocard-list16",
           "isFullModeStyle": false,
           "textPosition": "center",
-          "imageUrl": "/arquivos/coifas.png",
+          "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/coifas.png",
           "headline": "",
           "imageActionUrl": "/",
           "callToActionText": "coifas",
@@ -316,7 +316,7 @@
   },
   "image#deparment-banner-1": {
     "props": {
-      "src": "/arquivos/department-banner-1.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/department-banner-1.png",
       "link": {
         "url": "/"
       },
@@ -326,7 +326,7 @@
   },
   "image#deparment-banner-2": {
     "props": {
-      "src": "/arquivos/department-banner-2.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/department-banner-2.png",
       "link": {
         "url": "/"
       },
@@ -336,7 +336,7 @@
   },
   "image#deparment-banner-3": {
     "props": {
-      "src": "/arquivos/department-banner-3.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/department-banner-3.png",
       "link": {
         "url": "/"
       },
@@ -346,7 +346,7 @@
   },
   "image#deparment-banner-4": {
     "props": {
-      "src": "/arquivos/department-banner-4.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/department-banner-4.png",
       "link": {
         "url": "/"
       },
@@ -467,7 +467,7 @@
   },
   "image#deparment-banner-5": {
     "props": {
-      "src": "/arquivos/department-banner-5.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/department-banner-5.png",
       "link": {
         "url": "/"
       },
