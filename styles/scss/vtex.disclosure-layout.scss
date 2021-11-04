@@ -3,8 +3,8 @@
 .trigger--disclosure-trigger-preguntas-frecuentes--hidden,
 .trigger--disclosure-trigger-reglamento-de-promociones--visible,
 .trigger--disclosure-trigger-reglamento-de-promociones--hidden,
-.trigger--disclosure-trigger-walmart-te-escucha--visible,
-.trigger--disclosure-trigger-walmart-te-escucha--hidden,
+.trigger--disclosure-trigger--te-escucha--visible,
+.trigger--disclosure-trigger--te-escucha--hidden,
 .trigger--disclosure-trigger-tarjeta-credito--visible,
 .trigger--disclosure-trigger-tarjeta-credito--hidden,
 .trigger--estilo-preguntas-reglamento-de-promociones-mobile--hidden,
@@ -27,8 +27,8 @@
 .trigger--disclosure-trigger-preguntas-frecuentes--hidden::after,
 .trigger--disclosure-trigger-reglamento-de-promociones--visible::after,
 .trigger--disclosure-trigger-reglamento-de-promociones--hidden::after,
-.trigger--disclosure-trigger-walmart-te-escucha--visible::after,
-.trigger--disclosure-trigger-walmart-te-escucha--hidden::after,
+.trigger--disclosure-trigger--te-escucha--visible::after,
+.trigger--disclosure-trigger--te-escucha--hidden::after,
 .trigger--disclosure-trigger-tarjeta-credito--visible::after,
 .trigger--disclosure-trigger-tarjeta-credito--hidden::after,
 .trigger--estilo-preguntas-reglamento-de-promociones-desktop--visible::after,
@@ -47,8 +47,8 @@
 
 .trigger--disclosure-trigger-reglamento-de-promociones--visible::after,
 .trigger--disclosure-trigger-reglamento-de-promociones--hidden::after,
-.trigger--disclosure-trigger-walmart-te-escucha--visible::after,
-.trigger--disclosure-trigger-walmart-te-escucha--hidden::after,
+.trigger--disclosure-trigger--te-escucha--visible::after,
+.trigger--disclosure-trigger--te-escucha--hidden::after,
 .trigger--disclosure-trigger-preguntas-frecuentes--visible::after,
 .trigger--disclosure-trigger-preguntas-frecuentes--hidden::after,
 .trigger--disclosure-trigger-tarjeta-credito--visible::after,
@@ -57,7 +57,7 @@
 }
 
 .trigger--disclosure-trigger-reglamento-de-promociones--visible::after,
-.trigger--disclosure-trigger-walmart-te-escucha--visible::after,
+.trigger--disclosure-trigger--te-escucha--visible::after,
 .trigger--disclosure-trigger-preguntas-frecuentes--visible::after,
 .trigger--disclosure-trigger-tarjeta-credito--visible::after,
 .trigger--estilo-preguntas-reglamento-de-promociones-desktop--visible::after,
@@ -87,13 +87,13 @@
         width: 1000px;
     }
     .trigger--boton-remesas--hidden::after {
-        content: url("https://walmartcr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/arrow.png");
+        content: url("https://cr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/arrow.png");
         position: absolute;
         right: 35%;
         margin-top: -35px;
     }
     .trigger--boton-remesas--visible::after {
-        content: url("https://walmartcr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/arrow.png");
+        content: url("https://cr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/arrow.png");
         position: absolute;
         right: 35%;
         margin-top: -35px;
@@ -115,13 +115,13 @@
         padding: 0;
     }
     .trigger--boton-remesas--hidden::after {
-        content: url("https://walmartcr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/arrow.png");
+        content: url("https://cr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/arrow.png");
         position: absolute;
         right: 5px;
         margin-top: -42px;
     }
     .trigger--boton-remesas--visible::after {
-        content: url("https://walmartcr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/arrow.png");
+        content: url("https://cr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/arrow.png");
         position: absolute;
         right: 5px;
         margin-top: -42px;

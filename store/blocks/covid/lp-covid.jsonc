@@ -231,7 +231,7 @@
 
   "image#box-imagen-3a": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/assets-walmart-s2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/assets--s2.jpg",
       "link": {
         "url": "/"
       },
@@ -795,22 +795,22 @@
   "flex-layout.row#content-box-covid-store-lp-seccion-13": {
     "title": "Seccion_13",
 
-    "children": ["flex-layout.col#content-box-covid-video-walmart"],
+    "children": ["flex-layout.col#content-box-covid-video-"],
 
     "props": {
       "blockClass": "covid-row-box-lp-bg-col-blue"
     }
   },
 
-  "flex-layout.col#content-box-covid-video-walmart": {
-    "children": ["iframe#iframe-box-covid-video-walmart"],
+  "flex-layout.col#content-box-covid-video-": {
+    "children": ["iframe#iframe-box-covid-video-"],
 
     "props": {
       "blockClass": "bloque-covid-youtube"
     }
   },
 
-  "iframe#iframe-box-covid-video-walmart": {
+  "iframe#iframe-box-covid-video-": {
     "props": {
       "src": "https://www.youtube.com/embed/39uuk1jyXwk",
       "width": "700",
@@ -875,19 +875,19 @@
     },
 
     "children": [
-      "flex-layout.col#item-walmart-1",
-      "flex-layout.col#item-walmart-2",
-      "flex-layout.col#item-walmart-3",
-      "flex-layout.col#item-walmart-4"
+      "flex-layout.col#item--1",
+      "flex-layout.col#item--2",
+      "flex-layout.col#item--3",
+      "flex-layout.col#item--4"
     ]
   },
 
   //MODAL 1
-  "flex-layout.col#item-walmart-1": {
+  "flex-layout.col#item--1": {
     "children": [
-      "image#item-walmart-1",
-      "rich-text#item-walmart-1-text",
-      "modal-trigger#modal-item-walmart-1"
+      "image#item--1",
+      "rich-text#item--1-text",
+      "modal-trigger#modal-item--1"
     ],
 
     "props": {
@@ -895,16 +895,16 @@
     }
   },
 
-  "image#item-walmart-1": {
+  "image#item--1": {
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/assets-item-cover.png",
       "title": "item 1",
       "maxWidth": "100%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
 
-  "rich-text#item-walmart-1-text": {
+  "rich-text#item--1-text": {
     "props": {
       "blockClass": "title-box-wrapper-item",
       "text": "## Qué hacemos para prevenir el contagio de COVID-19 en nuestras instalaciones",
@@ -913,13 +913,13 @@
     }
   },
 
-  "modal-trigger#modal-item-walmart-1": {
+  "modal-trigger#modal-item--1": {
     "children": [
-      "rich-text#item-walmart-1-link",
-      "modal-layout#modal-item-walmart-1"
+      "rich-text#item--1-link",
+      "modal-layout#modal-item--1"
     ]
   },
-  "rich-text#item-walmart-1-link": {
+  "rich-text#item--1-link": {
     "props": {
       "blockClass": "btn-primary-short-promo",
       "text": "Ver más",
@@ -927,13 +927,13 @@
       "textPosition": "LEFT"
     }
   },
-  "modal-layout#modal-item-walmart-1": {
+  "modal-layout#modal-item--1": {
     "children": [
       "flex-layout.row#modal-title-item-1",
       "flex-layout.row#modal-body-covid"
     ],
     "props": {
-      "blockClass": "modal-covid-walmart"
+      "blockClass": "modal-covid-"
     }
   },
 
@@ -996,7 +996,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto-1-1.jpg",
       "title": "item 1",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-1": {
@@ -1019,7 +1019,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto-1-2.jpg",
       "title": "item 2",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-2": {
@@ -1042,7 +1042,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto-1-3.jpg",
       "title": "item 1",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-3": {
@@ -1065,7 +1065,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto-1-4.jpg",
       "title": "item 4",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-4": {
@@ -1078,11 +1078,11 @@
   },
 
   //MODAL 2
-  "flex-layout.col#item-walmart-2": {
+  "flex-layout.col#item--2": {
     "children": [
-      "image#item-walmart-2",
-      "rich-text#item-walmart-2-text",
-      "modal-trigger#modal-item-walmart-22"
+      "image#item--2",
+      "rich-text#item--2-text",
+      "modal-trigger#modal-item--22"
     ],
 
     "props": {
@@ -1090,16 +1090,16 @@
     }
   },
 
-  "image#item-walmart-2": {
+  "image#item--2": {
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/sospecha_card.jpg",
       "title": "item 1",
       "maxWidth": "100%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
 
-  "rich-text#item-walmart-2-text": {
+  "rich-text#item--2-text": {
     "props": {
       "blockClass": "title-box-wrapper-item",
       "text": "## Qué hacemos ante la sospecha de un contagio de COVID-19",
@@ -1108,13 +1108,13 @@
     }
   },
 
-  "modal-trigger#modal-item-walmart-22": {
+  "modal-trigger#modal-item--22": {
     "children": [
-      "rich-text#item-walmart-22-link",
-      "modal-layout#modal-item-walmart-22"
+      "rich-text#item--22-link",
+      "modal-layout#modal-item--22"
     ]
   },
-  "rich-text#item-walmart-22-link": {
+  "rich-text#item--22-link": {
     "props": {
       "blockClass": "btn-primary-short-promo",
       "text": "Ver más",
@@ -1122,13 +1122,13 @@
       "textPosition": "LEFT"
     }
   },
-  "modal-layout#modal-item-walmart-22": {
+  "modal-layout#modal-item--22": {
     "children": [
       "flex-layout.row#modal-title-item-22",
       "flex-layout.row#modal-body-covid-22"
     ],
     "props": {
-      "blockClass": "modal-covid-walmart"
+      "blockClass": "modal-covid-"
     }
   },
 
@@ -1188,7 +1188,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_7.jpg",
       "title": "item 8",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-8-22": {
@@ -1211,7 +1211,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_8.jpg",
       "title": "item 9",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-9-22": {
@@ -1234,7 +1234,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_10.jpg",
       "title": "item 10",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-10-22": {
@@ -1269,7 +1269,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_1.jpg",
       "title": "item 2",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-1-22": {
@@ -1292,7 +1292,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_2.jpg",
       "title": "item 2",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-2-22": {
@@ -1315,7 +1315,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_3.jpg",
       "title": "item 1",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-3-22": {
@@ -1338,7 +1338,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_3.jpg",
       "title": "item 4",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-4-22": {
@@ -1361,7 +1361,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_4.jpg",
       "title": "item 5",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-5-22": {
@@ -1384,7 +1384,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_5.jpg",
       "title": "item 6",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-6-22": {
@@ -1407,7 +1407,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_6.jpg",
       "title": "item 7",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-7-22": {
@@ -1420,11 +1420,11 @@
   },
 
   //MODAL 3
-  "flex-layout.col#item-walmart-3": {
+  "flex-layout.col#item--3": {
     "children": [
-      "image#item-walmart-3",
-      "rich-text#item-walmart-3-text",
-      "modal-trigger#modal-item-walmart-33"
+      "image#item--3",
+      "rich-text#item--3-text",
+      "modal-trigger#modal-item--33"
     ],
 
     "props": {
@@ -1432,16 +1432,16 @@
     }
   },
 
-  "image#item-walmart-3": {
+  "image#item--3": {
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/caso_positivo_card.jpg",
       "title": "item 1",
       "maxWidth": "100%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
 
-  "rich-text#item-walmart-3-text": {
+  "rich-text#item--3-text": {
     "props": {
       "blockClass": "title-box-wrapper-item",
       "text": "## Qué hacemos ante un caso positivo a COVID-19",
@@ -1450,13 +1450,13 @@
     }
   },
 
-  "modal-trigger#modal-item-walmart-33": {
+  "modal-trigger#modal-item--33": {
     "children": [
-      "rich-text#item-walmart-33-link",
-      "modal-layout#modal-item-walmart-33"
+      "rich-text#item--33-link",
+      "modal-layout#modal-item--33"
     ]
   },
-  "rich-text#item-walmart-33-link": {
+  "rich-text#item--33-link": {
     "props": {
       "blockClass": "btn-primary-short-promo",
       "text": "Ver más",
@@ -1464,13 +1464,13 @@
       "textPosition": "LEFT"
     }
   },
-  "modal-layout#modal-item-walmart-33": {
+  "modal-layout#modal-item--33": {
     "children": [
       "flex-layout.row#modal-title-item-33",
       "flex-layout.row#modal-body-covid-33"
     ],
     "props": {
-      "blockClass": "modal-covid-walmart"
+      "blockClass": "modal-covid-"
     }
   },
 
@@ -1535,7 +1535,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo1.jpg",
       "title": "item 1",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-1-3": {
@@ -1558,7 +1558,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo2.jpg",
       "title": "item 2",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-2-3": {
@@ -1581,7 +1581,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo3.jpg",
       "title": "item 3",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-3-3": {
@@ -1604,7 +1604,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo4.jpg",
       "title": "item 4",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-4-3": {
@@ -1627,7 +1627,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo5.jpg",
       "title": "item 5",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-5-3": {
@@ -1650,7 +1650,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo6.jpg",
       "title": "item 6",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-6-3": {
@@ -1673,7 +1673,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo7.jpg",
       "title": "item 7",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-7-3": {
@@ -1696,7 +1696,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo8.jpg",
       "title": "item 8",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-8-3": {
@@ -1719,7 +1719,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo9.jpg",
       "title": "item 9",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-9-3": {
@@ -1766,7 +1766,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo10.jpg",
       "title": "item 10",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-10-33": {
@@ -1789,7 +1789,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo11.jpg",
       "title": "item 11",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-11-33": {
@@ -1812,7 +1812,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo12.jpg",
       "title": "item 12",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-12-33": {
@@ -1835,7 +1835,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo13.jpg",
       "title": "item 13",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-13-33": {
@@ -1858,7 +1858,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo14.jpg",
       "title": "item 14",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-14-33": {
@@ -1881,7 +1881,7 @@
       "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo15.jpg",
       "title": "item 15",
       "width": "13%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
   "rich-text#item-covid-15-33": {
@@ -1894,11 +1894,11 @@
   },
 
   //MODAL 4
-  "flex-layout.col#item-walmart-4": {
+  "flex-layout.col#item--4": {
     "children": [
-      "image#item-walmart-4",
-      "rich-text#item-walmart-4-text",
-      "modal-trigger#modal-item-walmart-44"
+      "image#item--4",
+      "rich-text#item--4-text",
+      "modal-trigger#modal-item--44"
     ],
 
     "props": {
@@ -1906,16 +1906,16 @@
     }
   },
 
-  "image#item-walmart-4": {
+  "image#item--4": {
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/protocolo_card.jpg",
       "title": "item 1",
       "maxWidth": "100%",
-      "blockClass": "image-item-walmart"
+      "blockClass": "image-item-"
     }
   },
 
-  "rich-text#item-walmart-4-text": {
+  "rich-text#item--4-text": {
     "props": {
       "blockClass": "title-box-wrapper-item",
       "text": "## Protocolos de contingencia en PDF",
@@ -1924,13 +1924,13 @@
     }
   },
 
-  "modal-trigger#modal-item-walmart-44": {
+  "modal-trigger#modal-item--44": {
     "children": [
-      "rich-text#item-walmart-44-link",
-      "modal-layout#modal-item-walmart-44"
+      "rich-text#item--44-link",
+      "modal-layout#modal-item--44"
     ]
   },
-  "rich-text#item-walmart-44-link": {
+  "rich-text#item--44-link": {
     "props": {
       "blockClass": "btn-primary-short-promo",
       "text": "Ver más",
@@ -1938,13 +1938,13 @@
       "textPosition": "LEFT"
     }
   },
-  "modal-layout#modal-item-walmart-44": {
+  "modal-layout#modal-item--44": {
     "children": [
       "flex-layout.row#modal-title-item-44",
       "flex-layout.row#modal-body-covid-44"
     ],
     "props": {
-      "blockClass": "modal-covid-walmart"
+      "blockClass": "modal-covid-"
     }
   },
 
@@ -2007,7 +2007,7 @@
   "rich-text#item-covid-1-44": {
     "props": {
       "blockClass": "text-btn-covid",
-      "text": "Plan de acción Masxmenos **[Descargar](https://axelwaltmart--walmartcr.myvtex.com/acciones-contra-el-covid-19)**",
+      "text": "Plan de acción Masxmenos **[Descargar](https://axelwaltmart--cr.myvtex.com/acciones-contra-el-covid-19)**",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
     }
@@ -2022,7 +2022,7 @@
   "rich-text#item-covid-2-44": {
     "props": {
       "blockClass": "text-btn-covid-2",
-      "text": "Resumen de accines adoptadas frente al COVID-19 **[Descargar](https://axelwaltmart--walmartcr.myvtex.com/acciones-contra-el-covid-19)**",
+      "text": "Resumen de accines adoptadas frente al COVID-19 **[Descargar](https://axelwaltmart--cr.myvtex.com/acciones-contra-el-covid-19)**",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
     }
@@ -2037,7 +2037,7 @@
   "rich-text#item-covid-3-44": {
     "props": {
       "blockClass": "text-btn-covid-3",
-      "text": "Protocolo de ingreso de clientes a tienda **[Descargar](https://axelwaltmart--walmartcr.myvtex.com/acciones-contra-el-covid-19)**",
+      "text": "Protocolo de ingreso de clientes a tienda **[Descargar](https://axelwaltmart--cr.myvtex.com/acciones-contra-el-covid-19)**",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
     }
@@ -2052,7 +2052,7 @@
   "rich-text#item-covid-4-44": {
     "props": {
       "blockClass": "text-btn-covid-4",
-      "text": "Medidas preventivas de higiene y limpieza **[Descargar](https://axelwaltmart--walmartcr.myvtex.com/acciones-contra-el-covid-19)**",
+      "text": "Medidas preventivas de higiene y limpieza **[Descargar](https://axelwaltmart--cr.myvtex.com/acciones-contra-el-covid-19)**",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
     }
@@ -2067,7 +2067,7 @@
   "rich-text#item-covid-5-44": {
     "props": {
       "blockClass": "text-btn-covid-5",
-      "text": "Plan de segurdas en CEDIS y plantas cuando hay un \n caso sospechoso o confirmado **[Descargar](https://axelwaltmart--walmartcr.myvtex.com/acciones-contra-el-covid-19)**",
+      "text": "Plan de segurdas en CEDIS y plantas cuando hay un \n caso sospechoso o confirmado **[Descargar](https://axelwaltmart--cr.myvtex.com/acciones-contra-el-covid-19)**",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
     }
@@ -2082,7 +2082,7 @@
   "rich-text#item-covid-6-44": {
     "props": {
       "blockClass": "text-btn-covid-6",
-      "text": "Plan de seguridad en tiendas (cupermercados) cuando \n hay un caso sospechoso o confirmado **[Descargar](https://axelwaltmart--walmartcr.myvtex.com/acciones-contra-el-covid-19)**",
+      "text": "Plan de seguridad en tiendas (cupermercados) cuando \n hay un caso sospechoso o confirmado **[Descargar](https://axelwaltmart--cr.myvtex.com/acciones-contra-el-covid-19)**",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
     }
@@ -2097,7 +2097,7 @@
   "rich-text#item-covid-7-44": {
     "props": {
       "blockClass": "text-btn-covid-7",
-      "text": "Protocolo de plantas de producción de alimentos de \n origen animal o consumo humano **[Descargar](https://axelwaltmart--walmartcr.myvtex.com/acciones-contra-el-covid-19)**",
+      "text": "Protocolo de plantas de producción de alimentos de \n origen animal o consumo humano **[Descargar](https://axelwaltmart--cr.myvtex.com/acciones-contra-el-covid-19)**",
       "textAlignment": "LEFT",
       "textPosition": "LEFT"
     }
@@ -2105,21 +2105,21 @@
 
   "flex-layout.row#content-box-covid-store-lp-seccion-16": {
     "title": "Seccion_13",
-    "children": ["flex-layout.col#content-box-covid-video-walmart-2"],
+    "children": ["flex-layout.col#content-box-covid-video--2"],
 
     "props": {
       "blockClass": "covid-row-box-lp-bg-col-white"
     }
   },
 
-  "flex-layout.col#content-box-covid-video-walmart-2": {
-    "children": ["iframe#iframe-box-covid-video-walmart-2"],
+  "flex-layout.col#content-box-covid-video--2": {
+    "children": ["iframe#iframe-box-covid-video--2"],
     "props": {
       "blockClass": "bloque-covid-youtube"
     }
   },
 
-  "iframe#iframe-box-covid-video-walmart-2": {
+  "iframe#iframe-box-covid-video--2": {
     "props": {
       "src": "https://www.youtube.com/embed/K8hOVA2BHhI",
       "width": "95%",
@@ -2212,7 +2212,7 @@
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "blockClass": "body-community",
-      "text": "Fundación Walmart donó **$250 mil** para colaborar con los países centroamericanos ante la difícil situación provocada por el COVID-19. Los fondos serán canalizados a través de World Vision y serán repartidos de forma equitativa. \n\n Los recursos se utilizarán para compra de: Equipos de Bioseguridad, Productos Alimenticios de primera necesidad."
+      "text": "Fundación  donó **$250 mil** para colaborar con los países centroamericanos ante la difícil situación provocada por el COVID-19. Los fondos serán canalizados a través de World Vision y serán repartidos de forma equitativa. \n\n Los recursos se utilizarán para compra de: Equipos de Bioseguridad, Productos Alimenticios de primera necesidad."
     }
   },
 
@@ -2355,12 +2355,12 @@
   },
 
   "flex-layout.row#content-box-covid-seccion-19-1": {
-    "children": ["rich-text#box-walmartmex-1"]
+    "children": ["rich-text#box-mex-1"]
   },
-  "rich-text#box-walmartmex-1": {
-    "title": "subtitle walmartmex",
+  "rich-text#box-mex-1": {
+    "title": "subtitle mex",
     "props": {
-      "blockClass": "walmartmex-title",
+      "blockClass": "mex-title",
       "text": "Masxmenos México y Centroamérica también ha proporcionado distintos medios de ayuda en toda la región, algunos de estos son:"
     }
   },
@@ -2383,23 +2383,23 @@
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion1.jpg",
       "title": "masxmenos mex 1",
-      "blockClass": "image-walmartmex"
+      "blockClass": "image-mex"
     }
   },
 
   "flex-layout.col#content-box-covid-19-2": {
     "children": [
       "modal-trigger#modal-item-wlt-1",
-      "rich-text#box-walmartmex-2-1"
+      "rich-text#box-mex-2-1"
     ],
     "props": {
       "blockClass": "content-modal-row"
     }
   },
-  "rich-text#box-walmartmex-2-1": {
-    "title": "subtitle 2 walmartmex",
+  "rich-text#box-mex-2-1": {
+    "title": "subtitle 2 mex",
     "props": {
-      "blockClass": "walmartmex-title-blue",
+      "blockClass": "mex-title-blue",
       "text": "A nivel regional, fondos serán canalizados por World Vision / Masxmenos supera los $1,7 millones en aportes en los países de la región."
     }
   },
@@ -2411,7 +2411,7 @@
   "rich-text#item-wlt-1-link": {
     "props": {
       "blockClass": "wlt-title-link-modal",
-      "text": "**Fundación Walmart dona $250 mil para ayudas por COVID-19 en Centroamérica**",
+      "text": "**Fundación  dona $250 mil para ayudas por COVID-19 en Centroamérica**",
       "textPosition": "LEFT"
     }
   },
@@ -2423,7 +2423,7 @@
       "flex-layout.row#modal-body-covid-wlt-1-2"
     ],
     "props": {
-      "blockClass": ["modal-covid-walmart", "modal-covid-walmart-last"]
+      "blockClass": ["modal-covid-", "modal-covid--last"]
     }
   },
 
@@ -2459,7 +2459,7 @@
   "rich-text#item-wlt-1-title": {
     "props": {
       "blockClass": "title-modal",
-      "text": "**Fundación Walmart dona $250 mil para ayudas por COVID-19 en Centroamérica**"
+      "text": "**Fundación  dona $250 mil para ayudas por COVID-19 en Centroamérica**"
     }
   },
 
@@ -2473,7 +2473,7 @@
   "rich-text#item-wlt-1-content": {
     "props": {
       "blockClass": "content-modal",
-      "text": "En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes y asociados. En este espíritu, comunica que la Fundación Walmart donará $250 mil para ayudar a los países de Centroamérica, en la distribución de equipos de bioseguridad y ayuda humanitaria en alimentos e higiene, ante la difícil situación provocada por el COVID-19. \n \n Los recursos que serán canalizados a través de World Vision, serán repartidos de forma equitativa en la región, es decir cada país - Guatemala, El Salvador, Honduras, Costa Rica y Nicaragua- recibirán $50 mil para proteger la salud y promover una mayor calidad de vida entre la población de estas naciones. En total, Masxmenos contabiliza más de $1,7 millones en aportes en los países de la región. \n \n El 80% de las ayudas van dirigidas al sector salud para equipos de bioseguridad de hospitales y organismos que continúan trabajando en la primera línea de contingencia de la pandemia. El otro 20% se destinará a suministrar productos alimenticios de primera necesidad a los sectores más vulnerables de distintas poblaciones. Los recursos serán ejecutados entre los meses de mayo a julio de este año. \n \n Flavio Cottini, Director General de Masxmenos Centroamérica, destacó que sin duda en momentos tan apremiantes se trata de una valiosa ayuda de la Fundación Walmart, una organización sin ánimo de lucro que canaliza recursos para ayudar a las comunidades más necesitadas. “La Fundación demuestra una vez más su gran compromiso social con miras a mejorar el entorno social de las comunidades donde Masxmenos está presente”. \n \n Entre los equipos que se entregarán a hospitales hay termómetros digitales, gorras desechables, guantes, lentes protectores, batas de seguridad, cobertores de zapatos,"
+      "text": "En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes y asociados. En este espíritu, comunica que la Fundación  donará $250 mil para ayudar a los países de Centroamérica, en la distribución de equipos de bioseguridad y ayuda humanitaria en alimentos e higiene, ante la difícil situación provocada por el COVID-19. \n \n Los recursos que serán canalizados a través de World Vision, serán repartidos de forma equitativa en la región, es decir cada país - Guatemala, El Salvador, Honduras, Costa Rica y Nicaragua- recibirán $50 mil para proteger la salud y promover una mayor calidad de vida entre la población de estas naciones. En total, Masxmenos contabiliza más de $1,7 millones en aportes en los países de la región. \n \n El 80% de las ayudas van dirigidas al sector salud para equipos de bioseguridad de hospitales y organismos que continúan trabajando en la primera línea de contingencia de la pandemia. El otro 20% se destinará a suministrar productos alimenticios de primera necesidad a los sectores más vulnerables de distintas poblaciones. Los recursos serán ejecutados entre los meses de mayo a julio de este año. \n \n Flavio Cottini, Director General de Masxmenos Centroamérica, destacó que sin duda en momentos tan apremiantes se trata de una valiosa ayuda de la Fundación , una organización sin ánimo de lucro que canaliza recursos para ayudar a las comunidades más necesitadas. “La Fundación demuestra una vez más su gran compromiso social con miras a mejorar el entorno social de las comunidades donde Masxmenos está presente”. \n \n Entre los equipos que se entregarán a hospitales hay termómetros digitales, gorras desechables, guantes, lentes protectores, batas de seguridad, cobertores de zapatos,"
     }
   },
 
@@ -2507,7 +2507,7 @@
   "rich-text#item-wlt-1-content-col2": {
     "props": {
       "blockClass": "content-modal",
-      "text": "supresores de lengua y mascarillas quirúrgicas. Además, se donarán 581 raciones de alimentos para familias de la región y 224 kits de higiene para hogares nicaragüenses. \n\n Jorge Galeano, Director Ejecutivo de World Vision para Honduras y Guatemala, indicó el gran interés de esta organización por velar para que estos recursos sean utilizados por los principales nosocomios y los alimentos lleguen a quienes más los necesitan. “Una vez más, Fundación Walmart se hace presente con importante donativo en la región Centroamericana. Gracias a esta donación juntos estaremos llevando ayuda y alivio a hospitales, pacientes y familias que se han visto directamente afectados por esta pandemia. Nuestro compromiso, como una organización de ayuda humanitaria, es continuar implementando soluciones de impacto para nuestra niñez y familias vulnerables. \n\n En Centroamérica, World Vision ha trabajado por más de cuatro décadas brindando ayuda humanitaria a la niñez, las familias y las comunidades para reducir la pobreza y la injusticia."
+      "text": "supresores de lengua y mascarillas quirúrgicas. Además, se donarán 581 raciones de alimentos para familias de la región y 224 kits de higiene para hogares nicaragüenses. \n\n Jorge Galeano, Director Ejecutivo de World Vision para Honduras y Guatemala, indicó el gran interés de esta organización por velar para que estos recursos sean utilizados por los principales nosocomios y los alimentos lleguen a quienes más los necesitan. “Una vez más, Fundación  se hace presente con importante donativo en la región Centroamericana. Gracias a esta donación juntos estaremos llevando ayuda y alivio a hospitales, pacientes y familias que se han visto directamente afectados por esta pandemia. Nuestro compromiso, como una organización de ayuda humanitaria, es continuar implementando soluciones de impacto para nuestra niñez y familias vulnerables. \n\n En Centroamérica, World Vision ha trabajado por más de cuatro décadas brindando ayuda humanitaria a la niñez, las familias y las comunidades para reducir la pobreza y la injusticia."
     }
   },
 
@@ -2687,23 +2687,23 @@
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion2.jpg",
       "title": "masxmenos mex 1",
-      "blockClass": "image-walmartmex"
+      "blockClass": "image-mex"
     }
   },
 
   "flex-layout.col#content-box-covid-19-4": {
     "children": [
       "modal-trigger#modal2-item-wlt-1",
-      "rich-text#box-walmartmex-4-1"
+      "rich-text#box-mex-4-1"
     ],
     "props": {
       "blockClass": "content-modal-row"
     }
   },
-  "rich-text#box-walmartmex-4-1": {
-    "title": "subtitle 2 walmartmex",
+  "rich-text#box-mex-4-1": {
+    "title": "subtitle 2 mex",
     "props": {
-      "blockClass": "walmartmex-title-blue",
+      "blockClass": "mex-title-blue",
       "text": "En el marco de la alerta sanitaria por COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes y asociados."
     }
   },
@@ -2718,7 +2718,7 @@
   "rich-text#modal2-item-wlt-1-link": {
     "props": {
       "blockClass": "wlt-title-link-modal",
-      "text": "**Fundación Walmart dona insumos médicos a Hospital Leonardo Martínez**",
+      "text": "**Fundación  dona insumos médicos a Hospital Leonardo Martínez**",
       "textPosition": "LEFT"
     }
   },
@@ -2731,7 +2731,7 @@
       "rich-text#modal2-row2-col1-footer"
     ],
     "props": {
-      "blockClass": ["modal-covid-walmart", "modal-covid-walmart-last"]
+      "blockClass": ["modal-covid-", "modal-covid--last"]
     }
   },
 
@@ -2759,7 +2759,7 @@
   "rich-text#modal2-row1-col1-title": {
     "props": {
       "blockClass": "title-modal",
-      "text": "**Fundación Walmart dona insumos médicos a Hospital Leonardo Martínez (Honduras)**"
+      "text": "**Fundación  dona insumos médicos a Hospital Leonardo Martínez (Honduras)**"
     }
   },
 
@@ -2773,7 +2773,7 @@
   "rich-text#modal2-row1-col1-content": {
     "props": {
       "blockClass": "content-modal",
-      "text": "En el marco de la alerta sanitaria por COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes y asociados. \n\n En ese espíritu, con el apoyo de World Vision, entregó este día una donación de insumos médicos al Hospital Leonardo Martínez de San Pedro Sula valorada en más de 620,000 lempiras. \n\n La donación incluye insumos como guantes no estériles látex, mascarillas quirúrgicas, batas no estériles, trajes de bioseguridad, gafas protectoras plásticas, gorros descartables, spray desinfectante, catéteres, paquetes preparados de alcohol, termómetros digitales, jeringas, esparadrapos, supresores de lengua y algodón. En el acto participaron el subsecretario de Salud, Roberto Cosenza; Jorge Galeano, director Ejecutivo de World Vision Honduras y Alex Amaya, representante de Masxmenos. \n\n Además, se entregaron raciones de alimentos a 107 familias de riesgo extremo provocado por la emergencia sanitaria un valor de 186,000 lempiras en las comunidades de Chotepe, San Pedro Sula, La Lima y Villanueva en el departamento de Cortés. \n\n Las raciones de alimento incluían: arroz, harina de maíz, frijoles, azúcar, café y otros insumos de la canasta básica \n\n Alex Amaya, vocero de Masxmenos, destacó que \"somos una empresa que comparte valor y procuramos mejorar la calidad de vida de las familias hondureñas y, en ese espíritu, la Fundación Walmart ha donado, en total, **1.2 millones de lempiras para ayudas humanitaria a las familias afectadas por la emergencia\"**."
+      "text": "En el marco de la alerta sanitaria por COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes y asociados. \n\n En ese espíritu, con el apoyo de World Vision, entregó este día una donación de insumos médicos al Hospital Leonardo Martínez de San Pedro Sula valorada en más de 620,000 lempiras. \n\n La donación incluye insumos como guantes no estériles látex, mascarillas quirúrgicas, batas no estériles, trajes de bioseguridad, gafas protectoras plásticas, gorros descartables, spray desinfectante, catéteres, paquetes preparados de alcohol, termómetros digitales, jeringas, esparadrapos, supresores de lengua y algodón. En el acto participaron el subsecretario de Salud, Roberto Cosenza; Jorge Galeano, director Ejecutivo de World Vision Honduras y Alex Amaya, representante de Masxmenos. \n\n Además, se entregaron raciones de alimentos a 107 familias de riesgo extremo provocado por la emergencia sanitaria un valor de 186,000 lempiras en las comunidades de Chotepe, San Pedro Sula, La Lima y Villanueva en el departamento de Cortés. \n\n Las raciones de alimento incluían: arroz, harina de maíz, frijoles, azúcar, café y otros insumos de la canasta básica \n\n Alex Amaya, vocero de Masxmenos, destacó que \"somos una empresa que comparte valor y procuramos mejorar la calidad de vida de las familias hondureñas y, en ese espíritu, la Fundación  ha donado, en total, **1.2 millones de lempiras para ayudas humanitaria a las familias afectadas por la emergencia\"**."
     }
   },
 
@@ -2795,7 +2795,7 @@
   "rich-text#modal2-row1-col2-content": {
     "props": {
       "blockClass": "content-modal",
-      "text": "Por su parte, Jorge Galeano, director ejecutivo de World Vision Honduras dijo: \"Ahora en tiempos de crisis por el COVID-19, Fundación Walmart y Masxmenos Honduras continúa mostrando su firme compromiso con la comunidad por lo que nos sentimos sumamente agradecidos y orgullosos de sumar esfuerzos para llegar a las poblaciones más vulnerables y al equipo médico que está en primera línea atendiendo esta emergencia\". \n\n Destacó que, en Honduras, World Vision ha trabajado por más de cuatro décadas brindando ayuda humanitaria a la niñez, las familias y las comunidades para reducir la pobreza y la injusticia. \n\n Este apoyo está directamente relacionado con los Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas, especificamente con los que atañen a **Fin de la Pobreza; Cero Hambre y Alianzas para Lograr los Objetivos.**"
+      "text": "Por su parte, Jorge Galeano, director ejecutivo de World Vision Honduras dijo: \"Ahora en tiempos de crisis por el COVID-19, Fundación  y Masxmenos Honduras continúa mostrando su firme compromiso con la comunidad por lo que nos sentimos sumamente agradecidos y orgullosos de sumar esfuerzos para llegar a las poblaciones más vulnerables y al equipo médico que está en primera línea atendiendo esta emergencia\". \n\n Destacó que, en Honduras, World Vision ha trabajado por más de cuatro décadas brindando ayuda humanitaria a la niñez, las familias y las comunidades para reducir la pobreza y la injusticia. \n\n Este apoyo está directamente relacionado con los Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas, especificamente con los que atañen a **Fin de la Pobreza; Cero Hambre y Alianzas para Lograr los Objetivos.**"
     }
   },
 
@@ -2872,23 +2872,23 @@
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion3.jpg",
       "title": "masxmenos mex 1",
-      "blockClass": "image-walmartmex"
+      "blockClass": "image-mex"
     }
   },
 
   "flex-layout.col#content-box-covid-19-6": {
     "children": [
       "modal-trigger#modal3-item-wlt-1",
-      "rich-text#box-walmartmex-6-1"
+      "rich-text#box-mex-6-1"
     ],
     "props": {
       "blockClass": "content-modal-row"
     }
   },
-  "rich-text#box-walmartmex-6-1": {
-    "title": "subtitle 6 walmartmex",
+  "rich-text#box-mex-6-1": {
+    "title": "subtitle 6 mex",
     "props": {
-      "blockClass": "walmartmex-title-blue",
+      "blockClass": "mex-title-blue",
       "text": "En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes, asociados y comunidad."
     }
   },
@@ -2917,7 +2917,7 @@
       "rich-text#modal3-row3-col1-footer"
     ],
     "props": {
-      "blockClass": ["modal-covid-walmart", "modal-covid-walmart-last"]
+      "blockClass": ["modal-covid-", "modal-covid--last"]
     }
   },
 
@@ -3066,23 +3066,23 @@
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion4.jpg",
       "title": "masxmenos mex 1",
-      "blockClass": "image-walmartmex"
+      "blockClass": "image-mex"
     }
   },
 
   "flex-layout.col#content-box-covid-19-8": {
     "children": [
       "modal-trigger#modal4-item-wlt-1",
-      "rich-text#box-walmartmex-8-1"
+      "rich-text#box-mex-8-1"
     ],
     "props": {
       "blockClass": "content-modal-row"
     }
   },
-  "rich-text#box-walmartmex-8-1": {
-    "title": "subtitle 6 walmartmex",
+  "rich-text#box-mex-8-1": {
+    "title": "subtitle 6 mex",
     "props": {
-      "blockClass": "walmartmex-title-blue",
+      "blockClass": "mex-title-blue",
       "text": "Tegucigalpa, 8 de junio, 2020. En el marco de la alerta sanitaria por el COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes y asociados."
     }
   },
@@ -3097,7 +3097,7 @@
   "rich-text#modal4-item-wlt-1-link": {
     "props": {
       "blockClass": "wlt-title-link-modal",
-      "text": "**Fundación Walmart entrega donación de insumos médicos a hospital El Tórax**",
+      "text": "**Fundación  entrega donación de insumos médicos a hospital El Tórax**",
       "textPosition": "LEFT"
     }
   },
@@ -3108,7 +3108,7 @@
       "flex-layout.row#modal4-row1"
     ],
     "props": {
-      "blockClass": ["modal-covid-walmart", "modal-covid-walmart-last"]
+      "blockClass": ["modal-covid-", "modal-covid--last"]
     }
   },
 
@@ -3147,7 +3147,7 @@
   "rich-text#modal4-row1-col1-content": {
     "props": {
       "blockClass": "content-modal",
-      "text": "**Tegucigalpa, 8 de junio, 2020.** En el marco de la alerta sanitaria por el COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes y asociados. En ese espíritu y con el apoyo de World Vision, este día se entregó una donación de insumos médicos al Hospital El Torax de Tegucigalpa. \n\n La donación incluye insumos como guantes no estériles látex, mascarillas quirúrgicas, batas no estériles, trajes de bioseguridad, gafas protectoras plásticas, gorros descartables, spray desinfectante, catéteres, paquetes preparados de alcohol, termómetros digitales, jeringas, esparadrapos, supresores de lengua y algodón. \n\n En el acto participaron la Ministra de Salud, Alba Consuelo Flores, Yovani Méndez, vocero de Masxmenos Honduras y Jorge Galeano, Director Ejecutivo de World Vision Honduras. \n\n Yovani Méndez, vocero de Masxmenos, destacó \"entendemos la demanda de insumos médicos que genera la atención por el COVID-19 y como empresa nos solidarizamos con el país realizando este aporte que estamos seguros beneficiará en gran medida a este centro de salud\". \n\n Por su parte, Jorge Galeano, Director Ejecutivo de World Vision Honduras dijo: \"Ahora en tiempos de crisis por el COVID-19, Fundación Walmart y Masxmenos Honduras continúa mostrando su firme compromiso con la comunidad por lo que nos sentimos sumamente agradecidos y orgullosos de sumar esfuerzos para llegar al equipo médico que está en primera línea atendiendo esta emergencia y apoyar a los pacientes que están siendo tratados en el Hospital El Torax.\""
+      "text": "**Tegucigalpa, 8 de junio, 2020.** En el marco de la alerta sanitaria por el COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias centroamericanas en un entorno seguro para sus clientes y asociados. En ese espíritu y con el apoyo de World Vision, este día se entregó una donación de insumos médicos al Hospital El Torax de Tegucigalpa. \n\n La donación incluye insumos como guantes no estériles látex, mascarillas quirúrgicas, batas no estériles, trajes de bioseguridad, gafas protectoras plásticas, gorros descartables, spray desinfectante, catéteres, paquetes preparados de alcohol, termómetros digitales, jeringas, esparadrapos, supresores de lengua y algodón. \n\n En el acto participaron la Ministra de Salud, Alba Consuelo Flores, Yovani Méndez, vocero de Masxmenos Honduras y Jorge Galeano, Director Ejecutivo de World Vision Honduras. \n\n Yovani Méndez, vocero de Masxmenos, destacó \"entendemos la demanda de insumos médicos que genera la atención por el COVID-19 y como empresa nos solidarizamos con el país realizando este aporte que estamos seguros beneficiará en gran medida a este centro de salud\". \n\n Por su parte, Jorge Galeano, Director Ejecutivo de World Vision Honduras dijo: \"Ahora en tiempos de crisis por el COVID-19, Fundación  y Masxmenos Honduras continúa mostrando su firme compromiso con la comunidad por lo que nos sentimos sumamente agradecidos y orgullosos de sumar esfuerzos para llegar al equipo médico que está en primera línea atendiendo esta emergencia y apoyar a los pacientes que están siendo tratados en el Hospital El Torax.\""
     }
   },
 
@@ -3212,23 +3212,23 @@
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion5.jpg",
       "title": "masxmenos mex 1",
-      "blockClass": "image-walmartmex"
+      "blockClass": "image-mex"
     }
   },
 
   "flex-layout.col#content-box-covid-19-10": {
     "children": [
       "modal-trigger#modal5-item-wlt-1",
-      "rich-text#box-walmartmex-10-1"
+      "rich-text#box-mex-10-1"
     ],
     "props": {
       "blockClass": "content-modal-row"
     }
   },
-  "rich-text#box-walmartmex-10-1": {
-    "title": "subtitle 6 walmartmex",
+  "rich-text#box-mex-10-1": {
+    "title": "subtitle 6 mex",
     "props": {
-      "blockClass": "walmartmex-title-blue",
+      "blockClass": "mex-title-blue",
       "text": "En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes y asociados."
     }
   },
@@ -3243,7 +3243,7 @@
   "rich-text#modal5-item-wlt-1-link": {
     "props": {
       "blockClass": "wlt-title-link-modal",
-      "text": "**Fundación Walmart y World Vision entregan insumos de bioseguridad para áreas de salud**",
+      "text": "**Fundación  y World Vision entregan insumos de bioseguridad para áreas de salud**",
       "textPosition": "LEFT"
     }
   },
@@ -3254,7 +3254,7 @@
       "flex-layout.row#modal5-row1"
     ],
     "props": {
-      "blockClass": ["modal-covid-walmart", "modal-covid-walmart-last"]
+      "blockClass": ["modal-covid-", "modal-covid--last"]
     }
   },
 
@@ -3279,7 +3279,7 @@
   "rich-text#modal5-row1-col1-title": {
     "props": {
       "blockClass": "title-modal",
-      "text": "Fundación Walmart y World Vision entregan insumos de bioseguridad para áreas de salud"
+      "text": "Fundación  y World Vision entregan insumos de bioseguridad para áreas de salud"
     }
   },
 
@@ -3293,7 +3293,7 @@
   "rich-text#modal5-row1-col1-content": {
     "props": {
       "blockClass": "content-modal",
-      "text": "También se entregaron alimentos para familias de La Unión, Zacapa Comunicado válido para Guatemala \n\n **Guatemala 10 de junio 2020.** En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes y asociados. En este espíritu, comunica que convencidos de que es momento de trabajar juntos y que el apoyo para quienes están en la primera línea en el combate al coronavirus es crucial, Fundación Walmart y World Vision Guatemala han unido esfuerzos para llevar **kits de bioseguridad a 10 Direcciones de Área de Salud** –DAS-, que fueron entregados este día al Ministerio de Salud Pública y Asistencia Social. \n\n Cada kit de bioseguridad consiste en 5 termómetros digitales, 240 gorros desechables, 40 cajas de guantes desechables, 120 lentes protectores, 240 batas médicas de seguridad, 240 mascarillas quirúrgicas y 240 cobertores de zapatos. La donación total está valorada en Q308,000.00 aportados por la Fundación Walmart y canalizados a través de World Vision. \"Uno de los pilares de Masxmenos es contribuir a mejorar la calidad de vida de las comunidades. En este sentido, esperamos que estos insumos puedan ser un apoyo para el Ministerio de Salud y su personal médico, quienes son en estos momentos las personas más expuestas al COVID-19, y quienes también desempeñan una labor muy importante en el combate contra el virus\" indicó Luis Arturo Ramírez, vocero de Masxmenos México y Centroamérica. \n\n Los insumos médicos serán entregados en las DAS de San Marcos, Huehuetenango, Totonicapán, Quetzaltenango, Sololá, Chimaltenango, Guatemala, Jutiapa, Chiquimula y Zacapa y **se impactará la salud de 30 mil personas** que son atendidas en estas Direcciones de Área. \n\n \"En esta crisis de salud global, es vital el trabajo coordinado y las alianzas estratégicas entre el sector privado, el gobierno y el sector sin fines de lucro por el bienestar de los más vulnerables, ya sea por su exposición a COVID-19 o porque sufren los efectos colaterales de la pandemia\" explicó Yvan Castro, Subdirector World Vision Guatemala \n\n Esta alianza también permitió la gestión de **raciones alimenticias para 430 familias en 26 comunidades de La Unión**, municipio del departamento de Zacapa y que fueron entregadas simbólicamente a la Secretaría de Seguridad Alimentaria Nutricional –SESAN-"
+      "text": "También se entregaron alimentos para familias de La Unión, Zacapa Comunicado válido para Guatemala \n\n **Guatemala 10 de junio 2020.** En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes y asociados. En este espíritu, comunica que convencidos de que es momento de trabajar juntos y que el apoyo para quienes están en la primera línea en el combate al coronavirus es crucial, Fundación  y World Vision Guatemala han unido esfuerzos para llevar **kits de bioseguridad a 10 Direcciones de Área de Salud** –DAS-, que fueron entregados este día al Ministerio de Salud Pública y Asistencia Social. \n\n Cada kit de bioseguridad consiste en 5 termómetros digitales, 240 gorros desechables, 40 cajas de guantes desechables, 120 lentes protectores, 240 batas médicas de seguridad, 240 mascarillas quirúrgicas y 240 cobertores de zapatos. La donación total está valorada en Q308,000.00 aportados por la Fundación  y canalizados a través de World Vision. \"Uno de los pilares de Masxmenos es contribuir a mejorar la calidad de vida de las comunidades. En este sentido, esperamos que estos insumos puedan ser un apoyo para el Ministerio de Salud y su personal médico, quienes son en estos momentos las personas más expuestas al COVID-19, y quienes también desempeñan una labor muy importante en el combate contra el virus\" indicó Luis Arturo Ramírez, vocero de Masxmenos México y Centroamérica. \n\n Los insumos médicos serán entregados en las DAS de San Marcos, Huehuetenango, Totonicapán, Quetzaltenango, Sololá, Chimaltenango, Guatemala, Jutiapa, Chiquimula y Zacapa y **se impactará la salud de 30 mil personas** que son atendidas en estas Direcciones de Área. \n\n \"En esta crisis de salud global, es vital el trabajo coordinado y las alianzas estratégicas entre el sector privado, el gobierno y el sector sin fines de lucro por el bienestar de los más vulnerables, ya sea por su exposición a COVID-19 o porque sufren los efectos colaterales de la pandemia\" explicó Yvan Castro, Subdirector World Vision Guatemala \n\n Esta alianza también permitió la gestión de **raciones alimenticias para 430 familias en 26 comunidades de La Unión**, municipio del departamento de Zacapa y que fueron entregadas simbólicamente a la Secretaría de Seguridad Alimentaria Nutricional –SESAN-"
     }
   },
 
@@ -3358,23 +3358,23 @@
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion6.jpg",
       "title": "masxmenos mex 19",
-      "blockClass": "image-walmartmex"
+      "blockClass": "image-mex"
     }
   },
 
   "flex-layout.col#content-box-covid-19-12": {
     "children": [
       "modal-trigger#modal6-item-wlt-1",
-      "rich-text#box-walmartmex-12-1"
+      "rich-text#box-mex-12-1"
     ],
     "props": {
       "blockClass": "content-modal-row"
     }
   },
-  "rich-text#box-walmartmex-12-1": {
-    "title": "subtitle 12 walmartmex",
+  "rich-text#box-mex-12-1": {
+    "title": "subtitle 12 mex",
     "props": {
-      "blockClass": "walmartmex-title-blue",
+      "blockClass": "mex-title-blue",
       "text": "En medio de la afectación sanitaria del Covid-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes, asociados y proveedores."
     }
   },
@@ -3389,7 +3389,7 @@
   "rich-text#modal6-item-wlt-1-link": {
     "props": {
       "blockClass": "wlt-title-link-modal",
-      "text": "**Fundación Walmart y World Vision concretan donación en Nicaragua**",
+      "text": "**Fundación  y World Vision concretan donación en Nicaragua**",
       "textPosition": "LEFT"
     }
   },
@@ -3402,7 +3402,7 @@
       "flex-layout.row#modal6-row2"
     ],
     "props": {
-      "blockClass": ["modal-covid-walmart", "modal-covid-walmart-last"]
+      "blockClass": ["modal-covid-", "modal-covid--last"]
     }
   },
 
@@ -3427,21 +3427,21 @@
   "rich-text#modal6-row1-col1-title": {
     "props": {
       "blockClass": "title-modal",
-      "text": "Fundación Walmart y World Vision concretan donación en Nicaragua"
+      "text": "Fundación  y World Vision concretan donación en Nicaragua"
     }
   },
 
   "rich-text#modal6-row1-col1-subtitle": {
     "props": {
       "blockClass": "subtitle-modal",
-      "text": "**Familias del municipio de San Ramón, en Matagalpa, y Cruz Roja son los beneficiados directos de los casi 2 millones de córdobas destinados por la Fundación Walmart** \n\n Comunicado válido para Nicaragua"
+      "text": "**Familias del municipio de San Ramón, en Matagalpa, y Cruz Roja son los beneficiados directos de los casi 2 millones de córdobas destinados por la Fundación ** \n\n Comunicado válido para Nicaragua"
     }
   },
 
   "rich-text#modal6-row1-col1-content": {
     "props": {
       "blockClass": "content-modal",
-      "text": "**Managua, junio de 2020** – En medio de la afectación sanitaria del Covid-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes, asociados y proveedores. En este espíritu, comunica que Fundación Walmart ha concluido la entrega de **224 kits de higiene para las familias del municipio de San Ramón**, Matagalpa, como parte del monto total de C$1,710,450 entregado a World Vision para apoyar a esta población en condiciones de vulnerabilidad ante el Covid-19 y adquirir **equipos e insumos médicos destinados a la Cruz Roja Nicaragüense.** \n\n \"Consciente de la afectación sanitaria y humanitaria por la pandemia del Covid-19, Masxmenos de México y Centroamérica continúa realizando esfuerzos para mitigar la propagación del virus en la región. Por ello, en todos los países centroamericanos nos apoyamos en **World Vision** para canalizar el aporte de la Fundación Walmart, pues sabíamos que con ellos, por su trabajo social en los territorios más vulnerables, la donación tendría un verdadero impacto en las poblaciones que carecen del acceso a los insumos necesarios, como mascarillas, jabón para las manos, cloro, detergentes, entre otros, para prevenir el Covid-19\", refirió Richard Lugo, Gerente de Asuntos Corporativos de Masxmenos en Nicaragua. \n\n \"En World Vision, estamos agradecidos con Masxmenos de México y Centroamérica por la confianza depositada para canalizar los recursos económicos de este millonario **donativo que destinó Fundación Walmart para Nicaragua**. Además, hemos cumplido a cabalidad, y antes del periodo planificado, con la entrega de cada uno de los kits que se adquirieron, por lo que estamos doblemente orgullosos del enorme esfuerzo, alma y corazón que pusimos en este proyecto pues en definitiva la situación lo ameritaba y el tiempo ante el Covid-19 es apremiante\", señaló Oscar Chicas, Director Ejecutivo de World Vision en Nicaragua."
+      "text": "**Managua, junio de 2020** – En medio de la afectación sanitaria del Covid-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes, asociados y proveedores. En este espíritu, comunica que Fundación  ha concluido la entrega de **224 kits de higiene para las familias del municipio de San Ramón**, Matagalpa, como parte del monto total de C$1,710,450 entregado a World Vision para apoyar a esta población en condiciones de vulnerabilidad ante el Covid-19 y adquirir **equipos e insumos médicos destinados a la Cruz Roja Nicaragüense.** \n\n \"Consciente de la afectación sanitaria y humanitaria por la pandemia del Covid-19, Masxmenos de México y Centroamérica continúa realizando esfuerzos para mitigar la propagación del virus en la región. Por ello, en todos los países centroamericanos nos apoyamos en **World Vision** para canalizar el aporte de la Fundación , pues sabíamos que con ellos, por su trabajo social en los territorios más vulnerables, la donación tendría un verdadero impacto en las poblaciones que carecen del acceso a los insumos necesarios, como mascarillas, jabón para las manos, cloro, detergentes, entre otros, para prevenir el Covid-19\", refirió Richard Lugo, Gerente de Asuntos Corporativos de Masxmenos en Nicaragua. \n\n \"En World Vision, estamos agradecidos con Masxmenos de México y Centroamérica por la confianza depositada para canalizar los recursos económicos de este millonario **donativo que destinó Fundación  para Nicaragua**. Además, hemos cumplido a cabalidad, y antes del periodo planificado, con la entrega de cada uno de los kits que se adquirieron, por lo que estamos doblemente orgullosos del enorme esfuerzo, alma y corazón que pusimos en este proyecto pues en definitiva la situación lo ameritaba y el tiempo ante el Covid-19 es apremiante\", señaló Oscar Chicas, Director Ejecutivo de World Vision en Nicaragua."
     }
   },
 
@@ -3557,23 +3557,23 @@
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion7.jpg",
       "title": "masxmenos mex 7",
-      "blockClass": "image-walmartmex"
+      "blockClass": "image-mex"
     }
   },
 
   "flex-layout.col#content-box-covid-19-14": {
     "children": [
       "modal-trigger#modal7-item-wlt-1",
-      "rich-text#box-walmartmex-14-1"
+      "rich-text#box-mex-14-1"
     ],
     "props": {
       "blockClass": "content-modal-row"
     }
   },
-  "rich-text#box-walmartmex-14-1": {
-    "title": "subtitle 14 walmartmex",
+  "rich-text#box-mex-14-1": {
+    "title": "subtitle 14 mex",
     "props": {
-      "blockClass": "walmartmex-title-blue",
+      "blockClass": "mex-title-blue",
       "text": "En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes y asociados."
     }
   },
@@ -3588,7 +3588,7 @@
   "rich-text#modal7-item-wlt-1-link": {
     "props": {
       "blockClass": "wlt-title-link-modal",
-      "text": "**Fundación Walmart dona trajes de bioprotección al Ministerio de Salud**",
+      "text": "**Fundación  dona trajes de bioprotección al Ministerio de Salud**",
       "textPosition": "LEFT"
     }
   },
@@ -3599,7 +3599,7 @@
       "flex-layout.row#modal7-row1"
     ],
     "props": {
-      "blockClass": ["modal-covid-walmart", "modal-covid-walmart-last"]
+      "blockClass": ["modal-covid-", "modal-covid--last"]
     }
   },
 
@@ -3625,7 +3625,7 @@
   "rich-text#modal7-row1-col1-title": {
     "props": {
       "blockClass": "title-modal",
-      "text": "Fundación Walmart dona trajes de bioprotección al Ministerio de Salud"
+      "text": "Fundación  dona trajes de bioprotección al Ministerio de Salud"
     }
   },
 
@@ -3639,7 +3639,7 @@
   "rich-text#modal7-row1-col1-content": {
     "props": {
       "blockClass": "content-modal",
-      "text": "**San Salvador, 15 de junio de 2020**. En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes y asociados. En este espíritu, la Fundación Walmart donará $50 mil para ayudar a los salvadoreños, **mediante la distribución de equipos de bioprotección y ayuda humanitaria en alimentos,ante la difícil situación provocada por el COVID-19**. \n\n Los recursos, que serán canalizados a través de **World Vision**, serán destinados al **Ministerio de Salud** con el objetivo de proteger la salud y promover una mayor calidad de vida entre la población más necesitada. \n\n **El 80% de la ayuda se dirigió al sector salud** con equipo de bioprotección para el beneficio de hospitales en San Salvador indicados por el Ministerio de Salud, y el **20% se destinó a alimentos para familias** de riesgo extremo en Municipalidad de Soyapango. \n\n Los recursos se han ejecutado entre los meses de mayo a julio de este año. Esto se suma a los $99.000 que Masxmenos de México y Centroamérica ha donado durante el primer trimestre del 2020 en el país al Banco de Alimentos y a entidades de gobierno y otras organizaciones en alimentos, consumo, cuidado personal, limpieza, y kits de bioprotección. En total, Masxmenos contabiliza $149.000 en aportes en el país. \n\n Claudia de Ibáñez, gerente de Asuntos Corporativos de Masxmenos El Salvador destacó que sin duda en momentos tan apremiantes se trata de una valiosa ayuda de la Fundación Walmart, una organización sin ánimo de lucro que canaliza recursos para ayudar a las comunidades más necesitadas. \n\n Los equipos médicos donados en El Salvador son: **278 trajes de seguridad categoría III que incluye cubre zapatos, mascarilla N95 certificada FDA, guantes de Nitrilo, gafas protectoras 3M, pantalla de protección facial**. \n\n Masxmenos además ha entregado **100 paquetes alimentarios de consumo básico** que incluyen avena en hojuela, espaguetis, arroz, salsa naturas, sal, azúcar, cereal, aceite, sopas instantáneas, sardina, frijol y una bolsa reutilizable, esto como parte de la ayuda humanitaria en alimentos, ante la difícil situación provocada por el COVID-19, beneficiando a comunidades de Soyapango."
+      "text": "**San Salvador, 15 de junio de 2020**. En el marco de la alerta sanitaria del COVID-19, Masxmenos de México y Centroamérica procura garantizar el abasto adecuado de productos de primera necesidad para las familias del país en un entorno seguro para sus clientes y asociados. En este espíritu, la Fundación  donará $50 mil para ayudar a los salvadoreños, **mediante la distribución de equipos de bioprotección y ayuda humanitaria en alimentos,ante la difícil situación provocada por el COVID-19**. \n\n Los recursos, que serán canalizados a través de **World Vision**, serán destinados al **Ministerio de Salud** con el objetivo de proteger la salud y promover una mayor calidad de vida entre la población más necesitada. \n\n **El 80% de la ayuda se dirigió al sector salud** con equipo de bioprotección para el beneficio de hospitales en San Salvador indicados por el Ministerio de Salud, y el **20% se destinó a alimentos para familias** de riesgo extremo en Municipalidad de Soyapango. \n\n Los recursos se han ejecutado entre los meses de mayo a julio de este año. Esto se suma a los $99.000 que Masxmenos de México y Centroamérica ha donado durante el primer trimestre del 2020 en el país al Banco de Alimentos y a entidades de gobierno y otras organizaciones en alimentos, consumo, cuidado personal, limpieza, y kits de bioprotección. En total, Masxmenos contabiliza $149.000 en aportes en el país. \n\n Claudia de Ibáñez, gerente de Asuntos Corporativos de Masxmenos El Salvador destacó que sin duda en momentos tan apremiantes se trata de una valiosa ayuda de la Fundación , una organización sin ánimo de lucro que canaliza recursos para ayudar a las comunidades más necesitadas. \n\n Los equipos médicos donados en El Salvador son: **278 trajes de seguridad categoría III que incluye cubre zapatos, mascarilla N95 certificada FDA, guantes de Nitrilo, gafas protectoras 3M, pantalla de protección facial**. \n\n Masxmenos además ha entregado **100 paquetes alimentarios de consumo básico** que incluyen avena en hojuela, espaguetis, arroz, salsa naturas, sal, azúcar, cereal, aceite, sopas instantáneas, sardina, frijol y una bolsa reutilizable, esto como parte de la ayuda humanitaria en alimentos, ante la difícil situación provocada por el COVID-19, beneficiando a comunidades de Soyapango."
     }
   },
 

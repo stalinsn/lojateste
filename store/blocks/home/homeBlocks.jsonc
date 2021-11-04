@@ -4,7 +4,7 @@
     "children": ["list-context.image-list#main-slider"],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart"]
+      "blockClass": ["row-"]
     }
   },
   "list-context.image-list#main-slider": {
@@ -667,7 +667,7 @@
     ],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart"]
+      "blockClass": ["row-"]
     }
   },
   "list-context.image-list#slider-4-images-mobile": {

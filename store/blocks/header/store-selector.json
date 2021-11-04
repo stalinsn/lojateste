@@ -7,7 +7,7 @@
         {
           "name": "MXM Alajuela",
           "__editorItemTitle": "MXM Alajuela",
-          "sellerId": "walmartcrsp3031",
+          "sellerId": "crsp3031",
           "provincia": "Alajuela",
           "canton": "Alajuela",
           "distrito": "Alajuela",
@@ -18,7 +18,7 @@
         {
           "name": "MXM Barrio San Jose",
           "__editorItemTitle": "MXM Barrio San Jose",
-          "sellerId": "walmartcrsp4430",
+          "sellerId": "crsp4430",
           "provincia": "Alajuela",
           "canton": "Alajuela",
           "distrito": "San José",
@@ -29,7 +29,7 @@
         {
           "name": "MXM Grecia",
           "__editorItemTitle": "MXM Grecia",
-          "sellerId": "walmartcrsp736",
+          "sellerId": "crsp736",
           "provincia": "Alajuela",
           "canton": "Grecia",
           "distrito": "Grecia",
@@ -40,7 +40,7 @@
         {
           "name": "MXM San Ramon",
           "__editorItemTitle": "MXM San Ramon",
-          "sellerId": "walmartcrsp4429",
+          "sellerId": "crsp4429",
           "provincia": "Alajuela",
           "canton": "San Ramón",
           "distrito": "San Rafael",
@@ -52,7 +52,7 @@
           "name": "MXM Tejar",
           "__editorItemTitle": "MXM Tejar",
           "pickupOnly": true,
-          "sellerId": "walmartcrsp776",
+          "sellerId": "crsp776",
           "provincia": "Cartago",
           "canton": "El Guarco",
           "distrito": "Tejar",
@@ -63,7 +63,7 @@
         {
           "name": "MxM CARTAGO",
           "__editorItemTitle": "MxM CARTAGO",
-          "sellerId": "walmartcrsp3030",
+          "sellerId": "crsp3030",
           "provincia": "Cartago",
           "canton": "Cartago",
           "distrito": "Occidental",
@@ -75,7 +75,7 @@
           "name": "MXM TRES RIOS",
           "__editorItemTitle": "MXM TRES RIOS",
           "pickupOnly": true,
-          "sellerId": "walmartcrsp4243",
+          "sellerId": "crsp4243",
           "provincia": "Cartago",
           "canton": "La Unión",
           "distrito": "Tres Ríos",
@@ -86,7 +86,7 @@
         {
           "name": "MxM HEREDIA",
           "__editorItemTitle": "MxM HEREDIA",
-          "sellerId": "walmartcrsp3036",
+          "sellerId": "crsp3036",
           "provincia": "Heredia",
           "canton": "Heredia",
           "distrito": "Heredia",
@@ -98,7 +98,7 @@
           "name": "MxM SAN JOAQUIN",
           "__editorItemTitle": "MxM SAN JOAQUIN",
           "pickupOnly": true,
-          "sellerId": "walmartcrsp4426",
+          "sellerId": "crsp4426",
           "provincia": "Heredia",
           "canton": "Heredia",
           "distrito": "San Francisco",
@@ -109,7 +109,7 @@
         {
           "name": "MXM SAN PABLO NORTE",
           "__editorItemTitle": "MXM SAN PABLO NORTE",
-          "sellerId": "walmartcrsp4431",
+          "sellerId": "crsp4431",
           "provincia": "Heredia",
           "canton": "San Pablo",
           "distrito": "San Pablo",
@@ -120,7 +120,7 @@
         {
           "name": "MxM SANTO DOMINGO HEREDIA",
           "__editorItemTitle": "MxM SANTO DOMINGO HEREDIA",
-          "sellerId": "walmartcrsp4005",
+          "sellerId": "crsp4005",
           "provincia": "Heredia",
           "canton": "Santo Domingo",
           "distrito": "San Vicente",
@@ -131,7 +131,7 @@
         {
           "name": "MXM BELEN",
           "__editorItemTitle": "MXM BELEN",
-          "sellerId": "walmartcrsp4216",
+          "sellerId": "crsp4216",
           "provincia": "Heredia",
           "canton": "Belen",
           "distrito": "San Antonio",
@@ -142,7 +142,7 @@
         {
           "name": "MxM HEREDIA SUR",
           "__editorItemTitle": "MxM HEREDIA SUR",
-          "sellerId": "walmartcrsp4404",
+          "sellerId": "crsp4404",
           "provincia": "Heredia",
           "canton": "Heredia",
           "distrito": "Ulloa",
@@ -153,7 +153,7 @@
         {
           "name": "MXM GUAPILES",
           "__editorItemTitle": "MXM GUAPILES",
-          "sellerId": "walmartcrsp3038",
+          "sellerId": "crsp3038",
           "provincia": "Limon",
           "canton": "Pococi",
           "distrito": "Guapiles",
@@ -164,7 +164,7 @@
         {
           "name": "MXM LIMÓN",
           "__editorItemTitle": "MXM LIMÓN",
-          "sellerId": "walmartcrsp3039",
+          "sellerId": "crsp3039",
           "provincia": "Limon",
           "canton": "Limon",
           "distrito": "Limon",
@@ -175,7 +175,7 @@
         {
           "name": "MxM JACO",
           "__editorItemTitle": "MxM JACO",
-          "sellerId": "walmartcrsp3040",
+          "sellerId": "crsp3040",
           "provincia": "Puntarenas",
           "canton": "Garabito",
           "distrito": "Jaco",
@@ -186,7 +186,7 @@
         {
           "name": "MXM GRANJA",
           "__editorItemTitle": "MXM GRANJA",
-          "sellerId": "walmartcrsp3025",
+          "sellerId": "crsp3025",
           "pickupOnly": true,
           "provincia": "San José",
           "canton": "Montes de Oca",
@@ -198,7 +198,7 @@
         {
           "name": "MxM SAN GERARDO",
           "__editorItemTitle": "MxM SAN GERARDO",
-          "sellerId": "walmartcrsp3028",
+          "sellerId": "crsp3028",
           "provincia": "San José",
           "canton": "Goicoechea",
           "distrito": "Guadalupe",
@@ -209,7 +209,7 @@
         {
           "name": "MxM SABANA",
           "__editorItemTitle": "MxM SABANA",
-          "sellerId": "walmartcrsp3043",
+          "sellerId": "crsp3043",
           "provincia": "San José",
           "canton": "San José",
           "distrito": "Merced",
@@ -220,7 +220,7 @@
         {
           "name": "MXM HACIENDA VIEJA",
           "__editorItemTitle": "MXM HACIENDA VIEJA",
-          "sellerId": "walmartcrsp719",
+          "sellerId": "crsp719",
           "provincia": "San José",
           "canton": "Curridabat",
           "distrito": "Curridabat",
@@ -231,7 +231,7 @@
         {
           "name": "MxM GUAYABOS",
           "__editorItemTitle": "MxM GUAYABOS",
-          "sellerId": "walmartcrsp777",
+          "sellerId": "crsp777",
           "provincia": "San José",
           "canton": "Curridabat",
           "distrito": "Curridabat",
@@ -242,7 +242,7 @@
         {
           "name": "MxM SABANILLA",
           "__editorItemTitle": "MxM SABANILLA",
-          "sellerId": "walmartcrsp3032",
+          "sellerId": "crsp3032",
           "provincia": "San José",
           "canton": "Montes de Oca",
           "distrito": "Sabanilla",
@@ -253,7 +253,7 @@
         {
           "name": "MxM CORONADO",
           "__editorItemTitle": "MxM CORONADO",
-          "sellerId": "walmartcrsp3033",
+          "sellerId": "crsp3033",
           "provincia": "San José",
           "canton": "Vazquez de Coronado",
           "distrito": "San Isidro",
@@ -264,7 +264,7 @@
         {
           "name": "MxM SANTA ANA",
           "__editorItemTitle": "MxM SANTA ANA",
-          "sellerId": "walmartcrsp4076",
+          "sellerId": "crsp4076",
           "provincia": "San José",
           "canton": "Santa Ana",
           "distrito": "Santa Ana",
@@ -275,7 +275,7 @@
         {
           "name": "MXM GUACHIPELIN",
           "__editorItemTitle": "MXM GUACHIPELIN",
-          "sellerId": "walmartcrsp4330",
+          "sellerId": "crsp4330",
           "provincia": "San José",
           "canton": "San Rafael",
           "distrito": "San Rafael",
@@ -287,7 +287,7 @@
           "name": "MxM CIUDAD COLON",
           "__editorItemTitle": "MxM CIUDAD COLON",
           "pickupOnly": true,
-          "sellerId": "walmartcrsp4424",
+          "sellerId": "crsp4424",
           "provincia": "San José",
           "canton": "Mora",
           "distrito": "Colon",
@@ -298,7 +298,7 @@
         {
           "name": "MXM DESAMPARADOS",
           "__editorItemTitle": "MXM DESAMPARADOS",
-          "sellerId": "walmartcrsp3024",
+          "sellerId": "crsp3024",
           "provincia": "San José",
           "canton": "Desamparados",
           "distrito": "Desamparados",

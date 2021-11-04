@@ -44,7 +44,7 @@
 
   "rich-text#text-notice": {
     "props": {
-      "text": "Al suscribirme acepto el **[Aviso de Privacidad](/aviso-de-privacidad-ecommerce)** y los **[Términos y Condiciones](/terminos-y-condiciones-de-compra),** así como el envío de noticias y promociones exclusivas de Walmart.",
+      "text": "Al suscribirme acepto el **[Aviso de Privacidad](/aviso-de-privacidad-ecommerce)** y los **[Términos y Condiciones](/terminos-y-condiciones-de-compra),** así como el envío de noticias y promociones exclusivas de .",
       "blockClass": "notice"
     }
   },

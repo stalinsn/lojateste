@@ -99,7 +99,7 @@
   },
   "rich-text#tarjeta-credito-texto-linea1": {
     "props": {
-      "text": "Ahorrá más en tus compras y obtené beneficios exclusivos con tu tarjeta Walmart.",
+      "text": "Ahorrá más en tus compras y obtené beneficios exclusivos con tu tarjeta .",
       "blockClass": "text-pag-tarjeta-credito"
     }
   },
@@ -145,7 +145,7 @@
   },
   "rich-text#tarjeta-credito-item1-linea2": {
     "props": {
-      "text": "Disfrutá de <span class='vtex-rich-text-0-x-paragraph--textomediano'>5% de ahorro</span> en Walmart Cash al comprar en Masxmenos.<br><br> 1% en Walmart Cash en otros comercios.",
+      "text": "Disfrutá de <span class='vtex-rich-text-0-x-paragraph--textomediano'>5% de ahorro</span> en  Cash al comprar en Masxmenos.<br><br> 1% en  Cash en otros comercios.",
       "blockClass": "como-comprar-white-text"
     }
   },
@@ -353,7 +353,7 @@
   },
   "rich-text#tarjeta-credito-item5-linea2": {
     "props": {
-      "text": "Utilizá tu ahorro en Walmart Cash para realizar compras en nuestras tiendas. Un Walmart Cash equivale a un colón. Consultá el saldo en cajas o en tu estado de cuenta.",
+      "text": "Utilizá tu ahorro en  Cash para realizar compras en nuestras tiendas. Un  Cash equivale a un colón. Consultá el saldo en cajas o en tu estado de cuenta.",
       "blockClass": "como-comprar-white-text"
     }
   },
@@ -443,7 +443,7 @@
   },
   "rich-text#tarjeta-credito-item7-linea2": {
     "props": {
-      "text": "1.Contactá a BAC Credomatic a [2295-9898](tel:22959898).<br> 2.Ingresá [aquí](https://www2.baccredomatic.com/es-cr/personas/tarjetas/supermercados-y-clubes/walmart#amex-clasica?=CRIC-PMAS-WMT-000003-WM-AW-PR-00-000-00-00000/LINK-SITIO-WEB-EXTERNO-SERV-DOMICILIO-SUPER-2020-CR) para solicitarla.",
+      "text": "1.Contactá a BAC Credomatic a [2295-9898](tel:22959898).<br> 2.Ingresá [aquí](https://www2.baccredomatic.com/es-cr/personas/tarjetas/supermercados-y-clubes/#amex-clasica?=CRIC-PMAS-WMT-000003-WM-AW-PR-00-000-00-00000/LINK-SITIO-WEB-EXTERNO-SERV-DOMICILIO-SUPER-2020-CR) para solicitarla.",
       "blockClass": ["como-comprar-white-text", "como-comprar-white-link"]
     }
   },
@@ -549,13 +549,13 @@
   },
   "rich-text#tarjeta-credito-pregunta1-title": {
     "props": {
-      "text": "¿Cómo utilizo mis Walmart Cash?",
+      "text": "¿Cómo utilizo mis  Cash?",
       "blockClass": "tarjeta-credito-pregunta-title"
     }
   },
   "rich-text#tarjeta-credito-pregunta1-text": {
     "props": {
-      "text": "Utilizá tu ahorro de Walmart Cash para realizar compras en nuestras tiendas. Un Walmart Cash equivale a un Colón. Consultá el saldo en cajas o en tu estado de cuenta.",
+      "text": "Utilizá tu ahorro de  Cash para realizar compras en nuestras tiendas. Un  Cash equivale a un Colón. Consultá el saldo en cajas o en tu estado de cuenta.",
       "blockClass": ""
     }
   },
@@ -580,7 +580,7 @@
   },
   "rich-text#tarjeta-credito-pregunta2-title": {
     "props": {
-      "text": "¿Vencen mis Walmart Cash?",
+      "text": "¿Vencen mis  Cash?",
       "blockClass": "tarjeta-credito-pregunta-title"
     }
   },

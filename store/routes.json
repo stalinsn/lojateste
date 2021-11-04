@@ -47,8 +47,8 @@
   "store.custom#financiamiento": {
     "path": "/financiamiento"
   },
-  "store.custom#walmart-te-escucha": {
-    "path": "/walmart-te-escucha"
+  "store.custom#-te-escucha": {
+    "path": "/-te-escucha"
   },
   "store.custom#wishlist-custom": {
     "path": "/wishlist-page"

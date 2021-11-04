@@ -194,7 +194,7 @@
     "children": ["list-context.image-list#main-slider-search"],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart"]
+      "blockClass": ["row-"]
     }
   },
   "rich-text#slider-search-text": {

@@ -89,7 +89,7 @@
     "children": ["list-context.image-list#main-slider-nuestras-marcas"],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart", "banner-principal-nuestras-marcas"]
+      "blockClass": ["row-", "banner-principal-nuestras-marcas"]
     }
   },
   "list-context.image-list#main-slider-nuestras-marcas": {

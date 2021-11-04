@@ -199,11 +199,11 @@
 }
 
 // //Tabs Masxmenos te escucha
-.listContainer--tab-list-home-walmart-te-escucha {
+.listContainer--tab-list-home--te-escucha {
   justify-content: flex-start;
 }
 
-.listItem--tab-walmart-te-escucha {
+.listItem--tab--te-escucha {
   :first-child {
     text-transform: none;
     background: none;
@@ -217,7 +217,7 @@
   }
 }
 
-.listItemActive--tab-walmart-te-escucha {
+.listItemActive--tab--te-escucha {
   border-bottom: 2px #ed1d25 solid;
   padding-bottom: 0;
 }

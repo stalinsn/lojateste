@@ -72,7 +72,7 @@
     "children": ["list-context.image-list#main-slider-bebe-mundo"],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart", "banner-principal-bebe-mundo"]
+      "blockClass": ["row-", "banner-principal-bebe-mundo"]
     }
   },
   "list-context.image-list#main-slider-bebe-mundo": {
@@ -135,7 +135,7 @@
     "children": ["list-context.image-list#cuadros-slider-bebe-mundo"],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart", "banner-cuadros-bebe-mundo"]
+      "blockClass": ["row-", "banner-cuadros-bebe-mundo"]
     }
   },
   "list-context.image-list#cuadros-slider-bebe-mundo": {

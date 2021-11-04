@@ -531,7 +531,7 @@
   },
   "rich-text#tarjeta-regalo-linea3-item3-linea2": {
     "props": {
-      "text": "Para compras mayores a $3,000, comunícate al <span class='vtex-rich-text-0-x-paragraph--textoazul'>(506) 2582-8762</span> o envía tu solicitud a <span class='vtex-rich-text-0-x-paragraph--textoazul'>ventascr@walmart.com</span>. \n\n La vigencia es de un año a partir de su activación o última compra. Ver restricciones al dorso del plástico.",
+      "text": "Para compras mayores a $3,000, comunícate al <span class='vtex-rich-text-0-x-paragraph--textoazul'>(506) 2582-8762</span> o envía tu solicitud a <span class='vtex-rich-text-0-x-paragraph--textoazul'>ventascr@.com</span>. \n\n La vigencia es de un año a partir de su activación o última compra. Ver restricciones al dorso del plástico.",
       "blockClass": "como-comprar-white-text"
     }
   },
