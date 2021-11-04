@@ -67,8 +67,8 @@
     "title": "Infocard - seção 1",
     "props": {
       "isFullModeStyle": true,
-      "imageUrl": "/arquivos/gbarbosa-fire-gas.jpg",
-      "mobileImageUrl": "/arquivos/gbarbosa-fire-gas-mobile.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-fire-gas.jpg",
+      "mobileImageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-fire-gas-mobile.jpg",
       "headline": "Vale gás",
       "subhead": "Comodidade para você não sair de casa",
       "callToActionMode": "none",
@@ -87,8 +87,8 @@
   "info-card#vale-gas-section-2": {
     "title": "Infocard - seção 2",
     "props": {
-      "imageUrl": "/arquivos/gbarbosa-woman-cooking.jpg",
-      "mobileImageUrl": "/arquivos/gbarbosa-woman-cooking-mobile.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-woman-cooking.jpg",
+      "mobileImageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-woman-cooking-mobile.jpg",
       "headline": "O que é o Vale gás?",
       "subhead": "É um cupom que dá ao consumidor o direito de trocá-lo por 1 (um) botijão de gás de 13kg. Você compra o vale em um dos nossos caixas e tem o conforto de receber o gás em sua casa (verifique nas lojas as condições de parcelamento).",
       "callToActionMode": "none",
@@ -98,7 +98,7 @@
   "image#vale-gas": {
     "title": "Imagem central",
     "props": {
-      "src": "/arquivos/gbarbosa-vale-gas.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-vale-gas.png"
     }
   }
 }

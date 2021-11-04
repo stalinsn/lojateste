@@ -122,7 +122,7 @@
   "logo#left": {
     "props": {
       "title": "Icon how to buy",
-      "url": "/arquivos/icon_envio.svg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/icon_envio.svg",
       "blockClass": "icon-head"
     }
   },
@@ -145,7 +145,7 @@
   "logo#right": {
     "props": {
       "title": "Icon contact us",
-      "url": "/arquivos/icon_atencion.svg?v=1",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/icon_atencion.svg?v=1",
       "blockClass": "icon-head"
     }
   },
@@ -179,7 +179,7 @@
     },
     "children": [
       "flex-layout.row#desktop-menu-and-logo",
-      "search-bar",
+      "search-bar", 
       "flex-layout.row#desktop-utils-links",
       "flex-layout.row#desktop-minicart-links"
     ]
@@ -192,7 +192,7 @@
     }
   },
   "flex-layout.row#desktop-utils-links": {
-    "children": ["rich-text#Tel", "rich-text#mi-tienda", "login"],
+    "children": [/*"rich-text#Tel",*/ "rich-text#mi-tienda", "login"],
     "props": {
       "preventHorizontalStretch": true,
       "blockClass": "util-links"
@@ -209,7 +209,7 @@
       "blockClass": "mi-tel"
     }
   },
-  "rich-text#mi-tienda": {
+  "rich-text#mi-tienda": {  
     "title": "Header - Tiendas",
     "props": {
       "text": "[Pedidos](/account#/orders)",
@@ -301,7 +301,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/gbarbosa_logo.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo.png",
       "width": "62"
     }
   },
@@ -386,7 +386,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/gbarbosa_logo.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo.png",
       "width": "62"
     }
   },

@@ -369,7 +369,7 @@
   }
   &::after {
     content: "";
-    background: url(/arquivos/arrow-black-right.svg) no-repeat;
+    background: url(https://gbarbosa.vteximg.com.br/arquivos/arrow-black-right.svg) no-repeat;
     width: 30px;
     height: 22px;
     display: block;
@@ -1779,27 +1779,27 @@
 
   :global(.vtex-tab-layout-0-x-listItem--t1) {
     &::before {
-      background: url(/arquivos/alacena.svg) no-repeat 50%;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/alacena.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t2) {
     &::before {
-      background: url(/arquivos/cerveza_vinos_licores.svg) no-repeat 50%;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/cerveza_vinos_licores.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t3) {
     &::before {
-      background: url(/arquivos/farmacia.svg) no-repeat 50%;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/farmacia.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t4) {
     &::before {
-      background: url(/arquivos/jugos_bebidas.svg) no-repeat 50%;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/jugos_bebidas.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t5) {
     &::before {
-      background: url(/arquivos/limpieza_mascotas.svg) no-repeat 50%;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/limpieza_mascotas.svg) no-repeat 50%;
     }
   }
   :global(.vtex-tab-layout-0-x-listItem--t6) {
@@ -1844,15 +1844,15 @@
     }
   }:global(.vtex-tab-layout-0-x-listItem--t16) {
     &::before {
-      background: url(/arquivos/limpieza_mascotas.svg) no-repeat 50%;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/limpieza_mascotas.svg) no-repeat 50%;
     }
   }:global(.vtex-tab-layout-0-x-listItem--t17) {
     &::before {
-      background: url(/arquivos/limpieza_mascotas.svg) no-repeat 50%;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/limpieza_mascotas.svg) no-repeat 50%;
     }
   }:global(.vtex-tab-layout-0-x-listItem--t18) {
     &::before {
-      background: url(/arquivos/limpieza_mascotas.svg) no-repeat 50%;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/limpieza_mascotas.svg) no-repeat 50%;
     }
   }*/
 }
@@ -2601,7 +2601,7 @@
   background-color: #ed1d25;
 
   .flexRowContent--cencosud-card-container1 {
-    background-image: url("/arquivos/cartao-cencosud-background.jpg");
+    background-image: url("https://gbarbosa.vteximg.com.br/arquivos/cartao-cencosud-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -2650,7 +2650,7 @@
 
 // INSTITUTIONALS - RECARGA CELULAR
 .flexRowContent--recarga-celular-section-1 {
-  background-image: url("/arquivos/gbarbosa-recarga-background.jpg");
+  background-image: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-recarga-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 30px 30px;
@@ -2659,13 +2659,13 @@
 @media screen and (max-width: 767px) {
   .flexRowContent--recarga-celular-section-1 {
     padding-top: 32px;
-    background-image: url("/arquivos/gbarbosa-recarga-background-mobile.jpg");
+    background-image: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-recarga-background-mobile.jpg");
   }
 }
 
 // INSTITUTIONALS - PLANO CONTROLE
 .flexRow--plano-controle-section-1 {
-  background-image: url("/arquivos/gbarbosa-plano-controle-background.jpg");
+  background-image: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-plano-controle-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 432px;
@@ -2683,7 +2683,7 @@
 
 @media screen and (max-width: 1024px) {
   .flexRow--plano-controle-section-1 {
-    background-image: url("/arquivos/gbarbosa-plano-controle-background-mobile.jpg");
+    background-image: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-plano-controle-background-mobile.jpg");
   }
 }
 
@@ -2700,7 +2700,7 @@
 
 // INSTITUTIONALS - GIFT CARDS
 .flexCol--gift-cards-content {
-  background-image: url("/arquivos/gbarbosa-gift-cards-background.jpg");
+  background-image: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-gift-cards-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 32px 116px 42px;
@@ -2712,7 +2712,7 @@
 
 @media screen and (max-width: 767px) {
   .flexCol--gift-cards-mobile {
-    background-image: url("/arquivos/gbarbosa-gift-cards-background-mobile.jpg");
+    background-image: url("https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-gift-cards-background-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 32px 8px 212px;

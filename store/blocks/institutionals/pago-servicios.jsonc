@@ -22,8 +22,8 @@
       "blockClass": "banner-institucional",
       "images": [
         {
-          "image": "/arquivos/servicios_banner.png",
-          "mobileImage": "/arquivos/servicios_banner_mob.png"
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/servicios_banner.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/servicios_banner_mob.png"
         }
       ]
     }

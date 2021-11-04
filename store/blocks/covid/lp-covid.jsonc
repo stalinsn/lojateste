@@ -95,7 +95,7 @@
 
   "image#box-imagen-a": {
     "props": {
-      "src": "/arquivos/acciones.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/acciones.jpg",
       "link": {
         "url": "/"
       }
@@ -127,7 +127,7 @@
 
   "image#box-imagen-2a": {
     "props": {
-      "src": "/arquivos/carretas.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/carretas.jpg",
       "link": {
         "url": "/"
       },
@@ -231,7 +231,7 @@
 
   "image#box-imagen-3a": {
     "props": {
-      "src": "/arquivos/assets-walmart-s2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/assets-walmart-s2.jpg",
       "link": {
         "url": "/"
       },
@@ -264,7 +264,7 @@
 
   "image#box-imagen-4a": {
     "props": {
-      "src": "/arquivos/acrilicos.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/acrilicos.jpg",
       "link": {
         "url": "/"
       },
@@ -369,7 +369,7 @@
 
   "image#box-imagen-5a": {
     "props": {
-      "src": "/arquivos/mascarillas.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/mascarillas.jpg",
       "link": {
         "url": "/"
       },
@@ -402,7 +402,7 @@
 
   "image#box-imagen-6a": {
     "props": {
-      "src": "/arquivos/gel.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gel.jpg",
       "link": {
         "url": "/"
       },
@@ -507,7 +507,7 @@
 
   "image#box-imagen-7a": {
     "props": {
-      "src": "/arquivos/desinfeccion.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/desinfeccion.jpg",
       "link": {
         "url": "/"
       },
@@ -536,7 +536,7 @@
 
   "image#box-imagen-8a": {
     "props": {
-      "src": "/arquivos/asociados.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/asociados.jpg",
       "link": {
         "url": "/"
       }
@@ -897,7 +897,7 @@
 
   "image#item-walmart-1": {
     "props": {
-      "src": "/arquivos/assets-item-cover.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/assets-item-cover.png",
       "title": "item 1",
       "maxWidth": "100%",
       "blockClass": "image-item-walmart"
@@ -969,7 +969,7 @@
   },
   "image#box-imagen-modal-1": {
     "props": {
-      "src": "/arquivos/prevenir.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/prevenir.jpg",
       "link": {
         "url": "/"
       }
@@ -993,7 +993,7 @@
   },
   "image#item-covid-1": {
     "props": {
-      "src": "/arquivos/proto-1-1.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto-1-1.jpg",
       "title": "item 1",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1016,7 +1016,7 @@
   },
   "image#item-covid-2": {
     "props": {
-      "src": "/arquivos/proto-1-2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto-1-2.jpg",
       "title": "item 2",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1039,7 +1039,7 @@
   },
   "image#item-covid-3": {
     "props": {
-      "src": "/arquivos/proto-1-3.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto-1-3.jpg",
       "title": "item 1",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1062,7 +1062,7 @@
   },
   "image#item-covid-4": {
     "props": {
-      "src": "/arquivos/proto-1-4.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto-1-4.jpg",
       "title": "item 4",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1092,7 +1092,7 @@
 
   "image#item-walmart-2": {
     "props": {
-      "src": "/arquivos/sospecha_card.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/sospecha_card.jpg",
       "title": "item 1",
       "maxWidth": "100%",
       "blockClass": "image-item-walmart"
@@ -1170,7 +1170,7 @@
   "image#box-imagen-modal-1-22": {
     "props": {
       "blockClass": "img-covid-modal-padding-bottom",
-      "src": "/arquivos/sospecha.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/sospecha.jpg",
       "link": {
         "url": "/"
       }
@@ -1185,7 +1185,7 @@
   },
   "image#item-covid-8-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_7.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_7.jpg",
       "title": "item 8",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1208,7 +1208,7 @@
   },
   "image#item-covid-9-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_8.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_8.jpg",
       "title": "item 9",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1231,7 +1231,7 @@
   },
   "image#item-covid-10-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_10.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_10.jpg",
       "title": "item 10",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1266,7 +1266,7 @@
   },
   "image#item-covid-1-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_1.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_1.jpg",
       "title": "item 2",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1289,7 +1289,7 @@
   },
   "image#item-covid-2-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_2.jpg",
       "title": "item 2",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1312,7 +1312,7 @@
   },
   "image#item-covid-3-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_3.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_3.jpg",
       "title": "item 1",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1335,7 +1335,7 @@
   },
   "image#item-covid-4-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_3.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_3.jpg",
       "title": "item 4",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1358,7 +1358,7 @@
   },
   "image#item-covid-5-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_4.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_4.jpg",
       "title": "item 5",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1381,7 +1381,7 @@
   },
   "image#item-covid-6-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_5.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_5.jpg",
       "title": "item 6",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1404,7 +1404,7 @@
   },
   "image#item-covid-7-22": {
     "props": {
-      "src": "/arquivos/proto2/proto_6.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto2/proto_6.jpg",
       "title": "item 7",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1434,7 +1434,7 @@
 
   "image#item-walmart-3": {
     "props": {
-      "src": "/arquivos/caso_positivo_card.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/caso_positivo_card.jpg",
       "title": "item 1",
       "maxWidth": "100%",
       "blockClass": "image-item-walmart"
@@ -1532,7 +1532,7 @@
   },
   "image#item-covid-1-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo1.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo1.jpg",
       "title": "item 1",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1555,7 +1555,7 @@
   },
   "image#item-covid-2-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo2.jpg",
       "title": "item 2",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1578,7 +1578,7 @@
   },
   "image#item-covid-3-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo3.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo3.jpg",
       "title": "item 3",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1601,7 +1601,7 @@
   },
   "image#item-covid-4-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo4.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo4.jpg",
       "title": "item 4",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1624,7 +1624,7 @@
   },
   "image#item-covid-5-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo5.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo5.jpg",
       "title": "item 5",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1647,7 +1647,7 @@
   },
   "image#item-covid-6-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo6.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo6.jpg",
       "title": "item 6",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1670,7 +1670,7 @@
   },
   "image#item-covid-7-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo7.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo7.jpg",
       "title": "item 7",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1693,7 +1693,7 @@
   },
   "image#item-covid-8-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo8.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo8.jpg",
       "title": "item 8",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1716,7 +1716,7 @@
   },
   "image#item-covid-9-3": {
     "props": {
-      "src": "/arquivos/proto3/positivo9.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo9.jpg",
       "title": "item 9",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1763,7 +1763,7 @@
   },
   "image#item-covid-10-33": {
     "props": {
-      "src": "/arquivos/proto3/positivo10.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo10.jpg",
       "title": "item 10",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1786,7 +1786,7 @@
   },
   "image#item-covid-11-33": {
     "props": {
-      "src": "/arquivos/proto3/positivo11.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo11.jpg",
       "title": "item 11",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1809,7 +1809,7 @@
   },
   "image#item-covid-12-33": {
     "props": {
-      "src": "/arquivos/proto3/positivo12.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo12.jpg",
       "title": "item 12",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1832,7 +1832,7 @@
   },
   "image#item-covid-13-33": {
     "props": {
-      "src": "/arquivos/proto3/positivo13.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo13.jpg",
       "title": "item 13",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1855,7 +1855,7 @@
   },
   "image#item-covid-14-33": {
     "props": {
-      "src": "/arquivos/proto3/positivo14.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo14.jpg",
       "title": "item 14",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1878,7 +1878,7 @@
   },
   "image#item-covid-15-33": {
     "props": {
-      "src": "/arquivos/proto3/positivo15.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/proto3/positivo15.jpg",
       "title": "item 15",
       "width": "13%",
       "blockClass": "image-item-walmart"
@@ -1908,7 +1908,7 @@
 
   "image#item-walmart-4": {
     "props": {
-      "src": "/arquivos/protocolo_card.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/protocolo_card.jpg",
       "title": "item 1",
       "maxWidth": "100%",
       "blockClass": "image-item-walmart"
@@ -1979,7 +1979,7 @@
   },
   "image#box-imagen-modal-1-44": {
     "props": {
-      "src": "/arquivos/protocolo.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/protocolo.jpg",
       "link": {
         "url": "/"
       }
@@ -2174,7 +2174,7 @@
   "image#box-image-big-section-18": {
     "props": {
       "blockClass": "big-community",
-      "src": "/arquivos/donaciones.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/donaciones.jpg",
       "link": {
         "url": "/"
       }
@@ -2228,7 +2228,7 @@
   },
   "image#box-country-1": {
     "props": {
-      "src": "/arquivos/salvador.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/salvador.jpg",
       "link": {
         "url": "/"
       }
@@ -2247,7 +2247,7 @@
   },
   "image#box-country-2": {
     "props": {
-      "src": "/arquivos/nicaragua.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/nicaragua.jpg",
       "link": {
         "url": "/"
       }
@@ -2266,7 +2266,7 @@
   },
   "image#box-country-3": {
     "props": {
-      "src": "/arquivos/costa_rica.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/costa_rica.jpg",
       "link": {
         "url": "/"
       }
@@ -2294,7 +2294,7 @@
   },
   "image#box-country-4": {
     "props": {
-      "src": "/arquivos/guatemala.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/guatemala.jpg",
       "link": {
         "url": "/"
       }
@@ -2316,7 +2316,7 @@
   },
   "image#box-country-5": {
     "props": {
-      "src": "/arquivos/honduras.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/honduras.jpg",
       "link": {
         "url": "/"
       }
@@ -2381,7 +2381,7 @@
   },
   "image#item-covid-19-1": {
     "props": {
-      "src": "/arquivos/fundacion1.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion1.jpg",
       "title": "masxmenos mex 1",
       "blockClass": "image-walmartmex"
     }
@@ -2490,7 +2490,7 @@
 
   "image#item-covid-walt-1": {
     "props": {
-      "src": "/arquivos/noticia1.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia1.png",
       "title": "masxmenos mex 1",
       "blockClass": ""
     }
@@ -2498,7 +2498,7 @@
 
   "image#item-covid-walt-1-logos": {
     "props": {
-      "src": "/arquivos/noticia1logos.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia1logos.png",
       "title": "masxmenos mex 1",
       "blockClass": ""
     }
@@ -2657,7 +2657,7 @@
 
   "image#img-banner-hoy": {
     "props": {
-      "src": "/arquivos/banner_hoy.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_hoy.png",
       "blockClass": "wlt-img-banner_hoy"
     }
   },
@@ -2685,7 +2685,7 @@
   },
   "image#item-covid-19-3": {
     "props": {
-      "src": "/arquivos/fundacion2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion2.jpg",
       "title": "masxmenos mex 1",
       "blockClass": "image-walmartmex"
     }
@@ -2786,7 +2786,7 @@
 
   "image#modal2-row1-col2-img": {
     "props": {
-      "src": "/arquivos/noticia2.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia2.png",
       "title": "masxmenos mex 1",
       "blockClass": ""
     }
@@ -2870,7 +2870,7 @@
   },
   "image#item-covid-19-5": {
     "props": {
-      "src": "/arquivos/fundacion3.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion3.jpg",
       "title": "masxmenos mex 1",
       "blockClass": "image-walmartmex"
     }
@@ -2969,7 +2969,7 @@
 
   "image#modal3-row1-col2-img": {
     "props": {
-      "src": "/arquivos/noticia3_1.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia3_1.png",
       "title": "masxmenos mex 1",
       "blockClass": ""
     }
@@ -2995,7 +2995,7 @@
 
   "image#modal3-row2-img": {
     "props": {
-      "src": "/arquivos/noticia3_2.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia3_2.png",
       "title": "masxmenos mex 1",
       "blockClass": "img-col"
     }
@@ -3028,7 +3028,7 @@
 
   "image#modal3-row3-img": {
     "props": {
-      "src": "/arquivos/noticia3_3.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia3_3.png",
       "title": "masxmenos mex 1",
       "blockClass": "img-col"
     }
@@ -3064,7 +3064,7 @@
   },
   "image#item-covid-19-7": {
     "props": {
-      "src": "/arquivos/fundacion4.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion4.jpg",
       "title": "masxmenos mex 1",
       "blockClass": "image-walmartmex"
     }
@@ -3165,7 +3165,7 @@
 
   "image#modal4-row1-col2-img-1": {
     "props": {
-      "src": "/arquivos/noticia4.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia4.png",
       "title": "",
       "blockClass": ""
     }
@@ -3173,7 +3173,7 @@
 
   "image#modal4-row1-col2-img-2": {
     "props": {
-      "src": "/arquivos/noticia1logos.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia1logos.png",
       "title": "",
       "blockClass": ""
     }
@@ -3188,7 +3188,7 @@
 
   "image#modal4-row1-col2-img-3": {
     "props": {
-      "src": "/arquivos/banner_hoy.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_hoy.png",
       "title": "",
       "blockClass": ""
     }
@@ -3210,7 +3210,7 @@
   },
   "image#item-covid-19-9": {
     "props": {
-      "src": "/arquivos/fundacion5.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion5.jpg",
       "title": "masxmenos mex 1",
       "blockClass": "image-walmartmex"
     }
@@ -3311,7 +3311,7 @@
 
   "image#modal5-row1-col2-img-1": {
     "props": {
-      "src": "/arquivos/noticia5.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia5.png",
       "title": "",
       "blockClass": ""
     }
@@ -3319,7 +3319,7 @@
 
   "image#modal5-row1-col2-img-2": {
     "props": {
-      "src": "/arquivos/noticia1logos.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia1logos.png",
       "title": "",
       "blockClass": ""
     }
@@ -3334,7 +3334,7 @@
 
   "image#modal5-row1-col2-img-3": {
     "props": {
-      "src": "/arquivos/banner_hoy.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_hoy.png",
       "title": "",
       "blockClass": ""
     }
@@ -3356,7 +3356,7 @@
   },
   "image#item-covid-19-11": {
     "props": {
-      "src": "/arquivos/fundacion6.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion6.jpg",
       "title": "masxmenos mex 19",
       "blockClass": "image-walmartmex"
     }
@@ -3458,7 +3458,7 @@
 
   "image#modal6-row1-col2-img-1": {
     "props": {
-      "src": "/arquivos/noticia6.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia6.png",
       "title": "",
       "blockClass": ""
     }
@@ -3466,7 +3466,7 @@
 
   "image#modal6-row1-col2-img-2": {
     "props": {
-      "src": "/arquivos/noticia1logos.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia1logos.png",
       "title": "",
       "blockClass": ""
     }
@@ -3533,7 +3533,7 @@
 
   "image#modal6-row2-col2-img-1": {
     "props": {
-      "src": "/arquivos/banner_hoy.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_hoy.png",
       "title": "",
       "blockClass": ""
     }
@@ -3555,7 +3555,7 @@
   },
   "image#item-covid-19-13": {
     "props": {
-      "src": "/arquivos/fundacion7.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/fundacion7.jpg",
       "title": "masxmenos mex 7",
       "blockClass": "image-walmartmex"
     }
@@ -3645,7 +3645,7 @@
 
   "image#modal7-row1-col1-img-1": {
     "props": {
-      "src": "/arquivos/banner_hoy.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_hoy.png",
       "title": "",
       "blockClass": ""
     }
@@ -3664,7 +3664,7 @@
 
   "image#modal7-row1-col2-img-1": {
     "props": {
-      "src": "/arquivos/noticia7.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia7.png",
       "title": "",
       "blockClass": ""
     }
@@ -3672,7 +3672,7 @@
 
   "image#modal7-row1-col2-img-2": {
     "props": {
-      "src": "/arquivos/noticia1logos.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/noticia1logos.png",
       "title": "",
       "blockClass": ""
     }

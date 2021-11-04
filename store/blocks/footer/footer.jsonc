@@ -85,7 +85,7 @@
   "image#footer-logo": {
     "title": "Logo do footer",
     "props": {
-      "src": "/arquivos/gbarbosa_logo.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo.png",
       "blockClass": "footer-logo"
     }
   },
@@ -163,7 +163,7 @@
   },
   "image#clearsale-footer": {
     "props": {
-      "src": "/arquivos/gbarbosa-clearsale.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-clearsale.svg",
       "maxHeight": 20,
       "blockClass": "clearsale-footer"
     }
@@ -257,7 +257,7 @@
     "title": "Footer - Logo",
 
     "props": {
-      "src": "/arquivos/corebiz_logo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/corebiz_logo.svg",
       "blockClass": "logo-footer-corebiz",
       "maxHeight": 10
     }
@@ -497,7 +497,7 @@
   "image#logo-footer-mobile-1": {
     "title": "Footer - Logo",
     "props": {
-      "src": "/arquivos/corebiz_logo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/corebiz_logo.svg",
       "blockClass": "logo-footer-corebiz-mobile"
     }
   },
@@ -511,7 +511,7 @@
   "image#logo-footer-mobile-2": {
     "title": "Footer - Logo",
     "props": {
-      "src": "/arquivos/vtex-1.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/vtex-1.svg",
       "blockClass": "logo-footer-corebiz-mobile"
     }
   },

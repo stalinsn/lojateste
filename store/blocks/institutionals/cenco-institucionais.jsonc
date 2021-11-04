@@ -263,12 +263,12 @@
   },
   "image#aboutus-image": {
     "props": {
-      "src": "/arquivos/gbarbosa_aboutus.jpg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_aboutus.jpg"
     }
   },
   "image#cenco-group-image": {
     "props": {
-      "src": "/arquivos/cencosud-logo-inst.jpg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cencosud-logo-inst.jpg"
     }
   },
   "rich-text#main-text-aboutus": {
@@ -458,7 +458,7 @@
   },
   "image#arrow-banner-mobile": {
     "props": {
-      "src": "/arquivos/arrow-left-banner-institutional.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/arrow-left-banner-institutional.png",
       "blockClass": "img-arrow-institutional",
       "link": "/home"
     }

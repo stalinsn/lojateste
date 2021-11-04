@@ -58,7 +58,7 @@
   },
   "image#gift-cards-1": {
     "props": {
-      "src": "/arquivos/gbarbosa-gift-cards.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-gift-cards.png",
       "maxHeight": 473
     }
   },
@@ -91,7 +91,7 @@
   },
   "image#gift-cards-2": {
     "props": {
-      "src": "/arquivos/gbarbosa-google-play.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-google-play.png",
       "maxHeight": 564
     }
   },
@@ -149,7 +149,7 @@
   },
   "image#gift-cards-onde-usar-1": {
     "props": {
-      "src": "/arquivos/gbarbosa-game-controller-sharp.svg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-game-controller-sharp.svg"
     }
   },
   "flex-layout.col#gift-cards-onde-usar-2": {
@@ -169,7 +169,7 @@
   },
   "image#gift-cards-onde-usar-2": {
     "props": {
-      "src": "/arquivos/gbarbosa-netflix.svg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-netflix.svg"
     }
   },
   "flex-layout.col#gift-cards-onde-usar-3": {
@@ -189,7 +189,7 @@
   },
   "image#gift-cards-onde-usar-3": {
     "props": {
-      "src": "/arquivos/gbarbosa-car.svg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-car.svg"
     }
   },
   "flex-layout.col#gift-cards-onde-usar-4": {
@@ -208,7 +208,7 @@
   },
   "image#gift-cards-onde-usar-4": {
     "props": {
-      "src": "/arquivos/gbarbosa-securityalt.svg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-securityalt.svg"
     }
   }
 }

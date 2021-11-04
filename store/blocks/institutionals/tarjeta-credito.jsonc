@@ -28,7 +28,7 @@
   },
   "image#tarjeta-credito-banner-top-mobile": {
     "props": {
-      "src": "/arquivos/banner_creditom.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_creditom.png",
       "blockClass": "tarjeta-credito-img-banner-mob"
     }
   },
@@ -62,7 +62,7 @@
   },
   "image#tarjeta-credito-banner-top": {
     "props": {
-      "src": "/arquivos/credito_banner.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/credito_banner.png"
     }
   },
 
@@ -127,7 +127,7 @@
   },
   "image#tarjeta-credito-item1": {
     "props": {
-      "src": "/arquivos/icon_pork.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_pork.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -173,7 +173,7 @@
   },
   "image#tarjeta-credito-item2": {
     "props": {
-      "src": "/arquivos/icon_beneficios.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_beneficios.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -219,7 +219,7 @@
   },
   "image#tarjeta-credito-item3": {
     "props": {
-      "src": "/arquivos/icon_recibo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_recibo.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -265,13 +265,13 @@
   },
   "image#tarjeta-credito-item4": {
     "props": {
-      "src": "/arquivos/icon_cuotas.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
   "image#tarjeta-credito-plus": {
     "props": {
-      "src": "/arquivos/plus.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/plus.svg",
       "blockClass": "tarjeta-credito-plus"
     }
   },
@@ -308,7 +308,7 @@
   },
   "image#tarjeta-credito-card": {
     "props": {
-      "src": "/arquivos/tarjeta_credito.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/tarjeta_credito.png",
       "blockClass": "tarjeta-de-credito-card"
     }
   },
@@ -335,7 +335,7 @@
   },
   "image#tarjeta-credito-item5": {
     "props": {
-      "src": "/arquivos/icon_utilizar_ahorro.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_utilizar_ahorro.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -380,7 +380,7 @@
   },
   "image#tarjeta-credito-item6": {
     "props": {
-      "src": "/arquivos/icon_cuotas_black.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas_black.svg",
       "blockClass": ["tarjeta-credito-item-icono"]
     }
   },
@@ -425,7 +425,7 @@
   },
   "image#tarjeta-credito-item7": {
     "props": {
-      "src": "/arquivos/icon_solicitar.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_solicitar.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -478,7 +478,7 @@
   },
   "image#tarjeta-credito-requisito": {
     "props": {
-      "src": "/arquivos/icon_requisitos.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_requisitos.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },

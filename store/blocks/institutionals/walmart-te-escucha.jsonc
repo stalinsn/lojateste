@@ -95,21 +95,21 @@
 
   "image#walmart-te-escucha-logo": {
     "props": {
-      "src": "/arquivos/logo-masxmenos.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/logo-masxmenos.svg",
       "blockClass": "icon-walmart-te-escucha"
     }
   },
 
   "image#walmart-te-escucha": {
     "props": {
-      "src": "/arquivos/art-masxmenos.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/art-masxmenos.png",
       "blockClass": "img-walmart-te-escucha"
     }
   },
 
   "image#walmart-te-escucha-activa-codigo": {
     "props": {
-      "src": "/arquivos/cierre-masxmenos.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/cierre-masxmenos.png",
       "link": "https://experiencia.walmart.com/survey/selfserve/5c2/wal20120#?",
       "blockClass": "img-walmart-te-escucha"
     }
@@ -155,7 +155,7 @@
 
   "image#walmart-te-escucha-activar-codigo": {
     "props": {
-      "src": "/arquivos/walmart-te-escucha-QR.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/walmart-te-escucha-QR.jpg",
       "blockClass": "clasedeprueba"
     }
   },

@@ -100,22 +100,22 @@
       "width": "100%",
       "images": [
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -169,7 +169,7 @@
     "props": {
       "title": "circle 1",
       "href": "/",
-      "url": "/arquivos/rebajas.webp",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/rebajas.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -204,7 +204,7 @@
     "props": {
       "title": "circle 2",
       "href": "/",
-      "url": "/arquivos/belleza.webp",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/belleza.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -239,7 +239,7 @@
     "props": {
       "title": "circle 3",
       "href": "/",
-      "url": "/arquivos/salud.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/salud.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -274,7 +274,7 @@
     "props": {
       "title": "circle 4",
       "href": "/",
-      "url": "/arquivos/electronica.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/electronica.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -309,7 +309,7 @@
     "props": {
       "title": "circle 5",
       "href": "/",
-      "url": "/arquivos/licores.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/licores.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -344,7 +344,7 @@
     "props": {
       "title": "circle 6",
       "href": "/",
-      "url": "/arquivos/bebe.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/bebe.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -393,7 +393,7 @@
     "props": {
       "title": "circle 7",
       "href": "/",
-      "url": "/arquivos/rebajas.webp",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/rebajas.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -428,7 +428,7 @@
     "props": {
       "title": "circle 8",
       "href": "/",
-      "url": "/arquivos/belleza.webp",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/belleza.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -463,7 +463,7 @@
     "props": {
       "title": "circle 9",
       "href": "/",
-      "url": "/arquivos/salud.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/salud.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -498,7 +498,7 @@
     "props": {
       "title": "circle 10",
       "href": "/",
-      "url": "/arquivos/electronica.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/electronica.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -533,7 +533,7 @@
     "props": {
       "title": "circle 11",
       "href": "/",
-      "url": "/arquivos/licores.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/licores.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -568,7 +568,7 @@
     "props": {
       "title": "circle 12",
       "href": "/",
-      "url": "/arquivos/bebe.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/bebe.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -617,7 +617,7 @@
     "props": {
       "title": "circle 13",
       "href": "/",
-      "url": "/arquivos/rebajas.webp",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/rebajas.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -652,7 +652,7 @@
     "props": {
       "title": "circle 14",
       "href": "/",
-      "url": "/arquivos/belleza.webp",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/belleza.webp",
       "blockClass": "logo-circle"
     }
   },
@@ -687,7 +687,7 @@
     "props": {
       "title": "circle 15",
       "href": "/",
-      "url": "/arquivos/salud.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/salud.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -722,7 +722,7 @@
     "props": {
       "title": "circle 16",
       "href": "/",
-      "url": "/arquivos/electronica.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/electronica.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -757,7 +757,7 @@
     "props": {
       "title": "circle 17",
       "href": "/",
-      "url": "/arquivos/licores.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/licores.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -792,7 +792,7 @@
     "props": {
       "title": "circle 18",
       "href": "/",
-      "url": "/arquivos/bebe.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/bebe.jpg",
       "blockClass": "logo-circle"
     }
   },
@@ -822,7 +822,7 @@
     "props": {
       "title": "icon 1",
       "href": "/",
-      "url": "/arquivos/greatvalue.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/greatvalue.jpg",
       "blockClass": "our-brand-logo"
     }
   },
@@ -837,7 +837,7 @@
     "props": {
       "title": "icon 2",
       "href": "/",
-      "url": "/arquivos/equate.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/equate.jpg",
       "blockClass": "our-brand-logo"
     }
   },
@@ -852,7 +852,7 @@
     "props": {
       "title": "icon 3",
       "href": "/",
-      "url": "/arquivos/greatvalue.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/greatvalue.jpg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -875,7 +875,7 @@
     "props": {
       "title": "icon 4",
       "href": "/",
-      "url": "/arquivos/equate.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/equate.jpg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -898,7 +898,7 @@
     "props": {
       "title": "icon 5",
       "href": "/",
-      "url": "/arquivos/greatvalue.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/greatvalue.jpg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -921,7 +921,7 @@
     "props": {
       "title": "icon 6",
       "href": "/",
-      "url": "/arquivos/greatvalue.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/greatvalue.jpg",
       "blockClass": "our-brand-logo"
     }
   },
@@ -936,7 +936,7 @@
     "props": {
       "title": "icon 7",
       "href": "/",
-      "url": "/arquivos/equate.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/equate.jpg",
       "blockClass": "our-brand-logo"
     }
   },
@@ -959,7 +959,7 @@
   },
   "image#col-2-images-1-our-brands": {
     "props": {
-      "src": "/arquivos/ob-banner1.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/ob-banner1.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -971,7 +971,7 @@
   },
   "image#col-2-images-2-our-brands": {
     "props": {
-      "src": "/arquivos/ob-banner2.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/ob-banner2.jpg",
       "blockClass": "banner-img"
     }
   },

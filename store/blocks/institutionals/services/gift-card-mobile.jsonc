@@ -51,7 +51,7 @@
   },
   "image#gift-cards-mobile": {
     "props": {
-      "src": "/arquivos/gbarbosa-gift-cards-mobile.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-gift-cards-mobile.png"
     }
   }
 }

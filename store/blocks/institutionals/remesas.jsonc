@@ -25,8 +25,8 @@
       "blockClass": "banner-institucional",
       "images": [
         {
-          "image": "/arquivos/remesas_banner.png",
-          "mobileImage": "/arquivos/remesas_banner_mob.png",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/remesas_banner.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/remesas_banner_mob.png",
           "description": "something something"
         }
       ]
@@ -104,7 +104,7 @@
   },
   "image#western": {
     "props": {
-      "src": "https://supermxmcr.myvtex.com/arquivos/westernu.png"
+      "src": "https://supermxmcr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/westernu.png"
     }
   },
   "flex-layout.col#image-remesas2": {
@@ -115,7 +115,7 @@
   },
   "image#vigo": {
     "props": {
-      "src": "https://supermxmcr.myvtex.com/arquivos/vigo.png"
+      "src": "https://supermxmcr.myvtex.comhttps://gbarbosa.vteximg.com.br/arquivos/vigo.png"
     }
   },
 

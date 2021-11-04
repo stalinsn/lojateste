@@ -210,22 +210,22 @@
       "width": "100%",
       "images": [
         {
-          "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_home.png",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_home.png",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner_home.png",
-          "mobileImage": "/arquivos/main_banner_home.png",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner_home.png",
           "link": {
             "url": "/test"
           }
@@ -300,25 +300,25 @@
   },
   "image#grid-layout-image-active": {
     "props": {
-      "src": "/arquivos/icon_card_view_active_search.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_card_view_active_search.png",
       "blockClass": "active-grid"
     }
   },
   "image#grid-layout-image": {
     "props": {
-      "src": "/arquivos/icon_card_view_active.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_card_view_active.png",
       "blockClass": "unactive-grid"
     }
   },
   "image#list-layout-active": {
     "props": {
-      "src": "/arquivos/icon_list_search_active.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_list_search_active.png",
       "blockClass": "active-list"
     }
   },
   "image#list-layout": {
     "props": {
-      "src": "/arquivos/icon_list_search.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_list_search.png",
       "blockClass": "unactive-list"
     }
   },
