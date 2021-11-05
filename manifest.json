@@ -1,5 +1,5 @@
 {
-  "vendor": "gbarbosaqa",
+  "vendor": "gbarbosa",
   "name": "gbarbosa-store",
   "version": "0.5.4",
   "builders": {
@@ -19,7 +19,7 @@
     "vtex.product-highlights": "2.x",
     "vtex.recommendation-shelf": "0.x",
     "vtex.condition-layout": "1.x",
-    "gbarbosa.mega-menu": "1.x",
+    "gbarbosa.mega-menu": "0.x",
     "vtex.search": "2.x",
     "vtex.iframe": "0.x",
     "vtex.order-placed": "2.x",
