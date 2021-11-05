@@ -60,7 +60,6 @@
   padding-left: 16px;
   background: #f4f4f4;
   @media screen and (max-width: 768px) {
-    flex-direction: row-reverse;
     justify-content: center;
     border: none;
     background: none;
@@ -435,6 +434,24 @@
     .searchNotFoundInfo  {
       padding: 0;
       text-align: center;
+    }
+  }
+  .orderByDropdown {
+    .caretIcon {
+      color: #ed1d25;
+    }
+  }
+  .filterPopupButton {
+    .filterPopupArrowIcon {
+      &::before {
+        content: '';
+        background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_filter_mobile.png);
+        width: 25px;
+        height: 25px;
+      }
+      .filterIcon {
+        display: none;
+      }
     }
   }
 }
