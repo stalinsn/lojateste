@@ -11,7 +11,8 @@
   display: none;
 }
 .accordionIcon--e-shopping-menu-item-common-questions {
-  font-size: 0;
+  font-size: 0 !important;
+
   &::after {
     content: "";
     width: 12px;
