@@ -37,7 +37,7 @@
   }
 }
 @media screen and (min-width: 780px) and (max-width: 1024px) {
-  .drawer { 
+  .drawer {
     padding-top: 2em;
   }
   .closeIconButton {
@@ -47,12 +47,26 @@
 
 .overlay--visible {
   opacity: 1 !important;
+}
+
+.overlay {
+  top: 132px;
   backdrop-filter: blur(12px);
   background-color: #525252a1;
 }
 
 .drawer {
   height: fit-content;
+  top: 132px;
+
+  .departmentsTitle {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.22px;
+    color: #ED1D25;
+    padding: 0 16px;
+    margin: 0;
+  }
 
   .drawerContent{
     .container {
@@ -141,6 +155,7 @@
   .drawer {
     width: 80% !important;
     height: auto;
+    top: 0;
 
     .drawerContent{
       .drawerHeader {
@@ -227,4 +242,9 @@
       }
     }
   }
+
+  .overlay {
+    top: 0;
+  }
+
 }

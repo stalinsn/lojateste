@@ -15,7 +15,26 @@
                   "label": "Pneu",
                   "url": "/bazar/automotivos/pneu"
                 }
-              ]
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
             },
             {
               "label": "Biscicleta",
@@ -25,7 +44,26 @@
                   "label": "Urbano e Passeio",
                   "url": "/bazar/biscicleta/urbano-e-passeio"
                 }
-              ]
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
             },
             {
               "label": "Cadeiras",
@@ -35,7 +73,26 @@
                   "label": "Cadeira p/ Área Externa",
                   "url": "/bazar/cadeiras/cadeira-area-externa"
                 }
-              ]
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
             },
             {
               "label": "Cama e Colchão",
@@ -49,32 +106,33 @@
                   "label": "Cama Box",
                   "url": "/bazar/cama-colchão/cama-box"
                 }
-              ]
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
             }
-          ],
-          "banners": {
-            "bannerProperties": true,
-            "main": {
-              "src": "/arquivos/gbarbosa-categories-banners-1.png",
-              "link": "#"
-            },
-            "second1": {
-              "src": "/arquivos/gbarbosa-categories-banners-2.png",
-              "link": "#"
-            },
-            "second2": {
-              "src": "/arquivos/gbarbosa-categories-banners-3.png",
-              "link": "#"
-            },
-            "second3": {
-              "src": "/arquivos/gbarbosa-categories-banners-4.png",
-              "link": "#"
-            }
-          }
+          ]
         },
         {
           "label": "Eletro",
           "url": "/eletro",
+          "icon": "/arquivos/computer-icon.svg",
           "children": [
             {
               "label": "Beleza",
@@ -88,7 +146,26 @@
                   "label": "Barbeador Elétrico",
                   "url": "/eletro/beleza/barbeador-eletrico"
                 }
-              ]
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
             },
             {
               "label": "Eletrodoméstico",
