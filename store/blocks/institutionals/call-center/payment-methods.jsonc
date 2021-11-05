@@ -156,7 +156,8 @@
   },
   "rich-text#card1-content": {
     "props": {
-      "text": "**Cartão de débito** \n \n - O pagamento com cartão de débito é realizado no momento da entrega. \n - São aceitos os cartões Mastercard Maestro, Elo e Visa Electron."
+      "text": "**Cartão de débito** \n \n - O pagamento com cartão de débito é realizado no momento da entrega. \n - São aceitos os cartões Mastercard Maestro, Elo e Visa Electron.",
+      "blockClass": "card-list"
     }
   },
   "rich-text#obs-1": {
@@ -182,7 +183,8 @@
   },
   "rich-text#card2-content": {
     "props": {
-      "text": "**Cartão de crédito** \n \n - O pagamento é feito no site durante a finalização da compra, de acordo com o valor da compra). \n - São aceitos os cartões Mastercard, Visa, Amex, Elo e Dinner’s."
+      "text": "**Cartão de crédito** \n \n - O pagamento é feito no site durante a finalização da compra, de acordo com o valor da compra). \n - São aceitos os cartões Mastercard, Visa, Amex, Elo e Dinner’s.",
+      "blockClass": "card-list"
     }
   },
   "rich-text#obs-2": {
@@ -193,7 +195,8 @@
   },
   "rich-text#card3-content": {
     "props": {
-      "text": "**Vale alimentação** \n \n - O pagamento com cartão alimentação é realizado no momento da entrega \n - Atenção, não recebemos em cartão refeição ou restaurante. \n - São aceitos os cartões Visa Vale Alimentação, Ticket Alimentação, VR Alimentação, Sodexo Alimentação, Alelo e Policard Alimentação."
+      "text": "**Vale alimentação** \n \n - O pagamento com cartão alimentação é realizado no momento da entrega \n - Atenção, não recebemos em cartão refeição ou restaurante. \n - São aceitos os cartões Visa Vale Alimentação, Ticket Alimentação, VR Alimentação, Sodexo Alimentação, Alelo e Policard Alimentação.",
+      "blockClass": "card-list"
     }
   },
   "rich-text#obs-3": {
