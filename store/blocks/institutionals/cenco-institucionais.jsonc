@@ -252,7 +252,10 @@
     ]
   },
   "flex-layout.row#image-and-content-aboutus": {
-    "children": ["rich-text#main-text-aboutus", "image#aboutus-image"]
+    "children": ["rich-text#main-text-aboutus", "image#aboutus-image"],
+    "props": {
+      "colGap": 8
+    }
   },
   "flex-layout.row#image-and-content-cenco-group": {
     "children": ["rich-text#main-text-cenco-group", "image#cenco-group-image"],
@@ -263,7 +266,7 @@
   },
   "image#aboutus-image": {
     "props": {
-      "src": "/arquivos/gbarbosa_aboutus.jpg"
+      "src": "https://gbarbosa.vtexassets.com/arquivos/gbarbosa_aboutus.jpg"
     }
   },
   "image#cenco-group-image": {
@@ -304,7 +307,7 @@
   },
   "rich-text#terms-of-use": {
     "props": {
-      "text": "Políticas de Privacidade e Proteção de Dados Pessoais"
+      "text": "#### Políticas de Privacidade e Proteção de Dados Pessoais"
     }
   },
   "rich-text#terms-of-use1": {
