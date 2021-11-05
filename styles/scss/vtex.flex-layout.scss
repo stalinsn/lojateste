@@ -1396,14 +1396,26 @@
     }
   }
   :global(.vtex-button) {
-    background-color: #fff !important;
-    text-transform: none;
-    border-radius: 22px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 1px !important;
-    padding-bottom: 1px !important;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 20px;
+    background-color: $primary;
+    min-height: 32px !important;
+    max-height: 32px !important;
+
+    &:hover {
+      background-color: $secondary;
+      border-color: $secondary;
+      color: $primary;
+    }
+
+    :global(.vtex-button__label){
+      &::after{
+        content: '+';
+        margin-left: 4px;
+      }
+    }
   }
 }
 
