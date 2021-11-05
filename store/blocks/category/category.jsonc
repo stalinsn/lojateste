@@ -145,7 +145,7 @@
         ],
         "props": {
           "colGap": 4,
-          "blockClass": ["row-walmart", "row-departament"]
+          "blockClass": ["row-", "row-departament"]
         }
     },
     "flex-layout.row#banner-one-images": {
@@ -194,7 +194,7 @@
             //"image#banner-full-width"
         ],
         "props": {
-          "blockClass": ["row-walmart", "banner-full"]
+          "blockClass": ["row-", "banner-full"]
         }
     },
 
@@ -275,7 +275,7 @@
             "flex-layout.col#banner-right"
         ],
         "props": {
-          "blockClass": ["row-walmart", "banner-full"]
+          "blockClass": ["row-", "banner-full"]
         }
     },
     "flex-layout.col#banner-left":{

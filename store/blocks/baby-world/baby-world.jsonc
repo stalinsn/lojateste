@@ -72,7 +72,7 @@
     "children": ["list-context.image-list#main-slider-bebe-mundo"],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart", "banner-principal-bebe-mundo"]
+      "blockClass": ["row-", "banner-principal-bebe-mundo"]
     }
   },
   "list-context.image-list#main-slider-bebe-mundo": {
@@ -83,29 +83,29 @@
       "width": "100%",
       "images": [
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -135,7 +135,7 @@
     "children": ["list-context.image-list#cuadros-slider-bebe-mundo"],
     "props": {
       "colGap": 4,
-      "blockClass": ["row-walmart", "banner-cuadros-bebe-mundo"]
+      "blockClass": ["row-", "banner-cuadros-bebe-mundo"]
     }
   },
   "list-context.image-list#cuadros-slider-bebe-mundo": {
@@ -146,29 +146,29 @@
       "width": "100%",
       "images": [
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
         },
         {
-          "image": "/arquivos/main_banner.jpg",
-          "mobileImage": "/arquivos/main_banner.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/main_banner.jpg",
           "link": {
             "url": "/test"
           }
@@ -268,7 +268,7 @@
     "props": {
       "title": "nuby",
       "href": "/",
-      "url": "/arquivos/disney.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/disney.jpg",
       "blockClass": "baby-world-brand"
     }
   },
@@ -283,7 +283,7 @@
     "props": {
       "title": "nuby",
       "href": "/",
-      "url": "/arquivos/nuby.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/nuby.jpg",
       "blockClass": "baby-world-brand"
     }
   },
@@ -298,7 +298,7 @@
     "props": {
       "title": "nuby",
       "href": "/",
-      "url": "/arquivos/prinsel.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/prinsel.jpg",
       "blockClass": "baby-world-brand"
     }
   },
@@ -326,7 +326,7 @@
     "props": {
       "title": "icon 1",
       "href": "/",
-      "url": "/arquivos/coche.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/coche.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -349,7 +349,7 @@
     "props": {
       "title": "icon 2",
       "href": "/",
-      "url": "/arquivos/biberon.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/biberon.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -372,7 +372,7 @@
     "props": {
       "title": "icon 3",
       "href": "/",
-      "url": "/arquivos/ropa.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/ropa.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -395,7 +395,7 @@
     "props": {
       "title": "icon 4",
       "href": "/",
-      "url": "/arquivos/juguete.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/juguete.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -418,7 +418,7 @@
     "props": {
       "title": "icon 5",
       "href": "/",
-      "url": "/arquivos/crema.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/crema.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -441,7 +441,7 @@
     "props": {
       "title": "icon 6",
       "href": "/",
-      "url": "/arquivos/colonia.jpg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/colonia.jpg",
       "blockClass": ["baby-world-sub", "logo-sub-mundo-bebe"]
     }
   },
@@ -580,8 +580,8 @@
     "props": {
       "images": [
         {
-          "image": "/arquivos/banner_milky_desktop.jpg",
-          "mobileImage": "/arquivos/banner_milky.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/banner_milky_desktop.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/banner_milky.jpg",
           "link": {
             "url": "/test"
           }

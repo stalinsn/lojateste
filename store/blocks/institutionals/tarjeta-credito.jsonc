@@ -28,7 +28,7 @@
   },
   "image#tarjeta-credito-banner-top-mobile": {
     "props": {
-      "src": "/arquivos/banner_creditom.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner_creditom.png",
       "blockClass": "tarjeta-credito-img-banner-mob"
     }
   },
@@ -62,7 +62,7 @@
   },
   "image#tarjeta-credito-banner-top": {
     "props": {
-      "src": "/arquivos/credito_banner.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/credito_banner.png"
     }
   },
 
@@ -99,7 +99,7 @@
   },
   "rich-text#tarjeta-credito-texto-linea1": {
     "props": {
-      "text": "Ahorrá más en tus compras y obtené beneficios exclusivos con tu tarjeta Walmart.",
+      "text": "Ahorrá más en tus compras y obtené beneficios exclusivos con tu tarjeta .",
       "blockClass": "text-pag-tarjeta-credito"
     }
   },
@@ -127,7 +127,7 @@
   },
   "image#tarjeta-credito-item1": {
     "props": {
-      "src": "/arquivos/icon_pork.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_pork.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -145,7 +145,7 @@
   },
   "rich-text#tarjeta-credito-item1-linea2": {
     "props": {
-      "text": "Disfrutá de <span class='vtex-rich-text-0-x-paragraph--textomediano'>5% de ahorro</span> en Walmart Cash al comprar en Masxmenos.<br><br> 1% en Walmart Cash en otros comercios.",
+      "text": "Disfrutá de <span class='vtex-rich-text-0-x-paragraph--textomediano'>5% de ahorro</span> en  Cash al comprar en Masxmenos.<br><br> 1% en  Cash en otros comercios.",
       "blockClass": "como-comprar-white-text"
     }
   },
@@ -173,7 +173,7 @@
   },
   "image#tarjeta-credito-item2": {
     "props": {
-      "src": "/arquivos/icon_beneficios.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_beneficios.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -219,7 +219,7 @@
   },
   "image#tarjeta-credito-item3": {
     "props": {
-      "src": "/arquivos/icon_recibo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_recibo.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -265,13 +265,13 @@
   },
   "image#tarjeta-credito-item4": {
     "props": {
-      "src": "/arquivos/icon_cuotas.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
   "image#tarjeta-credito-plus": {
     "props": {
-      "src": "/arquivos/plus.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/plus.svg",
       "blockClass": "tarjeta-credito-plus"
     }
   },
@@ -308,7 +308,7 @@
   },
   "image#tarjeta-credito-card": {
     "props": {
-      "src": "/arquivos/tarjeta_credito.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/tarjeta_credito.png",
       "blockClass": "tarjeta-de-credito-card"
     }
   },
@@ -335,7 +335,7 @@
   },
   "image#tarjeta-credito-item5": {
     "props": {
-      "src": "/arquivos/icon_utilizar_ahorro.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_utilizar_ahorro.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -353,7 +353,7 @@
   },
   "rich-text#tarjeta-credito-item5-linea2": {
     "props": {
-      "text": "Utilizá tu ahorro en Walmart Cash para realizar compras en nuestras tiendas. Un Walmart Cash equivale a un colón. Consultá el saldo en cajas o en tu estado de cuenta.",
+      "text": "Utilizá tu ahorro en  Cash para realizar compras en nuestras tiendas. Un  Cash equivale a un colón. Consultá el saldo en cajas o en tu estado de cuenta.",
       "blockClass": "como-comprar-white-text"
     }
   },
@@ -380,7 +380,7 @@
   },
   "image#tarjeta-credito-item6": {
     "props": {
-      "src": "/arquivos/icon_cuotas_black.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_cuotas_black.svg",
       "blockClass": ["tarjeta-credito-item-icono"]
     }
   },
@@ -425,7 +425,7 @@
   },
   "image#tarjeta-credito-item7": {
     "props": {
-      "src": "/arquivos/icon_solicitar.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_solicitar.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -443,7 +443,7 @@
   },
   "rich-text#tarjeta-credito-item7-linea2": {
     "props": {
-      "text": "1.Contactá a BAC Credomatic a [2295-9898](tel:22959898).<br> 2.Ingresá [aquí](https://www2.baccredomatic.com/es-cr/personas/tarjetas/supermercados-y-clubes/walmart#amex-clasica?=CRIC-PMAS-WMT-000003-WM-AW-PR-00-000-00-00000/LINK-SITIO-WEB-EXTERNO-SERV-DOMICILIO-SUPER-2020-CR) para solicitarla.",
+      "text": "1.Contactá a BAC Credomatic a [2295-9898](tel:22959898).<br> 2.Ingresá [aquí](https://www2.baccredomatic.com/es-cr/personas/tarjetas/supermercados-y-clubes/#amex-clasica?=CRIC-PMAS-WMT-000003-WM-AW-PR-00-000-00-00000/LINK-SITIO-WEB-EXTERNO-SERV-DOMICILIO-SUPER-2020-CR) para solicitarla.",
       "blockClass": ["como-comprar-white-text", "como-comprar-white-link"]
     }
   },
@@ -478,7 +478,7 @@
   },
   "image#tarjeta-credito-requisito": {
     "props": {
-      "src": "/arquivos/icon_requisitos.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_requisitos.svg",
       "blockClass": "tarjeta-credito-item-icono"
     }
   },
@@ -549,13 +549,13 @@
   },
   "rich-text#tarjeta-credito-pregunta1-title": {
     "props": {
-      "text": "¿Cómo utilizo mis Walmart Cash?",
+      "text": "¿Cómo utilizo mis  Cash?",
       "blockClass": "tarjeta-credito-pregunta-title"
     }
   },
   "rich-text#tarjeta-credito-pregunta1-text": {
     "props": {
-      "text": "Utilizá tu ahorro de Walmart Cash para realizar compras en nuestras tiendas. Un Walmart Cash equivale a un Colón. Consultá el saldo en cajas o en tu estado de cuenta.",
+      "text": "Utilizá tu ahorro de  Cash para realizar compras en nuestras tiendas. Un  Cash equivale a un Colón. Consultá el saldo en cajas o en tu estado de cuenta.",
       "blockClass": ""
     }
   },
@@ -580,7 +580,7 @@
   },
   "rich-text#tarjeta-credito-pregunta2-title": {
     "props": {
-      "text": "¿Vencen mis Walmart Cash?",
+      "text": "¿Vencen mis  Cash?",
       "blockClass": "tarjeta-credito-pregunta-title"
     }
   },

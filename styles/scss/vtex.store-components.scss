@@ -852,7 +852,9 @@
   overflow: visible;
   width: calc(var(--letter-width) * var(--letter-count));
   height: 18px;
-}
+  display: none;
+  
+} 
 
 :global(.vtex-store-components-3-x-logoImage--icon-social-fb) {
   margin-right: 10px;

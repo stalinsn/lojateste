@@ -99,7 +99,7 @@
       "product-summary-name",
       "product-summary-brand",
       "price-custom"
-      //"personal-price"
+      // "personal-price"
     ],
     "props": {
       "width": "grow"
@@ -120,7 +120,7 @@
       "product-summary-image#shelf-list",
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#savings"
-      //"personal-flag"
+      // "personal-flag"
     ]
   },
   "product-summary-image#shelf-list": {
@@ -140,7 +140,7 @@
       "price-custom",
       // "global-promo#2x",
       // "global-promo#3x",
-      //"personal-price",
+      // "personal-price",
       "max-installments",
 
       //"product-summary-space",
@@ -207,7 +207,7 @@
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#savings",
       "flex-layout.row#add-wishlist"
-      //"personal-flag"
+      // "personal-flag"
     ]
   },
   "flex-layout.row#add-wishlist": {
@@ -283,7 +283,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "/arquivos/notfound.svg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/notfound.svg",
       "width": "180"
     }
   }*/

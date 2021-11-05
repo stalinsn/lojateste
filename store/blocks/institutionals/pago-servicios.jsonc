@@ -22,8 +22,8 @@
       "blockClass": "banner-institucional",
       "images": [
         {
-          "image": "/arquivos/servicios_banner.png",
-          "mobileImage": "/arquivos/servicios_banner_mob.png"
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/servicios_banner.png",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/servicios_banner_mob.png"
         }
       ]
     }
@@ -195,7 +195,7 @@
   "rich-text#icono10": {
     "props": {
       "blockClass": "icono6",
-      "text": "Canje Walmart Cash de la Tarjeta Walmart"
+      "text": "Canje  Cash de la Tarjeta "
     }
   },
   "flex-layout.col#icono11": {

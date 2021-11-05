@@ -984,13 +984,13 @@
   },
   "rich-text#preguntas-frecuentes-pregunta27-title": {
     "props": {
-      "text": "¿Puedo usar la misma cuenta para comprar en walmart.co.cr y masxmenos.cr?",
+      "text": "¿Puedo usar la misma cuenta para comprar en .co.cr y masxmenos.cr?",
       "blockClass": "preguntas-frecuentes-pregunta-title"
     }
   },
   "rich-text#preguntas-frecuentes-pregunta27-text": {
     "props": {
-      "text": "Sí. Simplificamos tu compra en línea al tener una cuenta única para ambas páginas. Si ya te has registrado en **masxmenos.cr**, podés ingresar a **walmart.co.cr** con tu usuario y contraseña existente sin necesidad de crear otra cuenta. Además, no necesitás volver a registrar las direcciones que guardaste para tus pedidos de **masxmenos.cr**: éstas se cargan automáticamente en tus opciones de entrega en **walmart.co.cr**.",
+      "text": "Sí. Simplificamos tu compra en línea al tener una cuenta única para ambas páginas. Si ya te has registrado en **masxmenos.cr**, podés ingresar a **.co.cr** con tu usuario y contraseña existente sin necesidad de crear otra cuenta. Además, no necesitás volver a registrar las direcciones que guardaste para tus pedidos de **masxmenos.cr**: éstas se cargan automáticamente en tus opciones de entrega en **.co.cr**.",
       "blockClass": "preguntas-frecuentes-respuesta"
     }
   },
