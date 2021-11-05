@@ -6,7 +6,6 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "title": "Header - Desktop",
     "children": [
       "telemarketing",
       //"flex-layout.row#2-desktop",
@@ -186,7 +185,6 @@
     ]
   },
   "flex-layout.row#desktop-menu-and-logo": {
-    "title": "Mega menu",
     "children": ["mega-menu", "flex-layout.col#logo-desktop"],
     "props": {
       "blockClass": "menu-logo",
