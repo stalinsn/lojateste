@@ -855,6 +855,16 @@
   display: none;
   
 } 
+.imageElement--logo-footer-corebiz-mobile {
+  margin-bottom: 3px;
+  margin-right: 10px;
+  height: 12px;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+.imageElement--vtex-footer-logo {
+  height: 14px;
+}
 
 :global(.vtex-store-components-3-x-logoImage--icon-social-fb) {
   margin-right: 10px;

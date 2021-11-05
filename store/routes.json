@@ -11,44 +11,8 @@
   "store.custom#terminos-y-condiciones-de-compra": {
     "path": "/terminos-y-condiciones-de-compra"
   },
-  "store.custom#aviso-de-privacidad-ecommerce": {
-    "path": "/aviso-de-privacidad-ecommerce"
-  },
-  "store.custom#reglamento-de-promociones": {
-    "path": "/reglamento-de-promociones"
-  },
-  "store.custom#como-comprar": {
-    "path": "/como-comprar"
-  },
-  "store.custom#shop-store": {
-    "path": "/localizador-de-tiendas"
-  },
-  "store.custom#servicios-financieros": {
-    "path": "/servicios-financieros"
-  },
-  "store.custom#tarjeta-credito": {
-    "path": "/tarjeta-de-credito"
-  },
-  "store.custom#tarjeta-regalo": {
-    "path": "/tarjeta-de-regalo"
-  },
-  "store.custom#remesas": {
-    "path": "/remesas"
-  },
-  "store.custom#pago-servicios": {
-    "path": "/pago-de-servicios"
-  },
   "store.custom#covid-store-lp": {
     "path": "/acciones-contra-el-covid-19"
-  },
-  "store.custom#preguntas-frecuentes": {
-    "path": "/preguntas-frecuentes"
-  },
-  "store.custom#financiamiento": {
-    "path": "/financiamiento"
-  },
-  "store.custom#-te-escucha": {
-    "path": "/-te-escucha"
   },
   "store.custom#wishlist-custom": {
     "path": "/wishlist-page"
@@ -58,6 +22,15 @@
   },
   "store.custom#atendance-group": {
     "path": "/grupo-institucional"
+  },
+  "store.custom#sobre-nos": {
+    "path": "/institucional/sobre-nos"
+  },
+  "store.custom#institutional": {
+    "path": "/institucional"
+  },
+  "store.custom#politica-privacidade": {
+    "path": "/institucional/politica-de-privacidade"
   },
   "store.custom#institutional-group": {
     "path": "/central-de-ajuda"

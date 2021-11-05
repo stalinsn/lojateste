@@ -31,7 +31,8 @@
   },
   "rich-text#title-atendance": {
     "props": {
-      "text": "Institucional"
+      "text": "#### Institucional",
+      "textColor": "c-on-action-secondary"
     }
   },
   "tab-layout#institutional-atendance": {
