@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.5.3] - 2021-11-04
+## [0.5.4] - 2021-11-05
 
+### Fixed
+- Institutional pages
+- Buy button on pdp
 ## [0.5.2] - 2021-11-04
 
 ### Fixed
