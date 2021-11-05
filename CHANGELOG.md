@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+### Fixed 
+
+- Minicart badge color
+- Minicart padding
+- Payment methods page font
+
+## [0.5.3] - 2021-11-04
+
 ## [0.5.2] - 2021-11-04
 
 ### Fixed
