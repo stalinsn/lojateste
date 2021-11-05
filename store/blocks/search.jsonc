@@ -69,6 +69,7 @@
   },
   "flex-layout.row#filter-and-orderby": {
     "children": [
+      "gallery-layout-switcher",
       "flex-layout.col#orderByMobile",
       "flex-layout.col#filterMobile"
     ],

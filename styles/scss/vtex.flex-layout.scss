@@ -7,6 +7,20 @@
   width: 225px !important;
   margin: 0 10px;
 }
+.flexRowContent--power-row-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flexColChild--main-banner-land {
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    :global(.vtex-store-components-3-x-imageElement--banner-img) {
+      max-width: 360px;
+    }
+  }
+}
 .flexRowContent--minicart-container-content {
   border: 1px solid #dedede;
   border-radius: 2px;
@@ -417,6 +431,25 @@
       justify-content: center !important;
     }
   }
+  @media screen and  (max-width:768px){
+    margin-top: 0;
+    display: flex;
+    &::before {
+      content: "Segurança:";
+      font-weight: 600;
+      color: #fff;
+    }
+    .flexRowContent--footer-social-bottom {
+      justify-content: flex-start;
+      width: auto !important;
+      overflow: hidden;
+      .stretchChildrenWidth {
+        width: auto !important;
+        margin-right: 40px;
+        margin-left: 30px;
+      }
+    }
+  } 
 }
 .flexColChild--footer-logo {
   margin: 0 auto;
@@ -1370,17 +1403,16 @@
   max-width: 1275px;
   margin: 0 auto;
 }
+.flexRow--search-info-mobile {
+  background: #fff;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 5%);
+  width: 114%;
+  position: relative;
+  right: 10%;
+}
 .flexRowContent--search-info-mobile {
-  position: fixed;
-  bottom: 0;
   background: #fff;
   z-index: 2;
-  left: 0;
-  .stretchChildrenWidth {
-    &:first-child {
-      box-shadow: 0 -1px 30px rgba(0, 0, 0, 0.16);
-    }
-  }
 }
 .flexRow--shelf-related-search {
   background: #fff;

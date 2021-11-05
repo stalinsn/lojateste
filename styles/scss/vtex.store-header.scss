@@ -187,30 +187,30 @@
   }
 }
 
-:global(.vtex-rich-text-0-x-container--mi-tel) {
-  &::before {
-    background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_favorite.svg?v=1);
-    margin: auto 6px auto 0;
-    content: "";
-    display: block;
-    width: 31px;
-    height: 24px;
-    background-size: 24px 24px !important;
-    background-position: -25px -118px !important;
+// :global(.vtex-rich-text-0-x-container--mi-tel) {
+//   &::before {
+//     background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_favorite.svg?v=1);
+//     margin: auto 6px auto 0;
+//     content: "";
+//     display: block;
+//     width: 31px;
+//     height: 24px;
+//     background-size: 24px 24px !important;
+//     background-position: -25px -118px !important;
 
-    @media screen and (max-width: em(1024px)) {
-      //margin: auto -30px auto 30px;
-      width: 22px;
-      height: 22px;
-      background-size: 21px 21px !important;
-      background-position: -2px -105px !important;
-    }
+//     @media screen and (max-width: em(1024px)) {
+//       //margin: auto -30px auto 30px;
+//       width: 22px;
+//       height: 22px;
+//       background-size: 21px 21px !important;
+//       background-position: -2px -105px !important;
+//     }
 
-    @media screen and (max-width: em(768px)) {
-      background-position: 0px -105px !important;
-    }
-  }
-}
+//     @media screen and (max-width: em(768px)) {
+//       background-position: 0px -105px !important;
+//     }
+//   }
+// }
 
 :global(.vtex-styleguide-9-x-input) {
   background-color: #fff;
