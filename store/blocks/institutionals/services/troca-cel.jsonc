@@ -73,8 +73,8 @@
     "title": "Infocard - seção 1",
     "props": {
       "isFullModeStyle": true,
-      "imageUrl": "/arquivos/gbarbosa-man-choosing-smartphone-in-store.jpg",
-      "mobileImageUrl": "/arquivos/gbarbosa-man-choosing-smartphone-in-store-mobile.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-man-choosing-smartphone-in-store.jpg",
+      "mobileImageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-man-choosing-smartphone-in-store-mobile.jpg",
       "headline": "Troca Cel GBarbosa",
       "subhead": "Seu usado vale desconto",
       "callToActionMode": "none",
@@ -104,7 +104,7 @@
   "image#troca-cel": {
     "title": "Imagem central",
     "props": {
-      "src": "/arquivos/gbarbosa-troca-cel.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-troca-cel.png",
       "maxHeight": 279,
       "blockClass": "troca-cel"
     }
@@ -112,7 +112,7 @@
   "image#troca-cel-2": {
     "title": "Imagem coluna 2",
     "props": {
-      "src": "/arquivos/gbarbosa-woman-smiling.jpg"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-woman-smiling.jpg"
     }
   },
   "rich-text#troca-cel": {

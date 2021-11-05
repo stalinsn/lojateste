@@ -32,7 +32,7 @@
   },
   "image#cencosud-protege-background-mobile": {
     "props": {
-      "src": "/arquivos/gbarbosa-cencosud-protege-background-mobile.jpg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-cencosud-protege-background-mobile.jpg",
       "blockClass": "cenconsud-protege-background"
     }
   }

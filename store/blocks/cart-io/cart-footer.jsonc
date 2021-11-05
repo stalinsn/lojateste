@@ -35,7 +35,7 @@
   },
   "image#cart-io-security": {
     "props": {
-      "src": "/arquivos/compra-segura.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/compra-segura.png",
       "maxHeight": 68,
       "blockClass": "cart-io-security"
     }
@@ -57,7 +57,7 @@
   },
   "image#payment-method-title": {
     "props": {
-      "src": "/arquivos/payment-flag.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-flag.png",
       "blockClass": "cart-io-security"
     }
   },
@@ -75,7 +75,7 @@
   },
   "image#developed-by-title": {
     "props": {
-      "src": "/arquivos/corebiz-checkout-logo.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/corebiz-checkout-logo.png",
       "blockClass": "cart-io-security"
     }
   },
@@ -106,21 +106,21 @@
   },
   "image#safe-store-title-1": {
     "props": {
-      "src": "/arquivos/site-blindado.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/site-blindado.png",
       "maxHeight": 23,
       "blockClass": "cart-io-security"
     }
   },
   "image#safe-store-title-2": {
     "props": {
-      "src": "/arquivos/vtex-logo.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/vtex-logo.png",
       "maxHeight": 17,
       "blockClass": "cart-io-security"
     }
   },
   "image#safe-store-title-3": {
     "props": {
-      "src": "/arquivos/pcj.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/pcj.png",
       "maxHeight": 20,
       "blockClass": "cart-io-security"
     }

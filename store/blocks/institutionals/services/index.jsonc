@@ -60,7 +60,7 @@
   "info-card#service-1": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-cartao-cenco.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-cartao-cenco.jpg",
       "headline": "Cartão Cencosud",
       "subhead": "Segurança e praticidade na realização de suas compras e transações com seu cartão.",
       "callToActionText": "Saiba mais",
@@ -71,7 +71,7 @@
   "info-card#service-2": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-plano-odonto.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-plano-odonto.jpg",
       "headline": "Plano Odonto",
       "subhead": "Você merece sorrir todos os dias e com o seu Plano Odonto GBarbosa você pode!",
       "callToActionText": "Saiba mais",
@@ -82,7 +82,7 @@
   "info-card#service-3": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-garantia-estendida.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-garantia-estendida.jpg",
       "headline": "Garantia extendida",
       "subhead": "Seguro que estende a garantia fornecida pelo fabricante, com a assistência de profissionais capacitados",
       "callToActionText": "Saiba mais",
@@ -93,7 +93,7 @@
   "info-card#service-4": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-cencosud-protege.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-cencosud-protege.jpg",
       "headline": "Cencosud Protege",
       "subhead": "Cobre os danos materiais causados ao equipamento segurado em consequência de Roubo ou Furto.",
       "callToActionText": "Saiba mais",
@@ -104,7 +104,7 @@
   "info-card#service-5": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-vale-gas.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-vale-gas.jpg",
       "headline": "Vale gás",
       "subhead": "Você compra o vale em um dos nossos caixas e tem o conforto de receber o gás em sua casa.",
       "callToActionText": "Saiba mais",
@@ -115,7 +115,7 @@
   "info-card#service-6": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-gift-cards.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-gift-cards.jpg",
       "headline": "Gift Cards",
       "subhead": "Cartões pré-pagos para ter acesso/navegar em diversas plataformas como Google Play, Netflix, Spotify, entre outras.",
       "callToActionText": "Saiba mais",
@@ -126,7 +126,7 @@
   "info-card#service-7": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-recarga-celular.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-recarga-celular.jpg",
       "headline": "Recarga de celular",
       "subhead": "Não fique sem falar. Recarregue seu celular no caixa da loja e ainda parcele no cartão.",
       "callToActionText": "Saiba mais",
@@ -137,7 +137,7 @@
   "info-card#service-8": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-troca-cel.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-troca-cel.jpg",
       "headline": "Troca Cel GBarbosa",
       "subhead": "Seu aparelho usado, smartphone ou tablet, vale como parte do pagamento na compra de um novo.",
       "callToActionText": "Saiba mais",
@@ -148,7 +148,7 @@
   "info-card#service-9": {
     "props": {
       "id": "info-card-example",
-      "imageUrl": "/arquivos/card-plano-controle.jpg",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-plano-controle.jpg",
       "headline": "Plano Controle",
       "subhead": "Franquia mensal de ligações, SMS e Internet, a depender do pacote escolhido.",
       "callToActionText": "Saiba mais",

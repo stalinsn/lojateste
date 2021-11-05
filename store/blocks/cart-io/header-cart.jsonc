@@ -63,7 +63,7 @@
   "image#cart-logo": {
     "title": "Logo cart",
     "props": {
-      "src": "/arquivos/gbarbosa_logo.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo.png",
       "width":"62px",
       "height": "62px", 
       "blockClass": "logo-cart"

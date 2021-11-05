@@ -167,17 +167,17 @@
   },
   "image#debito": {
     "props": {
-      "src": "/arquivos/payments-cartao-debito.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payments-cartao-debito.png"
     }
   },
   "image#credito": {
     "props": {
-      "src": "/arquivos/payments-cartao-credito.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payments-cartao-credito.png"
     }
   },
   "image#alimentacao": {
     "props": {
-      "src": "/arquivos/payments-vale.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payments-vale.png"
     }
   },
   "rich-text#card2-content": {

@@ -66,7 +66,7 @@
     "props": {
       "title": "icon 1",
       "href": "/",
-      "url": "/arquivos/alacena.svg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/alacena.svg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -112,7 +112,7 @@
     "props": {
       "title": "icon 3",
       "href": "/",
-      "url": "/arquivos/limpieza_mascotas.svg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/limpieza_mascotas.svg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -181,7 +181,7 @@
     "props": {
       "title": "icon 6",
       "href": "/",
-      "url": "/arquivos/jugos_bebidas.svg",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/jugos_bebidas.svg",
       "blockClass": "baby-world-sub"
     }
   },
@@ -320,8 +320,8 @@
     "props": {
       "images": [
         {
-          "image": "/arquivos/banner_milky_desktop.jpg",
-          "mobileImage": "/arquivos/banner_milky.jpg",
+          "image": "https://gbarbosa.vteximg.com.br/arquivos/banner_milky_desktop.jpg",
+          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/banner_milky.jpg",
           "link": {
             "url": "/test"
           }
