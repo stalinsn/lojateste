@@ -105,7 +105,7 @@
     "title": "Link",
     "props": {
       "href": "#",
-      "label": "Abrir o plano >",
+      "label": "Aderir ao plano >",
       "displayMode": "button",
       "blockClass": "gbarbosa-odonto"
     }

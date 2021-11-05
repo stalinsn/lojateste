@@ -10,6 +10,16 @@
     }
   }
 }
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
+    > div {
+      &:nth-child(2) {
+        max-width: 780px;
+        width: 100% !important;
+      }
+    }
+  }
+}
 :global(.vtex-dropdown) {
   :global(.br2.bw1.relative.bg-white.ba.b--light-gray.hover-b--silver) {
     border: 2px solid #eeee;

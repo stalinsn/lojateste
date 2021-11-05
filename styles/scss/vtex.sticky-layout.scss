@@ -3,12 +3,20 @@
     margin-top: 0px;
   }
 }
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
+  :global(.vtex-rich-text-0-x-wrapper--mi-tienda), :global(.vtex-login-2-x-profile) {
+    display: none;
+  }
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+    max-width: 780px;
+  }
+}
 .container--sticky-header-3 {
   :global(.vtex-flex-layout-0-x-flexRow--headertop) {
     // display: none;
   }
 }
-/**Covid**/
+/**Covid**/ 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp) {
   position: relative;
 

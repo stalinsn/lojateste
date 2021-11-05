@@ -268,9 +268,10 @@
     display: flex;
     flex-wrap: wrap;
     .stretchChildrenWidth {
-      width: 50% !important;
+      width: auto !important;
       .flexRowContent--two-cols {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: flex-start;
       }
     }
   }
@@ -1417,7 +1418,7 @@
       border: 1px solid #da291c;
       border-radius: 22px !important;
       padding: 3px;
-      background: #fff;
+      // background: #fff;
       overflow: hidden;
 
       @media (min-width: em(640px)) {
@@ -1506,7 +1507,7 @@
   @media screen and (max-width: em(768px)) {
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
       &:first-child {
-        width: 100% !important;
+        width: auto !important;
         text-align: center;
       }
       width: 100% !important;
