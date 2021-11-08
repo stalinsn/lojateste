@@ -10,6 +10,8 @@
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 30px;
+    padding-left: 24px;
+
     .confirmationIconContainer {
       display: flex;
       align-items: center;
@@ -19,12 +21,14 @@
       margin-bottom: 1rem;
       color: #2faf00;
       font-size: 28px;
+      letter-spacing: 1.12px;
     }
     .confirmationMessageContent {
       font-size: 14px;
       color: #525252;
       margin-bottom: 30px;
       line-height: 1.5;
+      letter-spacing: 0.35px;
       .confirmationMessageEmail {
         color: #525252;
         font-weight: bold;
@@ -43,7 +47,7 @@
       font-size: 14px;
     }
     .confirmationMessagesContainer {
-      margin-left: 30px;
+      margin-left: 50px;
     }
     .backToSiteIcon {
       margin-top: 7px;
