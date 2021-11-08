@@ -26,8 +26,8 @@
   border-radius: 2px;
   margin: 10px 0;
   padding: 11px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 5px;
+  padding-right: 5px;
   flex-direction: row;
   display: flex;
   :global(.vtex-product-list-0-x-productPrice) {
@@ -384,7 +384,8 @@
   }
   &::after {
     content: "";
-    background: url(https://gbarbosa.vteximg.com.br/arquivos/arrow-black-right.svg) no-repeat;
+    background: url(https://gbarbosa.vteximg.com.br/arquivos/arrow-black-right.svg)
+      no-repeat;
     width: 30px;
     height: 22px;
     display: block;
@@ -670,6 +671,17 @@
   padding-left: 16px;
   padding-right: 16px;
   background: #f4f4f4;
+  :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+    &:last-child {
+      display: none;
+    }
+  }
+  .flexRow--minicart-footer {
+    padding: 0;
+  }
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-weight: bold;
+  }
 }
 
 .flexRow--mobile-subcategory {
@@ -1323,7 +1335,6 @@
 }
 
 .flexRow--savings-porcentaje {
-
   :global(.vtex-product-price-1-x-savings) {
     :first-child {
       margin: 0 0.2em;
@@ -1607,7 +1618,9 @@
   max-width: 300px;
   margin: 0 10px;
   box-shadow: 0px 3px 6px #00000014;
-  padding: 15px;
+  padding: 20px;
+  height: max-content;
+  min-height: 380px;
   :global(.vtex-rich-text-0-x-list) {
     padding-left: 20px;
     color: #525252;
@@ -2129,7 +2142,7 @@
   }
 }
 .flexRow--main-header-mobile {
-  background-color: #ED1D25 !important;
+  background-color: #ed1d25 !important;
 }
 .flexCol--search-bar {
   padding-bottom: 10px;
