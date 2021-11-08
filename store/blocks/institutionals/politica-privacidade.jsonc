@@ -1,0 +1,72 @@
+{
+  "store.custom#politica-privacidade": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": ["responsive-layout.desktop#politica-privacidade", "responsive-layout.tablet#politica-privacidade", "responsive-layout.phone#politica-privacidade"]
+  },
+  "responsive-layout.desktop#politica-privacidade": {
+    "children": [
+      "flex-layout.row#about-us-title",
+      "flex-layout.row#politica-privacidade-container"
+    ]
+  },
+  "responsive-layout.tablet#politica-privacidade": {
+    "children": [
+      "flex-layout.row#about-us-title",
+      "flex-layout.row#politica-privacidade-container"
+    ]
+  },
+  "responsive-layout.phone#politica-privacidade": {
+    "children": [
+      "rich-text#back-to-institutionals",
+      "flex-layout.row#politica-privacidade-container-mobile"
+    ]
+  },
+  "flex-layout.row#politica-privacidade-container-mobile": {
+    "children": ["flex-layout.col#politica-privacidade-content"],
+    "props": {
+      "blockClass": ["call-center-content"],
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.row#about-us-title": {
+    "children": ["rich-text#title-atendance"]
+  },
+  "flex-layout.row#politica-privacidade-container": {
+    "children": ["flex-layout.col#politica-privacidade-links", "flex-layout.col#politica-privacidade-content"],
+    "props": {
+      "blockClass": ["call-center-content"],
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.col#politica-privacidade-links": {
+    "children": [
+      "rich-text#about-us-link-1",
+      "rich-text#about-us-link-2",
+      "rich-text#about-us-link-3",
+      "rich-text#about-us-link-4-active",
+      "rich-text#about-us-link-5"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#politica-privacidade-content": {
+    "children": [
+      "rich-text#terms-of-use",
+      "rich-text#terms-of-use1",
+      "rich-text#terms-of-use2",
+      "rich-text#terms-of-use3",
+      "rich-text#terms-of-use4",
+      "rich-text#terms-of-use5",
+      "rich-text#terms-of-use6",
+      "rich-text#terms-of-use7"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  }
+}
+

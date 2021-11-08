@@ -1,0 +1,127 @@
+{
+  "store.custom#sobre-nos": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": ["responsive-layout.desktop#sobre-nos", "responsive-layout.tablet#sobre-nos", "responsive-layout.phone#sobre-nos"]
+  },
+  "responsive-layout.desktop#sobre-nos": {
+    "children": [
+      "flex-layout.row#about-us-title",
+      "flex-layout.row#sobre-nos-container"
+    ]
+  },
+  "responsive-layout.tablet#sobre-nos": {
+    "children": [
+      "flex-layout.row#about-us-title",
+      "flex-layout.row#sobre-nos-container"
+    ]
+  },
+  "responsive-layout.phone#sobre-nos": {
+    "children": [
+      "rich-text#back-to-institutionals",
+      "flex-layout.row#sobre-nos-container-mobile"
+    ]
+  },
+  "rich-text#back-to-institutionals": {
+    "title": "Link - voltar mobile",
+    "props": {
+      "text": "[Institucional](/institucional)",
+      "font": "t-small",
+      "blockClass": ["back-to-call-center"]
+    }
+  },
+  "flex-layout.row#sobre-nos-container-mobile": {
+    "children": ["flex-layout.col#sobre-nos-content"],
+    "props": {
+      "blockClass": ["call-center-content"],
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.row#sobre-nos-container": {
+    "children": ["flex-layout.col#sobre-nos-links", "flex-layout.col#sobre-nos-content"],
+    "props": {
+      "blockClass": ["call-center-content"],
+      "marginBottom": 10
+    }
+  },
+  "flex-layout.col#sobre-nos-links": {
+    "title": "Links",
+    "children": [
+      "rich-text#about-us-link-1-active",
+      "rich-text#about-us-link-2",
+      "rich-text#about-us-link-3",
+      "rich-text#about-us-link-4",
+      "rich-text#about-us-link-5"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#sobre-nos-content": {
+    "children": [
+      "flex-layout.row#about-us-content-container"
+    ],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "rich-text#about-us-link-1": {
+    "title": "Link 1",
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Quem Somos](/institucional/sobre-nos)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#about-us-link-1-active": {
+    "title": "Link 1 - Ativo",
+    "props": {
+      "blockClass": ["call-center-link", "link-active"],
+      "text": "[Quem Somos](/institucional/sobre-nos)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#about-us-link-2": {
+    "title": "Link 2",
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Grupo Cencosud](https://www.cencosud.com)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#about-us-link-3": {
+    "title": "Link 3",
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Trabalhe conosco](https://eb.vagas.com.br/cencosudbrasil)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#about-us-link-4": {
+    "title": "Link 4",
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Política de privacidade](/institucional/politica-de-privacidade)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#about-us-link-4-active": {
+    "title": "Link 4 - Ativo",
+    "props": {
+      "blockClass": ["call-center-link", "link-active"],
+      "text": "[Política de privacidade](/institucional/politica-de-privacidadewha)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#about-us-link-5": {
+    "title": "Link 5",
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Portal do fornecedor](https://fornecedor.cencosud.com.br/)",
+      "font": "t-small"
+    }
+  }
+}
+

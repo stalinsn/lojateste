@@ -10,6 +10,16 @@
     }
   }
 }
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
+    > div {
+      &:nth-child(2) {
+        max-width: 780px;
+        width: 100% !important;
+      }
+    }
+  }
+}
 :global(.vtex-dropdown) {
   :global(.br2.bw1.relative.bg-white.ba.b--light-gray.hover-b--silver) {
     border: 2px solid #eeee;
@@ -186,7 +196,8 @@
   }
 
   :global(.vtex-pageHeader__title) {
-    visibility: hidden;
+    font-size: 24px;
+    color: #525252;
   }
 
   :global(.vtex-my-orders-app-3-x-detailsBtn) {
@@ -225,7 +236,10 @@
   :global(.vtex-pageHeader-link__container) {
     :global(.vtex-button) {
       background: transparent !important;
-      color: $primary !important;
+      color: #525252 !important;
+      :global(.ml3.ttu.t-action--small) {
+        text-transform: initial;
+      }
     }
   }
   :global(.vtex-button) {
@@ -251,6 +265,19 @@
   }
 
   :global(.vtex-my-account-1-x-addressBox) {
+    .boxContainerFooter {
+      background-color: #fff;
+      position: absolute;
+      top: 15px;
+      right: 0;     
+      bottom: auto;
+      :global(.vtex-button__label) {
+        background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_edit.png) no-repeat center !important;
+        font-size: 0 !important;
+      }
+    }
+
+
     @media screen and (max-width: em(768px)) {
       display: block;
     }
@@ -491,6 +518,10 @@
     font-size: 14px;
   }
 }
+:global(.newsletterContainerMessage) {
+  color: #525252;
+  margin-top: 5px;
+}
 :global(.vtex-account__page) {
   :global(.vtex-pageHeader__container) {
     :global(.vtex-pageHeader__children) {
@@ -695,6 +726,3 @@
   display: none;
 }
 
-.newsletterContainerMessage {
-  visibility: hidden;
-}

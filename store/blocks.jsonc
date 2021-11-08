@@ -59,9 +59,9 @@
     ]
   },
   "flex-layout.row#product-price": {
-    "children": ["flex-layout.col#product-price"]
+    "children": ["flex-layout.col#product-price-shelf"]
   },
-  "flex-layout.col#product-price": {
+  "flex-layout.col#product-price-shelf": {
     "children": [
       "price-custom",
       // "personal-price",
