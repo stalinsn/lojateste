@@ -179,7 +179,8 @@
   &::before {
     content: "";
     display: block;
-    background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_box_header2.svg?v=1) no-repeat;
+    background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_box_header2.svg?v=1)
+      no-repeat;
     margin: 0px 6px auto 0;
 
     @media (max-width: em(768px)) {
@@ -511,7 +512,8 @@
   position: relative;
   &::after {
     content: "";
-    background: url(https://gbarbosa.vteximg.com.br/arquivos/arrow-black-right.svg) no-repeat;
+    background: url(https://gbarbosa.vteximg.com.br/arquivos/arrow-black-right.svg)
+      no-repeat;
     width: 30px;
     height: 22px;
     display: block;
@@ -876,7 +878,7 @@
   }
 }
 .wrapper--services-title {
-  .headingLevel4  {
+  .headingLevel4 {
     color: #525252;
   }
 }
@@ -2949,6 +2951,28 @@
       no-repeat;
     width: 40px;
     height: 40px;
+  }
+}
+.container--order-placed-header-fourth-step {
+  height: 100%;
+  .wrapper--order-placed-header-fourth-step {
+    border-bottom: 2px solid #ed1d25;
+    .paragraph--order-placed-header-fourth-step {
+      opacity: 1;
+      .strong--cart-header-fourth-step {
+        color: #ed1d25;
+      }
+      .italic--order-placed-header-fourth-step {
+        background: #ed1d25;
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 }
 .container--cart-back-button {

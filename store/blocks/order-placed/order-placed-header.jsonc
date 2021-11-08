@@ -1,0 +1,75 @@
+{
+  "header#order-placed": {
+    "blocks": [
+      "header-layout.desktop#order-placed",
+      "header-layout.mobile#order-placed"
+    ],
+    "props": {
+      "blockClass": "cart-header"
+    }
+  },
+  "header.full#order-placed": {
+    "blocks": [
+      "header-layout.desktop#order-placed",
+      "header-layout.mobile#order-placed"
+    ],
+    "props": {
+      "blockClass": "cart-header"
+    }
+  },
+  "header-layout.desktop#order-placed": {
+    "children": ["header-row#order-placed"],
+    "props": {
+      "blockClass": "cart-header"
+    }
+  },
+  "header-layout.mobile#order-placed": {
+    "children": ["header-row#order-placed"],
+    "props": {
+      "blockClass": "mobile"
+    }
+  },
+  "header-row#order-placed": {
+    "children": ["flex-layout.row#order-placed-container"],
+    "props": {
+      "blockClass": "cart-content"
+    }
+  },
+  "flex-layout.row#order-placed-container": {
+    "children": [
+      "flex-layout.col#logo-cart",
+      "flex-layout.col#right-side-order-placed"
+    ],
+    "props": {
+      "blockClass": "cart-container"
+    }
+  },
+  "flex-layout.col#right-side-order-placed": {
+    "children": ["flex-layout.row#right-side-order-placed"],
+    "props": {
+      "blockClass": "right-side-order-placed",
+      "width": "75%"
+    }
+  },
+  "flex-layout.row#right-side-order-placed": {
+    "children": [
+      "rich-text#cart-header-first-step",
+      "rich-text#cart-header-second-step",
+      "rich-text#cart-header-third-step",
+      "rich-text#order-placed-header-fourth-step"
+    ],
+    "props": {
+      "blockClass": "right-side-orderplaced"
+    }
+  },
+  "rich-text#order-placed-header-fourth-step": {
+    "props": {
+      "text": "*4* **Pagamento**",
+      "blockClass": [
+        "cart-header",
+        "cart-header-fourth-step",
+        "order-placed-header-fourth-step"
+      ]
+    }
+  }
+}
