@@ -50,6 +50,11 @@
     width: 100%;
     height: 40px;
     //border: 0;
+    @media (max-width: 768px) {
+      box-shadow: 0px 3px 6px #5252520d;
+      border-bottom: 1px solid #dedede;
+      border-radius: 0;
+    }
   }
 }
 
@@ -731,8 +736,6 @@
     }
   }
 
-
-
   :global(.vtex-product-summary-2-x-price_sellingPrice) {
     color: #000 !important;
     font-weight: bold;
@@ -853,8 +856,7 @@
   width: calc(var(--letter-width) * var(--letter-count));
   height: 18px;
   display: none;
-  
-} 
+}
 .imageElement--logo-footer-corebiz-mobile {
   margin-bottom: 3px;
   margin-right: 10px;

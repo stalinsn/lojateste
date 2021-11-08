@@ -10,7 +10,7 @@
 {
   "store.orderplaced": {
     "parent": {
-      "header": "header#cart",
+      "header": "header#order-placed",
       "footer": "footer#cart-io"
     },
     "children": ["vtex.order-placed:order-placed"]
