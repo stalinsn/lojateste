@@ -273,7 +273,7 @@
       "flex-layout.col#circle-6"
     ],
     "props": {
-      "blockClass": "circles-mobile"
+      "blockClass": ["circles-mobile"]
     }
   },
   "flex-layout.col#circle-1": {
