@@ -127,7 +127,7 @@
   "form-input.text#email1": {
     "props": {
       "pointer": "#/properties/emailAddress",
-      "label": "Email"
+      "label": "E-mail"
     }
   },
   "form-input.text#phone1": {
