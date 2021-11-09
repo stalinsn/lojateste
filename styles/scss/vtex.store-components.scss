@@ -1475,6 +1475,11 @@
 :global(.vtex-checkbox__input) {
   opacity: 1;
 }
+:global(.vtex-search-result-3-x-filterItem ) {
+  :global(.vtex-checkbox__input) {
+    opacity: 0;
+  }
+}
 
 @media (max-width: 480px) {
   .logoContainer--logo-sub-mundo-bebe {

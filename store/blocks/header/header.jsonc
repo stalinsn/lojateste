@@ -5,7 +5,7 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
-  "header-layout.desktop": {    
+  "header-layout.desktop": {
     "title": "Header - Desktop",
     "children": [
       "telemarketing",
@@ -180,12 +180,12 @@
     },
     "children": [
       "flex-layout.row#desktop-menu-and-logo",
-      "search-bar", 
+      "search-bar",
       "flex-layout.row#desktop-utils-links",
       "flex-layout.row#desktop-minicart-links"
     ]
   },
-  "flex-layout.row#desktop-menu-and-logo": {    
+  "flex-layout.row#desktop-menu-and-logo": {
     "title": "Mega menu",
     "children": ["mega-menu", "flex-layout.col#logo-desktop"],
     "props": {
@@ -211,7 +211,7 @@
       "blockClass": "mi-tel"
     }
   },
-  "rich-text#mi-tienda": {  
+  "rich-text#mi-tienda": {
     "title": "Header - Tiendas",
     "props": {
       "text": "[Pedidos](/account#/orders)",
