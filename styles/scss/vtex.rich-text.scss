@@ -77,7 +77,7 @@
   text-decoration: none;
   font-size: 13px;
   &:hover {
-    color: #fdbb30;
+    color: #FFD500;
   }
 }
 .paragraph--timecount {
@@ -85,8 +85,11 @@
   font-weight: bold;
   font-size: 14px;
   .strong--timecount {
-    color: #fdbb30;
+    color: #FFD500;
   }
+}
+.container--title-surprise {
+  background: #fafafa;
 }
 .container--timecount {
   display: flex;
@@ -3174,6 +3177,7 @@
 
   .heading--our-stores {
     font-size: 24px;
+    color: #ED1D25;
     line-height: 33px;
     letter-spacing: -0.58px;
   }

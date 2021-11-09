@@ -85,7 +85,7 @@
   },
   "rich-text#gift-cards-text-2": {
     "props": {
-      "text": "### Como funciona? \n 1 - Você escolhe o gift card em um dos displays espalhados pela loja. \n 2 - Leva o gift card até o caixa \n 3 -O operador ativa o cartão no sistema e pronto, você já pode utilizar o crédito.",
+      "text": "### Como funciona? \n\n 1 - Você escolhe o gift card em um dos displays espalhados pela loja. \n\n  2 - Leva o gift card até o caixa \n\n 3 -O operador ativa o cartão no sistema e pronto, você já pode utilizar o crédito.",
       "blockClass": "gift-cards-section-2"
     }
   },
