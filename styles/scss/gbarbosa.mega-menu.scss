@@ -51,96 +51,170 @@
 .overlay {
   top: 132px;
   backdrop-filter: blur(12px);
-  background-color: #525252a1;
+  background-color: rgba(82,82,82,.63);
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 0;
+}
+
+.menuDrawerIcon {
+  width: 18px !important;
+  height: 12px;
+  display: flex;
+  position: relative;
+  margin: 6px;
+  cursor: pointer;
+
+  .menuIcon1,
+  .menuIcon2,
+  .menuIcon3 {
+    position: absolute;
+    background: $primary;
+    transition: all 0.3s ease;
+  }
+
+  .menuIcon1 {
+    width: 18px;
+    height: 2px;
+    top: 0;
+  }
+
+  .menuIcon2 {
+    width: 11px;
+    height: 2px;
+    top: 6px;
+  }
+
+  .menuIcon3 {
+    width: 18px;
+    height: 2px;
+    top: 12px;
+  }
+
+  &.menuDrawerIsOpen {
+    .menuIcon1 {
+      transform: rotate(45deg);
+      top: 4px;
+    }
+
+    .menuIcon2 {
+      width: 0;
+
+    }
+
+    .menuIcon3 {
+      top: 4px;
+      transform: rotate(315deg);
+    }
+  }
 }
 
 .drawer {
+  position: fixed;
+  right: 0;
+  background: white;
   height: fit-content;
-  top: 132px;
+  top: 72px;
+  z-index: 1;
 
-  .departmentsTitle {
-    font-size: 14px;
-    line-height: 28px;
-    letter-spacing: -0.22px;
-    color: #ED1D25;
-    padding: 0 16px;
-    margin: 0;
+  .drawerHeader {
+    max-width: 1366px;
+    margin: 0 auto;
+
+    .departmentsTitle {
+      font-size: 14px;
+      line-height: 28px;
+      letter-spacing: -0.22px;
+      color: #ED1D25;
+      padding: 0 16px;
+      margin: 0;
+    }
   }
 
-  .drawerContent{
-    .container {
-      display: flex;
-      width: 100%;
-      padding: 0 0 28px;
+  .container {
+    display: flex;
+    width: 100%;
+    padding: 0 0 28px;
+    max-width: 1366px;
+    margin: 0 auto;
 
-      .menu {
-        list-style: none;
-        padding: 0;
+    .menu {
+      list-style: none;
+      padding: 0;
 
-        .link {
-          display: flex;
-          min-width: 272px;
-          text-decoration: none;
-          color: #525252;
-          font-size: 14px;
-          line-height: 28px;
-          letter-spacing: -0.22px;
+      .link {
+        display: flex;
+        text-decoration: none;
+        color: #525252;
+        font-size: 14px;
+        min-width: 200px;
+        line-height: 28px;
+        letter-spacing: -0.22px;
 
-          .childrenContainer {
-            width: 100%;
+        .childrenContainer {
+          width: 100%;
 
-            .item,
-            .item2 {
+          .item,
+          .item2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &.current {
+              background: rgb(222 222 222 / 46%);
+            }
+          }
+
+          .item2 {
+            justify-content: space-between;
+            padding: 0 4px 0 16px;
+          }
+
+          .item {
+            padding: 4px 4px 4px 16px;
+
+            .menuContainer{
               display: flex;
               align-items: center;
-              justify-content: space-between;
 
-              &.current {
-                background: rgb(222 222 222 / 46%);
-              }
-            }
-
-            .item2 {
-              justify-content: space-between;
-              padding: 0 4px 0 16px;
-            }
-
-            .item {
-              padding: 4px 4px 4px 16px;
-
-              .menuContainer{
+              .iconContainer {
                 display: flex;
+                justify-content: center;
                 align-items: center;
+                width: 24px;
+                height: 24px;
+                margin-right: 16px;
+              }
 
-                .iconContainer {
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  width: 24px;
-                  height: 24px;
-                  margin-right: 16px;
-                }
-
-                .iconGo {
-                  margin-left: auto;
-                }
+              .iconGo {
+                margin-left: auto;
               }
             }
           }
         }
       }
+    }
 
-      .banners {
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: 46px;
-        overflow: hidden;
-
-        .secondBanners {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 16px;
+    .column:first-child {
+      .menu {
+        .link {
+          min-width: 272px;
         }
+      }
+    }
+
+
+    .banners {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: 46px;
+      overflow: hidden;
+
+      .secondBanners {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
       }
     }
   }
@@ -155,6 +229,7 @@
     width: 80% !important;
     height: auto;
     top: 0;
+    z-index: 999;
 
     .drawerContent{
       .drawerHeader {
@@ -244,6 +319,10 @@
 
   .overlay {
     top: 0;
+    z-index: 999;
   }
+}
 
+.hidden {
+  display: none;
 }
