@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Minicart badge color
 - Minicart padding
 - Payment methods page font
+- Fix drawer on desktop
 
 ## [0.5.4] - 2021-11-05
 
