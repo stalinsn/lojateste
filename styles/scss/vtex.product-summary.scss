@@ -44,10 +44,6 @@
     margin: 0;
     justify-content: center;
   }
-
-  @media screen and (max-width: 767px) {
-    height: 188px !important;
-  }
 }
 
 :global(.vtex-product-summary-2-x-element) {
@@ -97,6 +93,7 @@
 
     @media screen and (max-width: 767px) {
       padding-bottom: 0;
+      height: 100% !important;
 
       :global(.vtex-button) {
         width: 22px !important;
