@@ -27,22 +27,14 @@
       :global(.vtex-slider-0-x-sliderFrame) {
         justify-content: space-around;
         padding: 2em 0;
+        margin: 16px 0;
       }
+    }
+  }
 
-      .slide {
-        max-width: initial;
-        margin: 0 15px;
-        padding: 8px;
-        box-sizing: border-box;
-        background: #fff;
-        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
-
-        :global(.vtex-product-summary-2-x-containerNormal) {
-          padding: 0;
-          background: transparent;
-          box-shadow: none !important;
-        }
-      }
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 20px;
     }
   }
 }

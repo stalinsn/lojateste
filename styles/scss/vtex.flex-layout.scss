@@ -1179,11 +1179,9 @@
 
     :global(.vtex-store-components-3-x-sellingPriceContainer) {
       :global(.vtex-store-components-3-x-currencyContainer--summary) {
-        font-size: 23px;
-        font-weight: 600;
-        @media screen and (max-width: 40em) {
-          font-size: 24px !important;
-        }
+        font-size: 24px;
+        font-weight: 700;
+        color: #525252;
       }
     }
 
@@ -1456,13 +1454,6 @@
       background-color: $secondary;
       border-color: $secondary;
       color: $primary;
-    }
-
-    :global(.vtex-button__label) {
-      &::after {
-        content: "+";
-        margin-left: 4px;
-      }
     }
   }
 }
@@ -3171,6 +3162,39 @@
           font-size: 14px;
           color: #fff;
         }
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      // align-items: center;
+      display: flex;
+      position: relative;
+
+      :global(.vtex-address-form__postalCode) {
+        :global(.vtex-input) {
+          grid-template-areas:
+              "label label label"
+              "input input input";
+
+            :global(.vtex-input-prefix__group) {
+              margin-top: 24px;
+            }
+          }
+
+          :global(.vtex-address-form__postalCode-forgottenURL) {
+              justify-content: flex-start;
+              margin-top: 16px;
+          }
+      }
+
+      :global(.vtex-button) {
+        // margin-top: 14px;
+        position: absolute;
+        width: 80px;
+        right: 0;
+        bottom: 33px;
+        margin: 0 !important;
+        height: auto;
       }
     }
   }
