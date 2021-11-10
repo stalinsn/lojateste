@@ -7,8 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.5.5] - 2021-11-08
+### Fixed
 
+- Pdp on mobile
+- Pdp description
+- Product related
+- Footer color
+
+## [0.5.6] - 2021-11-09
+
+## [0.5.5] - 2021-11-09
 
 ### Fixed 
 

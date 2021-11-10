@@ -97,7 +97,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--product-description) {
   .container--tab-description {
     .listContainer {
-      justify-content: flex-start;
+      justify-content: space-between;
     }
   }
 }
@@ -123,18 +123,13 @@
   margin-top: 22px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--product-description) {
-  max-width: 600px;
-  background: white;
-  padding: 1rem;
-  margin: 0;
-}
 
 :global(.vtex-tab-layout-0-x-container--tab-description) {
   :global(.vtex-tab-layout-0-x-listItem--tab-desc) {
+    flex: 1;
     margin: 0 0 15px;
     text-align: left;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     :global(.vtex-button) {
       display: block;
       width: 100%;
@@ -142,6 +137,7 @@
       background: none;
       :global(.vtex-button__label) {
         color: #525252;
+        opacity: 0.5;
         font-size: 16px;
         text-transform: none;
         font-weight: 600;
@@ -156,6 +152,12 @@
 
   :global(.vtex-tab-layout-0-x-listItemActive) {
     border-bottom: solid 2px #ed1d25;
+
+    :global(.vtex-button) {
+      :global(.vtex-button__label) {
+        opacity: 1;
+      }
+    }
   }
 
   :global(.vtex-tab-layout-0-x-contentContainer) {
