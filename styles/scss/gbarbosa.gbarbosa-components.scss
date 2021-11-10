@@ -483,6 +483,8 @@
   }
 }
 
+
+
 :global(.vtex-product-summary-2-x-container) {
   .installments_value {
     font-size: 12px;
@@ -493,8 +495,16 @@
 }
 
 @media screen and (max-width: 767px) {
-  .installments_value{
-    display: none;
+  :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
+    .triggerContainer{
+      margin-top: 24px;
+    }
+  }
+
+  :global(.vtex-product-summary-2-x-container){
+    .installments_value{
+      display: none;
+    }
   }
 }
 
