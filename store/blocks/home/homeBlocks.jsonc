@@ -1,6 +1,6 @@
 {
   "flex-layout.row#first-row": {
-    "title": "First row",
+    "title": "Seção 1 - Banners Principais",
     "children": ["list-context.image-list#main-slider"],
     "props": {
       "colGap": 4,
@@ -8,7 +8,7 @@
     }
   },
   "list-context.image-list#main-slider": {
-    "title": "Main Slider",
+    "title": "Slider Principal",
     "children": ["slider-layout#main-slider-images"],
     "props": {
       "width": "100%",
@@ -54,6 +54,7 @@
     }
   },
   "flex-layout.row#row-2-images": {
+    "title": "Seção 3 - Banners",
     "children": [
       "flex-layout.col#col-2-images-1",
       "flex-layout.col#col-2-images-2"
@@ -63,14 +64,39 @@
     }
   },
   "flex-layout.col#col-2-images-1": {
-    "children": ["image#col-2-images-1"],
+    "children": [
+      "responsive-layout.desktop#col-1-images-1",
+      "responsive-layout.mobile#col-1-images-1-mobile"
+    ],
     "props": {
       "blockClass": ["col-banner", "main-banner-land"]
     }
   },
+  "responsive-layout.desktop#col-1-images-1": {
+    "title": "Imagem 1 (Desktop)",
+    "children": ["image#col-2-images-1"]
+  },
+
+  "responsive-layout.mobile#col-1-images-1-mobile": {
+    "title": "Imagem 1 (Mobile)",
+    "children": ["image#col-2-images-1-mobile"]
+  },
+  "image#col-1-images-1-mobile": {
+    "props": {
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner2-mobile.png",
+      "blockClass": "banner-img"
+    }
+  },
   "image#col-2-images-1": {
+    "title": "Imagem 1",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/banner1.jpg",
+      "blockClass": "banner-img"
+    }
+  },
+  "image#col-2-images-1-mobile": {
+    "props": {
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/banner2-mobile.png",
       "blockClass": "banner-img"
     }
   },
@@ -84,6 +110,7 @@
     }
   },
   "responsive-layout.desktop#col-2-images-2": {
+    "title": "Imagem 2 (Desktop)",
     "children": ["image#col-2-images-2"]
   },
   "image#col-2-images-2": {
@@ -93,6 +120,7 @@
     }
   },
   "responsive-layout.mobile#col-2-images-2-mobile": {
+    "title": "Imagem 2 (Mobile)",
     "children": ["image#col-2-images-2-mobile"]
   },
   "image#col-2-images-2-mobile": {
@@ -102,6 +130,7 @@
     }
   },
   "responsive-layout.desktop#row-gray-methods": {
+    "title": "Seção 4 - Parcelamento(Desktop)",
     "children": ["flex-layout.row#row-gray-methods"]
   },
   "flex-layout.row#row-gray-methods": {
@@ -116,9 +145,15 @@
     ]
   },
   "flex-layout.col#methods-icon": {
-    "children": ["list-context.image-list#row-gray"],
+    "children": ["image#card-icon"],
     "props": {
       "blockClass": "row-gray-icon"
+    }
+  },
+  "image#card-icon": {
+    "title": "Ícone",
+    "props": {
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/credit_cart_icon.svg"
     }
   },
   "flex-layout.col#methods-inner-text": {
@@ -134,12 +169,14 @@
     "children": ["image#methods-image"]
   },
   "rich-text#methods-main-text": {
+    "title": "Título",
     "props": {
       "text": "**12 Meses** para você parcelar suas compras",
       "blockClass": "methods-main-text"
     }
   },
   "rich-text#methods-secondary-text": {
+    "title": "Sub Título",
     "props": {
       "text": "Válido de 1 de janeiro à 31 de dezembro de 2021.",
       "blockClass": "methods-secondary-text"
@@ -148,21 +185,6 @@
   "image#methods-image": {
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/methods_image.png"
-    }
-  },
-  "list-context.image-list#row-gray": {
-    "title": "Image full width gray",
-    "children": ["slider-layout#banner-full-width"],
-    "props": {
-      "images": [
-        {
-          "image": "https://gbarbosa.vteximg.com.br/arquivos/credit_cart_icon.svg",
-          "mobileImage": "https://gbarbosa.vteximg.com.br/arquivos/credit_cart_icon.svg",
-          "link": {
-            "url": "/test"
-          }
-        }
-      ]
     }
   },
   "slider-layout#banner-full-width": {
@@ -261,6 +283,7 @@
     }
   },*/
   "responsive-layout.desktop#slider-circles": {
+    "title": "Seção 5 - Banners de Destaque",
     "children": ["flex-layout.row#slider-circles-1"]
   },
   "flex-layout.row#slider-circles-1": {
@@ -277,179 +300,102 @@
     }
   },
   "flex-layout.col#circle-1": {
+    "title": "Destaque 1",
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": ["logo#circle-1", "menu-item#circle-1"]
+    "children": ["logo#circle-1"]
   },
   "logo#circle-1": {
+    "title": "Imagem 1",
     "props": {
-      "title": "circle 1",
+      "title": "Imagem 1",
       "href": "/",
       "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item1.png",
       "blockClass": "logo-circle"
     }
   },
-  "menu-item#circle-1": {
-    "props": {
-      "blockClass": "title-to-circle-categories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/141?map=productClusterIds",
-        "noFollow": true,
-        "tagTitle": "Rebajas",
-        "text": "Rebajas"
-      }
-    }
-  },
   "flex-layout.col#circle-2": {
+    "title": "Destaque 2",
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": ["logo#circle-2", "menu-item#circle-2"]
+    "children": ["logo#circle-2"]
   },
   "logo#circle-2": {
+    "title": "Imagem 2",
     "props": {
-      "title": "circle 2",
+      "title": "Imagem 2",
       "href": "/",
       "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item2.png",
       "blockClass": "logo-circle"
     }
   },
-  "menu-item#circle-2": {
-    "props": {
-      "blockClass": "title-to-circle-categories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/141?map=productClusterIds",
-        "noFollow": true,
-        "tagTitle": "Belleza",
-        "text": "Belleza"
-      }
-    }
-  },
   "flex-layout.col#circle-3": {
+    "title": "Destaque 3",
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": ["logo#circle-3", "menu-item#circle-3"]
+    "children": ["logo#circle-3"]
   },
   "logo#circle-3": {
+    "title": "Imagem 3",
     "props": {
-      "title": "circle 3",
+      "title": "Imagem 3",
       "href": "/",
       "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item1.png",
       "blockClass": "logo-circle"
     }
   },
-  "menu-item#circle-3": {
-    "props": {
-      "blockClass": "title-to-circle-categories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/141?map=productClusterIds",
-        "noFollow": true,
-        "tagTitle": "Salud",
-        "text": "Salud"
-      }
-    }
-  },
   "flex-layout.col#circle-4": {
+    "title": "Destaque 4",
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": ["logo#circle-4", "menu-item#circle-4"]
+    "children": ["logo#circle-4"]
   },
   "logo#circle-4": {
+    "title": "Imagem 4",
     "props": {
-      "title": "circle 4",
+      "title": "Imagem 4",
       "href": "/",
       "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item3.png",
       "blockClass": "logo-circle"
     }
   },
-  "menu-item#circle-4": {
-    "props": {
-      "blockClass": "title-to-circle-categories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/141?map=productClusterIds",
-        "noFollow": true,
-        "tagTitle": "Electrónica",
-        "text": "Electrónica"
-      }
-    }
-  },
   "flex-layout.col#circle-5": {
+    "title": "Destaque 5",
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": ["logo#circle-5", "menu-item#circle-5"]
+    "children": ["logo#circle-5"]
   },
   "logo#circle-5": {
+    "title": "Imagem 5",
     "props": {
-      "title": "circle 5",
+      "title": "Imagem 5",
       "href": "/",
       "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item4.png",
       "blockClass": "logo-circle"
     }
   },
-  "menu-item#circle-5": {
-    "props": {
-      "blockClass": "title-to-circle-categories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/141?map=productClusterIds",
-        "noFollow": true,
-        "tagTitle": "Vinos y Licores",
-        "text": "Vinos y Licores"
-      }
-    }
-  },
   "flex-layout.col#circle-6": {
+    "title": "Destaque 6",
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": ["logo#circle-6", "menu-item#circle-6"]
+    "children": ["logo#circle-6"]
   },
   "logo#circle-6": {
+    "title": "Imagem 6",
     "props": {
-      "title": "circle 6",
+      "title": "Imagem 6",
       "href": "/",
       "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item5.png",
       "blockClass": "logo-circle"
     }
   },
-  "menu-item#circle-6": {
-    "props": {
-      "blockClass": "title-to-circle-categories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/141?map=productClusterIds",
-        "noFollow": true,
-        "tagTitle": "Bebés y niños",
-        "text": "Bebés y niños"
-      }
-    }
-  },
+
   //LAST CAR
   "flex-layout.row#last-car": {
     "children": ["rich-text#last-car", "rich-text#buy-all"],
@@ -506,6 +452,7 @@
   },
 
   "flex-layout.row#row-22-images": {
+    "title": "Seção 7 - Banners",
     "children": [
       "flex-layout.col#col-22-images-1",
       "flex-layout.col#col-22-images-2"
@@ -515,6 +462,7 @@
     }
   },
   "flex-layout.col#col-22-images-1": {
+    "title": "Imagem 1",
     "children": ["image#col-22-images-1"],
     "props": {
       "blockClass": "col-banner"
@@ -527,6 +475,7 @@
     }
   },
   "flex-layout.col#col-22-images-2": {
+    "title": "Imagem 2",
     "children": ["image#col-22-images-2"],
     "props": {
       "blockClass": "col-banner"
@@ -540,13 +489,14 @@
   },
   //THE NEW
   "flex-layout.row#the-new": {
+    "title": "Seção 10 - Título",
     "children": ["rich-text#the-new", "rich-text#view-all-new"],
     "props": {
       "blockClass": ["the-new", "title-section", "top32"]
     }
   },
   "rich-text#the-new": {
-    "title": "Recommended title",
+    "title": "Título",
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
@@ -555,7 +505,7 @@
     }
   },
   "rich-text#view-all-new": {
-    "title": "View all new",
+    "title": "Link - Ver tudo",
     "props": {
       "textAlignment": "right",
       "textPosition": "right",
@@ -564,7 +514,7 @@
     }
   },
   "flex-layout.row#shelf-the-new": {
-    "title": "We want surprise you",
+    "title": "Seção 10 - Prateleira",
     "children": ["list-context.product-list#shelf-home2-the-new"],
     "props": {
       "blockClass": "recommended-you"
@@ -602,6 +552,7 @@
     }
   },
   "flex-layout.row#row-4-images": {
+    "title": "Seção 9 - Banners",
     "children": [
       "flex-layout.col#col-4-images-1",
       "flex-layout.col#col-4-images-2",
@@ -613,6 +564,7 @@
     }
   },
   "flex-layout.col#col-4-images-1": {
+    "title": "Imagem 1",
     "children": ["image#col-4-images-1"],
     "props": {
       "blockClass": "col-banner"
@@ -625,6 +577,7 @@
     }
   },
   "flex-layout.col#col-4-images-2": {
+    "title": "Imagem 2",
     "children": ["image#col-4-images-2"],
     "props": {
       "blockClass": "col-banner"
@@ -637,6 +590,7 @@
     }
   },
   "flex-layout.col#col-4-images-3": {
+    "title": "Imagem 3",
     "children": ["image#col-4-images-3"],
     "props": {
       "blockClass": "col-banner"
@@ -649,6 +603,7 @@
     }
   },
   "flex-layout.col#col-4-images-4": {
+    "title": "Imagem 4",
     "children": ["image#col-4-images-4"],
     "props": {
       "blockClass": "col-banner"
@@ -720,6 +675,7 @@
   },*/
   //FEATURED PRODUCT
   "flex-layout.row#featured-product": {
+    "title": "Seção 8 - Título",
     "children": [
       "rich-text#featured-product",
       "rich-text#view-all-feature-product"
@@ -729,7 +685,7 @@
     }
   },
   "rich-text#featured-product": {
-    "title": "Featured product title",
+    "title": "Título",
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
@@ -738,7 +694,7 @@
     }
   },
   "rich-text#view-all-feature-product": {
-    "title": "View all feature product",
+    "title": "Link - Ver todos",
     "props": {
       "textAlignment": "right",
       "textPosition": "right",
@@ -747,7 +703,7 @@
     }
   },
   "flex-layout.row#shelf-featured-product": {
-    "title": "We want surprise you",
+    "title": "Seção 8 - Prateleira",
     "children": ["list-context.product-list#shelf-home2-featured-product"],
     "props": {
       "blockClass": "recommended-you"
@@ -778,6 +734,7 @@
     }
   },
   "flex-layout.row#row-3-images": {
+    "title": "Seção 11 - Banners",
     "children": [
       "flex-layout.col#col-3-images-1",
       "flex-layout.col#col-3-images-2",
@@ -788,6 +745,7 @@
     }
   },
   "flex-layout.col#col-3-images-1": {
+    "title": "Banner 1",
     "children": ["image#col-3-images-1"],
     "props": {
       "blockClass": "col-banner"
@@ -800,6 +758,7 @@
     }
   },
   "flex-layout.col#col-3-images-2": {
+    "title": "Banner 2",
     "children": ["image#col-3-images-2"],
     "props": {
       "blockClass": "col-banner"
@@ -812,6 +771,7 @@
     }
   },
   "flex-layout.col#col-3-images-3": {
+    "title": "Banner 3",
     "children": ["image#col-3-images-3"],
     "props": {
       "blockClass": "col-banner"
@@ -871,13 +831,14 @@
   },
   //OFFERS
   "flex-layout.row#offers": {
+    "title": "Seção 6 - Principais Ofertas Título",
     "children": ["rich-text#offers", "rich-text#view-all-offers"],
     "props": {
       "blockClass": ["offers", "title-section", "top32"]
     }
   },
   "rich-text#offers": {
-    "title": "Recommended title",
+    "title": "Título da Prateleira",
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
@@ -886,7 +847,7 @@
     }
   },
   "rich-text#view-all-offers": {
-    "title": "View all offers",
+    "title": "Link - Ver todos",
     "props": {
       "textAlignment": "right",
       "textPosition": "right",
@@ -895,7 +856,7 @@
     }
   },
   "flex-layout.row#shelf-offers": {
-    "title": "Ofertas nuevo",
+    "title": "Seção 6 - Principais Ofertas Prateleira",
     "children": [
       "list-context.product-list#shelf-home2-featured-product-offers"
     ],
@@ -964,6 +925,7 @@
   //BEST SELLER
 
   "responsive-layout.desktop#best-seller": {
+    "title": "Seção 12 - Título(Desktop)",
     "children": ["flex-layout.row#best-seller"]
   },
   "flex-layout.row#best-seller": {
@@ -974,7 +936,7 @@
     }
   },
   "rich-text#departments-title": {
-    "title": "Recomended products title",
+    "title": "Título",
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
@@ -983,7 +945,7 @@
     }
   },
   "rich-text#best-seller": {
-    "title": "Recomended products title",
+    "title": "Seção 12 - Título",
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
@@ -992,6 +954,7 @@
     }
   },
   "link#ver-tudo#home-6": {
+    "title": "Link - Ver todos",
     "props": {
       "label": "Ver todos",
       "href": "/",
@@ -999,10 +962,14 @@
     }
   },
   "responsive-layout.desktop#custom-end-banner": {
+    "title": "Seção 13 - Banner(Desktop)",
     "children": ["flex-layout.row#custom-end-banner"]
   },
   "flex-layout.row#custom-end-banner": {
-    "children": ["image#end-banner"]
+    "children": ["image#end-banner"],
+    "props": {
+      "marginTop": 8
+    }
   },
   "image#end-banner": {
     "props": {
@@ -1010,12 +977,14 @@
     }
   },
   "flex-layout.row#custom-4-images-container": {
+    "title": "Seção 12 - Banners",
     "children": ["flex-layout.col#custom-4-images-container"]
   },
   "flex-layout.col#custom-4-images-container": {
     "children": ["rich-text#best-seller", "flex-layout.row#custom-4-images"]
   },
   "flex-layout.row#custom-4-images": {
+    "title": "Seção 12 - Banners",
     "children": [
       "flex-layout.row#custom-4-images-col-1",
       "flex-layout.row#custom-4-images-col-2"
@@ -1049,6 +1018,7 @@
     }
   },
   "image#custom-4-images-1": {
+    "title": "Image 1",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended1.PNG",
       "blockClass": ["banner-img", "custom-four"]
@@ -1061,12 +1031,14 @@
     }
   },
   "image#custom-4-images-2": {
+    "title": "Image 2",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended2.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-22": {
+    "title": "Image 3",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended5.png",
       "blockClass": "banner-img"
@@ -1079,12 +1051,14 @@
     }
   },
   "image#custom-4-images-3": {
+    "title": "Image 4",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended3.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-33": {
+    "title": "Image 5",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended6.png",
       "blockClass": "banner-img"
@@ -1097,12 +1071,14 @@
     }
   },
   "image#custom-4-images-4": {
+    "title": "Image 6",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended4.png",
       "blockClass": "banner-img"
     }
   },
   "image#custom-4-images-44": {
+    "title": "Image 7",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/home_recommended7.png",
       "blockClass": "banner-img"
@@ -1110,6 +1086,7 @@
   },
   //THE BEST ELECTRONICS
   "flex-layout.row#the-best-electronics": {
+    "title": "Seção 11 - Título",
     "children": [
       "rich-text#the-best-electronics",
       "rich-text#view-all-best-electronics"
@@ -1119,7 +1096,7 @@
     }
   },
   "rich-text#the-best-electronics": {
-    "title": "the best electronics",
+    "title": "Título",
     "props": {
       "textAlignment": "center",
       "textPosition": "center",
@@ -1128,7 +1105,7 @@
     }
   },
   "rich-text#view-all-best-electronics": {
-    "title": "View all best electronics",
+    "title": "Link - Ver tudo",
     "props": {
       "textAlignment": "right",
       "textPosition": "right",
@@ -1137,7 +1114,7 @@
     }
   },
   "flex-layout.row#shelf-the-best-electronics": {
-    "title": "the best electronics row",
+    "title": "Seção 11 - Prateleira",
     "children": ["list-context.product-list#shelf-home2-eletronics"],
     "props": {
       "blockClass": "recommended-you"
@@ -1168,6 +1145,7 @@
     }
   },
   "responsive-layout.mobile#eletro": {
+    "title": "Seção 11 - (Mobile)",
     "children": [
       "flex-layout.row#the-best-electronics",
       "flex-layout.row#shelf-the-best-electronics"
@@ -1175,12 +1153,14 @@
   },
   //ROW SERVICES
   "responsive-layout.desktop#services-home": {
+    "title": "Seção 2 - Serviços(Desktop)",
     "props": {
       "blockClass": "services"
     },
     "children": ["flex-layout.row#services-1"]
   },
   "responsive-layout.mobile#services-home": {
+    "title": "Seção - Serviços(Mobile)",
     "props": {
       "blockClass": "services"
     },
@@ -1222,6 +1202,7 @@
     }
   },
   "flex-layout.row#two-cols-1": {
+    "title": "Serviço 1",
     "children": ["flex-layout.col#left-1", "flex-layout.col#right-1"],
     "props": {
       "blockClass": ["two-cols"]
@@ -1241,13 +1222,14 @@
     }
   },
   "image#service-1": {
+    "title": "Serviço 1 - Imagem",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_shipping_spec.svg",
       "blockClass": "image-service"
     }
   },
   "rich-text#service-1": {
-    "title": "service subtitle",
+    "title": "Serviço 1 - Texto",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -1256,6 +1238,7 @@
     }
   },
   "flex-layout.row#two-cols-2": {
+    "title": "Serviço 2",
     "children": ["flex-layout.col#left-2", "flex-layout.col#right-2"],
     "props": {
       "blockClass": ["two-cols"]
@@ -1275,13 +1258,14 @@
     }
   },
   "image#service-2": {
+    "title": "Serviço 2 - Imagem",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_store_spec.svg",
       "blockClass": "image-service"
     }
   },
   "rich-text#service-2": {
-    "title": "service subtitle",
+    "title": "Serviço 2 - Texto",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -1290,6 +1274,7 @@
     }
   },
   "flex-layout.row#two-cols-3": {
+    "title": "Serviço 3",
     "children": ["flex-layout.col#left-3", "flex-layout.col#right-3"],
     "props": {
       "blockClass": ["two-cols"]
@@ -1309,13 +1294,14 @@
     }
   },
   "image#service-3": {
+    "title": "Serviço 3 - Imagem",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_payment_spec.svg",
       "blockClass": "image-service"
     }
   },
   "rich-text#service-3": {
-    "title": "service subtitle",
+    "title": "Serviço 3 - Texto",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -1324,6 +1310,7 @@
     }
   },
   "flex-layout.row#two-cols-4": {
+    "title": "Serviço 4",
     "children": ["flex-layout.col#left-4", "flex-layout.col#right-4"],
     "props": {
       "blockClass": ["two-cols"]
@@ -1343,13 +1330,14 @@
     }
   },
   "image#service-4": {
+    "title": "Serviço 4 - Imagem",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_security_spec.svg",
       "blockClass": "image-service"
     }
   },
   "rich-text#service-4": {
-    "title": "service subtitle",
+    "title": "Serviço 4 - Texto",
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
@@ -1358,6 +1346,7 @@
     }
   },
   "responsive-layout.desktop#shelf-home": {
+    "title": "Seção 12 - Prateleira(Desktop)",
     "children": ["tab-layout#home"]
   },
   "tab-layout#home": {
@@ -1377,6 +1366,7 @@
     ]
   },
   "tab-list.item#home1": {
+    "title": "Tab 1",
     "props": {
       "tabId": "home1",
       "label": "Automotivos",
@@ -1384,12 +1374,14 @@
     }
   },
   "tab-list.item#home2": {
+    "title": "Tab 2",
     "props": {
       "tabId": "home2",
       "label": "Frutas e verduras"
     }
   },
   "tab-list.item#home3": {
+    "title": "Tab 3",
     "props": {
       "tabId": "home3",
       "label": "Cafés e Chás",
@@ -1397,6 +1389,7 @@
     }
   },
   "tab-list.item#home4": {
+    "title": "Tab 4",
     "props": {
       "tabId": "home4",
       "label": "Sucos e Refrigerantes"
@@ -1418,6 +1411,7 @@
     }
   },
   "flex-layout.row#row-tab-home-1": {
+    "title": "Tab 1 - Conteúdo",
     "children": [
       "tab-layout-banner-text",
       "list-context.product-list#tab-layout-home"
@@ -1427,6 +1421,7 @@
     }
   },
   "flex-layout.row#row-tab-home-2": {
+    "title": "Tab 2 - Conteúdo",
     "children": [
       "tab-layout-banner-text",
       "list-context.product-list#tab-layout-home"
@@ -1443,6 +1438,7 @@
   },
 
   "flex-layout.row#row-tab-home-3": {
+    "title": "Tab 3 - Conteúdo",
     "children": [
       "tab-layout-banner-text",
       "list-context.product-list#tab-layout-home"
@@ -1458,6 +1454,7 @@
     }
   },
   "flex-layout.row#row-tab-home-4": {
+    "title": "Tab 4 - Conteúdo",
     "children": [
       "tab-layout-banner-text",
       "list-context.product-list#tab-layout-home"
