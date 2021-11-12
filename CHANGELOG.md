@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.5.9] - 2021-11-12
+
 ### Fixed
 - Mobile footer color
 ## [0.5.8] - 2021-11-11
