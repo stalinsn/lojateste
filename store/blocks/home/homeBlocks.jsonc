@@ -1313,7 +1313,8 @@
     "title": "Serviço 4",
     "children": ["flex-layout.col#left-4", "flex-layout.col#right-4"],
     "props": {
-      "blockClass": ["two-cols"]
+      "blockClass": ["two-cols"],
+      "colGap": 2
     }
   },
   "flex-layout.col#left-4": {
@@ -1332,7 +1333,7 @@
   "image#service-4": {
     "title": "Serviço 4 - Imagem",
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_security_spec.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_security_spec.png",
       "blockClass": "image-service"
     }
   },
