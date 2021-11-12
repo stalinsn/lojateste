@@ -61,7 +61,7 @@
     "props": {
       "id": "info-card-example",
       "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-cartao-cenco.jpg",
-      "headline": "Cartão Cencosud",
+      "headline": "Cartão Gbarbosa",
       "subhead": "Segurança e praticidade na realização de suas compras e transações com seu cartão.",
       "callToActionText": "Saiba mais",
       "callToActionUrl": "/servicos/cartao-cenco",
