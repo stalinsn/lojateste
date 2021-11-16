@@ -334,10 +334,37 @@
   },
 
   "tab-content.item#features": {
-    "children": ["product-specifications"],
+    "children": ["product-specification-group"],
 
     "props": {
       "tabId": "feat"
+    }
+  },
+  "product-specification-group": {
+    "children": ["product-specification"]
+  },
+  "product-specification": {
+    "children": [
+      "product-specification-text#specification",
+      "product-specification-values"
+    ]
+  },
+  "product-specification-values": {
+    "children": ["product-specification-text#value"]
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
     }
   },
 

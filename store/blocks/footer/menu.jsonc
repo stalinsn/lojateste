@@ -85,12 +85,12 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "https://eb.vagas.com.br/cencosudbrasil",
         "noFollow": false,
         "tagTitle": "Trabalhe conosco",
         "text": "Trabalhe conosco"
-      }
+      }   
     }
   },
 
@@ -116,7 +116,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "https://fornecedor.cencosud.com.br/",
         "noFollow": false,
         "tagTitle": "Portal do fornecedor",
@@ -165,8 +165,8 @@
         "type": "internal",
         "href": "/servicos/cartao-cenco",
         "noFollow": false,
-        "tagTitle": "Cartão GBarbosa Cencosud",
-        "text": "Cartão GBarbosa Cencosud"
+        "tagTitle": "Cartão GBarbosa",
+        "text": "Cartão GBarbosa"
       }
     }
   },
