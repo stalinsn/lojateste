@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+### Fixed
+
+- Home notification bar
+- Institutional page info-card label
+
 ## [0.5.9] - 2021-11-12
 
 ### Fixed
