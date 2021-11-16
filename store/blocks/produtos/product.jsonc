@@ -334,19 +334,14 @@
   },
 
   "tab-content.item#features": {
-    "children": ["flex-layout.row#specifications-container"],
+    "children": ["product-specification-group"],
 
     "props": {
       "tabId": "feat"
     }
   },
-  "flex-layout.row#specifications-container": {
-    "children": [
-      "product-specification-group"
-    ]
-  },
   "product-specification-group": {
-    "children": ["product-specification-text#group", "product-specification"]
+    "children": ["product-specification"]
   },
   "product-specification": {
     "children": [
