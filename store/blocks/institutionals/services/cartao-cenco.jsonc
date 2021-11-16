@@ -274,16 +274,72 @@
   },
   "flex-layout.row#cartao-cenco-container4": {
     "children": [
-      "info-card#cencosud-card"
+      "flex-layout.col#cartao-cenco-content-col1",
+      "flex-layout.col#cartao-cenco-content-col2"
+    ],
+    "props": {
+      "blockClass": "cencosud-card-section-4"
+    }
+  },
+  "flex-layout.col#cartao-cenco-content-col1": {
+    "children": [
+      "rich-text#cartao-cenco-content-col1",
+      "flex-layout.row#cartao-cenco-call-to-actions"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "blockClass": "cencosud-card-section-4"
+    }
+  },
+  "rich-text#cartao-cenco-content-col1": {
+    "props": {
+      "text": "#### Para saber mais informações: [cartaocencosud.com.br](https://cartaocencosud.com.br/) \n\n #### Já e nosso cliente e quer acessar faturas, saldo ou limites? Acesse o app gbarbosa ou [clique aqui](https://wwws.cartaocencosud.com.br/cliente/index.xhtml)",
+      "blockClass": "cencosud-card-section-4"
+    }
+  },
+  "flex-layout.row#cartao-cenco-call-to-actions": {
+    "children": [
+      "link#cartao-cenco-call-to-action-1",
+      "link#cartao-cenco-call-to-action-2"
+    ],
+    "props": {
+      "colGap": 4
+    }
+  },
+  "link#cartao-cenco-call-to-action-1": {
+    "props": {
+      "href": "https://wwws.cartaocencosud.com.br/cliente/index.xhtml",
+      "label": "Acessar fatura",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "small",
+        "variant": "primary"
+      },
+      "blockClass": "cencosud-card-link1"
+    }
+  },
+  "link#cartao-cenco-call-to-action-2": {
+    "props": {
+      "href": "#",
+      "label": "Baixe o guia de benefícios",
+      "displayMode": "button",
+      "buttonProps": {
+        "size": "small",
+        "variant": "secondary"
+      },
+      "blockClass": "cencosud-card-link2"
+    }
+  },
+  "flex-layout.col#cartao-cenco-content-col2": {
+    "children": [
+      "image#cartao-cenco-content-col2"
     ]
   },
-  "info-card#cencosud-card": {
+  "image#cartao-cenco-content-col2": {
     "props": {
-      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_card_woman.png",
-      "headline": "Para saber mais informações: cartaocencosud.com.br \n\n Já e nosso cliente e quer acessar faturas, saldo ou limites?? \n\n Acesse o app gbarbosa ou acesse:\n https://wwws.cartaocencosud.com.br/cliente/index.xhtml",
-      "callToActionText": "Baixe o guia de benefícios",
-      "callToActionUrl": "/servicos/garantia-extendida",
-      "blockClass": "cencosud-card-benefits"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_card_woman.png",
+      "blockClass": "cartao-cenco-content-col2"
     }
   }
 }
