@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#5-desktop",
       "flex-layout.row#first-row",
       "responsive-layout.desktop#services-home",
       "flex-layout.row#row-2-images",
