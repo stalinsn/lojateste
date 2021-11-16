@@ -1063,38 +1063,6 @@
   }
 }
 
-// INSTITUTIONALS - CENCOSUD CARD
-.infoCardContainer--cencosud-card-benefits {
-  padding: 0;
-  background: #ed1d25;
-
-  .infoCardTextContainer--cencosud-card-benefits {
-    max-width: 300px;
-    margin: 0 auto;
-
-    .infoCardHeadline--cencosud-card-benefits {
-      font-size: 24px;
-      color: #fff;
-      text-transform: uppercase;
-    }
-
-    .infoCardCallActionContainer--cencosud-card-benefits {
-      :global(.vtex-button) {
-        font-size: 16px;
-        background: #ffd500;
-        border-color: #ffd500;
-      }
-    }
-  }
-
-  .infoCardImageContainer--cencosud-card-benefits {
-    width: 60%;
-
-    .infoCardImage--cencosud-card-benefits {
-      display: flex;
-    }
-  }
-}
 
 // INSTITUTIONALS - GBARBOSA ODONTO
 .imageElement--gbarbosa-odonto-background {
@@ -1251,6 +1219,10 @@
       border-radius: 0 0 30px 30px;
     }
   }
+}
+
+.imageElement--cartao-cenco-content-col2 {
+  display: flex;
 }
 
 // INSTITUTIONALS - TROCA CEL

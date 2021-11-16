@@ -2669,7 +2669,15 @@
   }
 }
 
+.flexRow--cencosud-card-section-4{
+  background: $primary;
+}
+
 @media screen and (max-width: 767px) {
+  .flexCol--cencosud-card-section-4 {
+    margin-left: 0;
+  }
+
   .flexCol--cencosud-card-content {
     padding: 42px 8px 0;
   }
