@@ -269,7 +269,7 @@
       background-color: #fff;
       position: absolute;
       top: 15px;
-      right: 0;     
+      right: 0;
       bottom: auto;
       :global(.vtex-button__label) {
         background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_edit.png) no-repeat center !important;
@@ -456,34 +456,13 @@
 :global(.vtex-my-account-1-x-menu) {
   :global(.vtex-my-account-1-x-menuLinks) {
     a {
-      font-size: 0;
       &::before {
         font-weight: 400;
         font-size: 14px;
         color: #525252;
       }
     }
-    a[href*="#/profile"] {
-      &::before {
-        content: "Dados pessoais";
-      }
-    }
-    a[href*="#/addresses"] {
-      &::before {
-        content: "Endereços";
-      }
-    }
-    a[href*="#/orders"] {
-      &::before {
-        content: "Pedidos";
-      }
-    }
-    a[href*="#/cards"] {
-      // display: none;
-      &::before {
-        content: "Cartões";
-      }
-    }
+
     a[href*="/wishlist-page"] {
       display: block;
       &::before {

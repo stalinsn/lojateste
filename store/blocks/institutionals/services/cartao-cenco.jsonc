@@ -108,7 +108,7 @@
   },
   "rich-text#cartao-cenco-text": {
     "props": {
-      "text": "Seu Cartão Cencosud/GBarbosa Gold possui Chip, uma moderna tecnologia que agrega segurança e praticidade na realização de suas compras e transações com seu cartão. \n\n O seu Cartão Cencosud/GBarbosa Gold é aceito em todas as Lojas Cencosud Brasil e em milhares de estabelecimentos espalhados por diversos países em todo o mundo. É o companheiro ideal para qualquer viagem e para suas compras do dia a dia.",
+      "text": "Você sabia que Clientes Cartão Gbarbosa tem um mundo de vantagens: \n\n Até 40 dias para pagar \n Aceito em milhões de estabelecimentos \n\n Descontos e Parcelamentos especiais em nossas lojas: \n Descontos especiais e exclusivos para cliente cartão em itens selecionados \n Descontos adicionais em ofertas do app \nParcelamentos diferenciados\n\n Você ainda pode consultar faturas, saldos limites e ofertas pelo nosso app! \n\n Para fazer o nosso cartão acesse o nosso app:\n Colocar link lojas ou qr code \n\n Para saber mais informações: cartaocencosud.com.br \n\nJá e nosso cliente e quer acessar faturas, saldo ou limites??\n Acesse o app gbarbosa ou acesse: \n https://wwws.cartaocencosud.com.br/cliente/index.xhtml",
       "blockClass": "cencosud-card-text-1"
     }
   },
@@ -279,8 +279,8 @@
   },
   "info-card#cencosud-card": {
     "props": {
-      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card.jpg",
-      "headline": "Seja bem-vindo ao mundo de vantagens do seu cartão Cenconsud/GBarbosa Gold",
+      "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_card_woman.png",
+      "headline": "Para saber mais informações: cartaocencosud.com.br \n\n Já e nosso cliente e quer acessar faturas, saldo ou limites?? \n\n Acesse o app gbarbosa ou acesse:\n https://wwws.cartaocencosud.com.br/cliente/index.xhtml",
       "callToActionText": "Baixe o guia de benefícios",
       "callToActionUrl": "/servicos/garantia-extendida",
       "blockClass": "cencosud-card-benefits"

@@ -922,6 +922,15 @@
   font-size: 40px;
   color: #fff;
 }
+
+.link--cencosud-card-text-1{
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
+}
+
 .wrapper--cencosud-card-download {
   display: flex;
   flex-direction: column;
