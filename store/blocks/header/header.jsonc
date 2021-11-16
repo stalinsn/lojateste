@@ -85,7 +85,7 @@
   },
   "rich-text#timecount": {
     "props": {
-      "text": "Você tem **30min**. para finalizar a compra pelo **EXPRESS**, e receber hoje.",
+      "text": "**Delivery GBarbosa** com Frete grátis* na primeira compra. **Confira**",
       "blockClass": "timecount"
     }
   },
