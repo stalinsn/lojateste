@@ -39,7 +39,42 @@
   }
 }
 
+// INSTITUTIONALS - CENCOSUD CARD
+.link--cencosud-card-link1,
+.link--cencosud-card-link2 {
+  font-weight: 600;
+  padding: 12px;
+}
+
+.link--cencosud-card-link1 {
+  background: transparent;
+  border-color: $secondary;
+  color: $secondary;
+
+  &:hover {
+    background: transparent;
+    border-color: $secondary;
+    color: $secondary;
+  }
+}
+
+.link--cencosud-card-link2 {
+  background: $secondary;
+  border: 1px solid $secondary;
+  color: $red;
+
+  &:hover {
+    background: $secondary;
+    border: 1px solid $secondary;
+    color: $red;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .link--cencosud-card-link1 {
+    margin-bottom: 16px;
+  }
+
   .link--gbarbosa-odonto{
     margin: 16px 0;
   }
