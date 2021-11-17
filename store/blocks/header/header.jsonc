@@ -13,8 +13,7 @@
       //"flex-layout.row#2-desktop",
       "sticky-layout#2-desktop",
       "sticky-layout#3-desktop",
-      "sticky-layout#4-desktop",
-      "flex-layout.row#5-desktop"
+      "sticky-layout#4-desktop"
     ]
   },
 
@@ -33,6 +32,7 @@
   },
 
   "flex-layout.row#5-desktop": {
+    "title": "Barra de promoção - home",
     "children": ["rich-text#5-desktop"],
     "props": {
       "fullWidth": "true",

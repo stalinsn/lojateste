@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.5.10] - 2021-11-16
+
+
+### Fixed
+- Cencosud Card page
+- My account links
+- Home notification bar
+- Institutional page info-card label
+
 ## [0.5.9] - 2021-11-12
 
 ### Fixed

@@ -242,7 +242,8 @@
 }
 
 :global(.vtex-toast) {
-  display: none;
+  // display: none;
+  display: flex !important;
   background: $primary;
 }
 

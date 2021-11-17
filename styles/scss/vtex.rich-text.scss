@@ -922,6 +922,15 @@
   font-size: 40px;
   color: #fff;
 }
+
+.link--cencosud-card-text-1{
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
+}
+
 .wrapper--cencosud-card-download {
   display: flex;
   flex-direction: column;
@@ -1706,6 +1715,22 @@
       background-repeat: no-repeat;
       background-size: contain;
     }
+  }
+}
+
+// INSTITUTIONAL CARTAO CENCO
+.wrapper--cencosud-card-section-4 {
+  color: $white;
+
+  .heading--cencosud-card-section-4 {
+    font-size: 24px;
+    letter-spacing: -0.58px;
+    line-height: 33px;
+  }
+
+  .link--cencosud-card-section-4 {
+    color: #FFD500;
+    text-decoration: none;
   }
 }
 
@@ -2960,6 +2985,7 @@
   height: 100%;
   .wrapper--order-placed-header-fourth-step {
     border-bottom: 2px solid #ed1d25;
+    height: 100%;
     .paragraph--order-placed-header-fourth-step {
       opacity: 1;
       .strong--cart-header-fourth-step {

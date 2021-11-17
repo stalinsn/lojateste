@@ -110,12 +110,12 @@
         "type": "internal",
         "noFollow": false,
         "href": "/servicos/cartao-cenco",
-        "tagTitle": "Cartão GBarbosa Cencosud",
-        "text": "Cartão GBarbosa Cencosud"
+        "tagTitle": "Cartão GBarbosa",
+        "text": "Cartão GBarbosa"
       }
     }
   },
-  "menu-item#our-stores": { 
+  "menu-item#our-stores": {
     "props": {
       "blockClass": "menu-item-faqs",
       "id": "menu-item-faqs",
