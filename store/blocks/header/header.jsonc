@@ -73,10 +73,10 @@
   },
   "flex-layout.row#rightbrands-2": {
     "children": [
-      "rich-text#brands1",
+      // "rich-text#brands1",
       "rich-text#brands2",
-      "rich-text#brands3",
-      "rich-text#brands4"
+      "rich-text#brands3"
+      // "rich-text#brands4"
     ],
     "props": {
       "blockClass": "brands-container",
