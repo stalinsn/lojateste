@@ -77,9 +77,9 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "href": "/",
-        "tagTitle": "Categoria1",
-        "text": "Categoria1"
+        "href": "/eletro/telefonia/smartphone",
+        "tagTitle": "Telefonia",
+        "text": "Telefonia"
       }
     }
   },
@@ -93,9 +93,9 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "href": "",
-        "tagTitle": "Categoria2",
-        "text": "Categoria2"
+        "href": "/eletro/video/tv",
+        "tagTitle": "TVs",
+        "text": "TVs"
       }
     }
   },

@@ -85,7 +85,7 @@
   },
   "rich-text#timecount": {
     "props": {
-      "text": "**Delivery GBarbosa** com Frete grátis* na primeira compra. **Confira**",
+      "text": "**Delivery GBarbosa** com Frete grátis* na primeira compra. **Confira!**",
       "blockClass": "timecount"
     }
   },
