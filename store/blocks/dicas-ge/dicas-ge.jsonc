@@ -1,0 +1,64 @@
+{
+    "store.custom#ge-tips": {
+        "blocks": [
+            "flex-layout.row#ge-tips-container",
+            "flex-layout.row#ge-tips-shelf"
+        ]
+    },
+    "flex-layout.row#ge-tips-container": {
+        "children": [
+            "flex-layout.col#ge-building"
+        ],
+        "props": {
+            "blockClass": "ge-tips-container"
+        }
+    },
+    "flex-layout.col#ge-building": {
+        "children": [
+            "info-card#infocard-building"
+        ],
+        "props": {
+            "blockClass": "ge-building"
+        }
+    },
+    "info-card#infocard-building": {
+        "props": {
+            "id": "infocard-building",
+            "textPosition": "right",
+            "imageUrl": "https://gbarbosa.vtexassets.com/arquivos/product%20hunt-bro.png",
+            "headline": "Estamos reestruturando nossos conteúdos e em breve teremos novidades!",
+            "subhead": "Enquanto isso, navegue pelo nosso site e aproveite as ofertas",
+            "callToActionText": "Ir para home",
+            "callToActionUrl": "/",
+            "blockClass": "infocard-building"
+        }
+    },
+
+
+    "flex-layout.row#ge-tips-shelf": {
+        "children": [
+            "flex-layout.col#ge-tips-shelf-col"
+        ]
+    },
+    "flex-layout.col#ge-tips-shelf-col": {
+        "children": [
+            "rich-text#week-offers",
+            "list-context.product-list#shelf-ge-tips-featured-product-offers"
+        ]
+    },
+    "rich-text#week-offers": {
+        "props": {
+            "text": "Ofertas da semana",
+            "blockClass": "week-offers"
+        }
+    },
+    "list-context.product-list#shelf-ge-tips-featured-product-offers": {
+        "blocks": ["product-summary.shelf#offers-home"],
+        "children": ["slider-layout#main-slider-home2"],
+        "props": {
+          "category": "6"
+        }
+      }
+
+    
+}
