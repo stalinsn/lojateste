@@ -1526,3 +1526,33 @@
   }
 }
 /* department page end */
+/* Dicas Ge */
+.infoCardContainer--infocard-building {
+  justify-content: center;
+  background: #f4f4f4;
+  .infoCardImageContainer--infocard-building, .infoCardTextContainer--infocard-building {
+    width: auto !important;
+    margin: 0 35px;
+    .infoCardHeadline--infocard-building {
+      color: #525252;
+      font-size: 20px;
+      max-width: 500px;
+    }
+    .infoCardSubhead--infocard-building {
+      font-size: 14px;
+    }
+    .infoCardCallActionContainer--infocard-building {
+      margin: 50px 0;
+      :global(.vtex-button) {
+        text-transform: initial;
+        padding: 0 38px;
+        font-size: 14px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+      }
+    }
+  }
+}
