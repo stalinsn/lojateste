@@ -108,8 +108,8 @@
 
 .minicartIconContainer {
   .minicartQuantityBadge {
-    border: 2px solid #FFD500;
-    background-color: #FFD500;
+    border: 2px solid #ffd500;
+    background-color: #ffd500;
     padding-right: 3px;
     padding-top: 2px;
     padding-bottom: 1px;
@@ -127,7 +127,8 @@
   &::before {
     content: "";
     display: block;
-    background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_minicart_header2.svg?v=1) no-repeat 50%;
+    background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_minicart_header2.svg?v=1)
+      no-repeat 50%;
     background-size: 23px 23px !important;
 
     @media screen and (min-width: em(1024px)) {
@@ -142,10 +143,11 @@
     }
 
     @media (max-width: 768px) {
-      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_cart' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect id='Retângulo_2247' data-name='Retângulo 2247' width='24' height='24' fill='none'/%3E%3Cpath id='Caminho_7398' data-name='Caminho 7398' d='M.451,0A.7.7,0,0,0,.646,1.394h2.4c.4,0,.525.08.628.174a1.448,1.448,0,0,1,.346.676L7.268,13.357q.009.033.022.065A3.121,3.121,0,0,0,10,15.34h5.432a.7.7,0,0,0,0-1.395H10A1.662,1.662,0,0,1,8.567,12.9s-.1-.325-.108-.349h5.627a1.185,1.185,0,0,0,1.1-.828l2.489-5.382c.385-.93.184-2.157-1.234-2.157H6.4a1.374,1.374,0,0,0-.368.065c-.249-.853-.642-2.225-.693-2.4A2.75,2.75,0,0,0,4.606.523,2.264,2.264,0,0,0,3.048,0H.646Q.614,0,.581,0T.516,0Q.484,0,.451,0ZM6.619,5.622H9.541V6.864H7.009L6.684,5.818C6.661,5.741,6.628,5.675,6.619,5.622Zm3.83,0h1.861V6.864H10.45Zm2.77,0h3.2a.777.777,0,0,1-.043.153l-.5,1.09H13.22ZM7.29,7.779H9.541V8.956H7.658Zm3.16,0h1.861V8.956H10.45Zm2.77,0h2.229l-.541,1.177H13.22ZM7.939,9.871h1.6v1.242H8.394a.119.119,0,0,1-.065-.022Zm2.51,0h1.861v1.242H10.45Zm2.77,0H14.5l-.584,1.242H13.22Zm-3.571,5.6A1.264,1.264,0,1,0,10.9,16.735,1.259,1.259,0,0,0,9.649,15.471Zm4.155,0a1.264,1.264,0,1,0,1.255,1.264A1.259,1.259,0,0,0,13.8,15.471Z' transform='translate(2.205 3.013)' fill='%23f4f4f4'/%3E%3C/svg%3E") no-repeat; 
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_cart' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect id='Retângulo_2247' data-name='Retângulo 2247' width='24' height='24' fill='none'/%3E%3Cpath id='Caminho_7398' data-name='Caminho 7398' d='M.451,0A.7.7,0,0,0,.646,1.394h2.4c.4,0,.525.08.628.174a1.448,1.448,0,0,1,.346.676L7.268,13.357q.009.033.022.065A3.121,3.121,0,0,0,10,15.34h5.432a.7.7,0,0,0,0-1.395H10A1.662,1.662,0,0,1,8.567,12.9s-.1-.325-.108-.349h5.627a1.185,1.185,0,0,0,1.1-.828l2.489-5.382c.385-.93.184-2.157-1.234-2.157H6.4a1.374,1.374,0,0,0-.368.065c-.249-.853-.642-2.225-.693-2.4A2.75,2.75,0,0,0,4.606.523,2.264,2.264,0,0,0,3.048,0H.646Q.614,0,.581,0T.516,0Q.484,0,.451,0ZM6.619,5.622H9.541V6.864H7.009L6.684,5.818C6.661,5.741,6.628,5.675,6.619,5.622Zm3.83,0h1.861V6.864H10.45Zm2.77,0h3.2a.777.777,0,0,1-.043.153l-.5,1.09H13.22ZM7.29,7.779H9.541V8.956H7.658Zm3.16,0h1.861V8.956H10.45Zm2.77,0h2.229l-.541,1.177H13.22ZM7.939,9.871h1.6v1.242H8.394a.119.119,0,0,1-.065-.022Zm2.51,0h1.861v1.242H10.45Zm2.77,0H14.5l-.584,1.242H13.22Zm-3.571,5.6A1.264,1.264,0,1,0,10.9,16.735,1.259,1.259,0,0,0,9.649,15.471Zm4.155,0a1.264,1.264,0,1,0,1.255,1.264A1.259,1.259,0,0,0,13.8,15.471Z' transform='translate(2.205 3.013)' fill='%23f4f4f4'/%3E%3C/svg%3E")
+        no-repeat;
     }
   }
-  
+
   .cartIcon {
     display: none;
   }
@@ -247,6 +249,16 @@
   background: $primary;
 }
 
+:global(.vtex-toast) {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+:global(.vtex-toast-container) {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 .minicartProductListContainer {
   overflow-x: hidden !important;
   margin-top: 75px;
@@ -345,8 +357,7 @@
   }
 }*/
 
-
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .drawer {
     width: 95% !important;
   }
