@@ -7,10 +7,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Home background
+- My account user name
+- Home spacings
+- Home banners 
+
+## [0.5.12] - 2021-11-18
+
+## [0.5.11] - 2021-11-17
+
+### Fixed
+
+- Orderplaced price
+- Numeric stepper
+
 ## [0.5.10] - 2021-11-16
 
 
 ### Fixed
+
 - Cencosud Card page
 - My account links
 - Home notification bar

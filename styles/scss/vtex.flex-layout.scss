@@ -268,7 +268,7 @@
     display: flex;
     flex-wrap: wrap;
     .stretchChildrenWidth {
-      width: auto !important;
+      // width: auto !important;
       .flexRowContent--two-cols {
         flex-direction: row;
         justify-content: flex-start;
@@ -2550,7 +2550,7 @@
   }
 }
 
-.flexRow--best-seller {
+.flexRow--banners-row {
   background-color: #fafafa;
 }
 
@@ -3858,7 +3858,6 @@
 
 .flexRowContent--circles-mobile {
   justify-content: center;
-  margin-bottom: 3rem;
 
   @media screen and (max-width: em(768px)) {
     justify-content: end;
