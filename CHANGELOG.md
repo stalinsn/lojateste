@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Home spacings
 - Home banners 
 
+## [0.5.12] - 2021-11-18
+
 ## [0.5.11] - 2021-11-17
 
 ### Fixed
