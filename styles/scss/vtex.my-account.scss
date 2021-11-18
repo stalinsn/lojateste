@@ -53,18 +53,12 @@
     .userGreeting {
       padding-bottom: 0px;
       margin-bottom: 0px;
-      font-size: 0px;
       display: inline-block;
-      color: #666666;
-      &::before {
-        content: "Olá  ";
-        font-size: 24px;
-        color: #ed1d25;
-        font-weight: bold;
-      }
+      font-size: 24px;
+      color: #ed1d25;
+      font-weight: bold;
     }
     .userName {
-      padding-bottom: 12px;
       font-size: 24px;
       font-weight: bold;
       color: #ed1d25;
@@ -328,6 +322,12 @@
   width: 100% !important;
   :global(.vtex-pageHeader__container) {
     padding-left: 1em !important;
+
+    @media screen and (max-width: 768px) {
+      :global(.vtex-pageHeader__children){
+        margin-top: 16px;
+      }
+    }
   }
 }
 
