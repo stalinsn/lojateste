@@ -11,6 +11,7 @@
       "menu-item#offers",
       "menu-item#category1",
       "menu-item#category2",
+      "menu-item#category3",
       "menu-item#gbarbosa-card"
     ],
     "props": {
@@ -96,6 +97,22 @@
         "href": "/eletro/video/tv",
         "tagTitle": "TVs",
         "text": "TVs"
+      }
+    }
+  },
+  "menu-item#category3": {
+    "props": {
+      "blockClass": "menu-item-faqs",
+      "id": "menu-item-faqs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "href": "/eletro",
+        "tagTitle": "Eletrodomésticos",
+        "text": "Eletrodomésticos"
       }
     }
   },
