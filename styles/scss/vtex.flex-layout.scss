@@ -1660,7 +1660,7 @@
   :global(.vtex-store-components-3-x-currencyContainer--summary) {
     font-size: 23px;
     font-weight: bold;
-    color: $primary;
+    color: #525252;
 
     @media screen and (max-width: 767px) {
       font-size: 16px;
@@ -4471,6 +4471,10 @@
 }
 .flexRowContent--department-breadcumb-container {
   padding: 0 60px;
+}
+.flexRowContent--menu-row {
+  padding-top: 50px;
+  padding-bottom: 45px;
 }
 @media (max-width: 768px) {
   .flexRowContent--department-breadcumb-container {

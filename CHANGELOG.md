@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Horizontal shelf structure
 - Header links
 - Footer links
+- Shelf price color when listPrice exist 
+- Autocomplete max suggested terms
+### Added
+
+- Keep shopping button custom component
+
 ## [0.5.13] - 2021-11-18
 
 ### Fixed
