@@ -278,7 +278,7 @@
         }
       ],
       "DefaultGallery": "product-summary.shelf",
-      "AlternativeGallery": "product-summary.shelf"
+      "AlternativeGallery": "product-summary.shelf#list"
     }
   },
   "gallery-layout-switcher": {
