@@ -13,9 +13,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Footer links
 - Shelf price color when listPrice exist 
 - Autocomplete max suggested terms
-### Added
 
+### Added
 - Keep shopping button custom component
+- Mega menu links
 
 ## [0.5.13] - 2021-11-18
 

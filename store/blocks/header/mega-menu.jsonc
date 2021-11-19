@@ -8,6 +8,35 @@
           "icon": "/arquivos/cereals-icon.svg",
           "children": [
             {
+              "label": "Artigos p/ Viagem",
+              "url": "/bazar/artigos-p--viagem",
+              "children": [
+                {
+                  "label": "Malas",
+                  "url": "/bazar/artigos-p--viagem/malas"
+                }
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
+            },
+            {
               "label": "Automotivos",
               "url": "/bazar/automotivos",
               "children": [
@@ -41,6 +70,10 @@
               "url": "/bazar/bicicleta",
               "children": [
                 {
+                  "label": "Infantil",
+                  "url": "/bazar/biscicleta/infantil"
+                },
+                {
                   "label": "Urbano e Passeio",
                   "url": "/bazar/biscicleta/urbano-e-passeio"
                 }
@@ -70,8 +103,12 @@
               "url": "/bazar/cadeiras",
               "children": [
                 {
+                  "label": "Cadeira p/ Escritório",
+                  "url": "/bazar/cadeiras/cadeira-p--escritorio"
+                },
+                {
                   "label": "Cadeira p/ Área Externa",
-                  "url": "/bazar/cadeiras/cadeira-area-externa"
+                  "url": "/bazar/cadeiras/cadeira-p--area-externa"
                 }
               ],
               "banners": {
@@ -105,6 +142,80 @@
                 {
                   "label": "Cama Box",
                   "url": "/bazar/cama-colchão/cama-box"
+                },
+                {
+                  "label": "Colchão",
+                  "url": "/bazar/cama-colchão/colchao"
+                }
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
+            },
+            {
+              "label": "Lazer",
+              "url": "/bazar/lazer",
+              "children": [
+                {
+                  "label": "Ombrelone",
+                  "url": "/bazar/lazer/ombrelone"
+                },
+                {
+                  "label": "Piscina",
+                  "url": "/bazar/lazer/piscina"
+                },
+                {
+                  "label": "Tenda",
+                  "url": "/bazar/lazer/tenda"
+                }
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
+            },
+            {
+              "label": "Mesa",
+              "url": "/bazar/mesa",
+              "children": [
+                {
+                  "label": "Mesa p/ área Externa",
+                  "url": "/bazar/mesa/mesa-p--area-externa"
+                },
+                {
+                  "label": "Mesa p/ Escritório",
+                  "url": "/bazar/mesa/mesa-p--escritorio"
                 }
               ],
               "banners": {
@@ -135,6 +246,55 @@
           "icon": "/arquivos/computer-icon.svg",
           "children": [
             {
+              "label": "Áudio",
+              "url": "/eletro/audio",
+              "children": [
+                {
+                  "label": "Caixa acústica",
+                  "url": "/eletro/audio/caixa-acustica"
+                },
+                {
+                  "label": "Caixa de som Portátil",
+                  "url": "/eletro/audio/caixa-de-som-portatil"
+                },
+                {
+                  "label": "Home Theater_Soundbar",
+                  "url": "/eletro/audio/home-theater-soundbar"
+                },
+                {
+                  "label": "Mini System",
+                  "url": "/eletro/audio/mini-system"
+                },
+                {
+                  "label": "Rádio Portátil",
+                  "url": "/eletro/audio/radio-portatil"
+                },
+                {
+                  "label": "Som automotivo",
+                  "url": "/eletro/audio/som-automotivo"
+                }
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
+            },
+            {
               "label": "Beleza",
               "url": "/eletro/beleza",
               "children": [
@@ -145,6 +305,59 @@
                 {
                   "label": "Barbeador Elétrico",
                   "url": "/eletro/beleza/barbeador-eletrico"
+                },
+                {
+                  "label": "Chapa Lisa_Prancha Alisadora",
+                  "url": "/eletro/beleza/chapa-lisa_prancha-alisadora"
+                },
+                {
+                  "label": "Escova Modeladora",
+                  "url": "/eletro/beleza/escova-modeladora"
+                },
+                {
+                  "label": "Máquina de Cortar Cabelo",
+                  "url": "/eletro/beleza/maquina-de-cortar-cabelo"
+                },
+                {
+                  "label": "Secador de Cabelo",
+                  "url": "/eletro/beleza/secador-de-cabelo"
+                }
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
+            },
+            {
+              "label": "Climatização",
+              "url": "/eletro/climatizacao",
+              "children": [
+                {
+                  "label": "Ar condicionado",
+                  "url": "/eletro/climatizacao/ar-condicionado"
+                },
+                {
+                  "label": "Climatizador",
+                  "url": "/eletro/climatizacao/climatizador"
+                },
+                {
+                  "label": "Ventilador",
+                  "url": "/eletro/climatizacao/ventilador"
                 }
               ],
               "banners": {
@@ -176,6 +389,14 @@
                   "url": "/eletro/eletrodomestico/cervejeira"
                 },
                 {
+                  "label": "Cooktop",
+                  "url": "/eletro/eletrodomestico/Cooktop"
+                },
+                {
+                  "label": "Depurador de Ar",
+                  "url": "/eletro/eletrodomestico/depurador-de-ar"
+                },
+                {
                   "label": "Fogão",
                   "url": "/eletro/eletrodomestico/fogao"
                 },
@@ -184,48 +405,293 @@
                   "url": "/eletro/eletrodomestico/forno-eletrico"
                 },
                 {
+                  "label": "Freezer",
+                  "url": "/eletro/eletrodomestico/freezer"
+                },
+                {
+                  "label": "Frigobar",
+                  "url": "/eletro/eletrodomestico/frigobar"
+                },
+                {
+                  "label": "Lava e seca",
+                  "url": "/eletro/eletrodomestico/lava-e-seca"
+                },
+                {
                   "label": "Máquina de Lavar",
                   "url": "/eletro/eletrodomestico/maquina-de-lavar"
+                },
+                {
+                  "label": "Micro-Ondas",
+                  "url": "/eletro/eletrodomestico/micro-ondas"
                 },
                 {
                   "label": "Refrigerador",
                   "url": "/eletro/eletrodomestico/refrigerador"
                 }
-              ]
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
+            },
+            {
+              "label": "Eletroportáveis",
+              "url": "/eletro/eletroportaveis",
+              "children": [
+                {
+                  "label": "Aspirador Pó e Água",
+                  "url": "/eletro/eletroportaveis/aspirador-po-agua"
+                },
+                {
+                  "label": "Batedeira",
+                  "url": "/eletro/eletroportaveis/batedeira"
+                },
+                {
+                  "label": "Bebedouro Purificador de Água",
+                  "url": "/eletro/eletroportaveis/bebedouro-purificador-de-agua"
+                },
+                {
+                  "label": "Cafeteira",
+                  "url": "/eletro/eletroportaveis/cafeteira"
+                },
+                {
+                  "label": "churrasqueira",
+                  "url": "/eletro/eletroportaveis/churrasqueira"
+                },
+                {
+                  "label": "Espremedor de Frutas",
+                  "url": "/eletro/eletroportaveis/espremedor-de-frutas"
+                },
+                {
+                  "label": "Ferro de Passar Roupa",
+                  "url": "/eletro/eletroportaveis/ferro-de-passar-roupa"
+                },
+                {
+                  "label": "Fritadeira",
+                  "url": "/eletro/eletroportaveis/fritadeira"
+                },
+                {
+                  "label": "Kit Cozinha",
+                  "url": "/eletro/eletroportaveis/kit-cozinha"
+                },
+                {
+                  "label": "Lavadora de Alta Pressão",
+                  "url": "/eletro/eletroportaveis/micro-ondas"
+                },
+                {
+                  "label": "Liquidificador",
+                  "url": "/eletro/eletroportaveis/liquidificador"
+                },
+                {
+                  "label": "Máquina de Costura",
+                  "url": "/eletro/eletroportaveis/maquina-de-costura"
+                },
+                {
+                  "label": "Panela Elétrica",
+                  "url": "/eletro/eletroportaveis/panela-eletrica"
+                },
+                {
+                  "label": "Pipoqueira",
+                  "url": "/eletro/eletroportaveis/pipoqueira"
+                },
+                {
+                  "label": "Processador Mixer Centrífuga",
+                  "url": "/eletro/eletroportaveis/processador-mixer-centrifuga"
+                },
+                {
+                  "label": "Sanduicheira Grill",
+                  "url": "/eletro/eletroportaveis/sanduicheira-grill"
+                },
+                {
+                  "label": "Suporte p/ Micro-Ondas",
+                  "url": "/eletro/eletroportaveis/suporte-p--micro-ondas"
+                }
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
+            },
+            {
+              "label": "Informática",
+              "url": "/eletro/informatica",
+              "children": [
+                {
+                  "label": "Acessórios",
+                  "url": "/eletro/informatica/acessorios"
+                },
+                {
+                  "label": "Cartucho p/ Impressora",
+                  "url": "/eletro/informatica/cartucho-p--impressora"
+                },
+                {
+                  "label": "Fone de Ouvido",
+                  "url": "/eletro/informatica/fone-de-ouvido"
+                },
+                {
+                  "label": "Monitor",
+                  "url": "/eletro/informatica/monitor"
+                },
+                {
+                  "label": "Mouse",
+                  "url": "/eletro/informatica/mouse"
+                },
+                {
+                  "label": "Multifuncional",
+                  "url": "/eletro/informatica/multifuncional"
+                },
+                {
+                  "label": "Notebook",
+                  "url": "/eletro/informatica/notebook"
+                },
+                {
+                  "label": "Pen Drive",
+                  "url": "/eletro/informatica/pen-drive"
+                },
+                {
+                  "label": "Roteador",
+                  "url": "/eletro/informatica/roteador"
+                },
+                {
+                  "label": "Tablet",
+                  "url": "/eletro/informatica/tablet"
+                },
+                {
+                  "label": "Teclado",
+                  "url": "/eletro/informatica/teclado"
+                }
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
             },
             {
               "label": "Telefonia",
               "url": "/eletro/telefonia",
               "children": [
                 {
+                  "label": "Celular",
+                  "url": "/eletro/telefonia/celular"
+                },
+                {
+                  "label": "Chip",
+                  "url": "/eletro/telefonia/chip"
+                },
+                {
+                  "label": "Fixo",
+                  "url": "/eletro/telefonia/fixo"
+                },
+                {
                   "label": "Smartphone",
                   "url": "/eletro/telefonia/smartphone"
                 }
-              ]
-            },
-            {
-              "label": "Áudio",
-              "url": "/eletro/audio",
-              "children": [
-                {
-                  "label": "Home Theater",
-                  "url": "/eletro/audio/home-theater"
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
                 },
-                {
-                  "label": "Soundbar",
-                  "url": "/eletro/audio/soundbar"
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
                 }
-              ]
+              }
             },
             {
               "label": "Vídeo",
               "url": "/eletro/video",
               "children": [
                 {
+                  "label": "Antena",
+                  "url": "/eletro/video/antena"
+                },
+                {
+                  "label": "Receptor Codificador e Conversor",
+                  "url": "/eletro/video/receptor-codificador-conversor"
+                },
+                {
+                  "label": "Suporte p/ TV",
+                  "url": "/eletro/video/suporte-p--tv"
+                },
+                {
                   "label": "TV",
                   "url": "/eletro/video/tv"
                 }
-              ]
+              ],
+              "banners": {
+                "bannerProperties": true,
+                "main": {
+                  "src": "/arquivos/gbarbosa-categories-banners-1.png",
+                  "link": "#"
+                },
+                "second1": {
+                  "src": "/arquivos/gbarbosa-categories-banners-2.png",
+                  "link": "#"
+                },
+                "second2": {
+                  "src": "/arquivos/gbarbosa-categories-banners-3.png",
+                  "link": "#"
+                },
+                "second3": {
+                  "src": "/arquivos/gbarbosa-categories-banners-4.png",
+                  "link": "#"
+                }
+              }
             }
           ],
           "banners": {
