@@ -136,7 +136,7 @@
     "children": [
       "rich-text#footer-ayuda",
       "menu-item#ayuda-1",
-      "menu-item#ayuda-2",
+      // "menu-item#ayuda-2",
       "menu-item#ayuda-3",
       "menu-item#ayuda-4",
       // "menu-item#ayuda-5",
