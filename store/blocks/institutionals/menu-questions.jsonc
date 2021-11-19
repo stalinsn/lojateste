@@ -209,17 +209,17 @@
         "type": "custom",
         "blockClass": "e-shopping-menu-item-common-questions",
         "itemProps": {
-          "type": "internal",
+          "type": "internal",  
           "href": "#",
           "tagTitle": "many different deliverys",
-          "text": "QUAL O PRAZO PARA TROCA DE ELETRODOMÉSTICOS OU ELETRO – PORTÁTEIS?"
+          "text": "Qual o prazo para troca de eletrodoméstricos ou eletro-portáteis?"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description"]
     },
     "vtex.menu@2.x:menu#e-shopping-description-submenu": {
       "children": ["menu-item#e-shopping-description"]
-    },
+    },  
     "vtex.menu@2.x:menu#e-shopping-description-submenu2": {
       "children": ["menu-item#e-shopping-description2"]
     },
