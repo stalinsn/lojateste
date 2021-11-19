@@ -483,8 +483,6 @@
   }
 }
 
-
-
 :global(.vtex-product-summary-2-x-container) {
   .installments_value {
     font-size: 12px;
@@ -497,13 +495,13 @@
 
 @media screen and (max-width: 767px) {
   :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
-    .triggerContainer{
+    .triggerContainer {
       margin-top: 24px;
     }
   }
 
-  :global(.vtex-product-summary-2-x-container){
-    .installments_value{
+  :global(.vtex-product-summary-2-x-container) {
+    .installments_value {
       display: none;
     }
   }
@@ -516,3 +514,24 @@
 }
 
 @import "./order-placed/supermxmcr-orderplaced";
+
+.keepShoppingButtonContainer {
+  .keepShoppingButton {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .keepShoppingButtonLabel {
+      width: 100%;
+      border: 1px solid #ed1d25;
+      color: #ed1d25;
+      font-weight: bold;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
