@@ -8,11 +8,11 @@
           "icon": "/arquivos/cereals-icon.svg",
           "children": [
             {
-              "label": "Automotivos",
+              "label": "Artigos p/ Viagem",
               "url": "/bazar/artigos-p--viagem",
               "children": [
                 {
-                  "label": "Pneu",
+                  "label": "Malas",
                   "url": "/bazar/artigos-p--viagem/malas"
                 }
               ],
