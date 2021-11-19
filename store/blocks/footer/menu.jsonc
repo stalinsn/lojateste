@@ -14,7 +14,9 @@
       "menu-item#contactanos-3",
       "menu-item#contactanos-4",
       "menu-item#contactanos-5",
-      "menu-item#contactanos-6"
+      "menu-item#contactanos-6",
+      "menu-item#contactanos-7",
+      "menu-item#contactanos-8"
     ]
   },
 
@@ -64,7 +66,7 @@
 
   "menu-item#contactanos-3": {
     "props": {
-      "id": "menu-item-2",
+      "id": "menu-item-3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -80,7 +82,7 @@
 
   "menu-item#contactanos-4": {
     "props": {
-      "id": "menu-item-2",
+      "id": "menu-item-4",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -90,19 +92,19 @@
         "noFollow": false,
         "tagTitle": "Trabalhe conosco",
         "text": "Trabalhe conosco"
-      }   
+      }
     }
   },
 
   "menu-item#contactanos-5": {
     "props": {
-      "id": "menu-item-2",
+      "id": "menu-item-5",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/institucional/politica-de-privacidade",
+        "type": "external",
+        "href": "https://privacidade.cencosud.com.br/politica.html",
         "noFollow": false,
         "tagTitle": "Política de Privacidade",
         "text": "Política de Privacidade"
@@ -111,7 +113,7 @@
   },
   "menu-item#contactanos-6": {
     "props": {
-      "id": "menu-item-2",
+      "id": "menu-item-6",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -121,6 +123,37 @@
         "noFollow": false,
         "tagTitle": "Portal do fornecedor",
         "text": "Portal do fornecedor"
+      }
+    }
+  },
+  "menu-item#contactanos-7": {
+    "props": {
+      "id": "menu-item-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://privacidade.cencosud.com.br/termos.html",
+        "noFollow": false,
+        "tagTitle": "Termos de Uso",
+        "text": "Termos de Uso"
+      }
+    }
+  },
+
+  "menu-item#contactanos-8": {
+    "props": {
+      "id": "menu-item-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://privacidade.cencosud.com.br/index.html",
+        "noFollow": false,
+        "tagTitle": "Exerça seus Direitos",
+        "text": "Exerça seus Direitos"
       }
     }
   },
@@ -196,7 +229,7 @@
       "itemProps": {
         "type": "internal",
         "href": "/dicas-ge",
-        "noFollow": false,  
+        "noFollow": false,
         "tagTitle": "Dicas da Gê",
         "text": "Dicas da Gê"
       }

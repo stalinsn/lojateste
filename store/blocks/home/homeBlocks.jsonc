@@ -960,7 +960,8 @@
     "props": {
       "paddingTop": 8,
       "paddingBottom": 8,
-      "blockClass": "banners-row"
+      "blockClass": "banners-row",
+      "horizontalAlign": "center"
     }
   },
   "image#end-banner": {

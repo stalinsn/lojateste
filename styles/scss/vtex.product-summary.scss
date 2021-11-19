@@ -36,6 +36,19 @@
   height: 350px;
   border-radius: 30px;
 
+  &.container--shelf-list {
+    height: auto;
+  }
+
+  .element--shelf-list {
+    padding: 0;
+
+    .productBrand{
+      height: auto !important;
+      margin-bottom: 16px;
+    }
+  }
+
   @media screen and (min-width: em(1024px)) {
     position: relative;
   }
@@ -224,6 +237,14 @@
       }
     }
 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container--shelf-list {
+    :global(.vtex-numeric-stepper-wrapper) {
+      left: auto;
+    }
   }
 }
 

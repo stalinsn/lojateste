@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Horizontal shelf structure
+- Header links
+- Footer links
 ## [0.5.13] - 2021-11-18
 
 ### Fixed

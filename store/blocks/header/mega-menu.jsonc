@@ -37,8 +37,8 @@
               }
             },
             {
-              "label": "Biscicleta",
-              "url": "/bazar/biscicleta",
+              "label": "Bicicleta",
+              "url": "/bazar/bicicleta",
               "children": [
                 {
                   "label": "Urbano e Passeio",

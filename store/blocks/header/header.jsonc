@@ -382,7 +382,7 @@
     "props": {
       "maxSuggestedProducts": 4,
       "productLayout": "HORIZONTAL",
-      "HorizontalProductSummary": "product-summary.shelf#list"
+      "HorizontalProductSummary": "product-summary.shelf#list-search"
     }
   },
   "logo#mobile": {
