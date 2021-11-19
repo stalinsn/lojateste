@@ -454,36 +454,26 @@
   "flex-layout.row#row-22-images": {
     "title": "Seção 7 - Banners",
     "children": [
-      "flex-layout.col#col-22-images-1",
-      "flex-layout.col#col-22-images-2"
+      "image#col-22-images-1",
+      "image#col-22-images-2"
     ],
     "props": {
-      "blockClass": "22-banners"
-    }
-  },
-  "flex-layout.col#col-22-images-1": {
-    "title": "Imagem 1",
-    "children": ["image#col-22-images-1"],
-    "props": {
-      "blockClass": "col-banner"
+      "blockClass": "22-banners",
+      "horizontalAlign": "center"
     }
   },
   "image#col-22-images-1": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner1.png?v=1",
-      "blockClass": "banner-img"
-    }
-  },
-  "flex-layout.col#col-22-images-2": {
-    "title": "Imagem 2",
-    "children": ["image#col-22-images-2"],
-    "props": {
-      "blockClass": "col-banner"
+      "src": "https://gbarbosaqa.vtexassets.com/assets/vtex.file-manager-graphql/images/f1abd8fb-894a-4a2c-a0d7-55c50b910f71___44e2228216d0c35c565b7f471806bc92.jpg",
+      "blockClass": "banner-img",
+      "link": {
+        "href": "https://www.gbarbosa.com.br/aplicativo/"
+      }
     }
   },
   "image#col-22-images-2": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/home_banner2.png?v=1",
+      "src": "https://gbarbosaqa.vtexassets.com/assets/vtex.file-manager-graphql/images/058f6df2-8f30-4c5e-ab96-a381d2ee5b32___3e8ea6b9e640a0783cc511c273850a70.jpg",
       "blockClass": "banner-img"
     }
   },
@@ -834,7 +824,7 @@
     "title": "Seção 6 - Principais Ofertas Título",
     "children": ["rich-text#offers", "rich-text#view-all-offers"],
     "props": {
-      "blockClass": ["offers", "title-section", "top32"]
+      "blockClass": ["offers", "title-section"]
     }
   },
   "rich-text#offers": {
@@ -968,7 +958,10 @@
   "flex-layout.row#custom-end-banner": {
     "children": ["image#end-banner"],
     "props": {
-      "marginTop": 8
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": "banners-row",
+      "horizontalAlign": "center"
     }
   },
   "image#end-banner": {
@@ -978,7 +971,10 @@
   },
   "flex-layout.row#custom-4-images-container": {
     "title": "Seção 12 - Banners",
-    "children": ["flex-layout.col#custom-4-images-container"]
+    "children": ["flex-layout.col#custom-4-images-container"],
+    "props": {
+      "blockClass": "banners-row"
+    }
   },
   "flex-layout.col#custom-4-images-container": {
     "children": ["rich-text#best-seller", "flex-layout.row#custom-4-images"]
@@ -1297,7 +1293,8 @@
     "title": "Serviço 3 - Imagem",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_payment_spec.svg",
-      "blockClass": "image-service"
+      "blockClass": "image-service",
+      "size": 62
     }
   },
   "rich-text#service-3": {

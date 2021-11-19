@@ -483,8 +483,6 @@
   }
 }
 
-
-
 :global(.vtex-product-summary-2-x-container) {
   .installments_value {
     font-size: 12px;
@@ -495,15 +493,61 @@
   }
 }
 
+:global(.vtex-product-summary-2-x-container--shelf-list) {
+  .customQuantitySelector{
+    position: absolute;
+    bottom: 22px;
+    top: auto;
+    right: 24px;
+    width: 100%;
+    max-width: 210px;
+  }
+
+  :global(.vtex-numeric-stepper-wrapper) {
+    max-width: 210px;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+
+    :global(.vtex-numeric-stepper__input){
+      min-width: 32px;
+      width: auto !important;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :global(.vtex-product-summary-2-x-container--shelf-list) {
+    .customQuantitySelector{
+      bottom: 8px;
+      width: auto;
+      right: 12px;
+    }
+
+    :global(.vtex-numeric-stepper-wrapper) {
+      max-width: 98px;
+      right: 12px !important;
+      top: auto !important;
+      bottom: 12px !important;
+    }
+  }
+
+  :global(.vtex-product-summary-2-x-container--normal-shelf) .customQuantitySelector {
+    position: absolute;
+    top: 84px;
+    right: 12px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
-    .triggerContainer{
+    .triggerContainer {
       margin-top: 24px;
     }
   }
 
-  :global(.vtex-product-summary-2-x-container){
-    .installments_value{
+  :global(.vtex-product-summary-2-x-container) {
+    .installments_value {
       display: none;
     }
   }
@@ -512,7 +556,29 @@
 :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
   .customQuantitySelector {
     position: inherit;
+    width: auto;
   }
 }
 
 @import "./order-placed/supermxmcr-orderplaced";
+
+.keepShoppingButtonContainer {
+  .keepShoppingButton {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .keepShoppingButtonLabel {
+      width: 100%;
+      border: 1px solid #ed1d25;
+      color: #ed1d25;
+      font-weight: bold;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}

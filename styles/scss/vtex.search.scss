@@ -130,9 +130,14 @@
             }
           }
 
-          :global(.vtex-numeric-stepper__input) {
-            min-width: 22px!important;
+          :global(.vtex-numeric-stepper-container) {
+            max-width: 128px;
+
+            :global(.vtex-numeric-stepper__input) {
+              min-width: 22px!important;
+            }
           }
+
 
           @media screen and (max-width: 767px) {
             margin-right: 0;

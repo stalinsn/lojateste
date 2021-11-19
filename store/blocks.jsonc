@@ -56,7 +56,10 @@
       "quantity-selector-custom"
 
       //"add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "normal-shelf"
+    }
   },
   "flex-layout.row#product-price": {
     "children": ["flex-layout.col#product-price-shelf"]
@@ -74,7 +77,10 @@
   "product-summary.shelf#list": {
     "children": [
       "flex-layout.row#shelf-list"
-    ]
+    ],
+    "props": {
+      "blockClass": "shelf-list"
+    }
   },
   "flex-layout.row#shelf-list": {
     "children": [
@@ -102,7 +108,9 @@
       "personal-price"
     ],
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
     }
   },
   "flex-layout.col#shelf-list-add-to-cart": {
@@ -126,10 +134,52 @@
   "product-summary-image#shelf-list": {
     "props": {
       "showBadge": false,
-      "height": 64
+      "height": {
+        "desktop": 152,
+        "mobile": 94
+      }
     }
   },
 
+  "product-summary.shelf#list-search": {
+    "children": [
+      "flex-layout.row#shelf-list-search"
+    ],
+    "props": {
+      "blockClass": "shelf-list"
+    }
+  },
+  "flex-layout.row#shelf-list-search": {
+    "children": [
+      "flex-layout.col#shelf-list-search-product-image",
+      "flex-layout.col#shelf-list-product-info",
+      "flex-layout.col#shelf-list-add-to-cart"
+    ],
+    "props": {
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colGap": 4,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#shelf-list-search-product-image": {
+    "children": ["stack-layout#prodsum-list-search"]
+  },
+  "stack-layout#prodsum-list-search": {
+    "children": [
+      "product-summary-image#shelf-list-search",
+      "vtex.product-highlights@2.x:product-highlights",
+      "flex-layout.row#savings"
+      // "personal-flag"
+    ]
+  },
+  "product-summary-image#shelf-list-search": {
+    "props": {
+      "showBadge": false,
+      "height": 64
+    }
+  },
   "product-summary.shelf#offers-home": {
     "children": [
       "stack-layout#prodsum",

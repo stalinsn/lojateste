@@ -381,8 +381,9 @@
   "autocomplete-result-list.v2#main": {
     "props": {
       "maxSuggestedProducts": 4,
+      "maxSuggestedTerms": 3,
       "productLayout": "HORIZONTAL",
-      "HorizontalProductSummary": "product-summary.shelf#list"
+      "HorizontalProductSummary": "product-summary.shelf#list-search"
     }
   },
   "logo#mobile": {
