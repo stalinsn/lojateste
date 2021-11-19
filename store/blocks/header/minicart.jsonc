@@ -1,5 +1,6 @@
 {
   "minicart.v2": {
+    "title": "Minicart",
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon"
     },
@@ -77,6 +78,7 @@
     }
   },
   "flex-layout.row#minicart-footer-custom": {
+    "title": "Footer minicart",
     "props": {
       "blockClass": "minicart-footer"
     },
@@ -89,8 +91,14 @@
       "subtotal-content",
       "minicart-checkout-button",
       // "close-minicart-button"
-      "drawer-close-button#minicart-close"
+      "keep-shopping-button"
     ]
+  },
+  "keep-shopping-button": {
+    "props": {
+      "text": "Continuar comprando"
+    },
+    "blocks": ["drawer-close-button#minicart-close"]
   },
   "drawer-close-button#minicart-close": {
     "props": {

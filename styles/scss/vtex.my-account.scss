@@ -266,11 +266,11 @@
       right: 0;
       bottom: auto;
       :global(.vtex-button__label) {
-        background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_edit.png) no-repeat center !important;
+        background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_edit.png)
+          no-repeat center !important;
         font-size: 0 !important;
       }
     }
-
 
     @media screen and (max-width: em(768px)) {
       display: block;
@@ -324,7 +324,7 @@
     padding-left: 1em !important;
 
     @media screen and (max-width: 768px) {
-      :global(.vtex-pageHeader__children){
+      :global(.vtex-pageHeader__children) {
         margin-top: 16px;
       }
     }
@@ -407,7 +407,7 @@
     }
   }
 
-  :global(.vtex-my-cards-1-x-boxContainer){
+  :global(.vtex-my-cards-1-x-boxContainer) {
     position: relative;
 
     :global(.vtex-my-cards-1-x-boxContainerBody) {
@@ -422,7 +422,7 @@
 
       :global(.vtex-button) {
         &::after {
-          content: '';
+          content: "";
           display: inline-block;
           width: 14px;
           height: 18px;
@@ -705,6 +705,16 @@
   display: none;
 } 
 
+/* shelf price color fix  */
+:global(.vtex-store-components-3-x-listPrice)
+  + :global(.vtex-store-components-3-x-sellingPrice) {
+  :global(.vtex-store-components-3-x-currencyContainer--summary) {
+    font-size: 23px;
+    font-weight: bold;
+    color: #ed1d25;
+  }
+}
+/* shelf price color fix - end */
 :global(.flex.mw7-m) {
   > :global(.w-100) {
     :global(.overflow-y-auto) {
