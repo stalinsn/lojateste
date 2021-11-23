@@ -30,8 +30,7 @@
 
   "flex-layout.col#desktop-col-left": {
     "children": [
-      "cart-departments",
-      // "product-list-wrapper#category",
+      "product-list-wrapper#departments",
       "flex-layout.row#product-list-cart"
     ],
     "props": {
@@ -41,9 +40,13 @@
     }
   },
 
-  "cart-departments": {
+  "product-list-wrapper#departments": {
+    "blocks": ["product-list.cart-departments"]
+  },
+  "product-list.cart-departments": {
     "blocks": ["product-list-content-desktop#checkout-cart"]
   },
+
   "flex-layout.col#desktop-col-right": {
     "children": [
       "flex-layout.row#desktop-right-container",
