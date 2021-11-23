@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Product image on PDP
 - Newsletter only on home
 - Fix link "ver todos"
+## [0.5.16] - 2021-11-22
+
+### Fixed
+
+- Custom price and personal flag
 
 ## [0.5.15] - 2021-11-19
 
