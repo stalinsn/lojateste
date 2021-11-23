@@ -5,7 +5,6 @@
 
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#newsletter",
       // "rich-text#text-notice",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-3-desktop",
@@ -266,7 +265,6 @@
   //Mobile
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#newsletter-mobile",
       "flex-layout.row#2-footer-mobile",
       "flex-layout.row#footer-mobile-1",
       "back-to-top-button"

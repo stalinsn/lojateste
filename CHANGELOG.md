@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Product image on PDP
+- Newsletter only on home
+- Fix link "ver todos"
+
 ## [0.5.15] - 2021-11-19
 
 ## [0.5.14] - 2021-11-19

@@ -255,6 +255,18 @@
               color: $white;
             }
           }
+
+          .closeIconButton {
+            font-size: 0;
+            background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.185' height='13.185' viewBox='0 0 13.185 13.185'%3E%3Cg id='Group_1751' data-name='Group 1751' transform='translate(-5.407 -5.407)'%3E%3Cg id='Group_1750' data-name='Group 1750'%3E%3Cpath id='Path_7110' data-name='Path 7110' d='M18.3,5.71h0a1,1,0,0,0-1.41,0L12,10.59,7.11,5.7a1,1,0,0,0-1.41,0h0a1,1,0,0,0,0,1.41L10.59,12,5.7,16.89a1,1,0,0,0,0,1.41h0a1,1,0,0,0,1.41,0L12,13.41l4.89,4.89a1,1,0,0,0,1.41,0h0a1,1,0,0,0,0-1.41L13.41,12,18.3,7.11A1,1,0,0,0,18.3,5.71Z' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: center;
+
+            .closeIcon {
+              display: none;
+            }
+          }
         }
       }
 

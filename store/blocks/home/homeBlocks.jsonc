@@ -398,9 +398,10 @@
 
   //LAST CAR
   "flex-layout.row#last-car": {
-    "children": ["rich-text#last-car", "rich-text#buy-all"],
+    "children": ["rich-text#last-car", "menu-item#buy-all"],
     "props": {
-      "blockClass": ["last-cart", "title-section"]
+      "blockClass": ["last-cart", "title-section"],
+      "preserveLayoutOnMobile": true
     }
   },
   "rich-text#last-car": {
@@ -412,13 +413,19 @@
       "blockClass": "title-surprise"
     }
   },
-  "rich-text#buy-all": {
-    "title": "Buy all title",
+  "menu-item#buy-all": {
     "props": {
-      "textAlignment": "right",
-      "textPosition": "right",
-      "text": "**ver todos**",
-      "blockClass": "buy-all"
+      "blockClass": "link-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
     }
   },
   "flex-layout.row#shelf-last-car": {
@@ -480,9 +487,10 @@
   //THE NEW
   "flex-layout.row#the-new": {
     "title": "Seção 10 - Título",
-    "children": ["rich-text#the-new", "rich-text#view-all-new"],
+    "children": ["rich-text#the-new", "menu-item#view-all-new"],
     "props": {
-      "blockClass": ["the-new", "title-section", "top32"]
+      "blockClass": ["the-new", "title-section", "top32"],
+      "preserveLayoutOnMobile": true
     }
   },
   "rich-text#the-new": {
@@ -494,13 +502,19 @@
       "blockClass": "title-surprise"
     }
   },
-  "rich-text#view-all-new": {
-    "title": "Link - Ver tudo",
+  "menu-item#view-all-new": {
     "props": {
-      "textAlignment": "right",
-      "textPosition": "right",
-      "text": "**ver todos**",
-      "blockClass": "buy-all"
+      "blockClass": "link-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
     }
   },
   "flex-layout.row#shelf-the-new": {
@@ -668,10 +682,11 @@
     "title": "Seção 8 - Título",
     "children": [
       "rich-text#featured-product",
-      "rich-text#view-all-feature-product"
+      "menu-item#view-all-feature-product"
     ],
     "props": {
-      "blockClass": ["featured-product", "title-section"]
+      "blockClass": ["featured-product", "title-section"],
+      "preserveLayoutOnMobile": true
     }
   },
   "rich-text#featured-product": {
@@ -683,13 +698,19 @@
       "blockClass": "title-surprise"
     }
   },
-  "rich-text#view-all-feature-product": {
-    "title": "Link - Ver todos",
+  "menu-item#view-all-feature-product": {
     "props": {
-      "textAlignment": "right",
-      "textPosition": "right",
-      "text": "**ver todos**",
-      "blockClass": "buy-all"
+      "blockClass": "link-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
     }
   },
   "flex-layout.row#shelf-featured-product": {
@@ -822,9 +843,10 @@
   //OFFERS
   "flex-layout.row#offers": {
     "title": "Seção 6 - Principais Ofertas Título",
-    "children": ["rich-text#offers", "rich-text#view-all-offers"],
+    "children": ["rich-text#offers", "menu-item#view-all-offers"],
     "props": {
-      "blockClass": ["offers", "title-section"]
+      "blockClass": ["offers", "title-section"],
+      "preserveLayoutOnMobile": true
     }
   },
   "rich-text#offers": {
@@ -836,13 +858,19 @@
       "blockClass": "title-surprise"
     }
   },
-  "rich-text#view-all-offers": {
-    "title": "Link - Ver todos",
+  "menu-item#view-all-offers": {
     "props": {
-      "textAlignment": "right",
-      "textPosition": "right",
-      "text": "**ver todos**",
-      "blockClass": "buy-all"
+      "blockClass": "link-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
     }
   },
   "flex-layout.row#shelf-offers": {
@@ -1085,10 +1113,11 @@
     "title": "Seção 11 - Título",
     "children": [
       "rich-text#the-best-electronics",
-      "rich-text#view-all-best-electronics"
+      "menu-item#view-all-best-electronics"
     ],
     "props": {
-      "blockClass": ["the-best-electronics", "title-section"]
+      "blockClass": ["the-best-electronics", "title-section"],
+      "preserveLayoutOnMobile": true
     }
   },
   "rich-text#the-best-electronics": {
@@ -1100,13 +1129,19 @@
       "blockClass": "title-surprise"
     }
   },
-  "rich-text#view-all-best-electronics": {
-    "title": "Link - Ver tudo",
+  "menu-item#view-all-best-electronics": {
     "props": {
-      "textAlignment": "right",
-      "textPosition": "right",
-      "text": "**ver todos**",
-      "blockClass": "buy-all"
+      "blockClass": "link-ver-todos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ver todos",
+        "text": "ver todos"
+      }
     }
   },
   "flex-layout.row#shelf-the-best-electronics": {
@@ -1466,5 +1501,15 @@
     "props": {
       "tabId": "home4"
     }
+  },
+  "responsive-layout.desktop#newsletter": {
+    "children": [
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "responsive-layout.mobile#newsletter": {
+    "children": [
+      "flex-layout.row#newsletter-mobile"
+    ]
   }
 }
