@@ -649,3 +649,15 @@
 .menuContainer--faq {
   flex-direction: column;
 }
+
+.menuItem--link-ver-todos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .styledLinkContent--link-ver-todos{
+    color: $primary;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
