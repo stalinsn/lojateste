@@ -53,27 +53,24 @@
   },
 
   "flex-layout.col#product-list-cart-mobile": {
-    "children": ["cart-departments#mobile"],
+    "children": [],
     "props": {
       "width": "80%",
       "blockClass": "product-list-cart-content"
     }
   },
   "product-list-wrapper#category-mobile": {
-    "blocks": ["product-list#mobile"]
+    "blocks": ["product-list.cart-departments#mobile"]
   },
 
-  "cart-departments#mobile": {
-    "blocks": ["product-list-content-mobile#checkout-cart"]
-  },
-  "product-list#mobile": {
+  "product-list.cart-departments#mobile": {
     "blocks": ["product-list-content-mobile#checkout-cart"]
   },
   "product-list-wrapper#cart-mobile": {
     "blocks": ["product-list#checkout-cart-mobile"]
   },
 
-"product-list#checkout-cart-mobile": {
+  "product-list#checkout-cart-mobile": {
     "blocks": ["product-list-content-mobile#checkout-cart"],
     "props": {
       "blockClass": "product-list-checkout-cart"
