@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.5.16] - 2021-11-22
+
+### Fixed
+
+- Custom price and personal flag
+
+## [0.5.15] - 2021-11-19
+
 ## [0.5.14] - 2021-11-19
 
 ### Fixed

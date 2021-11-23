@@ -104,7 +104,7 @@
     "children": [
       "product-summary-name",
       "product-summary-brand",
-      "price-custom",
+      "price-custom"
       // "personal-price"
     ],
     "props": {
@@ -127,7 +127,7 @@
     "children": [
       "product-summary-image#shelf-list",
       "vtex.product-highlights@2.x:product-highlights",
-      "flex-layout.row#savings",
+      "flex-layout.row#savings"
       // "personal-flag"
     ]
   },
