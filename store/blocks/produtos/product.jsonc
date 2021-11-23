@@ -128,11 +128,8 @@
 
   "product-images": {
     "props": {
+      "maxHeight": 450,
       "showPaginationDots": false,
-      "aspectRatio": {
-        "desktop": "4:3",
-        "phone": "16:9"
-      },
       "displayThumbnailsArrows": true,
       "thumbnailsOrientation": "vertical"
     }
@@ -503,10 +500,6 @@
     }*/
     "props": {
       "showPaginationDots": false,
-      "aspectRatio": {
-        "desktop": "4:3",
-        "phone": "16:9"
-      },
       "displayThumbnailsArrows": true,
       "thumbnailsOrientation": "vertical"
     }

@@ -2,18 +2,6 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--product-pag),
 :global(.vtex-flex-layout-0-x-flexRow--product-pag-mobile) {
-  :global(.vtex-store-components-3-x-productImage) {
-    max-height: 450px;
-    @media screen and (max-width: em(1024px)) {
-      max-height: fit-content;
-    }
-    :global(.vtex-store-components-3-x-productImagesGallerySlide) {
-      max-height: 450px;
-      :global(.vtex-store-components-3-x-productImageTag) {
-        max-height: 450px !important;
-      }
-    }
-  }
   .container {
     &.pdp {
       :global(.vtex-numeric-stepper__plus-button),
@@ -532,7 +520,7 @@
     }
   }
 
-  :global(.vtex-product-summary-2-x-container--normal-shelf) .customQuantitySelector {
+  :global(.vtex-product-summary-2-x-containerNormal) .customQuantitySelector {
     position: absolute;
     top: 84px;
     right: 12px;

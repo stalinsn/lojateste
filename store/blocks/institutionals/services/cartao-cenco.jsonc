@@ -40,7 +40,8 @@
       "flex-layout.col#cartao-cenco-content"
     ],
     "props": {
-      "blockClass": "cencosud-card-container1"
+      "blockClass": "cencosud-card-container1",
+      "paddingBottom": 9
     }
   },
   "flex-layout.row#cartao-cenco-container2": {
@@ -115,7 +116,7 @@
 
   "image#cencon-card": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/cartao-cencosud.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-cenco-card-01.png"
     }
   },
   "flex-layout.row#cartao-cenco-section-2": {
@@ -150,7 +151,7 @@
   },
   "image#cencon-card-2": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/cartao-cencosud-gbarbosa.png"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-cenco-card-02.png"
     }
   },
 
@@ -278,7 +279,8 @@
       "flex-layout.col#cartao-cenco-content-col2"
     ],
     "props": {
-      "blockClass": "cencosud-card-section-4"
+      "blockClass": "cencosud-card-section-4",
+      "paddingTop": 6
     }
   },
   "flex-layout.col#cartao-cenco-content-col1": {
@@ -300,17 +302,18 @@
   },
   "flex-layout.row#cartao-cenco-call-to-actions": {
     "children": [
-      "link#cartao-cenco-call-to-action-1",
+      // "link#cartao-cenco-call-to-action-1",
       "link#cartao-cenco-call-to-action-2"
     ],
     "props": {
-      "colGap": 4
+      "colGap": 4,
+      "preventHorizontalStretch": true
     }
   },
   "link#cartao-cenco-call-to-action-1": {
     "props": {
-      "href": "https://wwws.cartaocencosud.com.br/cliente/index.xhtml",
-      "label": "Acessar fatura",
+      "href": "#",
+      "label": "Baixe o guia de benefícios",
       "displayMode": "button",
       "buttonProps": {
         "size": "small",
@@ -321,8 +324,8 @@
   },
   "link#cartao-cenco-call-to-action-2": {
     "props": {
-      "href": "#",
-      "label": "Baixe o guia de benefícios",
+      "href": "https://wwws.cartaocencosud.com.br/cliente/index.xhtml",
+      "label": "Acessar fatura",
       "displayMode": "button",
       "buttonProps": {
         "size": "small",
@@ -334,11 +337,14 @@
   "flex-layout.col#cartao-cenco-content-col2": {
     "children": [
       "image#cartao-cenco-content-col2"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
   },
   "image#cartao-cenco-content-col2": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_card_woman.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-card-woman.png",
       "blockClass": "cartao-cenco-content-col2"
     }
   }
