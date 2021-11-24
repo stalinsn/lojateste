@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
+- Shelf price
+- Related products title
+## [0.5.17] - 2021-11-23
+
+### Fixed
+
 - Product image on PDP
 - Newsletter only on home
 - Fix link "ver todos"

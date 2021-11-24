@@ -395,7 +395,7 @@
         "maxItems": 12,
         "itemsPerPage": 5,
         "arrows": true,
-        "titleText": "Productos Relacionados"
+        "titleText": "Produtos Relacionados"
       },
 
       "context": {
