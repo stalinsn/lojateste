@@ -1657,10 +1657,13 @@
 }
 
 :global(.vtex-store-components-3-x-sellingPriceValue) {
+  margin-bottom: 4px;
+
   :global(.vtex-store-components-3-x-currencyContainer--summary) {
     font-size: 23px;
     font-weight: bold;
-    color: #525252;
+    color: #ed1d25;
+
 
     @media screen and (max-width: 767px) {
       font-size: 16px;
