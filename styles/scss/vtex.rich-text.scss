@@ -173,11 +173,7 @@
           font-size: 11px !important;
           margin-right: 0px;
         }
-      }
-    }
-  }
-
-  &::before {
+          &::before {
     content: "";
     display: block;
     background: url(https://gbarbosa.vteximg.com.br/arquivos/icon_box_header2.svg?v=1)
@@ -197,6 +193,11 @@
       height: 21px;
     }
   }
+      }
+    }
+  }
+
+
 
   //new
   /*@media (min-width: em(768px)) {

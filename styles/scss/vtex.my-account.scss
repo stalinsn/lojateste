@@ -718,7 +718,7 @@
 :global(.flex.mw7-m) {
   > :global(.w-100) {
     :global(.overflow-y-auto) {
-      overflow-y: visible;
+      overflow-x: hidden;
     }
     :global(.vtex-alert.flex.justify-between.t-body.c-on-base.ph5.pv4.br2.bg-warning--faded) {
       display: none;
@@ -728,10 +728,10 @@
 :global(#onetrust-banner-sdk) {
   bottom: 5% !important;
   top: auto !important;
-  max-width: 500px !important;
-  :global(#onetrust-accept-btn-handler) {
-    background: #ed1d25 !important;
-    border: 1px solid #ed1d25 !important;
-    color: #fff !important;
+  max-width: 800px !important;
+  :global(#onetrust-accept-btn-handler), :global(#onetrust-pc-btn-handler) {
+    background: #f4f4f4 !important;
+    border: 1px solid #525252 !important;
+    color: #525252 !important;
   }
 }

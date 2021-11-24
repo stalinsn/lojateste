@@ -2572,6 +2572,9 @@
 
 .flexRow--headertop-end {
   background: #1b1b1b;
+  @media screen and (max-width: 768px) {
+    background: #ed1d25;
+  }
 }
 
 .flexRow--menu-link {

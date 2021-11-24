@@ -88,7 +88,7 @@
   },
   "rich-text#cenco-card-title": {
     "props": {
-      "text": "## Cartão de crédito Cenconsud",
+      "text": "## Cartão de crédito Gbarbosa",
       "blockClass": "cencosud-card-title"
     }
   },
@@ -139,7 +139,7 @@
   },
   "rich-text#cartao-cenco-text-2": {
     "props": {
-      "text": "### Vantagens do Cartão Cencosud \n\n **Crédito fácil** \nCupom de 1ª Compra – Dá o direito de aproveitar todas as vantagens do Cartão Cencosud logo após a contratação (somente na primeira compra). \n\n **Parcelamento fácil**\n Parcelamento Facilitado em 24x fixas – Exclusivamente para compras com o Cartão Cencosud/GBarbosa \n\n **Seguros com prêmios**\n Seguros e Serviços e ainda pode concorrer a prêmios todo mês. \n\n **Descontos Exclusivos** \n Desconto Exclusivos – Em diversos produtos e seções nas Lojas Gbarbosa.",
+      "text": "### Vantagens do Cartão Gbarbosa \n\n **Crédito fácil** \nCupom de 1ª Compra – Dá o direito de aproveitar todas as vantagens do Cartão Cencosud logo após a contratação (somente na primeira compra). \n\n **Parcelamento fácil**\n Parcelamento Facilitado em 24x fixas – Exclusivamente para compras com o Cartão Cencosud/GBarbosa \n\n **Seguros com prêmios**\n Seguros e Serviços e ainda pode concorrer a prêmios todo mês. \n\n **Descontos Exclusivos** \n Desconto Exclusivos – Em diversos produtos e seções nas Lojas Gbarbosa.",
       "blockClass": "cencosud-card-benefits"
     }
   },
