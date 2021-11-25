@@ -16,6 +16,14 @@
     // display: none;
   }
 }
+.wrapper--sticky-header-1--stuck {
+  :global(.vtex-rich-text-0-x-wrapper--mi-tienda){
+    display: block !important; 
+    :global(.vtex-rich-text-0-x-link--mi-tienda) {
+      font-size: 0 !important;
+    }
+  }
+}
 /**Covid**/ 
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp) {
   position: relative;
