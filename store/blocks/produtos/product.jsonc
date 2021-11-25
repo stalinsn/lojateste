@@ -144,6 +144,7 @@
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.row#components-qty",
+      "flex-layout.row#buy-button",
       "flex-layout.row#shipping-simulator"
     ],
 
@@ -155,9 +156,7 @@
   },
 
   "flex-layout.row#shipping-simulator": {
-    "children": [
-      "flex-layout.col#shipping-simulator-content"
-    ],
+    "children": ["flex-layout.col#shipping-simulator-content"],
     "props": {
       "blockClass": "shipping-simulator"
     }
@@ -217,7 +216,11 @@
     }
   },
   "flex-layout.row#price-details": {
-    "children": ["price-custom", "flex-layout.row#flags-pdp", "installment-options"],
+    "children": [
+      "price-custom",
+      "flex-layout.row#flags-pdp",
+      "installment-options"
+    ],
     "props": {
       "blockClass": "price-details"
     }
@@ -244,9 +247,8 @@
       "blockClass": ["row-two-components", "quantity-pdp"]
     }
   },
-
   "flex-layout.row#buy-button": {
-    "children": ["add-to-cart-button"],
+    "children": ["add-to-cart-button#pdp"],
 
     "props": {
       "marginTop": 4,
@@ -254,7 +256,13 @@
       "blockClass": "product-buy-btn"
     }
   },
-
+  "add-to-cart-button#pdp": {
+    "props": {
+      "text": "Comprar agora",
+      "blockClass": "product-page",
+      "isOneClickBuy": true
+    }
+  },
   "flex-layout.row#product-tabs": {
     "children": ["tab-layout#desc"],
 
