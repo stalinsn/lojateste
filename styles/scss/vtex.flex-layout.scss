@@ -1300,6 +1300,11 @@
     max-height: 32px !important;
     border: none;
     border-radius: 4px;
+    &:hover {
+      background-color: #ffd500 !important;
+      border-color: #ffd500 !important;
+      color: #ed1d25;
+    }
   }
 }
 /* add to cart pdp - end*/
@@ -1677,11 +1682,11 @@
   :global(.vtex-store-components-3-x-currencyContainer--summary) {
     font-size: 23px;
     font-weight: bold;
-    color: #ed1d25;
+    color: #525252;
 
     @media screen and (max-width: 767px) {
       font-size: 16px;
-      color: #ed1d25;
+      color: #525252;
     }
   }
 }

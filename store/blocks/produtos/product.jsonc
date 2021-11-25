@@ -529,6 +529,7 @@
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.row#components-qty",
+      "flex-layout.row#buy-button",
       "flex-layout.row#shipping-simulator"
     ]
   },

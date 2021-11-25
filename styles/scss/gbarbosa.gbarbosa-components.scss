@@ -84,7 +84,6 @@
         }
       }
     }
-
     //End add to cart button  PDP
     :global(.vtex-button) {
       width: 100%;
@@ -201,6 +200,28 @@
             cursor: default;
             background-color: #ed1d25;
             color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-related) {
+  :global(.vtex-product-summary-2-x-element) {
+    .customQuantitySelector {
+      :global(.vtex-button) {
+        :global(.vtex-button__label) {
+          .buttonDataContainer {
+            &::after {
+              content: "Comprar";
+              font-size: 14px;
+              font-weight: 700;
+              text-transform: capitalize;
+              line-height: 20px;
+            }
+            .buttonText {
+              display: none;
+            }
           }
         }
       }
@@ -482,7 +503,7 @@
 }
 
 :global(.vtex-product-summary-2-x-container--shelf-list) {
-  .customQuantitySelector{
+  .customQuantitySelector {
     position: absolute;
     bottom: 22px;
     top: auto;
@@ -497,7 +518,7 @@
     right: 24px;
     bottom: 24px;
 
-    :global(.vtex-numeric-stepper__input){
+    :global(.vtex-numeric-stepper__input) {
       min-width: 32px;
       width: auto !important;
     }
@@ -506,7 +527,7 @@
 
 @media screen and (max-width: 768px) {
   :global(.vtex-product-summary-2-x-container--shelf-list) {
-    .customQuantitySelector{
+    .customQuantitySelector {
       bottom: 8px;
       width: auto;
       right: 12px;
