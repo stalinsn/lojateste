@@ -1300,6 +1300,11 @@
     max-height: 32px !important;
     border: none;
     border-radius: 4px;
+    &:hover {
+      background-color: #ffd500 !important;
+      border-color: #ffd500 !important;
+      color: #ed1d25;
+    }
   }
 }
 /* add to cart pdp - end*/

@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.6.1] - 2021-11-25
 
+### Fixed
+
+- Notification bar color on mobile
+
 ## [0.6.0] - 2021-11-25
 
 ### Changed
