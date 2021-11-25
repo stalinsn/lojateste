@@ -1287,7 +1287,22 @@
     }
   }
 }
-
+/* add to cart pdp */
+.flexRowContent--product-buy-btn {
+  margin-bottom: 20px !important;
+  :global(.vtex-button) {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 20px;
+    background-color: #ed1d25;
+    min-height: 32px !important;
+    max-height: 32px !important;
+    border: none;
+    border-radius: 4px;
+  }
+}
+/* add to cart pdp - end*/
 .flexRow--quantity-pdp {
   margin: 16px 0;
   :global(.vtex-numeric-stepper-container) {
@@ -1663,7 +1678,6 @@
     font-size: 23px;
     font-weight: bold;
     color: #ed1d25;
-
 
     @media screen and (max-width: 767px) {
       font-size: 16px;
@@ -2672,7 +2686,7 @@
   }
 }
 
-.flexRow--cencosud-card-section-4{
+.flexRow--cencosud-card-section-4 {
   background: $primary;
 }
 
@@ -2907,7 +2921,6 @@
   }
 
   :global(.vtex-flex-layout-0-x-flexRow--product-buy-btn) {
-    width: 370px;
     @media screen and (max-width: em(1024px)) {
       width: 100% !important;
     }
@@ -3185,18 +3198,18 @@
       :global(.vtex-address-form__postalCode) {
         :global(.vtex-input) {
           grid-template-areas:
-              "label label label"
-              "input input input";
+            "label label label"
+            "input input input";
 
-            :global(.vtex-input-prefix__group) {
-              margin-top: 24px;
-            }
+          :global(.vtex-input-prefix__group) {
+            margin-top: 24px;
           }
+        }
 
-          :global(.vtex-address-form__postalCode-forgottenURL) {
-              justify-content: flex-start;
-              margin-top: 16px;
-          }
+        :global(.vtex-address-form__postalCode-forgottenURL) {
+          justify-content: flex-start;
+          margin-top: 16px;
+        }
       }
 
       :global(.vtex-button) {
