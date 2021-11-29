@@ -98,7 +98,19 @@
       "verticalAlign": "top"
     }
   },
+  "flex-layout.col#image-column-mobile.checkout": {
+    "children": ["product-list-image#mobile"],
+    "props": {
+      "blockClass": "checkout-product-image",
+      "verticalAlign": "top"
+    }
+  },
 
+  "product-list-image#mobile": {
+    "props": {
+      "width": 64
+    }
+  },
   //Nome do produto
   "flex-layout.col#checkout-cart-product-name": {
     "children": [
