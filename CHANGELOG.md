@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - My account adress adjustments
+- Shelf see all link
 
 ## [0.6.2] - 2021-11-26
 
