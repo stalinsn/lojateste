@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Cart product list on mobile
+- Header on mobile
+- Inputs my account
+
 ## [0.6.3] - 2021-11-29
 
 ### Fixed
