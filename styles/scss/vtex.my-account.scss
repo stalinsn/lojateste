@@ -305,7 +305,16 @@
     }
   }
 }
-
+@media (max-width: 768px) {
+  .addressBox {
+    display: flex !important;
+    justify-content: space-between;
+    overflow-x: auto;
+    div {
+      margin: 0 5px;
+    }
+  }
+}
 :global(.vtex-modal__confirmation) {
   :global(.vtex-button) {
     background: #ed1d25 !important;
@@ -703,7 +712,7 @@
 
 .documentsSubContainer {
   display: none;
-} 
+}
 
 /* shelf price color fix  */
 :global(.vtex-store-components-3-x-listPrice)
@@ -729,7 +738,8 @@
   bottom: 5% !important;
   top: auto !important;
   max-width: 800px !important;
-  :global(#onetrust-accept-btn-handler), :global(#onetrust-pc-btn-handler) {
+  :global(#onetrust-accept-btn-handler),
+  :global(#onetrust-pc-btn-handler) {
     background: #f4f4f4 !important;
     border: 1px solid #525252 !important;
     color: #525252 !important;
