@@ -947,7 +947,7 @@
     "children": ["flex-layout.row#best-seller"]
   },
   "flex-layout.row#best-seller": {
-    "children": ["rich-text#departments-title", "link#ver-tudo#home-6"],
+    "children": ["rich-text#departments-title"/* , "link#ver-tudo#home-6" */],
     "props": {
       "blockClass": "best-seller",
       "preventHorizontalStretch": true
