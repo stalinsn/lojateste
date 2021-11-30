@@ -168,8 +168,7 @@
 }
 .openIconContainer {
   @media (max-width: em(768px)) {
-    margin-left: -30px;
-    padding-left: 0px;
+    padding: 0;
   }
 }
 .minicartContainer {
@@ -177,6 +176,10 @@
     :global(.vtex-button__label) {
       padding: 0 !important;
     }
+  }
+
+  @media screen and (max-width: em(768px)) {
+    margin: 0 12px;
   }
 }
 .minicartWrapperContainer {
@@ -202,19 +205,6 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
   .minicartWrapperContainer {
     .minicartContainer {
-      // @media screen and (min-width: em(1024px)) {
-      //   :global(.vtex-button__label) {
-      //     &::before{
-      //       content: "Mi carrito";
-      //       margin-right: 6px;
-      //       color: #333!important;
-      //       font-size: 14px;
-      //       font-weight: 600;
-      //       text-transform: capitalize;
-      //     }
-
-      //   }
-      // }
       :global(.vtex-minicart-2-x-minicartWrapperContainer) {
         :global(.vtex-button) {
           background-color: transparent !important;
