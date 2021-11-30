@@ -28,6 +28,11 @@
   "flex-layout.row#search-breadcrumb": {
     "children": ["breadcrumb.search"]
   },
+  "breadcrumb.search#search-breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
   "search-result-layout.mobile": {
     "children": ["flex-layout.row#search-result-container-mobile-row"]
   },
