@@ -211,6 +211,7 @@
     .customQuantitySelector {
       :global(.vtex-button) {
         :global(.vtex-button__label) {
+          color: #fff;
           .buttonDataContainer {
             &::after {
               content: "Comprar";
