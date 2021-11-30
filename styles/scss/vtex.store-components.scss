@@ -1026,14 +1026,21 @@
 
   .infoCardTextContainer--services-cards {
     width: 100%;
+    height: 100%;
+    justify-content: flex-end;
 
     .infoCardHeadline--services-cards {
       font-size: 24px;
       color: #ed1d25;
+
+      display: flex;
+      justify-content: center;
+      width: 100%;
     }
 
     .infoCardSubhead--services-cards {
       font-size: 14px;
+      flex: 1;
     }
 
     .infoCardCallActionContainer--services-cards {

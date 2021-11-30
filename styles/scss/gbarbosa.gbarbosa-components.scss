@@ -480,7 +480,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--menu-link) {
   :global(.vtex-minicart-totalizer) {
     :global(.vtex-minicart-totalizer-label) {
-      color: #525252;
+      color: #fff;
       .currencyContainer {
         .currencyGroup {
           &::after {
@@ -564,8 +564,15 @@
 
 :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
   .customQuantitySelector {
-    position: inherit;
     width: auto;
+
+    bottom: 32px;
+    top: auto;
+    right: 32px;
+
+    @media screen and (max-width: em(450px)) {
+      position: inherit;
+    }
   }
 }
 
