@@ -6,6 +6,13 @@
 .flexCol--minicart-main-infos {
   width: 225px !important;
   margin: 0 10px;
+  .flexColChild--minicart-main-infos {
+    .flexRow {
+      :global(.vtex-toast-container) {
+        display: none;
+      }
+    }
+  }
 }
 .flexRowContent--power-row-mobile {
   display: flex;
@@ -920,7 +927,7 @@
   }
   .flexColChild--cart-io-col-container {
     .flexRow--safe-store-row {
-      width: 100%;  
+      width: 100%;
     }
   }
 }
@@ -1493,11 +1500,13 @@
     background-color: $primary;
     min-height: 32px !important;
     max-height: 32px !important;
-
     &:hover {
       background-color: $secondary;
       border-color: $secondary;
       color: $primary;
+    }
+    &:disabled {
+      display: none;
     }
   }
 }
