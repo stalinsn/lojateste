@@ -745,3 +745,31 @@
     color: #525252 !important;
   }
 }
+
+
+:global(.vtex-profile-form-3-x-styleguideInput) {
+  :global(.vtex-input-prefix__group) {
+    input[name="birthDate"],
+    input[name="document"] {
+      &::placeholder {
+        font-size: 0;
+      }
+    }
+  }
+}
+
+:global(.vtex-profile-form-3-x-genderInput) {
+  :global(.vtex-dropdown__button.gray){
+    :global(.vtex-dropdown__caption) {
+      display: none;
+    }
+
+    :global(.vtex-dropdown__arrow) {
+      margin-left: auto;
+    }
+  }
+
+  option:first-child {
+    display: none;
+  }
+}

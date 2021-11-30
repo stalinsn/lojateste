@@ -10,9 +10,22 @@
       "responsive-layout.phone#cartao-cenco"
     ]
   },
+  "flex-layout.row#breadcrumb-custom": {
+    "children": ["rich-text#breadcrumb-custom"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "breadcrumb-custom"
+    }
+  },
+  "rich-text#breadcrumb-custom": {
+    "props":{
+      "text": "[Home](/) > **Cartão Cencosud**",
+      "blockClass": "breadcrumb-custom"
+    }
+  },
   "responsive-layout.desktop#cartao-cenco": {
     "children": [
-      "breadcrumb",
+      "flex-layout.row#breadcrumb-custom",
       "flex-layout.row#cartao-cenco-container",
       "flex-layout.row#cartao-cenco-container2",
       "flex-layout.row#cartao-cenco-container3",
@@ -21,6 +34,7 @@
   },
   "responsive-layout.tablet#cartao-cenco": {
     "children": [
+      "flex-layout.row#breadcrumb-custom",
       "flex-layout.row#cartao-cenco-container",
       "flex-layout.row#cartao-cenco-container2",
       "flex-layout.row#cartao-cenco-container3",
@@ -29,6 +43,7 @@
   },
   "responsive-layout.phone#cartao-cenco": {
     "children": [
+      "flex-layout.row#breadcrumb-custom",
       "flex-layout.row#cartao-cenco-container",
       "flex-layout.row#cartao-cenco-container2",
       "flex-layout.row#cartao-cenco-container3",

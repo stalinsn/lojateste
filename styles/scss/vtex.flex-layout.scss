@@ -269,7 +269,7 @@
 }
 .flexRowContent--main-header-mobile {
   align-items: center;
-  padding: 0 0.5rem;
+  padding: 0;
   justify-content: center;
 }
 @media screen and (max-width: 768px) {
@@ -837,6 +837,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.flexRowContent--checkout-mobile-firstRow {
+  .flexCol--checkout-remove-icon {
+    justify-content: flex-start;
+  }
+}
+
 .flexCol--checkout-cart-product-name {
   :global(.vtex-product-list-0-x-productName) {
     text-overflow: ellipsis;
@@ -851,6 +858,10 @@
     overflow: hidden;
     padding: 0 25px;
     font-size: 14px;
+
+    @media screen and (max-width: em(768px)) {
+      padding: 0px;
+    }
   }
   :global(.vtex-product-list-0-x-availabilityMessageContainer) {
     background: #fff;
@@ -861,6 +872,12 @@
         font-size: 14px;
         color: #ed1d25;
       }
+    }
+  }
+
+  @media screen and (max-width: em(768px)) {
+    :global(.vtex-product-list-0-x-availabilityMessageContainer) {
+      display: none;
     }
   }
 }
@@ -893,6 +910,11 @@
   padding: 0 5%;
   .flexRowContent--product-list-cart-container {
     border: none;
+
+    @media screen and (max-width: 768px) {
+      margin: 0;
+      padding: 0;
+    }
   }
 }
 .flexRowContent--checkout-mobile-firstRow {
@@ -908,6 +930,14 @@
   padding: 7px;
   margin: 20px 0;
 }
+
+.flexCol--checkout-product-container-mobile {
+  border: 1px solid #f3f3f3;
+  background-color: #fff;
+  padding: 7px;
+  margin: 8px 0;
+}
+
 .flexRow--right-side-orderplaced {
   height: 100%;
 }
@@ -2600,6 +2630,30 @@
   background: #1b1b1b;
   @media screen and (max-width: 768px) {
     background: #ed1d25;
+  }
+}
+.flexRowContent--breadcrumb-custom {
+  max-width: 1366px;
+  margin: 0 auto;
+  :global(.vtex-rich-text-0-x-wrapper--breadcrumb-custom) {
+    :global(.vtex-rich-text-0-x-paragraph) {
+      font-size: 13px;
+      :global(.vtex-rich-text-0-x-link) {
+        color: #898989;
+        text-decoration: none;
+        font-size: 13px;
+        margin-right: 10px;
+        &:hover {
+          color: #ed1d25;
+        }
+      }
+      :global(.vtex-rich-text-0-x-strong) {
+        margin-left: 10px;  
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 10px;
   }
 }
 

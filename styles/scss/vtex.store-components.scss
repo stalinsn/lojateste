@@ -135,10 +135,9 @@
     height: 32px;
     margin: 0;
   }
-  @media (max-width: 768px) {
-    width: 50px !important;
-    height: 50px !important;
-    margin-left: -50px !important;
+
+  @media screen and (max-width: 768px) {
+    margin: 0 !important;
   }
 }
 
@@ -1414,7 +1413,6 @@
 
 @media screen and (max-width: 64em) {
   :global(.vtex-store-components-3-x-logoImage) {
-    width: 100%;
     max-width: 64px;
     height: auto;
     border-radius: 0px !important;
