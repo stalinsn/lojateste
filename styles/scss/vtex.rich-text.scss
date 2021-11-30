@@ -3039,8 +3039,31 @@
     }
   }
 }
-.container--cart-back-button {
+/* .container--cart-back-button {
   display: none;
+} */
+.container--cart-back-button {
+  display: flex;
+  .paragraph--cart-back-button {
+    margin: 0;
+    .link--cart-back-button {
+      color: #525252;
+      font-size: 14px;
+      text-decoration: none;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      margin: 0 5px;
+      &::before {
+        content: "";
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='Arrow_L' data-name='Arrow L' width='44' height='44' viewBox='0 0 44 44'%3E%3Ccircle id='Elipse_60' data-name='Elipse 60' cx='22' cy='22' r='22' fill='%23fafafa'/%3E%3Cpath id='União_81' data-name='União 81' d='M5.244,13.244a1,1,0,0,1-.708-.293L4.5,12.915.3,8.708A1,1,0,0,1,1.709,7.294L4.244,9.829V1a1,1,0,0,1,2,0V9.828L8.78,7.294a1,1,0,1,1,1.414,1.415L5.975,12.927l-.023.024a1,1,0,0,1-.707.293Z' transform='translate(29.001 16.756) rotate(90)' fill='%23222'/%3E%3C/svg%3E")
+          no-repeat;
+        width: 44px;
+        height: 44px;
+        margin-right: 10px;
+      }
+    }
+  }
 }
 .container--go-to-checkout {
   width: 100%;
@@ -3127,29 +3150,7 @@
       display: none !important;
     }
   }
-  .container--cart-back-button {
-    display: flex;
-    .paragraph--cart-back-button {
-      margin: 0;
-      .link--cart-back-button {
-        color: #525252;
-        font-size: 14px;
-        text-decoration: none;
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-        margin: 0 5px;
-        &::before {
-          content: "";
-          background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='Arrow_L' data-name='Arrow L' width='44' height='44' viewBox='0 0 44 44'%3E%3Ccircle id='Elipse_60' data-name='Elipse 60' cx='22' cy='22' r='22' fill='%23fafafa'/%3E%3Cpath id='União_81' data-name='União 81' d='M5.244,13.244a1,1,0,0,1-.708-.293L4.5,12.915.3,8.708A1,1,0,0,1,1.709,7.294L4.244,9.829V1a1,1,0,0,1,2,0V9.828L8.78,7.294a1,1,0,1,1,1.414,1.415L5.975,12.927l-.023.024a1,1,0,0,1-.707.293Z' transform='translate(29.001 16.756) rotate(90)' fill='%23222'/%3E%3C/svg%3E")
-            no-repeat;
-          width: 44px;
-          height: 44px;
-          margin-right: 10px;
-        }
-      }
-    }
-  }
+
   .paragraph--footer-cart-title {
     font-size: 10px;
     margin: 5px;

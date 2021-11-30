@@ -925,6 +925,11 @@
   align-items: center;
   display: flex;
 }
+.flexColChild--logo-cart {
+  :global(.vtex-rich-text-0-x-container--cart-back-button) {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .flexCol--empty-cart-messages-content {
     .flexColChild--empty-cart-messages-content {
@@ -936,6 +941,11 @@
           padding: 10px 50px;
         }
       }
+    }
+  }
+  .flexColChild--logo-cart {
+    :global(.vtex-rich-text-0-x-container--cart-back-button) {
+      display: flex;
     }
   }
   .flexRow--cart-container {
