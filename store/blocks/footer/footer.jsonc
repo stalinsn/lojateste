@@ -7,11 +7,25 @@
     "children": [
       // "rich-text#text-notice",
       "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop",
       "back-to-top-button"
     ]
   },
-
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["rich-text#footer-2-desktop"],
+    "props": {
+      "blockClass": ["menu-row", "footer-2-desktop"],
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "rich-text#footer-2-desktop": {
+    "props": {
+      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
+      "blockClass": "footer-2-desktop"
+    }
+  },
   "flex-layout.row#newsletter": {
     "children": ["rich-text#newsletter", "newsletter"],
 
@@ -139,11 +153,23 @@
   "social-networks": {
     "props": {
       "socialNetworks": [
-        { "url": "https://www.facebook.com/oficialgbarbosa/", "name": "Facebook" },
-        { "url": "https://www.instagram.com/gbarbosa_oficial/", "name": "instagram" },
+        {
+          "url": "https://www.facebook.com/oficialgbarbosa/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/gbarbosa_oficial/",
+          "name": "instagram"
+        },
         { "url": "https://twitter.com/gbarbosa", "name": "Twitter" },
-        { "url": "https://www.youtube.com/user/gbarbosaoficial", "name": "Youtube" },
-        { "url": "https://www.linkedin.com/company/cencosud-s-a-/", "name": "linkedin" }
+        {
+          "url": "https://www.youtube.com/user/gbarbosaoficial",
+          "name": "Youtube"
+        },
+        {
+          "url": "https://www.linkedin.com/company/cencosud-s-a-/",
+          "name": "linkedin"
+        }
       ],
       "blockClass": "footer"
     }
@@ -217,7 +243,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
+      "text": "**Cencosud Brasil Comercial SA.** -CNPJ sob n° 39.346.861/0350-38 . Sediada na Av. das Nações Unidas, 12.995, 21º andar, CEP: 04.578-000, Bairro Brooklin Paulista, na cidade de São Paulo - SP.",
       "blockClass": "copyright-footer"
     }
   },
@@ -233,7 +259,7 @@
     }
   },
   "flex-layout.row#poweredby": {
-    "children":["rich-text#powered-by", "image#logo-footer-1"],
+    "children": ["rich-text#powered-by", "image#logo-footer-1"],
     "props": {
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true,
@@ -443,7 +469,10 @@
     }
   },
   "flex-layout.col#footer-3-mobile-1": {
-    "children": ["rich-text#copyright-footer-mobile", "flex-layout.row#footer-mobile-2"],
+    "children": [
+      "rich-text#copyright-footer-mobile",
+      "flex-layout.row#footer-mobile-2"
+    ],
     "props": {
       "blockClass": "copyright-row-mobile"
     }
@@ -457,7 +486,6 @@
       "blockClass": "copyright-footer"
     }
   },
-
 
   "flex-layout.row#footer-mobile-2": {
     "title": "Footer - Copyright",

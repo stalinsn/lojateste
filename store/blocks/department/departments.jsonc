@@ -387,7 +387,7 @@
       },
       // "showNavigationArrows": "DesktopOnly",
       "showPaginationDots": "never",
-      "blockClass": ["main-slider-home2"],
+      "blockClass": ["main-slider-home2", "deparment-slider"],
       "title": "Configuração - Slider 1"
     }
   },
@@ -424,7 +424,7 @@
       },
       // "showNavigationArrows": "DesktopOnly",
       "showPaginationDots": "never",
-      "blockClass": ["main-slider-home2"],
+      "blockClass": ["main-slider-home2", "deparment-slider"],
       "title": "Configuração - Slider 2"
     }
   },
@@ -461,7 +461,7 @@
       },
       // "showNavigationArrows": "DesktopOnly",
       "showPaginationDots": "never",
-      "blockClass": ["main-slider-home2"],
+      "blockClass": ["main-slider-home2", "deparment-slider"],
       "title": "Configuração - Slider 3"
     }
   },
@@ -508,7 +508,7 @@
       },
       // "showNavigationArrows": "DesktopOnly",
       "showPaginationDots": "never",
-      "blockClass": ["main-slider-home2"],
+      "blockClass": ["main-slider-home2", "deparment-slider"],
       "title": "Configuração - Slider 4"
     }
   },
@@ -545,7 +545,7 @@
       },
       // "showNavigationArrows": "DesktopOnly",
       "showPaginationDots": "never",
-      "blockClass": ["main-slider-home2"],
+      "blockClass": ["main-slider-home2", "deparment-slider"],
       "title": "Configuração - Slider 5"
     }
   },
@@ -583,7 +583,7 @@
       },
       // "showNavigationArrows": "DesktopOnly",
       "showPaginationDots": "never",
-      "blockClass": ["main-slider-home2"],
+      "blockClass": ["main-slider-home2", "deparment-slider"],
       "title": "Configuração - Slider 6"
     }
   }

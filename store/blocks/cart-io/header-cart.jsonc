@@ -42,7 +42,10 @@
     }
   },
   "flex-layout.row#cart-container": {
-    "children": ["flex-layout.col#logo-cart", "flex-layout.col#right-side-cart"],
+    "children": [
+      "flex-layout.col#logo-cart",
+      "flex-layout.col#right-side-cart"
+    ],
     "props": {
       "blockClass": "cart-container"
     }
@@ -64,7 +67,10 @@
     "title": "Logo cart",
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo.png",
-      "blockClass": "logo-cart"
+      "blockClass": "logo-cart",
+      "link": {
+        "url": "/"
+      }
     }
   },
   "flex-layout.col#right-side-cart": {
@@ -94,19 +100,19 @@
   "rich-text#cart-header-second-step": {
     "props": {
       "text": "*2* **Dados pessoais**",
-       "blockClass": ["cart-header", "cart-header-second-step"]
+      "blockClass": ["cart-header", "cart-header-second-step"]
     }
   },
   "rich-text#cart-header-third-step": {
     "props": {
       "text": "*3* **Método de Envio**",
-       "blockClass": ["cart-header", "cart-header-third-step"]
+      "blockClass": ["cart-header", "cart-header-third-step"]
     }
   },
   "rich-text#cart-header-fourth-step": {
     "props": {
       "text": "*4* **Confirmação**",
-       "blockClass": ["cart-header", "cart-header-fourth-step"]
+      "blockClass": ["cart-header", "cart-header-fourth-step"]
     }
   }
 }

@@ -2,6 +2,7 @@
 
 .searchNotFound {
   flex-direction: row;
+  margin-top: 30px;
   .searchNotFoundOops {
     color: #ed1d25;
     font-size: 24px;
@@ -332,6 +333,7 @@
   max-width: $maxContainerWidth;
   margin: 0 auto;
   padding: 50px;
+  padding-top: 0;
   .searchNotFoundWhatToDoDotsContainer {
     text-align: left;
     font-size: 13px;
@@ -438,7 +440,7 @@
     .searchNotFoundOops {
       padding: 0;
     }
-    .searchNotFoundInfo  {
+    .searchNotFoundInfo {
       padding: 0;
       text-align: center;
     }
