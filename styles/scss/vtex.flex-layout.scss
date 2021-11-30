@@ -28,6 +28,15 @@
     }
   }
 }
+
+.flexRow--header-top-bar {
+  background: #2a2d2f;
+}
+
+.flexRowContent--top-header-images {
+  align-items: center;
+}
+
 .flexRowContent--minicart-container-content {
   border: 1px solid #dedede;
   border-radius: 2px;
@@ -196,7 +205,7 @@
 }
 
 .flexRow--menu-link {
-  background-color: #f4f4f4;
+  background-color: #ed1d25;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0px;
@@ -206,7 +215,7 @@
     max-width: 1366px;
     margin: 0 auto;
     justify-content: space-between;
-    background-color: #f4f4f4;
+    background-color: #ed1d25;
   }
 }
 .flexRowContent--menu-logo {

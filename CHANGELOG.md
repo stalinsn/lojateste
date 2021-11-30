@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- New top bar
+- Abandoned cart email
+
 ### Fixed
 - Cart product list on mobile
 - Header on mobile
