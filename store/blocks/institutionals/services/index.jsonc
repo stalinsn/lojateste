@@ -138,7 +138,7 @@
     "props": {
       "id": "info-card-example",
       "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/card-troca-cel.jpg",
-      "headline": "Troca Celular GBarbosa",
+      "headline": "Troca Celular",
       "subhead": "Seu aparelho usado, smartphone ou tablet, vale como parte do pagamento na compra de um novo.",
       "callToActionText": "Saiba mais",
       "callToActionUrl": "/servicos/troca-cel",
