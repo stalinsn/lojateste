@@ -106,22 +106,22 @@
   },
   "image#safe-store-title-1": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/site-blindado.svg",
-      "maxHeight": 23,
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/Symbols.svg",
+      "maxHeight": 21,
       "blockClass": "cart-io-security"
     }
   },
   "image#safe-store-title-2": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/vtex-logo.svg",
-      "maxHeight": 17,
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/vtex-1.svg",
+      "maxHeight": 21,
       "blockClass": "cart-io-security"
     }
   },
   "image#safe-store-title-3": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/pcj.svg",
-      "maxHeight": 20,
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/Page-1.svg",
+      "maxHeight": 28,
       "blockClass": "cart-io-security"
     }
   },
