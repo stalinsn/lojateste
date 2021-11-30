@@ -71,20 +71,32 @@
   },
   "responsive-layout.desktop#top-header-images": {
     "children": [
+      "flex-layout.row#top-header-images"
+    ]
+  },
+  "flex-layout.row#top-header-images": {
+    "children": [
       "image#topbar-logo-1",
       "image#topbar-logo-2"
-    ]
+    ],
+    "props": {
+      "blockClass": "top-header-images"
+    }
   },
   "image#topbar-logo-1": {
     "props": {
-      "src": "#",
-      "alt": "Perini"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/perini-logo.svg",
+      "alt": "Perini",
+      "maxHeight": 24,
+      "blockClass": "topbar-logo-1"
     }
   },
   "image#topbar-logo-2": {
     "props": {
-      "src": "#",
-      "alt": "Mercantil"
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/mercantil-logo.svg",
+      "alt": "Mercantil",
+      "maxHeight": 24,
+      "blockClass": "topbar-logo-2"
     }
   },
   "flex-layout.row#5-desktop": {

@@ -26,6 +26,10 @@
   background: #2a2d2f;
 }
 
+.flexRowContent--top-header-images {
+  align-items: center;
+}
+
 .flexRowContent--minicart-container-content {
   border: 1px solid #dedede;
   border-radius: 2px;
@@ -884,12 +888,7 @@
 .flexCol--checkout-quantity-selector {
   max-width: 131px;
 }
-.flexColChild--checkout-product-image {
-  :global(.vtex-product-list-0-x-productImage) {
-    /*   width: 64px;
-    height: 64px; */
-  }
-}
+
 .flexRow--cart-container-mobile {
   padding: 0 5%;
   .flexRowContent--product-list-cart-container {
