@@ -21,7 +21,7 @@
     "props": {
       "blockClass": "sticky-header-3"
     },
-    "children": ["flex-layout.row#2-desktop" /*"personal-promotion"*/]
+    "children": ["flex-layout.row#header-top-bar" /*"personal-promotion"*/]
   },
 
   "sticky-layout#3-desktop": {
@@ -30,7 +30,63 @@
     },
     "children": ["flex-layout.row#3-desktop"]
   },
-
+  "flex-layout.row#header-top-bar-mobile": {
+    "children": [
+      "rich-text#top-bar-link-1",
+      "rich-text#top-bar-link-2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "header-top-bar",
+      "paddingTop": 4,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#header-top-bar": {
+    "children": [
+      "rich-text#top-bar-link-1",
+      "rich-text#top-bar-link-2",
+      "flex-layout.col#spacer",
+      "responsive-layout.desktop#top-header-images"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "header-top-bar",
+      "paddingTop": 4,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#top-bar-link-1": {
+    "props": {
+      "text": "Eletro",
+      "blockClass": ["top-bar-link", "top-bar-link-1"]
+    }
+  },
+  "rich-text#top-bar-link-2": {
+    "props": {
+      "text": "[Mercado](https://www.delivery.gbarbosa.com.br/?_gl=1*1vpfimy*_ga*YW1wLThXcHV3X2J2dXE4bkVvWEx6UngzU1E)",
+      "blockClass": ["top-bar-link", "top-bar-link-2"]
+    }
+  },
+  "responsive-layout.desktop#top-header-images": {
+    "children": [
+      "image#topbar-logo-1",
+      "image#topbar-logo-2"
+    ]
+  },
+  "image#topbar-logo-1": {
+    "props": {
+      "src": "#",
+      "alt": "Perini"
+    }
+  },
+  "image#topbar-logo-2": {
+    "props": {
+      "src": "#",
+      "alt": "Mercantil"
+    }
+  },
   "flex-layout.row#5-desktop": {
     "title": "Barra de promoção - home",
     "children": ["rich-text#5-desktop"],
@@ -222,7 +278,7 @@
   },
   "flex-layout.col#spacer": {
     "props": {
-      "width": "100%"
+      "width": "grow"
     }
   },
   "sticky-layout#4-desktop": {
@@ -313,7 +369,7 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
+    "children": ["flex-layout.row#header-top-bar-mobile","flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [

@@ -12,6 +12,52 @@
     }
   }
 }
+
+.paragraph--top-bar-link{
+  margin: 0;
+}
+
+.container--top-bar-link {
+
+  font-weight: 700;
+  cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.container--top-bar-link-1 {
+  margin-right: 4px;
+  padding: 4px 37px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #fff;
+}
+
+.container--top-bar-link-1 {
+  background: #ed1d25;
+}
+
+.container--top-bar-link-2 {
+  background: #ffd500;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  .wrapper--top-bar-link-2 {
+    width: 100%;
+  }
+
+  .link--top-bar-link {
+    padding: 4px 37px;
+    display: flex;
+    justify-content: center;
+    color: #ed1d25;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
 .paragraph--option-whole {
   margin: 0;
 }
