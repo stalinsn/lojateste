@@ -482,6 +482,7 @@
   :global(.vtex-minicart-totalizer) {
     :global(.vtex-minicart-totalizer-label) {
       color: #fff;
+      margin-top: 5px;
       .currencyContainer {
         .currencyGroup {
           &::after {

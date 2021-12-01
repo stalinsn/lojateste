@@ -172,10 +172,9 @@
       content: "";
       display: block;
       width: 25px;
-      height: 25px;
-      background: url("https://gbarbosa.vteximg.com.br/arquivos/icon_user_header2.svg?v=2");
-      background-size: 25px 26px !important;
-      background-position: -25px -156px !important;
+      height: 18px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='17' viewBox='0 0 12 17'%3E%3Cg id='user' transform='translate(-3.75 -1.25)'%3E%3Cpath id='Path_7340' data-name='Path 7340' d='M9.75,2.5A3.04,3.04,0,0,1,12.7,5.625,3.04,3.04,0,0,1,9.75,8.75,3.04,3.04,0,0,1,6.8,5.625,3.04,3.04,0,0,1,9.75,2.5m0-1.25A4.256,4.256,0,0,0,5.625,5.625,4.256,4.256,0,0,0,9.75,10a4.256,4.256,0,0,0,4.125-4.375A4.256,4.256,0,0,0,9.75,1.25Z' fill='%23fff'/%3E%3Cpath id='Path_7341' data-name='Path 7341' d='M15.75,18.75h-1.2V15.625a3.064,3.064,0,0,0-3-3.125H7.95a3.064,3.064,0,0,0-3,3.125V18.75H3.75V15.625a4.29,4.29,0,0,1,4.2-4.375h3.6a4.29,4.29,0,0,1,4.2,4.375Z' transform='translate(0 -0.5)' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E") no-repeat;
+      background-size: 27px 19px!important;
       margin: auto 0;
       @media (max-width: em(768px)) {
         width: 19px;
