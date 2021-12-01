@@ -488,10 +488,11 @@
   }
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--menu-link) {
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
   :global(.vtex-minicart-totalizer) {
     :global(.vtex-minicart-totalizer-label) {
       color: #fff;
+      margin-top: 5px;
       .currencyContainer {
         .currencyGroup {
           &::after {
