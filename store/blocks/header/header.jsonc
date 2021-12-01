@@ -21,13 +21,8 @@
     "props": {
       "blockClass": "sticky-header-3"
     },
-<<<<<<< HEAD
-    "children": ["flex-layout.row#2-desktop", "personal-promotion"]
-  },   
-=======
-    "children": ["flex-layout.row#header-top-bar" /*"personal-promotion"*/]
+    "children": ["flex-layout.row#header-top-bar", "personal-promotion"]
   },
->>>>>>> master
 
   "sticky-layout#3-desktop": {
     "props": {
@@ -105,11 +100,7 @@
     }
   },
   "flex-layout.row#5-desktop": {
-<<<<<<< HEAD
-    "title": "Barra de promoção - home",  
-=======
     "title": "Barra de promoção - home",
->>>>>>> master
     "children": ["rich-text#5-desktop"],
     "props": {
       "fullWidth": "true",
