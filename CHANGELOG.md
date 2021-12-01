@@ -7,6 +7,36 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.6.4] - 2021-11-30
+
+### Added
+- New top bar
+- Abandoned cart email
+
+### Fixed
+- Cart product list on mobile
+- Header on mobile
+- Inputs my account
+
+## [0.6.3] - 2021-11-29
+
+### Fixed
+
+- My account adress adjustments
+- Shelf see all link
+
+## [0.6.2] - 2021-11-26
+
+### Fixed
+
+- Buy button hover
+
+
+## [0.6.1] - 2021-11-25
+
+### Fixed
+
+- Notification bar color on mobile
 ## [0.6.0] - 2021-11-25
 
 ### Changed

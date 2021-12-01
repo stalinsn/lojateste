@@ -6,6 +6,13 @@
 .flexCol--minicart-main-infos {
   width: 225px !important;
   margin: 0 10px;
+  .flexColChild--minicart-main-infos {
+    .flexRow {
+      :global(.vtex-toast-container) {
+        display: none;
+      }
+    }
+  }
 }
 .flexRowContent--power-row-mobile {
   display: flex;
@@ -21,6 +28,15 @@
     }
   }
 }
+
+.flexRow--header-top-bar {
+  background: #2a2d2f;
+}
+
+.flexRowContent--top-header-images {
+  align-items: center;
+}
+
 .flexRowContent--minicart-container-content {
   border: 1px solid #dedede;
   border-radius: 2px;
@@ -189,7 +205,7 @@
 }
 
 .flexRow--menu-link {
-  background-color: #f4f4f4;
+  background-color: #ed1d25;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0px;
@@ -199,7 +215,7 @@
     max-width: 1366px;
     margin: 0 auto;
     justify-content: space-between;
-    background-color: #f4f4f4;
+    background-color: #ed1d25;
   }
 }
 .flexRowContent--menu-logo {
@@ -260,7 +276,7 @@
 }
 .flexRowContent--main-header-mobile {
   align-items: center;
-  padding: 0 0.5rem;
+  padding: 0;
   justify-content: center;
 }
 @media screen and (max-width: 768px) {
@@ -828,6 +844,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.flexRowContent--checkout-mobile-firstRow {
+  .flexCol--checkout-remove-icon {
+    justify-content: flex-start;
+  }
+}
+
 .flexCol--checkout-cart-product-name {
   :global(.vtex-product-list-0-x-productName) {
     text-overflow: ellipsis;
@@ -842,6 +865,10 @@
     overflow: hidden;
     padding: 0 25px;
     font-size: 14px;
+
+    @media screen and (max-width: em(768px)) {
+      padding: 0px;
+    }
   }
   :global(.vtex-product-list-0-x-availabilityMessageContainer) {
     background: #fff;
@@ -852,6 +879,12 @@
         font-size: 14px;
         color: #ed1d25;
       }
+    }
+  }
+
+  @media screen and (max-width: em(768px)) {
+    :global(.vtex-product-list-0-x-availabilityMessageContainer) {
+      display: none;
     }
   }
 }
@@ -879,16 +912,16 @@
 .flexCol--checkout-quantity-selector {
   max-width: 131px;
 }
-.flexColChild--checkout-product-image {
-  :global(.vtex-product-list-0-x-productImage) {
-    /*   width: 64px;
-    height: 64px; */
-  }
-}
+
 .flexRow--cart-container-mobile {
   padding: 0 5%;
   .flexRowContent--product-list-cart-container {
     border: none;
+
+    @media screen and (max-width: 768px) {
+      margin: 0;
+      padding: 0;
+    }
   }
 }
 .flexRowContent--checkout-mobile-firstRow {
@@ -904,6 +937,14 @@
   padding: 7px;
   margin: 20px 0;
 }
+
+.flexCol--checkout-product-container-mobile {
+  border: 1px solid #f3f3f3;
+  background-color: #fff;
+  padding: 7px;
+  margin: 8px 0;
+}
+
 .flexRow--right-side-orderplaced {
   height: 100%;
 }
@@ -913,6 +954,16 @@
 }
 .flexRowContent--cart-io {
   justify-content: space-between;
+  .stretchChildrenWidth {
+    &:last-child {
+      width: 23% !important;
+    }
+  }
+  .flexColChild--cart-io-col-container {
+    .flexRow--safe-store-row {
+      width: 100%;
+    }
+  }
 }
 .flexColChild--cart-io-col-container {
   align-items: center;
@@ -920,10 +971,19 @@
 }
 .flexRow--cart-io {
   padding: 15px 0;
+  padding-left: 40px;
 }
 .flexColChild--cart-io-title-col {
   align-items: center;
   display: flex;
+}
+.flexColChild--logo-cart {
+  :global(.vtex-rich-text-0-x-container--cart-back-button) {
+    display: none;
+  }
+}
+.flexRow--cart-container-desktop {
+  padding-top: 30px;
 }
 @media (max-width: 768px) {
   .flexCol--empty-cart-messages-content {
@@ -936,6 +996,11 @@
           padding: 10px 50px;
         }
       }
+    }
+  }
+  .flexColChild--logo-cart {
+    :global(.vtex-rich-text-0-x-container--cart-back-button) {
+      display: flex;
     }
   }
   .flexRow--cart-container {
@@ -1302,6 +1367,11 @@
     max-height: 32px !important;
     border: none;
     border-radius: 4px;
+    &:hover {
+      background-color: #ffd500 !important;
+      border-color: #ffd500 !important;
+      color: #ed1d25;
+    }
   }
 }
 /* add to cart pdp - end*/
@@ -1466,11 +1536,13 @@
     background-color: $primary;
     min-height: 32px !important;
     max-height: 32px !important;
-
     &:hover {
       background-color: $secondary;
       border-color: $secondary;
       color: $primary;
+    }
+    &:disabled {
+      display: none;
     }
   }
 }
@@ -2176,7 +2248,7 @@
 }
 
 .flexCol--col-not-found {
-  padding-top: 52px;
+  padding-top: 0;
   padding-bottom: 52px;
   @media (max-width: em(768px)) {
     padding-top: 0px;
@@ -4530,7 +4602,11 @@
   padding: 0 60px;
 }
 .flexRowContent--menu-row {
-  padding-top: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.flexRowContent--footer-2-desktop {
+  padding-top: 0;
   padding-bottom: 45px;
 }
 @media (max-width: 768px) {

@@ -135,10 +135,9 @@
     height: 32px;
     margin: 0;
   }
-  @media (max-width: 768px) {
-    width: 50px !important;
-    height: 50px !important;
-    margin-left: -50px !important;
+
+  @media screen and (max-width: 768px) {
+    margin: 0 !important;
   }
 }
 
@@ -1026,14 +1025,21 @@
 
   .infoCardTextContainer--services-cards {
     width: 100%;
+    height: 100%;
+    justify-content: flex-end;
 
     .infoCardHeadline--services-cards {
       font-size: 24px;
       color: #ed1d25;
+
+      display: flex;
+      justify-content: center;
+      width: 100%;
     }
 
     .infoCardSubhead--services-cards {
       font-size: 14px;
+      flex: 1;
     }
 
     .infoCardCallActionContainer--services-cards {
@@ -1407,7 +1413,6 @@
 
 @media screen and (max-width: 64em) {
   :global(.vtex-store-components-3-x-logoImage) {
-    width: 100%;
     max-width: 64px;
     height: auto;
     border-radius: 0px !important;
@@ -1556,4 +1561,13 @@
       }
     }
   }
+}
+
+.imageElement--topbar-logo-1 {
+  margin-right: 8px;
+  height: fit-content;
+}
+
+.imageElement--topbar-logo-2 {
+  height: fit-content;
 }

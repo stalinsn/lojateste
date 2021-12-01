@@ -84,7 +84,6 @@
         }
       }
     }
-
     //End add to cart button  PDP
     :global(.vtex-button) {
       width: 100%;
@@ -215,6 +214,29 @@
 :global(.vtex-numeric-stepper-wrapper) {
   @media screen and (min-width: 768px) {
     width: 100%;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-related) {
+  :global(.vtex-product-summary-2-x-element) {
+    .customQuantitySelector {
+      :global(.vtex-button) {
+        :global(.vtex-button__label) {
+          color: #fff;
+          .buttonDataContainer {
+            &::after {
+              content: "Comprar";
+              font-size: 14px;
+              font-weight: 700;
+              text-transform: capitalize;
+              line-height: 20px;
+            }
+            .buttonText {
+              display: none;
+            }
+          }
+        }
+      }
+    }
   }
 }
 :global(.vtex-flex-layout-0-x-flexRow--product-buy-btn) {
@@ -469,7 +491,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--menu-link) {
   :global(.vtex-minicart-totalizer) {
     :global(.vtex-minicart-totalizer-label) {
-      color: #525252;
+      color: #fff;
       .currencyContainer {
         .currencyGroup {
           &::after {
@@ -492,7 +514,7 @@
 }
 
 :global(.vtex-product-summary-2-x-container--shelf-list) {
-  .customQuantitySelector{
+  .customQuantitySelector {
     position: absolute;
     bottom: 22px;
     top: auto;
@@ -507,7 +529,7 @@
     right: 24px;
     bottom: 24px;
 
-    :global(.vtex-numeric-stepper__input){
+    :global(.vtex-numeric-stepper__input) {
       min-width: 32px;
       width: auto !important;
     }
@@ -516,7 +538,7 @@
 
 @media screen and (max-width: 768px) {
   :global(.vtex-product-summary-2-x-container--shelf-list) {
-    .customQuantitySelector{
+    .customQuantitySelector {
       bottom: 8px;
       width: auto;
       right: 12px;
@@ -553,8 +575,15 @@
 
 :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
   .customQuantitySelector {
-    position: inherit;
     width: auto;
+
+    bottom: 32px;
+    top: auto;
+    right: 32px;
+
+    @media screen and (max-width: em(450px)) {
+      position: inherit;
+    }
   }
 }
 
@@ -578,5 +607,11 @@
       font-size: 14px;
       text-align: center;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cartDepartmentsProductList {
+    padding: 0;
   }
 }

@@ -74,7 +74,7 @@
   "quantity-selector-custom#minicart": {
     "props": {
       "isMinicart": true
-      
+
     }
   },
   "flex-layout.row#minicart-footer-custom": {

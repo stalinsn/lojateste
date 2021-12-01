@@ -9,6 +9,7 @@
 
   "flex-layout.col#desktop-cart-content": {
     "children": [
+      "flex-layout.row#back-button-cart-desktop",
       "flex-layout.row#checkout-cart-title",
       "flex-layout.row#cart-desktop-cols"
     ],
@@ -16,7 +17,15 @@
       "blockClass": "cart-desktop-content"
     }
   },
-
+  "flex-layout.row#back-button-cart-desktop": {
+    "children": ["rich-text#back-button-cart-desktop"]
+  },
+  "rich-text#back-button-cart-desktop": {
+    "props": {
+      "blockClass": ["back-button-cart-desktop", "cart-back-button"],
+      "text": "[Voltar](/)"
+    }
+  },
   "flex-layout.row#cart-desktop-cols": {
     "children": [
       "flex-layout.col#desktop-col-left",

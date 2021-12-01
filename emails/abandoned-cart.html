@@ -1,0 +1,244 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; height: 100%; background: #fff;">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{_accountInfo.AccountName}}</title>
+
+</head>
+<body style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; line-height: 1; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; height: 100%; background: #F2F2F2;">
+        <table class="email-container" role="presentation" align="center" cellpadding="0" cellspacing="0"
+        style="font-size: 100%; font-style: inherit; padding: 0; border: none; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; background: #fff; color: #383935; height: auto; margin: 0 auto; text-align: center;"
+        width="100%" valign="middle">
+        <tr
+          style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;"
+          valign="middle" align="center">
+          <td
+            style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;"
+            valign="middle" align="center">
+
+            <table class="header"
+              style="background: transparent; font-size: 100%; font-style: inherit; padding: 0; border: none; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; margin: auto; height: auto; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #ed1d25;"
+              width="100%" valign="middle" align="center" bgcolor="#ed1d25">
+              <thead
+                style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;"
+                valign="middle" align="center">
+
+                <tr class="header__row1"
+                  style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #f2f2f2; width: 100%;"
+                  valign="middle" align="center" bgcolor="#f2f2f2">
+                  <td colspan="6"
+                    style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;"
+                    valign="middle" align="center">
+                    {{#each orders}}
+                    <p class="order-number-header"
+                      style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: right;">
+                      Número do pedido: <span
+                        style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; font-weight: bold;">{{orderId}}</span>
+                    </p>
+                    {{/each}}
+                  </td>
+                </tr>
+              </thead>
+              <tr class="header__row"
+                style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #ed1d25; width: 100%;"
+                valign="middle" align="center" bgcolor="#ed1d25">
+                <td class="header__wrap"
+                  style="background: transparent; border: 0; font-size: 100%; font-style: inherit; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; margin: auto; padding: 4%; text-align: left; width: 65%;"
+                  width="50%" valign="middle" align="left">
+                  <a href="http://{{_accountInfo.AccountName}}.com.br" target="_blank" rel="noopener noreferrer"
+                    style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;">
+                    <img class="header__logo" src="https://gbarbosa.vtexassets.com/arquivos/gbarbosa_logo.png"
+                      alt="Logo {{_accountInfo.TradingName}}"
+                      style="background: transparent; border: 0; font-size: 100%; font-style: inherit; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; max-height: 100%; color: #fff; margin: auto; max-width: 145px; width: 60px; height: 60px;"
+                      width="60" height="60">
+                  </a>
+                </td>
+                <td
+                  style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;"
+                  valign="middle" align="center">
+                </td>
+                <td class="header__title"
+                  style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;"
+                  valign="middle" align="center"><a href="#"
+                    style="background: transparent; border: 0; font-size: 100%;display:block; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; text-align: center; color: #fff; text-decoration: none;"><img
+                      src="https://gbarbosa.vtexassets.com/arquivos/user.png"
+                      style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; text-align: center; max-width: 100%; max-height: 100%;display: block;margin: 0 auto;">Minha
+                    conta</a></td>
+                <td class="header__title"
+                  style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;"
+                  valign="middle" align="center"><a href="#"
+                    style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; display: table-caption; color: #fff; text-decoration: none;"><img
+                      src="https://gbarbosa.vtexassets.com/arquivos/shopping-bag-line.png"
+                      style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%;">Pedidos</a>
+                </td>
+
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+            <table class="notice"
+        style="background: transparent; font-size: 100%; font-style: inherit; padding: 0; border: none; border-spacing: 0; width: 100%; max-width: 600px; margin: auto; height: auto; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #fff; border-collapse: separate; padding-bottom: 10px;"
+        width="100%" valign="middle" align="center" bgcolor="#fff">
+        <tr class="notice__topic"
+          style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;"
+          valign="middle" align="center">
+          <td class="notice__topic-wrap"
+            style="background: transparent; border: 0; font-size: 100%; font-style: inherit; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; margin: auto; padding-bottom: 10px;"
+            valign="middle" align="center">
+            <a href="http://{{_accountInfo.AccountName}}.com.br"
+              style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;">
+              <img class="notice__topic-img"
+                src="https://gbarbosa.vtexassets.com/arquivos/gbarbosabanner-carrinho-abandonado.jpg" alt="Pedido Realizado"
+                style="background: transparent; border: 0; font-size: 100%; font-style: inherit; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%; margin: auto; width: 100%;">
+            </a>
+          </td>
+        </tr>
+    </table>
+  <table class="notice" role="main" style="margin: auto; padding: 0; border: none; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; height: auto; background-size: 100% auto; background-repeat: no-repeat; background-position: top center;" width="100%" valign="middle">
+    <tr class="notice__client" style="background: #fff; margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle;" valign="middle">
+      <td class="notice__client-wrap" style="margin: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; padding: 4% 4% 0;" valign="middle">
+        <p class="paragraph w-90" style="font-size: 25px;margin: 0; padding: 0; border: 0; outline: 0; font-style: inherit; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; font-weight: bold; color: #383935; padding-bottom: 2%; line-height: 1.5; width: 90%;">
+            Olá {{additionalFields.firstName}},
+        </p>
+        <p class="paragraph w-90" style="margin: 0; padding: 0; border: 0; outline: 0; font-style: inherit; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; font-weight: normal; font-size: 14px; color:black; padding-bottom: 2%; line-height: 1.5; width: 90%;">
+          Notamos que você não finalizou sua compra. Aproveite enquanto os tens do seu carrinho ainda estão disponíveis e clique no botão abaixo para finalizar seu pedido.
+        </p>
+      </td>
+    </tr>
+  </table>
+  {{!-- BUTTON --}}
+    <table class="disclaimer" style="margin: auto; padding: 0; border: none; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; height: auto;" width="100%" valign="middle">
+    <tr style="background: #fff; margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle;" valign="middle">
+      <td class="disclaimer__text" style="margin: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; padding: 50px 4%; font-size: 16px;text-align: center;" valign="middle">
+        <a href="https://{{_accountInfo.AccountName}}.com.br/cart/{{addToCartURL}}&utm_source=abandoned-cart" style="border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; background: #ed1d25; text-decoration: none; color: #fff; padding: 14px 48px; font-weight: 700; font-size: 14px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px">Finalizar pedido</a>
+      </td>
+    </tr>
+  </table>
+  {{!-- BUTTON --}}
+
+
+  </table>
+  <table class="products" style="background: #fff; margin: auto; padding: 0; border: none; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; height: auto;" width="100%" valign="middle">
+    <tr class="products__header" style=" margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; background-color: white; color: black;" valign="middle" bgcolor="#9451A0">
+      <td class="w-50 align-center" style="margin: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; width: 50%; text-align: left; padding: 2%; color:black; font-weight: 700;" width="50%" valign="middle" align="center">Produto</td>
+      <td class="w-25 align-center" style="margin: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; width: 25%; text-align: center; padding: 2%; color: black; font-weight: 700;" width="25%" valign="middle" align="center">Quantidade</td>
+      <td class="w-25 align-center" style="margin: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; width: 25%; text-align: center; padding: 2%; color: black; font-weight: 700;" width="25%" valign="middle" align="center">Valor</td>
+    </tr>
+
+    {{#each items}}
+    <tr class="products__row" style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; border-bottom: 1px solid #EEEEEE;" valign="middle">
+      <td class="products__info w-50" style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; width: 150p; padding-top: 15px; padding-bottom: 15px; padding-left: 20px;" width="50%" valign="middle">
+        {{#if link}}
+        <a href="https://gbarbosa.com.br/{{link}}" target="_blank" rel="noopener noreferrer" style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; display: inline-block;">
+          <img alt="produto" src="{{image}}" width="60" style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; max-width: 100%; display: inline-block;">
+        </a>
+        {{else}}
+        <img alt="produto" src="{{image}}" style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; max-width: 100%; display: inline-block;">
+        {{/if}}
+
+        <span style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 80%; font-family: inherit; vertical-align: middle; display: inline-block; width: 60%; padding-left: 2%;">{{productName}}</span>
+      </td>
+
+      <td class="products__quantity w-25" style="margin: 0; padding: 0; border: 0; outline: 0; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; font-weight: bold; width: 25%; text-align: center;" width="25%" valign="middle" align="center">
+        {{quantity}}
+      </td>
+      <td class="products__price w-25" style="margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; vertical-align: middle; width: 25%; text-align: center;" width="25%" valign="middle" align="center">
+        <strong class="products__price--selling">
+          {{#if sellingPrice}}
+             {{replace sellingPrice "." "," }}
+             {{else}}
+             Grátis
+            {{/if}}
+        </strong>
+      </td>
+    </tr>
+    {{/each}}
+  </table>
+
+  {{!-- Footer --}}
+  <table class="prefooter" style="background: #fff; max-width: 600px;margin: 0 auto;padding: 32px 15px;">
+    <tr>
+        <td style="text-align:center;">
+            <img src="https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-carrinho-abandonado-banner.jpg" />
+        </td>
+    </tr>
+    <tr>
+        <td style="padding: 15px;border: 1px solid #EAEAEA;margin-top: 30px;display: block;">
+            <h4 style="margin: 0;color: #434344;font-size: 16px;font-family: Arial;margin-top: 30px;">Algumas informações importantes</h4>
+            <p style="margin: 0;color: #333333;font-size: 12px;font-family: Arial;margin-top: 30px;">
+                <strong>Compras com Cartão de Crédito: </strong> Confirmação poderá ser realizada em até dois dias úteis.<br/><br/>
+                <strong>Compras através de Boleto Bancário: </strong> Confirmação poderá ocorrer em até três dias úteis, a partir do pagamento.<br/><br/>
+                <strong>Compras através de PIX:</strong> confirmação poderá ocorrer em até três dias úteis. <br/><br/>
+                <strong>Compras através de Vale-Compra:</strong> Se o valor do vale for igual ao valor da compra, confirmação do pagamento ocorre em até dois dias úteis; se o valor do vale for menor que o valor da compra, a diferença somente poderá ser paga por meio de cartão de crédito, neste caso, é necessário aguardar a aprovação do pagamento pela administradora do cartão.
+                <br><br>
+
+                - Caso queira acompanhar seu pedido no site, <a href="#" style="color: #ED1D25;text-decoration: none;font-weight: bold;">Clique aqui</a> <br/><br/>
+                - Conheça os procedimentos para realização de <a href="#" style="color: #ED1D25;text-decoration: none;font-weight: bold;">Troca e Devolução.</a><br/><br/>
+                - Por favor, não responda este email, pois ele foi gerado automaticamente. <br/><br/>
+                - Dúvidas? Entre em contato com a nossa <a href="#" style="color: #ED1D25;text-decoration: none;font-weight: bold;">Central de Atendimento.</a><br/><br/>
+
+            </p>
+        </td>
+    </tr>
+</table>
+<table class="email-container" role="presentation" align="center" cellpadding="0" cellspacing="0"
+        style="font-size: 100%; font-style: inherit; padding: 0; border: none; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; background: #fff; color: #383935; height: auto; margin: 0 auto; text-align: center;"
+        width="100%">
+    <tr class="header__row"
+        style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #ed1d25;"
+        valign="middle" align="center" bgcolor="#ed1d25">
+        <td colspan="1"
+          style="background: transparent; border: 0; vertical-align: top; font-size: 100%; font-style: inherit; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; margin: auto; padding: 4%; text-align: left;"
+          valign="middle" align="left">
+          <a href="http://{{_accountInfo.AccountName}}.com.br" target="_blank" rel="noopener noreferrer"
+            style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;">
+            <img class="header__logo" src="https://gbarbosa.vtexassets.com/arquivos/gbarbosa_logo.png"
+              alt="Logo {{_accountInfo.TradingName}}"
+              style="background: transparent; border: 0; font-size: 100%; font-style: inherit; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; max-height: 100%; color: #fff; margin: auto; max-width: 145px; width: 60px; height: 60px;"
+              width="60" height="60">
+          </a>
+          <p style="font-size: 10px; line-height: 15px; letter-spacing:0.2px; color: #fff">
+              <b>© 2021 Copyright.
+              <br>GBarbosa Supermercados</b>
+              <br> Todos os direitos reservados
+          </p>
+          <a></a>
+        </td>
+        <td style="vertical-align: top" colspan="1">
+            <p style="text-align: left; padding: 32px 0; font-size: 10px; color: #fff; line-height: 22px"><b style="font-size: 14px">Central de ajuda</b><br>
+                <a href="http://{{_accountInfo.AccountName}}.com.br/lojas" style="color: #fff">Nossas lojas</a><br>
+                <a href="http://{{_accountInfo.AccountName}}.com.br/central-de-atendimento/faq" style="color: #fff">Perguntas frequêntes</a>
+            </p>
+        </td>
+        <td style="vertical-align: top" colspan="1">
+            <p style="text-align: left; padding: 32px 0; font-size: 10px; color: #fff; line-height: 22px"><b style="font-size: 14px">Atendimento</b><br>
+
+                <a href="http://{{_accountInfo.AccountName}}.com.br/account#/profile" style="color: #fff">Minha conta</a><br>
+                <a href="http://{{_accountInfo.AccountName}}.com.br/account#/orders" style="color: #fff">Meus pedidos</a><br>
+                <a href="https://eb.vagas.com.br/cencosudbrasil" style="color: #fff">Trabalhe conosco</a><br>
+                <a href="http://{{_accountInfo.AccountName}}.com.br/central-de-atendimento/fale-conosco" style="color: #fff">Fale conosco</a>
+            </p>
+        </td>
+    </tr>
+       <tr style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #ed1d25;"
+        valign="middle" align="center" bgcolor="#ed1d25">
+        <td colspan="1" style="background: transparent; border: 0; vertical-align: top; font-size: 100%; font-style: inherit; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; margin: auto; padding: 4%; text-align: left;">
+         <a href="https://www.facebook.com/oficialgbarbosa/" style="vertical-align: middle; margin: 0 6px;"><img src="https://gbarbosa.vteximg.com.br/arquivos/email-transacional-facebook.svg" /></a>
+         <a href="https://www.instagram.com/gbarbosa_oficial/" style="vertical-align: middle; margin: 0 6px;"><img src="https://gbarbosa.vteximg.com.br/arquivos/email-transacional-instagram.svg" /></a>
+         <a href="https://www.youtube.com/user/gbarbosaoficial" style="vertical-align: middle; margin: 0 6px;"><img src="https://gbarbosa.vteximg.com.br/arquivos/email-transacional-youtube.svg" /></a>
+      </td>
+    <td colspan="3" style="background: transparent; border: 0; vertical-align: top; font-size: 100%; font-style: inherit; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; margin: auto; text-align: left; width: 65%;">
+        <p style="font-size: 10px; color: #fff"><b style="font-size: 14px;">SAC</b><br>
+            (71) 9990-16180 | 0800 000 00 000 | delivery@gbarbosa.com.br
+        </p>
+
+    </td>
+</tr>
+</table>
+  {{!-- Footer --}}
+</body>
+</html>

@@ -21,18 +21,95 @@
     "props": {
       "blockClass": "sticky-header-3"
     },
+<<<<<<< HEAD
     "children": ["flex-layout.row#2-desktop", "personal-promotion"]
   },   
+=======
+    "children": ["flex-layout.row#header-top-bar" /*"personal-promotion"*/]
+  },
+>>>>>>> master
 
   "sticky-layout#3-desktop": {
     "props": {
-      "blockClass": "sticky-header-1"  
+      "blockClass": "sticky-header-1"
     },
     "children": ["flex-layout.row#3-desktop"]
   },
-
+  "flex-layout.row#header-top-bar-mobile": {
+    "children": [
+      "rich-text#top-bar-link-1",
+      "rich-text#top-bar-link-2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "header-top-bar",
+      "paddingTop": 4,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#header-top-bar": {
+    "children": [
+      "rich-text#top-bar-link-1",
+      "rich-text#top-bar-link-2",
+      "flex-layout.col#spacer",
+      "responsive-layout.desktop#top-header-images"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "header-top-bar",
+      "paddingTop": 4,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#top-bar-link-1": {
+    "props": {
+      "text": "Eletro",
+      "blockClass": ["top-bar-link", "top-bar-link-1"]
+    }
+  },
+  "rich-text#top-bar-link-2": {
+    "props": {
+      "text": "[Mercado](https://www.delivery.gbarbosa.com.br/?_gl=1*1vpfimy*_ga*YW1wLThXcHV3X2J2dXE4bkVvWEx6UngzU1E)",
+      "blockClass": ["top-bar-link", "top-bar-link-2"]
+    }
+  },
+  "responsive-layout.desktop#top-header-images": {
+    "children": [
+      "flex-layout.row#top-header-images"
+    ]
+  },
+  "flex-layout.row#top-header-images": {
+    "children": [
+      "image#topbar-logo-1",
+      "image#topbar-logo-2"
+    ],
+    "props": {
+      "blockClass": "top-header-images"
+    }
+  },
+  "image#topbar-logo-1": {
+    "props": {
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/perini-logo.svg",
+      "alt": "Perini",
+      "maxHeight": 24,
+      "blockClass": "topbar-logo-1"
+    }
+  },
+  "image#topbar-logo-2": {
+    "props": {
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/mercantil-logo.svg",
+      "alt": "Mercantil",
+      "maxHeight": 24,
+      "blockClass": "topbar-logo-2"
+    }
+  },
   "flex-layout.row#5-desktop": {
+<<<<<<< HEAD
     "title": "Barra de promoção - home",  
+=======
+    "title": "Barra de promoção - home",
+>>>>>>> master
     "children": ["rich-text#5-desktop"],
     "props": {
       "fullWidth": "true",
@@ -202,7 +279,10 @@
     }
   },
   "flex-layout.row#desktop-minicart-links": {
-    "children": ["minicart.v2", "minicart-totalizer"]
+    "children": ["minicart.v2", "minicart-totalizer" /*"add-to-cart-toast"*/],
+    "props": {
+      "preventHorizontalStretch": true
+    }
   },
 
   "rich-text#Tel": {
@@ -218,11 +298,6 @@
     "props": {
       "text": "[Pedidos](/account#/orders)",
       "blockClass": "mi-tienda"
-    }
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "100%"
     }
   },
   "sticky-layout#4-desktop": {
@@ -305,7 +380,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo.png",
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo-2.png",
       "width": "62"
     }
   },
@@ -313,33 +388,65 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
+    "children": ["flex-layout.row#header-top-bar-mobile","flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "flex-layout.col#col-1",
-      "logo#mobile",
-      "rich-text#Tel",
-      "login",
-      "minicart.v2"
+      // "flex-layout.col#spacer",
+      // "rich-text#Tel",
+      "flex-layout.col#user-minicart-mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
     }
   },
   "flex-layout.col#col-1": {
     "children": [
       // "drawer",
-      "mega-menu"
+      "flex-layout.row#drawer-logo-mobile"
     ],
     "props": {
-      "blockClass": ["col", "menu-burguer"]
+      // "blockClass": ["col", "menu-burguer"]
     }
   },
-
+  "flex-layout.col#user-minicart-mobile": {
+    "children": [
+      "flex-layout.row#user-minicart-mobile"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#user-minicart-mobile": {
+    "children": [
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#drawer-logo-mobile": {
+    "children": [
+      "mega-menu",
+      "logo#mobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colGap": 4
+    }
+  },
   "flex-layout.row#2-mobile": {
     "children": [
       "flex-layout.col#col-2"
@@ -391,8 +498,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo.png",
-      "width": "62"
+      "url": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa_logo-2.png",
+      "width": "50",
+      "mobileWidth": "50"
     }
   },
   /*"minicart.v2": {
