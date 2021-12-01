@@ -1062,7 +1062,9 @@
   align-items: center;
   justify-content: flex-start;
 }
-
+.flexCol--shadow-product {
+  background: #fff;
+}
 :global(.vtex-product-identifier-0-x-product-identifier) {
   color: #a5a5a5;
 }
@@ -2689,8 +2691,20 @@
     padding: 0 10px;
   }
 }
-
-.flexRow--menu-link {
+.flexCol--shadow-product {
+  .flexColChild--shadow-product {
+    &:last-child {
+      display: flex;
+      align-items: flex-end;
+    }
+    &:first-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+}  
+.flexRow--menu-link { 
   @media screen and (max-width: em(1279px)) {
     :global(.vtex-store-components-3-x-container) {
       padding-left: 0px;
