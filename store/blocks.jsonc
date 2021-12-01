@@ -51,14 +51,24 @@
       //"product-summary-price",
       // "global-promo#2x",
       // "global-promo#3x",
-      "flex-layout.row#product-price",
+      "flex-layout.col#shadow-product"
+      // "flex-layout.row#product-price",
       //"product-summary-space",
-      "quantity-selector-custom"
+      // "quantity-selector-custom"
 
       //"add-to-cart-button"
     ],
     "props": {
       "blockClass": "normal-shelf"
+    }
+  },
+  "flex-layout.col#shadow-product": {
+    "children": [
+      "flex-layout.row#product-price",
+      "quantity-selector-custom"
+    ],
+    "props": {
+      "blockClass": "shadow-product"
     }
   },
   "flex-layout.row#product-price": {
@@ -67,7 +77,7 @@
   "flex-layout.col#product-price-shelf": {
     "children": [
       "price-custom",
-      // "personal-price",
+      "personal-price",
       "max-installments"
     ],
     "props": {
@@ -104,8 +114,8 @@
     "children": [
       "product-summary-name",
       "product-summary-brand",
-      "price-custom"
-      // "personal-price"
+      "price-custom",
+      "personal-price"
     ],
     "props": {
       "width": "grow",
@@ -127,8 +137,8 @@
     "children": [
       "product-summary-image#shelf-list",
       "vtex.product-highlights@2.x:product-highlights",
-      "flex-layout.row#savings"
-      // "personal-flag"
+      "flex-layout.row#savings",
+      "personal-flag"
     ]
   },
   "product-summary-image#shelf-list": {
@@ -170,8 +180,8 @@
     "children": [
       "product-summary-image#shelf-list-search",
       "vtex.product-highlights@2.x:product-highlights",
-      "flex-layout.row#savings"
-      // "personal-flag"
+      "flex-layout.row#savings",
+      "personal-flag"
     ]
   },
   "product-summary-image#shelf-list-search": {
@@ -190,7 +200,7 @@
       "price-custom",
       // "global-promo#2x",
       // "global-promo#3x",
-      // "personal-price",
+      "personal-price",
       "max-installments",
 
       //"product-summary-space",
@@ -256,12 +266,12 @@
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#savings",
-      "flex-layout.row#add-wishlist"
-      // "personal-flag"
+      "flex-layout.row#add-wishlist",
+      "personal-flag"
     ]
   },
   "flex-layout.row#add-wishlist": {
-    "props": {
+    "props": { 
       "blockClass": "add-wishlist"
     },
     "children": [/* "add-to-wishlist" */]

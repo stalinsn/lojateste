@@ -207,6 +207,16 @@
     }
   }
 }
+.customQuantitySelector {
+  @media screen and (min-width: 768px) {
+    width: 100% 
+  }
+}
+:global(.vtex-numeric-stepper-wrapper) {
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
 :global(.vtex-flex-layout-0-x-flexRow--product-buy-btn) {
   :global(.vtex-button):disabled {
     :global(.vtex-add-to-cart-button-0-x-buttonText) {
@@ -217,7 +227,7 @@
         color: white;
         content: "Indisponível";
       }
-    }
+    } 
   }
 }
 .quantitySelector {

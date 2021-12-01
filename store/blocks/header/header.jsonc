@@ -21,7 +21,7 @@
     "props": {
       "blockClass": "sticky-header-3"
     },
-    "children": ["flex-layout.row#2-desktop" /*"personal-promotion"*/]
+    "children": ["flex-layout.row#2-desktop", "personal-promotion"]
   },   
 
   "sticky-layout#3-desktop": {
@@ -32,7 +32,7 @@
   },
 
   "flex-layout.row#5-desktop": {
-    "title": "Barra de promoção - home", 
+    "title": "Barra de promoção - home",  
     "children": ["rich-text#5-desktop"],
     "props": {
       "fullWidth": "true",
