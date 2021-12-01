@@ -997,7 +997,9 @@
   align-items: center;
   justify-content: flex-start;
 }
-
+.flexCol--shadow-product {
+  background: #fff;
+}
 :global(.vtex-product-identifier-0-x-product-identifier) {
   color: #a5a5a5;
 }
