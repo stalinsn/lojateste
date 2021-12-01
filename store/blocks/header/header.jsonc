@@ -85,17 +85,17 @@
   },
   "image#topbar-logo-1": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/perini-logo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/perini-header.svg",
       "alt": "Perini",
-      "maxHeight": 24,
+      "maxHeight": 12,
       "blockClass": "topbar-logo-1"
     }
   },
   "image#topbar-logo-2": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/mercantil-logo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/mercantil-header.svg",
       "alt": "Mercantil",
-      "maxHeight": 24,
+      "maxHeight": 21,
       "blockClass": "topbar-logo-2"
     }
   },

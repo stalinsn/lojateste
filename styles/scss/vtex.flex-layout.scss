@@ -1042,6 +1042,12 @@
   .flexRow--cart-io {
     padding: 15px 15px 25px 0;
   }
+  .flexRowContent--checkout-mobile-secondRow {
+    justify-content: space-between;
+    .stretchChildrenWidth {
+      padding: 0;
+    }
+  }
 }
 /* cart-io - end */
 /* moda cart  */
