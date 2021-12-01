@@ -21,7 +21,7 @@
     "props": {
       "blockClass": "sticky-header-3"
     },
-    "children": ["flex-layout.row#header-top-bar" /*"personal-promotion"*/]
+    "children": ["flex-layout.row#header-top-bar", "personal-promotion"]
   },
 
   "sticky-layout#3-desktop": {
