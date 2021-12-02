@@ -129,10 +129,11 @@
   .stretchChildrenWidth {
     &:first-child {
       max-width: 192px;
-      width: 100% !important;
+      width: 100% !important; 
     }
     &:last-child {
       width: 100% !important;
+      max-width: none;
     }
   }
 }
