@@ -13,12 +13,12 @@
   }
 }
 
-.paragraph--top-bar-link{
+.paragraph--top-bar-link {
   margin: 0;
+  max-width: 121px;
 }
 
 .container--top-bar-link {
-
   font-weight: 700;
   cursor: pointer;
 
@@ -286,12 +286,32 @@
   color: #fefefe;
   font-weight: 300;
 }
+.strong--footer-inner-text {
+  font-size: 14px;
+}
+.wrapper--store-footer {
+  font-size: 14px;
+}
 .headingLevel3--footer-text-sac {
   font-size: 18px;
   color: #fff;
   margin: 0;
 }
-
+.paragraph--opening-hours-footer {
+  margin-top: 0;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .container--opening-hours-title-footer {
+    display: flex !important;
+    margin-bottom: -17px;
+  }
+  .wrapper--opening-hours-footer {
+    .paragraph {
+      padding-left: 0 !important;
+    }
+  }
+}
 .paragraph--footer-text-sac {
   color: #fff;
   margin: 0;

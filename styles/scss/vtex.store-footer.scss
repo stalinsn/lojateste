@@ -46,22 +46,22 @@
     }
   }
   .socialNetworkLink--twitter {
-    &::after {
+/*     &::after {
       content: "";
       display: block;
       @include twitter_icon(25px);
-    }
+    } */
     margin: 0;
     .socialNetworkImage--twitter {
       display: none;
     }
   }
   .socialNetworkLink--youtube {
-    &::after {
+   /*  &::after {
       content: "";
       display: block;
       @include youtube_icon(30px);
-    }
+    } */
     margin: 0;
     .socialNetworkImage--youtube {
       display: none;

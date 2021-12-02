@@ -111,9 +111,14 @@
     }
   },
   "flex-layout.col#footer-desktop-pre-col": {
-    "children": ["rich-text#store-footer", "rich-text#store-footer-text"],
+    "children": [
+      "rich-text#store-footer",
+      "rich-text#store-footer-text",
+      "rich-text#store-footer-sac",
+      "flex-layout.row#footer-social-links"
+    ],
     "props": {
-      "width": "30%",
+      "width": "29%",
       "preventVerticalStretch": true,
       "blockClass": "footer-precol"
     }
@@ -126,19 +131,32 @@
   },
   "rich-text#store-footer-text": {
     "props": {
-      "text": "Fundado em Sergipe, em 1955, o GBarbosa é uma das principais redes de supermercados do Nordeste. Com mais de 75 lojas em cinco estados (Alagoas, Bahia, Ceará, Pernambuco e Sergipe), farmácias e Eletro \n \n [Clique aqui e saiba mais](/)",
-      "blockClass": "footer-inner-text"
+      "text": "Fundada em julho de 1955, em Sergipe, pelos irmãos Gentil e Noel Barbosa, sua proposta oferecer variedade de produtos a preços baixos e atendimento de qualidade. \n \n [Clique aqui e saiba mais](/)",
+      "blockClass": ["footer-inner-text", "store-footer"]
     }
   },
   "flex-layout.col#footer-desktop-post-col": {
     "children": [
-      "rich-text#store-footer-sac",
-      "flex-layout.row#footer-social-links",
+      "rich-text#opening-hours-title-footer",
+      "rich-text#opening-hours-footer",
       "flex-layout.row#footer-social-bottom"
     ],
     "props": {
       "preventVerticalStretch": true,
-      "paddingLeft": 6
+      "paddingLeft": 6,
+      "width": "16%"
+    }
+  },
+  "rich-text#opening-hours-title-footer": {
+    "props": {
+      "text": "0800 720 1111",
+      "blockClass": ["title-menu-footer", "opening-hours-title-footer"]
+    }
+  },
+  "rich-text#opening-hours-footer": {
+    "props": {
+      "blockClass": ["footer-inner-text", "opening-hours-footer"],
+      "text": "**Horário de atendimento:** \n **Segunda à Sexta:** às 17h45 \n **Sábados:** 8h às 14h"
     }
   },
   "rich-text#store-footer-sac": {
@@ -206,7 +224,8 @@
     "children": ["vtex.menu@2.x:menu#footer-menu2"],
 
     "props": {
-      "blockClass": "footer-col"
+      "blockClass": "footer-col",
+      "width": "13%"
     }
   },
 
