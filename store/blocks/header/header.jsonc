@@ -31,10 +31,7 @@
     "children": ["flex-layout.row#3-desktop"]
   },
   "flex-layout.row#header-top-bar-mobile": {
-    "children": [
-      "rich-text#top-bar-link-1",
-      "rich-text#top-bar-link-2"
-    ],
+    "children": ["rich-text#top-bar-link-1", "rich-text#top-bar-link-2"],
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "header-top-bar",
@@ -70,32 +67,37 @@
     }
   },
   "responsive-layout.desktop#top-header-images": {
-    "children": [
-      "flex-layout.row#top-header-images"
-    ]
+    "children": ["flex-layout.row#top-header-images"]
   },
   "flex-layout.row#top-header-images": {
-    "children": [
-      "image#topbar-logo-1",
-      "image#topbar-logo-2"
-    ],
+    "children": ["image#topbar-logo-1", "image#topbar-logo-2"],
     "props": {
       "blockClass": "top-header-images"
     }
   },
   "image#topbar-logo-1": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/perini-logo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/perini-header.svg",
       "alt": "Perini",
-      "maxHeight": 24,
+      "maxHeight": 12,
+      "link": {
+        "url": "https://www.perini.com.br/",
+        "title": "Perini",
+        "newTab": true
+      },
       "blockClass": "topbar-logo-1"
     }
   },
   "image#topbar-logo-2": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/mercantil-logo.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/mercantil-header.svg",
       "alt": "Mercantil",
-      "maxHeight": 24,
+      "maxHeight": 21,
+      "link": {
+        "url": "https://www.mercantilrodrigues.com.br/",
+        "title": "Mercantil",
+        "newTab": true
+      },
       "blockClass": "topbar-logo-2"
     }
   },
@@ -379,7 +381,11 @@
     "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#header-top-bar-mobile","flex-layout.row#1-mobile", "flex-layout.row#2-mobile"]
+    "children": [
+      "flex-layout.row#header-top-bar-mobile",
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -409,28 +415,20 @@
     }
   },
   "flex-layout.col#user-minicart-mobile": {
-    "children": [
-      "flex-layout.row#user-minicart-mobile"
-    ],
+    "children": ["flex-layout.row#user-minicart-mobile"],
     "props": {
       "verticalAlign": "middle"
     }
   },
   "flex-layout.row#user-minicart-mobile": {
-    "children": [
-      "login",
-      "minicart.v2"
-    ],
+    "children": ["login", "minicart.v2"],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true
     }
   },
   "flex-layout.row#drawer-logo-mobile": {
-    "children": [
-      "mega-menu",
-      "logo#mobile"
-    ],
+    "children": ["mega-menu", "logo#mobile"],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
@@ -439,9 +437,7 @@
     }
   },
   "flex-layout.row#2-mobile": {
-    "children": [
-      "flex-layout.col#col-2"
-    ],
+    "children": ["flex-layout.col#col-2"],
     "props": {
       "blockClass": "main-header-mobile-search-bar"
       //"preventHorizontalStretch": true
@@ -451,7 +447,7 @@
   },
 
   "flex-layout.col#col-2": {
-    "children": ["search-bar"/* , "store-selector" */],
+    "children": ["search-bar" /* , "store-selector" */],
     "props": {
       "blockClass": ["col-search", "search-bar"]
     }

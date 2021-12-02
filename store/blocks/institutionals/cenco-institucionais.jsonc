@@ -118,7 +118,6 @@
       "label": "Entrega de Produtos"
     }
   },
-
   "tab-content#institutional": {
     "children": [
       "tab-content#institutional-atendance2",
