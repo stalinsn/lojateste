@@ -330,6 +330,7 @@
       "menu-item#servicios-2",
       "menu-item#servicios-3",
       "menu-item#servicios-4",
+      "menu-item#servicios-7",
       "menu-item#servicios-5",
       "menu-item#servicios-6"
     ]
@@ -436,6 +437,22 @@
         "noFollow": false,
         "tagTitle": "0800 720 1111",
         "text": "0800 720 1111"
+      }
+    }
+  },
+
+  "menu-item#servicios-7": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://gbarbosa.vteximg.com.br/arquivos/Pol%C3%ADtica%20de%20Trocas%20e%20Devolu%C3%A7%C3%B5es%20E-Commerce_Final.pdf",
+        "noFollow": false,
+        "tagTitle": "Política de troca e devolução",
+        "text": "Política de troca e devolução"
       }
     }
   },
