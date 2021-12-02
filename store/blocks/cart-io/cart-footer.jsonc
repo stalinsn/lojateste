@@ -29,7 +29,7 @@
   },
   "rich-text#cart-io-title": {
     "props": {
-      "text": "2021 G. Barbosa | Todos os direitos reservados.",
+      "text": "2021 GBarbosa | Todos os direitos reservados.",
       "blockClass": "cart-io-title"
     }
   },
