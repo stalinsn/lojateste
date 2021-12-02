@@ -3,7 +3,11 @@
     "parent": {
       "header": "header"
     },
-    "blocks": ["responsive-layout.desktop#contact-us", "responsive-layout.tablet#contact-us", "responsive-layout.phone#contact-us"]
+    "blocks": [
+      "responsive-layout.desktop#contact-us",
+      "responsive-layout.tablet#contact-us",
+      "responsive-layout.phone#contact-us"
+    ]
   },
   "responsive-layout.desktop#contact-us": {
     "children": [
@@ -24,7 +28,10 @@
     ]
   },
   "flex-layout.row#contact-us-container": {
-    "children": ["flex-layout.col#contact-us-links", "flex-layout.col#contact-us-content"],
+    "children": [
+      "flex-layout.col#contact-us-links",
+      "flex-layout.col#contact-us-content"
+    ],
     "props": {
       "blockClass": ["call-center-content"],
       "marginBottom": 10
@@ -48,9 +55,7 @@
     }
   },
   "flex-layout.col#contact-us-content": {
-    "children": [
-      "flex-layout.row#contact-form"
-    ],
+    "children": ["flex-layout.row#contact-form"],
     "props": {
       "width": "80%"
     }
@@ -97,7 +102,7 @@
     }
   },
   "flex-layout.row#contact-us-row3": {
-    "children": ["form-input.text#phone1", "form-input.text#subject1"],
+    "children": ["form-input.text#phone1", "form-input.dropdown#subject1"],
     "props": {
       "colGap": 5,
       "marginBottom": 5
@@ -136,10 +141,11 @@
       "label": "Celular"
     }
   },
-  "form-input.text#subject1": {
+  "form-input.dropdown#subject1": {
     "props": {
       "pointer": "#/properties/subject",
-      "label": "Assunto"
+      "label": "Assunto",
+      "selectObject ": [{ "label": "teste", "value": "teste" }]
     }
   },
   "form-input.textarea#message1": {

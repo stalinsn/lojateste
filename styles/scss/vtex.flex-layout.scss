@@ -154,6 +154,11 @@
 }
 .flexRow--search-title {
   margin-bottom: 42px;
+  .flexRowContent--search-title {
+    .stretchChildrenWidth {
+      max-width: 100%;
+    }
+  }
   @media screen and (max-width: 768px) {
     margin-bottom: 0;
   }
@@ -439,7 +444,6 @@
 
 // FOOTER
 .flexRow--footer-social-bottom {
-  margin-top: 28%;
   .flexRowContent--footer-social-bottom {
     display: flex;
     align-items: center;
@@ -4595,7 +4599,7 @@
 }
 .flexRowContent--menu-row {
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 27px;
 }
 .flexRowContent--footer-2-desktop {
   padding-top: 0;
