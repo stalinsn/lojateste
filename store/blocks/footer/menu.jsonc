@@ -14,7 +14,9 @@
       "menu-item#contactanos-3",
       "menu-item#contactanos-4",
       "menu-item#contactanos-5",
-      "menu-item#contactanos-6"
+      "menu-item#contactanos-6",
+      "menu-item#contactanos-9"
+      
       // "menu-item#contactanos-7",
       // "menu-item#contactanos-8"
     ]
@@ -154,6 +156,21 @@
         "noFollow": false,
         "tagTitle": "Exerça seus Direitos",
         "text": "Exerça seus Direitos"
+      }
+    }
+  },
+  "menu-item#contactanos-9": {
+    "props": {
+      "id": "menu-item-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/arquivos/politica_de_entrega.pdf",
+        "noFollow": false,
+        "tagTitle": "Politica de entrega",
+        "text": "Política de entrega"
       }
     }
   },

@@ -28,7 +28,7 @@
       "flex-layout.row#breadcrumb-custom",
       "flex-layout.row#cartao-cenco-container",
       "flex-layout.row#cartao-cenco-container2",
-      "flex-layout.row#cartao-cenco-container3",
+      // "flex-layout.row#cartao-cenco-container3",
       "flex-layout.row#cartao-cenco-container4"
     ]
   },
@@ -37,7 +37,7 @@
       "flex-layout.row#breadcrumb-custom",
       "flex-layout.row#cartao-cenco-container",
       "flex-layout.row#cartao-cenco-container2",
-      "flex-layout.row#cartao-cenco-container3",
+      // "flex-layout.row#cartao-cenco-container3",
       "flex-layout.row#cartao-cenco-container4"
     ]
   },
@@ -46,7 +46,7 @@
       "flex-layout.row#breadcrumb-custom",
       "flex-layout.row#cartao-cenco-container",
       "flex-layout.row#cartao-cenco-container2",
-      "flex-layout.row#cartao-cenco-container3",
+      // "flex-layout.row#cartao-cenco-container3",
       "flex-layout.row#cartao-cenco-container4"
     ]
   },
@@ -78,7 +78,7 @@
   "flex-layout.col#cartao-cenco-content": {
     "children": [
       "flex-layout.row#cartao-cenco-title",
-      "flex-layout.row#cartao-cenco-section-1",
+      // "flex-layout.row#cartao-cenco-section-1",
       "flex-layout.row#cartao-cenco-section-2"
     ],
     "props": {
@@ -154,7 +154,7 @@
   },
   "rich-text#cartao-cenco-text-2": {
     "props": {
-      "text": "### Vantagens do Cartão Gbarbosa \n\n **Crédito fácil** \nCupom de 1ª Compra – Dá o direito de aproveitar todas as vantagens do Cartão Cencosud logo após a contratação (somente na primeira compra). \n\n **Parcelamento fácil**\n Parcelamento Facilitado em 24x fixas – Exclusivamente para compras com o Cartão Cencosud/GBarbosa \n\n **Seguros com prêmios**\n Seguros e Serviços e ainda pode concorrer a prêmios todo mês. \n\n **Descontos Exclusivos** \n Desconto Exclusivos – Em diversos produtos e seções nas Lojas Gbarbosa.",
+      "text": "### Vantagens do Cartão Gbarbosa \n\n **Desconto de primeira compra** \n Faça seu cartão ganhe desconto na primeira compra em nossas lojas físicas! Basta solicitar seu cupom de 1ª compra na loja. Aproveite!  \n\n **Compre em qualquer lugar** \n Seu Cartão GBarbosa é aceito em milhões de estabelecimentos no Brasil e no exterior. \n\n **Mais prazo de pagamento**\n Até 40 dias para pagar suas compras \n\n **Mais economia**\n Tenha descontos especiais em produtos selecionados nas lojas e no site. Baixe o App GBarbosa e ative descontos exclusivos para os clientes com o Cartão GBarbosa \n\n **Facilidade** \n Acesse todas as informações do seu cartão pelo App GBarbosa. Controle sua fatura, saldo, limite e muito mais \n\n **Parcelamento exclusivo** \n Condições de parcelamentos exclusivas de até 24x fixas.",
       "blockClass": "cencosud-card-benefits"
     }
   },
@@ -311,14 +311,14 @@
   },
   "rich-text#cartao-cenco-content-col1": {
     "props": {
-      "text": "#### Para saber mais informações: [cartaocencosud.com.br](https://cartaocencosud.com.br/) \n\n #### Já e nosso cliente e quer acessar faturas, saldo ou limites? Acesse o app gbarbosa ou [clique aqui](https://wwws.cartaocencosud.com.br/cliente/index.xhtml)",
+      "text": "#### Para saber mais informações: <a class='vtex-rich-text-0-x-wrapper--cencosud-card-section-4 vtex-rich-text-0-x-link--cencosud-card-section-4' href='cartaocencosud.com.br' target='_blank'>cartaocencosud.com.br</a> \n\n #### Já possui o Cartão GBarbosa e quer acessar faturas, saldo ou limites? Acesse o app gbarbosa ou <a class='vtex-rich-text-0-x-wrapper--cencosud-card-section-4 vtex-rich-text-0-x-link--cencosud-card-section-4' href='https://wwws.cartaocencosud.com.br/cliente/index.xhtml' target='_blank'>clique aqui</a>",
       "blockClass": "cencosud-card-section-4"
     }
   },
   "flex-layout.row#cartao-cenco-call-to-actions": {
     "children": [
       // "link#cartao-cenco-call-to-action-1",
-      "link#cartao-cenco-call-to-action-2"
+      // "link#cartao-cenco-call-to-action-2"
     ],
     "props": {
       "colGap": 4,

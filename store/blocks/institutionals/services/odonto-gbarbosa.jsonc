@@ -84,7 +84,7 @@
   "flex-layout.col#gbarbosa-odonto-section-2": {
     "children": [
       "rich-text#gbarbosa-odonto-section-2",
-      "link#gbarbosa-odonto",
+      // "link#gbarbosa-odonto",
       "flex-layout.row#gbarbosa-odonto-brands"
     ],
     "props": {
