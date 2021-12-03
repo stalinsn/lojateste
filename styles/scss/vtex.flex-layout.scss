@@ -2302,7 +2302,15 @@
     }
   }
 }
-
+.flexRowContent--not-found-main {
+  .flexCol--col-not-found {
+    .flexColChild--col-not-found {
+      :global(.vtex-breadcrumb-1-x-link--1) {
+        font-weight: bold;
+      }
+    }
+  }
+}
 .flexCol--mobile-cu-social {
   padding-bottom: 1px;
 }
