@@ -144,7 +144,7 @@
     "props": {
       "preventVerticalStretch": true,
       "paddingLeft": 6,
-      "width": "16%"
+      "width": "18%"
     }
   },
   "rich-text#opening-hours-title-footer": {
@@ -156,7 +156,7 @@
   "rich-text#opening-hours-footer": {
     "props": {
       "blockClass": ["footer-inner-text", "opening-hours-footer"],
-      "text": "**Horário de atendimento:** \n **Segunda à Sexta:** às 17h45 \n **Sábados:** 8h às 14h"
+      "text": "**Horário de atendimento:** \n **Segunda à Sexta:** 8h às 17h45 \n **Sábados:** 8h às 14h"
     }
   },
   "rich-text#store-footer-sac": {
