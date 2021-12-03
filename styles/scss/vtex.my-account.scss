@@ -701,6 +701,82 @@
       }
     }
   }
+  @media (max-width: 768px) {
+    background: #fafafa;
+    > div {
+      display: flex;
+      flex-direction: column;
+      > div {
+        &:nth-child(1) {
+          order: 0;
+        }
+        &:nth-child(2) {
+          order: 2;
+        }
+        &:nth-child(4) {
+          order: 1;
+        }
+        &:nth-child(5) {
+          order: 4;
+        }
+        > section {
+          order: 3;
+        }
+      }
+      > section {
+        order: 3;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  :global(.myo-progress-bar.w-100.h4-plus) {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    :global(.myo-progress-bar__title-font) {
+      justify-content: center;
+      display: flex;
+    }
+    :global(.myo-progress-bar__mobile-text) {
+      order: 1;
+      background: #fff;
+    }
+    > div:last-child {
+      > div {
+        display: flex;
+        flex-direction: column;
+        > div {
+          &:first-child {
+            order: 1;
+            span {
+              color: #898989;
+              font-size: 13px;
+              margin-top: 30px;
+            }
+          }
+          &:last-child {
+            order: 0;
+            :global(.bg-success) {
+              background-color: #2faf00;
+            }
+            :global(.b--success) {
+              border-color: #2faf0081;
+            }
+            :global(.c-success) {
+              color: #2faf00;
+            }
+          }
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          > span {
+            color: #525252;
+          }
+        }
+      }
+    }
+  }
 }
 :global(.vtex-my-account-1-x-boxContainerBody) {
   :global(.vtex-profile-form-3-x-extendedFields),
@@ -762,7 +838,8 @@
 :global(.vtex-profile-form-3-x-styleguideInput) {
   :global(.vtex-input-prefix__group) {
     input[name="birthDate"],
-    input[name="document"] {
+    input[name="document"],
+    input[name="homePhone"]{
       &::placeholder {
         font-size: 0;
       }
