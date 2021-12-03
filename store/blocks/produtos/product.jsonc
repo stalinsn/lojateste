@@ -59,7 +59,7 @@
   "flex-layout.col#product-imagen": {
     "children": [
       "vtex.product-highlights@2.x:product-highlights",
-      // "flex-layout.row#savings",
+      "flex-layout.row#savings",
       "stack-layout"
     ],
 
@@ -91,7 +91,6 @@
 
   "flex-layout.row#savings": {
     "children": ["product-price-savings#savings"],
-
     "props": {
       "blockClass": "savings-porcentaje",
       "preventHorizontalStretch": true
@@ -100,16 +99,13 @@
 
   "product-price-savings#savings": {
     "props": {
-      "markers": ["hignlight"],
-
+      "alwaysShow": true,
       "message": "{savingsPercentage} off"
     }
   },
   "product-price-savings#alt": {
     "props": {
-      "markers": ["hignlight"],
       "blockClass": "alt-marker",
-
       "message": "{savingsPercentage} off"
     }
   },
