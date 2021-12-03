@@ -826,7 +826,8 @@
 :global(.vtex-profile-form-3-x-styleguideInput) {
   :global(.vtex-input-prefix__group) {
     input[name="birthDate"],
-    input[name="document"] {
+    input[name="document"],
+    input[name="homePhone"]{
       &::placeholder {
         font-size: 0;
       }
