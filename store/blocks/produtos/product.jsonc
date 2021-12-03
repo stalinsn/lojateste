@@ -91,7 +91,6 @@
 
   "flex-layout.row#savings": {
     "children": ["product-price-savings#savings"],
-
     "props": {
       "blockClass": "savings-porcentaje",
       "preventHorizontalStretch": true
