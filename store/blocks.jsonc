@@ -51,6 +51,7 @@
       //"product-summary-price",
       // "global-promo#2x",
       // "global-promo#3x",
+      "price-custom",
       "flex-layout.col#shadow-product"
       // "flex-layout.row#product-price",
       //"product-summary-space",
@@ -76,7 +77,6 @@
   },
   "flex-layout.col#product-price-shelf": {
     "children": [
-      "price-custom",
       "personal-price",
       "max-installments"
     ],
