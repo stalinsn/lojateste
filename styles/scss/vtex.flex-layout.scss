@@ -962,6 +962,9 @@
   .stretchChildrenWidth {
     &:last-child {
       width: 23% !important;
+      @media(max-width: 768px) {
+        width: 100% !important;
+      }
     }
   }
   .flexColChild--cart-io-col-container {
