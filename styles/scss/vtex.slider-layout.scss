@@ -16,7 +16,13 @@
 
 .sliderTrackContainer {
   max-width: 1520px;
-  padding: 0 30px;
+  padding: 0 15px;
+}
+.sliderTrackContainer--main-slider-home2 {
+  padding: 0 15px;
+}
+.sliderTrackContainer--carousel {
+  padding: 0;
 }
 .caretIcon--main-slider-home2 {
   padding: 7px;
@@ -83,6 +89,9 @@
     padding: 5px 0;
     .slide--main-slider-home2 {
       padding: 8px;
+      @media screen and (max-width: 768px) {
+        padding: 3px
+      }
     }
   }
 }

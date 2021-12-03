@@ -218,7 +218,7 @@
   overflow: hidden;
   justify-content: flex-start;
   .flexRowContent--menu-link {
-    max-width: 1366px;
+    max-width: 1270px;
     margin: 0 auto;
     justify-content: space-between;
     background-color: #ed1d25;
@@ -1768,7 +1768,7 @@
     color: #525252;
 
     @media screen and (max-width: 767px) {
-      font-size: 16px;
+      font-size: 14px;
       color: #525252;
     }
   }

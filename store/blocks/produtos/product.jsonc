@@ -137,9 +137,11 @@
       "flex-layout.row#upcbox",
       "flex-layout.row#namebox",
       "flex-layout.row#sku",
-      "flex-layout.col#product-price",
+      
       // "global-promo#2x",
       // "global-promo#3x",
+      "flex-layout.col#product-price",  
+      "personal-price",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
       "flex-layout.row#shipping-simulator"
@@ -523,6 +525,7 @@
       "flex-layout.row#sku",
       // "flex-layout.col#product-price",
       "flex-layout.col#product-price-mobile",
+      "personal-price",
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.row#components-qty",
