@@ -305,6 +305,17 @@
   margin-top: 0;
   font-size: 14px;
 }
+.container--unavailable-product {
+  .wrapper--unavailable-product {
+    .paragraph--unavailable-product {
+      margin: 0;
+      font-size: 12px;
+      color: #ed1d25;
+      font-weight: bold;
+      margin-left: -2px;
+    }
+  }
+}
 @media (max-width: 768px) {
   .container--opening-hours-title-footer {
     display: flex !important;

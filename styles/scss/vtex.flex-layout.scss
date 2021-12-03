@@ -129,7 +129,7 @@
   .stretchChildrenWidth {
     &:first-child {
       max-width: 192px;
-      width: 100% !important; 
+      width: 100% !important;
     }
     &:last-child {
       width: 100% !important;
@@ -962,7 +962,7 @@
   .stretchChildrenWidth {
     &:last-child {
       width: 23% !important;
-      @media(max-width: 768px) {
+      @media (max-width: 768px) {
         width: 100% !important;
       }
     }
@@ -2654,6 +2654,18 @@
       background-color: #004d9a;
       border-color: #004d9a;
     }
+    &:disabled {
+      background-color: #dedede;
+      color: #fff;
+      border-color: #dedede;
+      &:hover {
+        background-color: #dedede !important;
+        border-color: #dedede !important;
+      }
+      :global(.vtex-button__label) {
+        margin-top: 3px;
+      }
+    }
   }
 }
 
@@ -2699,7 +2711,7 @@
         }
       }
       :global(.vtex-rich-text-0-x-strong) {
-        margin-left: 10px;  
+        margin-left: 10px;
       }
     }
   }
@@ -2719,8 +2731,8 @@
       justify-content: flex-end;
     }
   }
-}  
-.flexRow--menu-link { 
+}
+.flexRow--menu-link {
   @media screen and (max-width: em(1279px)) {
     :global(.vtex-store-components-3-x-container) {
       padding-left: 0px;

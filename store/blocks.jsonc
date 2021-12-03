@@ -63,10 +63,36 @@
       "blockClass": "normal-shelf"
     }
   },
+  "flex-layout.row#shadow-product-condition": {
+    "children": ["condition-layout.product#shadowProduct"]
+  },
+  "condition-layout.product#shadowProduct": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "rich-text#unavailable-product-2",
+      "Else": "rich-text#unavailable-product"
+    }
+  },
+  "rich-text#unavailable-product-2": {
+    "props": {
+      "text": ""
+    }
+  },
+  "rich-text#unavailable-product": {
+    "props": {
+      "text": "Indisponível",
+      "blockClass": "unavailable-product"
+    }
+  },
   "flex-layout.col#shadow-product": {
     "children": [
       "flex-layout.row#product-price",
-      "quantity-selector-custom"
+      "quantity-selector-custom",
+      "flex-layout.row#shadow-product-condition"
     ],
     "props": {
       "blockClass": "shadow-product"
