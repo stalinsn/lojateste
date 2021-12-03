@@ -57,7 +57,7 @@
   },
   "image#payment-method-title": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/payment-flag.png",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payments-cartao-credito.png",
       "blockClass": "cart-io-security"
     }
   },

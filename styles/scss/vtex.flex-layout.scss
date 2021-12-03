@@ -2638,8 +2638,10 @@
   //border-color: #0069B4;
 
   :global(.vtex-button) {
-    background-color: #ed1d25;
+    color: #ed1d25;
+    background: #fff;
     border-color: #ed1d25;
+    border: 2px solid #ed1d25;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
