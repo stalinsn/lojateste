@@ -989,6 +989,9 @@
 
 .imageElement--cart-io-security {
   max-height: 48px;
+  @media (max-width: 768px) {
+    max-height: 48px !important;
+  }
 }
 :global(.vtex-add-to-cart-button-0-x-buttonText) {
   font-size: 14px;

@@ -204,6 +204,10 @@
     font-size: 24px;
     margin: 0;
   }
+  .link--gbarbosa-odonto-content {
+    color: #fff;
+    font-weight: bold;
+  }
   .paragraph--obs1 {
     font-size: 13px;
     color: #898989;
@@ -300,6 +304,17 @@
 .paragraph--opening-hours-footer {
   margin-top: 0;
   font-size: 14px;
+}
+.container--unavailable-product {
+  .wrapper--unavailable-product {
+    .paragraph--unavailable-product {
+      margin: 0;
+      font-size: 12px;
+      color: #ed1d25;
+      font-weight: bold;
+      margin-left: -2px;
+    }
+  }
 }
 @media (max-width: 768px) {
   .container--opening-hours-title-footer {

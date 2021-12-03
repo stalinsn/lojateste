@@ -129,7 +129,7 @@
   .stretchChildrenWidth {
     &:first-child {
       max-width: 192px;
-      width: 100% !important; 
+      width: 100% !important;
     }
     &:last-child {
       width: 100% !important;
@@ -962,6 +962,9 @@
   .stretchChildrenWidth {
     &:last-child {
       width: 23% !important;
+      @media (max-width: 768px) {
+        width: 100% !important;
+      }
     }
   }
   .flexColChild--cart-io-col-container {
@@ -2638,8 +2641,10 @@
   //border-color: #0069B4;
 
   :global(.vtex-button) {
-    background-color: #ed1d25;
+    color: #ed1d25;
+    background: #fff;
     border-color: #ed1d25;
+    border: 2px solid #ed1d25;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
@@ -2649,9 +2654,20 @@
       background-color: #004d9a;
       border-color: #004d9a;
     }
+    &:disabled {
+      background-color: #dedede;
+      color: #fff;
+      border-color: #dedede;
+      &:hover {
+        background-color: #dedede !important;
+        border-color: #dedede !important;
+      }
+      :global(.vtex-button__label) {
+        margin-top: 3px;
+      }
+    }
   }
 }
-
 .flexRow--banners-row {
   background-color: #fafafa;
 }
@@ -2694,7 +2710,7 @@
         }
       }
       :global(.vtex-rich-text-0-x-strong) {
-        margin-left: 10px;  
+        margin-left: 10px;
       }
     }
   }
@@ -2704,7 +2720,7 @@
 }
 .flexCol--shadow-product {
   .flexColChild--shadow-product {
-    &:last-child {
+    &:nth-child(even) {
       display: flex;
       align-items: flex-end;
     }
@@ -2713,9 +2729,15 @@
       flex-direction: column;
       justify-content: flex-end;
     }
+    &:last-child {
+      display: none;
+      @media (max-width: 768px) {
+        display: flex;
+      }
+    }
   }
-}  
-.flexRow--menu-link { 
+}
+.flexRow--menu-link {
   @media screen and (max-width: em(1279px)) {
     :global(.vtex-store-components-3-x-container) {
       padding-left: 0px;
