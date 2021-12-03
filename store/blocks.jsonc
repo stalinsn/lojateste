@@ -92,7 +92,7 @@
     "children": [
       "flex-layout.row#product-price",
       "quantity-selector-custom",
-      "flex-layout.row#shadow-product-condition"
+      "condition-layout.product#shadowProduct"
     ],
     "props": {
       "blockClass": "shadow-product"

@@ -2668,7 +2668,6 @@
     }
   }
 }
-
 .flexRow--banners-row {
   background-color: #fafafa;
 }
@@ -2721,7 +2720,7 @@
 }
 .flexCol--shadow-product {
   .flexColChild--shadow-product {
-    &:last-child {
+    &:nth-child(even) {
       display: flex;
       align-items: flex-end;
     }
@@ -2729,6 +2728,12 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
+    }
+    &:last-child {
+      display: none;
+      @media (max-width: 768px) {
+        display: flex;
+      }
     }
   }
 }
