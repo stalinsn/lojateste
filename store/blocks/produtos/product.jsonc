@@ -558,7 +558,7 @@
   },
   "payment-method-item#american": {
     "props": {
-      "paymentWith": "American"
+      "paymentWith": "American Express"
     },
     "blocks": ["image#american"]
   },
