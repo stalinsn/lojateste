@@ -816,6 +816,7 @@
   max-width: 100% !important;
   width: 100% !important;
   left: 0 !important;
+  bottom: 0 !important;
   :global(#onetrust-accept-btn-handler),
   :global(#onetrust-pc-btn-handler) {
     background: #f4f4f4 !important;
@@ -823,14 +824,15 @@
     color: #525252 !important;
   }
   :global(.ot-sdk-row) {
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
-    :global(.onetrust-group-container) {
-      width: 70%;
+    :global(#onetrust-group-container) {
+      width: 70% !important;
     }
-    :global(.onetrust-button-group-parent) {
-      width: 35%;
+    :global(#onetrust-button-group-parent) {
+      width: 35% !important;
+      margin-top: 20px;
     }
   }
 }
@@ -839,7 +841,7 @@
   :global(.vtex-input-prefix__group) {
     input[name="birthDate"],
     input[name="document"],
-    input[name="homePhone"]{
+    input[name="homePhone"] {
       &::placeholder {
         font-size: 0;
       }

@@ -338,7 +338,7 @@
   padding-right: 20px;
   max-width: $maxContainerWidth;
   margin: 0 auto;
-  padding: 50px;
+  // padding: 50px;
   padding-top: 0;
   .searchNotFoundWhatToDoDotsContainer {
     text-align: left;
@@ -448,7 +448,8 @@
     }
     .searchNotFoundInfo {
       padding: 0;
-      text-align: center;
+      text-align: left;
+      margin-top: 20px;
     }
   }
   .orderByDropdown {
