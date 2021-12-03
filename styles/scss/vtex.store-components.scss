@@ -201,7 +201,16 @@
     }
   }
 }
-
+.shippingContainer  {
+  :global(.vtex-address-form__postalCode) {
+      :global(.vtex-input__error) {
+        @media screen and (max-width: 768px) {
+            position: absolute;
+            top: 21px;
+        }
+      }
+    }
+}
 .resultsList {
   font-size: 14px;
   margin-left: 5px;
