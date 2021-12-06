@@ -14,8 +14,8 @@
       "menu-item#contactanos-3",
       "menu-item#contactanos-4",
       "menu-item#contactanos-5",
-      "menu-item#contactanos-6",
-      "menu-item#contactanos-9"
+      "menu-item#contactanos-6"
+      // "menu-item#contactanos-9"
       
       // "menu-item#contactanos-7",
       // "menu-item#contactanos-8"
@@ -348,7 +348,8 @@
       "menu-item#servicios-3",
       "menu-item#servicios-4",
       "menu-item#servicios-7",
-      "menu-item#servicios-5"
+      "menu-item#servicios-5",
+      "menu-item#contactanos-9"
       // "menu-item#servicios-6"
     ]
   },

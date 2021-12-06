@@ -38,6 +38,11 @@
       "blockClass": "product-bread"
     }
   },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
 
   "flex-layout.row#product-main": {
     "children": [

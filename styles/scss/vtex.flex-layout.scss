@@ -224,6 +224,10 @@
     background-color: #ed1d25;
   }
 }
+.flexRowContent--deparment-banner-row {
+  display: flex;
+  overflow: auto;
+}
 .flexRowContent--menu-logo {
   align-items: center;
   height: 100%;
@@ -2502,16 +2506,23 @@
     max-width: 1349px;
   }
 }
-
-.flexCol--col-banner {
-  padding-left: 12px;
-  padding-right: 12px;
-
-  @media screen and (max-width: em(1024px)) {
-    padding-left: 0px;
-    padding-right: 0px;
+.flexCol--main-banner-land {
+  &:last-child {
+    margin-right: 10px;
   }
 }
+.flexColChild--col-banner {
+  text-align: center;
+}
+// .flexCol--col-banner {
+//   padding-left: 12px;
+//   padding-right: 12px;
+
+//   @media screen and (max-width: em(1024px)) {
+//     padding-left: 0px;
+//     padding-right: 0px;
+//   }
+// }
 
 .flexCol--first-col-head {
   display: contents;

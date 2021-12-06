@@ -109,13 +109,17 @@
     }
   }
 }
-
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
+  .drawer {
+    top: 72px !important;
+  }
+}
 .drawer {
   position: fixed;
   right: 0;
   background: white;
   height: fit-content;
-  top: 72px;
+  top: 164px !important;
   z-index: 1;
 
   .drawerHeader {

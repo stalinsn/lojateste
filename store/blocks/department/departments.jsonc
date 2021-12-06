@@ -312,7 +312,9 @@
       "image#deparment-banner-3",
       "image#deparment-banner-4"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "deparment-banner-row"
+    }
   },
   "image#deparment-banner-1": {
     "props": {
