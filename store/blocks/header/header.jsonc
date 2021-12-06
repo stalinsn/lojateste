@@ -272,7 +272,11 @@
     }
   },
   "flex-layout.row#desktop-minicart-links": {
-    "children": ["minicart.v2", "minicart-totalizer" /*"add-to-cart-toast"*/],
+    "children": [
+      "minicart.v2",
+      "minicart-totalizer",
+      "minicart-toast"
+    ],
     "props": {
       "preventHorizontalStretch": true
     }

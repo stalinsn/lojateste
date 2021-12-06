@@ -69,9 +69,10 @@
       "isFullModeStyle": true,
       "imageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-fire-gas.jpg",
       "mobileImageUrl": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-fire-gas-mobile.jpg",
-      "headline": "Vale gás",
+      "headline": "### Vale gás",
       "subhead": "Comodidade para você não sair de casa",
       "callToActionMode": "none",
+      "textMode" : "Rich-Text",
       "blockClass": "vale-gas-section-1"
     }
   },
