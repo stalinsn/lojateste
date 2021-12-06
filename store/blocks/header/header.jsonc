@@ -275,7 +275,7 @@
     "children": [
       "minicart.v2",
       "minicart-totalizer",
-      "minicart-toast" /*"add-to-cart-toast"*/
+      "minicart-toast"
     ],
     "props": {
       "preventHorizontalStretch": true
