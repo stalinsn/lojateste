@@ -267,7 +267,7 @@
   },
   "filter-navigator.v3": {
     "props": {
-      "initiallyCollapsed": true
+      "initiallyCollapsed": false
     }
   },
   "search-content": {
