@@ -201,7 +201,16 @@
     }
   }
 }
-
+.shippingContainer  {
+  :global(.vtex-address-form__postalCode) {
+      :global(.vtex-input__error) {
+        @media screen and (max-width: 768px) {
+            position: absolute;
+            top: 21px;
+        }
+      }
+    }
+}
 .resultsList {
   font-size: 14px;
   margin-left: 5px;
@@ -999,6 +1008,9 @@
 }
 .imageElement--cart-io-security {
   max-height: 48px;
+  @media (max-width: 768px) {
+    max-height: 48px !important;
+  }
 }
 :global(.vtex-add-to-cart-button-0-x-buttonText) {
   font-size: 14px;
@@ -1414,11 +1426,15 @@
 }
 
 :global(.vtex-store-components-3-x-logoImage--logo-circle) {
-  border-radius: 0px;
+  border-radius: 50%;
   max-width: 160px;
   margin-top: 32px;
   margin-bottom: 32px;
   height: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 @media screen and (max-width: 64em) {

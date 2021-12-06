@@ -208,7 +208,7 @@
 }
 .customQuantitySelector {
   @media screen and (min-width: 768px) {
-    width: 100% 
+    width: 100%;
   }
 }
 :global(.vtex-numeric-stepper-wrapper) {
@@ -249,7 +249,7 @@
         color: white;
         content: "Indisponível";
       }
-    } 
+    }
   }
 }
 .quantitySelector {
@@ -510,7 +510,8 @@
     font-weight: 600;
     line-height: 8px;
     color: #525252;
-    margin-top: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
   }
 }
 
@@ -614,5 +615,28 @@
 @media screen and (max-width: 768px) {
   .cartDepartmentsProductList {
     padding: 0;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
+  .customQuantitySelector {
+    :global(.vtex-button) {
+      &:disabled {
+        background-color: #dedede;
+        color: #fff;
+        border-color: #dedede;
+        :hover {
+          background-color: #dedede !important;
+          border-color: #dedede !important;
+        }
+        :global(.vtex-button__label) {
+          color: #fff;
+          &::after {
+            content: "";
+            display: none;
+          }
+        }
+      }
+    }
   }
 }

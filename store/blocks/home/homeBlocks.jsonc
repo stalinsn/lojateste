@@ -401,7 +401,8 @@
     "children": ["rich-text#last-car", "menu-item#buy-all"],
     "props": {
       "blockClass": ["last-cart", "title-section"],
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
     }
   },
   "rich-text#last-car": {
@@ -490,7 +491,9 @@
     "children": ["rich-text#the-new", "menu-item#view-all-new"],
     "props": {
       "blockClass": ["the-new", "title-section", "top32"],
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+
     }
   },
   "rich-text#the-new": {
@@ -686,7 +689,9 @@
     ],
     "props": {
       "blockClass": ["featured-product", "title-section"],
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+
     }
   },
   "rich-text#featured-product": {
@@ -846,7 +851,9 @@
     "children": ["rich-text#offers", "menu-item#view-all-offers"],
     "props": {
       "blockClass": ["offers", "title-section"],
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+
     }
   },
   "rich-text#offers": {
@@ -1117,7 +1124,9 @@
     ],
     "props": {
       "blockClass": ["the-best-electronics", "title-section"],
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+
     }
   },
   "rich-text#the-best-electronics": {

@@ -77,9 +77,9 @@
   },
   "image#topbar-logo-1": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/perini-header.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/Perini_Branco.png",
       "alt": "Perini",
-      "maxHeight": 12,
+      "maxHeight": 15,
       "link": {
         "url": "https://www.perini.com.br/",
         "title": "Perini",
@@ -90,7 +90,7 @@
   },
   "image#topbar-logo-2": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/mercantil-header.svg",
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/Mercantil_Atacado_Branco.png",
       "alt": "Mercantil",
       "maxHeight": 21,
       "link": {

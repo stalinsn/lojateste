@@ -9,6 +9,13 @@
         &:nth-child(4n + 1){
             background: #EEEEEE;
         }
+        @media screen and (max-width: 768px) {
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+}
     }
     .specificationValue  {
         display: inline-flex;
@@ -17,6 +24,13 @@
         box-sizing: border-box;
         font-size: 14px;
         border-radius: 4px;
+        @media screen and (max-width: 768px) {
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+        }
 
         &:nth-child(4n + 2) {
             background: #eee;

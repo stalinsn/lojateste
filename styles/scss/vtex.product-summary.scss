@@ -88,9 +88,6 @@
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
   padding: 8px;
   padding-bottom: 16px;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 }
 :global(.vtex-product-summary-2-x-element) {
   :global(.vtex-button__label) {

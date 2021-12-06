@@ -1,7 +1,7 @@
 {
   "vendor": "gbarbosa",
   "name": "gbarbosa-store",
-  "version": "0.6.9",
+  "version": "0.7.7",
   "builders": {
     "docs": "0.x",
     "sitemap": "0.x",
@@ -18,7 +18,7 @@
     "vtex.countdown-ribbon": "1.x",
     "vtex.product-highlights": "2.x",
     "vtex.recommendation-shelf": "0.x",
-    "vtex.condition-layout": "1.x",
+    "vtex.condition-layout": "2.x",
     "gbarbosa.mega-menu": "0.x",
     "vtex.search": "2.x",
     "vtex.iframe": "0.x",
