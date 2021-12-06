@@ -202,7 +202,11 @@
       //"add-to-cart-button"
     ]
   },
-
+  "product-summary-name": {
+    "props": {
+      "tag": "h2"
+    }
+  },
   "global-promo#2x": {
     "props": {
       "qty": "2",
@@ -264,7 +268,7 @@
     ]
   },
   "flex-layout.row#add-wishlist": {
-    "props": { 
+    "props": {
       "blockClass": "add-wishlist"
     },
     "children": [
