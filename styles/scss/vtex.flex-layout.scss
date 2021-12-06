@@ -956,6 +956,9 @@
   max-width: 70%;
   margin-left: 25px;
 }
+.flexCol--checkout-desktop-col-right {
+  max-width: 365px
+}
 .flexRowContent--cart-io {
   justify-content: space-between;
   .stretchChildrenWidth {
@@ -2693,7 +2696,7 @@
         }
       }
       :global(.vtex-rich-text-0-x-strong) {
-        margin-left: 10px;  
+        margin-left: 10px;
       }
     }
   }
@@ -2713,8 +2716,8 @@
       justify-content: flex-end;
     }
   }
-}  
-.flexRow--menu-link { 
+}
+.flexRow--menu-link {
   @media screen and (max-width: em(1279px)) {
     :global(.vtex-store-components-3-x-container) {
       padding-left: 0px;
