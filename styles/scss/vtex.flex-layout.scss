@@ -1659,6 +1659,7 @@
       &:last-child {
         .flexColChild--block-service {
           justify-content: flex-start;
+          min-width: 209px;
         }
       }
       text-align: center;
