@@ -272,7 +272,7 @@
     }
   },
   "flex-layout.row#desktop-minicart-links": {
-    "children": ["minicart.v2", "minicart-totalizer" /*"add-to-cart-toast"*/],
+    "children": ["minicart.v2", "minicart-totalizer", "minicart-toast"],
     "props": {
       "preventHorizontalStretch": true
     }
@@ -421,7 +421,7 @@
     }
   },
   "flex-layout.row#user-minicart-mobile": {
-    "children": ["login", "minicart.v2"],
+    "children": ["login", "minicart.v2", "minicart-toast"],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true
