@@ -85,6 +85,54 @@
     &:hover {
     }
   }
+  .orderPlacedBackLinkMobile {
+    display: none;
+  }
+  @media (max-width: 1024px) {
+    .orderPlacedBackLinkMobile {
+      display: flex;
+      background: #ed1d25;
+      border-radius: 5px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      max-height: 59px;
+      margin: 10px 0;
+    }
+    .oderPlacedBackLinkIcon {
+      margin-top: 7px;
+      margin-left: 10px;
+    }
+    .orderPlacedBackLinkMobile {
+      font-size: 14px;
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .orderPlacedTitleContainer {
+      .orderPlacedTitle {
+        font-size: 20px;
+      }
+      .orderPlacedBackButton {
+        display: none;
+      }
+    }
+    .orderPlacedWrapper {
+      background-color: #fafafa;
+      border: none;
+      padding: 0;
+      .confirmationMessageWrapper {
+        background-color: #fff !important;
+      }
+      .section2 {
+        display: none;
+      }
+      .section1 {
+        width: 100%;
+      }
+    }
+  }
 
   @import "./header", "./sectionPaquete", "./orderSummaryWrapper",
     "./metodosDePago", "./shippingInfo", "./profile";
