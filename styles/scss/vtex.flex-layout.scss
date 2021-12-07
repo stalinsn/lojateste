@@ -844,7 +844,7 @@
 }
 .flexRowContent--checkout-product-container {
   display: grid;
-  grid-template-columns: 0.4fr 1.8fr 0.5fr 0.9fr 0.2fr;
+  grid-template-columns: 0.4fr 1.6fr 0.7fr 0.9fr 0.2fr;
   border: 1px solid #dedede;
   margin: 15px 0px;
   padding: 6px 20px;
@@ -853,8 +853,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}  
+:global(.vtex-personal-price-checkout) {
+   display: none;
 }
-
+:global(.vtex-ispromotion) {
+  :global(.vtex-personal-price-checkout) {
+    display: block;
+    font-size: 7px;
+ }
+ .flexCol--checkout-unit-price {
+      padding: 15px;
+      background: #fafafa;
+      border-radius: 20px;
+ }
+ :global(.vtex-product-list-0-x-currencyContainer) {
+   font-size: 12px !important;
+ }
+ :global(.vtex-product-list-0-x-productPriceCurrency) {
+   &::before {
+     font-size: 12px;
+   }
+ }
+}
+.flexCol--checkout-unit-price {
+  padding: 15px;
+}
 .flexRowContent--checkout-mobile-firstRow {
   .flexCol--checkout-remove-icon {
     justify-content: flex-start;

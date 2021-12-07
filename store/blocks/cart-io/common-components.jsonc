@@ -135,7 +135,7 @@
 
   //Preço unitário
   "flex-layout.col#price-checkout": {
-    "children": ["price"],
+    "children": ["personal-price-checkout", "price"],
     "props": {
       "blockClass": "checkout-unit-price",
       "verticalAlign": "middle"

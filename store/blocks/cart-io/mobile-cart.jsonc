@@ -82,7 +82,7 @@
       "message#checkout-unavailable-message"
     ],
     "props": {
-      "blockClass": "checkout-product-container-mobile"
+      "blockClass": ["checkout-product-container-mobile", "checkout-product-container"]
     }
   },
   "flex-layout.row#main-container-checkout.mobile": {

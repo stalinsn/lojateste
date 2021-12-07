@@ -64,7 +64,7 @@
     "props": {
       "blockClass": "checkout-desktop-col-right"
     }
-  }, 
+  },
 
   "flex-layout.row#desktop-right-container": {
     "children": ["flex-layout.col#desktop-right-content"],
