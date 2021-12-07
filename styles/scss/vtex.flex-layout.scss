@@ -853,28 +853,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}  
+}
 :global(.vtex-personal-price-checkout) {
-   display: none;
+  display: none;
 }
 :global(.vtex-ispromotion) {
   :global(.vtex-personal-price-checkout) {
     display: block;
     font-size: 7px;
- }
- .flexCol--checkout-unit-price {
-      padding: 15px;
-      background: #fafafa;
-      border-radius: 20px;
- }
- :global(.vtex-product-list-0-x-currencyContainer) {
-   font-size: 12px !important;
- }
- :global(.vtex-product-list-0-x-productPriceCurrency) {
-   &::before {
-     font-size: 12px;
-   }
- }
+  }
+  .flexCol--checkout-unit-price {
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 20px;
+  }
+  :global(.vtex-product-list-0-x-currencyContainer) {
+    font-size: 12px !important;
+  }
+  :global(.vtex-product-list-0-x-productPriceCurrency) {
+    &::before {
+      font-size: 12px;
+    }
+  }
 }
 .flexCol--checkout-unit-price {
   padding: 15px;
@@ -956,6 +956,10 @@
       margin: 0;
       padding: 0;
     }
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    padding: 0 5px;
   }
 }
 .flexRowContent--checkout-mobile-firstRow {
@@ -1650,8 +1654,13 @@
       &:first-child {
         width: auto !important;
         text-align: center;
+        width: 80px !important;
       }
-      width: 100% !important;
+      &:last-child {
+        .flexColChild--block-service {
+          justify-content: flex-start;
+        }
+      }
       text-align: center;
     }
   }
@@ -2690,9 +2699,9 @@
 
   :global(.vtex-button) {
     color: #ed1d25;
-    background: #fff;
-    border-color: #ed1d25;
-    border: 2px solid #ed1d25;
+    background: #ffd500;
+    border-color: #ffd500;
+    border: 2px solid #ffd500;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;

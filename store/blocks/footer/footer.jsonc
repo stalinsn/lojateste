@@ -201,7 +201,8 @@
   "image#vtexlogo-footer": {
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/gbarbosa-vtex.svg",
-      "maxHeight": 33
+      "maxHeight": 33,
+      "blockClass": "vtexlogo-footer"
     }
   },
   "image#clearsale-footer": {

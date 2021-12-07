@@ -125,6 +125,7 @@
   @media screen and (max-width: 768px) {
     padding: 0;
     font-size: 18px;
+    margin-top: 15px;
   }
 }
 .gallery--alternative {
@@ -262,8 +263,9 @@
 }
 .filterAccordionBreadcrumbs {
   background: #ed1d25 !important;
-  .filterBreadcrumbsText  {
+  .filterBreadcrumbsText {
     color: #fff !important;
+    font-size: 14px;
   }
 }
 .filter__container--selectedFilters {
@@ -296,14 +298,16 @@
 
 .accordionFilter {
   .filterAccordionBreadcrumbs {
-    :first-child {
-      font-size: 14px;
-      color: #3f3f40;
-    }
-
-    :last-child {
-      font-size: 14px;
-      color: #3f3f40;
+    font-size: 14px;
+    color: #fff;
+  }
+  .filterBreadcrumbsItemName {
+    font-size: 14px;
+    color: #fff;
+  }
+  .filterBreadcrumbsItem  {
+    .caretIcon {
+      margin-left: 10px;
     }
   }
 
@@ -463,7 +467,7 @@
   .filterPopupButton {
     .filterPopupArrowIcon {
       &::before {
-        content: '';
+        content: "";
         background: url("https://gbarbosa.vteximg.com.br/arquivos/icon_filter_mobile.png");
         width: 25px;
         height: 25px;

@@ -994,9 +994,14 @@
   line-height: 19px;
   word-break: break-word;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 768px) {
     line-height: 15px;
-    text-align: center;
+    text-align: start;
+  }
+}
+.list--gbarbosa-odonto-content {
+  .listItem--gbarbosa-odonto-content {
+    text-align: initial;
   }
 }
 .wrapper--services-title {
@@ -3118,7 +3123,7 @@
         color: #fff;
       }
       .italic--order-placed-header-fourth-step {
-        background: #FFD500;
+        background: #ffd500;
         width: 24px;
         height: 24px;
         border-radius: 100%;

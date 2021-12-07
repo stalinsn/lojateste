@@ -574,7 +574,27 @@
     }
   }
 }
-
+:global(.vtex-search-result-3-x-galleryItem--alternative) {
+  :global(.vtex-product-summary-2-x-containerNormal--shelf-list) {
+    .customQuantitySelector {
+      top: 70px;
+      :global(.vtex-button) {
+        &:disabled {
+          visibility: hidden;
+          display: flex;
+          &::after {
+            content: "indisponível";
+            visibility: visible;
+            color: #ed1d25;
+            font-size: 12px;
+            margin-left: -115px;
+            margin-top: -10px;
+          }
+        }
+      }
+    }
+  }
+}
 :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
   .customQuantitySelector {
     width: auto;
