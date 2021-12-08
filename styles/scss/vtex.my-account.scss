@@ -794,9 +794,13 @@
 :global(.vtex-store-components-3-x-listPrice)
   + :global(.vtex-store-components-3-x-sellingPrice) {
   :global(.vtex-store-components-3-x-currencyContainer--summary) {
-    font-size: 14px;
+    font-size: 23px;
     font-weight: bold;
     color: #ed1d25;
+    @media (max-width: 768px) {
+      font-size: 14px;
+
+    }
   }
 }
 /* shelf price color fix - end */
