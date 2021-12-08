@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     padding: 0;
+    flex-direction: column;
 
     &::before {
       content: "";
@@ -57,19 +58,32 @@
   position: fixed;
   z-index: 0;
 }
+.textMenu{
+  margin-top: 15px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 10px;  
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+  }
+ }
 
 .menuDrawerIcon {
-  width: 18px !important;
-  height: 12px;
+  width: 40px!important;
+  height: 25px;
   display: flex;
   position: relative;
-  margin: 6px 20px 6px 6px;
+  margin: 6px;
   cursor: pointer;
+  margin-right: 43px;
+  display: flex;
+  justify-content: center;
 
   .textMenu{
     margin-top: 15px;
-    color: #ffd500;
+    color: #fff;
     font-weight: 700;
+    font-size: 10px;  
   }
   .menuIcon1,
   .menuIcon2,
@@ -113,6 +127,10 @@
       transform: rotate(315deg);
     }
   }
+}
+.menuDrawerContainer {
+  position: relative;
+  left: 6px;
 }
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
   .drawer {
