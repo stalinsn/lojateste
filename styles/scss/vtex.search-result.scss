@@ -70,6 +70,9 @@
     height: auto;
   }
 }
+.container--layout {
+  background: #fafafa;
+}
 .galleryItem--normal {
   :global(.vtex-product-summary-2-x-element) {
     @media screen and (max-width: 768px) {
