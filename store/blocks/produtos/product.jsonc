@@ -70,7 +70,7 @@
 
     "props": {
       "blockClass": "stack",
-      "width": "60%",
+      "width": "59%",
       "rowGap": 0
     }
   },
@@ -141,11 +141,12 @@
       "flex-layout.row#upcbox",
       "flex-layout.row#namebox",
       "flex-layout.row#sku",
-      
+
       // "global-promo#2x",
       // "global-promo#3x",
-      "flex-layout.col#product-price",  
+      "flex-layout.col#product-price",
       "personal-price",
+      "rich-text#spot-price-pdp",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
       "flex-layout.row#shipping-simulator"
@@ -216,6 +217,12 @@
       "marginTop": 5,
       "marginBottom": 4,
       "colGap": 0
+    }
+  },
+  "rich-text#spot-price-pdp": {
+    "props": {
+      "blockClass": "spot-price-pdp",
+      "text": "**5% de desconto**  no pagamento à vista utilizando Boleto ou Pix"
     }
   },
   "flex-layout.row#price-details": {
@@ -530,12 +537,25 @@
       // "flex-layout.col#product-price",
       "flex-layout.col#product-price-mobile",
       "personal-price",
+      "flex-layout.row#spot-price-pdp",
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
       "flex-layout.row#shipping-simulator"
     ]
+  },
+  "flex-layout.row#spot-price-pdp": {
+    "children": ["rich-text#spot-price-pdp-mobile","rich-text#spot-price-pdp"],
+    "props": {
+      "blockClass": "spot-price-pdp-mobile"
+    }
+  },
+  "rich-text#spot-price-pdp-mobile": {
+    "props": {
+      "blockClass": "spot-price-pdp-mobile",
+      "text": ""
+    }
   },
   "flex-layout.col#product-price-mobile": {
     "children": [

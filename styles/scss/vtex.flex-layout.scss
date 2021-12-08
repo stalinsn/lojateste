@@ -1297,9 +1297,9 @@
 
     :global(.vtex-store-components-3-x-sellingPriceContainer) {
       :global(.vtex-store-components-3-x-currencyContainer--summary) {
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 700;
-        color: #525252;
+        color: #ED1D25;
       }
     }
 
@@ -2537,7 +2537,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--pdp-right-col) {
-  padding: 18px;
+  padding: 18px 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--slider-principal) {
@@ -2793,6 +2793,19 @@
       @media (max-width: 768px) {
         display: flex;
       }
+    }
+  }
+}
+.flexRowContent--spot-price-pdp-mobile {
+  border: 1px solid #cacaca;
+  border-radius: 30px;
+  width: 100%;
+  height: 59px;
+  display: flex!important;
+  align-items: center;
+  .stretchChildrenWidth {
+    &:first-child {
+      width: 27% !important;
     }
   }
 }
