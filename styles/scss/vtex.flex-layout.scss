@@ -1,5 +1,13 @@
 @import "./references";
 
+.flexRowContent--menu-logo{
+  .stretchChildrenWidth{
+    &:first-child{
+      margin-right:35px;
+    }
+  }
+}
+
 .flexRowContent--menu-link {
   padding: 0 0.5rem;
 }
