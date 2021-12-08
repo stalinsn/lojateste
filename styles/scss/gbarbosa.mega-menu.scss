@@ -63,14 +63,19 @@
   height: 12px;
   display: flex;
   position: relative;
-  margin: 6px;
+  margin: 6px 20px 6px 6px;
   cursor: pointer;
 
+  .textMenu{
+    margin-top: 15px;
+    color: #ffd500;
+    font-weight: 700;
+  }
   .menuIcon1,
   .menuIcon2,
   .menuIcon3 {
     position: absolute;
-    background: $white;
+    background: #ffd500;
     transition: all 0.3s ease;
   }
 
