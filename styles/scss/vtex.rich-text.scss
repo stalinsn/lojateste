@@ -3061,9 +3061,10 @@
       margin: 0 5px;
       width: 24px;
       height: 24px;
-      border-radius: 100%;
+      border-radius: 50%;
       background-color: #fff;
       justify-content: center;
+      line-height: 24px;
     }
   }
 }
@@ -3143,7 +3144,7 @@
   .paragraph--cart-back-button {
     margin: 0;
     .link--cart-back-button {
-      color: #525252;
+      color: #fff;
       font-size: 14px;
       text-decoration: none;
       font-size: 14px;
