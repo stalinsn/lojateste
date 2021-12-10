@@ -660,3 +660,21 @@
     }
   }
 }
+.paymentBankNumberCodeInput {
+  height: 40px;
+  border: 1px solid #dedede;
+  width: 80%;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 0 30px;
+  pointer-events: none;
+}
+.paymentBankNumberCodeButton {
+  width: 20%;
+  max-height: 40px;
+  margin-top: 20px;
+  background: #ed1d25;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
