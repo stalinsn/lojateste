@@ -141,7 +141,7 @@
     ]
   },
   "flex-layout.col#cartao-cenco-section-2-col-1": {
-    "children": ["rich-text#cartao-cenco-text-2", "rich-text#cartao-cenco-call-to-action"],
+    "children": ["rich-text#cartao-cenco-text-2"/* , "rich-text#cartao-cenco-call-to-action" */],
     "props": {
       "width": "60%"
     }
