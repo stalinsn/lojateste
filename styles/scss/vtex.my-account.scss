@@ -223,8 +223,10 @@
     }
   }
   
-  :global(input[name="document"]){
+  :global(.vtex-profile-form-3-x-personalFields){
+    :global(input[name="document"]){
       background-color: #f4f4f4;
+    }
   }
  
   :global(.vtex-address-form-4-x-input) {
