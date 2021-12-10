@@ -70,7 +70,7 @@
 
     "props": {
       "blockClass": "stack",
-      "width": "59%",
+      "width": "55%",
       "rowGap": 0
     }
   },

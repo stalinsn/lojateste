@@ -1,5 +1,6 @@
 @import "./references";
 
+
 .flexRowContent--menu-link {
   padding: 0 0.5rem;
 }
@@ -2750,9 +2751,6 @@
 
 .flexRow--headertop-end {
   background: #1b1b1b;
-  @media screen and (max-width: 768px) {
-    background: #ed1d25;
-  }
 }
 .flexRowContent--breadcrumb-custom {
   max-width: 1366px;

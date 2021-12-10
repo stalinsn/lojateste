@@ -384,7 +384,8 @@
     "children": [
       "flex-layout.row#header-top-bar-mobile",
       "flex-layout.row#1-mobile",
-      "flex-layout.row#2-mobile"
+      "flex-layout.row#2-mobile",
+      "personal-promotion"
     ]
   },
   "flex-layout.row#1-mobile": {
