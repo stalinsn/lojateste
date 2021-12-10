@@ -2,6 +2,7 @@
 * {
   font-family: "OpenSans", sans-serif;
 }
+
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
   > div {
     &:nth-child(2) {
@@ -221,6 +222,11 @@
       padding-bottom: 0.65rem;
     }
   }
+  
+  :global(input[name="document"]){
+      background-color: #f4f4f4;
+  }
+ 
   :global(.vtex-address-form-4-x-input) {
     border-bottom: solid #b8b5b5 thin;
   }
