@@ -799,7 +799,6 @@
     color: #ed1d25;
     @media (max-width: 768px) {
       font-size: 14px;
-
     }
   }
 }
@@ -866,5 +865,33 @@
 
   option:first-child {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  :global(.vtex-pageHeader__container) {
+    > div {
+      &:last-child {
+        position: relative;
+        :global(.vtex-pageHeader__children) {
+          position: absolute;
+          top: 240px;
+          right: 30%;
+          a {
+            button {
+              white-space: nowrap !important;
+              width: 150px !important;
+              padding: 0 !important;
+              height: 32px !important;
+              font-size: 14px !important;
+              margin: 0 auto !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  :global(.vtex-my-account-1-x-addressList) {
+    margin-bottom: 50px;
   }
 }
