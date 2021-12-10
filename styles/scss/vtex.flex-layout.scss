@@ -3245,9 +3245,9 @@
   margin-bottom: 16px;
 }
 
-@media screen and (max-width: em(1024px)) {
+@media screen and (max-width: 1024px) {
   .flexCol--right-8 {
-    margin-right: 8px;
+    margin-right: 0px;
   }
 }
 
