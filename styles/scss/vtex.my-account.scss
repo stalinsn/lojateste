@@ -10,6 +10,18 @@
     }
   }
 }
+:global(.vtex-login-2-x-oauthAutoRedirect) {
+  font-size: 0;
+  &::before {
+    content: 'Para visualizar seus pedidos, por favor acessar a sua conta antes. Estamos lhe redirecionando, aguarde...';
+    font-size: 16px;
+    padding: .75rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
   :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
     > div {
