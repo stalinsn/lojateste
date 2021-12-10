@@ -145,7 +145,7 @@
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.col#product-price",
-      "personal-price",
+      "personal-price#pdp",
       "rich-text#spot-price-pdp",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
@@ -158,7 +158,11 @@
       "blockClass": "pdp-right-col"
     }
   },
-
+  "personal-price#pdp": {
+    "props": {
+      "isPdp": true
+    }
+  },
   "flex-layout.row#shipping-simulator": {
     "children": ["flex-layout.col#shipping-simulator-content"],
     "props": {
