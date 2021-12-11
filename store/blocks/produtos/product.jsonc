@@ -262,7 +262,7 @@
     }
   },
   "flex-layout.row#buy-button": {
-    "children": ["add-to-cart-button#pdp"],
+    "children": ["buy-now"],
 
     "props": {
       "marginTop": 4,
@@ -276,6 +276,11 @@
       "blockClass": "product-page",
       "isOneClickBuy": true
     }
+  },
+  "buy-now": {
+    "children": [
+      "add-to-cart-button#pdp"
+    ]
   },
   "flex-layout.row#product-tabs": {
     "children": ["tab-layout#desc"],
