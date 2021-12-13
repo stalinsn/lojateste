@@ -431,7 +431,6 @@
         color: #fff;
         height: 40px;
         border-radius: 5px;
-        padding: 0 34px;
       }
     }
   }
@@ -805,8 +804,11 @@
     display: none;
   }
 }
-
-
+:global(.vtex-my-account-1-x-profile){
+  :global(.vtex-my-account-1-x-newsletterBoxContainer){
+    display:none;
+  }
+}
 .documentsSubContainer {
   display: none;
 }
