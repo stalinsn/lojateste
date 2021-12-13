@@ -595,6 +595,46 @@
     }
   }
 }
+:global(.vtex-store-components-3-x-searchBarInnerContainer--opened) {
+  :global(.vtex-search-2-x-biggy-autocomplete) {
+    :global(.vtex-search-2-x-tileList) {
+      :global(.vtex-product-summary-2-x-container) {
+        :global(.vtex-product-summary-2-x-clearLink) {
+          :global(.vtex-product-summary-2-x-element) {
+            :global(.vtex-flex-layout-0-x-flexRow) {
+              .customQuantitySelector {
+                top: 70px;
+                :global(.vtex-button) {
+                  margin-top: -10px;
+
+                  &:disabled {
+                    visibility: hidden;
+                    display: flex;
+                    &::after {
+                      content: "indisponível";
+                      visibility: visible;
+                      color: #ed1d25;
+                      font-size: 12px;
+                      margin-left: -115px;
+                      margin-top: -20px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+:global(.vtex-store-components-3-x-searchBarInnerContainer--opened) {
+  :global(.vtex-search-2-x-biggy-autocomplete) {
+    :global(.vtex-search-2-x-tileList) {
+
+    }
+  }
+}
 :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
   .customQuantitySelector {
     width: auto;
