@@ -62,7 +62,7 @@
   },
   "rich-text#top-bar-link-2": {
     "props": {
-      "text": "[Mercado](https://www.delivery.gbarbosa.com.br/?_gl=1*1vpfimy*_ga*YW1wLThXcHV3X2J2dXE4bkVvWEx6UngzU1E)",
+      "text": "<a class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--top-bar-link vtex-rich-text-0-x-link--top-bar-link-2' href='https://www.delivery.gbarbosa.com.br/?_gl=1*1vpfimy*_ga*YW1wLThXcHV3X2J2dXE4bkVvWEx6UngzU1E' target='_blank'>Mercado</a>",
       "blockClass": ["top-bar-link", "top-bar-link-2"]
     }
   },
