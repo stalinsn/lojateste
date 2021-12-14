@@ -17,7 +17,8 @@
       "menu-item#top-e-shopping-description14",
       "menu-item#top-e-shopping-description15",
       "menu-item#top-e-shopping-description16",
-      "menu-item#top-e-shopping-description17"
+      "menu-item#top-e-shopping-description17",
+      "menu-item#top-e-shopping-description18"
     ],
     "props": {
       "blockClass": "faq"
@@ -263,6 +264,20 @@
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description17"]
   },
+  "menu-item#top-e-shopping-description18": {
+    "props": {
+      "id": "menu-item-many-different-deliverys",
+      "type": "custom",
+      "blockClass": "e-shopping-menu-item-common-questions",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "many different deliverys",
+        "text": "Quais formas de pagamento são aceitas?"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description18"]
+  },
   "vtex.menu@2.x:submenu.accordion#e-shopping-description": {
     "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu1"],
     "props": {
@@ -365,6 +380,12 @@
       "blockClass": "menu-e-shopping-description"
     }
   },
+  "vtex.menu@2.x:submenu.accordion#e-shopping-description18": {
+    "children": ["vtex.menu@2.x:menu#e-shopping-description-submenu18"],
+    "props": {
+      "blockClass": "menu-e-shopping-description"
+    }
+  },
   "vtex.menu@2.x:menu#e-shopping-description-submenu1": {
     "children": ["rich-text#e-shopping-description1"]
   },
@@ -415,6 +436,19 @@
   },
   "vtex.menu@2.x:menu#e-shopping-description-submenu17": {
     "children": ["rich-text#e-shopping-description17"]
+  },
+  "vtex.menu@2.x:menu#e-shopping-description-submenu18": {
+    "children": ["flex-layout.col#payment-e-shopping-description-submenu"]
+  },
+  "flex-layout.col#payment-e-shopping-description-submenu": {
+    "children": [
+      "flex-layout.col#payment-col-text-1",
+      "flex-layout.col#payment-col-text-2",
+      "flex-layout.col#payment-col-text-3"
+    ],
+    "props": {
+      "blockClass": "payment-e-shopping-description-submenu"
+    }
   },
   "rich-text#e-shopping-description1": {
     "props": {

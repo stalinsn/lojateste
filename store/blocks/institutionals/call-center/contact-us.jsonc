@@ -102,7 +102,7 @@
     }
   },
   "flex-layout.row#contact-us-row3": {
-    "children": ["form-input.text#phone1", "form-input.dropdown#subject1"],
+    "children": ["form-input.text#phone1", "form-input.text#subject1"],
     "props": {
       "colGap": 5,
       "marginBottom": 5
@@ -141,7 +141,7 @@
       "label": "Celular"
     }
   },
-  "form-input.dropdown#subject1": {
+  "form-input.text#subject1": {
     "props": {
       "pointer": "#/properties/subject",
       "label": "Assunto",
