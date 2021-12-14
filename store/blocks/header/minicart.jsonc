@@ -29,10 +29,16 @@
     "blocks": ["product-list-content-desktop", "product-list-content-mobile"]
   },
   "product-list-content-desktop": {
-    "children": ["flex-layout.row#minicart-content-container"]
+    "children": ["flex-layout.row#minicart-content-container", "promotion-highlight#minicart"]
   },
+  "promotion-highlight#minicart": {
+    "props": {
+      "isMinicart": true
+    }
+  },
+
   "product-list-content-mobile": {
-    "children": ["flex-layout.row#minicart-content-container"]
+    "children": ["flex-layout.row#minicart-content-container", "promotion-highlight#minicart"]
   },
   "flex-layout.row#minicart-content-container": {
     "children": [
