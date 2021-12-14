@@ -631,7 +631,19 @@
 :global(.vtex-store-components-3-x-searchBarInnerContainer--opened) {
   :global(.vtex-search-2-x-biggy-autocomplete) {
     :global(.vtex-search-2-x-tileList) {
+      overflow-y: auto;
+      &::-webkit-scrollbar-track {
+        background-color: #f4f4f4;
+      }
 
+      &::-webkit-scrollbar {
+        width: 6px;
+        background: #f4f4f4;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #ed1d25;
+      }
     }
   }
 }

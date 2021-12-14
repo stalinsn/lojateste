@@ -49,7 +49,8 @@
 }
 
 .tileListItem {
-  :global(.vtex-product-summary-2-x-element) :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
+  :global(.vtex-product-summary-2-x-element)
+    :global(.vtex-store-components-3-x-price_installmentContainer--summary) {
     text-align: left !important;
     &::after {
       margin-top: 0;
@@ -103,10 +104,10 @@
       box-sizing: content-box;
       margin: 12px 0;
 
-      :global(.vtex-product-summary-2-x-containerNormal){
-        height: auto!important;
+      :global(.vtex-product-summary-2-x-containerNormal) {
+        height: auto !important;
         max-width: inherit !important;
-        border: 1px solid #DEDEDE;
+        border: 1px solid #dedede;
         border-radius: 4px;
         box-shadow: none;
 
@@ -138,17 +139,16 @@
             max-width: 128px;
 
             :global(.vtex-numeric-stepper__input) {
-              min-width: 22px!important;
+              min-width: 22px !important;
             }
           }
-
 
           @media screen and (max-width: 767px) {
             margin-right: 0;
 
             :global(.vtex-numeric-stepper__plus-button),
             :global(.vtex-numeric-stepper__minus-button) {
-              width: 22px!important;
+              width: 22px !important;
             }
           }
         }
@@ -157,7 +157,6 @@
       :global(.vtex-numeric-stepper-wrapper) {
         position: inherit;
       }
-
 
       :global(.vtex-product-summary-2-x-container--compact) {
         max-width: initial !important;
@@ -207,6 +206,7 @@
 
     .itemList--suggestion {
       max-width: 200px;
+      overflow: unset;
     }
 
     .tileListList {
@@ -224,8 +224,8 @@
     @media screen and (max-width: 767px) {
       max-height: 508px;
 
-      :global(.vtex-product-summary-2-x-image){
-        max-width: 54px!important;
+      :global(.vtex-product-summary-2-x-image) {
+        max-width: 54px !important;
       }
     }
   }

@@ -28,32 +28,22 @@
     ]
   },
   "flex-layout.row#call-center-title": {
-    "children": [
-      "rich-text#call-center-title"
-    ],
+    "children": ["rich-text#call-center-title"],
     "props": {
-      "blockClass": [
-        "call-center-title"
-      ]
+      "blockClass": ["call-center-title"]
     }
   },
   "rich-text#call-center-title": {
     "props": {
-      "blockClass": [
-        "call-center-title"
-      ],
+      "blockClass": ["call-center-title"],
       "text": "#### Central de atendimento",
       "textColor": "c-on-action-secondary"
     }
   },
   "flex-layout.row#payment-methods-container-mobile": {
-    "children": [
-      "flex-layout.col#payment-methods-content"
-    ],
+    "children": ["flex-layout.col#payment-methods-content"],
     "props": {
-      "blockClass": [
-        "call-center-content"
-      ],
+      "blockClass": ["call-center-content"],
       "marginBottom": 10
     }
   },
@@ -63,9 +53,7 @@
       "flex-layout.col#payment-methods-content"
     ],
     "props": {
-      "blockClass": [
-        "call-center-content"
-      ],
+      "blockClass": ["call-center-content"],
       "marginBottom": 10
     }
   },
@@ -78,9 +66,7 @@
       "rich-text#call-center-link-5"
     ],
     "props": {
-      "blockClass": [
-        "payment-methods-links"
-      ],
+      "blockClass": ["payment-methods-links"],
       "preventVerticalStretch": true,
       "width": "20%"
     }
@@ -88,7 +74,9 @@
   "flex-layout.col#payment-methods-content": {
     "children": [
       "rich-text#payment-methods-title",
-      "flex-layout.row#payment-methods-content"
+      "flex-layout.col#payment-col-text-1",
+      "flex-layout.col#payment-col-text-2",
+      "flex-layout.col#payment-col-text-3"
     ],
     "props": {
       "width": "80%"
@@ -98,6 +86,80 @@
     "props": {
       "text": "#### Formas de pagamento",
       "blockClass": "payment-methods-title"
+    }
+  },
+  /*   "flex-layout.row#payment-row-text": {
+    "children": [
+    ]
+  }, */
+  "flex-layout.col#payment-col-text-1": {
+    "children": [
+      "rich-text#credit-card-title",
+      "image#credit-card-payment",
+      "rich-text#credit-card"
+    ]
+  },
+  "rich-text#credit-card-title": {
+    "props": {
+      "blockClass": "payment-methods-page",
+      "text": "**- Cartão de crédito**"
+    }
+  },
+  "image#credit-card-payment": {
+    "props": {
+      "src": "https://gbarbosa.vteximg.com.br/arquivos/payments-cartao-credito.png",
+      "maxHeight": 68,
+      "blockClass": "cart-io-security"
+    }
+  },
+  "rich-text#credit-card": {
+    "props": {
+      "blockClass": "payment-methods-page",
+      "text": "Aceitamos pagamento com cartão de crédito das bandeiras Mastercard, Visa, Elo, Diners e American Express. Pague com o Cartão Gbarbosa Cencosud nas bandeiras Mastercard ou Visa e tenha condições especiais de pagamento e descontos exclusivos. \n\n Lembrando que você pode pagar com até dois cartões de crédito, caso seja mais conveniente! \n\n **Prazo para confirmação de pagamento** \n\n Os pagamentos realizados através de cartão de crédito são geralmente aprovados pela instituição financeira no momento da finalização da compra. Porém, em alguns casos, a aprovação pode ocorrer em até 48h. \n\n Caso a compra não seja aprovada pela sua instituição financeira, seu pedido será automaticamente cancelado e não será debitado qualquer valor em seu cartão. \n\n **Parcelamento no cartão de crédito** \n\n As formas de parcelamento em nosso site e App podem variar de acordo com o produto e a bandeira do cartão a ser utilizada. O cartão Gbarbosa Cencosud possui condições exclusivas de parcelamento em determinados produtos. Confira! \n\n **Prazo de estorno de compra no cartão de crédito** \n\n O estorno de compra ocorre conforme o prazo da instituição financeira, podendo ser realizada em até 2 faturas subsequentes do seu cartão. Isso dependerá da data de solicitação do estorno e o fechamento da fatura do seu cartão. \n\n Importante estar ciente que se você devolver determinado produto, a solicitação do reembolso será realizada somente após a confirmação do recebimento e validação do produto de acordo com as políticas e procedimentos de trocas."
+    }
+  },
+  "flex-layout.col#payment-col-text-2": {
+    "children": ["rich-text#pix-title", "image#pix-payment", "rich-text#pix"]
+  },
+  "rich-text#pix-title": {
+    "props": {
+      "blockClass": "payment-methods-page",
+      "text": "**- Pix**"
+    }
+  },
+  "image#pix-payment": {
+    "props": {
+      "src": "https://io.vtex.com.br/checkout-ui/v6.46.4/img/payment-pix-head.svg",
+      "maxHeight": 20,
+      "blockClass": "cart-io-security"
+    }
+  },
+  "rich-text#pix": {
+    "props": {
+      "blockClass": "payment-methods-page",
+      "text": "Você pode pagar via Pix através do QR Code ou pelo próprio código. O pagamento poderá ser confirmado em até 2 horas. Para sua segurança, não será possível alterar a forma de pagamento após o fechamento do pedido."
+    }
+  },
+  "flex-layout.col#payment-col-text-3": {
+    "children": ["rich-text#boleto-title", "image#boleto-payment", "rich-text#boleto"]
+  },
+  "rich-text#boleto-title": {
+    "props": {
+      "blockClass": "payment-methods-page",
+      "text": "**- Boleto**"
+    }
+  },
+  "image#boleto-payment": {
+    "props": {
+      "src": "https://gbarbosa.vtexassets.com/arquivos/barcode.svg",
+      "maxHeight": 68,
+      "blockClass": "cart-io-security"
+    }
+  },
+  "rich-text#boleto": {
+    "props": {
+      "blockClass": "payment-methods-page",
+      "text": "O pagamento do boleto deverá ser feito à vista em parcela única no valor da sua compra. Lembrando que o pagamento pode ser realizado em qualquer banco. O prazo para a aprovação do pedido nos pagamentos em boleto é de até 3 dias úteis."
     }
   },
   "flex-layout.row#payment-methods-content": {
@@ -122,22 +184,14 @@
     }
   },
   "flex-layout.col#card1-payment": {
-    "children": [
-      "rich-text#card1-content",
-      "image#debito",
-      "rich-text#obs-1"
-    ],
+    "children": ["rich-text#card1-content", "image#debito", "rich-text#obs-1"],
     "props": {
       "blockClass": "card-payment",
       "preventVerticalStretch": true
     }
   },
   "flex-layout.col#card2-payment": {
-    "children": [
-      "rich-text#card2-content",
-      "image#credito",
-      "rich-text#obs-2"
-    ],
+    "children": ["rich-text#card2-content", "image#credito", "rich-text#obs-2"],
     "props": {
       "blockClass": "card-payment",
       "preventVerticalStretch": true
