@@ -32,7 +32,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "what is e-shopping",
-        "text": "QUAL É O PRAZO DE ENTREGA?"
+        "text": "Qual é o prazo de entrega?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description"]
@@ -46,7 +46,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "how to buy a product",
-        "text": "QUAL O VALOR DO FRETE"
+        "text": "Qual o valor do frete"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description2"]
@@ -60,7 +60,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "product disponibility",
-        "text": "FECHEI MEU PEDIDO, POSSO ALTERAR ALGUM ITEM?"
+        "text": "Fechei meu pedido, posso alterar algum item?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description3"]
@@ -74,7 +74,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "see products in cart",
-        "text": "A TRANSPORTADORA VEIO ENTREGAR MEU PEDIDO, MAS NÃO HAVIA NINGUÉM PARA RECEBER. E AGORA?"
+        "text": "A transportadora veio entregar meu pedido, mas não havia ninguém para receber. e agora?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description4"]
@@ -88,7 +88,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "how to do the delivery",
-        "text": "POSSO CANCELAR OU DESISTIR DE UM PEDIDO QUE ESTÁ COM A TRANSPORTADORA?"
+        "text": "Posso cancelar ou desistir de um pedido que está com a transportadora?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description5"]
@@ -102,7 +102,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "delivery price shopping",
-        "text": "POSSO CANCELAR OU DESISTIR DE UM PEDIDO?"
+        "text": "Posso cancelar ou desistir de um pedido?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description6"]
@@ -116,7 +116,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "delivery time shopping",
-        "text": "QUAL O PRAZO DE REEMBOLSO DO VALOR PAGO APÓS A DEVOLUÇÃO OU CANCELAMENTO?"
+        "text": "Qual o prazo de reembolso do valor pago após a devolução ou cancelamento?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description7"]
@@ -130,7 +130,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "delivery trackback shopping",
-        "text": "AO RECEBER MEU PEDIDO, IDENTIFIQUEI QUE UM OU MAIS ITENS ESTÃO AVARIADOS, E AGORA?"
+        "text": "Ao receber meu pedido, identifiquei que um ou mais itens estão avariados, e agora?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description8"]
@@ -144,7 +144,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "delivery adress shopping",
-        "text": "POR QUE MEU PEDIDO ATRASOU?"
+        "text": "Por que meu pedido atrasou?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description9"]
@@ -159,7 +159,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "many different deliverys",
-        "text": "COMO ALTERAR O ENDEREÇO DE ENTREGA?"
+        "text": "Como alterar o endereço de entrega?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description10"]
@@ -174,7 +174,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "many different deliverys",
-        "text": "POR QUE MEU PEDIDO FOI CANCELADO?"
+        "text": "Por que meu pedido foi cancelado?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description11"]
@@ -188,7 +188,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "many different deliverys",
-        "text": "COMPREI UM PRODUTO, MAS VEIO FALTANDO UM ITEM. COMO RESOLVER?"
+        "text": "Comprei um produto, mas veio faltando um item. como resolver?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description12"]
@@ -202,7 +202,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "many different deliverys",
-        "text": "MEU PRODUTO VEIO COM DEFEITO E AGORA?"
+        "text": "Meu produto veio com defeito e agora?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description13"]
@@ -216,7 +216,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "many different deliverys",
-        "text": "QUERO DEVOLVER MEU SMATPHONE COMO FAÇO?"
+        "text": "Quero devolver meu smatphone como faço?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description14"]
@@ -230,7 +230,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "many different deliverys",
-        "text": "MEU PRODUTO VEIO DIFERENTE DO QUE COMPREI E AGORA?"
+        "text": "Meu produto veio diferente do que comprei e agora?"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description15"]
@@ -244,7 +244,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "many different deliverys",
-        "text": "OFERTAS APP"
+        "text": "Ofertas app"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description16"]
@@ -258,7 +258,7 @@
         "type": "internal",
         "href": "#",
         "tagTitle": "many different deliverys",
-        "text": "COMO REALIZAR SUA COMPRA"
+        "text": "Como realizar sua compra"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#e-shopping-description17"]
@@ -418,86 +418,103 @@
   },
   "rich-text#e-shopping-description1": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Nosso prazo de entrega é calculado automaticamente com base: na região de destino da mercadoria, no estoque, no tempo de preparação da mercadoria e emissão da nota fiscal/fatura. \n\n Este prazo considera somente dias úteis. Realizamos nossas entregas de segunda a sexta-feira, das 8h às 22h e, de modo excepcional, alguns produtos poderão ser entregues aos sábados, domingos e feriados. A cada modificação no status de entrega do pedido, nosso sistema enviará, automaticamente, um e-mail de alerta para o Cliente. \n\n Vale ressaltar que a contagem do prazo se inicia a partir da confirmação do pagamento, conforme detalhamento a seguir \n\n **Compras com Cartão de Crédito:** o prazo para entrega começa a contar a partir da confirmação do pagamento pela administradora do cartão. Esta confirmação poderá ser realizada em até 2 (dois) dias úteis. Caso seja identificada alguma divergência, nossa Central de Atendimento entrará em contato com o cliente. \n\n **Compras através de Boleto Bancário:** o prazo para entrega começa a contar a partir da confirmação do pagamento pelo banco. Esta confirmação poderá ocorrer em até 3 (três) dias úteis, a partir do pagamento. \n\n **Compras através de PIX:** o prazo para entrega começa a contar a partir da confirmação do pagamento pelo banco. Esta confirmação poderá ocorrer em até 3 (três) dias úteis. \n\n **Compras através de Vale-Compra:** se o valor do vale-compra for igual ao valor da compra realizada, o prazo para entrega é considerado a partir da confirmação do pagamento que ocorre em até 2 (dois) dias úteis; se o valor do vale-compra for menor que o valor da compra realizada,  a diferença somente poderá ser paga por meio de cartão de crédito, neste caso, o prazo de entrega começa a contar a partir da confirmação do pagamento pela administradora do cartão. \n\n **São Responsabilidades do Cliente:** \n -Informar corretamente o endereço onde deverá ser realizada a entrega; \n -Conferir se as dimensões da mercadoria estão de acordo com os limites espaciais doselevadores, portas e corredores do local da entrega, pois nossos entregadores não realizam montagem ou desmontagem do Produto, transporte pela escada e/ou portas e janelas, ou içamento das mercadorias; \n -Estar no local da entrega ou designar uma pessoa maior de 18 anos para recepcionar a mercadoria, mediante apresentação de documento de identificação, e assinar o protocolo de entrega \n\n **É proibido aos nossos Transportadores:** \n -Realizar entrega em local diferente do que consta na nota fiscal; \n -Realizar entrega para pessoa menor de 18 anos ou sem documento de identificação; \n -Ingressar no domicílio onde será entregue a mercadoria; \n -Utilizar meios de entrega tais como: transporte por escadas, janelas ou içamento de mercadorias; \n -Realizar montagem e/ou instalação de produtos; \n -Abrir a embalagem da mercadoria; \n\n Fatores naturais e adversos como chuvas fortes, acidentes ou greves na região onde o produto deveria ser entregue também podem impossibilitar a chegada do transportador. Nesse caso,você será notificado."
     }
   },
   "rich-text#e-shopping-description2": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "O preço do frete cobrado do cliente é calculado com base no peso da mercadoria, dimensões e local onde será realizada a entrega"
     }
   },
   "rich-text#e-shopping-description3": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Após a conclusão do pedido no site não será possível alterar a forma de pagamento e/ou o endereço de entrega, bem como solicitar adiantamento ou prioridade da entrega."
     }
   },
   "rich-text#e-shopping-description4": {
     "props": {
-      "text": "Em caso de ausência do destinatário, a transportadora entrará em contato para reprogramar a entrega com intervalo de até 48h entre uma entrega e outra. Será cobrada uma nova entrega (valor original do frete) após 3 tentativas sem sucesso. \n A entrega só pode ser realizada a uma pessoa maior de 18 anos que apresente o documento de identificação mediante a assinatura do protocolo de entrega. \n A transportadora não está autorizada a coletar produtos de devolução sem a devida autorização para este fim."
+      "blockClass": "e-shopping-description",
+      "text": "Em caso de ausência do destinatário, a transportadora entrará em contato para reprogramar a entrega com intervalo de até 48h entre uma entrega e outra. Será cobrada uma nova entrega (valor original do frete) após 3 tentativas sem sucesso. \n\n A entrega só pode ser realizada a uma pessoa maior de 18 anos que apresente o documento de identificação mediante a assinatura do protocolo de entrega. \n\n A transportadora não está autorizada a coletar produtos de devolução sem a devida autorização para este fim."
     }
   },
   "rich-text#e-shopping-description5": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Em caso de desistência da compra em que o pedido já esteja nas mãos da transportadora, entre em contato com nossa CENTRAL DE ATENDIMENTO informando sua desistência e recuse a entrega do produto. \n Após o retorno da mercadoria ao nosso centro de distribuição, processaremos o envio do vale compra ou o estorno em seu cartão de crédito, conforme sua opção em nossa CENTRAL DE ATENDIMENTO."
     }
   },
   "rich-text#e-shopping-description6": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "O artigo 49 do Código de Defesa do Consumidor prevê um direito de arrependimento de compra realizada fora do estabelecimento comercial (online) em até 7 dias corridos do recebimento do produto. Caso o cliente se arrependa da compra, deve entrar em contato com nossa CENTRAL DE ATENDIMENTO, solicitar o cancelamento do seu pedido e agendar a retirada. \n\n **FIQUE ATENTO:** \n - A troca ou devolução só será realizada se estiver tudo certo, como: o produto na embalagem original com manual e todos os acessórios. \n - Não podem haver sinais de mau uso, como riscos e marcas de tombos. \n - Se você não tiver a embalagem original, pode utilizar outra, desde que seja devidamente lacrada para que não ocorra avarias. Indicamos o plástico bolha lacrado com fita. \n\n Ah, e os produtos das categorias de eletrônicos, informática e telefonia, devem estar com a etiqueta interna (lacre de garantia) original do fabricante intacta."
     }
   },
   "rich-text#e-shopping-description7": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Se você decidir cancelar sua compra, a devolução do valor ocorrerá na mesma forma de pagamento escolhida no momento da compra. As regras são: \n **Pagamento com PIX:** \n **Boleto bancário:** \n A restituição ocorrerá dentro de 3 (três) dias úteis na sua conta bancária. Importante: não realizamos a restituição em conta salário e é necessário que a conta informada esteja no nome do titular da compra. \n **Cartão de crédito:** \n Assim que o cancelamento for finalizado, vamos comunicar a administradorado cartão e o estorno ocorrerá na fatura atual ou na seguinte. Importante: o prazo de ressarcimento depende da data de fechamento da sua fatura e a responsabilidade é da administradora do cartão."
     }
   },
   "rich-text#e-shopping-description8": {
     "props": {
-      "text": "Ao receber seu pedido, caso constate que um ou mais itens de seu pedido estão violados ou avariados (vazamento, embalagem cortada e ou avariada, recuse e não aceite a encomenda. Faça uma anotação atrás da nota fiscal ou do comprovante de entrega explicando o que notou de estranho. \n Entre imediatamente em contato com nossa CENTRAL DE ATENDIMENTO. Iremos abrir um protocolo de atendimento e providenciar imediatamente substituição do produto ( caso detecte avaria após o recebimento) ou devolução do mesmo. \n Note que no momento da abertura do protocolo, nossa Central de Atendimento solicitará imagens do produto, para investigação interna. \n Para completar a devolução: \n - É necessário que o produto esteja na embalagem original com o manual e todos os acessórios que vieram no produto. \n - Não pode haver sinais de mau uso, como aqueles riscos e marcas de tombos. \n - Se você não tiver a embalagem original, pode utilizar outra, desde que seja devidamente lacrada para que não ocorra avarias \n\n OBS: Indicamos o plástico bolha lacrado com fita. \n\n - Os produtos das categorias de eletrônicos, informática e telefonia, devem estar com a etiqueta interna (lacre de garantia) original do fabricante intacta."
+      "blockClass": "e-shopping-description",
+      "text": "Ao receber seu pedido, caso constate que um ou mais itens de seu pedido estão violados ou avariados (vazamento, embalagem cortada e ou avariada, recuse e não aceite a encomenda. Faça uma anotação atrás da nota fiscal ou do comprovante de entrega explicando o que notou de estranho. \n\n Entre imediatamente em contato com nossa CENTRAL DE ATENDIMENTO. Iremos abrir um protocolo de atendimento e providenciar imediatamente substituição do produto ( caso detecte avaria após o recebimento) ou devolução do mesmo. \n Note que no momento da abertura do protocolo, nossa Central de Atendimento solicitará imagens do produto, para investigação interna. \n Para completar a devolução: \n - É necessário que o produto esteja na embalagem original com o manual e todos os acessórios que vieram no produto. \n - Não pode haver sinais de mau uso, como aqueles riscos e marcas de tombos. \n - Se você não tiver a embalagem original, pode utilizar outra, desde que seja devidamente lacrada para que não ocorra avarias \n\n OBS: Indicamos o plástico bolha lacrado com fita. \n\n - Os produtos das categorias de eletrônicos, informática e telefonia, devem estar com a etiqueta interna (lacre de garantia) original do fabricante intacta."
     }
   },
   "rich-text#e-shopping-description9": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Se houver tentativa de entrega sem sucesso, o pedido retornará ao centro de distribuição. Para que seja realizada uma nova tentativa é preciso confirmar o endereço. O prazo para reenvio do pedido será o mesmo informado no ato do fechamento da compra e conta a partir da confirmação do endereço de entrega."
     }
   },
   "rich-text#e-shopping-description10": {
     "props": {
-      "text": "Após a conclusão da compra, não é possível alterar o endereço de entrega. Caso tenha fornecido o endereço errado, entre em contato com a CENTRAL DE ATENDIMENTO e solicite o cancelamento da compra.\n **IMPORTANTE:** em hipótese alguma, por motivos de segurança, nossos consultores alteram o endereço de entrega ou qualquer dado cadastral do cliente. \n **IMPORTANTE:** será possível, somente, acrescentar informações complementares como bloco, andar, ponto de referência. Não é permitido alterar o nome da rua ou número do prédio/casa, por exemplo."
+      "blockClass": "e-shopping-description",
+      "text": "Após a conclusão da compra, não é possível alterar o endereço de entrega. Caso tenha fornecido o endereço errado, entre em contato com a CENTRAL DE ATENDIMENTO e solicite o cancelamento da compra.\n\n **IMPORTANTE:** em hipótese alguma, por motivos de segurança, nossos consultores alteram o endereço de entrega ou qualquer dado cadastral do cliente. \n **IMPORTANTE:** será possível, somente, acrescentar informações complementares como bloco, andar, ponto de referência. Não é permitido alterar o nome da rua ou número do prédio/casa, por exemplo."
     }
   },
   "rich-text#e-shopping-description11": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Algumas razões podem levar ao cancelamento de seu pedido. O débito em seu cartão de crédito pode não ter sido autorizado pela administradora do cartão. O pedido pode ter apresentado alguma ausência de dados que nos permitem finalizar o processo de compra. Não havia um responsável para recebimento da mercadoria no local. Em todos os casos acima, no momento da ocorrência você será notificado, porém, caso não tenhamos sucesso no contato, o pedido é cancelado."
     }
   },
   "rich-text#e-shopping-description12": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Se você recebeu seu produto faltando peça, acessório ou alguma peça avariada podemos verificar com o fabricante a possibilidade do envio somente da peça. \n\n É só entrar em contato com a nossa CENTRAL DE ATENDIMENTO e verificaremos a possibilidade com o fornecedor. \n\n Se a peça/acessório estiver disponível, será enviada para o seu endereço no prazo de 30 dias corridos a partir do momento da solicitação. \n\n Você pode optar pela peça ou fazer a troca total do produto. \n\n O prazo de troca é de 7 dias corridos após a entrega. Mas, olha só, é necessário que: \n\n - O produto esteja na embalagem original com o manual e todos os acessórios que vieram no produto. \n - Não pode haver sinais de mau uso, como riscos e marcas de tombos.\n - Se você não tiver a embalagem original, pode utilizar outra, desde que seja devidamente lacrada para que não ocorra avarias. Indicamos o plástico bolha lacrado com fita. \n OBS: Os produtos das categorias de eletrônicos, informática e telefonia, devem estar com a etiqueta interna (lacre de garantia) original do fabricante intacta. \n\n Se desejar a troca, entre em contato com a CENTRAL DE ATENDIMENTO e faça sua solicitação. Informe o nome da peça faltante ou o nome da peça avariada."
     }
   },
   "rich-text#e-shopping-description13": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Você tem 7 (sete) dias corridos, para solicitar a troca ou devolução. \n\n Entre imediatamente em contato com nossa CENTRAL DE ATENDIMENTO. Iremos abrir um protocolo de atendimento e providenciar imediatamente a retirada do produto. \n\n ***FIQUE ATENTO: a troca ou devolução do seu produto só será realizada se estiver tudo certo, como:*** \n -O produto na embalagem original com o manual e todos os acessórios; \n - Sem sinais de mau uso (riscos e marcas de tombos).      \n\n Se você não tiver a embalagem original, pode utilizar outra, desde que seja devidamente lacrada para que não ocorram avarias. Indicamos o plástico bolha lacrado com fita \n\n Produtos das categorias de eletrônicos, informática e telefonia, devem estar com a etiqueta interna (lacre de garantia) original do fabricante intacta."
     }
   },
   "rich-text#e-shopping-description14": {
     "props": {
-      "text": "Se você precisa solicitar a devolução do aparelho que comprou, é importante desconectar sua conta pessoal nas configurações, antes de devolver o celular pra gente. Assim, você garante asegurança dos seus dados pessoais. \n\n O processo pode variar de acordo com o sistema operacional do aparelho \n **Nos aparelhos com o sistema operacional Android:** \n 1 No aparelho, ache o aplicativo de “Configurações”; \n 2 Depois, vá em “Contas” ou “Contas e Backup”; \n 3 Nos aparelhos da **Motorola**, clique no seu e-mail, insira o PIN de desbloqueio da tela e em “Remover conta”. Já nos aparelhos **Samsung**, clique em “Gerenciar conta”, depois no seu e-mail e em “Remover conta”. \n\n Para os aparelhos **Motorola**, também é importante remover o PIN de segurança. Para isso, faça o seguinte: \n\n 1 Vá em “Configurações”; \n 2 Depois em  “Bloqueio de tela” e digite o PIN atual; \n 3 Confirme em “Sim, remover”; \n 4 Agora, é só selecionar a opção “Nenhum” e pronto! \n\n **No iPhone:** \n 1 No aparelho, ache o aplicativo de “Ajustes”; \n 2 Depois, clique no seu nome e em “Finalizar Sessão” \n 3 Agora, digite a senha da sua conta e clique em “Desativa \n 4 No próximo passo clique em “Finalizar Sessão” e confirme. Prontinho! \n\n Não se preocupe, nenhum destes processos compromete seus dados, ele apenas desconectar sua conta do Google ou iCloud, que está vinculada ao aparelho. \n\n **Por último, apague todos os seus dados do aparelho, deixando com a configuração de fábrica, assim você não corre o risco de expor fotos, vídeos e seus contatos, por exemplo.**"
+      "blockClass": "e-shopping-description",
+      "text": "Se você precisa solicitar a devolução do aparelho que comprou, é importante desconectar sua conta pessoal nas configurações, antes de devolver o celular pra gente. Assim, você garante asegurança dos seus dados pessoais. \n\n O processo pode variar de acordo com o sistema operacional do aparelho \n\n **Nos aparelhos com o sistema operacional Android:** \n 1 No aparelho, ache o aplicativo de “Configurações”; \n 2 Depois, vá em “Contas” ou “Contas e Backup”; \n 3 Nos aparelhos da **Motorola**, clique no seu e-mail, insira o PIN de desbloqueio da tela e em “Remover conta”. Já nos aparelhos **Samsung**, clique em “Gerenciar conta”, depois no seu e-mail e em “Remover conta”. \n\n Para os aparelhos **Motorola**, também é importante remover o PIN de segurança. Para isso, faça o seguinte: \n\n 1 Vá em “Configurações”; \n 2 Depois em  “Bloqueio de tela” e digite o PIN atual; \n 3 Confirme em “Sim, remover”; \n 4 Agora, é só selecionar a opção “Nenhum” e pronto! \n\n **No iPhone:** \n 1 No aparelho, ache o aplicativo de “Ajustes”; \n 2 Depois, clique no seu nome e em “Finalizar Sessão” \n 3 Agora, digite a senha da sua conta e clique em “Desativa \n 4 No próximo passo clique em “Finalizar Sessão” e confirme. Prontinho! \n\n Não se preocupe, nenhum destes processos compromete seus dados, ele apenas desconectar sua conta do Google ou iCloud, que está vinculada ao aparelho. \n\n **Por último, apague todos os seus dados do aparelho, deixando com a configuração de fábrica, assim você não corre o risco de expor fotos, vídeos e seus contatos, por exemplo.**"
     }
   },
   "rich-text#e-shopping-description15": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Se você perceber isso na **hora da entrega:** \n\n - Recuse o recebimento e faça uma anotação atrás da nota fiscal ou do comprovante de entrega explicando o problema. \n\n Notando a diferença **depois do recebimento**, você tem 7 dias corridos após a entrega para solicitar a troca. \n\n Entre em contato com nossa CENTRAL DE ATENDIMENTO. Iremos abrir um protocolo de atendimento e providenciar a troca do produto. \n\n Prazo de envio do novo produto \n\n Se você solicitou a troca pelo mesmo produto, o envio do novo item é o último passo da troca. \n\n Assim que o produto é devolvido ao nosso estoque, passará por uma análise de 3 dias úteis e a nova venda será gerada no sistema. \n\n Você vai receber e-mails com o passo a passo da sua troca \n\n Agora, se você solicitou a troca por um produto diferente do que comprou, o produto será coletado/devolvido ao nosso estoque, passará por uma análise de 3 dias úteis e após a análise, o vale compra será disponibilizado."
     }
   },
   "rich-text#e-shopping-description16": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "As ofertas do App também poderão ser aplicadas nas compras em nosso site. \n\n Para isso, basta você ativá-las em seu App e quando emitirmos o cupom fiscal da sua compra on-line, ou seja, provavelmente na data da sua entrega programada, concederemos os descontos e preços das ofertas vigentes e ativadas na data da compra. Estes descontos aparecerão diretamente no Cupom Fiscal. \n\n Atenção: os CPFs utilizados para compra no Site e no App deverão ser os mesmos"
     }
   },
   "rich-text#e-shopping-description17": {
     "props": {
+      "blockClass": "e-shopping-description",
       "text": "Clique no botão **“Crie sua conta”**, forneça seus dados e informe um e-mail e uma senha de acesso.\n 02. Acesse sua conta digitando seu e-mail e senha na parte superior do site. \n 03. Para inciar uma compra, escolha uma categoria de produtos no menu superior. \n 04. Categorize os produtos, exibindo-os por preço (maior ou menor) ou em ordem alfabética. \n 05. Para localizar rapidamente o que você precisa, digite o nome ou o tipo de produto no campo de “Busca” na barra superior . \n 06. Escolha o produto, defina a quantidade e clique em “Comprar”. \n 07. Altere a quantidade do produto dentro do carrinho (Minhas Compras), para isso basta clicar nos botões + e - ao lado da quantidade do produto. Para excluir o produto do carrinho (Minhas Compras) basta reduzir sua quantidade a 0. \n 08. Clique no link “Minhas compras” para conferir os produtos que escolheu, o preço de cada um e o valor total de sua compra. \n 09. Ciente dos valores e produtos escolhidos, clique em “Finalizar compra”. \n 10. Confera toda a sua compra, podendo adicionar ou remover algum produto. Em seguida, \n clique em “Continuar”. \n 11. Selecione o endereço de entrega dos produtos e o tipo de entrega, informações \n necessárias para a definição do valor do frete. Em seguida, clique em “Continuar”.  \n 12. Escolha a forma de pagamento e clique em “Continuar”. \n 13. Confira, enfim, todos os detalhes de sua compra: valor, tipo de entrega, endereço de entrega, frete e forma de pagamento. É possível ainda adicionar mais produtos ao seu carrinho, se desejar. Para confirmação final, clique em “Concluir compra”. \n\n **Pronto. Em breve, os produtos serão entregues com segurança e qualidade em seu endereço. **"
     }
   }
