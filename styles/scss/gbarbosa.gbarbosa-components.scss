@@ -115,7 +115,6 @@
             font-size: 13px;
             width: 50px !important;
             color: #525252;
-            padding: 0 15px;
           }
 
           :global(.vtex-numeric-stepper__plus-button-container) {
@@ -527,8 +526,11 @@
     background: #5C5C5C;
     color: #ffd500 !important;
     margin: 0 !important;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0 20px;
+    @media screen and (max-width: 768px) {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
   }
 }
 
