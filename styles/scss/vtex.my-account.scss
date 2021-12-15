@@ -11,6 +11,25 @@
     }
   }
 }
+:global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
+  font-size: 14px;
+  color: #ED1D25;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+  border-bottom: 0;
+  &::before {
+    content: url(/arquivos/alert-circle-fill.png);
+    display: block; 
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+  }
+  + :global(.vtex-flex-layout-0-x-flexRow--minicart-container-content) {
+    opacity: 0.5;
+  }
+}
 :global(.vtex-login-2-x-oauthAutoRedirect) {
   font-size: 0;
   &::before {
