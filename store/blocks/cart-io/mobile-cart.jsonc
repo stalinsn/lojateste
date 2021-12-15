@@ -79,6 +79,7 @@
   "flex-layout.col#container-checkout.mobile": {
     "children": [
       "flex-layout.row#main-container-checkout.mobile",
+      "promotion-highlight#minicart",
       "message#checkout-unavailable-message"
     ],
     "props": {
