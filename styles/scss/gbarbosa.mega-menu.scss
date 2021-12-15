@@ -366,3 +366,8 @@
 .hidden {
   display: none;
 }
+.subCategorymenu {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 300px;
+}
