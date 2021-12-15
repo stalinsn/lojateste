@@ -103,7 +103,7 @@
   },
   "rich-text#minicart-alert": {
     "props": {
-      "text": "*Os custos de transporte serão calculados ao selecionar o método de envio.",
+      "text": "&lowast; Os custos de transporte serão calculados ao selecionar o método de envio.",
       "blockClass": "minicart-alert"
     }
   },
