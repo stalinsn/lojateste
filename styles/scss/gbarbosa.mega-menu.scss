@@ -370,4 +370,7 @@
   display: flex;
   flex-flow: column wrap;
   max-height: 300px;
+  @media (max-width: 1024px) {
+    flex-flow: column;
+  }
 }
