@@ -115,6 +115,7 @@
             font-size: 13px;
             width: 50px !important;
             color: #525252;
+            padding: 0 15px;
           }
 
           :global(.vtex-numeric-stepper__plus-button-container) {
@@ -512,7 +513,22 @@
     color: #525252;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding: 0 5px;
+    padding: 0 15px;  
+  }
+}
+
+:global(.vtex-ispromotion) {
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
+    &:nth-child(even) {
+      background: #5C5C5C;
+    }
+  }
+  .installments_value {
+    background: #5C5C5C;
+    color: #ffd500 !important;
+    margin: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
@@ -593,6 +609,7 @@
           }
         }
       }
+
     }
   }
 }
@@ -715,7 +732,7 @@
 }
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
   .crmPrice {
-    background: #333;
+    background: #5C5C5C;
     margin: 0!important;
     padding-top: 15px !important;
     border-radius: 30px 30px 0 0;
@@ -724,12 +741,11 @@
       padding-top: 5px !important;
     }
   }
-  .installments_value {
-    background: #333333;
-    margin: 0 !important;
-    color: #FFD500 !important;
-    padding: 8px 20px;
-    padding-top: 0;
+
+  @media screen and (min-width: 768px) {
+    .crmInstallmentsPdp {
+      display: none;
+    }
   }
   .crmTitle {
     margin-left: 15px !important;
@@ -738,7 +754,10 @@
     padding: 0 15px
   }
   .customQuantitySelector {
-    padding: 0 13px;
+    @media screen and (min-width: 768px) {
+
+      padding: 0 13px;
+    }
   }
   .crmBy {
     padding: 0 15px;
@@ -746,12 +765,14 @@
   .crmInstallmentsPdp {
     padding: 0 15px;
     font-size: 8px;
+    padding-bottom: 3px;
   }
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
     &:nth-child(even) {
-      background: #333333;
+      // background: #333333;
     }
   }
+  
 }
 .paymentBankNumberCodeContainer {
   flex-flow: row wrap;

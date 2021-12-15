@@ -1826,6 +1826,7 @@
 :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
   width: 100%;
   padding: 0;
+  margin: 0 10px;
 }
 
 :global(.vtex-shelf-1-x-dot--isActive) {
@@ -2788,7 +2789,10 @@
   .flexColChild--shadow-product {
     &:nth-child(even) {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
+      @media screen and (max-width: 768px) {
+        height: auto !important;
+      }
     }
     &:first-child {
       display: flex;
@@ -2802,6 +2806,8 @@
       display: none;
       @media (max-width: 768px) {
         display: flex;
+        background: #5C5C5C;
+        height: auto !important;
       }
     }
   }

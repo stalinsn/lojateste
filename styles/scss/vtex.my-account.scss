@@ -11,6 +11,28 @@
     }
   }
 }
+:global(.vtex-minicart-2-x-minicartProductListContainer) {
+  > div {
+    display: flex;
+    flex-direction: column;
+    :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
+      order: 3;
+    }
+    
+    :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) ~ :global(.vtex-flex-layout-0-x-flexRow--minicart-container-content) {
+      order: 4;
+      opacity: 0.5;
+    }
+    
+    :global(.vtex-product-list-0-x-productListAvailableItemsMessage) {
+      order: 1;
+    }
+    :global(.vtex-product-list-0-x-productListAvailableItemsMessage) ~ :global(.vtex-flex-layout-0-x-flexRow--minicart-container-content)  {
+    order: 2;
+    }
+  }
+}
+
 :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
   font-size: 14px;
   color: #ED1D25;
