@@ -88,8 +88,11 @@
   }
 }
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
-  padding: 8px;
-  padding-bottom: 16px;
+  // padding: 8px;
+  // padding-bottom: 16px;
+  @media screen and (max-width: 768px) {
+    // padding-top: 5px;
+  }
 }
 :global(.vtex-product-summary-2-x-element) {
   :global(.vtex-button__label) {
@@ -314,7 +317,8 @@
   :global(.vtex-store-components-3-x-priceContainer) {
     text-align: left;
     width: 100%;
-    padding: 0 8px;
+    padding: 0 5px;
+    background: #fff;
 
     @media screen and (max-width: 767px) {
       margin: 0;

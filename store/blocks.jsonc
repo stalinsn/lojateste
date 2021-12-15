@@ -51,7 +51,7 @@
       //"product-summary-price",
       // "global-promo#2x",
       // "global-promo#3x",
-      "price-custom",
+      // "price-custom",
       "flex-layout.col#shadow-product"
       // "flex-layout.row#product-price",
       //"product-summary-space",
@@ -103,7 +103,7 @@
   },
   "flex-layout.col#product-price-shelf": {
     "children": [
-      "personal-price",
+      "personal-price#shelf-price",
       "max-installments"
     ],
     "props": {
@@ -138,8 +138,8 @@
     "children": [
       "product-summary-name",
       "product-summary-brand",
-      "price-custom",
-      "personal-price"
+      // "price-custom",
+      "personal-price#shelf-price"
     ],
     "props": {
       "width": "grow",
@@ -216,16 +216,21 @@
       "product-summary-name",
       // "product-summary-brand",
       //"product-summary-price",
-      "price-custom",
+      // "price-custom",
       // "global-promo#2x",
       // "global-promo#3x",
-      "personal-price",
+      "personal-price#shelf-price",
       "max-installments",
 
       //"product-summary-space",
       // "quantity-selector.summary"
       "quantity-selector-custom"
       //"add-to-cart-button"
+    ]
+  },
+  "personal-price#shelf-price": {
+    "children": [
+      "price-custom"
     ]
   },
   "product-summary-name": {

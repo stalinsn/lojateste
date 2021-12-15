@@ -1120,9 +1120,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.flexCol--shadow-product {
-  background: #fff;
-}
+
 :global(.vtex-product-identifier-0-x-product-identifier) {
   color: #a5a5a5;
 }
@@ -2785,11 +2783,12 @@
     padding: 0 10px;
   }
 }
+
 .flexCol--shadow-product {
   .flexColChild--shadow-product {
     &:nth-child(even) {
       display: flex;
-      align-items: flex-end;
+      align-items: flex-start;
     }
     &:first-child {
       display: flex;
