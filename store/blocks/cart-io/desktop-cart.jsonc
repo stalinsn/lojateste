@@ -168,10 +168,15 @@
   },
 
   "product-list-content-desktop#checkout-cart": {
-    "children": ["flex-layout.row#main-container-checkout.desktop"]
+    "children": ["flex-layout.row#main-container-checkout.desktop", "promotion-highlight"]
   },
   "flex-layout.col#checkout-price": {
     "children": ["flex-layout.row#checkout-price-total"]
+  },
+  "flex-layout.row#highligts": {
+    "children": [
+      
+    ]
   },
   "flex-layout.row#main-container-checkout.desktop": {
     "children": [
