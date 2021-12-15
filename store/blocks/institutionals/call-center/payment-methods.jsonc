@@ -74,6 +74,7 @@
   "flex-layout.col#payment-methods-content": {
     "children": [
       "rich-text#payment-methods-title",
+      "rich-text#payment-methods-subTitle",
       "flex-layout.col#payment-col-text-1",
       "flex-layout.col#payment-col-text-2",
       "flex-layout.col#payment-col-text-3"
@@ -86,6 +87,12 @@
     "props": {
       "text": "#### Formas de pagamento",
       "blockClass": "payment-methods-title"
+    }
+  },
+  "rich-text#payment-methods-subTitle": {
+    "props": {
+      "text": "**Compras de Eletro e Bazar realizadas on-line | App e Gbarbosa.com.br**",
+      "blockClass": "payment-methods-page"
     }
   },
   /*   "flex-layout.row#payment-row-text": {
