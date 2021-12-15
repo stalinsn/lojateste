@@ -13,7 +13,6 @@
   }
   .link {
     font-size: 13px;
-    font-weight: bold;
     text-transform: capitalize;
   }
   .homeLink::before {
@@ -47,3 +46,8 @@
     padding: 0;
   }
 }
+// .container:last-child{
+//   .link{
+//     font-weight: bold;
+//   }
+// }

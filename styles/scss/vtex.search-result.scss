@@ -134,6 +134,7 @@
   }
 }
 .galleryTitle--layout::before{
+  text-transform: initial;
    content:"Você buscou por: "; 
 }
 .gallery--alternative {
