@@ -1120,9 +1120,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.flexCol--shadow-product {
-  background: #fff;
-}
+
 :global(.vtex-product-identifier-0-x-product-identifier) {
   color: #a5a5a5;
 }
@@ -1828,6 +1826,7 @@
 :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
   width: 100%;
   padding: 0;
+  margin: 0 10px;
 }
 
 :global(.vtex-shelf-1-x-dot--isActive) {
@@ -2785,11 +2784,15 @@
     padding: 0 10px;
   }
 }
+
 .flexCol--shadow-product {
   .flexColChild--shadow-product {
     &:nth-child(even) {
       display: flex;
-      align-items: flex-end;
+      align-items: center;
+      @media screen and (max-width: 768px) {
+        height: auto !important;
+      }
     }
     &:first-child {
       display: flex;
@@ -2803,6 +2806,8 @@
       display: none;
       @media (max-width: 768px) {
         display: flex;
+        background: #5C5C5C;
+        height: auto !important;
       }
     }
   }

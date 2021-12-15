@@ -59,37 +59,40 @@
     justify-content: center;
   }
 }
-:global(.vtex-ispromotion) {
-  :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
-    background: #fafafa;
-    border-radius: 35px 35px 0 0;
-    box-shadow: 0px 0px 6px #00000014;
-    @media screen and (max-width: 768px) {
-      // background: #fff;d
-      display: block !important;
-      padding: 0 8px;
-      border-radius: 20px 20px 0 0;
-      margin: 0;
-      margin-top: 2px;
+// :global(.vtex-ispromotion) {
+//   :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
+//     background: #fafafa;
+//     border-radius: 35px 35px 0 0;
+//     box-shadow: 0px 0px 6px #00000014;
+//     @media screen and (max-width: 768px) {
+//       // background: #fff;d
+//       display: block !important;
+//       padding: 0 8px;
+//       border-radius: 20px 20px 0 0;
+//       margin: 0;
+//       margin-top: 2px;
       
-    }
-  }
-  @media screen and (max-width: 768px) {
-    :global(.vtex-store-components-3-x-currencyContainer--summary),
-    :global(.vtex-store-components-3-x-priceContainer),
-    :global(.vtex-store-components-3-x-price_className--summary) {
-      display: none !important;
-    }
-  }
-}
+//     }
+//   }
+//   @media screen and (max-width: 768px) {
+//     :global(.vtex-store-components-3-x-currencyContainer--summary),
+//     :global(.vtex-store-components-3-x-priceContainer),
+//     :global(.vtex-store-components-3-x-price_className--summary) {
+//       display: none !important;
+//     }
+//   }
+// }
 .element--normal-shelf {
   :global(.vtex-stack-layout-0-x-stackContainer) {
     margin: 8px;
   }
 }
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
-  padding: 8px;
-  padding-bottom: 16px;
+  // padding: 8px;
+  // padding-bottom: 16px;
+  @media screen and (max-width: 768px) {
+    // padding-top: 5px;
+  }
 }
 :global(.vtex-product-summary-2-x-element) {
   :global(.vtex-button__label) {
@@ -169,11 +172,16 @@
       }
     }
   }
-
+  :global(.vtex-numeric-stepper-wrapper) {
+    @media screen and (min-width: 768px) {
+      padding: 0 15px;
+    }
+  }
   /* QUANTITY SELECTOR CUSTOM - SHELF */
   :global(.vtex-numeric-stepper-container) {
     border: 1px solid #dedede;
     border-radius: 5px;
+    // padding: 0 15px;
 
     :global(.vtex-numeric-stepper__input),
     :global(.vtex-numeric-stepper__plus-button),
@@ -314,7 +322,8 @@
   :global(.vtex-store-components-3-x-priceContainer) {
     text-align: left;
     width: 100%;
-    padding: 0 8px;
+    padding: 0 5px;
+    background: #fff;
 
     @media screen and (max-width: 767px) {
       margin: 0;
