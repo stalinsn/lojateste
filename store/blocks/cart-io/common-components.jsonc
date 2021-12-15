@@ -61,7 +61,7 @@
   },
 
   "checkout-summary#checkout-cart": {
-    "children": ["coupon", "totalizer-cencosud", "summary-totalizers#checkout-cart", "promotion-highlight#minicart"],
+    "children": ["coupon", "totalizer-cencosud", "summary-totalizers#checkout-cart"],
     "props": {
       "title": "Resumo seu pedido"
     }

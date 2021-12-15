@@ -697,17 +697,17 @@
   padding-left: 16px;
   padding-right: 16px;
   background: #f4f4f4;
-  :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
-    &:last-child {
-      display: none;
-    }
-  }
+  // :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+  //   &:last-child {
+  //     display: none;
+  //   }
+  // }
   .flexRow--minicart-footer {
     padding: 0;
   }
   :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
     font-weight: bold;
-  }
+  } 
 }
 
 .flexRow--mobile-subcategory {

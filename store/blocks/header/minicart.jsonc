@@ -95,10 +95,17 @@
     "children": [
       //"minicart-bar",
       "subtotal-content",
+      "rich-text#minicart-alert",
       "minicart-checkout-button",
       // "close-minicart-button"
       "keep-shopping-button"
     ]
+  },
+  "rich-text#minicart-alert": {
+    "props": {
+      "text": "&lowast; Os custos de transporte serão calculados ao selecionar o método de envio.",
+      "blockClass": "minicart-alert"
+    }
   },
   "keep-shopping-button": {
     "props": {
