@@ -191,7 +191,8 @@
       "menu-item#ayuda-4",
       // "menu-item#ayuda-5",
       // "menu-item#ayuda-6",
-      "menu-item#ayuda-7"
+      "menu-item#ayuda-7",
+      "menu-item#ayuda-8"
     ]
   },
 
@@ -314,6 +315,21 @@
         "text": "Serviços"
       }
     }
+    },
+    "menu-item#ayuda-8": {
+      "props": {
+        "id": "menu-item-2",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://www.delivery.gbarbosa.com.br/",
+          "noFollow": false,
+          "tagTitle": "Mercado Online GBarbosa",
+          "text": "Mercado Online GBarbosa"
+        }
+      }
   },
 
   "logo#facebook": {
