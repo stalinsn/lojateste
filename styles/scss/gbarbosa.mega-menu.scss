@@ -340,6 +340,12 @@
           .selectedSubcategory {
             margin-top: 8px;
 
+            .iconContainer{
+              margin-right: 12px;
+              max-width: 20px;
+              max-height: 20px;
+            }
+
             .label {
               margin-left: 12px;
             }
