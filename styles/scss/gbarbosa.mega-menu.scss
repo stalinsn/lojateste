@@ -332,18 +332,22 @@
 
             .iconContainer{
               margin-right: 12px;
-              .lazyload {
-                max-width: 20px;
-                max-height: 20px;
-              }
+              max-width: 20px;
+              max-height: 20px;
             }
           }
 
           .selectedSubcategory {
             margin-top: 8px;
-
+            .iconContainer{
+              margin-right: 12px;
+              max-width: 20px;
+              max-height: 20px;
+              display: flex;
+              justify-content: space-between;
+            }
             .label {
-              margin-left: 12px;
+              margin-left: 32px;
             }
           }
         }
