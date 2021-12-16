@@ -512,10 +512,10 @@
     color: #525252;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding-left: 15px;  
+    padding-left: 15px;
   }
 }
-
+:global(.vtex-ispromotion-pdp),
 :global(.vtex-ispromotion) {
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
     &:nth-child(even) {
@@ -774,7 +774,7 @@
       // background: #333333;
     }
   }
-  
+
 }
 .paymentBankNumberCodeContainer {
   flex-flow: row wrap;

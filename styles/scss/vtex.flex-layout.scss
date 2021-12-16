@@ -865,6 +865,7 @@
 :global(.vtex-personal-price-checkout) {
   display: none;
 }
+:global(.vtex-ispromotion-pdp),
 :global(.vtex-ispromotion) {
   :global(.vtex-personal-price-checkout) {
     display: block;
