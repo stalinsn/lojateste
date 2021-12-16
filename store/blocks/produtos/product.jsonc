@@ -545,7 +545,7 @@
       "flex-layout.row#sku",
       // "flex-layout.col#product-price",
       "flex-layout.col#product-price-mobile",
-      "personal-price",
+      "personal-price#pdp",
       "flex-layout.row#spot-price-pdp",
       // "global-promo#2x",
       // "global-promo#3x",

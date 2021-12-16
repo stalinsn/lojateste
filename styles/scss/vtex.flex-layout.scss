@@ -2789,7 +2789,8 @@
   .flexColChild--shadow-product {
     &:nth-child(even) {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
+      padding-bottom: 20px;
       @media screen and (max-width: 768px) {
         height: auto !important;
       }
