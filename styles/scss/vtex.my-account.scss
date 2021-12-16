@@ -14,7 +14,7 @@
 :global(.vtex-login-2-x-oauthAutoRedirect) {
   font-size: 0;
   &::before {
-    content: 'Para visualizar seus pedidos, por favor acessar a sua conta antes. Estamos lhe redirecionando, aguarde...';
+    content: 'Para visualizar sua conta é necessário fazer o login antes. Estamos lhe redirecionando, aguarde...';
     font-size: 16px;
     padding: .75rem;
     box-sizing: border-box;
@@ -234,13 +234,13 @@
       padding-bottom: 0.65rem;
     }
   }
-  
+
   :global(.vtex-profile-form-3-x-personalFields){
     :global(input[name="document"]){
       background-color: #f4f4f4;
     }
   }
- 
+
   :global(.vtex-address-form-4-x-input) {
     border-bottom: solid #b8b5b5 thin;
   }
