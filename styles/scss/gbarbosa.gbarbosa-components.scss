@@ -519,7 +519,7 @@
 :global(.vtex-ispromotion) {
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
     &:nth-child(even) {
-      background: #5C5C5C;
+      background: #5C5C5C !important;
     }
   }
   .installments_value {
@@ -732,6 +732,7 @@
     }
   }
 }
+
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
   .crmPrice {
     background: #5C5C5C;
@@ -745,7 +746,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    .crmInstallmentsPdp {
+    .crmInstallmentsPdp { 
       display: none;
     }
   }
@@ -768,6 +769,9 @@
     padding: 0 15px;
     font-size: 8px;
     padding-bottom: 3px;
+    @media screen and (max-width: 768px) {
+      padding: 0 8px;
+    }
   }
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
     &:nth-child(even) {
@@ -775,6 +779,88 @@
     }
   }
 
+}
+:global(.vtex-isActualpromotion) {
+
+  .crmPriceCard {
+    background: #fafafa;
+    margin: 0!important;
+    padding-top: 15px !important;
+    border-radius: 30px 30px 0 0;
+    @media screen and (max-width: 768px) {
+      border-radius: 15px 15px 0 0;
+      padding-top: 5px !important;
+    }
+  }
+
+  .installments_value {
+      background: #fafafa !important;
+  }
+  .crmTitle {
+    color: #525252;
+    text-align: left;
+    
+    @media screen and (max-width: 768px) {
+      margin-left: 8px !important;
+    }
+  }
+  .crmDiscount {
+      color: #ED1D25;
+      text-align: left;
+      @media screen and (max-width: 768px) {
+        padding: 0 8px !important;
+      }
+  }
+
+  .installments_value {
+      color: #525252 !important;
+      margin: 0;
+  }
+  :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
+    :global(.vtex-store-components-3-x-currencyContainer--summary) {
+      font-size: 18px !important;
+      color: #BABABA !important;
+      text-decoration: line-through;
+      
+    }
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
+     background: #fafafa !important;
+   }
+}
+:global(.vtex-ispromotion) {
+  .crmPrice {
+    background: #525252 !important;
+  }
+
+  .installments_value {
+      background: #525252 !important;
+      color: #ffd500;
+  }
+  .crmTitle {
+    color: #fff !important;
+    
+    @media screen and (max-width: 768px) {
+      margin-left: 8px !important;
+    }
+  }
+  .crmDiscount {
+      color: #FFD500 !important; 
+      @media screen and (max-width: 768px) {
+        padding: 0 8px !important;
+      }
+  }
+
+  :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
+    :global(.vtex-store-components-3-x-currencyContainer--summary) {
+      font-size: 18px !important;
+      color: #BABABA !important;
+      
+    }
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
+     background: #525252 !important;
+   }
 }
 .paymentBankNumberCodeContainer {
   flex-flow: row wrap;
