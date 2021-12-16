@@ -770,6 +770,11 @@
     color: #525252;
   }
 }
+@media screen and (max-width:768px ){
+  .listPriceValue{
+    margin:0;
+  }
+}
 
 :global(.vtex-lightning-offer-title) {
   align-items: center;
