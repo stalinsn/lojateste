@@ -1001,6 +1001,9 @@
 }
 .flexCol--checkout-desktop-col-right {
   max-width: 365px;
+  .flexColChild--checkout-desktop-col-right {
+    height: auto !important;
+  }
 }
 .flexRowContent--cart-io {
   justify-content: space-between;
@@ -1364,6 +1367,7 @@
       color: #898989;
       font-size: 18px;
       font-weight: bold;
+      margin: 0;
     }
     :global(.vtex-store-components-3-x-savingPrice) {
       display: none;
