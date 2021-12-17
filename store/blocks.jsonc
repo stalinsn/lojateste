@@ -104,7 +104,7 @@
   "flex-layout.col#product-price-shelf": {
     "children": [
       "personal-price#shelf-price",
-      "max-installments-without-crm"
+      "max-installments"
     ],
     "props": {
       "preventVerticalStretch": true
