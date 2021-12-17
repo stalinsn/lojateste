@@ -224,6 +224,15 @@
     :global(.vtex-my-orders-app-3-x-orderBody) > div:last-child {
       display: flex;
       flex-direction: column;
+
+      :global(.vtex-my-orders-app-3-x-invoiceBtn){
+          display: flex;
+          justify-content: space-between;
+          background: url(/arquivos/barcode.svg) left no-repeat;
+      }
+      :global(.vtex-my-orders-app-3-x-invoiceBtn) > svg:first-child{
+          display:none;
+      }
     }
     :global(.vtex-my-orders-app-3-x-orderBody) {
       :global(.vtex-my-orders-app-3-x-cancelBtn) {
