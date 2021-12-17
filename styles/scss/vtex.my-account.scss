@@ -11,6 +11,34 @@
     }
   }
 }
+
+:global(.vtex-login-2-x-box) {
+  :global(.vtex-login-2-x-oauthAutoRedirect) {
+    &::before {
+      content: "Para visualizar sua conta é necessário fazer o login antes. Estamos lhe redirecionando, aguarde...";
+      font-size: 16px;
+      padding: 0.75rem;
+      box-sizing: border-box;
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+:global(.vtex-login-2-x-oauthAutoRedirect) {
+  font-size: 0;
+  &::before {
+    content: "Para visualizar seus pedidos, por favor acessar a sua conta antes. Estamos lhe redirecionando, aguarde...";
+    font-size: 16px;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+
 :global(.vtex-minicart-2-x-minicartProductListContainer) {
   > div {
     display: flex;
@@ -29,6 +57,7 @@
     }
     :global(.vtex-product-list-0-x-productListAvailableItemsMessage) ~ :global(.vtex-flex-layout-0-x-flexRow--minicart-container-content)  {
     order: 2;
+
     }
   }
 }
@@ -52,12 +81,13 @@
     opacity: 0.5;
   }
 }
+
 :global(.vtex-login-2-x-oauthAutoRedirect) {
   font-size: 0;
   &::before {
-    content: 'Para visualizar seus pedidos, por favor acessar a sua conta antes. Estamos lhe redirecionando, aguarde...';
+    content: "Para visualizar seus pedidos, por favor acessar a sua conta antes. Estamos lhe redirecionando, aguarde...";
     font-size: 16px;
-    padding: .75rem;
+    padding: 0.75rem;
     box-sizing: border-box;
     width: 100%;
     display: block;
@@ -289,13 +319,13 @@
       padding-bottom: 0.65rem;
     }
   }
-  
-  :global(.vtex-profile-form-3-x-personalFields){
-    :global(input[name="document"]){
+
+  :global(.vtex-profile-form-3-x-personalFields) {
+    :global(input[name="document"]) {
       background-color: #f4f4f4;
     }
   }
- 
+
   :global(.vtex-address-form-4-x-input) {
     border-bottom: solid #b8b5b5 thin;
   }
@@ -859,9 +889,9 @@
     display: none;
   }
 }
-:global(.vtex-my-account-1-x-profile){
-  :global(.vtex-my-account-1-x-newsletterBoxContainer){
-  display:none;
+:global(.vtex-my-account-1-x-profile) {
+  :global(.vtex-my-account-1-x-newsletterBoxContainer) {
+    display: none;
   }
 }
 .documentsSubContainer {
