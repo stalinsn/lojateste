@@ -585,7 +585,7 @@
       "payment-method-item#visa",
       "payment-method-item#diners",
       "payment-method-item#mastercard",
-      // "payment-method-item#hipercard",
+      "payment-method-item#hipercard",
       "payment-method-item#elo",
       "payment-method-item#dinheiro"
     ]
