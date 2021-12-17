@@ -64,6 +64,20 @@
     text-align: center;
   }
 }
+:global(.vtex-numeric-stepper__plus-button.c-disabled) {
+  background: #fff;
+  > div {
+    opacity: 0.3;
+  }
+}
+:global(.vtex-numeric-stepper__minus-button.c-disabled) {
+  background: #fff;
+  > span {
+    opacity: 0.3;
+  }
+}
+
+
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
   :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
     > div {
