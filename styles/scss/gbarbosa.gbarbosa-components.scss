@@ -745,7 +745,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    .crmInstallmentsPdp { 
+    .crmInstallmentsPdp {
       display: none;
     }
   }
@@ -798,7 +798,7 @@
   .crmTitle {
     color: #FFFFFF;
     text-align: left;
-    
+
     @media screen and (max-width: 768px) {
       margin-left: 8px !important;
     }
@@ -819,11 +819,12 @@
     :global(.vtex-store-components-3-x-currencyContainer--summary) {
       font-size: 18px !important;
       color: #BABABA !important;
-      
+
     }
   }
-  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
      background: #5C5C5C !important;
+     max-height: 62px;
    }
 }
 :global(.vtex-ispromotion) {
@@ -837,13 +838,13 @@
   }
   .crmTitle {
     color: #fff !important;
-    
+
     @media screen and (max-width: 768px) {
       margin-left: 8px !important;
     }
   }
   .crmDiscount {
-      color: #FFD500 !important; 
+      color: #FFD500 !important;
       @media screen and (max-width: 768px) {
         padding: 0 8px !important;
       }
@@ -853,10 +854,10 @@
     :global(.vtex-store-components-3-x-currencyContainer--summary) {
       font-size: 18px !important;
       color: #BABABA !important;
-      
+
     }
   }
-  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
      background: #525252 !important;
    }
 }

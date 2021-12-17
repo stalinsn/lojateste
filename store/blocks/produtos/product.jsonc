@@ -214,7 +214,7 @@
     "children": [
       //"product-price#product-details",
       "flex-layout.row#price-details",
-      "max-installments",
+      "max-installments-without-crm",
       "kg-price"
     ],
 
@@ -569,9 +569,9 @@
   },
   "flex-layout.col#product-price-mobile": {
     "children": [
-      "flex-layout.row#flags-pdp",
+      // "flex-layout.row#flags-pdp",
       "price-custom",
-      "max-installments",
+      "max-installments-without-crm",
       "installment-options",
       "kg-price"
     ],
