@@ -508,7 +508,6 @@
   .installments_value {
     font-size: 12px;
     font-weight: 600;
-    line-height: 8px;
     color: #525252;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -785,7 +784,7 @@
   .crmPriceCard {
     background: #fafafa;
     margin: 0!important;
-    padding-top: 15px !important;
+    padding-top: 9px !important;
     border-radius: 30px 30px 0 0;
     @media screen and (max-width: 768px) {
       border-radius: 15px 15px 0 0;
@@ -820,7 +819,6 @@
     :global(.vtex-store-components-3-x-currencyContainer--summary) {
       font-size: 18px !important;
       color: #BABABA !important;
-      text-decoration: line-through;
       
     }
   }
