@@ -11,12 +11,27 @@
     }
   }
 }
+
+:global(.vtex-login-2-x-box) {
+  :global(.vtex-login-2-x-oauthAutoRedirect) {
+    &::before {
+      content: "Para visualizar sua conta é necessário fazer o login antes. Estamos lhe redirecionando, aguarde...";
+      font-size: 16px;
+      padding: 0.75rem;
+      box-sizing: border-box;
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
 :global(.vtex-login-2-x-oauthAutoRedirect) {
   font-size: 0;
   &::before {
-    content: 'Para visualizar sua conta é necessário fazer o login antes. Estamos lhe redirecionando, aguarde...';
+    content: "Para visualizar seus pedidos, por favor acessar a sua conta antes. Estamos lhe redirecionando, aguarde...";
     font-size: 16px;
-    padding: .75rem;
+    padding: 0.75rem;
     box-sizing: border-box;
     width: 100%;
     display: block;
@@ -235,8 +250,8 @@
     }
   }
 
-  :global(.vtex-profile-form-3-x-personalFields){
-    :global(input[name="document"]){
+  :global(.vtex-profile-form-3-x-personalFields) {
+    :global(input[name="document"]) {
       background-color: #f4f4f4;
     }
   }
@@ -804,9 +819,9 @@
     display: none;
   }
 }
-:global(.vtex-my-account-1-x-profile){
-  :global(.vtex-my-account-1-x-newsletterBoxContainer){
-  display:none;
+:global(.vtex-my-account-1-x-profile) {
+  :global(.vtex-my-account-1-x-newsletterBoxContainer) {
+    display: none;
   }
 }
 .documentsSubContainer {
