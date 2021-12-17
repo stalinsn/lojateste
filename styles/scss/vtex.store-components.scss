@@ -1226,7 +1226,9 @@
     }
   }
 }
-
+.imageElement--unactive-list {
+  display: none !important;
+}
 @media screen and (max-width: 767px) {
   .infoCardContainer--recarga-celular-section-1 {
     .infoCardTextContainer--recarga-celular-section-1 {
