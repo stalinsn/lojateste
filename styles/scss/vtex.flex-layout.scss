@@ -1002,6 +1002,9 @@
 }
 .flexCol--checkout-desktop-col-right {
   max-width: 365px;
+  .flexColChild--checkout-desktop-col-right {
+    height: auto !important;
+  }
 }
 .flexRowContent--cart-io {
   justify-content: space-between;
@@ -1168,6 +1171,11 @@
 }
 
 // PDP
+.flexRow--price-details {
+  .flexRowContent--price-details {
+    justify-content: space-between;
+  }
+}
 .flexCol--pdp-right-col {
   :global(.vtex-store-components-3-x-subscriberContainer) {
     :global(.vtex-input-prefix__group) {
@@ -1217,13 +1225,20 @@
     }
   }
   .flexRowContent--flags-pdp {
-    margin-left: 30px;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
     :global(.vtex-product-price-1-x-savings--alt-marker) {
       padding: 7px 12px;
       background: #2faf00;
       color: #fff;
       border-radius: 16px;
       font-size: 14px;
+      max-width: 60px;
+      text-align: center;
+    }
+    .stretchChildrenWidth {
+      justify-content: flex-start;
     }
     @media screen and (max-width: 768px) {
       margin-left: 15px;
@@ -1243,6 +1258,7 @@
     }
     :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
       width: auto !important;
+      margin: 0;
     }
     :global(.vtex-store-components-3-x-listPrice) {
       width: auto !important;
@@ -1255,7 +1271,7 @@
     :global(.vtex-store-components-3-x-productBrand) {
       font-size: 22px;
       font-weight: bold;
-      margin-bottom: 32px;
+      margin-bottom: 12px;
       display: block;
       color: #525252;
     }
@@ -1364,6 +1380,7 @@
       color: #898989;
       font-size: 18px;
       font-weight: bold;
+      margin: 0;
     }
     :global(.vtex-store-components-3-x-savingPrice) {
       display: none;
@@ -2315,6 +2332,15 @@
       }
     }
   }
+  .flexColChild--shadow-product {
+    .flexRow {
+      .flexRowContent {
+        .stretchChildrenWidth {
+          width: 100% !important;
+        }
+      }
+    }
+  }
 }
 .flexRow--main-header-mobile-search-bar {
   background-color: #fff;
@@ -3228,6 +3254,9 @@
   position: relative;
   :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
     height: auto !important;
+    :global(.vtex-store-components-3-x-price_sellingPriceContainer--summary) {
+      margin: 0;
+    }
   }
 }
 
