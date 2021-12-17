@@ -512,17 +512,22 @@
     margin-top: 2px;
     margin-bottom: 2px;
     padding-left: 15px;
+    @media(max-width: 768px) {
+      font-size: 8px;
+      padding-left: 6px;
+      display: flex;
+    }
   }
 }
 :global(.vtex-ispromotion-pdp),
 :global(.vtex-ispromotion) {
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
     &:nth-child(even) {
-      background: #5C5C5C !important;
+      background: #5c5c5c !important;
     }
   }
   .installments_value {
-    background: #5C5C5C;
+    background: #5c5c5c;
     color: #ffd500 !important;
     margin: 0 !important;
     padding: 0 20px;
@@ -588,7 +593,7 @@
 
   :global(.vtex-product-summary-2-x-container) {
     .installments_value {
-      display: none;
+      // display: none;
     }
   }
 }
@@ -610,7 +615,6 @@
           }
         }
       }
-
     }
   }
 }
@@ -734,10 +738,11 @@
 
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
   .crmPrice {
-    background: #5C5C5C;
-    margin: 0!important;
-    padding-top: 15px !important;
+    background: #5c5c5c;
+    margin: 0 !important;
+    padding-top: 9px !important;
     border-radius: 30px 30px 0 0;
+    padding-bottom: 0;
     @media screen and (max-width: 768px) {
       border-radius: 15px 15px 0 0;
       padding-top: 5px !important;
@@ -745,7 +750,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    .crmInstallmentsPdp { 
+    .crmInstallmentsPdp {
       display: none;
     }
   }
@@ -753,11 +758,10 @@
     margin-left: 15px !important;
   }
   .crmDiscount {
-    padding: 0 15px
+    padding: 0 15px;
   }
   .customQuantitySelector {
     @media screen and (min-width: 768px) {
-
       padding: 0 13px;
     }
   }
@@ -777,13 +781,52 @@
       // background: #333333;
     }
   }
-
+}
+.cartDepartmentsProductList {
+  .promotion_highlight {
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+  }
+}
+:global(.vtex-minicart-2-x-minicartProductListContainer) {
+  .promotion_highlight {
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexCol--checkout-quantity-selector) {
+  :global(.vtex-numeric-stepper__input) {
+    border: 1px solid #dedede;
+    border-left: 0;
+    border-right: 0;
+  }
+  :global(.vtex-numeric-stepper__plus-button) {
+    border: 1px solid #dedede;
+    border-left: 0;
+  }
+  :global(.vtex-numeric-stepper__minus-button) {
+    border: 1px solid #dedede;
+    border-right: 0;
+    :global(.vtex-numeric-stepper__minus-button__text) {
+      color: #898989;
+    }
+  }
 }
 :global(.vtex-isActualpromotion) {
-
   .crmPriceCard {
+<<<<<<< HEAD
     background: #818181;
     margin: 0!important;
+=======
+    background: #5c5c5c;
+    margin: 0 !important;
+>>>>>>> master
     padding-top: 9px !important;
     border-radius: 30px 30px 0 0;
     @media screen and (max-width: 768px) {
@@ -793,31 +836,36 @@
   }
 
   .installments_value {
+<<<<<<< HEAD
       background: #818181 !important;
+=======
+    background: #5c5c5c !important;
+>>>>>>> master
   }
   .crmTitle {
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: left;
-    
+
     @media screen and (max-width: 768px) {
       margin-left: 8px !important;
     }
   }
   .crmDiscount {
-      color: #E8C200;
-      text-align: left;
-      @media screen and (max-width: 768px) {
-        padding: 0 8px !important;
-      }
+    color: #e8c200;
+    text-align: left;
+    @media screen and (max-width: 768px) {
+      padding: 0 8px !important;
+    }
   }
 
   .installments_value {
-      color: #E8C200 !important;
-      margin: 0;
+    color: #e8c200 !important;
+    margin: 0;
   }
   :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
     :global(.vtex-store-components-3-x-currencyContainer--summary) {
       font-size: 18px !important;
+<<<<<<< HEAD
       color: #ed1d25 !important;
       
     }
@@ -825,40 +873,52 @@
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
      background: #818181 !important;
    }
+=======
+      color: #bababa !important;
+    }
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
+    background: #5c5c5c !important;
+    max-height: 62px;
+  }
+>>>>>>> master
 }
 :global(.vtex-ispromotion) {
   .crmPrice {
     background: #525252 !important;
   }
-
   .installments_value {
-      background: #525252 !important;
-      color: #ffd500 !important;
+    background: #525252 !important;
+    color: #ffd500 !important;
+    @media (max-width: 768px) {
+      font-size: 8px;
+      padding-left: 9px;
+      display: flex;
+    }
   }
   .crmTitle {
     color: #fff !important;
-    
+
     @media screen and (max-width: 768px) {
       margin-left: 8px !important;
     }
   }
   .crmDiscount {
-      color: #FFD500 !important; 
-      @media screen and (max-width: 768px) {
-        padding: 0 8px !important;
-      }
+    color: #ffd500 !important;
+    @media screen and (max-width: 768px) {
+      padding: 0 8px !important;
+    }
   }
 
   :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
     :global(.vtex-store-components-3-x-currencyContainer--summary) {
       font-size: 18px !important;
-      color: #BABABA !important;
-      
+      color: #bababa !important;
     }
   }
-  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
-     background: #525252 !important;
-   }
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
+    background: #525252 !important;
+  }
 }
 .paymentBankNumberCodeContainer {
   flex-flow: row wrap;
@@ -893,5 +953,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  :global(.vtex-isActualpromotion),
+  :global(.vtex-ispromotion) {
+    .installments_value {
+      background: #5c5c5c !important;
+      color: #ffd500 !important;
+      font-size: 8px;
+      padding-left: 9px;
+      display: flex;
+    }
   }
 }

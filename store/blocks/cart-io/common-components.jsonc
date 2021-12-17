@@ -144,7 +144,7 @@
   },
   //Seletor de quantidade
   "flex-layout.col#checkout-quantity-selector": {
-    "children": ["vtex.product-list:quantity-selector#checkout"],
+    "children": ["quantity-selector-custom#minicart"],
     "props": {
       "blockClass": "checkout-quantity-selector",
       "verticalAlign": "middle"

@@ -102,8 +102,8 @@
     "children": [
       "flex-layout.row#first-row-search",
       "breadcrumb.search#search-breadcrumb",
-      "flex-layout.row#filter-and-orderby",
       "flex-layout.row#search-title",
+      "flex-layout.row#filter-and-orderby",
       "flex-layout.row#search-button-prev",
       "search-content",
       "flex-layout.row#search-button-more"
@@ -205,7 +205,8 @@
     }
   },
   "flex-layout.row#search-title": {
-    "children": ["search-title.v2"],
+    // "children": ["search-title.v2"],
+"children": ["search-title-custom"],
     "props": {
       "blockClass": "search-title"
     }
