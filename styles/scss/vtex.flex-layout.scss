@@ -2854,6 +2854,7 @@
       display: flex;
       align-items: flex-end;
       padding-bottom: 20px;
+      height: auto !important;
       @media screen and (max-width: 768px) {
         height: auto !important;
       }
