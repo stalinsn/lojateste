@@ -1242,6 +1242,7 @@
     }
     :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
       width: auto !important;
+      margin: 0;
     }
     :global(.vtex-store-components-3-x-listPrice) {
       width: auto !important;
@@ -3227,6 +3228,9 @@
   position: relative;
   :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
     height: auto !important;
+    :global(.vtex-store-components-3-x-price_sellingPriceContainer--summary) {
+      margin: 0;
+    }
   }
 }
 
