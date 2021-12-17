@@ -175,7 +175,7 @@
   },
   "flex-layout.row#highligts": {
     "children": [
-      
+
     ]
   },
   "flex-layout.row#main-container-checkout.desktop": {
@@ -189,7 +189,7 @@
     "props": {
       "blockClass": "checkout-product-container",
       "colSizing": "auto",
-      "horizontalAlign": "left", 
+      "horizontalAlign": "left",
       "preserveLayoutOnMobile": true,
       "border": "bottom",
       "borderColor": "gray-variation",
