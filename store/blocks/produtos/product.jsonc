@@ -64,7 +64,7 @@
   "flex-layout.col#product-imagen": {
     "children": [
       "vtex.product-highlights@2.x:product-highlights",
-      "flex-layout.row#savings",
+      // "flex-layout.row#savings",
       "stack-layout"
     ],
 
@@ -140,6 +140,7 @@
     "children": [
       "flex-layout.row#upcbox",
       "flex-layout.row#namebox",
+      "flex-layout.row#flags-pdp",
       "flex-layout.row#sku",
 
       // "global-promo#2x",
@@ -232,7 +233,6 @@
   "flex-layout.row#price-details": {
     "children": [
       "price-custom",
-      "flex-layout.row#flags-pdp",
       "installment-options"
     ],
     "props": {
@@ -542,10 +542,11 @@
     "children": [
       "flex-layout.row#upcbox",
       "flex-layout.row#namebox",
+      "flex-layout.row#flags-pdp",
       "flex-layout.row#sku",
       // "flex-layout.col#product-price",
       "flex-layout.col#product-price-mobile",
-      "personal-price",
+      "personal-price#pdp",
       "flex-layout.row#spot-price-pdp",
       // "global-promo#2x",
       // "global-promo#3x",

@@ -38,6 +38,76 @@
     text-align: center;
   }
 }
+
+:global(.vtex-minicart-2-x-minicartProductListContainer) {
+  > div {
+    display: flex;
+    flex-direction: column;
+    :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
+      order: 3;
+    }
+    
+    :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) ~ :global(.vtex-flex-layout-0-x-flexRow--minicart-container-content) {
+      order: 4;
+      opacity: 0.5;
+    }
+    
+    :global(.vtex-product-list-0-x-productListAvailableItemsMessage) {
+      order: 1;
+    }
+    :global(.vtex-product-list-0-x-productListAvailableItemsMessage) ~ :global(.vtex-flex-layout-0-x-flexRow--minicart-container-content)  {
+    order: 2;
+
+    }
+  }
+}
+
+:global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
+  font-size: 14px;
+  color: #ED1D25;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+  border-bottom: 0;
+  &::before {
+    content: url(/arquivos/alert-circle-fill.png);
+    display: block; 
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+  }
+  + :global(.vtex-flex-layout-0-x-flexRow--minicart-container-content) {
+    opacity: 0.5;
+  }
+}
+
+:global(.vtex-login-2-x-oauthAutoRedirect) {
+  font-size: 0;
+  &::before {
+    content: "Para visualizar seus pedidos, por favor acessar a sua conta antes. Estamos lhe redirecionando, aguarde...";
+    font-size: 16px;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+:global(.vtex-numeric-stepper__plus-button.c-disabled) {
+  background: #fff;
+  > div {
+    opacity: 0.3;
+  }
+}
+:global(.vtex-numeric-stepper__minus-button.c-disabled) {
+  background: #fff;
+  > span {
+    opacity: 0.3;
+  }
+}
+
+
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
   :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
     > div {

@@ -54,6 +54,7 @@
       box-shadow: 0px 3px 6px #5252520d;
       border-bottom: 1px solid #dedede;
       border-radius: 0;
+      font-size: 16px;
     }
   }
 }
@@ -761,11 +762,17 @@
 
 .listPriceValue {
   padding: 0;
+  margin:0 10px;
 
   .currencyContainer {
     font-size: 9px;
     line-height: 8px;
     color: #525252;
+  }
+}
+@media screen and (max-width:768px ){
+  .listPriceValue{
+    margin:0;
   }
 }
 
