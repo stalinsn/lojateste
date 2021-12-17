@@ -779,6 +779,42 @@
   }
 
 }
+.cartDepartmentsProductList {
+  .promotion_highlight {
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+}
+}
+:global(.vtex-minicart-2-x-minicartProductListContainer)  {
+  .promotion_highlight {
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexCol--checkout-quantity-selector) {
+  :global(.vtex-numeric-stepper__input) {
+    border: 1px solid #dedede;
+    border-left: 0;
+    border-right: 0;
+  }
+  :global(.vtex-numeric-stepper__plus-button) {
+    border: 1px solid #dedede;
+    border-left: 0;
+  }
+  :global(.vtex-numeric-stepper__minus-button) {
+    border: 1px solid #dedede;
+    border-right: 0;
+    :global(.vtex-numeric-stepper__minus-button__text) {
+      color: #898989
+    }
+  }
+}
 :global(.vtex-isActualpromotion) {
 
   .crmPriceCard {
@@ -791,6 +827,7 @@
       padding-top: 5px !important;
     }
   }
+  
 
   .installments_value {
       background: #fafafa !important;
