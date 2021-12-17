@@ -523,11 +523,11 @@
 :global(.vtex-ispromotion) {
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
     &:nth-child(even) {
-      background: #5c5c5c !important;
+      background: #818181!important
     }
   }
   .installments_value {
-    background: #5c5c5c;
+    background: #818181!important;
     color: #ffd500 !important;
     margin: 0 !important;
     padding: 0 20px;
@@ -820,18 +820,8 @@
 }
 :global(.vtex-isActualpromotion) {
   .crmPriceCard {
-<<<<<<< HEAD
-    background: #818181;
+    background: #5c5c5c!important;
     margin: 0!important;
-=======
-<<<<<<< HEAD
-    background: #818181;
-    margin: 0!important;
-=======
-    background: #5c5c5c;
-    margin: 0 !important;
->>>>>>> master
->>>>>>> master
     padding-top: 9px !important;
     border-radius: 30px 30px 0 0;
     @media screen and (max-width: 768px) {
@@ -841,15 +831,7 @@
   }
 
   .installments_value {
-<<<<<<< HEAD
-      background: #818181 !important;
-=======
-<<<<<<< HEAD
-      background: #818181 !important;
-=======
-    background: #5c5c5c !important;
->>>>>>> master
->>>>>>> master
+      background: #5c5c5c !important;
   }
   .crmTitle {
     color: #ffffff;
@@ -874,37 +856,25 @@
   :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
     :global(.vtex-store-components-3-x-currencyContainer--summary) {
       font-size: 18px !important;
-<<<<<<< HEAD
       color: #ed1d25 !important;
-      
     }
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
+
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
      background: #818181 !important;
    }
-=======
-<<<<<<< HEAD
-=======
-      color: #bababa !important;
-    }
-  }
->>>>>>> master
+
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
     background: #5c5c5c !important;
     max-height: 62px;
   }
->>>>>>> master
 }
 :global(.vtex-ispromotion) {
   .crmPrice {
-    background: #525252 !important;
+    background: #818181!important
   }
   .installments_value {
-    background: #525252 !important;
+    background: #818181!important;
     color: #ffd500 !important;
     @media (max-width: 768px) {
       font-size: 8px;
@@ -933,7 +903,7 @@
     }
   }
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
-    background: #525252 !important;
+    background: #818181!important
   }
 }
 .paymentBankNumberCodeContainer {
