@@ -2850,6 +2850,7 @@
 .flexCol--shadow-product {
   .flexColChild--shadow-product {
     &:nth-child(even) {
+      max-height: 62px;
       display: flex;
       align-items: flex-end;
       padding-bottom: 20px;
