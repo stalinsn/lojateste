@@ -214,7 +214,7 @@
     "children": [
       //"product-price#product-details",
       "flex-layout.row#price-details",
-      "max-installments-without-crm",
+      "max-installments",
       "kg-price"
     ],
 
@@ -571,7 +571,7 @@
     "children": [
       // "flex-layout.row#flags-pdp",
       "price-custom",
-      "max-installments-without-crm",
+      "max-installments",
       "installment-options",
       "kg-price"
     ],

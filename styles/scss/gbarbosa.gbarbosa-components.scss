@@ -945,11 +945,26 @@
   :global(.vtex-isActualpromotion),
   :global(.vtex-ispromotion) {
     .installments_value {
-      background: #5c5c5c !important;
+      background: #525252 !important;
       color: #ffd500 !important;
       font-size: 8px;
-      padding-left: 9px;
+      padding-left: 2px;
+      padding-top: 0;
       display: flex;
+      align-items: flex-start;
+      padding-right: 0;
+    }
+  }
+  :global(.vtex-ispromotion) {
+    .installments_value {
+      background: #818181!important;
+      color: #ffd500 !important;
+      font-size: 8px;
+      padding-left: 2px;
+      padding-top: 0;
+      display: flex;
+      align-items: flex-start;
+      padding-right: 0;
     }
   }
 }
