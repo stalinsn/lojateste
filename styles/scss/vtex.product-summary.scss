@@ -261,7 +261,7 @@
 
       :global(.vtex-store-components-3-x-listPrice) {
         margin: 0;
-        order: 2;
+        // order: 2;
 
         :global(.vtex-store-components-3-x-listPriceValue) {
           padding: 0;
@@ -274,7 +274,7 @@
 
       :global(.vtex-store-components-3-x-sellingPrice) {
         font-size: 14px !important;
-        order: 1;
+        // order: 1;
         margin: 0 !important;
       }
     }
