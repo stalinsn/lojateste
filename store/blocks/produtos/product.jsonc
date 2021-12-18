@@ -105,13 +105,16 @@
   "product-price-savings#savings": {
     "props": {
       "alwaysShow": true,
-      "message": "{savingsPercentage} off"
+      "message": "{savingsPercentage} off",
+      "minimumPercentage": 5
     }
   },
   "product-price-savings#alt": {
     "props": {
       "blockClass": "alt-marker",
-      "message": "{savingsPercentage} off"
+      "message": "{savingsPercentage} off",
+      "minimumPercentage": 5
+
     }
   },
 
