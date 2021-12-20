@@ -1229,6 +1229,27 @@
 .imageElement--unactive-list {
   display: none !important;
 }
+.currencyContainer-checkout{
+  font-size: 12px;
+  color: #898989;
+}
+
+
+.currencyContainer--summary-checkout {
+  color: #ed1d25;
+  font-size: 14px;
+}
+.price_listPrice--summary {
+  padding: 0;
+}
+.price_sellingPriceContainer--summary-checkout {
+  margin-left: 0;
+}
+
+.price_sellingPrice--summary-checkout {
+  font-size: 14px;
+  padding: 0;
+}
 @media screen and (max-width: 767px) {
   .infoCardContainer--recarga-celular-section-1 {
     .infoCardTextContainer--recarga-celular-section-1 {

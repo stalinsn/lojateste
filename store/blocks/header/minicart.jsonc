@@ -66,7 +66,8 @@
   },
   "flex-layout.row#pricing-infos-minicart": {
     "children": [
-      "vtex.product-list:price",
+      // "vtex.product-list:price",
+      "price-checkout",
       "quantity-selector-custom#minicart"
 
     ],
@@ -75,7 +76,7 @@
     }
   },
   "flex-layout.col#pricing-info-minicart": {
-    "children": ["vtex.product-list:price"]
+    "children": ["price-checkout"]
   },
   "quantity-selector-custom#minicart": {
     "props": {
