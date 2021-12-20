@@ -19,6 +19,7 @@
   }
 }
 .socialNetworksContainer {
+  margin-right: 0;
   .socialNetworkLink {
     margin-right: 0.5em !important;
   }
@@ -445,6 +446,7 @@
   justify-content: flex-start !important;
   @media screen and (max-width: 768px) {
     margin-left: 30px;
+    margin-right: 0 !important;
   }
   .socialNetworkLink {
     background-position: center !important;

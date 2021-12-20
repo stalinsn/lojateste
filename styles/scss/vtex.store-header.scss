@@ -269,7 +269,12 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile) {
   padding: 0;
+  @media screen and (max-width: 768px) {
+    max-width: 100% !important;
+    overflow: hidden;
+  }
 }
+
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header-mobile-search) {
   background-color: #fff !important;
