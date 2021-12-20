@@ -860,7 +860,7 @@
     }
   }
 
-  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
      background: #818181 !important;
    }
 
@@ -944,7 +944,7 @@
   :global(.vtex-isActualpromotion),
   :global(.vtex-ispromotion) {
     .installments_value {
-      background: #525252 !important;
+      background: #5c5c5c !important;
       color: #ffd500 !important;
       font-size: 8px;
       padding-left: 2px;
@@ -952,6 +952,7 @@
       display: flex;
       align-items: flex-start;
       padding-right: 0;
+      padding-left: 8px;
     }
   }
   :global(.vtex-ispromotion) {
