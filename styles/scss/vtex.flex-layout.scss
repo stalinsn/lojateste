@@ -436,7 +436,7 @@
 }
 
 :global(.vtex-store__template) {
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 .flexRowContent--recommended-you {
@@ -1472,8 +1472,7 @@
     text-transform: capitalize;
     line-height: 20px;
     background-color: #ed1d25;
-    min-height: 32px !important;
-    max-height: 32px !important;
+    height: 40px;
     border: none;
     border-radius: 4px;
     &:hover {
@@ -1644,8 +1643,7 @@
     text-transform: capitalize;
     line-height: 20px;
     background-color: $primary;
-    min-height: 32px !important;
-    max-height: 32px !important;
+    height:40px;
     &:hover {
       background-color: $secondary;
       border-color: $secondary;
@@ -2878,6 +2876,7 @@
   }
 }
 .flexRowContent--spot-price-pdp-mobile {
+  margin-top:10px;
   border: 1px solid #cacaca;
   border-radius: 30px;
   width: 100%;

@@ -153,7 +153,7 @@
   "image#card-icon": {
     "title": "Ícone",
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/credit_cart_icon.svg"
+      "src": "/arquivos/credit_cart_icon.svg"
     }
   },
   "flex-layout.col#methods-inner-text": {
@@ -1264,7 +1264,7 @@
   "image#service-1": {
     "title": "Serviço 1 - Imagem",
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_shipping_spec.svg",
+      "src": "/arquivos/icon_shipping_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1300,7 +1300,7 @@
   "image#service-2": {
     "title": "Serviço 2 - Imagem",
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_store_spec.svg",
+      "src": "/arquivos/icon_store_spec.svg",
       "blockClass": "image-service"
     }
   },
@@ -1336,7 +1336,7 @@
   "image#service-3": {
     "title": "Serviço 3 - Imagem",
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_payment_spec.svg",
+      "src": "/arquivos/icon_payment_spec.svg",
       "blockClass": "image-service",
       "size": 62
     }
@@ -1374,7 +1374,7 @@
   "image#service-4": {
     "title": "Serviço 4 - Imagem",
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/icon_security_spec.png",
+      "src": "/arquivos/icon_security_spec.svg",
       "blockClass": "image-service"
     }
   },

@@ -210,6 +210,13 @@
 
 .filter__container {
   border: none;
+  .filterTemplateOverflow{
+    .filterContent{
+      display:flex;
+      flex-direction: column;
+      gap:12px;
+    }
+  }
 }
 
 .galleryItem {
