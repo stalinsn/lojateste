@@ -114,7 +114,7 @@
   },
   "image#credit-card-payment": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/payments-cartao-credito.png",
+      "src": "https://gbarbosa.vtexassets.com/arquivos/cartao-credito.png",
       "maxHeight": 68,
       "blockClass": "cart-io-security"
     }
