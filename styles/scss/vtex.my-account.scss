@@ -61,6 +61,9 @@
     }
   }
 }
+:global(.vtex-my-cards-1-x-newCardButton) {
+  display: none;
+}
 :global(.vtex-flex-layout-0-x-flexRowContent--shelf-list-search) {
   > div {
     padding: 0 !important;

@@ -682,7 +682,23 @@
   border-radius: 4px;
   margin-top: 10px;
 }
+.price-checkout-promotion {
+  display: block;
+}
 
+.price-checkout-promotion {
+  color: #ed1d25;
+  font-weight: bold;
+  font-size: 16px;
+}
+.price-checkout-promotion-container {
+  font-size: 10px;
+  color: #898989;
+}
+
+.price-checkout-promotion-list {
+  font-weight: bold;
+}
 :global(.vtex-txt-red) {
   color: #e1251b;
   font-weight: 700;

@@ -237,6 +237,11 @@
   display: flex;
   align-items: center;
 }
+.flexRowContent--checkout-mobile-secondRow {
+  .stretchChildrenWidth {
+    width: 50% !important;
+  }
+}
 .flexRow--main-header-mobile-search {
   align-items: center;
   padding: 0.5rem;
@@ -854,7 +859,7 @@
 }
 .flexRowContent--checkout-product-container {
   display: grid;
-  grid-template-columns: 0.4fr 1.6fr 0.7fr 0.9fr 0.2fr;
+  grid-template-columns: 0.4fr 1.6fr 0.9fr 0.9fr 0.2fr;
   border: 1px solid #dedede;
   margin: 15px 0px;
   padding: 6px 20px;
