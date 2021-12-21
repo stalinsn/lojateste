@@ -618,6 +618,51 @@
     }
   }
 }
+:global(.vtex-search-2-x-tileListItem) {
+  :global(.vtex-isActualpromotion), :global(.vtex-ispromotion) {
+        .crmPriceCard, .crmPrice {
+          border-radius: 0 0 0 5px !important;
+          -webkit-border-radius: 0 0 0 5px !important;
+          -moz-border-radius: 0 0 0 5px !important;
+          -ms-border-radius: 0 0 0 5px !important;
+          -o-border-radius: 0 0 0 5px !important;
+          display: flex;
+          align-items: center;
+          padding: 13px 0;
+          padding-top: 13px !important;
+          @media screen and (max-width: 768px) {
+            padding: 4px 0;
+            padding-top: 4px !important;
+            flex-direction: column;
+            max-width: 108px;
+            border-radius: 5px !important;
+            align-items: flex-start;
+          }
+      }
+      .crmDiscount {
+        font-size: 14px;
+        margin-left: 50px;
+        @media screen and (max-width: 768px) {
+          margin-left: 0;
+        }
+      }
+      :global(.vtex-product-price-1-x-savings--search-savings) {
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        background: #62C462;
+      }
+
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje) {
+    :global(.vtex-product-price-1-x-savings) {
+      display: none;
+    }
+  }
+}
 :global(.vtex-store-components-3-x-searchBarInnerContainer--opened) {
   :global(.vtex-search-2-x-biggy-autocomplete) {
     :global(.vtex-search-2-x-tileList) {
@@ -628,7 +673,7 @@
               .customQuantitySelector {
                 top: 70px;
                 :global(.vtex-button) {
-                  margin-top: -10px;
+                  margin-top: -20px;
 
                   &:disabled {
                     visibility: hidden;
@@ -679,7 +724,8 @@
     right: 32px;
 
     @media screen and (max-width: em(450px)) {
-      position: inherit;
+      position: absolute;
+      top: 50px;
     }
   }
 }
