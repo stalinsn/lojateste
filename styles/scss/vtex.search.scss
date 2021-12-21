@@ -155,12 +155,16 @@
       }
 
       :global(.vtex-numeric-stepper-wrapper) {
-        position: inherit;
+        position: absolute;
+        top: calc(50% - 17px) !important;
+        :global(.vtex-numeric-stepper-container) {
+          margin-left: auto;
+        }
       }
 
       :global(.vtex-product-summary-2-x-container--compact) {
         max-width: initial !important;
-      }
+      }  
 
       :global(.vtex-product-summary-2-x-nameContainer) {
         padding: 0;

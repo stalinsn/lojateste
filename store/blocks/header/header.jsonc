@@ -519,12 +519,12 @@
   },
   "flex-layout.col#col-2": {
     "children": [
-      "search-bar" /* , "store-selector" */
+      "search-bar#mob" /* , "store-selector" */
     ],
     "props": {
       "blockClass": [
         "col-search",
-        "search-bar"
+        "search-bar#mob"
       ]
     }
   },
@@ -553,12 +553,35 @@
       "displayMode": "search-button"
     }
   },
+  "search-bar#mob": {
+    "title": "Header - Busca",
+    "blocks": [
+      "autocomplete-result-list.v2#mob"
+    ],
+    "props": {
+      "placeholder": "O que você está procurando?",
+      "blockClass": "search-mobile",
+      "__unstableProductOriginVtex": true,
+      "width": "grow",
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "left",
+      "displayMode": "search-button"
+    }
+  },
   "autocomplete-result-list.v2#main": {
     "props": {
       "maxSuggestedProducts": 4,
       "maxSuggestedTerms": 3,
       "productLayout": "HORIZONTAL",
       "HorizontalProductSummary": "product-summary.shelf#list-search"
+    }
+  },
+  "autocomplete-result-list.v2#mob": {
+    "props": {
+      "maxSuggestedProducts": 4,
+      "maxSuggestedTerms": 3,
+      "productLayout": "HORIZONTAL",
+      "HorizontalProductSummary": "product-summary.shelf#list-search-mob"
     }
   },
   "logo#mobile": {

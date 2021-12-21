@@ -618,8 +618,33 @@
     }
   }
 }
-:global(.vtex-search-2-x-tileListItem) {
-  :global(.vtex-isActualpromotion), :global(.vtex-ispromotion) {
+:global(.vtex-product-price-1-x-savings--search-savings) {
+  display: none;
+}
+:global(.vtex-isActualPromotion), :global(.vtex-ispromotion) {
+  :global(.vtex-product-price-1-x-savings--search-savings) {
+    display: block !important;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: #62C462 !important;
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--shelf-list-search) {
+        .personalFlags {
+          display: none;
+        }
+        .crmPriceCard {
+          background: #818181;
+        }
+        .crmPrice {
+          background: #5C5C5C;
+          margin-bottom: 0;
+        }
+  // :global(.vtex-isActualpromotion), :global(.vtex-ispromotion) {
         .crmPriceCard, .crmPrice {
           border-radius: 0 0 0 5px !important;
           -webkit-border-radius: 0 0 0 5px !important;
@@ -638,28 +663,39 @@
             border-radius: 5px !important;
             align-items: flex-start;
           }
+          .crmInstallmentsPdp {
+            display: none;
+          }
       }
       .crmDiscount {
         font-size: 14px;
         margin-left: 50px;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 768px) { 
           margin-left: 0;
         }
       }
-      :global(.vtex-product-price-1-x-savings--search-savings) {
-        @media screen and (max-width: 768px) {
-          display: none;
-        }
-        position: absolute;
-        right: 10px;
-        bottom: 10px;
-        background: #62C462;
-      }
-
-  }
-  :global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje) {
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje) {
     :global(.vtex-product-price-1-x-savings) {
       display: none;
+    }
+  // }
+}
+:global(.vtex-search-2-x-biggy-autocomplete) {
+  @media screen and (max-width: 768px) {
+    .crmInstallmentsPdp {
+      display: none;
+    }
+    .crmPrice {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+    }
+    .crmTitle {
+      font-size: 12px;
+    }
+    .crmDiscount {
+      margin-left: 45px;
     }
   }
 }
