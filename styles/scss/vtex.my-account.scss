@@ -61,7 +61,11 @@
     }
   }
 }
-
+:global(.vtex-flex-layout-0-x-flexRowContent--shelf-list-search) {
+  > div {
+    padding: 0 !important;
+  }
+}
 :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
   font-size: 14px;
   color: #ED1D25;
