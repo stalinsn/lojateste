@@ -512,7 +512,7 @@
     margin-top: 2px;
     margin-bottom: 2px;
     padding-left: 15px;
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
       font-size: 8px;
       padding-left: 6px;
       display: flex;
@@ -523,11 +523,11 @@
 :global(.vtex-ispromotion) {
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
     &:nth-child(even) {
-      background: #818181!important
+      background: #818181 !important;
     }
   }
   .installments_value {
-    background: #818181!important;
+    background: #818181 !important;
     color: #ffd500 !important;
     margin: 0 !important;
     padding: 0 20px;
@@ -820,8 +820,8 @@
 }
 :global(.vtex-isActualpromotion) {
   .crmPriceCard {
-    background: #5c5c5c!important;
-    margin: 0!important;
+    background: #5c5c5c !important;
+    margin: 0 !important;
     padding-top: 9px !important;
     border-radius: 30px 30px 0 0;
     @media screen and (max-width: 768px) {
@@ -831,7 +831,7 @@
   }
 
   .installments_value {
-      background: #5c5c5c !important;
+    background: #5c5c5c !important;
   }
   .crmTitle {
     color: #ffffff;
@@ -860,21 +860,107 @@
     }
   }
 
-  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) { 
-     background: #818181 !important;
-   }
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
+    background: #818181 !important;
+  }
 
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
     background: #5c5c5c !important;
     max-height: 62px;
   }
 }
+
+:global(.vtex-search-2-x-tileListItem) {
+  .crmPriceCard {
+    background: #5c5c5c 0% 0% no-repeat padding-box;
+    border-radius: 0 0 6px 6px;
+    margin: 0 !important;
+    padding-top: 9px !important;
+    opacity: 1;
+    display: flex;
+    padding: 16px 10px;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+
+    }
+  }
+
+  :global(.vtex-product-summary-2-x-container) {
+    :global(.vtex-product-price-1-x-savings) {
+      position: relative;
+      top: 77px;
+      left: 420px;
+      color: #fff;
+      background-color: #62c462;
+      display: flex;
+      @media screen and (max-width: 768px) {
+        position: static !important;
+        top: 0px;
+        left: 0px;
+      }
+    }
+
+    :global(.vtex-search-2-x-tileListItem) {
+      :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
+        :global(.vtex-store-components-3-x-currencyContainer--summary) {
+          color: #bababa !important;
+        }
+      }
+    }
+
+    .crmTitle {
+      color: #ffffff;
+      text-align: left;
+      font-size: 12px;
+      font-weight: 600px;
+
+      @media screen and (max-width: 768px) {
+        margin-left: 8px !important;
+      }
+    }
+    .crmDiscount {
+      color: #e8c200;
+      text-align: center;
+      font-size: 14px;
+      padding-left: 60px;
+      @media screen and (max-width: 768px) {
+        padding: 0 8px !important;
+        padding-left: 30px;
+      }
+    }
+
+    .installments_value {
+      color: #207e2c !important;
+      margin: 0;
+    }
+
+    :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
+      :global(.vtex-store-components-3-x-currencyContainer--summary) {
+        font-size: 18px !important;
+        color: #ed1d25 !important;
+      }
+    }
+
+    :global(.vtex-isActualpromotion) {
+      :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
+        :global(.vtex-store-components-3-x-currencyContainer--summary) {
+          color: #bababa !important;
+        }
+      }
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
+      background: #5c5c5c !important;
+      max-height: 62px;
+    }
+  }
+}
 :global(.vtex-ispromotion) {
   .crmPrice {
-    background: #818181!important
+    background: #818181 !important;
   }
   .installments_value {
-    background: #818181!important;
+    background: #818181 !important;
     color: #ffd500 !important;
     @media (max-width: 768px) {
       font-size: 8px;
@@ -902,7 +988,7 @@
     }
   }
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
-    background: #818181!important
+    background: #818181 !important;
   }
 }
 .paymentBankNumberCodeContainer {
@@ -956,7 +1042,7 @@
   }
   :global(.vtex-ispromotion) {
     .installments_value {
-      background: #818181!important;
+      background: #818181 !important;
       color: #ffd500 !important;
       font-size: 8px;
       padding-left: 2px;
