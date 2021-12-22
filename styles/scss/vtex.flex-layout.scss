@@ -592,6 +592,21 @@
     font-weight: bold;
   }
 }
+@media  screen and (max-width:468px){
+  .flexColChild--footer-1-mobile::after {
+    content:"";
+    width:88%;
+    min-width: 310px;
+    border-bottom:1px solid #fff;
+    display: block;
+    color: #fff;
+    opacity: 15%;
+    margin: 0 auto;
+  }
+  
+}
+
+
 .flexCol--mobile-contactos {
   align-items: center;
 }
@@ -650,6 +665,9 @@
 }
 .flexCol--footer-precol {
   margin-right: 50px;
+  .flexColChild--footer-precol{
+    margin:0 24px;
+  }
 }
 .flexRowContent--contactos {
   .imageElement--contactos1 {

@@ -472,6 +472,30 @@
 .styledLinkContent--red {
   color: #da291c !important;
 }
+.accordionIcon--mobilefooter--isClosed, .accordionIcon--mobilefooter--isOpen{
+  font-size:0;
+}
+.accordionIcon--mobilefooter--isOpen{
+  &::after{
+    content: "";
+      display: block;
+      width: 11px;
+      height: 23px;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/arrow-down-new.svg) no-repeat 50%;
+      transform: rotate(180deg);
+      background-size: 14px 23px !important;
+  }
+}
+.accordionIcon--mobilefooter--isClosed{
+  &::after{
+    content: "";
+      display: block;
+      width: 11px;
+      height: 23px;
+      background: url(https://gbarbosa.vteximg.com.br/arquivos/arrow-down-new.svg) no-repeat 50%;
+      background-size: 14px 23px !important;
+  }
+}
 
 :global(.vtex-menu-2-x-styledLink--menu-item-help-center) {
   .accordionIcon--isClosed {
