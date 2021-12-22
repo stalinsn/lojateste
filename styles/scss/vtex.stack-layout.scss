@@ -19,7 +19,7 @@
   left: auto;
 }
 
-// INSTITUTIONALS - GBARBOSA ODONTO 
+// INSTITUTIONALS - GBARBOSA ODONTO
 .stackItem--gbarbosa-odonto{
   height: 100%;
 }
@@ -29,8 +29,9 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%,-70%);
+  display: flex;
+  justify-content: center;
 }
-
 @media screen and (max-width: 767px) {
   .stackItem--vale-gas-mobile:last-child{
     top: 50%;
