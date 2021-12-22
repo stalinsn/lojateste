@@ -618,9 +618,9 @@
     }
   }
 }
-:global(.vtex-product-price-1-x-savings--search-savings) {
+/* :global(.vtex-product-price-1-x-savings--search-savings) {
   display: none;
-}
+} */
 :global(.vtex-isActualPromotion), :global(.vtex-ispromotion) {
   :global(.vtex-product-price-1-x-savings--search-savings) {
     display: block !important;
@@ -670,14 +670,14 @@
       .crmDiscount {
         font-size: 14px;
         margin-left: 50px;
-        @media screen and (max-width: 768px) { 
+        @media screen and (max-width: 768px) {
           margin-left: 0;
         }
       }
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje) {
     :global(.vtex-product-price-1-x-savings) {
-      display: none;
+      display: flex
     }
   // }
 }
