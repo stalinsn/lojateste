@@ -304,14 +304,21 @@
     "props": {
       "blockClass": "circle-mobile-col-infoCard"
     },
-    "children": ["logo#circle-1"]
+    "children": ["link#logo-circle-1"]
+  },
+  "link#logo-circle-1":{
+    "props":{
+      "target":"_blank",
+      "href": "https://www.delivery.gbarbosa.com.br/"
+    },
+    "children":["logo#circle-1"]
   },
   "logo#circle-1": {
     "title": "Imagem 1",
     "props": {
       "title": "Imagem 1",
-      "href": "/",
-      "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item1.png",
+      // "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item1.png",
+      "url":"/arquivos/circle1.png",
       "blockClass": "logo-circle"
     }
   },
