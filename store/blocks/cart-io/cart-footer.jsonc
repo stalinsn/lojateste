@@ -12,7 +12,6 @@
     "children": [
       "flex-layout.col#cart-io-title-col",
       "image#cart-io-security",
-      "flex-layout.col#payment-method",
       "flex-layout.col#developed-by",
       "flex-layout.col#safe-store"
     ],
@@ -40,21 +39,7 @@
       "blockClass": "cart-io-security"
     }
   },
-  "flex-layout.col#payment-method": {
-    "children": [
-      "rich-text#payment-method-title",
-      "image#payment-method-title"
-    ],
-    "props": {
-      "blockClass": "cart-io-col-container"
-    }
-  },
-  "rich-text#payment-method-title": {
-    "props": {
-      "text": "Formas de Pagamento",
-      "blockClass": "footer-cart-title"
-    }
-  },
+
   "image#payment-method-title": {
     "props": {
       "src": "https://gbarbosa.vteximg.com.br/arquivos/payments-cartao-credito.png",
@@ -137,7 +122,7 @@
     }
   },
   "flex-layout.row#first-row-footer-cart": {
-    "children": ["image#cart-io-security", "flex-layout.col#payment-method"],
+    "children": ["image#cart-io-security"],
     "props": {
       "blockClass": "row-footer-cart"
     }
@@ -149,4 +134,4 @@
     }
   }
 }
- 
+
