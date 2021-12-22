@@ -360,7 +360,7 @@
       "menu-item#mobilefooter-1",
       "menu-item#mobilefooter-2",
       "menu-item#mobilefooter-3",
-      "menu-item#mobilefooter-4",
+      // "menu-item#mobilefooter-4",
       "flex-layout.col#footer-desktop-post-col"
       /*  "disclosure-layout#footer-box-menu-know",
       "disclosure-layout#footer-box-menu-help",
@@ -440,22 +440,22 @@
     },
     "children": ["flex-layout.col#footer-6-desktop"]
   },
-  "menu-item#mobilefooter-4": {
-    "props": {
-      "blockClass": "mobilefooter",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Nossos canais",
-        "text": "Nossos canais"
-      }
-    }
+  // "menu-item#mobilefooter-4": {
+  //   "props": {
+  //     "blockClass": "mobilefooter",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": true,
+  //       "tagTitle": "Nossos canais",
+  //       "text": "Nossos canais"
+  //     }
+  //   }
     // "blocks": ["submenu.accordion#mobilefooter-3"]
-  },
+  // },
   /* ,
       "flex-layout.col#footer-6-desktop",
       "flex-layout.col#footer-desktop-post-col" */

@@ -116,11 +116,18 @@
   font-size: 14px;
   text-transform: lowercase;
 }
+.container--social-networks {
+  @media screen and (max-width: 768px) {
+    display: block!important;
+  }
+}
+
 .container--title-menu-footer {
   @media screen and (max-width: 768px) {
     display: none;
   }
 }
+
 .paragraph--methods-main-text {
   margin: 0;
   font-size: 21px;
