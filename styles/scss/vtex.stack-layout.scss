@@ -70,6 +70,8 @@
   top: 18%;
   left: 50%;
   transform: translate(-50%, -10%);
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -102,9 +104,11 @@
 
 // INSTITUTIONALS - CENCONSUD PROTEGE
 .stackItem--cenconsud-protege{
-  right: 8%;
   top: 14%;
-  left: auto;
+  right: unset;
+  display: flex;
+  justify-content: flex-end;
+  left: -30px;
 }
 
 @media screen and (max-width: 768px) {

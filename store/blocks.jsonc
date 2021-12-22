@@ -102,10 +102,7 @@
     "children": ["flex-layout.col#product-price-shelf"]
   },
   "flex-layout.col#product-price-shelf": {
-    "children": [
-      "personal-price#shelf-price",
-      "max-installments"
-    ],
+    "children": ["personal-price#shelf-price", "max-installments"],
     "props": {
       "preventVerticalStretch": true
     }
@@ -139,7 +136,8 @@
       "product-summary-name",
       "product-summary-brand",
       // "price-custom",
-      "personal-price#shelf-price"
+      "personal-price#shelf-price",
+      "has-promotion-layout"
     ],
     "props": {
       "width": "grow",
@@ -147,6 +145,9 @@
       "verticalAlign": "middle",
       "blockClass": "shelf-list-product-info"
     }
+  },
+  "has-promotion-layout": {
+    "children": ["product-price-savings#search"]
   },
   "flex-layout.col#shelf-list-product-info-mob": {
     "children": [
@@ -163,7 +164,7 @@
     }
   },
   "flex-layout.col#shelf-list-add-to-cart": {
-    "children": ["quantity-selector-custom", "product-price-savings#search"],
+    "children": ["quantity-selector-custom"],
     "props": {
       "verticalAlign": "bottom"
     }
@@ -171,7 +172,7 @@
   "product-price-savings#search": {
     "props": {
       "message": "-{savingsPercentage}",
-      "showSavings":true,
+      "showSavings": true,
       "minimumPercentage": 5,
       "blockClass": "search-savings"
     }
@@ -201,7 +202,10 @@
     }
   },
   "product-summary.shelf#list-search-mob": {
-    "children": ["flex-layout.row#shelf-list-search-mob", "personal-price#searchbar"],
+    "children": [
+      "flex-layout.row#shelf-list-search-mob",
+      "personal-price#searchbar"
+    ],
     "props": {
       "blockClass": "shelf-list"
     }
@@ -244,7 +248,7 @@
     "children": [
       "product-summary-image#shelf-list-search",
       "vtex.product-highlights@2.x:product-highlights",
-      "flex-layout.row#savings",
+      // "flex-layout.row#savings",
       "personal-flag"
     ]
   },
@@ -274,14 +278,10 @@
     ]
   },
   "personal-price#shelf-price": {
-    "children": [
-      "price-custom"
-    ]
+    "children": ["price-custom"]
   },
   "personal-price#searchbar": {
-    "children": [
-      "price-custom"
-    ],
+    "children": ["price-custom"],
     "props": {
       "isSearchBar": true,
       "showFlag": true

@@ -621,7 +621,8 @@
 /* :global(.vtex-product-price-1-x-savings--search-savings) {
   display: none;
 } */
-:global(.vtex-isActualPromotion), :global(.vtex-ispromotion) {
+:global(.vtex-isActualPromotion),
+:global(.vtex-ispromotion) {
   :global(.vtex-product-price-1-x-savings--search-savings) {
     display: block !important;
     @media screen and (max-width: 768px) {
@@ -630,55 +631,56 @@
     position: absolute;
     right: 10px;
     bottom: 10px;
-    background: #62C462 !important;
+    background: #62c462 !important;
   }
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--shelf-list-search) {
-        .personalFlags {
-          display: none;
-        }
-        .crmPriceCard {
-          background: #818181;
-        }
-        .crmPrice {
-          background: #5C5C5C;
-          margin-bottom: 0;
-        }
+  .personalFlags {
+    display: none;
+  }
+  .crmPriceCard {
+    background: #818181;
+  }
+  .crmPrice {
+    background: #5c5c5c;
+    margin-bottom: 0;
+  }
   // :global(.vtex-isActualpromotion), :global(.vtex-ispromotion) {
-        .crmPriceCard, .crmPrice {
-          border-radius: 0 0 0 5px !important;
-          -webkit-border-radius: 0 0 0 5px !important;
-          -moz-border-radius: 0 0 0 5px !important;
-          -ms-border-radius: 0 0 0 5px !important;
-          -o-border-radius: 0 0 0 5px !important;
-          display: flex;
-          align-items: center;
-          padding: 13px 0;
-          padding-top: 13px !important;
-          @media screen and (max-width: 768px) {
-            padding: 4px 0;
-            padding-top: 4px !important;
-            flex-direction: column;
-            max-width: 108px;
-            border-radius: 5px !important;
-            align-items: flex-start;
-          }
-          .crmInstallmentsPdp {
-            display: none;
-          }
-      }
-      .crmDiscount {
-        font-size: 14px;
-        margin-left: 50px;
-        @media screen and (max-width: 768px) {
-          margin-left: 0;
-        }
-      }
+  .crmPriceCard,
+  .crmPrice {
+    border-radius: 0 0 0 5px !important;
+    -webkit-border-radius: 0 0 0 5px !important;
+    -moz-border-radius: 0 0 0 5px !important;
+    -ms-border-radius: 0 0 0 5px !important;
+    -o-border-radius: 0 0 0 5px !important;
+    display: flex;
+    align-items: center;
+    padding: 13px 0;
+    padding-top: 13px !important;
+    @media screen and (max-width: 768px) {
+      padding: 4px 0;
+      padding-top: 4px !important;
+      flex-direction: column;
+      max-width: 108px;
+      border-radius: 5px !important;
+      align-items: flex-start;
+    }
+    .crmInstallmentsPdp {
+      display: none;
+    }
+  }
+  .crmDiscount {
+    font-size: 14px;
+    margin-left: 50px;
+    @media screen and (max-width: 768px) {
+      margin-left: 0;
+    }
+  }
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje) {
-    :global(.vtex-product-price-1-x-savings) {
-      display: flex
-    }
+  :global(.vtex-product-price-1-x-savings) {
+    display: flex;
+  }
   // }
 }
 :global(.vtex-search-2-x-biggy-autocomplete) {
@@ -943,16 +945,50 @@
   }
 
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
-
-     background: #818181 !important;
-   }
+    background: #818181 !important;
+  }
 
   :global(.vtex-flex-layout-0-x-flexColChild--shadow-product):nth-child(even) {
     background: #5c5c5c !important;
     max-height: 62px;
   }
 }
-
+:global(.vtex-flex-layout-0-x-flexColChild--shelf-list-product-info) {
+  .hasPromotionLayout {
+    position: relative;
+    :global(.vtex-product-price-1-x-savings) {
+      position: absolute;
+      top: -32px;
+      right: 5px;
+      color: #fff !important;
+      background-color: #62c462 !important;
+      display: flex;
+      @media screen and (max-width: 768px) {
+        position: static !important;
+        top: 0px;
+        left: 0px;
+      }
+    }
+  }
+  .noPromotionLayout {
+    position: relative;
+    :global(.vtex-product-price-1-x-savings) {
+      position: absolute;
+      top: -30px;
+      right: 0;
+      color: #fff !important;
+      background-color: #62c462 !important;
+      display: flex;
+      left: 130px;
+      max-width: fit-content;
+      @media screen and (max-width: 768px) {
+        position: static !important;
+        top: 0px;
+        left: 0px;
+      }
+    }
+  }
+}
 :global(.vtex-search-2-x-tileListItem) {
   .crmPriceCard {
     background: #5c5c5c 0% 0% no-repeat padding-box;
@@ -961,28 +997,13 @@
     padding-top: 9px !important;
     opacity: 1;
     display: flex;
-    padding: 16px 10px;
+    padding: 11px;
     align-items: center;
+    margin-right: -46px !important;
     @media screen and (max-width: 768px) {
-
     }
   }
-
   :global(.vtex-product-summary-2-x-container) {
-    :global(.vtex-product-price-1-x-savings) {
-      position: relative;
-      top: 77px;
-      left: 420px;
-      color: #fff;
-      background-color: #62c462;
-      display: flex;
-      @media screen and (max-width: 768px) {
-        position: static !important;
-        top: 0px;
-        left: 0px;
-      }
-    }
-
     :global(.vtex-search-2-x-tileListItem) {
       :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
         :global(.vtex-store-components-3-x-currencyContainer--summary) {
