@@ -138,6 +138,9 @@
     }
   }
 }
+:global(.vtex-my-orders-app-3-x-productTable) :global(.vtex-my-orders-app-3-x-attachment) {
+  display: none;
+}
 :global(.vtex-dropdown) {
   :global(.br2.bw1.relative.bg-white.ba.b--light-gray.hover-b--silver) {
     border: 2px solid #eeee;

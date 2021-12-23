@@ -18,13 +18,17 @@
           <tr style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
             <td style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
 
-              <table class="header" style="background: transparent; font-size: 100%; font-style: inherit; padding: 0; border: none; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; margin: auto; height: auto; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #ed1d25;" width="100%" valign="middle" align="center" bgcolor="#ed1d25"> 
+              <table class="header" style="background: transparent; font-size: 100%; font-style: inherit; padding: 0; border: none; border-collapse: collapse; border-spacing: 0; width: 100%; max-width: 600px; margin: auto; height: auto; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #ed1d25;" width="100%" valign="middle" align="center" bgcolor="#ed1d25">
                 <thead style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
 
-                <tr class="header__row1" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #f2f2f2; width: 100%;" valign="middle" align="center" bgcolor="#f2f2f2">
-                  <td colspan="6" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
+                <tr class="header__row1" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #f2f2f2; width: 100%; height: 25px; " valign="middle" align="center" bgcolor="#f2f2f2">
+                  <td class="order-number-header" style="background:transparent; border:0; font-size:100%; font-style:inherit; margin:0; padding:0; color:#383935; vertical-align:middle; text-align:right;">
+                  </td>
+                  <td class="order-number-header" style="background:transparent; border:0; font-size:100%; font-style:inherit; margin:0; padding:0; color:#383935; vertical-align:middle; text-align:right; white-space: nowrap;">Número do pedido:
+                  </td>
+                  <td colspan="6" style="background: transparent;border: 0;font-size: 100%;font-style: inherit;margin: 0;padding: 0;font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif;color: #383935;vertical-align: middle; text-align: center;font-weight: bold; margin-top: -20px; white-space: nowrap; padding: 0 5px;" valign="middle" align="center">
                     {{#each orders}}
-                      <p class="order-number-header" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: right;">Número do pedido: <span style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; font-weight: bold;">{{orderId}}</span></p>
+                      {{orderId}}
                     {{/each}}
                   </td>
                 </tr>
@@ -35,10 +39,9 @@
                       <img class="header__logo" src="https://gbarbosa.vtexassets.com/arquivos/gbarbosa_logo.png" alt="Logo {{_accountInfo.TradingName}}" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; max-height: 100%; color: #fff; margin: auto; max-width: 145px; width: 60px; height: 60px;" width="60" height="60">
                     </a>
                   </td>
-                  <td style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
-                    </td><td class="header__title" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center"><a href="https://{{_accountInfo.TradingName}}/account" target="_blank" style="background: transparent; border: 0; font-size: 100%;display:block; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; color: #fff; text-decoration: none;"><img src="https://gbarbosa.vtexassets.com/arquivos/user.png" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%;display: block;margin: 0 auto;">Minha conta</a></td>
-                    <td class="header__title" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center"><a href="https://{{_accountInfo.TradingName}}/account#/orders" target="_blank" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; display: table-caption; color: #fff; text-decoration: none;"><img src="https://gbarbosa.vtexassets.com/arquivos/shopping-bag-line.png" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%;">Pedidos</a></td>
 
+                  <td class="header__title" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center"><a href="https://{{_accountInfo.TradingName}}/account" target="_blank" style="background: transparent; border: 0; font-size: 100%;display:block; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; color: #fff; text-decoration: none;"><img src="https://gbarbosa.vtexassets.com/arquivos/user.png" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%;display: block;margin: 0 auto;">Minha conta</a></td>
+                  <td class="header__title" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; text-align: -webkit-center;" valign="middle" align="center"><a href="https://{{_accountInfo.TradingName}}/account#/orders" target="_blank" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; display: block; color: #fff; text-decoration: none;"><img src="https://gbarbosa.vtexassets.com/arquivos/shopping-bag-line.png" style="background: transparent;border: 0;font-size: 100%;font-style: inherit;margin: 0;padding: 0;font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif;color: #383935;vertical-align: middle;text-align: center;max-width: 100%;max-height: 100%;text-align: -webkit-center;display: block;margin: 0 auto;">Pedidos</a></td>
                   </tr></table></td>
                 </tr>
               </table>
@@ -47,28 +50,30 @@
     <tr class="notice__topic" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
         <td class="notice__topic-wrap" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; margin: auto; padding-bottom: 10px;" valign="middle" align="center">
             <a href="http://{{_accountInfo.AccountName}}.com.br" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;">
-                <img class="notice__topic-img" src="https://gbarbosa.vtexassets.com/arquivos/banner-pedido-realizado.png" alt="Pedido Realizado" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%; margin: auto; width: 100%;">
+            <img class="notice__topic-img"
+            src="https://gbarbosa.vtexassets.com/arquivos/newbanner.jpg" alt="Pedido Realizado"
+            style="background: transparent; border: 0; font-size: 100%; font-style: inherit; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%; margin: auto; width: 100%;">
             </a>
         </td>
     </tr>
     <tr class="notice__client" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
         <td class="notice__client-wrap" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; margin: auto; padding: 0 2%;" valign="middle" align="center">
-            <h1 class="heading" style="background: transparent; border: 0; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; color: #383935; font-size: 16px; font-weight: bold; text-transform: uppercase; text-align: left; margin-top: 30px;">
+            <h1 class="heading" style="background: transparent; border: 0; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; color: #383935; font-size: 16px; font-weight: bold; text-align: left; margin-top: 30px;">
                 {{#each orders}}
                     {{#if clientProfileData.firstName}}
                         {{#compare clientProfileData.firstName '!=' 'isAnonymous'}}
-                            Olá, {{clientProfileData.firstName}}.
+                            Olá {{clientProfileData.firstName}},
                         {{/compare}}
                     {{/if}}
                 {{/each}}
             </h1>
-            <p class="acknowledgment" style="background: transparent; border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: left; font-weight: normal; font-size: 12px; padding: 1% 0; line-height: 18px; text-transform: initial;">
+            <p class="acknowledgment" style="background: transparent; border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: left; font-weight: normal; font-size: 14px; padding: 1% 0; line-height: 18px; text-transform: initial;">
                 Recebemos seu pedido! :) <br><br>
-                O Pedido está em processo de pagamento, precisamos aguardar a aprovação da instituição financeira que deve chegar em instantes, mas temos ressaltar que o prazo de aprovação depende do módulo de pagamento. <br><br>
-               Assim que recebermos a aprovação você receberá um e-mail de confirmação, e se por algum motivo a instituição financeira não aprovar seu pagamento, seu pedido será cancelado, neste caso você também receberá um e-mail de informação. <br><br>
-               O prazo para entrega começa a contar a partir da confirmação do pagamento pela instituição financeira.
+                Informamos que pedido está em processo de pagamento, precisamos aguardar a aprovação da instituição financeira. O prazo de aprovação depende da forma de pagamento. <br><br>
+               Assim que recebermos a aprovação, você receberá um e-mail de confirmação da sua compra. Caso a instituição financeira não aprove o pagamento, seu pedido será cancelado. Mas fique tranquilo, também lhe comunicaremos. <br><br>
+               Lembramos que o prazo para entrega começa a contar a partir da confirmação do pagamento pela instituição financeira.
 
-                Obs: Se não receber a confirmação em até 3 horas entre em contato com a nosso <a href="#" class="attendance" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; color: #ed1d25; text-decoration: none;">Central de Atendimento.</a>
+                Caso tenha alguma dúvida, entre em contato com a nossa <b><a href="#" class="attendance" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; color: #ed1d25; text-decoration: none;">Central de Atendimento.</a></b> <br><br> Até breve!
             </p>
         </td>
     </tr>
@@ -79,16 +84,15 @@
             <img class="status__img" src="https://gbarbosa.vtexassets.com/arquivos/pedido-realizado.png" alt="status do pedido" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%;">
         </td>
     </tr>
-
-    <tr class="status__row order-number" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
-        <td class="status__number" colspan="5" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; padding: 0 7%;" valign="middle" align="center">
+  <table style="text-align: center;background: transparent;font-size: 100%;font-style: inherit;padding: 0;border: none;border-spacing: 0;width: 100%;max-width: 600px;margin: auto;height: auto;font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif;color: #383935;vertical-align: middle;text-align: center;background-color: #fff;border-collapse: separate;padding-bottom: 10px;
+">
+    <tr class="status__row order-number" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background: #ebebeb;" valign="middle" align="center">
             {{#each orders}}
-                <p class="order-number-inner" style="border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; padding: 24px 0; background: #ebebeb; color: #ed1d25; font-size: 16px;">Número do pedido: <span style="background: transparent; border: 0; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; color: #ed1d25; font-size: 20px; font-weight: bold;">{{orderId}}</span></p>
+                <td class="order-number-inner" style="border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: right; padding: 24px 0; background: #ebebeb; color: #ed1d25; font-size: 16px;">Número do pedido: </td><td style="background: transparent; border: 0; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: left; color: #ed1d25; font-size: 20px; font-weight: bold; margin-left: 5px;">{{orderId}}</td>
             {{/each}}
-        </td>
-    </tr>
+    </tr></table>
         <tr class="status__row" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;" valign="middle" align="center">
-            <td class="status__follow" colspan="5" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; padding: 7% 0;" valign="middle" align="center">
+            <td class="status__follow" colspan="5" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; padding: 60px 0px;" valign="middle" align="center">
                 <a class="follow__button" href="https://{{_accountInfo.TradingName}}/account#/orders" target="_blank" style="border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; vertical-align: middle; text-align: center; background: #ed1d25; text-decoration: none; color: #fff; padding: 14px 24px; font-size: 14px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px;">
                     Acompanhar pedido
                 </a>
@@ -119,7 +123,7 @@
     <tr class="shelf__row" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; padding: 4% 0;" valign="middle" align="center">
         <td class="product__img" colspan="1" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: left; width: 15%;" width="15%" valign="middle" align="left">
             {{#if detailUrl}}
-            <a href="http://{{_accountInfo.AccountName}}.com.br{{detailUrl}}" target="_blank" rel="noopener noreferrer" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;">
+            <a href="http://beta.gbarbosa.com.br{{detailUrl}}" target="_blank" rel="noopener noreferrer" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center;">
                 <img alt="produto" src="{{imageUrl}}" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; max-width: 100%; max-height: 100%;">
             </a>
             {{else}}
@@ -211,13 +215,13 @@
     <tr class="billing__row" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #eaeaea;" valign="middle" align="center" bgcolor="#eaeaea">
         <th class="billing__header" style="background: transparent; border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; font-size: 16px; font-weight: bold; padding: 2% 2% 4%; text-align: left; width: 50%;" width="50%" valign="middle" align="left">Dados de entrega:</th>
         <th class="billing__header" style="background: transparent; border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; font-size: 16px; font-weight: bold; padding: 2% 2% 4%; text-align: left; width: 50%;" width="50%" valign="middle" align="left">Dados de Pagamento:</th>
-    </tr> 
+    </tr>
     <tr class="billing__row" style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: center; background-color: #eaeaea;" valign="middle" align="center" bgcolor="#eaeaea">
-        <td class="billing__data" width="50%" style="background: transparent; border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; font-size: 12px; padding: 2%; text-align: left; vertical-align: top; width: 50%;" align="left" valign="top">            
+        <td class="billing__data" width="50%" style="background: transparent; border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; font-size: 12px; padding: 2%; text-align: left; vertical-align: top; width: 50%;" align="left" valign="top">
                {{#richShippingData shippingData}}
                     {{#group logisticsInfo by="addessId"}}
                         <div style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: left;">
-                            
+
                             {{#compare items.0.selectedDeliveryChannel '==' null}}
                             <div style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: left;">
                                 <h4 class="billing__shipping" style="background: transparent; border: 0; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: left; font-size: 14px; margin-bottom: 20px;">Receber</h4>
@@ -291,7 +295,7 @@
         <td class="billing__data" width="50%" style="background: transparent; border: 0; font-style: inherit; margin: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; font-size: 12px; padding: 2%; text-align: left; vertical-align: top; width: 50%;" align="left" valign="top">
             {{#compare split "!=" true}}
                 {{#each paymentData.transactions}}
-                    
+
                     {{#compare payments.length "==" 1}}
                         {{#each payments}}
                             <div style="background: transparent; border: 0; font-size: 100%; font-style: inherit; margin: 0; padding: 0; font-family: fabriga,-apple-system,blinkmacsystemfont,avenir next,avenir,ubuntu,roboto,noto,segoe ui,arial,sans-serif; color: #383935; vertical-align: middle; text-align: left;">
@@ -392,13 +396,13 @@
 <table class="prefooter" style="max-width: 600px;margin: 15px auto;padding: 0 15px;">
     <tr>
         <td style="text-align:center">
-            <img src="https://gbarbosa.vteximg.com.br/arquivos/banner_secundario_email.png" />
+            <img src="https://gbarbosa.vteximg.com.br/arquivos/banner_secundario_email.png" style="max-width: 100%;"/>
         </td>
     </tr>
     <tr>
-        <td style="padding: 15px;border: 1px solid #EAEAEA;margin-top: 30px;display: block;">        
+        <td style="padding: 15px;border: 1px solid #EAEAEA;margin-top: 30px;display: block;">
             <h4 style="margin: 0;color: #434344;font-size: 16px;font-family: Arial;margin-top: 30px;">Algumas informações importantes</h4>
-            <p style="margin: 0;color: ##333333;font-size: 12px;font-family: Arial;margin-top: 30px;">
+            <p style="margin: 0;color: #333333;font-size: 12px;font-family: Arial;margin-top: 30px;">
                 <strong>Compras com Cartão de Crédito: </strong> Confirmação poderá ser realizada em até dois dias úteis.<br/><br/>
                 <strong>Compras através de Boleto Bancário: </strong> Confirmação poderá ocorrer em até três dias úteis, a partir do pagamento.<br/><br/>
                 <strong>Compras através de PIX:</strong> Confirmação poderá ocorrer em até três dias úteis. <br/><br/>
@@ -409,7 +413,7 @@
                 - Conheça os procedimentos para realização de <a href="https://beta.gbarbosa.com.br/central-de-atendimento/faq" target="_blank" style="color: #ED1D25;text-decoration: none;font-weight: bold;">Troca e Devolução.</a><br/><br/>
                 - Por favor, não responda este email, pois ele foi gerado automaticamente. <br/><br/>
                 - Dúvidas? Entre em contato com a nossa <a href="https://beta.gbarbosa.com.br/central-de-atendimento/fale-conosco" target="_blank" style="color: #ED1D25;text-decoration: none;font-weight: bold;">Central de Atendimento.</a><br/><br/>
-                
+
             </p>
         </td>
     </tr>

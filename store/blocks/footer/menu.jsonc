@@ -16,7 +16,7 @@
       "menu-item#contactanos-5",
       "menu-item#contactanos-6"
       // "menu-item#contactanos-9"
-      
+
       // "menu-item#contactanos-7",
       // "menu-item#contactanos-8"
     ]
@@ -73,7 +73,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
+        "type": "external",
         "href": "https://www.cencosud.com/",
         "noFollow": false,
         "tagTitle": "Grupo Cencosud",

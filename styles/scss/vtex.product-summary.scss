@@ -183,6 +183,9 @@
     border-radius: 5px;
     // padding: 0 15px;
 
+    :global(.vtex-numeric-stepper__input){
+      width: 100% !important;
+    }
     :global(.vtex-numeric-stepper__input),
     :global(.vtex-numeric-stepper__plus-button),
     :global(.vtex-numeric-stepper__minus-button) {
