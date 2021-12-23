@@ -112,10 +112,18 @@
   > div {
     opacity: 0.3;
   }
+  &::after {
+    content: '';
+    opacity: 0.3;
+  }
 }
 :global(.vtex-numeric-stepper__minus-button.c-disabled) {
   background: #fff;
   > span {
+    opacity: 0.3;
+  }
+  &::after {
+    content: '';
     opacity: 0.3;
   }
 }
