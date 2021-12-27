@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.10.8] - 2021-12-27
+
 ## [0.10.7] - 2021-12-27
 
 ## [0.10.6] - 2021-12-23
