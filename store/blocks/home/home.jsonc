@@ -10,7 +10,7 @@
       // "flex-layout.row#shelf-last-car",
       "flex-layout.row#offers",
       "flex-layout.row#shelf-offers",
-      "__fold__.experimentalLazyAssets",
+      // "__fold__",
       "flex-layout.row#row-22-images",
       "flex-layout.row#featured-product",
       "flex-layout.row#shelf-featured-product",
