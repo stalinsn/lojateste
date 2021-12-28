@@ -621,6 +621,12 @@
 /* :global(.vtex-product-price-1-x-savings--search-savings) {
   display: none;
 } */
+:global(.vtex-product-price-1-x-savings--search-savings) {
+  @media screen and (max-width: 768px) {
+    max-height: 15px;
+    margin-right: 5px;
+  }
+}
 :global(.vtex-isActualPromotion),
 :global(.vtex-ispromotion) {
   :global(.vtex-product-price-1-x-savings--search-savings) {
