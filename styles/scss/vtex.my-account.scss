@@ -918,7 +918,7 @@
     }
   }
   :global(.myo-progress-bar) :global(.myo-progress-bar__text) {
-    display: block;
+    display: block !important;
     font-size: 9px;
   }
 }
