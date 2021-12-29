@@ -385,3 +385,24 @@
     flex-flow: column;
   }
 }
+@media screen and (max-width: 768px) {
+  .childrenContainer {
+    display: flex;
+    flex-direction: column;
+  } 
+  .container {
+    padding-bottom: 10px !important;
+  }
+  .mobileAltMenu {
+    .link {
+     display: flex;
+     text-decoration: none; 
+     color: #525252; 
+     font-size: 14px; 
+     min-width: 200px; 
+     line-height: 28px;
+     font-weight: bold;
+     padding: 5px 20px;
+    }
+  }
+}

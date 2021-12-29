@@ -804,7 +804,7 @@
                 & > span {
                   font-size: 0;
                   &::before {
-                    font-size: 0.875rem;
+                    font-size: 10px;
                     content: "Em preparação";
                   }
                 }
@@ -815,7 +815,7 @@
                 & > span {
                   font-size: 0;
                   &::before {
-                    font-size: 0.875rem;
+                    font-size: 10px;
                     content: "Pedido enviado";
                   }
                 }
@@ -826,7 +826,7 @@
                 & > span {
                   font-size: 0;
                   &::before {
-                    font-size: 0.875rem;
+                    font-size: 10px;
                     content: "Pedido entregado";
                   }
                 }
@@ -870,6 +870,9 @@
     display: flex;
     flex-direction: column;
     background: #fff;
+    :global(.myo-progress-bar__highlighted-circle) {
+      margin-top: 1.3rem;
+    }
     :global(.myo-progress-bar__title-font) {
       justify-content: center;
       display: flex;
@@ -889,6 +892,7 @@
               color: #898989;
               font-size: 13px;
               margin-top: 30px;
+              display: none;
             }
           }
           &:last-child {
@@ -912,6 +916,10 @@
         }
       }
     }
+  }
+  :global(.myo-progress-bar) :global(.myo-progress-bar__text) {
+    display: block;
+    font-size: 9px;
   }
 }
 :global(.vtex-my-account-1-x-boxContainerBody) {
