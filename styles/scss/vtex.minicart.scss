@@ -19,7 +19,11 @@
     }
   }
 }
-
+.overlay--visible {
+  opacity: unset !important;
+  backdrop-filter: blur(12px);
+  background-color: rgba(82,82,82,.63);
+}
 .minicartContentContainer {
   :global(.vtex-product-list-0-x-availabilityMessageTextContainer) {
     font-size: 11px;
