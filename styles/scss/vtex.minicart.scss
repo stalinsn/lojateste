@@ -19,10 +19,13 @@
     }
   }
 }
+.overlay {
+  background-color: rgba(82,82,82,.63)
+}
 .overlay--visible {
   opacity: unset !important;
   backdrop-filter: blur(12px);
-  background-color: rgba(82,82,82,.63);
+  background-color: rgba(82,82,82,.63) !important;
 }
 .minicartContentContainer {
   :global(.vtex-product-list-0-x-availabilityMessageTextContainer) {

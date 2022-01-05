@@ -206,7 +206,7 @@
   },
   "flex-layout.row#search-title": {
     // "children": ["search-title.v2"],
-"children": ["search-title-custom"],
+    "children": ["search-title-custom"],
     "props": {
       "blockClass": "search-title"
     }
@@ -287,10 +287,13 @@
     }
   },
   "flex-layout.row#filter-navigator": {
-    "children": ["filter-navigator.v3"],
+    "children": ["flex-layout.col#filter"],
     "props": {
       "blockClass": "filter-navigator"
     }
+  },
+  "flex-layout.col#filter": {
+    "children": ["filter-navigator.v3", "clean-filter"]
   },
   "filter-navigator.v3": {
     "props": {
