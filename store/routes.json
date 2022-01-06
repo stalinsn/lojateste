@@ -80,6 +80,12 @@
   "store.custom#contact-us": {
     "path": "/central-de-atendimento/fale-conosco"
   },
+  "store.custom#delivery-policy":{
+    "path":"/central-de-atendimento/politica-de-entrega"
+  },
+  "store.custom#exchange-return-policy":{
+    "path":"/central-de-atendimento/politica-de-troca-e-devolucao"
+  },
   "store.custom#stores": {
     "path": "/lojas"
   },

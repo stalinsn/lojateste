@@ -46,6 +46,8 @@
       "rich-text#call-center-link-2-active",
       "rich-text#call-center-link-3",
       "rich-text#call-center-link-4",
+      "rich-text#call-center-link-6",
+      "rich-text#call-center-link-7",
       "rich-text#call-center-link-5"
     ],
     "props": {

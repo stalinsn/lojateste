@@ -1,0 +1,79 @@
+{
+  "store.custom#exchange-return-policy": {
+    "parent": {
+      "header": "header"
+    },
+    "blocks": ["responsive-layout.desktop#exchange-return-policy", "responsive-layout.tablet#exchange-return-policy", "responsive-layout.phone#exchange-return-policy"]
+    },
+    "responsive-layout.desktop#exchange-return-policy": {
+        "children": [
+          "flex-layout.row#call-center-title",
+          "flex-layout.row#exchange-return-policy-container"
+        ]
+      },
+      "responsive-layout.tablet#exchange-return-policy": {
+        "children": [
+          "flex-layout.row#call-center-title",
+          "flex-layout.row#exchange-return-policy-container"
+        ]
+      },
+      "responsive-layout.phone#exchange-return-policy": {
+        "children": [
+          "rich-text#back-to-call-center",
+          "flex-layout.row#exchange-return-policy-container-mobile"
+        ]
+      },
+      "flex-layout.row#exchange-return-policy-container-mobile": {
+        "children": ["flex-layout.col#exchange-return-policy-content"],
+        "props": {
+          "blockClass": ["call-center-content"],
+          "marginBottom": 10
+        }
+      },
+      "flex-layout.row#exchange-return-policy-container": {
+        "children": ["flex-layout.col#exchange-return-policy-links", "flex-layout.col#exchange-return-policy-content"],
+        "props": {
+          "blockClass": ["call-center-content"],
+          "marginBottom": 10
+        }
+      },
+      "flex-layout.col#exchange-return-policy-links": {
+        "children": [
+          "rich-text#call-center-link-1",
+          "rich-text#call-center-link-2",
+          "rich-text#call-center-link-3",
+          "rich-text#call-center-link-4",
+          "rich-text#call-center-link-6",
+          "rich-text#call-center-link-7-active",
+          "rich-text#call-center-link-5"
+        ],
+        "props": {
+          "preventVerticalStretch": true,
+          "width": "20%"
+        }
+      },
+      "flex-layout.col#exchange-return-policy-content": {
+        "children": [
+          "rich-text#exchange-return-policy",
+          "flex-layout.col#exchange-return-policy"
+        ],
+        "props": {
+          "width": "80%"
+        }
+      },
+      "rich-text#exchange-return-policy": {
+        "props": {
+          "text": "Política de troca e devolução ",
+          "blockClass": "exchange-return-policy-title"
+        }
+      },
+      "flex-layout.col#exchange-return-policy": {
+        "children": ["rich-text#exchange-return-policy-content"]
+      },
+      "rich-text#exchange-return-policy-content":{
+        "props":{
+          "text":"## 1. Condições Gerais \n \nTodas as trocas e devoluções deverão ser comunicadas à Central de Atendimento dentro do prazo de 7 (sete) dias corridos a contar do recebimento do produto. A Cencosud indicará a forma de devolução mais apropriada a depender da categoria do produto e/ou região de entrega. O reembolso de valores pagos através de PIX ou Boleto ou o estorno de compras realizadas com cartão de crédito ou emissão do Vale-compra (nos casos de troca) somente serão executados após confirmação do retorno do produto aos estoques da Empresa. Caso você ainda não tenha recebido seu produto e deseja cancelar a sua compra, o reembolso de valores pagos através de PIX ou Boleto será realizado em até 07 (sete) dias úteis da sua solicitação de cancelamento. Se você utilizou Cartão de Crédito como forma de pagamento, a Cencosud solicitará o estorno à Administradora do seu cartão, que por sua vez, executará o reembolso de acordo com os prazos estabelecidos em sua própria política. \n \n ## 2. Troca de produto \n \nA Cencosud se compromete em enviar o produto aos clientes exatamente como recebeu do fabricante, e solicitamos a análise detalhada no momento da entrega, qualquer anomalia detectada no momento da entrega, orientamos a devolução do mesmo.\n \nOs produtos poderão ser trocados nas seguintes situações:\n \na) Embalagem violada ou avariada;\n b) Produto avariado; \n c) Produto em não conformidade com o pedido; \nd) Ausência de acessórios; \ne) Ausência de Nota Fiscal (DANFE).\n \nPara os casos de recusa dos produtos no momento da entrega (constantes nas letras a, b, c,d) o cliente deverá anotar o motivo da recusa no\n verso da Nota Fiscal (DANFE) e notificar a Central de atendimento, através do telefone **0800 720 1111**. Caso o pedido seja recebido, será\n necessário entrar em contato imediatamente com nossa Central de Atendimento **0800 720 1111**.\n A troca ou devolução do seu produto somente será realizada se estiver dentro da política da Empresa, conforme abaixo:\n \n(i) Produto em sua embalagem original (preferencialmente);\n (ii) Etiqueta / lacre de garantia original do fabricante intacto; \n(iii) Conter todos os acessórios e Manual; \n(iv) Sem sinal de mau uso, como riscos, marcas e tombos\n \nCaso você não tenha mais a embalagem original, acondicione o produto em outra embalagem para que fique completamente lacrado. Orientamos ainda que o produto seja protegido com plástico bolha a fim de evitar avarias e garantir o sucesso da sua troca e/ou devolução.\n \nApós a coleta/postagem, o produto será devolvido ao Centro de Distribuição para triagem e análise. Após recepção do produto no Centro de\n Distribuição, a equipe responsável pela triagem deverá concluir a análise em até 3 dias úteis.\n \nSe o produto analisado NÃO estiver em conformidade com as regras estabelecidas na política de troca e devolução, a Empresa irá devolvê-lo ao\n cliente e a solicitação de troca será recusada. Se o produto analisado estiver em conformidade com as regras estabelecidas na política de troca e\n devolução, a Empresa dará continuidade à solicitação do cliente, mantendo-o informado por telefone ou e-mail.\n \n ## 2.1 Solicitação de troca para o mesmo produto \n \nSe você solicitou a troca pelo mesmo produto, o novo item será enviado para o seu endereço e você receberá um e-mail com o passo a passo da\n sua troca.\n \n ## 2.2 Solicitação de troca por produto diferente \n \nSe você deseja realizar uma troca por um produto diferente do que comprou, a Cencosud disponibilizará um Vale-compra no valor do produto \ndevolvido \ncom validade de 1 ano para utilização exclusivamente no “site” da Empresa.\n \n ## 2.3 Produto com defeito \n \nVocê tem 7 (sete) dias corridos, a partir da data de entrega, para solicitar a troca ou devolução do produto com defeito. Lembramos que a troca\n ou devolução do seu produto somente será realizada se estiver dentro da política da Empresa.\n \nSegue abaixo as condições para elegibilidade da troca do produto com defeito.\n \n(i) Produto em sua embalagem original (preferencialmente);\n (ii) Etiqueta / lacre de garantia original do fabricante intacto;\n (iii) Conter todos os acessórios e Manual; \n(iv) Sem sinal de mau uso, como riscos e marcas de tombos\n Se você não tiver a embalagem original, pode utilizar outra, desde que seja devidamente lacrada para que não ocorram avarias. Indicamos envolver o produto em plástico bolha e lacrar a embalagem com fita adesiva.\n \nSe o produto apresentar defeito fora do prazo acima, e estiver dentro da garantia do fabricante, você deve procurar atendimento direto com fornecedor através dos telefones ou página do fabricante, conforme dados disponíveis no manual do produto. Caso tenha dificuldade, entre em contato com a nossa Central de Atendimento através do telefone **0800 720 1111**\n \nEm se tratando de produtos de importação Cencosud (Marca própria) você deverá entrar em contato com nossa Central de Atendimento através\n do telefone **0800 720 1111**\n \n ## 2.4 Produto com avaria \n \nAtenção! É importante verificar como está a embalagem e o(s) produto(s) na hora em que receber o pedido.\nSe ao receber o pedido perceber algum defeito na embalagem ou no produto na hora da entrega, recuse e não aceite a encomenda. Faça uma \nanotação atrás da nota fiscal ou do comprovante de entrega explicando o que notou de estranho. \n \nO prazo de troca é de 7 dias corridos após a entrega. \n \n \\- É necessário que o produto esteja na embalagem original com o manual e todos os acessórios que vieram no produto. \n \n \\- Não pode haver sinais de mau uso, como riscos e marcas de tombos. \n \n \\- Se você não tiver a embalagem original, pode utilizar outra, desde que seja devidamente lacrada para que não ocorram avarias.\n \n ## 2.5 Produto recebido foi diferente do que comprou \n \nSe você perceber isso na hora da entrega:\n \n \\- Recuse o recebimento e faça uma anotação atrás da nota fiscal ou do comprovante de entrega explicando o problema. Após efetuar a recusa, seguir os passos abaixo.\n \n \\- Entre em contato com nossa Central de Atendimento através do telefone 0800 720 1111. \n \n \\- Solicite a troca detalhando a diferença entre o item comprado e o recebido. Informe também os dados da etiqueta do produto. \n \nNotando a diferença depois do recebimento, você tem 7 (sete) dias corridos após a entrega para solicitar a troca. \n \n ## 3. Como enviar o produto de volta ao Centro de Distribuição Cencosud \n \n ## 3.1 Postagem em uma Agência dos Correios \n \nEsta forma de devolução poderá ser indicada somente pela Cencosud, levando em consideração o peso e a dimensão do produto. Nessa\n modalidade, enviaremos um e-mail ao cliente com o código de autorização (E-ticket) para o envio do produto via correio sem nenhum custo. \n \n ## 3.2 Coleta no mesmo endereço de entrega via transportadora \n \nAs coletas são feitas de segunda-feira a sexta-feira, das 8h às 18h, ou de acordo com a disponibilidade da transportadora selecionada pela \nCencosud.\n \nAo realizar a coleta do produto, o transportador deverá entregar ao responsável pela devolução um comprovante de coleta. \n \nNa ausência desse comprovante, deve-se recusar a devolução do produto, pois este documento será a garantia de devolução do produto. \n \nO Cencosud fará até 3 (três) tentativas de coleta no prazo de até 2 (dois) dias úteis. Caso não consiga retirar o produto em nenhuma delas, a\n solicitação será cancelada e informada ao cliente por e-mail.\n \n ## 4. Regras para utilização do Vale-compra \n \nO Vale-compra é uma opção de troca com maior comodidade. \n \nPossui validade de 1 (um) ano e é vinculado ao CPF, por isso, é intransferível. \n \nO valor pago pelo produto retorna como crédito no site (exclusivo) e você poderá utilizá-lo para compra de qualquer outro item que seja \nVendido e Entregue pela Cencosud. \n \nSe você solicitou a troca por um produto diferente do que comprou: - O produto será coletado/devolvido ao nosso estoque e passará por uma \n \nanálise em até 3 (três) dias úteis. - Após a análise, o Vale-compra será disponibilizado. Você receberá um e-mail assim que ele estiver disponível.\n \n ## 4.1 Como utilizar o Vale Compras \n \n \\- Para utilizar o Vale-Compras, o produto deverá ser “Vendido e entregue pela CENCOSUD. Você encontra essa informação no momento da \n \ncompra do produto, bastando seguir os passos abaixo. \n \n \\- Adicione o produto ao carrinho e quando for realizar o pagamento selecione a opção Vale-compra. \n \n \\- Se o valor do novo produto for superior, você deverá pagar a diferença com cartão de crédito ou outra forma de pagamento disponível. \n \nSe o valor do novo produto for inferior ao valor do seu Vale-compra, você poderá reutilizá-lo em outras compras, dentro do prazo de validade. \n \nSe precisar de ajuda para utilizar seu crédito disponível, basta entrar em contato com nossa Central de Atendimento, Telefone 0800 720 1111\n \n ## 5. Arrependimento da compra (Cancelamento) \n \nA Cencosud garante o seu direito de Arrependimento da Compra no prazo de 7 (sete) dias corridos a partir da data do recebimento do produto \n(artigo 49 do CDC – Código de Defesa do Consumidor), para isso, é imprescindível que acione nossa Central de Atendimento ao consumidor \natravés do telefone **0800 720 1111**. Abaixo detalhamos melhor as regras para solicitação do cancelamento. \n \n ## 5.1 Reembolso do valor Pago (Cancelamento / Devolução) \n \nOcorrendo o cancelamento da compra, o reembolso do valor pago se realizará na mesma forma de pagamento escolhida pelo cliente no \nmomento da compra. Segue abaixo detalhamento por forma de pagamento: \n \n **Cartão de Crédito:** Assim que o cancelamento for finalizado, iremos comunicar a adquirente processadora do cartão para que o estorno ou \nreembolso do valor pago ocorra na fatura atual ou na seguinte. Importante: o prazo para estorno ou reembolso do valor pago dependerá da \ndata de fechamento da sua fatura, sendo que a responsabilidade é do emissor do cartão. \n \n **Boleto Bancário:** O reembolso ocorrerá dentro de 7 (sete) dias úteis na sua conta corrente. Importante: não realizamos o reembolso em conta \n \nsalário ou em nome de terceiros, assim, é necessário que a o tipo de conta informada seja “corrente ou poupança” e esteja no nome do titular \n \nda compra. \n \n **PIX:** O reembolso ocorrerá dentro de 7 (sete) dias úteis na sua conta corrente. Importante: o crédito será feito no mesmo domicílio bancário do \n \nremetente do pagamento. \n \n **Vale-Compra:** Para pedidos pagos com vale-compra, o reembolso será feito na forma de pagamento que originou o crédito. Vale ressaltar que se a sua forma de pagamento original foi Boleto Bancário ou PIX, o reembolso do valor pago somente poderá será efetuado em conta corrente do titular da compra e que não seja conta salário.",
+          "blockClass":"exchange-return-policy-content"
+        }
+      }
+}

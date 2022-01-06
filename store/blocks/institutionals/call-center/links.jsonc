@@ -61,5 +61,33 @@
       "text": "[**Ofertas do APP**](/central-de-atendimento/ofertas-app)",
       "font": "t-small"
     }
+  },
+  "rich-text#call-center-link-6": {
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Política de entrega](/central-de-atendimento/politica-de-entrega)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-6-active": {
+    "props": {
+      "blockClass": ["call-center-link", "link-active"],
+      "text": "[**Política de entrega**](/central-de-atendimento/politica-de-entrega)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-7": {
+    "props": {
+      "blockClass": ["call-center-link"],
+      "text": "[Política de troca e devolução](/central-de-atendimento/politica-de-troca-e-devolucao)",
+      "font": "t-small"
+    }
+  },
+  "rich-text#call-center-link-7-active": {
+    "props": {
+      "blockClass": ["call-center-link", "link-active"],
+      "text": "[**Política de troca e devolução**](/central-de-atendimento/politica-de-troca-e-devolucao)",
+      "font": "t-small"
+    }
   }
 }

@@ -12,7 +12,12 @@
     }
   }
 }
+.link--delivery-policy-text{
+  text-decoration: none;
+  color:#ED1D25;
+  font-weight: bold;
 
+}
 .paragraph--top-bar-link {
   margin: 0;
   max-width: 121px;
@@ -80,7 +85,15 @@
 .strong--how-to-buy {
   display: inline !important;
 }
-.paragraph--faq-title {
+.strong--delivery-policy-title,.headingLevel2--exchange-return-policy-content{
+  color:#525252;
+  font-size:20px;
+}
+.paragraph--delivery-policy-text,.paragraph--exchange-return-policy-content{
+  font-size:14px;
+  color:#525252;
+}
+.paragraph--faq-title,.paragraph--delivery-policy-title,.paragraph--exchange-return-policy-title {
   font-size: 24px;
   color: #525252;
   font-weight: bold;
