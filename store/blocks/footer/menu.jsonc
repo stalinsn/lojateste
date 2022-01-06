@@ -167,7 +167,8 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "/arquivos/politica_de_entrega.pdf",
+        // "href": "/arquivos/politica_de_entrega.pdf",
+        "href": "/central-de-atendimento/politica-de-entrega",
         "noFollow": false,
         "tagTitle": "Politica de entrega",
         "text": "Política de entrega"
@@ -483,7 +484,7 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "https://gbarbosa.vteximg.com.br/arquivos/Pol%C3%ADtica%20de%20Trocas%20e%20Devolu%C3%A7%C3%B5es%20E-Commerce_Final.pdf",
+        "href":"/central-de-atendimento/politica-de-troca-e-devolucao",
         "noFollow": false,
         "tagTitle": "Política de troca e devolução",
         "text": "Política de troca e devolução"
