@@ -150,7 +150,7 @@
       // "global-promo#3x",
       "flex-layout.col#product-price",
       "personal-price#pdp",
-      "rich-text#spot-price-pdp",
+      // "rich-text#spot-price-pdp",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
       "flex-layout.row#shipping-simulator"
@@ -216,6 +216,7 @@
   "flex-layout.col#product-price": {
     "children": [
       //"product-price#product-details",
+      "installment-options",
       "flex-layout.row#price-details",
       "max-installments",
       "kg-price"
@@ -235,8 +236,7 @@
   },
   "flex-layout.row#price-details": {
     "children": [
-      "price-custom",
-      "installment-options"
+      "flex-layout.row#pdp-price-custom"
     ],
     "props": {
       "blockClass": "price-details"
@@ -548,9 +548,10 @@
       "flex-layout.row#flags-pdp",
       "flex-layout.row#sku",
       // "flex-layout.col#product-price",
+      "installment-options",
       "flex-layout.col#product-price-mobile",
       "personal-price#pdp",
-      "flex-layout.row#spot-price-pdp",
+      // "flex-layout.row#spot-price-pdp",
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.row#components-qty",
@@ -573,13 +574,24 @@
   "flex-layout.col#product-price-mobile": {
     "children": [
       // "flex-layout.row#flags-pdp",
-      "price-custom",
+      "flex-layout.row#pdp-price-custom",
       "max-installments",
-      "installment-options",
       "kg-price"
     ],
     "props": {
       "block": "product-details"
+    }
+  },
+  "flex-layout.row#pdp-price-custom": {
+    "props": {
+      "blockClass": "pdp-price-custom-row"
+    },
+    "children": [ "price-custom", "rich-text#pdp-price-custom"]
+  },
+  "rich-text#pdp-price-custom": {
+    "props": {
+      "blockClass": "pdp-price-custom",
+      "text": "à vista"
     }
   },
   "installment-options": {

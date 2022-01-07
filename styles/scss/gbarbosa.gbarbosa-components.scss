@@ -584,11 +584,9 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
-    .triggerContainer {
-      margin-top: 24px;
-    }
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
+  .triggerContainer {
+    margin-top: 24px;
   }
 
   :global(.vtex-product-summary-2-x-container) {
