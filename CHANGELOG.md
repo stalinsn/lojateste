@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added 
+
+- Price 5% discount
+
+### Changed
+
+- PDP price structure
+- Installments Options label
+- Remove rich-text with 5% discount label in pdp
+
 ## [0.12.5] - 2022-01-05
 
 ## [0.12.4] - 2022-01-05

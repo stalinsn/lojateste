@@ -612,7 +612,7 @@
     opacity: 15%;
     margin: 0 auto;
   }
-  
+
 }
 
 
@@ -4892,3 +4892,17 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+
+/* Price PDP */
+.flexRowContent--pdp-price-custom-row {
+  display: flex !important;
+  @media(max-width: 768px) {
+    .stretchChildrenWidth:first-child {
+      width: 50% !important;
+    }
+    .stretchChildrenWidth:last-child {
+      width: 60% !important;
+    }
+  }
+}
+/* Price PDP - end */
