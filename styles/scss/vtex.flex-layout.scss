@@ -601,20 +601,18 @@
     font-weight: bold;
   }
 }
-@media  screen and (max-width:468px){
+@media screen and (max-width: 468px) {
   .flexColChild--footer-1-mobile::after {
-    content:"";
-    width:88%;
+    content: "";
+    width: 88%;
     min-width: 310px;
-    border-bottom:1px solid #fff;
+    border-bottom: 1px solid #fff;
     display: block;
     color: #fff;
     opacity: 15%;
     margin: 0 auto;
   }
-
 }
-
 
 .flexCol--mobile-contactos {
   align-items: center;
@@ -674,8 +672,8 @@
 }
 .flexCol--footer-precol {
   margin-right: 50px;
-  .flexColChild--footer-precol{
-    margin:0 24px;
+  .flexColChild--footer-precol {
+    margin: 0 24px;
   }
 }
 .flexRowContent--contactos {
@@ -736,14 +734,12 @@
   :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
     font-weight: bold;
   }
-
 }
 .flexRow--minicart-container-content {
   padding: 10px;
   background: #fafafa;
   box-shadow: 0px 4px 8px #00000029;
   border-radius: 5px;
-
 }
 
 .flexRow--mobile-subcategory {
@@ -1513,6 +1509,8 @@
 .flexRow--quantity-pdp {
   margin: 16px 0;
   margin-bottom: 0;
+  border-top: 1px solid #dedede;
+  padding-top: 10px;
   :global(.vtex-numeric-stepper-container) {
     border: 0.5px solid #cbcbcb;
     border-radius: 5px;
@@ -1670,7 +1668,7 @@
     text-transform: capitalize;
     line-height: 20px;
     background-color: $primary;
-    height:40px;
+    height: 40px;
     &:hover {
       background-color: $secondary;
       border-color: $secondary;
@@ -2903,7 +2901,7 @@
   }
 }
 .flexRowContent--spot-price-pdp-mobile {
-  margin-top:10px;
+  margin-top: 10px;
   border: 1px solid #cacaca;
   border-radius: 30px;
   width: 100%;
@@ -3587,14 +3585,14 @@
     font-size: 0;
     padding-top: 24px;
     &::before {
-      content: 'Ops! Ainda não entregamos no seu endereço :(';
+      content: "Ops! Ainda não entregamos no seu endereço :(";
       color: #525252;
       font-weight: bold;
       margin-bottom: 10px;
       font-size: 14px;
     }
     &::after {
-      content: 'Mas não se preocupe, já estamos verificando a disponibilidade de entrega nessa região. Por favor, insira outro CEP para continuar com a compra.';
+      content: "Mas não se preocupe, já estamos verificando a disponibilidade de entrega nessa região. Por favor, insira outro CEP para continuar com a compra.";
       color: #525252;
       font-weight: normal;
       margin-bottom: 10px;
@@ -4896,7 +4894,7 @@
 /* Price PDP */
 .flexRowContent--pdp-price-custom-row {
   display: flex !important;
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     .stretchChildrenWidth:first-child {
       width: 50% !important;
     }

@@ -218,6 +218,7 @@
       //"product-price#product-details",
       "installment-options",
       "flex-layout.row#price-details",
+      "rich-text#pdp-bank-or-pix",
       "max-installments",
       "kg-price"
     ],
@@ -226,6 +227,12 @@
       "marginTop": 5,
       "marginBottom": 4,
       "colGap": 0
+    }
+  },
+  "rich-text#pdp-bank-or-pix": {
+    "props": {
+      "text": "Utilizando Boleto ou Pix",
+      "blockClass": "pdp-pix-text"
     }
   },
   "rich-text#spot-price-pdp": {
