@@ -582,6 +582,7 @@
     "children": [
       // "flex-layout.row#flags-pdp",
       "flex-layout.row#pdp-price-custom",
+      "rich-text#pdp-bank-or-pix",
       "max-installments",
       "kg-price"
     ],
