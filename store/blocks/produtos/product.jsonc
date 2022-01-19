@@ -150,7 +150,7 @@
       // "global-promo#3x",
       "flex-layout.col#product-price",
       "personal-price#pdp",
-      // "rich-text#spot-price-pdp",
+      "rich-text#spot-price-pdp",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
       "flex-layout.row#shipping-simulator"
@@ -218,7 +218,7 @@
       //"product-price#product-details",
       "installment-options",
       "flex-layout.row#price-details",
-      "rich-text#pdp-bank-or-pix",
+      // "rich-text#pdp-bank-or-pix",
       "max-installments",
       "kg-price"
     ],
@@ -558,7 +558,7 @@
       "installment-options",
       "flex-layout.col#product-price-mobile",
       "personal-price#pdp",
-      // "flex-layout.row#spot-price-pdp",
+      "flex-layout.row#spot-price-pdp",
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.row#components-qty",
@@ -582,7 +582,7 @@
     "children": [
       // "flex-layout.row#flags-pdp",
       "flex-layout.row#pdp-price-custom",
-      "rich-text#pdp-bank-or-pix",
+      // "rich-text#pdp-bank-or-pix",
       "max-installments",
       "kg-price"
     ],
@@ -594,7 +594,7 @@
     "props": {
       "blockClass": "pdp-price-custom-row"
     },
-    "children": [ "price-custom", "rich-text#pdp-price-custom"]
+    "children": [ "price-custom"/* , "rich-text#pdp-price-custom" */]
   },
   "rich-text#pdp-price-custom": {
     "props": {
