@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+### Changed
+
+- Product price
+- Pdp spot price info
+
 ## [0.13.2] - 2022-01-12
 
 ## [0.13.1] - 2022-01-10
