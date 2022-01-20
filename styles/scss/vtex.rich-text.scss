@@ -3163,6 +3163,7 @@
 /* .container--cart-back-button {
   display: none;
 } */
+
 .container--cart-back-button {
   display: flex;
   .paragraph--cart-back-button {
@@ -3188,8 +3189,8 @@
           background-position: center;
         }
       }
-      @media (max-width: 1024px) {
-        color: #fff;
+      @media (min-width: 770px) {
+        color: #000;
       }
     }
   }
