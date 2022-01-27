@@ -16,12 +16,15 @@
     "children": ["vtex.order-placed:order-placed"]
   },
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": [
+      "my-account",
+      "my-account-link.MyAccountCencosudLinks",
+      "my-account-page.MyAccountCencosudPage"
+    ],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
-
   "store.login": {
     "blocks": ["login-content#default"]
   },

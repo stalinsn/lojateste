@@ -1,0 +1,22 @@
+{
+  "extensions": {
+    "my-account-portal/routes/my-page": {
+      "component": "ExtensionRouter"
+    },
+    "my-account-portal/menu-links-before/my-page": {
+      "component": "ExtensionLinks"
+    },
+    "my-account-portal/routes/ProfileCencosud": {
+      "component": "ProfileCencosud"
+    },
+    "my-account-portal/menu-links-before/ProfileCencosud": {
+      "component": "ProfileCencosud"
+    },
+    "my-account-portal/profile/display": {
+      "component": "DisplayExtraInfo"
+    },
+    "store/account/account/profile/display": {
+      "component": "DisplayExtraInfo"
+    }
+  }
+}
