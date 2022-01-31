@@ -1,6 +1,6 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
-    "children": ["store-selector", "flex-layout.row#menu-items-header-row"],
+    "children": [/*"store-selector",*/ "flex-layout.row#menu-items-header-row"],
     "props": {
       "blockClass": "category-menu-desk"
     }
