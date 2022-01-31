@@ -17,9 +17,7 @@
   },
   "store.account": {
     "blocks": [
-      "my-account",
-      "my-account-link.MyAccountCencosudLinks",
-      "my-account-page.MyAccountCencosudPage"
+      "my-account"
     ],
     "parent": {
       "challenge": "challenge.profile"
