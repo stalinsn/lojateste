@@ -2869,7 +2869,11 @@
     padding: 0 10px;
   }
 }
-
+.flexRowContent--header-top-bar  {
+  &:global(.vtex-webview) {
+    display: none;
+  }
+}
 .flexCol--shadow-product {
   .flexColChild--shadow-product {
     &:nth-child(even) {
