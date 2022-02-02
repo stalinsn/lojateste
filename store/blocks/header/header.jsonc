@@ -19,8 +19,8 @@
       //"flex-layout.row#2-desktop",
       "sticky-layout#2-desktop",
       "sticky-layout#3-desktop",
-      "sticky-layout#4-desktop",
-      "web-view-detector"
+      "sticky-layout#4-desktop"
+      // "web-view-detector"
     ]
   },
   "sticky-layout#2-desktop": {
@@ -438,8 +438,8 @@
   },
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#1-mobile",
-      "web-view-detector"
+      "sticky-layout#1-mobile"
+      // "web-view-detector"
     ]
   },
   "sticky-layout#1-mobile": {

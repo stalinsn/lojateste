@@ -6,7 +6,8 @@
     "blocks": [
       "responsive-layout.desktop#gift-card",
       "responsive-layout.tablet#gift-card",
-      "responsive-layout.phone#gift-card"
+      "responsive-layout.phone#gift-card",
+      "web-view-detector"
     ]
   },
   "responsive-layout.desktop#gift-card": {
