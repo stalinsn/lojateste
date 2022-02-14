@@ -21,7 +21,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.13.4] - 2022-01-21
 
-## [0.13.3] - 2022-01-21
+### Added
+
+- Custom my-account query and mutation
+
+## [0.14.0] - 2022-02-01
+
+## [0.13.3] - 2022-01-19
 
 
 ### Changed
