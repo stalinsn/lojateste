@@ -296,7 +296,16 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
+@media screen and (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--header-top-bar) {
+    display: none;
+  }
+}
+@media all and (display-mode: browser) and (max-width: 768px){
+  :global(.vtex-flex-layout-0-x-flexRowContent--header-top-bar) {
+    display: flex !important;
+  }
+}
 :global(.vtex-menu-2-x-menuItem--menu-item-top-mobile) {
   border-top: 1px solid #ccc;
   margin-top: 10px;
