@@ -1,6 +1,5 @@
 .openButton {
-  visibility: hidden;
-  pointer-events: none;
+  cursor: pointer;
   @media (max-width: 48em) {
     padding-right: 0 !important;
     margin: 10px;
@@ -18,5 +17,65 @@
 .button {
   :global(.vtex-button) {
     width: 100% !important;
+  }
+}
+.storeSelectorTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .storeSelectorTitle {
+    color: #ed1d25;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "OpenSans", sans-serif;
+    margin-top: 24px;
+  }
+  .storeSelectorSubTitle {
+    font-size: 14px;
+    color: #525252;
+    font-family: "OpenSans", sans-serif;
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+}
+.storeSelectorInputContainer {
+  display: flex;
+  justify-content: center;
+  .storeSelectorInput {
+    width: 285px;
+    height: 38px;
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-right: 12px;
+  }
+  .storeSelectorButton {
+    width: 114px;
+    height: 40px;
+    background-color: #ed1d25;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+  }
+}
+.paper {
+  padding: 50px 30px 50px 50px;
+  max-width: 495px;
+}
+.storeSelectorLinkContainer {
+  margin-top: 16px;
+  font-family: "OpenSans", sans-serif;
+  .storeSelectorLinkLabel {
+    color: #525252;
+    font-size: 14px;
+  }
+  .storeSelectorLink {
+    color: #ed1d25;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
   }
 }
