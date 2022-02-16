@@ -99,3 +99,13 @@
     }
   }
 }
+.backdrop {
+  background: #525252;
+}
+.modal {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
