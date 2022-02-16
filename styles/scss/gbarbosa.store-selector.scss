@@ -59,6 +59,7 @@
     border-radius: 5px;
     border: none;
     font-weight: bold;
+    cursor: pointer;
   }
 }
 .paper {
@@ -77,5 +78,24 @@
     font-size: 14px;
     font-weight: bold;
     margin-left: 5px;
+  }
+}
+.storeSelectorCloseButton {
+  .closeButton {
+    position: absolute;
+    top: 12px;
+    right: 32px;
+    background: transparent;
+    border: 0;
+    font-size: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cg data-name='Group 3633'%3E%3Cg data-name='Group 3609'%3E%3Cg data-name='Group 1749'%3E%3Cpath data-name='Path 7109' d='M0 0h24v24H0z' fill='none'/%3E%3C/g%3E%3Cg data-name='Group 1751'%3E%3Cg data-name='Group 1750'%3E%3Cpath data-name='Path 7110' d='M18.3 5.71a1 1 0 00-1.41 0L12 10.59 7.11 5.7a1 1 0 00-1.41 0 1 1 0 000 1.41L10.59 12 5.7 16.89a1 1 0 000 1.41 1 1 0 001.41 0L12 13.41l4.89 4.89a1 1 0 001.41 0 1 1 0 000-1.41L13.41 12l4.89-4.89a1 1 0 000-1.4z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    .closeButtonLabel {
+      color: #fff;
+      text-transform: lowercase;
+    }
   }
 }
