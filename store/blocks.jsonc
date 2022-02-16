@@ -353,6 +353,11 @@
       "personal-flag"
     ]
   },
+  "personal-flag": {
+    "props": {
+      "showOnlyRelativeFlag": false
+    }
+  },
   "flex-layout.row#add-wishlist": {
     "props": {
       "blockClass": "add-wishlist"
