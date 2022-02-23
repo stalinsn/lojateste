@@ -1488,6 +1488,7 @@
 }
 /* add to cart pdp */
 .flexRowContent--product-buy-btn {
+  
   margin-bottom: 20px !important;
   :global(.vtex-button) {
     font-size: 14px;
@@ -1502,6 +1503,11 @@
       background-color: #ffd500 !important;
       border-color: #ffd500 !important;
       color: #ed1d25;
+    }
+    :global(.vtex-button__label) {
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
     }
   }
 }
@@ -2809,12 +2815,12 @@
       border-color: #004d9a;
     }
     &:disabled {
-      background-color: #dedede;
+      background-color: #fff;
       color: #fff;
-      border-color: #dedede;
+      border:none;
       &:hover {
-        background-color: #dedede !important;
-        border-color: #dedede !important;
+        background-color: #fff !important;
+        border: none !important;
       }
       :global(.vtex-button__label) {
         margin-top: 3px;

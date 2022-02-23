@@ -153,6 +153,7 @@
       "rich-text#spot-price-pdp",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
+      "availability-subscriber",
       "flex-layout.row#shipping-simulator"
     ],
 
@@ -160,6 +161,11 @@
       "preventVerticalStretch": true,
       "rowGap": 0,
       "blockClass": "pdp-right-col"
+    }
+  },
+  "availability-subscriber":{
+    "props":{
+      "blockClass":"availability-subscriber-pdp"
     }
   },
   "personal-price#pdp": {
@@ -563,6 +569,7 @@
       // "global-promo#3x",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
+      "availability-subscriber",
       "flex-layout.row#shipping-simulator"
     ]
   },
