@@ -59,6 +59,12 @@
     justify-content: center;
   }
 }
+.imageContainer {
+  @media screen and (min-width: 769px) {
+    height: 118px;
+    width: 118px;
+  }
+}
 // :global(.vtex-ispromotion) {
 //   :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
 //     background: #fafafa;
