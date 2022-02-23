@@ -16,12 +16,13 @@
     "children": ["vtex.order-placed:order-placed"]
   },
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": [
+      "my-account"
+    ],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
-
   "store.login": {
     "blocks": ["login-content#default"]
   },
@@ -351,6 +352,11 @@
       "flex-layout.row#add-wishlist",
       "personal-flag"
     ]
+  },
+  "personal-flag": {
+    "props": {
+      "showOnlyRelativeFlag": false
+    }
   },
   "flex-layout.row#add-wishlist": {
     "props": {

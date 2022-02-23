@@ -101,7 +101,11 @@
       "preventHorizontalStretch": true
     }
   },
-
+  "personal-flag#relative-flags": {
+    "props": {
+      "showOnlyRelativeFlag": true
+    }
+  },
   "product-price-savings#savings": {
     "props": {
       "alwaysShow": true,
@@ -263,12 +267,12 @@
     }
   },
   "flex-layout.row#flags-pdp": {
-    "children": ["product-price-savings#alt"],
+    "children": ["product-price-savings#alt", "personal-flag#relative-flags"],
     "props": {
       "blockClass": "flags-pdp"
     }
   },
-  "flex-layout.row#components-qty": {
+  "flex-layout.row#components-qty": {   
     "children": ["quantity-selector-custom"],
 
     "props": {

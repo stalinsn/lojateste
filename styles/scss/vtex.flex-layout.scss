@@ -1264,6 +1264,8 @@
     }
     .stretchChildrenWidth {
       justify-content: flex-start;
+      width: auto !important;
+      padding: 0;
     }
     @media screen and (max-width: 768px) {
       :global(.vtex-product-price-1-x-savings--alt-marker) {
