@@ -292,7 +292,7 @@
   "flex-layout.row#desktop-menu-and-logo": {
     "title": "Mega menu",
     "children": [
-      "mega-menu",
+      "mega-menu-v2",
       "flex-layout.col#logo-desktop"
     ],
     "props": {
@@ -498,7 +498,7 @@
   },
   "flex-layout.row#drawer-logo-mobile": {
     "children": [
-      "mega-menu",
+      "mega-menu-v2",
       "logo#mobile"
     ],
     "props": {

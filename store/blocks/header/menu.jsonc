@@ -1,0 +1,21 @@
+{
+  "mega-menu-v2": {
+    "props": {
+      "iconLabel": "Categorias",
+      "departments": [{
+        "name": "Eletrônicos",
+        "departmentIcon": "/arquivos/svg",
+        "href": "/eletro",
+        "img": "/arquivos/svg",
+        "categories": [{
+          "name": "Audio",
+          "href": "/audio",
+          "subcategories": {
+            "name": "Caixa acustica",
+            "href": "/caixa-acustica"
+          }
+        }]
+      }]
+    }
+  }
+}
