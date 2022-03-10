@@ -2,20 +2,56 @@
   "mega-menu-v2": {
     "props": {
       "iconLabel": "Categorias",
-      "departments": [{
-        "name": "Eletrônicos",
-        "departmentIcon": "/arquivos/svg",
-        "href": "/eletro",
-        "img": "/arquivos/svg",
-        "categories": [{
-          "name": "Audio",
-          "href": "/audio",
-          "subcategories": {
-            "name": "Caixa acustica",
-            "href": "/caixa-acustica"
-          }
-        }]
-      }]
+      "departments": [
+        {
+          "name": "Eletrônicos",
+          "departmentIcon": "/arquivos/svg",
+          "href": "/eletro",
+          "img": "/arquivos/svg",
+          "categories": [
+            {
+              "name": "Audio",
+              "href": "/audio",
+              "subcategories": {
+                "name": "Caixa acustica",
+                "href": "/caixa-acustica"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Eletrônicos2",
+          "departmentIcon": "/arquivos/svg",
+          "href": "/eletro",
+          "img": "/arquivos/svg",
+          "categories": [
+            {
+              "name": "Audio2",
+              "href": "/audio",
+              "subcategories": {
+                "name": "Caixa acustica2",
+                "href": "/caixa-acustica"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Eletrônicos3",
+          "departmentIcon": "/arquivos/svg",
+          "href": "/eletro",
+          "img": "/arquivos/svg",
+          "categories": [
+            {
+              "name": "Audio3",
+              "href": "/audio",
+              "subcategories": {
+                "name": "Caixa acustica3",
+                "href": "/caixa-acustica"
+              }
+            }
+          ]
+        }
+      ]
     }
   }
 }
