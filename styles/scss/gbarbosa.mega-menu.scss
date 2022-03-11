@@ -1,256 +1,410 @@
-/* @import './references';
+@import './references';
 
-.openIconContainer {
-  &::after {
-    font-size: 13px !important;
-    top: 45px !important;
-    font-family: OpenSans;
-    @media screen and (max-width: 768px) {
-      top: 35px !important;
-      font-size: 11px !important;
-      color: #fff;
-    }
-  }
-  @media (max-width: 768px) {
+// .openIconContainer {
+//   &::after {
+//     font-size: 13px !important;
+//     top: 45px !important;
+//     font-family: OpenSans;
+//     @media screen and (max-width: 768px) {
+//       top: 35px !important;
+//       font-size: 11px !important;
+//       color: #fff;
+//     }
+//   }
+//   @media (max-width: 768px) {
+//     display: flex;
+//     align-items: center;
+//     padding: 0;
+//     flex-direction: column;
+
+//     &::before {
+//       content: "";
+//       background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='12' viewBox='0 0 18 12'%3E%3Cpath id='Caminho_27' data-name='Caminho 27' d='M4,18H20a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2Zm0-5H14a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2ZM3,7A1,1,0,0,0,4,8H20a1,1,0,0,0,0-2H4A1,1,0,0,0,3,7Z' transform='translate(-3 -6)' fill='%23ffd500'/%3E%3C/svg%3E")
+//         no-repeat;
+//       background-position: center;
+//       width: 30px;
+//       height: 30px;
+//       display: flex;
+//     }
+//     .menuIcon {
+//       display: none;
+//     }
+//   }
+// }
+// @media screen and (min-width: 768px) and (max-width: 769px) {
+//   .overlay {
+//     z-index: auto;
+//   }
+// }
+// @media screen and (min-width: 780px) and (max-width: 1024px) {
+//   .drawer {
+//     padding-top: 2em;
+//   }
+//   .closeIconButton {
+//     display: block;
+//   }
+// }
+
+// .overlay--visible {
+//   opacity: 1 !important;
+// }
+
+// .overlay {
+//   top: 172px;
+//   backdrop-filter: blur(12px);
+//   background-color: rgba(82,82,82,.63);
+//   left: 0;
+//   bottom: 0;
+//   position: fixed;
+//   z-index: 0;
+// }
+// .textMenu{
+//   margin-top: 19px;
+//   color: #fff;
+//   font-weight: 700;
+//   font-size: 12px;
+//   @media screen and (max-width: 768px) {
+//     margin-top: 0;
+//   }
+//  }
+
+// .menuDrawerIcon {
+//   width: 40px!important;
+//   height: 25px;
+//   display: flex;
+//   position: relative;
+//   margin: 6px;
+//   cursor: pointer;
+//   margin-right: 43px;
+//   display: flex;
+//   justify-content: center;
+
+//   .textMenu{
+//     margin-top: 20px;
+//     color: #fff;
+//     font-weight: 700;
+//     font-size: 12px;
+//   }
+//   .menuIcon1,
+//   .menuIcon2,
+//   .menuIcon3 {
+//     position: absolute;
+//     background: #ffd500;
+//     transition: all 0.3s ease;
+//   }
+
+//   .menuIcon1 {
+//     width: 18px;
+//     height: 2px;
+//     top: 0;
+//   }
+
+//   .menuIcon2 {
+//     width: 11px;
+//     height: 2px;
+//     top: 6px;
+//   }
+
+//   .menuIcon3 {
+//     width: 18px;
+//     height: 2px;
+//     top: 12px;
+//   }
+
+//   &.menuDrawerIsOpen {
+//     .menuIcon1 {
+//       transform: rotate(45deg);
+//       top: 4px;
+//     }
+
+//     .menuIcon2 {
+//       width: 0;
+
+//     }
+
+//     .menuIcon3 {
+//       top: 4px;
+//       transform: rotate(315deg);
+//     }
+//   }
+// }
+// .menuDrawerContainer {
+//   position: relative;
+//   left: 10px;
+// }
+// :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
+//   .drawer {
+//     top: 72px !important;
+//   }
+// }
+// .drawer {
+//   position: fixed;
+//   right: 0;
+//   background: white;
+//   height: fit-content;
+//   top: 164px !important;
+//   z-index: 1;
+
+//   .drawerHeader {
+//     max-width: 1366px;
+//     margin: 0 auto;
+
+//     .departmentsTitle {
+//       font-size: 14px;
+//       line-height: 28px;
+//       letter-spacing: -0.22px;
+//       color: #ED1D25;
+//       padding: 0 16px;
+//       margin: 0;
+//     }
+//   }
+
+//   .container {
+//     display: flex;
+//     width: 100%;
+//     padding: 0 0 28px;
+//     max-width: 1366px;
+//     margin: 0 auto;
+
+//     .menu {
+//       list-style: none;
+//       padding: 0;
+
+//       .link {
+//         display: flex;
+//         text-decoration: none;
+//         color: #525252;
+//         font-size: 14px;
+//         min-width: 200px;
+//         line-height: 28px;
+//         letter-spacing: -0.22px;
+
+//         .childrenContainer {
+//           width: 100%;
+
+//           .item,
+//           .item2 {
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-between;
+
+//             &.current {
+//               background: rgb(222 222 222 / 46%);
+//             }
+//           }
+
+//           .item2 {
+//             justify-content: space-between;
+//             padding: 0 4px 0 16px;
+//           }
+
+//           .item {
+//             padding: 4px 4px 4px 16px;
+
+//             .menuContainer{
+//               display: flex;
+//               align-items: center;
+
+//               .iconContainer {
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 width: 24px;
+//                 height: 24px;
+//                 margin-right: 16px;
+//               }
+
+//               .iconGo {
+//                 margin-left: auto;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     .column:first-child {
+//       .menu {
+//         .link {
+//           min-width: 272px;
+//         }
+//       }
+//     }
+
+
+//     .banners {
+//       max-width: 600px;
+//       margin-left: auto;
+//       margin-right: 46px;
+//       overflow: hidden;
+
+//       .secondBanners {
+//         display: flex;
+//         justify-content: space-between;
+//         margin-top: 16px;
+//       }
+//     }
+//   }
+// }
+
+// .opened {
+//   max-width: inherit !important;
+// }
+
+
+
+// .hidden {
+//   display: none;
+// }
+// .subCategorymenu {
+//   display: flex;
+//   flex-flow: column wrap;
+//   max-height: 300px;
+//   @media (max-width: 1024px) {
+//     flex-flow: column;
+//   }
+// }
+
+
+// .menuDesktopContainer {
+//   position: relative;
+//   .menuDesktopWrapper {
+//     position: fixed;
+//     top: 116px;
+//     left: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     display: flex;
+//     .menuDepartments {
+//       background-color: #f0f0f0;
+//       display: flex;
+//       flex-direction: column;
+//       width: 272px;
+//       height: 75vh;
+//       .menuDepartmentWrapper {
+//         display: flex;
+//         position: relative;
+//         .menuDepartmentLink {
+//           background-color: #f0f0f0;
+//           padding: 15px;
+//           display: flex;
+//           align-items: center;
+//         }
+//         .menuCategoriesContainer {
+//           background-color: #fff;
+//           position: absolute;
+//           width: 100vw;
+//           height: 60vh;
+//           left: 260px;
+//           top: 0;
+//           .menuCategoriesWrapper {
+//             display: flex;
+//             .menuCategoryLink {
+//               min-width: 272px;
+//             }
+//             .menuSubCategoryContainer {
+//               display: flex;
+//               flex-direction: column;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .menuDrawerContainer {
+//   position: relative;
+//   left: 22px;
+// }
+// .menuDrawerIcon {
+//   width: 40px !important;
+//   height: 25px;
+//   display: flex;
+//   position: relative;
+//   margin: 6px;
+//   cursor: pointer;
+//   margin-right: 43px;
+//   display: flex;
+//   justify-content: center;
+
+//   .inconLabelContainer {
+//     color: #fff;
+//     margin-top: 19px;
+//     font-weight: bold;
+//     font-size: 13px;
+//   }
+
+//   .textMenu {
+//     margin-top: 20px;
+//     color: #fff;
+//     font-weight: 700;
+//     font-size: 12px;
+//   }
+//   .menuIcon1,
+//   .menuIcon2,
+//   .menuIcon3 {
+//     position: absolute;
+//     background: #ffd500;
+//     transition: all 0.3s ease;
+//   }
+
+//   .menuIcon1 {
+//     width: 18px;
+//     height: 2px;
+//     top: 0;
+//   }
+
+//   .menuIcon2 {
+//     width: 11px;
+//     height: 2px;
+//     top: 6px;
+//   }
+
+//   .menuIcon3 {
+//     width: 18px;
+//     height: 2px;
+//     top: 12px;
+//   }
+
+//   &.menuDrawerIsOpen {
+//     .menuIcon1 {
+//       transform: rotate(45deg);
+//       top: 4px;
+//     }
+
+//     .menuIcon2 {
+//       width: 0;
+//     }
+
+//     .menuIcon3 {
+//       top: 4px;
+//       transform: rotate(315deg);
+//     }
+//   }
+// }
+
+
+@media screen and (max-width: 768px) {
+  .childrenContainer {
     display: flex;
-    align-items: center;
-    padding: 0;
     flex-direction: column;
-
-    &::before {
-      content: "";
-      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='12' viewBox='0 0 18 12'%3E%3Cpath id='Caminho_27' data-name='Caminho 27' d='M4,18H20a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2Zm0-5H14a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2ZM3,7A1,1,0,0,0,4,8H20a1,1,0,0,0,0-2H4A1,1,0,0,0,3,7Z' transform='translate(-3 -6)' fill='%23ffd500'/%3E%3C/svg%3E")
-        no-repeat;
-      background-position: center;
-      width: 30px;
-      height: 30px;
-      display: flex;
-    }
-    .menuIcon {
-      display: none;
-    }
   }
-}
-@media screen and (min-width: 768px) and (max-width: 769px) {
-  .overlay {
-    z-index: auto;
-  }
-}
-@media screen and (min-width: 780px) and (max-width: 1024px) {
-  .drawer {
-    padding-top: 2em;
-  }
-  .closeIconButton {
-    display: block;
-  }
-}
-
-.overlay--visible {
-  opacity: 1 !important;
-}
-
-.overlay {
-  top: 172px;
-  backdrop-filter: blur(12px);
-  background-color: rgba(82,82,82,.63);
-  left: 0;
-  bottom: 0;
-  position: fixed;
-  z-index: 0;
-}
-.textMenu{
-  margin-top: 19px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 12px;
-  @media screen and (max-width: 768px) {
-    margin-top: 0;
-  }
- }
-
-.menuDrawerIcon {
-  width: 40px!important;
-  height: 25px;
-  display: flex;
-  position: relative;
-  margin: 6px;
-  cursor: pointer;
-  margin-right: 43px;
-  display: flex;
-  justify-content: center;
-
-  .textMenu{
-    margin-top: 20px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 12px;
-  }
-  .menuIcon1,
-  .menuIcon2,
-  .menuIcon3 {
-    position: absolute;
-    background: #ffd500;
-    transition: all 0.3s ease;
-  }
-
-  .menuIcon1 {
-    width: 18px;
-    height: 2px;
-    top: 0;
-  }
-
-  .menuIcon2 {
-    width: 11px;
-    height: 2px;
-    top: 6px;
-  }
-
-  .menuIcon3 {
-    width: 18px;
-    height: 2px;
-    top: 12px;
-  }
-
-  &.menuDrawerIsOpen {
-    .menuIcon1 {
-      transform: rotate(45deg);
-      top: 4px;
-    }
-
-    .menuIcon2 {
-      width: 0;
-
-    }
-
-    .menuIcon3 {
-      top: 4px;
-      transform: rotate(315deg);
-    }
-  }
-}
-.menuDrawerContainer {
-  position: relative;
-  left: 10px;
-}
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
-  .drawer {
-    top: 72px !important;
-  }
-}
-.drawer {
-  position: fixed;
-  right: 0;
-  background: white;
-  height: fit-content;
-  top: 164px !important;
-  z-index: 1;
-
-  .drawerHeader {
-    max-width: 1366px;
-    margin: 0 auto;
-
-    .departmentsTitle {
-      font-size: 14px;
-      line-height: 28px;
-      letter-spacing: -0.22px;
-      color: #ED1D25;
-      padding: 0 16px;
-      margin: 0;
-    }
-  }
-
   .container {
-    display: flex;
-    width: 100%;
-    padding: 0 0 28px;
-    max-width: 1366px;
-    margin: 0 auto;
-
-    .menu {
-      list-style: none;
-      padding: 0;
-
-      .link {
-        display: flex;
-        text-decoration: none;
-        color: #525252;
-        font-size: 14px;
-        min-width: 200px;
-        line-height: 28px;
-        letter-spacing: -0.22px;
-
-        .childrenContainer {
-          width: 100%;
-
-          .item,
-          .item2 {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            &.current {
-              background: rgb(222 222 222 / 46%);
-            }
-          }
-
-          .item2 {
-            justify-content: space-between;
-            padding: 0 4px 0 16px;
-          }
-
-          .item {
-            padding: 4px 4px 4px 16px;
-
-            .menuContainer{
-              display: flex;
-              align-items: center;
-
-              .iconContainer {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 24px;
-                height: 24px;
-                margin-right: 16px;
-              }
-
-              .iconGo {
-                margin-left: auto;
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .column:first-child {
-      .menu {
-        .link {
-          min-width: 272px;
-        }
-      }
-    }
-
-
-    .banners {
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: 46px;
-      overflow: hidden;
-
-      .secondBanners {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 16px;
-      }
+    padding-bottom: 10px !important;
+  }
+  .mobileAltMenu {
+    .link {
+     display: flex;
+     text-decoration: none;
+     color: #525252;
+     font-size: 14px;
+     min-width: 200px;
+     line-height: 28px;
+     font-weight: bold;
+     padding: 5px 20px;
     }
   }
-}
-
-.opened {
-  max-width: inherit !important;
-}
-
+} 
 @media screen and (max-width: 768px) {
   .drawer {
     width: 80% !important;
@@ -374,152 +528,23 @@
   }
 }
 
-.hidden {
-  display: none;
-}
-.subCategorymenu {
-  display: flex;
-  flex-flow: column wrap;
-  max-height: 300px;
-  @media (max-width: 1024px) {
-    flex-flow: column;
-  }
-}
-@media screen and (max-width: 768px) {
-  .childrenContainer {
-    display: flex;
-    flex-direction: column;
-  }
-  .container {
-    padding-bottom: 10px !important;
-  }
-  .mobileAltMenu {
-    .link {
-     display: flex;
-     text-decoration: none;
-     color: #525252;
-     font-size: 14px;
-     min-width: 200px;
-     line-height: 28px;
-     font-weight: bold;
-     padding: 5px 20px;
-    }
-  }
-} */
-
-.menuDesktopContainer {
-  position: relative;
-  .menuDesktopWrapper {
-    position: fixed;
-    top: 116px;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    .menuDepartments {
-      background-color: #f0f0f0;
+//Mobile mega menu styling
+@media screen and (max-width : 768px) {
+  .headerContainer {
+    width: 100%;
+    .headerDataBox {
       display: flex;
-      flex-direction: column;
-      width: 272px;
-      height: 75vh;
-      .menuDepartmentWrapper {
-        display: flex;
-        position: relative;
-        .menuDepartmentLink {
-          background-color: #f0f0f0;
-          padding: 15px;
-          display: flex;
-          align-items: center;
-        }
-        .menuCategoriesContainer {
-          background-color: #fff;
-          position: absolute;
-          width: 100vw;
-          height: 60vh;
-          left: 260px;
-          top: 0;
-          .menuCategoriesWrapper {
-            display: flex;
-            .menuCategoryLink {
-              min-width: 272px;
-            }
-            .menuSubCategoryContainer {
-              display: flex;
-              flex-direction: column;
-            }
-          }
-        }
+      justify-content: space-between;
+      .closeIcon {
+        color: #fff;
       }
     }
-  }
-}
-.menuDrawerContainer {
-  position: relative;
-  left: 22px;
-}
-.menuDrawerIcon {
-  width: 40px !important;
-  height: 25px;
-  display: flex;
-  position: relative;
-  margin: 6px;
-  cursor: pointer;
-  margin-right: 43px;
-  display: flex;
-  justify-content: center;
-
-  .inconLabelContainer {
-    color: #fff;
-    margin-top: 19px;
-    font-weight: bold;
-    font-size: 13px;
-  }
-
-  .textMenu {
-    margin-top: 20px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 12px;
-  }
-  .menuIcon1,
-  .menuIcon2,
-  .menuIcon3 {
-    position: absolute;
-    background: #ffd500;
-    transition: all 0.3s ease;
-  }
-
-  .menuIcon1 {
-    width: 18px;
-    height: 2px;
-    top: 0;
-  }
-
-  .menuIcon2 {
-    width: 11px;
-    height: 2px;
-    top: 6px;
-  }
-
-  .menuIcon3 {
-    width: 18px;
-    height: 2px;
-    top: 12px;
-  }
-
-  &.menuDrawerIsOpen {
-    .menuIcon1 {
-      transform: rotate(45deg);
-      top: 4px;
-    }
-
-    .menuIcon2 {
-      width: 0;
-    }
-
-    .menuIcon3 {
-      top: 4px;
-      transform: rotate(315deg);
+    .userContentData {
+      color: #fff;
+      margin: 0;
+      padding: 20px 0 5px 0;
+      display: block;
+      text-decoration: none;
     }
   }
 }
