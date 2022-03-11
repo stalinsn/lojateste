@@ -1,5 +1,5 @@
 {
-  "header.custom": {
+  "header": {
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"

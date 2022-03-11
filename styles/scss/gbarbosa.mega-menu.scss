@@ -1,4 +1,4 @@
-@import './references';
+/* @import './references';
 
 .openIconContainer {
   &::after {
@@ -389,20 +389,137 @@
   .childrenContainer {
     display: flex;
     flex-direction: column;
-  } 
+  }
   .container {
     padding-bottom: 10px !important;
   }
   .mobileAltMenu {
     .link {
      display: flex;
-     text-decoration: none; 
-     color: #525252; 
-     font-size: 14px; 
-     min-width: 200px; 
+     text-decoration: none;
+     color: #525252;
+     font-size: 14px;
+     min-width: 200px;
      line-height: 28px;
      font-weight: bold;
      padding: 5px 20px;
+    }
+  }
+} */
+
+.menuDesktopContainer {
+  position: relative;
+  .menuDesktopWrapper {
+    position: fixed;
+    top: 116px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    .menuDepartments {
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      width: 272px;
+      height: 75vh;
+      .menuDepartmentWrapper {
+        display: flex;
+        position: relative;
+        .menuDepartmentLink {
+          background-color: #f0f0f0;
+          padding: 15px;
+          display: flex;
+          align-items: center;
+        }
+        .menuCategoriesContainer {
+          background-color: #fff;
+          position: absolute;
+          width: 100vw;
+          height: 60vh;
+          left: 260px;
+          top: 0;
+          .menuCategoriesWrapper {
+            display: flex;
+            .menuCategoryLink {
+              min-width: 272px;
+            }
+            .menuSubCategoryContainer {
+              display: flex;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.menuDrawerContainer {
+  position: relative;
+  left: 22px;
+}
+.menuDrawerIcon {
+  width: 40px !important;
+  height: 25px;
+  display: flex;
+  position: relative;
+  margin: 6px;
+  cursor: pointer;
+  margin-right: 43px;
+  display: flex;
+  justify-content: center;
+
+  .inconLabelContainer {
+    color: #fff;
+    margin-top: 19px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .textMenu {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .menuIcon1,
+  .menuIcon2,
+  .menuIcon3 {
+    position: absolute;
+    background: #ffd500;
+    transition: all 0.3s ease;
+  }
+
+  .menuIcon1 {
+    width: 18px;
+    height: 2px;
+    top: 0;
+  }
+
+  .menuIcon2 {
+    width: 11px;
+    height: 2px;
+    top: 6px;
+  }
+
+  .menuIcon3 {
+    width: 18px;
+    height: 2px;
+    top: 12px;
+  }
+
+  &.menuDrawerIsOpen {
+    .menuIcon1 {
+      transform: rotate(45deg);
+      top: 4px;
+    }
+
+    .menuIcon2 {
+      width: 0;
+    }
+
+    .menuIcon3 {
+      top: 4px;
+      transform: rotate(315deg);
     }
   }
 }

@@ -5,49 +5,83 @@
       "departments": [
         {
           "name": "Eletrônicos",
-          "departmentIcon": "/arquivos/svg",
+          "departmentIcon": "/arquivos/eletronicos.svg",
           "href": "/eletro",
           "img": "/arquivos/svg",
           "categories": [
             {
               "name": "Audio",
               "href": "/audio",
-              "subcategories": {
-                "name": "Caixa acustica",
-                "href": "/caixa-acustica"
-              }
+              "subcategories": [
+                {
+                  "name": "Caixa acustica",
+                  "href": "/caixa-acustica"
+                }
+              ]
             }
           ]
         },
         {
           "name": "Eletrônicos2",
-          "departmentIcon": "/arquivos/svg",
+          "departmentIcon": "/arquivos/eletronicos.svg",
           "href": "/eletro",
           "img": "/arquivos/svg",
           "categories": [
             {
               "name": "Audio2",
               "href": "/audio",
-              "subcategories": {
-                "name": "Caixa acustica2",
-                "href": "/caixa-acustica"
-              }
+              "subcategories": [
+                {
+                  "name": "Caixa acustica2",
+                  "href": "/caixa-acustica"
+                },
+                {
+                  "name": "teste 12 ",
+                  "href": "/caixa-acustica"
+                },
+                {
+                  "name": "teste 123 ",
+                  "href": "/caixa-acustica"
+                }
+              ]
+            },
+            {
+              "name": "Audio23",
+              "href": "/audio",
+              "subcategories": [
+                {
+                  "name": "Caixa acustica23",
+                  "href": "/caixa-acustica"
+                }
+              ]
+            },
+            {
+              "name": "Audio234",
+              "href": "/audio",
+              "subcategories": [
+                {
+                  "name": "Caixa acustica234",
+                  "href": "/caixa-acustica"
+                }
+              ]
             }
           ]
         },
         {
           "name": "Eletrônicos3",
-          "departmentIcon": "/arquivos/svg",
+          "departmentIcon": "/arquivos/eletronicos.svg",
           "href": "/eletro",
           "img": "/arquivos/svg",
           "categories": [
             {
               "name": "Audio3",
               "href": "/audio",
-              "subcategories": {
-                "name": "Caixa acustica3",
-                "href": "/caixa-acustica"
-              }
+              "subcategories": [
+                {
+                  "name": "Caixa acustica3",
+                  "href": "/caixa-acustica"
+                }
+              ]
             }
           ]
         }
