@@ -530,6 +530,29 @@
 
 //Mobile mega menu styling
 @media screen and (max-width : 768px) {
+  .menuTitle{
+    color:#ED1D25;
+    margin-bottom:8px;
+    margin-top:0;
+  }
+  .menuTitle, .menuItem{
+    padding:15px 100% 15px 20px;
+    background-color: #fafafb;
+    width:100%;
+    font-weight: 700;
+    font-size:12px;
+    position: relative;
+  }
+  .menuItem::after{
+    content: ">";
+    display: inline-block;
+    color: #7e7979;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    bottom: 14px;
+    right: 100px;
+  }
   .headerContainer {
     width: 100%;
     .headerDataBox {
@@ -546,5 +569,7 @@
       display: block;
       text-decoration: none;
     }
+    
   }
+  
 }
