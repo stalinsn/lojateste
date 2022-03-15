@@ -7,7 +7,7 @@
           "name": "Eletrônicos",
           "departmentIcon": "/arquivos/eletronicos.svg",
           "href": "/eletro",
-          "img": "/arquivos/svg",
+          "img": "/arquivos/banner-example-department.png",
           "categories": [
             {
               "name": "Audio",
@@ -25,7 +25,7 @@
           "name": "Eletrônicos2",
           "departmentIcon": "/arquivos/eletronicos.svg",
           "href": "/eletro",
-          "img": "/arquivos/svg",
+          "img": "/arquivos/banner-example-department.png",
           "categories": [
             {
               "name": "Audio2",
@@ -71,7 +71,7 @@
           "name": "Eletrônicos3",
           "departmentIcon": "/arquivos/eletronicos.svg",
           "href": "/eletro",
-          "img": "/arquivos/svg",
+          "img": "/arquivos/banner-example-department.png",
           "categories": [
             {
               "name": "Audio3",
