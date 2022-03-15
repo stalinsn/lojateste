@@ -450,27 +450,33 @@
   }
   .menuItem {
     background-color: #fff;
+    color: initial;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
     .departmentIcon{
       margin-right: 10px;
     }
-  }
+  } 
   .activeCategory {
     color: #ED1D25;
+    display: block;
+    text-decoration: none;
     font-size: 12px;
-    padding: 0 20px;
+    padding: 10px 20px;
     font-weight: bold;
 
 
   }
   .menuItem::after{
-    content: ">";
-    display: inline-block;
-    color: #7e7979;
-    font-weight: 600;
-    font-size: 14px;
+    content: "";
+    display: flex;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_go' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='Grupo_1778' data-name='Grupo 1778'%3E%3Crect id='Retângulo_2279' data-name='Retângulo 2279' width='24' height='24' fill='none'/%3E%3C/g%3E%3Cg id='Grupo_1781' data-name='Grupo 1781'%3E%3Cg id='Grupo_1780' data-name='Grupo 1780'%3E%3Cg id='Grupo_1779' data-name='Grupo 1779'%3E%3Cpath id='Caminho_7133' data-name='Caminho 7133' d='M9.29,15.46l3.88-3.88L9.29,7.7a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l4.59,4.59a1,1,0,0,1,0,1.41L10.7,16.88a1,1,0,0,1-1.41,0h0A1.017,1.017,0,0,1,9.29,15.46Z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+      no-repeat;
+    width: 15px;
+    height: 20px;
     position: absolute;
-    bottom: 14px;
-    right: 100px;
+    right: 35px;
   }
   .headerContainer {
     width: 100%;
