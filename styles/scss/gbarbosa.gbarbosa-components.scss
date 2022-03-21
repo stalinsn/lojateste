@@ -240,7 +240,7 @@
   }
 }
 :global(.vtex-flex-layout-0-x-flexRow--product-buy-btn) {
-    :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    :global(.vtex-add-to-cart-button-0-x-buttonText):disabled {
       font-size: 0;
       margin-left:-7px;
       &::after {
@@ -510,7 +510,7 @@
     color: #525252;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding-left: 15px;
+    padding-left: 8px;
     @media (max-width: 768px) {
       font-size: 8px;
       padding-left: 6px;
@@ -849,8 +849,8 @@
   }
   .customQuantitySelector {
     @media screen and (min-width: 768px) {
-      padding: 0 13px;
-      margin-top: 4px;
+      padding: 0 8px;
+      margin-top: 8px;
     }
   }
   .crmBy {
