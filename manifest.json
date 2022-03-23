@@ -76,8 +76,8 @@
     "vtex.checkout": "1.x",
     "vtex.coupon": "0.x",
     "vtex.checkout-cart": "0.x",
-    "gbarbosa.store-selector": "1.x",
     "gbarbosa.wishlist": "0.x",
+    "gbarbosa.store-selector": "1.x",
     "vtex.info-card-list": "0.x",
     "vtex.my-account-commons": "1.x"
   },
