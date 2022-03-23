@@ -16,12 +16,13 @@
     "children": ["vtex.order-placed:order-placed"]
   },
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": [
+      "my-account"
+    ],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
-
   "store.login": {
     "blocks": ["login-content#default"]
   },
@@ -90,12 +91,28 @@
   },
   "flex-layout.col#shadow-product": {
     "children": [
-      "flex-layout.row#product-price",
+      "condition-layout.product#product-price-d-none",
       "quantity-selector-custom",
       "condition-layout.product#shadowProduct"
     ],
     "props": {
       "blockClass": "shadow-product"
+    }
+  },
+  "condition-layout.product#product-price-d-none": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#product-price",
+      "Else": "flex-layout.row"
+    }
+  },
+  "flex-layout.row":{
+    "props": {
+      "preventVerticalStretch": true
     }
   },
   "flex-layout.row#product-price": {
@@ -351,6 +368,11 @@
       "flex-layout.row#add-wishlist",
       "personal-flag"
     ]
+  },
+  "personal-flag": {
+    "props": {
+      "showOnlyRelativeFlag": false
+    }
   },
   "flex-layout.row#add-wishlist": {
     "props": {

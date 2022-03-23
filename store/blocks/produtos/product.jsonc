@@ -101,7 +101,11 @@
       "preventHorizontalStretch": true
     }
   },
-
+  "personal-flag#relative-flags": {
+    "props": {
+      "showOnlyRelativeFlag": true
+    }
+  },
   "product-price-savings#savings": {
     "props": {
       "alwaysShow": true,
@@ -153,6 +157,7 @@
       "rich-text#spot-price-pdp",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
+      "availability-subscriber",
       "flex-layout.row#shipping-simulator"
     ],
 
@@ -160,6 +165,11 @@
       "preventVerticalStretch": true,
       "rowGap": 0,
       "blockClass": "pdp-right-col"
+    }
+  },
+  "availability-subscriber":{
+    "props":{
+      "blockClass":"availability-subscriber-pdp"
     }
   },
   "personal-price#pdp": {
@@ -257,12 +267,12 @@
     }
   },
   "flex-layout.row#flags-pdp": {
-    "children": ["product-price-savings#alt"],
+    "children": ["product-price-savings#alt", "personal-flag#relative-flags"],
     "props": {
       "blockClass": "flags-pdp"
     }
   },
-  "flex-layout.row#components-qty": {
+  "flex-layout.row#components-qty": {   
     "children": ["quantity-selector-custom"],
 
     "props": {
@@ -563,6 +573,7 @@
       // "global-promo#3x",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
+      "availability-subscriber",
       "flex-layout.row#shipping-simulator"
     ]
   },
