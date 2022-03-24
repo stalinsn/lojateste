@@ -4,82 +4,407 @@
       "iconLabel": "Categorias",
       "departments": [
         {
-          "name": "Eletrônicos",
+          "name": "Bazar",
+          "departmentIcon": "/arquivos/bazar.svg",
+          "href": "/bazar",
+          "img": "/arquivos/banner-example-department.png",
+          "categories": [
+            {
+              "name": "Artigos p/ Viagem",
+              "href": "/bazar/artigos-p--viagem",
+              "subcategories": [
+                {
+                  "name": "Malas",
+                  "href": "/bazar/artigos-p--viagem/malas"
+                }
+              ]
+            },
+            {
+              "name": "Automotivos",
+              "href": "/bazar/automotivos",
+              "subcategories": [
+                {
+                  "name": "Pneu",
+                  "href": "/bazar/automotivos/pneu"
+                }
+              ]
+            },
+            {
+              "name": "Bicicleta",
+              "href": "/bazar/bicicleta",
+              "subcategories": [
+                {
+                  "name": "Infantil",
+                  "href": "/bazar/biscicleta/infantil"
+                },
+                {
+                  "name": "Urbano e Passeio",
+                  "href": "/bazar/biscicleta/urbano-e-passeio"
+                }
+              ]
+            },
+            {
+              "name": "Cadeiras",
+              "href": "/bazar/cadeiras",
+              "subcategories": [
+                {
+                  "name": "Cadeira p/ Escritório",
+                  "href": "/bazar/cadeiras/cadeira-p--escritorio"
+                },
+                {
+                  "name": "Cadeira p/ Área Externa",
+                  "href": "/bazar/cadeiras/cadeira-p--area-externa"
+                }
+              ]
+            },
+            {
+              "name": "Cama e Colchão",
+              "href": "/bazar/cama-colchão",
+              "subcategories": [
+                {
+                  "name": "Base Box",
+                  "href": "/bazar/cama-colchão/base-box"
+                },
+                {
+                  "name": "Cama Box",
+                  "href": "/bazar/cama-colchão/cama-box"
+                },
+                {
+                  "name": "Colchão",
+                  "href": "/bazar/cama-colchão/colchao"
+                }
+              ]
+            },
+            {
+              "name": "Lazer",
+              "href": "/bazar/lazer",
+              "subcategories": [
+                {
+                  "name": "Ombrelone",
+                  "href": "/bazar/lazer/ombrelone"
+                },
+                {
+                  "name": "Piscina",
+                  "href": "/bazar/lazer/piscina"
+                },
+                {
+                  "name": "Tenda",
+                  "href": "/bazar/lazer/tenda"
+                }
+              ]
+            },
+            {
+              "name": "Mesa",
+              "href": "/bazar/mesa",
+              "subcategories": [
+                {
+                  "name": "Mesa p/ área Externa",
+                  "href": "/bazar/mesa/mesa-p--area-externa"
+                },
+                {
+                  "name": "Mesa p/ Escritório",
+                  "href": "/bazar/mesa/mesa-p--escritorio"
+                }
+              ]
+            }
+          ]
+        },
+        /* departamento: */
+        {
+          "name": "Eletro",
           "departmentIcon": "/arquivos/eletronicos.svg",
           "href": "/eletro",
           "img": "/arquivos/banner-example-department.png",
           "categories": [
             {
-              "name": "Audio",
-              "href": "/audio",
+              "name": "Áudio",
+              "href": "/eletro/audio",
               "subcategories": [
                 {
                   "name": "Caixa acustica",
-                  "href": "/caixa-acustica"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Eletrônicos2",
-          "departmentIcon": "/arquivos/eletronicos.svg",
-          "href": "/eletro",
-          "img": "/arquivos/banner-example-department.png",
-          "categories": [
-            {
-              "name": "Audio2",
-              "href": "/audio",
-              "subcategories": [
-                {
-                  "name": "Caixa acustica2",
-                  "href": "/caixa-acustica"
+                  "href": "/eletro/audio/caixa-acustica"
                 },
                 {
-                  "name": "teste 12 ",
-                  "href": "/caixa-acustica"
+                  "name": "Caixa de som Portátil",
+                  "href": "/eletro/audio/caixa-de-som-portatil"
                 },
                 {
-                  "name": "teste 123 ",
-                  "href": "/caixa-acustica"
+                  "name": "Mini System",
+                  "href": "/eletro/audio/mini-system"
+                },
+                {
+                  "name": "Rádio Portátil",
+                  "href": "/eletro/audio/radio-portatil"
+                },
+                {
+                  "name": "Som automotivo",
+                  "href": "/eletro/audio/som-automotivo"
                 }
               ]
             },
             {
-              "name": "Audio23",
-              "href": "/audio",
+              "name": "Beleza",
+              "href": "/eletro/beleza",
               "subcategories": [
                 {
-                  "name": "Caixa acustica23",
-                  "href": "/caixa-acustica"
+                  "name": "Aparador de Pelos",
+                  "href": "/eletro/beleza/aparador-de-pelos"
+                },
+                {
+                  "name": "Barbeador Elétrico",
+                  "href": "/eletro/beleza/barbeador-eletrico"
+                },
+                {
+                  "name": "Chapa Lisa_Prancha Alisadora",
+                  "href": "/eletro/beleza/chapa-lisa_prancha-alisadora"
+                },
+                {
+                  "name": "Escova Modeladora",
+                  "href": "/eletro/beleza/escova-modeladora"
+                },
+                {
+                  "name": "Máquina de Cortar Cabelo",
+                  "href": "/eletro/beleza/maquina-de-cortar-cabelo"
+                },
+                {
+                  "name": "Secador de Cabelo",
+                  "href": "/eletro/beleza/secador-de-cabelo"
                 }
               ]
             },
             {
-              "name": "Audio234",
-              "href": "/audio",
+              "name": "Climatização",
+              "href": "/eletro/climatizacao",
               "subcategories": [
                 {
-                  "name": "Caixa acustica234",
-                  "href": "/caixa-acustica"
+                  "name": "Ar condicionado",
+                  "href": "/eletro/climatizacao/ar-condicionado"
+                },
+                {
+                  "name": "Climatizador",
+                  "href": "/eletro/climatizacao/climatizador"
+                },
+                {
+                  "name": "Ventilador",
+                  "href": "/eletro/climatizacao/ventilador"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Eletrônicos3",
-          "departmentIcon": "/arquivos/eletronicos.svg",
-          "href": "/eletro",
-          "img": "/arquivos/banner-example-department.png",
-          "categories": [
+            },
             {
-              "name": "Audio3",
-              "href": "/audio",
+              "name": "Eletrodoméstico",
+              "href": "/eletro/eletrodomestico",
               "subcategories": [
                 {
-                  "name": "Caixa acustica3",
-                  "href": "/caixa-acustica"
+                  "name": "Cervejeira",
+                  "href": "/eletro/eletrodomestico/cervejeira"
+                },
+                {
+                  "name": "Cooktop",
+                  "href": "/eletro/eletrodomestico/Cooktop"
+                },
+                {
+                  "name": "Depurador de Ar",
+                  "href": "/eletro/eletrodomestico/depurador-de-ar"
+                },
+                {
+                  "name": "Fogão",
+                  "href": "/eletro/eletrodomestico/fogao"
+                },
+                {
+                  "name": "Forno Elétrico",
+                  "href": "/eletro/eletrodomestico/forno-eletrico"
+                },
+                {
+                  "name": "Freezer",
+                  "href": "/eletro/eletrodomestico/freezer"
+                },
+                {
+                  "name": "Frigobar",
+                  "href": "/eletro/eletrodomestico/frigobar"
+                },
+                {
+                  "name": "Lava e seca",
+                  "href": "/eletro/eletrodomestico/lava-e-seca"
+                },
+                {
+                  "name": "Máquina de Lavar",
+                  "href": "/eletro/eletrodomestico/maquina-de-lavar"
+                },
+                {
+                  "name": "Micro-Ondas",
+                  "href": "/eletro/eletrodomestico/micro-ondas"
+                },
+                {
+                  "name": "Refrigerador",
+                  "href": "/eletro/eletrodomestico/refrigerador"
+                }
+              ]
+            },
+            {
+              "name": "Eletroportáveis",
+              "href": "/eletro/eletroportaveis",
+              "subcategories": [
+                {
+                  "name": "Aspirador Pó e Água",
+                  "href": "/eletro/eletroportaveis/aspirador-po-agua"
+                },
+                {
+                  "name": "Batedeira",
+                  "href": "/eletro/eletroportaveis/batedeira"
+                },
+                {
+                  "name": "Bebedouro Purificador de Água",
+                  "href": "/eletro/eletroportaveis/bebedouro-purificador-de-agua"
+                },
+                {
+                  "name": "Cafeteira",
+                  "href": "/eletro/eletroportaveis/cafeteira"
+                },
+                {
+                  "name": "Churrasqueira",
+                  "href": "/eletro/eletroportaveis/churrasqueira"
+                },
+                {
+                  "name": "Espremedor de Frutas",
+                  "href": "/eletro/eletroportaveis/espremedor-de-frutas"
+                },
+                {
+                  "name": "Ferro de Passar Roupa",
+                  "href": "/eletro/eletroportaveis/ferro-de-passar-roupa"
+                },
+                {
+                  "name": "Fritadeira",
+                  "href": "/eletro/eletroportaveis/fritadeira"
+                },
+                {
+                  "name": "Kit Cozinha",
+                  "href": "/eletro/eletroportaveis/kit-cozinha"
+                },
+                {
+                  "name": "Lavadora de Alta Pressão",
+                  "href": "/eletro/eletroportaveis/micro-ondas"
+                },
+                {
+                  "name": "Liquidificador",
+                  "href": "/eletro/eletroportaveis/liquidificador"
+                },
+                {
+                  "name": "Máquina de Costura",
+                  "href": "/eletro/eletroportaveis/maquina-de-costura"
+                },
+                {
+                  "name": "Panela Elétrica",
+                  "href": "/eletro/eletroportaveis/panela-eletrica"
+                },
+                {
+                  "name": "Pipoqueira",
+                  "href": "/eletro/eletroportaveis/pipoqueira"
+                },
+                {
+                  "name": "Processador Mixer Centrífuga",
+                  "href": "/eletro/eletroportaveis/processador-mixer-centrifuga"
+                },
+                {
+                  "name": "Sanduicheira Grill",
+                  "href": "/eletro/eletroportaveis/sanduicheira-grill"
+                },
+                {
+                  "name": "Suporte p/ Micro-Ondas",
+                  "href": "/eletro/eletroportaveis/suporte-p--micro-ondas"
+                }
+              ]
+            },
+            {
+              "name": "Informática",
+              "href": "/eletro/informatica",
+              "subcategories": [
+                {
+                  "name": "Acessórios",
+                  "href": "/eletro/informatica/acessorios"
+                },
+                {
+                  "name": "Cartucho p/ Impressora",
+                  "href": "/eletro/informatica/cartucho-p--impressora"
+                },
+                {
+                  "name": "Fone de Ouvido",
+                  "href": "/eletro/informatica/fone-de-ouvido"
+                },
+                {
+                  "name": "Monitor",
+                  "href": "/eletro/informatica/monitor"
+                },
+                {
+                  "name": "Mouse",
+                  "href": "/eletro/informatica/mouse"
+                },
+                {
+                  "name": "Multifuncional",
+                  "href": "/eletro/informatica/multifuncional"
+                },
+                {
+                  "name": "Notebook",
+                  "href": "/eletro/informatica/notebook"
+                },
+                {
+                  "name": "Pen Drive",
+                  "href": "/eletro/informatica/pen-drive"
+                },
+                {
+                  "name": "Roteador",
+                  "href": "/eletro/informatica/roteador"
+                },
+                {
+                  "name": "Tablet",
+                  "href": "/eletro/informatica/tablet"
+                },
+                {
+                  "name": "Teclado",
+                  "href": "/eletro/informatica/teclado"
+                }
+              ]
+            },
+            {
+              "name": "Telefonia",
+              "href": "/eletro/telefonia",
+              "subcategories": [
+                {
+                  "name": "Celular",
+                  "href": "/eletro/telefonia/celular"
+                },
+                {
+                  "name": "Chip",
+                  "href": "/eletro/telefonia/chip"
+                },
+                {
+                  "name": "Fixo",
+                  "href": "/eletro/telefonia/fixo"
+                },
+                {
+                  "name": "Smartphone",
+                  "href": "/eletro/telefonia/smartphone"
+                }
+              ]
+            },
+            {
+              "name": "Vídeo",
+              "href": "/eletro/video",
+              "subcategories": [
+                {
+                  "name": "Antena",
+                  "href": "/eletro/video/antena"
+                },
+                {
+                  "name": "Receptor Codificador e Conversor",
+                  "href": "/eletro/video/receptor-codificador-conversor"
+                },
+                {
+                  "name": "Suporte p/ TV",
+                  "href": "/eletro/video/suporte-p--tv"
+                },
+                {
+                  "name": "TV",
+                  "href": "/eletro/video/tv"
                 }
               ]
             }
