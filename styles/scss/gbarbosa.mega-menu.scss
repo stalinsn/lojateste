@@ -1,75 +1,241 @@
-@import './references';
+@import "./references";
 
-.openIconContainer {
-  &::after {
-    font-size: 13px !important;
-    top: 45px !important;
-    font-family: OpenSans;
-    @media screen and (max-width: 768px) {
-      top: 35px !important;
-      font-size: 11px !important;
-      color: #fff;
-    }
-  }
-  @media (max-width: 768px) {
+.menuDesktopContainer {
+  position: relative;
+  font-family: "OpenSans", sans-serif;
+  .menuDesktopWrapper {
+    position: fixed;
+    top: 116px;
+    left: calc((100vw - 1470px) / 2);
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    align-items: center;
-    padding: 0;
-    flex-direction: column;
-
-    &::before {
-      content: "";
-      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='12' viewBox='0 0 18 12'%3E%3Cpath id='Caminho_27' data-name='Caminho 27' d='M4,18H20a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2Zm0-5H14a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2ZM3,7A1,1,0,0,0,4,8H20a1,1,0,0,0,0-2H4A1,1,0,0,0,3,7Z' transform='translate(-3 -6)' fill='%23ffd500'/%3E%3C/svg%3E")
-        no-repeat;
-      background-position: center;
-      width: 30px;
-      height: 30px;
+    .menuDepartments {
+      background-color: #f0f0f0;
       display: flex;
+      flex-direction: column;
+      width: 272px;
+      height: 75vh;
+      position: relative;
+      padding-top: 5px;
+      max-height: 524px;
+      box-shadow: 0px 3px 10px 0 #00000029;
+      &::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background: #f0f0f0;
+        position: absolute;
+        top: -5px;
+        left: 110px;
+        transform: rotate(45deg);
+        @media (max-width: 1400px) {
+          left: 60px;
+        }
+      }
+      .menuDepartmentWrapper {
+        display: flex;
+        position: relative;
+        width: 100%;
+        .menuDepartmentLink {
+          background-color: #f0f0f0;
+          padding: 5px 10px;
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          width: 100%;
+          position: relative;
+          .menuDepartmentName {
+            color: #525252;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 10px;
+          }
+          .menuDepartmentIcon {
+            width: 24px;
+            height: 24px;
+          }
+          &::after {
+            content: "";
+            display: flex;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_go' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='Grupo_1778' data-name='Grupo 1778'%3E%3Crect id='Retângulo_2279' data-name='Retângulo 2279' width='24' height='24' fill='none'/%3E%3C/g%3E%3Cg id='Grupo_1781' data-name='Grupo 1781'%3E%3Cg id='Grupo_1780' data-name='Grupo 1780'%3E%3Cg id='Grupo_1779' data-name='Grupo 1779'%3E%3Cpath id='Caminho_7133' data-name='Caminho 7133' d='M9.29,15.46l3.88-3.88L9.29,7.7a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l4.59,4.59a1,1,0,0,1,0,1.41L10.7,16.88a1,1,0,0,1-1.41,0h0A1.017,1.017,0,0,1,9.29,15.46Z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+              no-repeat;
+            width: 15px;
+            height: 20px;
+            position: absolute;
+            right: 7px;
+          }
+        }
+        .menuCategoriesContainer {
+          background-color: #fafafa;
+          position: fixed;
+          width: 100vw;
+          height: 69vh;
+          left: calc((100vw - 926px) / 2);
+          top: 117px;
+          max-width: 1120px;
+          max-height: 523px;
+          box-shadow: 20px 0px 31px #00000029;
+          .menuCategoriesWrapper {
+            display: flex;
+            position: relative;
+            .menuCategoryLink {
+              min-width: 272px;
+              color: #525252;
+              font-size: 14px;
+              text-decoration: none;
+              padding: 9px 0;
+              padding-left: 17px;
+              position: relative;
+              &::after {
+                content: "";
+                display: flex;
+                background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_go' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='Grupo_1778' data-name='Grupo 1778'%3E%3Crect id='Retângulo_2279' data-name='Retângulo 2279' width='24' height='24' fill='none'/%3E%3C/g%3E%3Cg id='Grupo_1781' data-name='Grupo 1781'%3E%3Cg id='Grupo_1780' data-name='Grupo 1780'%3E%3Cg id='Grupo_1779' data-name='Grupo 1779'%3E%3Cpath id='Caminho_7133' data-name='Caminho 7133' d='M9.29,15.46l3.88-3.88L9.29,7.7a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l4.59,4.59a1,1,0,0,1,0,1.41L10.7,16.88a1,1,0,0,1-1.41,0h0A1.017,1.017,0,0,1,9.29,15.46Z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+                  no-repeat;
+                width: 15px;
+                height: 20px;
+                position: absolute;
+                top: 7px;
+                right: 7px;
+              }
+            }
+            .menuSubCategoryContainer {
+              display: flex;
+              justify-content: space-between;
+              position: fixed;
+              width: 100vw;
+              height: 60vh;
+              left: calc((100vw - 365px) / 2);
+              top: 115px;
+              max-width: 840px;
+              .menuSubCategoryColunm {
+                margin-top: 70px;
+                flex-flow: column wrap;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                max-width: 500px;
+                .menuSubCategoryWrapper {
+                  padding: 10px 0;
+                  .menuSubCategoryLink {
+                    color: #525252;
+                    font-size: 14px;
+                    text-decoration: none;
+                    &:hover {
+                      font-weight: bold;
+                      color: #ed1d25;
+                    }
+                  }
+                }
+                @media (max-width: 1400px) {
+                  position: relative;
+                  display: flex;
+                  left: 559px;
+                }
+              }
+              .menuDepartmentBannerContainer {
+                .menuDepartmentBanner {
+                  max-height: 524px;
+                }
+              }
+              @media (max-width: 1400px) {
+                left: 0;
+                max-width: 100%;
+              }
+            }
+          }
+          @media (max-width: 1400px) {
+            left: 270px;
+          }
+        }
+        &:last-child {
+          border-top: 1px solid #dddddd;
+        }
+      }
     }
-    .menuIcon {
-      display: none;
+    @media (max-width: 1400px) {
+      left: 0;
     }
   }
 }
-@media screen and (min-width: 768px) and (max-width: 769px) {
-  .overlay {
-    z-index: auto;
+.menuDepartmentNameHover {
+  background-color: #ed1d25 !important;
+  &::after {
+    display: flex;
+    filter: invert(100%) sepia(100%) saturate(15%) hue-rotate(98deg)
+      brightness(200%) contrast(101%);
+  }
+  .menuDepartmentName {
+    color: #fff !important;
+  }
+  .menuDepartmentIcon {
+    filter: invert(100%) sepia(100%) saturate(15%) hue-rotate(98deg)
+      brightness(200%) contrast(101%);
   }
 }
-@media screen and (min-width: 780px) and (max-width: 1024px) {
-  .drawer {
-    padding-top: 2em;
-  }
-  .closeIconButton {
-    display: block;
+.menuCategoriesShowAll {
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 20px;
+  .menuAllCategory {
+    padding: 10px 15px;
+    .menuDepartmentName {
+      color: #525252;
+      font-size: 14px;
+      text-decoration: none;
+      padding: 9px 0;
+      padding-left: 17px;
+      &:hover {
+        font-weight: bold;
+        color: #ed1d25;
+      }
+    }
   }
 }
-
-.overlay--visible {
-  opacity: 1 !important;
+.menuDepartmentShowAllCategories {
+  padding: 4px 0;
 }
-
-.overlay {
-  top: 172px;
-  backdrop-filter: blur(12px);
-  background-color: rgba(82,82,82,.63);
-  left: 0;
-  bottom: 0;
-  position: fixed;
-  z-index: 0;
-}
-.textMenu{
-  margin-top: 19px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 12px;
-  @media screen and (max-width: 768px) {
-    margin-top: 0;
+.menuCategoryNameHover {
+  background-color: #f0f0f0;
+  color: #ed1d25 !important;
+  font-weight: bold;
+  &::after {
+    filter: invert(20%) sepia(94%) saturate(7454%) hue-rotate(358deg)
+      brightness(109%) contrast(113%);
   }
- }
-
+}
+.menuCategoriesContainerHidden {
+  display: none !important;
+}
+.menuCategoriesContainerShow {
+  display: flex !important;
+  .menuDepartmentTitleContainer {
+    border-right: 1px solid #f1f1f1;
+    .menuDepartmentTitleOnCategoriesList {
+      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      margin-left: 17px;
+      .menuDepartmentTitleCategories {
+        color: #ed1d25;
+        font-size: 18px;
+      }
+      .menuDepartmentIcon {
+        margin-right: 20px;
+        /*         width: 34px;
+        height: 32px; */
+        filter: invert(12%) sepia(173%) saturate(8726%) hue-rotate(359deg)
+          brightness(152%) contrast(362%);
+      }
+    }
+  }
+}
+.menuDrawerContainer {
+  position: relative;
+  left: 22px;
+}
 .menuDrawerIcon {
-  width: 40px!important;
+  width: 40px !important;
   height: 25px;
   display: flex;
   position: relative;
@@ -79,7 +245,14 @@
   display: flex;
   justify-content: center;
 
-  .textMenu{
+  .inconLabelContainer {
+    color: #fff;
+    margin-top: 19px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .textMenu {
     margin-top: 20px;
     color: #fff;
     font-weight: 700;
@@ -119,7 +292,6 @@
 
     .menuIcon2 {
       width: 0;
-
     }
 
     .menuIcon3 {
@@ -128,129 +300,28 @@
     }
   }
 }
-.menuDrawerContainer {
-  position: relative;
-  left: 10px;
-}
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
-  .drawer {
-    top: 72px !important;
-  }
-}
-.drawer {
-  position: fixed;
-  right: 0;
-  background: white;
-  height: fit-content;
-  top: 164px !important;
-  z-index: 1;
 
-  .drawerHeader {
-    max-width: 1366px;
-    margin: 0 auto;
-
-    .departmentsTitle {
-      font-size: 14px;
-      line-height: 28px;
-      letter-spacing: -0.22px;
-      color: #ED1D25;
-      padding: 0 16px;
-      margin: 0;
-    }
-  }
-
-  .container {
+@media screen and (max-width: 768px) {
+  .childrenContainer {
     display: flex;
-    width: 100%;
-    padding: 0 0 28px;
-    max-width: 1366px;
-    margin: 0 auto;
-
-    .menu {
-      list-style: none;
-      padding: 0;
-
-      .link {
-        display: flex;
-        text-decoration: none;
-        color: #525252;
-        font-size: 14px;
-        min-width: 200px;
-        line-height: 28px;
-        letter-spacing: -0.22px;
-
-        .childrenContainer {
-          width: 100%;
-
-          .item,
-          .item2 {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            &.current {
-              background: rgb(222 222 222 / 46%);
-            }
-          }
-
-          .item2 {
-            justify-content: space-between;
-            padding: 0 4px 0 16px;
-          }
-
-          .item {
-            padding: 4px 4px 4px 16px;
-
-            .menuContainer{
-              display: flex;
-              align-items: center;
-
-              .iconContainer {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 24px;
-                height: 24px;
-                margin-right: 16px;
-              }
-
-              .iconGo {
-                margin-left: auto;
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .column:first-child {
-      .menu {
-        .link {
-          min-width: 272px;
-        }
-      }
-    }
-
-
-    .banners {
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: 46px;
-      overflow: hidden;
-
-      .secondBanners {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 16px;
-      }
+    flex-direction: column;
+  }
+  .container {
+    padding-bottom: 10px !important;
+  }
+  .mobileAltMenu {
+    .link {
+      display: flex;
+      text-decoration: none;
+      color: #525252;
+      font-size: 14px;
+      min-width: 200px;
+      line-height: 28px;
+      font-weight: bold;
+      padding: 5px 20px;
     }
   }
 }
-
-.opened {
-  max-width: inherit !important;
-}
-
 @media screen and (max-width: 768px) {
   .drawer {
     width: 80% !important;
@@ -258,7 +329,7 @@
     top: 0 !important;
     z-index: 999;
 
-    .drawerContent{
+    .drawerContent {
       .drawerHeader {
         background: $primary;
         padding: 4px 16px 16px;
@@ -306,7 +377,7 @@
           width: 100%;
         }
 
-        .colHeader{
+        .colHeader {
           .backTo,
           .selectedSubcategory,
           .selectedCategory {
@@ -316,21 +387,21 @@
             font-size: 14px;
             font-weight: 700;
             line-height: 20px;
-            background: #F4F4F4;
+            background: #f4f4f4;
           }
 
-          .arrowIcon{
+          .arrowIcon {
             transform: rotate(180deg);
             margin-right: 12px;
           }
 
           .selectedCategory {
             color: $primary;
-            background-color: #FCFCFB;
+            background-color: #fcfcfb;
             margin-top: 8px;
             padding-bottom: 0;
 
-            .iconContainer{
+            .iconContainer {
               margin-right: 12px;
               max-width: 20px;
               max-height: 20px;
@@ -339,7 +410,7 @@
 
           .selectedSubcategory {
             margin-top: 8px;
-            .iconContainer{
+            .iconContainer {
               margin-right: 12px;
               max-width: 20px;
               max-height: 20px;
@@ -373,36 +444,101 @@
     z-index: 999;
   }
 }
-
-.hidden {
-  display: none;
-}
-.subCategorymenu {
-  display: flex;
-  flex-flow: column wrap;
-  max-height: 300px;
-  @media (max-width: 1024px) {
-    flex-flow: column;
+.openIconContainer {
+  &::after {
+    font-size: 13px !important;
+    top: 45px !important;
+    font-family: OpenSans;
+    @media screen and (max-width: 768px) {
+      top: 35px !important;
+      font-size: 11px !important;
+      color: #fff;
+    }
   }
-}
-@media screen and (max-width: 768px) {
-  .childrenContainer {
+  @media (max-width: 768px) {
     display: flex;
+    align-items: center;
+    padding: 0;
     flex-direction: column;
-  } 
-  .container {
-    padding-bottom: 10px !important;
+
+    &::before {
+      content: "";
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='12' viewBox='0 0 18 12'%3E%3Cpath id='Caminho_27' data-name='Caminho 27' d='M4,18H20a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2Zm0-5H14a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2ZM3,7A1,1,0,0,0,4,8H20a1,1,0,0,0,0-2H4A1,1,0,0,0,3,7Z' transform='translate(-3 -6)' fill='%23ffd500'/%3E%3C/svg%3E")
+        no-repeat;
+      background-position: center;
+      width: 30px;
+      height: 30px;
+      display: flex;
+    }
+    .menuIcon {
+      display: none;
+    }
   }
-  .mobileAltMenu {
-    .link {
-     display: flex;
-     text-decoration: none; 
-     color: #525252; 
-     font-size: 14px; 
-     min-width: 200px; 
-     line-height: 28px;
-     font-weight: bold;
-     padding: 5px 20px;
+}
+
+//Mobile mega menu styling
+@media screen and (max-width: 768px) {
+  .textMenu {
+    color: #fff;
+    font-size: 14px;
+  }
+  .menuTitle {
+    // color:#ED1D25;
+    margin-bottom: 8px;
+    margin-top: 0;
+  }
+  .menuTitle,
+  .menuItem {
+    padding: 15px 0 15px 20px;
+    background-color: #fafafb;
+    width: 100%;
+    font-weight: 700;
+    font-size: 12px;
+    position: relative;
+  }
+  .menuItem {
+    background-color: #fff;
+    color: initial;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    .departmentIcon {
+      margin-right: 10px;
+    }
+  }
+  .activeCategory {
+    color: #ed1d25;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  .menuItem::after {
+    content: "";
+    display: flex;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_go' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='Grupo_1778' data-name='Grupo 1778'%3E%3Crect id='Retângulo_2279' data-name='Retângulo 2279' width='24' height='24' fill='none'/%3E%3C/g%3E%3Cg id='Grupo_1781' data-name='Grupo 1781'%3E%3Cg id='Grupo_1780' data-name='Grupo 1780'%3E%3Cg id='Grupo_1779' data-name='Grupo 1779'%3E%3Cpath id='Caminho_7133' data-name='Caminho 7133' d='M9.29,15.46l3.88-3.88L9.29,7.7a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l4.59,4.59a1,1,0,0,1,0,1.41L10.7,16.88a1,1,0,0,1-1.41,0h0A1.017,1.017,0,0,1,9.29,15.46Z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+      no-repeat;
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    right: 35px;
+  }
+  .headerContainer {
+    width: 100%;
+    .headerDataBox {
+      display: flex;
+      justify-content: space-between;
+      .closeIcon {
+        color: #fff;
+      }
+    }
+    .userContentData {
+      color: #fff;
+      margin: 0;
+      padding: 20px 0 5px 0;
+      display: block;
+      text-decoration: none;
     }
   }
 }

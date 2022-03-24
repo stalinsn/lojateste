@@ -253,7 +253,10 @@
   },
   "flex-layout.row#desktop-menu-and-logo": {
     "title": "Mega menu",
-    "children": ["mega-menu", "flex-layout.col#logo-desktop"],
+    "children": [
+      "mega-menu-v2",
+      "flex-layout.col#logo-desktop"
+    ],
     "props": {
       "blockClass": "menu-logo",
       "colSizing": "auto"
@@ -424,7 +427,10 @@
     }
   },
   "flex-layout.row#drawer-logo-mobile": {
-    "children": ["mega-menu", "logo#mobile"],
+    "children": [
+      "mega-menu-v2",
+      "logo#mobile"
+    ],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
