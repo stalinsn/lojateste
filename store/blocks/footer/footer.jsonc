@@ -37,9 +37,9 @@
   "rich-text#newsletter": {
     "title": "news title",
     "props": {
-      "width": "40%",
-      "textAlignment": "RIGHT",
-      "textPosition": "RIGHT",
+      "width": "42%",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "Receba as melhores ofertas e promoções!",
       "blockClass": "txt-news"
     }

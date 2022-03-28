@@ -2741,9 +2741,9 @@
     display: block;
   }
 
-  .flexRow--section-three-banners-desktop {
-    // display: none;
-  }
+  // .flexRow--section-three-banners-desktop {
+  //   display: none;
+  // }
 }
 @media (max-width: 768px) {
   .flexRow--section-three-banners-desktop {
@@ -2930,11 +2930,11 @@
 .flexRow--brands-container {
   margin-left: 25px;
 }
-.flexRow--title-news {
-  :global(.vtex-store-components-3-x-container) {
-    max-width: 1150px;
-  }
-}
+// .flexRow--title-news {
+//   :global(.vtex-store-components-3-x-container) {
+//     max-width: 1150px;
+//   }
+// }
 
 .flexRow--row-brand-baby-world {
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
