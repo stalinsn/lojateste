@@ -1171,11 +1171,12 @@
   .promotion_highlight {
     line-height: initial;
     border-radius: 5px;
-    padding: 3px 17px;
+    padding: 3px 20px;
     min-height: 0px;
     height: auto;
     flex-direction: column;
     align-self: flex-start;
+    background: #818181;
     :first-child {
       line-height: initial;
       text-align: center;
