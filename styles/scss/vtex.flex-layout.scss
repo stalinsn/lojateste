@@ -30,7 +30,7 @@
 }
 
 .flexRow--header-top-bar {
-  background: #2a2d2f;
+  background: #333333;
 }
 
 .flexRowContent--top-header-images {
@@ -4921,6 +4921,7 @@
 .flexRowContent--header-top-bar {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 5px;
 }
 .flexRowContent--store-selector-row {
   .stretchChildrenWidth {
