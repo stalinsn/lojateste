@@ -40,9 +40,7 @@
   },
   "flex-layout.row#header-top-bar": {
     "children": [
-      "rich-text#top-bar-link-1",
-      "rich-text#top-bar-link-2",
-      "flex-layout.col#spacer",
+      "flex-layout.row#store-selector-row",
       "responsive-layout.desktop#top-header-images"
     ],
     "props": {
@@ -51,6 +49,35 @@
       "blockClass": "header-top-bar",
       "paddingTop": 4,
       "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#store-selector-row": {
+    "children": [
+      "store-selector",
+      "rich-text#gbarbosa-credit-card",
+      "rich-text#offers-header",
+      "rich-text#services-header"
+    ],
+    "props": {
+      "blockClass": "store-selector-row"
+    }
+  },
+  "rich-text#gbarbosa-credit-card": {
+    "props": {
+      "blockClass": "headert-top-link",
+      "text": "[Cartão GBarbosa](/) "
+    }
+  },
+  "rich-text#offers-header": {
+    "props": {
+      "blockClass": "headert-top-link",
+      "text": "[Ofertas](/)"
+    }
+  },
+  "rich-text#services-header": {
+    "props": {
+      "blockClass": "headert-top-link",
+      "text": "[Serviços](/)"
     }
   },
   "rich-text#top-bar-link-1": {
@@ -253,10 +280,7 @@
   },
   "flex-layout.row#desktop-menu-and-logo": {
     "title": "Mega menu",
-    "children": [
-      "mega-menu-v2",
-      "flex-layout.col#logo-desktop"
-    ],
+    "children": ["mega-menu-v2", "flex-layout.col#logo-desktop"],
     "props": {
       "blockClass": "menu-logo",
       "colSizing": "auto"
@@ -427,10 +451,7 @@
     }
   },
   "flex-layout.row#drawer-logo-mobile": {
-    "children": [
-      "mega-menu-v2",
-      "logo#mobile"
-    ],
+    "children": ["mega-menu-v2", "logo#mobile"],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,

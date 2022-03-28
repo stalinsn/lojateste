@@ -1490,7 +1490,7 @@
 }
 /* add to cart pdp */
 .flexRowContent--product-buy-btn {
-  
+
   margin-bottom: 20px !important;
   :global(.vtex-button) {
     font-size: 14px;
@@ -4916,3 +4916,19 @@
   }
 }
 /* Price PDP - end */
+
+/* Header top */
+.flexRowContent--header-top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.flexRowContent--store-selector-row {
+  .stretchChildrenWidth {
+    width: 100% !important;
+    &:first-child {
+      padding-right: 50px;
+      border-right: 1px solid #525252;
+    }
+  }
+}
+/* Header top - end */
