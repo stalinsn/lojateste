@@ -7,7 +7,7 @@
   },
   "flex-layout.row#menu-items-header-row": {
     "children": [
-      "menu-item#supermaket",
+      // "menu-item#supermaket",
       "menu-item#offers",
       "menu-item#category1",
       "menu-item#category2",

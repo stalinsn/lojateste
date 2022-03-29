@@ -4932,4 +4932,13 @@
     }
   }
 }
+.flexRowContent--menu-item-faqs {
+  .stretchChildrenWidth {
+    &:first-child {
+      :global(.vtex-menu-2-x-styledLinkContent--menu-item-faqs) {
+        margin-left: -13px !important
+      }
+    }
+  }
+}
 /* Header top - end */
