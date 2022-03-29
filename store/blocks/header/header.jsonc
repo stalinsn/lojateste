@@ -100,21 +100,40 @@
       "blockClass": "topbar-logo-2"
     }
   },
+  // "flex-layout.row#5-desktop": {
+  //   "title": "Barra de promoção - home",
+  //   "children": [
+  //     "rich-text#5-desktop"
+  //   ],
+  //   "props": {
+  //     "fullWidth": "true",
+  //     "blockClass": "headertop-end"
+  //   }
+  // },
+  // "rich-text#5-desktop": {
+  //   "title": "Header - benefits",
+  //   "props": {
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "text": "Veja as promoções que preparamos na categoria **Automotivos**, com frete grátis.",
+  //     "blockClass": "benefits"
+  //   }
+  // },
   "flex-layout.row#5-desktop": {
-    "title": "Barra de promoção - home",
-    "children": ["rich-text#5-desktop"],
+    "title": "Banner - home",
+    "children": [
+      "image#first-banner"
+    ],
     "props": {
-      "fullWidth": "true",
       "blockClass": "headertop-end"
     }
   },
-  "rich-text#5-desktop": {
-    "title": "Header - benefits",
+  "image#first-banner": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Veja as promoções que preparamos na categoria **Automotivos**, com frete grátis.",
-      "blockClass": "benefits"
+      "blockClass":"first-banner",
+      "src": "https://www.publicdomainpictures.net/pictures/30000/velka/black-background.jpg",
+      "maxHeight": 100,
+      "maxWidth": 1270
     }
   },
   "flex-layout.row#2-desktop": {
