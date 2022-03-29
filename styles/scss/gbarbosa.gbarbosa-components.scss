@@ -1167,3 +1167,28 @@
     right: -45px;
   }
 }
+:global(.vtex-flex-layout-0-x-flexColChild--minicart-main-infos) {
+  .promotion_highlight {
+    line-height: initial;
+    border-radius: 5px;
+    padding: 3px 20px;
+    min-height: 0px;
+    height: auto;
+    flex-direction: column;
+    align-self: flex-start;
+    background: #818181;
+    :first-child {
+      line-height: initial;
+      text-align: center;
+      font-size: 8px;
+    }
+    .promotion_highlight_price {
+      margin: 0;
+    }
+  }
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-quantity-selector) {
+  .customNumericStepper {
+    max-width: 90px;
+  }
+}

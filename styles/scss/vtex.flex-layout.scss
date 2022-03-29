@@ -4,7 +4,6 @@
   padding: 0 0.5rem;
 }
 .flexCol--minicart-main-infos {
-  width: 225px !important;
   margin: 0 10px;
   .flexColChild--minicart-main-infos {
     .flexRow {
@@ -41,13 +40,16 @@
 .flexRowContent--minicart-container-content {
   border: 1px solid #dedede;
   border-radius: 2px;
-  margin: 10px 0 0;
   padding: 11px;
-  padding-left: 5px;
-  padding-right: 5px;
   flex-direction: row;
   display: flex;
   background: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-top: 0;
+  border-top: 0;
   :global(.vtex-product-list-0-x-productPrice) {
     :global(.vtex-product-list-0-x-price) {
       color: #ed1d25;
@@ -73,11 +75,30 @@
     flex-direction: row;
     display: flex;
   }
-  :global(.vtex-numeric-stepper-container) {
-    margin-right: -30px;
+  .stretchChildrenWidth {
+    &:first-child {
+      display: flex;
+      align-items: center;
+    }
   }
   @media (max-width: 768px) {
     padding-bottom: 0;
+  }
+}
+.flexRowContent--minicart-quantity-selector {
+
+  :global(.vtex-numeric-stepper__minus-button), :global(.vtex-numeric-stepper__plus-button) {
+    width: 24px !important;
+  }
+  :global(.vtex-numeric-stepper__input) {
+    width: 100% !important;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+.flexRow--minicart-container-content {
+  :global(.vtex-store-components-3-x-price-checkout-promotion-container) {
+    max-width: 90px;
   }
 }
 @media screen and (min-width: 40em) {
@@ -735,12 +756,7 @@
     font-weight: bold;
   }
 }
-.flexRow--minicart-container-content {
-  padding: 10px;
-  background: #fafafa;
-  box-shadow: 0px 4px 8px #00000029;
-  border-radius: 5px;
-}
+
 
 .flexRow--mobile-subcategory {
   margin-top: 0.5em;
@@ -1910,7 +1926,7 @@
 :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
   width: 100%;
   padding: 0;
-  margin: 0 10px;
+  margin: 0 2px;
 }
 
 :global(.vtex-shelf-1-x-dot--isActive) {

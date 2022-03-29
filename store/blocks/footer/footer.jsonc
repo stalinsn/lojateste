@@ -22,7 +22,7 @@
   },
   "rich-text#footer-2-desktop": {
     "props": {
-      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
+      "text": "© 2022 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "footer-2-desktop"
     }
   },
@@ -502,7 +502,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
+      "text": "© 2022 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "copyright-footer"
     }
   },
