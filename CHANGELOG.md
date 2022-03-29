@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+### Added
+
+- New header structure
+
 ## [0.18.5] - 2022-03-23
 
 ## [0.18.4] - 2022-03-23

@@ -114,9 +114,11 @@
   font-size: 14px;
 }
 .openButtonLabel {
-  color: #525252;
-  font-size: 12px;
-  font-weight: bold;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-top: 3px;
   @media (max-width: 1024px) {
     color: #898989;
     margin-left: 15px;
