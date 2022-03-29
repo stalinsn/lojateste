@@ -216,7 +216,11 @@
 :global(.vtex-flex-layout-0-x-flexRow--title-news) {
   background-color: #f4f4f4;
   margin-top: 0px;
-  padding-top: 20px;
+  margin-bottom:30px;
+  height:96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 :global(.vtex-store-components-3-x-newsletter) {

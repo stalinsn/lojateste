@@ -936,6 +936,9 @@
   :global(.vtex-store-components-3-x-container) {
     margin-left: 20px;
   }
+  :global(.vtex-input-prefix__group) {
+    max-width: 432px;
+  }
 }
 
 :global(.vtex-store-components-3-x-searchBarIcon--search-mobile-search) {
