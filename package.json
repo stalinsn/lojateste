@@ -19,7 +19,7 @@
     "concurrently": "^5.1.0",
     "global": "^4.4.0",
     "qrcode.react": "^1.0.1",
-    "sass": "^1.32.8",
+    "sass": "^1.49.9",
     "slick-carousel": "^1.8.1",
     "vtex": "^2.128.0",
     "yarn": "^1.22.11"

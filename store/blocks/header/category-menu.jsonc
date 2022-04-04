@@ -1,13 +1,13 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
-    "children": ["store-selector", "flex-layout.row#menu-items-header-row"],
+    "children": ["flex-layout.row#menu-items-header-row"],
     "props": {
       "blockClass": "category-menu-desk"
     }
   },
   "flex-layout.row#menu-items-header-row": {
     "children": [
-      "menu-item#supermaket",
+      // "menu-item#supermaket",
       "menu-item#offers",
       "menu-item#category1",
       "menu-item#category2",
