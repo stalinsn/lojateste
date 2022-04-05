@@ -175,7 +175,7 @@
 }
 .menuCategoriesShowAll {
   display: flex;
-  flex-flow: column wrap;
+  // flex-flow: column wrap;
   padding-top: 20px;
   .menuAllCategory {
     padding: 10px 15px;
@@ -541,4 +541,23 @@
       text-decoration: none;
     }
   }
+}
+
+.menuDepartmentAllCategoryContainer {
+  max-width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  max-width: 50%;
+  margin-top: 45px;
+}
+.menuDepartmentAllCategoryTitle {
+  padding: 10px 30px;
+  margin-top: -40px !important;
+  color: #ed1d25;
+  font-size: 18px;
+  font-weight: bold;
+}
+.menuSeeAllCategory {
+  font-weight: bold;
 }
