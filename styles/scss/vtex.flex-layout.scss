@@ -1694,6 +1694,7 @@
       }
     }
   }
+
   :global(.vtex-button) {
     font-size: 14px;
     font-weight: 700;
@@ -1708,6 +1709,14 @@
     }
     &:disabled {
       display: none;
+    }
+  }
+  :global(.vtex-minicartUnavailable) {
+    :global(.vtex-button) {
+      &:disabled {
+        display: block;
+        color: #fff;
+      }
     }
   }
 }
