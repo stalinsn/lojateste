@@ -13,6 +13,11 @@
     }
   }
 }
+.flexColChild--minicart-main-infos {
+  .stretchChildrenWidth {
+    width: 100%  !important;
+  }
+}
 .flexRowContent--power-row-mobile {
   display: flex;
   align-items: center;
@@ -91,7 +96,7 @@
 .flexRowContent--minicart-quantity-selector {
 
   :global(.vtex-numeric-stepper__minus-button), :global(.vtex-numeric-stepper__plus-button) {
-    width: 24px !important;
+    width: 20px !important;
   }
   :global(.vtex-numeric-stepper__input) {
     width: 100% !important;

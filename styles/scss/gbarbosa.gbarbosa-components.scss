@@ -1168,6 +1168,9 @@
   }
 }
 :global(.vtex-flex-layout-0-x-flexColChild--minicart-main-infos) {
+  :global(.vtex-flex-layout-0-x-flexColChild--minicart-main-infos) {
+    width: 100% !important;
+  }
   .promotion_highlight {
     line-height: initial;
     border-radius: 5px;
@@ -1177,6 +1180,7 @@
     flex-direction: column;
     align-self: flex-start;
     background: #818181;
+
     :first-child {
       line-height: initial;
       text-align: center;
@@ -1190,5 +1194,6 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--minicart-quantity-selector) {
   .customNumericStepper {
     max-width: 90px;
+    margin-left: auto;
   }
 }
