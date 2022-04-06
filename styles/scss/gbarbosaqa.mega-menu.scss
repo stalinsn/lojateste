@@ -134,6 +134,9 @@
                 }
               }
               .menuDepartmentBannerContainer {
+                position: absolute;
+                right: -450px;
+                top: -63px;
                 .menuDepartmentBanner {
                   max-height: 524px;
                 }
