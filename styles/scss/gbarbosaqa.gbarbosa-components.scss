@@ -536,7 +536,61 @@
     }
   }
 }
+:global(.vtex-product-summary-2-x-element--normal-shelf) {
+  .installments_or_text {
+    font-size: 12px;
+  }
+}
+:global(.vtex-minicartUnavailable) {
+  .buttonText {
+    &:hover {
+      color: #ed1d25 !important;
+    }
+  }
+  :global(.vtex-button) {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: capitalize;
+      line-height: 20px;
+      background-color: #ed1d25 !important;
+      border-color: #ed1d25 !important;
+      min-height: 32px!important;
+      max-height: 32px!important;
 
+      &:disabled {
+        :hover {
+          background-color: #ffd500 !important;
+          border-color: #ffd500 !important;
+        }
+      }
+      &:hover {
+        background-color: #ffd500 !important;
+        border-color: #ffd500 !important;
+        color: #ed1d25 !important;
+      }
+      .buttonDataContainer {  
+        &:hover {
+          .buttonText {
+            color: #ED1D25 !important;
+          }
+          ::after {
+            color: #ED1D25;
+          }
+        }
+        &::after {
+          content: "+";
+          margin-left: 5px;
+        }
+      } 
+    }
+    :global(.vtex-button__label) {
+      &:hover {
+        background-color: #ffd500 !important;
+        border-color: #ffd500 !important;
+        color: #ed1d25 !important;
+      }
+    }
+}
 :global(.vtex-product-summary-2-x-container--shelf-list) {
   .customQuantitySelector {
     position: absolute;
@@ -802,6 +856,7 @@
 
 :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
   .customQuantitySelector {
+
     :global(.vtex-button) {
       &:disabled {
         background-color: #dedede;
@@ -812,10 +867,26 @@
           border-color: #dedede !important;
         }
         :global(.vtex-button__label) {
-          color: #ed1d25;
           &::after {
             content: "";
             display: none;
+          }
+        }
+      }
+    }
+    :global(.vtex-minicartUnavailable) {
+      :global(.vtex-button) {
+        &:disabled {
+          :hover {
+            background-color: #ffd500 !important;
+            border-color: #ffd500 !important;
+            color: #ed1d25 !important;
+          }
+          :global(.vtex-button__label) {
+            &::after {
+              content: "";
+              display: none;
+            }
           }
         }
       }
