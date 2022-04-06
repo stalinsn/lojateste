@@ -15,7 +15,7 @@
       display: flex;
       flex-direction: column;
       width: 272px;
-      height: 75vh;
+      height: 80vh;
       position: relative;
       padding-top: 5px;
       max-height: 524px;
@@ -70,7 +70,7 @@
           background-color: #fafafa;
           position: fixed;
           width: 100vw;
-          height: 69vh;
+          height: 80vh;
           left: calc((100vw - 926px) / 2);
           top: 117px;
           max-width: 1120px;
@@ -134,6 +134,9 @@
                 }
               }
               .menuDepartmentBannerContainer {
+                position: absolute;
+                right: -450px;
+                top: -63px;
                 .menuDepartmentBanner {
                   max-height: 524px;
                 }
