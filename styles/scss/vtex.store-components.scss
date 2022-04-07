@@ -1282,8 +1282,19 @@
     }
   }
 }
-.imageElement--unactive-list {
+.imageElement--unactive-list {  
   display: none !important;
+}
+.unity-complete {
+  font-size: 12px;font-weight: normal;
+}
+.unity-resumed {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 3px;
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+  }
 }
 .currencyContainer-checkout{
   font-size: 12px;
