@@ -155,10 +155,10 @@
       "flex-layout.col#product-price",
       "personal-price#pdp",
       "condition-layout.product#toggleBlink",
-      "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
+      "flex-layout.row#components-qty",
       "availability-subscriber",
-      "flex-layout.row#shipping-simulator"
+      "condition-layout.product#toggle-shipping-simulator"
     ],
 
     "props": {
@@ -177,6 +177,26 @@
       "isPdp": true
     }
   },
+  "condition-layout.product#toggle-shipping-simulator": {
+      "props": {
+        "conditions": [
+          {
+            "subject":"categoryId",
+            "arguments": {
+              "id": "108"
+            }
+          }
+        ],
+        "Then": "flex-layout.row#flex-empty",
+        "Else": "flex-layout.row#shipping-simulator"
+      }
+    },
+    "flex-layout.row#flex-empty": {
+      "props": {
+        "blockClass": "flex-empty"
+      }
+    },
+
   "flex-layout.row#shipping-simulator": {
     "children": ["flex-layout.col#shipping-simulator-content"],
     "props": {
@@ -249,7 +269,7 @@
     "props": {
       "conditions": [
         {
-          "subject": "categoryId",
+          "subject":"categoryId",
           "arguments": {
             "id": "108"
           }
@@ -298,7 +318,7 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 0,
-      "blockClass": ["row-two-components", "quantity-pdp"]
+      "blockClass": ["row-two-components"]
     }
   },
   "flex-layout.row#buy-button": {
@@ -307,7 +327,7 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass": "product-buy-btn"
+      "blockClass": ["product-buy-btn", "quantity-pdp"]
     }
   },
   "add-to-cart-button#pdp": {
@@ -588,21 +608,37 @@
       "installment-options",
       "flex-layout.col#product-price-mobile",
       "personal-price#pdp",
-      "flex-layout.row#spot-price-pdp",
+      "condition-layout.product#toggleBlinkMobile",
       // "global-promo#2x",
       // "global-promo#3x",
-      "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
+      "flex-layout.row#components-qty",
       "availability-subscriber",
-      "flex-layout.row#shipping-simulator"
+      "condition-layout.product#toggle-shipping-simulator"
     ]
   },
   "flex-layout.row#spot-price-pdp": {
-    "children": ["rich-text#spot-price-pdp-mobile","condition-layout.product#toggleBlink"],
+    "children": ["condition-layout.product#toggleBlinkMobile","condition-layout.product#toggleBlink"],
     "props": {
       "blockClass": "spot-price-pdp-mobile"
     }
   },
+  
+  "condition-layout.product#toggleBlinkMobile": {
+    "props": {
+      "conditions": [
+        {
+          "subject":"categoryId",
+          "arguments": {
+            "id": "108"
+          }
+        }
+      ],
+      "Then": "rich-text#spot-price-pdp-empty",
+      "Else": "rich-text#spot-price-pdp-mobile"
+    }
+  },
+
   "rich-text#spot-price-pdp-mobile": {
     "props": {
       "blockClass": "spot-price-pdp-mobile",

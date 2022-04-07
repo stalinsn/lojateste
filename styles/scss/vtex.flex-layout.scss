@@ -1543,6 +1543,7 @@
   margin-bottom: 0;
   border-top: 1px solid #dedede;
   padding-top: 10px;
+  height: 49px;
   :global(.vtex-numeric-stepper-container) {
     border: 0.5px solid #cbcbcb;
     border-radius: 5px;
@@ -1701,12 +1702,17 @@
     text-transform: capitalize;
     line-height: 20px;
     background-color: $primary;
+    background-color: $secondary;
     height: 40px;
-    &:hover {
-      background-color: $secondary;
-      border-color: $secondary;
-      color: $primary;
+    color: $primary;
+    background: $secondary;
+    border-color: $secondary;
+    border: 2px solid $secondary;
+
+    @media (max-width: 768px){
+        margin-top:13px;
     }
+
     &:disabled {
       display: none;
     }
@@ -2836,10 +2842,9 @@
   //border-color: #0069B4;
 
   :global(.vtex-button) {
-    color: #ed1d25;
-    background: #ffd500;
-    border-color: #ffd500;
-    border: 2px solid #ffd500;
+    background-color: $primary;
+    // border-color: #ffd500;
+    // border: 2px solid #ffd500;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
@@ -2947,6 +2952,7 @@
     }
   }
 }
+
 .flexRowContent--spot-price-pdp-mobile {
   margin-top: 10px;
   border: 1px solid #cacaca;
