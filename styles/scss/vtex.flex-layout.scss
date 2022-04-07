@@ -1709,6 +1709,10 @@
     border-color: $secondary;
     border: 2px solid $secondary;
 
+    @media (max-width: 768px){
+        margin-top:13px;
+    }
+
     &:disabled {
       display: none;
     }
@@ -2948,6 +2952,7 @@
     }
   }
 }
+
 .flexRowContent--spot-price-pdp-mobile {
   margin-top: 10px;
   border: 1px solid #cacaca;

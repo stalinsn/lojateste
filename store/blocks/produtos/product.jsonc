@@ -608,7 +608,7 @@
       "installment-options",
       "flex-layout.col#product-price-mobile",
       "personal-price#pdp",
-      "flex-layout.row#spot-price-pdp",
+      "condition-layout.product#toggleBlinkMobile",
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.row#buy-button",
@@ -618,11 +618,27 @@
     ]
   },
   "flex-layout.row#spot-price-pdp": {
-    "children": ["rich-text#spot-price-pdp-mobile","condition-layout.product#toggleBlink"],
+    "children": ["condition-layout.product#toggleBlinkMobile","condition-layout.product#toggleBlink"],
     "props": {
       "blockClass": "spot-price-pdp-mobile"
     }
   },
+  
+  "condition-layout.product#toggleBlinkMobile": {
+    "props": {
+      "conditions": [
+        {
+          "subject":"categoryId",
+          "arguments": {
+            "id": "108"
+          }
+        }
+      ],
+      "Then": "rich-text#spot-price-pdp-empty",
+      "Else": "rich-text#spot-price-pdp-mobile"
+    }
+  },
+
   "rich-text#spot-price-pdp-mobile": {
     "props": {
       "blockClass": "spot-price-pdp-mobile",
