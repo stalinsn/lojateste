@@ -111,16 +111,16 @@
               .menuSubCategoryColunm {
                 margin-top: 70px;
                 flex-flow: column wrap;
-                height: 78%;
-                width: 95%;
+                height: 100%;
                 display: flex;
-                max-width: 500px;
+                max-width: 198px;
                 .menuSubCategoryWrapper {
                   padding: 10px 0;
                   .menuSubCategoryLink {
                     color: #525252;
                     font-size: 14px;
                     text-decoration: none;
+                    margin-right: 10px;
                     &:hover {
                       font-weight: bold;
                       color: #ed1d25;
