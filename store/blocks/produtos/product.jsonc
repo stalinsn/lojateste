@@ -318,7 +318,7 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 0,
-      "blockClass": ["row-two-components"]
+      "blockClass": ["row-two-components","quantity-pdp"]
     }
   },
   "flex-layout.row#buy-button": {
@@ -327,7 +327,7 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass": ["product-buy-btn", "quantity-pdp"]
+      "blockClass": ["product-buy-btn", "quantity-pdp-line"]
     }
   },
   "add-to-cart-button#pdp": {
