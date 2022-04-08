@@ -1937,11 +1937,11 @@
   :global(.vtex-store-components-3-x-currencyContainer--summary) {
     font-size: 23px;
     font-weight: bold;
-    color: #525252;
+    color:#ED1D25;
 
     @media screen and (max-width: 767px) {
       font-size: 14px;
-      color: #525252;
+      color: #ED1D25;
     }
   }
 }
@@ -2937,7 +2937,7 @@
     &:first-child {
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
+      justify-content: center;
       @media screen and (max-width: 768px) {
         justify-content: center;
       }
