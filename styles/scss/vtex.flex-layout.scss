@@ -1539,12 +1539,18 @@
   }
 }
 /* add to cart pdp - end*/
-.flexRow--quantity-pdp {
+.flexRow--quantity-pdp-line {
   margin: 16px 0;
   margin-bottom: 0;
   border-top: 1px solid #dedede;
   padding-top: 10px;
   height: 49px;
+  
+}
+.flexRow--quantity-pdp {
+    margin: 0!important;
+    border:none!important;
+    padding-top: 0!important;
   :global(.vtex-numeric-stepper-container) {
     border: 0.5px solid #cbcbcb;
     border-radius: 5px;
@@ -1589,6 +1595,7 @@
       }
     }
   }
+  
 }
 
 .flexRow--savings-porcentaje {
@@ -1703,12 +1710,14 @@
     text-transform: capitalize;
     line-height: 20px;
     background-color: $primary;
-    background-color: $secondary;
     height: 40px;
-    color: $primary;
-    background: $secondary;
-    border-color: $secondary;
-    border: 2px solid $secondary;
+    color: #fff;
+    
+    &:hover{
+      background: $secondary;
+      border-color: $primary;
+      border: 2px solid $secondary;
+    }
 
     @media (max-width: 768px){
         margin-top:13px;
