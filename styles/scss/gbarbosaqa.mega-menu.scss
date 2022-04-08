@@ -103,7 +103,7 @@
               display: flex;
               justify-content: space-between;
               position: fixed;
-              width: 100vw;
+              // width: 100vw;
               height: 60vh;
               left: calc((100vw - 365px) / 2);
               top: 115px;
@@ -111,8 +111,8 @@
               .menuSubCategoryColunm {
                 margin-top: 70px;
                 flex-flow: column wrap;
-                height: 100%;
-                width: 100%;
+                height: 78%;
+                width: 95%;
                 display: flex;
                 max-width: 500px;
                 .menuSubCategoryWrapper {
@@ -159,6 +159,20 @@
     @media (max-width: 1400px) {
       left: 0;
     }
+  }
+}
+.menuDepartmentBannerContainer {
+  display: none;
+}
+.menuDepartmentBannerShow {
+  display: flex;
+  position: absolute;
+  right: -849px;
+  top: -64px;
+  @media (max-width: 1400px) {
+    position: fixed;
+    right: 0px;
+    top: 116px;
   }
 }
 .menuDepartmentNameHover {

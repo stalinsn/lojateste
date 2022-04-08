@@ -102,7 +102,12 @@
   font-weight: bold;
   margin-bottom: 0;
 }
-
+.container--copyright-footer {
+  @media (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+  }
+}
 .paragraph--copyright-footer {
   color: #525252;
   font-size: 10px;
