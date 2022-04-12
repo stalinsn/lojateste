@@ -22,7 +22,7 @@
   },
   "rich-text#footer-2-desktop": {
     "props": {
-      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
+      "text": "© 2022 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "footer-2-desktop"
     }
   },
@@ -37,9 +37,9 @@
   "rich-text#newsletter": {
     "title": "news title",
     "props": {
-      "width": "40%",
-      "textAlignment": "RIGHT",
-      "textPosition": "RIGHT",
+      "width": "42%",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "Receba as melhores ofertas e promoções!",
       "blockClass": "txt-news"
     }
@@ -502,7 +502,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
+      "text": "© 2022 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "copyright-footer"
     }
   },

@@ -59,6 +59,12 @@
     justify-content: center;
   }
 }
+.imageContainer {
+  @media screen and (min-width: 769px) {
+    height: 118px;
+    width: 118px;
+  }
+}
 // :global(.vtex-ispromotion) {
 //   :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
 //     background: #fafafa;
@@ -174,7 +180,7 @@
   }
   :global(.vtex-numeric-stepper-wrapper) {
     @media screen and (min-width: 768px) {
-      padding: 0 15px;
+      padding: 0 8px;
     }
   }
   /* QUANTITY SELECTOR CUSTOM - SHELF */
@@ -349,7 +355,7 @@
   .productBrand {
     font-size: 10px !important;
     height: auto !important;
-    padding: 0 8px;
+    padding: 0 4px;
   }
 }
 

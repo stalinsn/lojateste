@@ -154,9 +154,10 @@
       // "global-promo#3x",
       "flex-layout.col#product-price",
       "personal-price#pdp",
-      "rich-text#spot-price-pdp",
+      "condition-layout.product#toggleBlink",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
+      "availability-subscriber",
       "flex-layout.row#shipping-simulator"
     ],
 
@@ -164,6 +165,11 @@
       "preventVerticalStretch": true,
       "rowGap": 0,
       "blockClass": "pdp-right-col"
+    }
+  },
+  "availability-subscriber":{
+    "props":{
+      "blockClass":"availability-subscriber-pdp"
     }
   },
   "personal-price#pdp": {
@@ -223,8 +229,8 @@
       "installment-options",
       "flex-layout.row#price-details",
       // "rich-text#pdp-bank-or-pix",
-      "max-installments",
-      "kg-price"
+      "max-installments"
+      // "kg-price"
     ],
 
     "props": {
@@ -239,10 +245,30 @@
       "blockClass": "pdp-pix-text"
     }
   },
+  "condition-layout.product#toggleBlink": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "categoryId",
+          "arguments": {
+            "id": "108"
+          }
+        }
+      ],
+      "Then": "rich-text#spot-price-pdp-empty",
+      "Else": "rich-text#spot-price-pdp"
+    }
+  },
   "rich-text#spot-price-pdp": {
     "props": {
       "blockClass": "spot-price-pdp",
       "text": "**5% de desconto**  no pagamento à vista utilizando Boleto ou Pix"
+    }
+  },
+  "rich-text#spot-price-pdp-empty": {
+    "props": {
+      "blockClass": "spot-price-pdp-empty",
+      "text": ""
     }
   },
   "flex-layout.row#price-details": {
@@ -567,11 +593,12 @@
       // "global-promo#3x",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
+      "availability-subscriber",
       "flex-layout.row#shipping-simulator"
     ]
   },
   "flex-layout.row#spot-price-pdp": {
-    "children": ["rich-text#spot-price-pdp-mobile","rich-text#spot-price-pdp"],
+    "children": ["rich-text#spot-price-pdp-mobile","condition-layout.product#toggleBlink"],
     "props": {
       "blockClass": "spot-price-pdp-mobile"
     }
@@ -587,8 +614,8 @@
       // "flex-layout.row#flags-pdp",
       "flex-layout.row#pdp-price-custom",
       // "rich-text#pdp-bank-or-pix",
-      "max-installments",
-      "kg-price"
+      "max-installments"
+      // "kg-price"
     ],
     "props": {
       "block": "product-details"
