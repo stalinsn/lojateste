@@ -11,3 +11,16 @@
 .slideChildrenContainer {
     padding: 10px;
 }
+.shelfTitle {
+    margin-left: 18px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    color: #525252;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 1.5;
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+    }
+}

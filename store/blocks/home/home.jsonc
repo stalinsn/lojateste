@@ -34,29 +34,16 @@
   },
   "flex-layout.row#shelf-orders": {
     "children": [
-      "slider-layout#main-slider-test"
+      "flex-layout.col#shelf-orders"    ]
+  },
+  "flex-layout.col#shelf-orders": {
+    "children": [
+      "last-orders-shelf"
     ]
   },
   "last-orders-shelf": {
     "children": [
       "product-summary.shelf"
-    ]
-  },
-  "slider-layout#main-slider-test": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 3
-      },
-      "infinite": false,
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never",
-      "blockClass": "main-slider-home2",
-      "title": "Configuração - Slider"
-    },
-    "children": [
-      "last-orders-shelf"
     ]
   }
 }
