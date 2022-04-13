@@ -79,6 +79,7 @@
     "gbarbosa.wishlist": "0.x",
     "gbarbosaqa.store-selector": "1.x",
     "vtex.info-card-list": "0.x",
+    "gbarbosaqa.last-orders": "0.x",
     "vtex.my-account-commons": "1.x"
   },
   "peerDependencies": {

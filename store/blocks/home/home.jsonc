@@ -8,6 +8,7 @@
       "responsive-layout.desktop#row-gray-methods",
       "responsive-layout.desktop#slider-circles",
       // "flex-layout.row#shelf-last-car",
+      "flex-layout.row#shelf-orders",
       "flex-layout.row#offers",
       "flex-layout.row#shelf-offers",
       // "__fold__",
@@ -29,6 +30,33 @@
       "responsive-layout.mobile#services-home",
       "responsive-layout.desktop#newsletter"
       // "responsive-layout.mobile#newsletter"
+    ]
+  },
+  "flex-layout.row#shelf-orders": {
+    "children": [
+      "slider-layout#main-slider-test"
+    ]
+  },
+  "last-orders-shelf": {
+    "children": [
+      "product-summary.shelf"
+    ]
+  },
+  "slider-layout#main-slider-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "main-slider-home2",
+      "title": "Configuração - Slider"
+    },
+    "children": [
+      "last-orders-shelf"
     ]
   }
 }

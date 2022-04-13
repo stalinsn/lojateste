@@ -1,0 +1,36 @@
+{
+    "store.custom#last-orders-page": {
+        "blocks": [
+            "flex-layout.row#last-orders-container"
+        ]
+    },
+    "flex-layout.row#last-orders-container": {
+        "children": [
+            "flex-layout.col#last-orders-col"
+        ]
+    },
+    "flex-layout.col#last-orders-col": {
+        "children": [
+            "rich-text#last-orders-breadcrumb",
+            "rich-text#last-orders-title",
+            "last-orders-page"
+        ]
+    },
+    "rich-text#last-orders-breadcrumb": {
+        "props": {
+            "text": "[home](/) > **produtos comprados**",
+            "blockClass": "last-orders-breadcrumb"
+        }
+    },
+    "rich-text#last-orders-title": {
+        "props": {
+            "text": "Últimos Comprados",
+            "blockClass": "last-orders-title"
+        }
+    },
+    "last-orders-page": {
+        "children": [
+            "product-summary.shelf"
+        ]
+    }
+}

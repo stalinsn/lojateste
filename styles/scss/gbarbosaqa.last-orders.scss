@@ -1,0 +1,13 @@
+.ProductContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 30px 0;
+    grid-gap: 25px 0;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.slideChildrenContainer {
+    padding: 10px;
+}
