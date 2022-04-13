@@ -1,5 +1,9 @@
 @import "./references";
 
+.flexCol--right-side-cart{
+  display:none;
+}
+
 .flexRowContent--menu-link {
   padding: 0 0.5rem;
 }
@@ -2802,7 +2806,7 @@
   }
 
   // .flexRow--section-three-banners-desktop {
-  //   display: none;
+    // display: none;
   // }
 }
 @media (max-width: 768px) {
