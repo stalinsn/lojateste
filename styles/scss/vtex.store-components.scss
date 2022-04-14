@@ -86,6 +86,9 @@
 
 .sizeDesktop {
   padding: 0;
+  max-width: 100px;
+  min-width: 100px;
+
 }
 
 @media only screen and (min-width: em(640px)) {

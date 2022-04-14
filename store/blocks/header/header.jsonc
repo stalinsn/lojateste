@@ -307,7 +307,7 @@
     }
   },
   "flex-layout.row#desktop-utils-links": {
-    "children": [/*"rich-text#Tel",*/ "rich-text#mi-tienda", "login"],
+    "children": [/*"rich-text#Tel",*/ "rich-text#last-orders","rich-text#mi-tienda", "login"],
     "props": {
       "preventHorizontalStretch": true,
       "blockClass": "util-links"
@@ -334,6 +334,13 @@
     "props": {
       "text": "[Pedidos](/account#/orders)",
       "blockClass": "mi-tienda"
+    }
+  },
+  "rich-text#last-orders": {
+    "title": "Header - Tiendas",
+    "props": {
+      "text": "[Últimas compras](/ultimos-comprados)",
+      "blockClass": "last-orders"
     }
   },
   "sticky-layout#4-desktop": {
