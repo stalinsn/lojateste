@@ -94,5 +94,8 @@
   },
   "store.custom#ge-tips": {
     "path": "/dicas-ge"
+  },
+  "store.custom#last-orders-page": {
+    "path": "/ultimos-comprados"
   }
 }

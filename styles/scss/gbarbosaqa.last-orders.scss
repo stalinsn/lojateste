@@ -1,0 +1,26 @@
+.ProductContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 30px 0;
+    grid-gap: 25px 0;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.slideChildrenContainer {
+    padding: 10px;
+}
+.shelfTitle {
+    margin-left: 18px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    color: #525252;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 1.5;
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+    }
+}

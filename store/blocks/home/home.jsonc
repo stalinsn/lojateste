@@ -8,6 +8,7 @@
       "responsive-layout.desktop#row-gray-methods",
       "responsive-layout.desktop#slider-circles",
       // "flex-layout.row#shelf-last-car",
+      "flex-layout.row#shelf-orders",
       "flex-layout.row#offers",
       "flex-layout.row#shelf-offers",
       // "__fold__",
@@ -29,6 +30,20 @@
       "responsive-layout.mobile#services-home",
       "responsive-layout.desktop#newsletter"
       // "responsive-layout.mobile#newsletter"
+    ]
+  },
+  "flex-layout.row#shelf-orders": {
+    "children": [
+      "flex-layout.col#shelf-orders"    ]
+  },
+  "flex-layout.col#shelf-orders": {
+    "children": [
+      "last-orders-shelf"
+    ]
+  },
+  "last-orders-shelf": {
+    "children": [
+      "product-summary.shelf"
     ]
   }
 }
