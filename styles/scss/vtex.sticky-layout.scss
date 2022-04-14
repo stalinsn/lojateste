@@ -23,6 +23,9 @@
       font-size: 0 !important;
     }
   }
+  :global(.vtex-rich-text-0-x-link--last-orders) {
+    font-size: 0 !important;
+  }
 }
 .wrapper--sticky-header-1--stuck {
   :global(.vtex-flex-layout-0-x-flexRowContent--util-links){
