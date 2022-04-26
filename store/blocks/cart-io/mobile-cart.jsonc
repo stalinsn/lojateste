@@ -13,6 +13,7 @@
 
   "flex-layout.col#mobile-cart-content-top": {
     "children": [
+      "cart-regions-validation",
       "flex-layout.row#checkout-cart-title",
       "flex-layout.row#product-list-cart-mobile"
     ],

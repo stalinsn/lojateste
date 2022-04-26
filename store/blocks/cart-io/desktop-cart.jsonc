@@ -9,6 +9,7 @@
 
   "flex-layout.col#desktop-cart-content": {
     "children": [
+      "cart-regions-validation",
       "flex-layout.row#back-button-cart-desktop",
       "flex-layout.row#checkout-cart-title",
       "flex-layout.row#cart-desktop-cols"
