@@ -471,7 +471,7 @@
     }
   },
   "flex-layout.row#user-minicart-mobile": {
-    "children": ["login", "cart-controller", "minicart-toast"],
+    "children": ["rich-text#last-orders","login", "cart-controller", "minicart-toast"],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true
