@@ -172,6 +172,9 @@
       background-color: #fff !important;
       .productImageTag--main {
         mix-blend-mode: darken;
+        @media (max-width: 768px) {
+          max-height: 220px !important;
+        }
       }
     }
   }
@@ -821,7 +824,7 @@
   margin:0 4px;
 
   .currencyContainer {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 8px;
     color: #525252;
   }
@@ -1285,7 +1288,7 @@
     }
   }
 }
-.imageElement--unactive-list {  
+.imageElement--unactive-list {
   display: none !important;
 }
 .unity-complete {
@@ -1580,6 +1583,10 @@
 
 :global(.vtex-store-components-3-x-carouselGaleryCursor) {
   margin-left: 0% !important;
+
+  @media (max-width: 768px) {
+    padding-bottom: 0 !important;
+  }
 }
 
 //Slider medio super parrilleros

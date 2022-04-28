@@ -312,7 +312,7 @@
       "blockClass": "flags-pdp"
     }
   },
-  "flex-layout.row#components-qty": {   
+  "flex-layout.row#components-qty": {
     "children": ["quantity-selector-custom"],
 
     "props": {
@@ -605,10 +605,10 @@
       "flex-layout.row#flags-pdp",
       "flex-layout.row#sku",
       // "flex-layout.col#product-price",
-      "installment-options",
       "flex-layout.col#product-price-mobile",
       "personal-price#pdp",
-      "condition-layout.product#toggleBlinkMobile",
+      "installment-options",
+      // "condition-layout.product#toggleBlinkMobile",
       // "global-promo#2x",
       // "global-promo#3x",
       "flex-layout.row#buy-button",
@@ -623,7 +623,7 @@
       "blockClass": "spot-price-pdp-mobile"
     }
   },
-  
+
   "condition-layout.product#toggleBlinkMobile": {
     "props": {
       "conditions": [
