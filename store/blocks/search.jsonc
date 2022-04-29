@@ -128,6 +128,12 @@
       "blockClass": "orderByMobileCol"
     }
   },
+  "order-by.v2": {
+    "props": {
+      "showOrderTitle": true,
+      "hiddenOptions": [""]
+    }
+  },
   "flex-layout.col#filterMobile": {
     "children": ["filter-navigator.v3"],
     "props": {

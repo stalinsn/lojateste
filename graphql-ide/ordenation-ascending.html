@@ -1,0 +1,14 @@
+mutation save($args: SaveArgsV2!) {
+saveV2(args: $args)
+}
+
+{
+"args": {
+"to": "pt",
+"messages": [{
+"srcLang": "en-DV",
+"srcMessage": "store/ordenation.name.ascending",
+"targetMessage": "Crescente A-Z",
+"context": "vtex.search-result@3.x"
+}]
+}
