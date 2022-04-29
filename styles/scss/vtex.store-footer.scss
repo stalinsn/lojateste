@@ -47,7 +47,7 @@
     }
   }
   .socialNetworkLink--twitter {
-/*     &::after {
+    /*     &::after {
       content: "";
       display: block;
       @include twitter_icon(25px);
@@ -58,7 +58,7 @@
     }
   }
   .socialNetworkLink--youtube {
-   /*  &::after {
+    /*  &::after {
       content: "";
       display: block;
       @include youtube_icon(30px);
@@ -216,8 +216,8 @@
 :global(.vtex-flex-layout-0-x-flexRow--title-news) {
   background-color: #f4f4f4;
   margin-top: 0px;
-  margin-bottom:30px;
-  height:96px;
+  margin-bottom: 30px;
+  height: 96px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,8 +255,9 @@
     height: 0;
     min-width: 60px;
     min-height: 60px;
-    background: transparent url(https://gbarbosa.vteximg.com.br/arquivos/assets-up-button.png) center center
-      no-repeat;
+    background: transparent
+      url(https://gbarbosa.vteximg.com.br/arquivos/assets-up-button.png) center
+      center no-repeat;
     background-size: 50px;
     border: 0;
     bottom: 80px;
