@@ -262,10 +262,12 @@
 .menuDrawerIcon {
   height: 25px;
   display: flex;
+  width: 40px !important;
   position: relative;
   margin: 6px;
   cursor: pointer;
-  margin-right: 43px;
+  margin-right: 43px !important;
+  width: 40px !important;
   display: flex;
   justify-content: center;
 
