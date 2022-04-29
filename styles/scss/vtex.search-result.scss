@@ -47,15 +47,10 @@
 
 .orderByOptionsContainer {
   z-index: 10;
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    position: absolute;
-    top: 40px;
-    padding-top: 8px;
-    border: 1px solid #DEDEDE;
-    border-radius: 0 0 5px 5px;
-  }
+  position: absolute;
+  top: 32px;
 }
+
 .orderByButton {
   justify-content: space-between;
   padding: 0;
@@ -325,12 +320,7 @@
   }
 }
 
-.orderByButton .filterPopupTitle::before {
-  content: 'Ordenar por';
-  top: 0;
-  left: 0;
-  color: #525252;
-}
+
 
 .totalProducts--layout {
   border: none !important;
@@ -522,17 +512,47 @@
   display: none;
 }
 
+.orderByOptionItem {
+  font-size: 14px;
+  width: 96%;
+  padding: 0.5rem;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .orderByDropdown {
+    position: relative;
+  }
+
+  .orderByText {
+    display: none;
+  }
+
+  .orderByButton .filterPopupTitle::before {
+    content: 'Mais relevante';
+    top: 0;
+    left: 0;
+    color: #525252;
+  }
+}
 
 @media screen and (max-width: 768px){
   .filtersWrapperMobile {
     height: 40px;
   }
   
-  .orderByOptionItem {
-    font-size: 14px;
-    width: 96%;
-    padding: 0.5rem;
-    margin-right: auto;
+  .orderByButton .filterPopupTitle::before {
+    content: 'Ordenar por';
+    top: 0;
+    left: 0;
+    color: #525252;
   }
 
+  .orderByOptionsContainer {
+    width: 100%;
+    top: 40px;
+    padding-top: 8px;
+    border: 1px solid #DEDEDE;
+    border-radius: 0 0 5px 5px;
+  }
 }
