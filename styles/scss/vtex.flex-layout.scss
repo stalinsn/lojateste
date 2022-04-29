@@ -39,6 +39,7 @@
 
 .flexRow--header-top-bar {
   background: #333333;
+  height: 100%;
 }
 
 .flexRowContent--top-header-images {
@@ -2389,8 +2390,8 @@
     padding-bottom: 20px;
   }
 }
-.flexRow--best-seller{
-  background:#fff;
+.flexRow--best-seller {
+  background: #fff;
 }
 .flexRowContent--best-seller {
   display: flex;
@@ -2410,7 +2411,7 @@
   align-items: center;
   justify-content: space-between;
   display: flex;
-  padding-bottom:50px;
+  padding-bottom: 50px;
   .stretchChildrenWidth {
     width: auto !important;
     &:first-child {
@@ -3004,7 +3005,9 @@
 //     max-width: 1150px;
 //   }
 // }
-
+.flexRowContent--banners-row {
+  padding-bottom: 30px;
+}
 .flexRow--row-brand-baby-world {
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: fit-content !important;
@@ -4318,7 +4321,7 @@
 }
 
 .flexRowContent--circles-mobile {
-  justify-content: center;
+  justify-content: space-between;
 
   @media screen and (max-width: em(768px)) {
     justify-content: end;
@@ -4326,6 +4329,9 @@
 
   .flexColChild--circle-mobile-col-infoCard {
     text-align: center;
+  }
+  .stretchChildrenWidth {
+    max-width: 160px;
   }
 }
 
@@ -4994,8 +5000,8 @@
   padding-bottom: 5px;
 }
 
-.flexRow--store-selector-mobile{
-  background:#525252;
+.flexRow--store-selector-mobile {
+  background: #525252;
 }
 
 .flexRowContent--store-selector-row {

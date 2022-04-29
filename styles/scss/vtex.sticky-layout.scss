@@ -4,7 +4,8 @@
   }
 }
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
-  :global(.vtex-rich-text-0-x-wrapper--mi-tienda), :global(.vtex-login-2-x-profile) {
+  :global(.vtex-rich-text-0-x-wrapper--mi-tienda),
+  :global(.vtex-login-2-x-profile) {
     display: none;
   }
   :global(.vtex-store-components-3-x-searchBarContainer) {
@@ -12,13 +13,14 @@
   }
 }
 .container--sticky-header-3 {
+  height: 100%;
   :global(.vtex-flex-layout-0-x-flexRow--headertop) {
     // display: none;
   }
 }
 .wrapper--sticky-header-1--stuck {
-  :global(.vtex-rich-text-0-x-wrapper--mi-tienda){
-    display: block !important; 
+  :global(.vtex-rich-text-0-x-wrapper--mi-tienda) {
+    display: block !important;
     :global(.vtex-rich-text-0-x-link--mi-tienda) {
       font-size: 0 !important;
     }
@@ -28,16 +30,16 @@
   }
 }
 .wrapper--sticky-header-1--stuck {
-  :global(.vtex-flex-layout-0-x-flexRowContent--util-links){
-      :global(.vtex-login-2-x-label)::after{
-        display:none;
-      }
+  :global(.vtex-flex-layout-0-x-flexRowContent--util-links) {
+    :global(.vtex-login-2-x-label)::after {
+      display: none;
+    }
   }
-  :global(.vtex-search-2-x-biggy-autocomplete-wrapper) { 
+  :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
     max-width: 780px !important;
-  }  
+  }
 }
-/**Covid**/ 
+/**Covid**/
 :global(.vtex-flex-layout-0-x-flexRow--covid-row-box-lp) {
   position: relative;
 
