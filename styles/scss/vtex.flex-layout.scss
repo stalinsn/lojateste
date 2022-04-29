@@ -2390,6 +2390,9 @@
     padding-bottom: 20px;
   }
 }
+.flexRow--best-seller{
+  background:#fff;
+}
 .flexRowContent--best-seller {
   display: flex;
   justify-content: space-between;
@@ -2408,6 +2411,7 @@
   align-items: center;
   justify-content: space-between;
   display: flex;
+  padding-bottom:50px;
   .stretchChildrenWidth {
     width: auto !important;
     &:first-child {
@@ -3410,8 +3414,6 @@
 
 .flexRow--4-banners-big {
   background-color: #fafafa;
-  padding-top: 16px;
-  padding-bottom: 32px;
 
   @media screen and (max-width: em(1024px)) {
     padding-top: 16px;

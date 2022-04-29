@@ -48,12 +48,16 @@
   border-bottom: 2px solid #ed1d25 !important;
 }
 .container--home {
+
+  background: #fff;
+
   .listContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1270px;
     margin: 0 auto;
     overflow: auto;
+    border-bottom: 1px solid #F4F4F4;
     .listItem {
       :global(.vtex-button) {
         &:hover {
