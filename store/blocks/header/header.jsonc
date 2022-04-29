@@ -26,7 +26,7 @@
   },
   "sticky-layout#3-desktop": {
     "props": {
-      "blockClass": "sticky-header-1" 
+      "blockClass": "sticky-header-1"
     },
     "children": ["flex-layout.row#3-desktop"]
   },
@@ -433,7 +433,6 @@
       // "flex-layout.row#header-top-bar-mobile",
       "flex-layout.row#1-mobile",
       "flex-layout.row#2-mobile",
-      "flex-layout.row#store-selector-mobile",
       "personal-promotion"
     ]
   },
