@@ -370,6 +370,10 @@
   width: 42%;
 }
 
+.flexCol--orderByMobileCol:last-child {
+  border-right: 1px solid #DEDEDE;
+}
+
 .flexCol--filterMobileCol {
   width: 38%;
 }
@@ -1673,15 +1677,17 @@
   margin: 0 auto;
 }
 .flexRow--search-info-mobile {
+  height: 40px;
   background: #fff;
   box-shadow: 0 3px 6px rgb(0 0 0 / 5%);
-  width: 114%;
-  position: relative;
-  right: 10%;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 .flexRowContent--search-info-mobile {
   background: #fff;
   z-index: 2;
+  position: relative;
 }
 .flexRow--shelf-related-search {
   background: #fff;

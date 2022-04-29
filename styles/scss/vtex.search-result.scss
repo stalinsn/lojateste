@@ -42,15 +42,17 @@
   }
 }
 .orderByText {
-  display: none;
+  // display: none;
 }
 .orderByOptionsContainer {
   z-index: 10;
   @media screen and (max-width: 768px) {
-    top: 34px;
-    width: 195%;
-    box-shadow: none;
-    border: none;
+    width: 100%;
+    position: absolute;
+    top: 41px;
+    padding-top: 8px;
+    border: 1px solid #DEDEDE;
+    border-radius: 0 0 5px 5px;
   }
 }
 .orderByButton {
@@ -102,6 +104,7 @@
   }
 }
 .orderByDropdown {
+  position: static;
   padding: 0;
 }
 .filterPopupTitle {
@@ -322,7 +325,7 @@
 }
 
 .filterPopupTitle {
-  font-size: 12px;
+  // font-size: 12px;
 }
 
 .totalProducts--layout {
@@ -513,4 +516,15 @@
 }
 .filter__container--marca {
   display: none;
+}
+
+
+@media screen and (max-width: 768px){
+  .filtersWrapperMobile {
+    height: 40px;
+  }
+  
+  .orderByOptionItem {
+    font-size: 14px;
+  }
 }
