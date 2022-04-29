@@ -1682,12 +1682,13 @@
   box-shadow: 0 3px 6px rgb(0 0 0 / 5%);
   width: 100%;
   margin: 0 auto;
-  border-radius: 5px;
 }
 .flexRowContent--search-info-mobile {
   background: #fff;
   z-index: 2;
   position: relative;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
 }
 .flexRow--shelf-related-search {
   background: #fff;

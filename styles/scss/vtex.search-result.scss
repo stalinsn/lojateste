@@ -41,15 +41,16 @@
     width: 100%;
   }
 }
-.orderByText {
-  // display: none;
+.orderByText .dn {
+  display: block !important;
 }
+
 .orderByOptionsContainer {
   z-index: 10;
   @media screen and (max-width: 768px) {
     width: 100%;
     position: absolute;
-    top: 41px;
+    top: 40px;
     padding-top: 8px;
     border: 1px solid #DEDEDE;
     border-radius: 0 0 5px 5px;
@@ -324,8 +325,11 @@
   }
 }
 
-.filterPopupTitle {
-  // font-size: 12px;
+.orderByButton .filterPopupTitle::before {
+  content: 'Ordenar por';
+  top: 0;
+  left: 0;
+  color: #525252;
 }
 
 .totalProducts--layout {
@@ -526,5 +530,9 @@
   
   .orderByOptionItem {
     font-size: 14px;
+    width: 96%;
+    padding: 0.5rem;
+    margin-right: auto;
   }
+
 }
