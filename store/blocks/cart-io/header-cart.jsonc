@@ -44,12 +44,35 @@
   "flex-layout.row#cart-container": {
     "children": [
       "flex-layout.col#logo-cart",
-      "flex-layout.col#right-side-cart"
+      "flex-layout.col#right-side-back-site-button"
     ],
     "props": {
       "blockClass": "cart-container"
     }
   },
+
+  "flex-layout.col#right-side-back-site-button": {
+    "children": ["flex-layout.row#right-side-back-site-button"],
+    "props": {
+      "blockClass": "right-side-back-site-button",
+      "width": "75%"
+    }
+  },
+
+  "flex-layout.row#right-side-back-site-button": {
+    "children": ["rich-text#cart-back-site-button"],
+    "props": {
+      "blockClass": "right-side-inside-back-site-button",
+      "width": "75%"
+    }
+  },
+  "rich-text#cart-back-site-button": {
+    "props": {
+      "text": "[Voltar para o site](/)",
+      "blockClass": "cart-back-button"
+    }
+  },
+
   "flex-layout.col#logo-cart": {
     "children": ["image#cart-logo", "rich-text#cart-back-button"],
     "props": {

@@ -12,6 +12,7 @@
     "children": [
       "flex-layout.col#cart-io-title-col",
       "image#cart-io-security",
+      "flex-layout.col#cart-io-image-payment-brands",
       "flex-layout.col#developed-by",
       "flex-layout.col#safe-store"
     ],
@@ -39,11 +40,18 @@
       "blockClass": "cart-io-security"
     }
   },
+  "flex-layout.col#cart-io-image-payment-brands": {
+    "children": ["image#payment-method-title"],
+    "props": {
+      "colSizing":"auto",
+      "blockClass": "cart-io-col-flags-cards"
+    }
+  },
 
   "image#payment-method-title": {
     "props": {
-      "src": "https://gbarbosa.vteximg.com.br/arquivos/payments-cartao-credito.png",
-      "blockClass": "cart-io-security"
+      "src": "/arquivos/bandeiras_cartoes.png",
+      "blockClass": "cart-io--flags-cards"
     }
   },
   "flex-layout.col#developed-by": {

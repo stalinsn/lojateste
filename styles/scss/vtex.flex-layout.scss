@@ -807,6 +807,25 @@
 }
 
 /* cart-io */
+.flexCol--cart-io-col-flags-cards{
+  min-width: 274px;
+  .flexColChild--cart-io-col-flags-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 6px;
+
+    &::before{
+      content:"Formas de Pagamento";
+      color:#707070;
+      font-size: 14px;
+      display: block;
+    }
+
+  }
+}
+
 .flexRow--cart-container {
   width: 100%;
   .flexRowContent--cart-container {
@@ -1097,7 +1116,11 @@
   }
 }
 .flexRow--cart-container-desktop {
-  padding-top: 30px;
+  padding: 10px 0;
+  .flexRowContent--cart-container-desktop{
+    background: #fff;
+    padding-bottom: 107px;
+    }
 }
 @media (max-width: 768px) {
   .flexCol--empty-cart-messages-content {
@@ -5027,5 +5050,18 @@
       }
     }
   }
+}
+.flexRow--right-side-inside-back-site-button{
+  @media (max-width:768px) {
+    display:none;
+  }
+}
+.flexColChild--right-side-back-site-button{
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+    gap: 15px;
+    cursor:pointer; 
+    justify-content: flex-end;
 }
 /* Header top - end */
