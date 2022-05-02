@@ -33,6 +33,7 @@
       // "responsive-layout.mobile#newsletter"
     ]
   },
+  
   "flex-layout.row#shelf-orders": {
     "children": [
       "flex-layout.col#shelf-orders"]

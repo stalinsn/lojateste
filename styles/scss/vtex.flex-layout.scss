@@ -1327,7 +1327,7 @@
   }
   :global(.vtex-store-components-3-x-productNameContainer) {
     :global(.vtex-store-components-3-x-productBrand) {
-      font-size: 22px;
+      font-size: 24px;
       font-weight: bold;
       margin-bottom: 12px;
       display: block;
@@ -3325,7 +3325,7 @@
   }
 
   :global(.vtex-product-identifier-0-x-product-identifier__value) {
-    font-size: 14px;
+    font-size: 12px;
     color: #898989;
     font-weight: bold;
     @media screen and (max-width: em(1024px)) {
@@ -3364,6 +3364,7 @@
 :global(.vtex-flex-layout-0-x-flexCol--pdp-right-col) {
   position: relative;
   :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
+    margin-top: 7px;
     height: auto !important;
     :global(.vtex-store-components-3-x-price_sellingPriceContainer--summary) {
       margin: 0;

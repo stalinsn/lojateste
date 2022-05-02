@@ -570,7 +570,8 @@
 
   "back-to-top-button": {
     "props": {
-      "displayThreshold": 800
+      "displayThreshold": 170,
+      "display": "caret-icon"
     }
   }
 }
