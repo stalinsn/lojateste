@@ -1,6 +1,5 @@
 {
   "minicart.v2": {
-    "title": "Minicart",
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon"
     },
@@ -14,6 +13,7 @@
   "minicart-base-content#custom": {
     "blocks": ["minicart-empty-state#custom"],
     "children": [
+      "minicart-product-quantity",
       "empty-car",
       "minicart-product-list#new-minicart",
       // "quantity-selector.minicart",
