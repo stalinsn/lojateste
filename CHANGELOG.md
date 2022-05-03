@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.20.0] - 2022-05-02
+
+## [0.19.6] - 2022-05-02
+
+
+### Fixed
+
+- Pdp product id size 
+- Pdp Shipping component layout
+
 ## [0.19.5] - 2022-04-29
 
 ## [0.19.4] - 2022-04-29

@@ -368,7 +368,6 @@
   },
   "flex-layout.row#product-tabs": {
     "children": ["tab-layout#desc"],
-
     "props": {
       "marginBottom": 7,
       "blockClass": "product-description"
@@ -380,7 +379,6 @@
       "tab-list#product-title-tabs",
       "tab-content#product-content-tabs"
     ],
-
     "props": {
       "blockClass": "tab-description",
       "defaultActiveTabId": "desc"
@@ -427,7 +425,6 @@
       "tab-content.item#features",
       "tab-content.item#review"
     ],
-
     "props": {
       "blockClass": "tab-content-desc"
     }
@@ -435,7 +432,6 @@
 
   "tab-content.item#desc": {
     "children": ["product-description"],
-
     "props": {
       "tabId": "desc"
     }
@@ -443,7 +439,6 @@
 
   "tab-content.item#features": {
     "children": ["product-specification-group"],
-
     "props": {
       "tabId": "feat"
     }
@@ -478,7 +473,6 @@
 
   "tab-content.item#review": {
     "children": ["product-rating-summary"],
-
     "props": {
       "tabId": "warr"
     }
@@ -486,7 +480,6 @@
 
   "flex-layout.row#product-related": {
     "children": ["shelf.relatedProducts#sliderelated"],
-
     "props": {
       "marginBottom": 7,
       "blockClass": "product-related"
@@ -495,20 +488,19 @@
 
   "shelf.relatedProducts#sliderelated": {
     "blocks": ["product-summary.shelf"],
-
     "props": {
       "blockClass": "related-products",
       "horizontalAlign": "LEFT",
       "verticalAlign": "LEFT",
       "recommendation": "editor.relatedProducts.buy",
+      "arrows": true,
       "productList": {
         "minItemsPerPage": 3,
         "maxItems": 12,
-        "itemsPerPage": 5,
+        "itemsPerPage": 12,
         "arrows": true,
         "titleText": "Produtos Relacionados"
       },
-
       "context": {
         "maxItemsPerPage": 9,
         "hideUnavailableItems": true
