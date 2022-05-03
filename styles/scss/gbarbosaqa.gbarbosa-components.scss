@@ -966,16 +966,28 @@
     border: 1px solid #dedede;
     border-left: 0;
     border-right: 0;
+    font-size: 11px;
+    font-weight: bold;
+    color: #525252;
+    width: 18px!important;
+
   }
   :global(.vtex-numeric-stepper__plus-button) {
     border: 1px solid #dedede;
     border-left: 0;
+    :global(.vtex-numeric-stepper__plus-button__text) {
+      font-size:18px;
+    }
   }
   :global(.vtex-numeric-stepper__minus-button) {
     border: 1px solid #dedede;
     border-right: 0;
     :global(.vtex-numeric-stepper__minus-button__text) {
-      color: #898989;
+        width: 10px;
+        height: 2px;
+        background: #898989;
+        overflow: hidden;
+        margin-top: 2px;
     }
   }
 }

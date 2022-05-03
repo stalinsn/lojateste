@@ -929,7 +929,7 @@
 .flexRowContent--checkout-product-container {
   display: grid;
   grid-template-columns: 0.4fr 1.6fr 0.9fr 0.9fr 0.2fr;
-  border: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
   margin: 15px 0px;
   padding: 6px 20px;
   margin-bottom: 0;
@@ -938,6 +938,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  :global(.vtex-product-list-0-x-removeButton){
+    transform: scale(0.8);
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+  }
 }
 :global(.vtex-personal-price-checkout) {
   display: none;

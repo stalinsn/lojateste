@@ -52,12 +52,16 @@
       border: 1px solid #dedede;
       border-right: 0;
       border-radius: 5px;
+      height: 49px!important;
       :global(.vtex-button) {
           background: #525252;
           border-radius: 5px;
           text-decoration: none;
           color: #fff;
-          padding: 10px;
+          position: relative;
+          right: -2px;
+          padding: 12.5px;
+          font-weight: bold;
       }
     }
   }
