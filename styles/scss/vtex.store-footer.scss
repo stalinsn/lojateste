@@ -447,7 +447,7 @@
 
 /* social media */
 .socialNetworksContainer--footer {
-  justify-content: flex-start !important;
+  // justify-content: flex-start !important;
   @media screen and (max-width: 768px) {
     margin-left: 30px;
     margin-right: 0 !important;
@@ -474,5 +474,14 @@
   }
   .socialNetworkLink--linkedin {
     background: url("/arquivos/gbarbosa-linkedin.svg") no-repeat;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .socialNetworksContainer--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
   }
 }

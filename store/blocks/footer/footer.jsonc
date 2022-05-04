@@ -105,7 +105,7 @@
   "flex-layout.col#footer-logo": {
     "children": ["image#footer-logo"],
     "props": {
-      "width": "9%",
+      "width": "6%",
       "preventVerticalStretch": true,
       "blockClass": "footer-logo"
     }
@@ -118,7 +118,7 @@
       "flex-layout.row#footer-social-links"
     ],
     "props": {
-      "width": "29%",
+      "width": "26%",
       "preventVerticalStretch": true,
       "blockClass": "footer-precol"
     }
@@ -217,7 +217,8 @@
     "children": ["vtex.menu@2.x:menu#footer-menu1"],
 
     "props": {
-      "blockClass": "footer-col"
+      "blockClass": "footer-col",
+      "width": "15%"
     }
   },
 
@@ -226,15 +227,15 @@
 
     "props": {
       "blockClass": "footer-col",
-      "width": "15%"
+      "width": "17%"
     }
   },
 
   "flex-layout.col#footer-6-desktop": {
     "children": ["vtex.menu@2.x:menu#footer-menu6"],
-
     "props": {
-      "blockClass": "footer-col"
+      "blockClass": "footer-col",
+      "width": "17%"
     }
   },
 
