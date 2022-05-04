@@ -523,17 +523,10 @@
   .orderByDropdown {
     position: relative;
   }
+}
 
-  .orderByText {
-    display: none;
-  }
-
-  .orderByButton .filterPopupTitle::before {
-    content: 'Mais relevante';
-    top: 0;
-    left: 0;
-    color: #525252;
-  }
+.filterPopupTitle .orderByText {
+  display: none;
 }
 
 @media screen and (max-width: 768px){
@@ -541,13 +534,6 @@
     height: 40px;
   }
   
-  .orderByButton .filterPopupTitle::before {
-    content: 'Ordenar por';
-    top: 0;
-    left: 0;
-    color: #525252;
-  }
-
   .orderByOptionsContainer {
     width: 100%;
     top: 40px;
