@@ -564,7 +564,7 @@
     "children": [
       "vtex.product-highlights@2.x:product-highlights",
       // "flex-layout.row#savings",
-      "stack-layout"
+      "flex-layout.row#product-image-mobile-pdp"
     ],
 
     "props": {
@@ -574,6 +574,18 @@
     }
   },
 
+  "stack-layout#pdp-img-mobile": {
+    "children": ["product-images", "rich-text#last-orders"],
+    "props": {
+      "blockClass": "product"
+    }
+  },
+  "flex-layout.row#product-image-mobile-pdp": {
+    "children": ["stack-layout#pdp-img-mobile"],
+    "props": {
+      "blockClass" : "pdp-img-mobile"
+    }
+  },
   /*"flex-layout.col#product-imagen-mobile": {
     "children": [
       "shopping-list-shelf-button",
