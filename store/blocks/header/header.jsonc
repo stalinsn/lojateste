@@ -151,7 +151,7 @@
     "title": "Banner - home",
     "children": [
       "image#first-banner",
-      "image#first-banner-mobile"
+      "flex-layout.row#wrapper_first_banner_mobile"
     ],
     "props": {
       "blockClass": "headertop-end",
@@ -167,6 +167,17 @@
       "maxWidth": 1270
     }
   },
+
+  "flex-layout.row#wrapper_first_banner_mobile": {
+    "children": [
+      "image#first-banner-mobile"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "wrapper_first_banner_mobile"
+    }
+  },
+
   "image#first-banner-mobile": {
     "props": {
       "blockClass":"first-banner-mobile",

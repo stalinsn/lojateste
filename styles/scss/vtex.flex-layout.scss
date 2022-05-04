@@ -2975,6 +2975,11 @@
   width: 100%;
   margin: 30px auto;
 
+  .flexRow--wrapper_first_banner_mobile{
+      background-color: #000;
+      width: 100%;
+    }
+
   :global(.vtex-flex-layout-0-x-flexRowContent--headertop-end){
     display: flex;
     flex-direction: column;
