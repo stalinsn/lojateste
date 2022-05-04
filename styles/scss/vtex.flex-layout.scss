@@ -2827,9 +2827,9 @@
     padding-top: 16px;
     padding-bottom: 16px;
   }
-  @media (max-width: 768px) {
-    display: none;
-  }
+  // @media (max-width: 768px) {
+  //   display: none;
+  // }
 }
 .flexRowContent--util-links {
   height: 100%;
@@ -2974,6 +2974,28 @@
 .flexRow--headertop-end {
   width: 100%;
   margin: 30px auto;
+ 
+  :global(.vtex-flex-layout-0-x-flexRowContent--headertop-end){
+    display: flex;
+    flex-direction: column;
+  }
+  :global(.vtex-store-components-3-x-imageElement--first-banner){
+
+    @media (max-width: 768px){
+      
+      display:none;
+    
+    }
+   
+  }
+  
+  :global(.vtex-store-components-3-x-imageElement--first-banner-mobile){
+    @media (min-width: 768px){
+      
+      display:none;
+    
+    }
+  }
 
   @media (max-width: 768px) {
     margin: 0;
@@ -5084,11 +5106,7 @@
     }
   }
 }
-@media (max-width: 768px) {
-  .flexRowContent--flags-pdp {
-    // margin: 10px 0;
-  }
-}
+
 /* Price PDP - end */
 
 /* Header top */

@@ -248,7 +248,7 @@
 }
 
 :global(.vtex-store-components-3-x-backToTopButtonContainer) {
-    right:0!important;
+
   :global(.vtex-button) {
     padding: 0;
     margin: 0;
@@ -257,11 +257,12 @@
     min-width: 60px;
     min-height: 60px;
     background: transparent
-      url(https://gbarbosa.vteximg.com.br/arquivos/assets-up-button.png) center
+      url(https://gbarbosa.vteximg.com.br/arquivos/floatting_up.svg) center
       center no-repeat;
     background-size: 50px;
     border: 0;
     bottom: 80px;
+
     :global(.vtex-button__label) {
       font-size: 0;
       padding-right:0 !important;
