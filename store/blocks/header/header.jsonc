@@ -150,16 +150,27 @@
   "flex-layout.row#5-desktop": {
     "title": "Banner - home",
     "children": [
-      "image#first-banner"
+      "image#first-banner",
+      "image#first-banner-mobile"
     ],
     "props": {
-      "blockClass": "headertop-end"
+      "blockClass": "headertop-end",
+      "preventHorizontalStretch":true
     }
   },
+  
   "image#first-banner": {
     "props": {
       "blockClass":"first-banner",
       "src": "https://www.publicdomainpictures.net/pictures/30000/velka/black-background.jpg",
+      "maxHeight": 100,
+      "maxWidth": 1270
+    }
+  },
+  "image#first-banner-mobile": {
+    "props": {
+      "blockClass":"first-banner-mobile",
+      "src": "/arquivos/first_banner_mobile.svg",
       "maxHeight": 100,
       "maxWidth": 1270
     }
