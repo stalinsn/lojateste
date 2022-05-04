@@ -875,7 +875,7 @@
     :global(.vtex-button) {
       &:disabled {
         background-color: #dedede;
-        color: $primary;
+        color: #fff;
         border-color: #dedede;
         :hover {
           background-color: #dedede !important;
@@ -886,6 +886,9 @@
             content: "";
             display: none;
           }
+        }
+        @media (max-width: 768px) {
+          color: $primary;
         }
       }
     }
