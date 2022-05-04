@@ -7,7 +7,7 @@
   }
   @media (max-width: 768px) {
     background: #525252;
-
+    height: 29px;
     :global(.vtex-render-runtime-8-x-lazyload) {
       background: url(/arquivos/icon_location_white.svg) no-repeat !important;
       filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(288deg)
@@ -135,6 +135,7 @@
   @media (max-width: 768px) {
     color: #fff;
     font-weight: bold;
+    font-size: 11px;
   }
 }
 
@@ -143,6 +144,34 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 25px;
+  &.typeContainerSelect {
+    display: block;
+    .containerTypeBox {
+      max-width: 420px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 15% 70%;
+      align-items: center;
+      grid-gap: 10px;
+      margin-bottom: 20px;
+      .subtitle {
+        white-space: normal;
+      }
+      &::after {
+        width: 20px;
+        border-color: #ed1d25;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        margin-top: -10px;
+        border-bottom: 3px solid #ed1d25;
+        border-left: 3px solid #ed1d25;
+        transform: rotate(-135deg);
+        right: 25px;
+        content: "";
+      }
+    }
+  }
   .containerTypeBox {
     padding: 40px 20px;
     border: 1px solid #dedede;

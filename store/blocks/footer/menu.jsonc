@@ -193,7 +193,8 @@
       // "menu-item#ayuda-5",
       // "menu-item#ayuda-6",
       "menu-item#ayuda-7",
-      "menu-item#ayuda-8"
+      "menu-item#ayuda-8",
+      "menu-item#ayuda-9"
     ]
   },
 
@@ -217,8 +218,8 @@
         "type": "internal",
         "href": "/servicos/cartao-cenco",
         "noFollow": false,
-        "tagTitle": "Cartão GBarbosa",
-        "text": "Cartão GBarbosa"
+        "tagTitle": "Cartão GBarbosa Cencosud",
+        "text": "Cartão GBarbosa Cencosud"
       }
     }
   },
@@ -265,8 +266,8 @@
         "type": "internal",
         "href": "/lojas",
         "noFollow": false,
-        "tagTitle": "Encontre uma loja",
-        "text": "Encontre uma loja"
+        "tagTitle": "Produtos GBarbosa",
+        "text": "Produtos GBarbosa"
       }
     }
   },
@@ -310,27 +311,42 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Dicas da Gê",
+        "text": "Dicas da Gê"
+      }
+    }
+  },
+  "menu-item#ayuda-8": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lojas",
+        "noFollow": false,
+        "tagTitle": "Encontre uma loja",
+        "text": "Encontre uma loja"
+      }
+    }
+  },
+  "menu-item#ayuda-9": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
         "href": "/servicos",
         "noFollow": false,
         "tagTitle": "Serviços",
         "text": "Serviços"
       }
     }
-    },
-    "menu-item#ayuda-8": {
-      "props": {
-        "id": "menu-item-2",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "https://www.delivery.gbarbosa.com.br/",
-          "noFollow": false,
-          "tagTitle": "Mercado Online GBarbosa",
-          "text": "Mercado Online GBarbosa"
-        }
-      }
   },
 
   "logo#facebook": {
@@ -484,7 +500,7 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href":"/central-de-atendimento/politica-de-troca-e-devolucao",
+        "href": "/central-de-atendimento/politica-de-troca-e-devolucao",
         "noFollow": false,
         "tagTitle": "Política de troca e devolução",
         "text": "Política de troca e devolução"
