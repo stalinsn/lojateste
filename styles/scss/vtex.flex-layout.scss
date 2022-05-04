@@ -513,7 +513,7 @@
     align-items: center;
     padding: 20px 0;
     width: 374px;
-    border-top: 1px solid rgba(255, 255, 255, .2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     &::before {
       content: "Segurança:";
       font-weight: 600;
@@ -813,22 +813,21 @@
 }
 
 /* cart-io */
-.flexCol--cart-io-col-flags-cards{
+.flexCol--cart-io-col-flags-cards {
   min-width: 274px;
-  .flexColChild--cart-io-col-flags-cards{
+  .flexColChild--cart-io-col-flags-cards {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
     gap: 6px;
 
-    &::before{
-      content:"Formas de Pagamento";
-      color:#707070;
+    &::before {
+      content: "Formas de Pagamento";
+      color: #707070;
       font-size: 14px;
       display: block;
     }
-
   }
 }
 
@@ -944,7 +943,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  :global(.vtex-product-list-0-x-removeButton){
+  :global(.vtex-product-list-0-x-removeButton) {
     transform: scale(0.8);
     margin-top: 1px;
     display: flex;
@@ -1129,10 +1128,10 @@
 }
 .flexRow--cart-container-desktop {
   padding: 10px 0;
-  .flexRowContent--cart-container-desktop{
+  .flexRowContent--cart-container-desktop {
     background: #fff;
     padding-bottom: 107px;
-    }
+  }
 }
 @media (max-width: 768px) {
   .flexCol--empty-cart-messages-content {
@@ -1595,6 +1594,9 @@
   border-top: 1px solid #dedede;
   padding-top: 10px;
   height: 49px;
+  @media (max-width: 768px) {
+    margin: 5px 0;
+  }
 }
 .flexRow--quantity-pdp {
   margin: 0 !important;
@@ -2809,14 +2811,11 @@
 .flexRow--row- {
   background-color: #fafafa;
 
-  :global(.vtex-store-components-3-x-container){
-
-    @media(max-width: 768px){
-
-      padding:0;
+  :global(.vtex-store-components-3-x-container) {
+    @media (max-width: 768px) {
+      padding: 0;
     }
   }
-
 }
 
 .flexRow--2-banners {
@@ -2976,19 +2975,14 @@
   width: 100%;
   margin: 30px auto;
 
-  @media (max-width: 768px){
-
-    margin:0;
-
+  @media (max-width: 768px) {
+    margin: 0;
   }
 
-  :global(.vtex-store-components-3-x-container){
-
-    @media (max-width: 768px){
-      padding:0;
-
+  :global(.vtex-store-components-3-x-container) {
+    @media (max-width: 768px) {
+      padding: 0;
     }
-
   }
 }
 
@@ -5126,17 +5120,29 @@
     }
   }
 }
-.flexRow--right-side-inside-back-site-button{
-  @media (max-width:768px) {
-    display:none;
+.flexRow--right-side-inside-back-site-button {
+  @media (max-width: 768px) {
+    display: none;
   }
 }
-.flexColChild--right-side-back-site-button{
-    display: flex;
-    align-items: center;
-    margin-right: 36px;
-    gap: 15px;
-    cursor:pointer;
-    justify-content: flex-end;
+.flexColChild--right-side-back-site-button {
+  display: flex;
+  align-items: center;
+  margin-right: 36px;
+  gap: 15px;
+  cursor: pointer;
+  justify-content: flex-end;
 }
 /* Header top - end */
+
+@media (max-width: 768px) {
+  .flexRow--product-pag-mobile {
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+      background: #fff;
+      :global(.vtex-flex-layout-0-x-flexRowContent--product-pag-mobile) {
+        padding: 0 5px;
+      }
+    }
+  }
+}

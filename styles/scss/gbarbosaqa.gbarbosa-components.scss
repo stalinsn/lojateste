@@ -570,7 +570,7 @@
         border-color: #ffd500 !important;
         color: #ed1d25 !important;
       }
-      .buttonDataContainer {  
+      .buttonDataContainer {
         &:hover {
           .buttonText {
             color: #ED1D25 !important;
@@ -583,7 +583,7 @@
           content: "+";
           margin-left: 5px;
         }
-      } 
+      }
     }
     :global(.vtex-button__label) {
       &:hover {
@@ -642,6 +642,9 @@
 :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
   .triggerContainer {
     margin-top: 24px;
+    @media (max-width: 768px) {
+      margin-top: 0;
+    }
   }
 
   // :global(.vtex-product-summary-2-x-container) {

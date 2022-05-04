@@ -147,3 +147,14 @@
     //height: 30px;
   }
 }
+
+
+/* pdp */
+
+.slide--related-products {
+  :global(.vtex-store-components-3-x-currencyContainer) {
+    :global(.vtex-store-components-3-x-unity) {
+      display: none;
+    }
+  }
+}

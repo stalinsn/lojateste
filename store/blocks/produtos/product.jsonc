@@ -497,7 +497,7 @@
       "productList": {
         "minItemsPerPage": 3,
         "maxItems": 12,
-        "itemsPerPage": 12,
+        "itemsPerPage": 5,
         "arrows": true,
         "titleText": "Produtos Relacionados"
       },
