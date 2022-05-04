@@ -3571,6 +3571,9 @@
               padding-left: 5px;
             }
           }
+          @media (max-width: 768px) {
+            width: 100%;
+          }
         }
 
         :global(.vtex-input__error) {
@@ -3636,12 +3639,16 @@
           color: #fff;
         }
       }
+      @media (max-width: 768px) {
+        right: 15px !important;
+      }
     }
 
     @media screen and (max-width: 767px) {
       // align-items: center;
       display: flex;
       position: relative;
+      padding: 0 20px;
 
       :global(.vtex-address-form__postalCode) {
         :global(.vtex-input) {
@@ -5004,7 +5011,14 @@
   }
   :global(.vtex-store-components-3-x-listPriceValue)
     :global(.vtex-store-components-3-x-currencyContainer) {
-    font-size: 14px;
+    font-size: 20px;
+  }
+  :global(.vtex-store-components-3-x-listPriceValue) {
+    :global(.vtex-store-components-3-x-currencyContainer) {
+      :global(.vtex-store-components-3-x-unity) {
+        font-size: 20px;
+      }
+    }
   }
 }
 @media (max-width: 768px) {
