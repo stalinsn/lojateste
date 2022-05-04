@@ -862,7 +862,7 @@
     :global(.vtex-button) {
       &:disabled {
         background-color: #dedede;
-        color: #fff;
+        color: $primary;
         border-color: #dedede;
         :hover {
           background-color: #dedede !important;
