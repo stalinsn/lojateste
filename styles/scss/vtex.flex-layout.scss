@@ -512,7 +512,8 @@
     display: flex;
     align-items: center;
     padding: 20px 0;
-    width: 374px;
+    width: 100%;
+    overflow: hidden;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     &::before {
       content: "Segurança:";
@@ -2975,25 +2976,19 @@
   width: 100%;
   margin: 30px auto;
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--headertop-end){
+  :global(.vtex-flex-layout-0-x-flexRowContent--headertop-end) {
     display: flex;
     flex-direction: column;
   }
-  :global(.vtex-store-components-3-x-imageElement--first-banner){
-
-    @media (max-width: 768px){
-
-      display:none;
-
+  :global(.vtex-store-components-3-x-imageElement--first-banner) {
+    @media (max-width: 768px) {
+      display: none;
     }
-
   }
 
-  :global(.vtex-store-components-3-x-imageElement--first-banner-mobile){
-    @media (min-width: 768px){
-
-      display:none;
-
+  :global(.vtex-store-components-3-x-imageElement--first-banner-mobile) {
+    @media (min-width: 768px) {
+      display: none;
     }
   }
 
