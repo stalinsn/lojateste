@@ -856,6 +856,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
+    &:last-child {
+      margin-bottom: 10px;
+    }
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
   .customQuantitySelector {
 
