@@ -387,6 +387,8 @@
       :global(.vtex-store-components-3-x-inputGroup--newsletter-custom) {
         position: relative;
 
+       
+
         :global(.vtex-input) {
           padding: 0 16px 0 0;
           width: calc(100% - 180px);
@@ -408,6 +410,13 @@
           }
         }
 
+        @media screen and(max-width: 768px) {
+          :global(.vtex-input) {
+            width: calc(100% - 144px);
+            padding: 0 10px 0 20px;
+          }
+        }
+
         :global(.vtex-input__error) {
           display: flex;
           align-items: center;
@@ -421,6 +430,10 @@
           float: left;
           padding: 0;
           margin: 0;
+
+          @media screen and(max-width: 768px) {
+            width: 110px;
+          }
 
           :global(.vtex-button) {
             height: 40px;

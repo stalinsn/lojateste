@@ -207,3 +207,11 @@
   -webkit-background-clip: text;
   transition: background-color 600000s 0s, color 600000s 0s;
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--pdp-right-col) {
+  :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+  }
+}

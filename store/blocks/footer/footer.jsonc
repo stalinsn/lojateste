@@ -341,7 +341,7 @@
   "newsletter#custom": {
     "props": {
       "label": "Receba as melhores ofertas e promoções!",
-      "placeholder": "E-mail",
+      "placeholder": "Informe seu e-mail",
       "blockClass": "newsletter-custom",
       "submit": "Assinar"
     }

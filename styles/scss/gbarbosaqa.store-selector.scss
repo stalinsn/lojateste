@@ -65,13 +65,29 @@
     border: none;
     font-weight: bold;
     cursor: pointer;
+    @media screen and (max-width: 768px) {
+      position: absolute;
+      right: 47px;
+      height: 32px !important;
+      margin-top: 4px;
+      width: 140px !important;
+    }
   }
 }
 .paper {
   padding: 50px 30px;
   max-width: 760px;
+  .storeSelectorLoginButton {
+    margin-top: 15px;
+    .storeSelectorLoginButtonLink {
+      color: #2faf00;
+      font-weight: bold;
+    }
+  }
   @media (max-width: 640px) {
     max-width: 100vw;
+    width: 95%;
+    margin: 1rem;
   }
 }
 .storeSelectorLinkContainer {
@@ -140,6 +156,11 @@
 }
 
 //New flow
+.container {
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
 .typeContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -212,6 +233,36 @@
       margin-top: 10px;
       cursor: pointer;
       font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    display: block;
+    .containerTypeBox {
+      margin-bottom: 20px;
+      max-width: 100%;
+      display: flex;
+      align-items: center;
+      position: relative;
+      .titleBox {
+        max-width: 200px;
+        margin-left: 10px;
+        .subtitle {
+          white-space: normal !important;
+        }
+      }
+      &::after {
+        border-color: #ed1d25;
+        height: 11px;
+        width: 11px;
+        position: absolute;
+        top: 50%;
+        margin-top: -5px;
+        border-bottom: 3px solid #ed1d25;
+        border-left: 3px solid #ed1d25;
+        transform: rotate(-135deg);
+        right: 25px;
+        content: "";
+      }
     }
   }
 }
