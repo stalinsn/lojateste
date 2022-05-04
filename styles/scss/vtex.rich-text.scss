@@ -432,21 +432,29 @@
   }
 }
 // footer mobile
-@media (max-width: 1024px) {
-  .wrapper--footer-inner-text {
-    .paragraph--footer-inner-text {
+.wrapper--footer-inner-text {
+  .paragraph--footer-inner-text {
+    font-size: 14px;
+    color: #fefefe;
+    font-weight: 300;
+    padding: 0 0;
+    .link--footer-inner-text {
+      padding: 0;
       font-size: 14px;
-      color: #fff;
-      padding: 0 22px;
-      .link--footer-inner-text {
-        padding: 0;
-        font-size: 14px;
-        font-weight: bold;
-        text-decoration: none;
-      }
+      font-weight: 300;
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper--footer-inner-text {
+    .paragraph--footer-inner-text {
+      margin-right: 30px;
+    }
+  }
+}
+
+
 // PRODUTO
 .container--compra-protegida {
   @media screen and (max-width: 40em) {
