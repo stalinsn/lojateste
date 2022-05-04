@@ -2005,12 +2005,18 @@
     color: #ed1d25;
 
     @media screen and (max-width: 767px) {
-      font-size: 24px !important;
+      font-size: 14px !important;
       color: #ed1d25;
     }
   }
 }
-
+.flexRow--pdp-price-custom-row {
+  :global(.vtex-store-components-3-x-price_sellingPrice--summary) {
+    :global(.vtex-store-components-3-x-currencyContainer--summary) {
+      font-size: 24px !important;
+    }
+  }
+}
 :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
   width: 100%;
   padding: 0;
@@ -2971,7 +2977,7 @@
   margin: 30px auto;
 
   @media (max-width: 768px){
-    
+
     margin:0;
 
   }
@@ -5130,7 +5136,7 @@
     align-items: center;
     margin-right: 36px;
     gap: 15px;
-    cursor:pointer; 
+    cursor:pointer;
     justify-content: flex-end;
 }
 /* Header top - end */
