@@ -801,28 +801,28 @@
   }
 }
 
-// :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
-//   .customQuantitySelector {
-//     :global(.vtex-button) {
-//       &:disabled {
-//         // background-color: #dedede;
-//         // color: $primary !important;
-//         // border-color: #dedede;
-//         :hover {
-//           // background-color: #dedede !important;
-//           // border-color: #dedede !important;
-//         }
-//         :global(.vtex-button__label) {
-//           // color: #ed1d25;
-//           // &::after {
-//           //   content: "";
-//           //   display: none;
-//           // }
-//         }
-//       }
-//     }
-//   }
-// }
+:global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
+  .customQuantitySelector {
+    :global(.vtex-button) {
+      &:disabled {
+        background-color: #dedede;
+        color: #fff;
+        border-color: #dedede;
+        :hover {
+          background-color: #dedede !important;
+          border-color: #dedede !important;
+        }
+        :global(.vtex-button__label) {
+          color: #ed1d25;
+          &::after {
+            content: "";
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
 
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
   .crmPrice {
