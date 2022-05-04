@@ -2974,7 +2974,7 @@
 .flexRow--headertop-end {
   width: 100%;
   margin: 30px auto;
- 
+
   :global(.vtex-flex-layout-0-x-flexRowContent--headertop-end){
     display: flex;
     flex-direction: column;
@@ -2982,18 +2982,18 @@
   :global(.vtex-store-components-3-x-imageElement--first-banner){
 
     @media (max-width: 768px){
-      
+
       display:none;
-    
+
     }
-   
+
   }
-  
+
   :global(.vtex-store-components-3-x-imageElement--first-banner-mobile){
     @media (min-width: 768px){
-      
+
       display:none;
-    
+
     }
   }
 
@@ -3689,7 +3689,7 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
-            background-size: 32px 32px;
+            background-size: 32px 22px;
             display: inline-block;
             width: 46px;
             height: 46px;
