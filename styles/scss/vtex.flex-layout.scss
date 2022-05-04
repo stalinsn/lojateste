@@ -2798,6 +2798,15 @@
 
 .flexRow--row- {
   background-color: #fafafa;
+
+  :global(.vtex-store-components-3-x-container){
+
+    @media(max-width: 768px){
+
+      padding:0;
+    }
+  }
+
 }
 
 .flexRow--2-banners {
@@ -2955,7 +2964,15 @@
 
 .flexRow--headertop-end {
   width: 100%;
-  margin: 30px auto;
+
+  :global(.vtex-store-components-3-x-container){
+
+    @media (max-width: 768px){
+      padding:0;
+
+    }
+
+  }
 }
 
 .flexRowContent--breadcrumb-custom {
