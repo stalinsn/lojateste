@@ -29,8 +29,8 @@
       "responsive-layout.desktop#custom-end-banner",
       "responsive-layout.mobile#eletro",
       "responsive-layout.mobile#services-home",
-      "responsive-layout.desktop#newsletter"
-      // "responsive-layout.mobile#newsletter"
+      "responsive-layout.desktop#newsletter",
+      "responsive-layout.mobile#newsletter"
     ]
   },
   
