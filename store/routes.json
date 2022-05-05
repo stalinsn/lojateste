@@ -89,9 +89,6 @@
   "store.custom#stores": {
     "path": "/lojas"
   },
-  // "store.custom#departments": {
-  //   "path": "/eletro"
-  // },
   "store.custom#ge-tips": {
     "path": "/dicas-ge"
   },
