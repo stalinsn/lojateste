@@ -27,7 +27,7 @@
     }
   },
   "flex-layout.row#newsletter": {
-    "children": ["rich-text#newsletter", "newsletter"],
+    "children": ["rich-text#newsletter"/* , "newsletter" */],
 
     "props": {
       "blockClass": "title-news"
