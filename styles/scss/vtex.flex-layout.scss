@@ -3092,11 +3092,9 @@
 .flexRow--brands-container {
   margin-left: 25px;
 }
-// .flexRow--title-news {
-//   :global(.vtex-store-components-3-x-container) {
-//     max-width: 1150px;
-//   }
-// }
+.flexRow--title-news {
+  display: none !important;
+}
 .flexRowContent--banners-row {
   padding-bottom: 30px;
 }
