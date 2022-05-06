@@ -1650,6 +1650,10 @@
 }
 
 .flexRow--savings-porcentaje {
+  .flexRowContent--savings-porcentaje {
+    display: flex;
+    justify-content: flex-end;
+  }
   :global(.vtex-product-price-1-x-savings) {
     :first-child {
       margin: 0 0.2em;
