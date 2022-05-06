@@ -94,6 +94,7 @@
       "flex-layout.col#main-container-checkout.mobile"
     ],
     "props": {
+      "blockClass":"wrapper-image-price",
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "colGap": 4
@@ -106,7 +107,8 @@
     ],
     "props": {
       "colSizing": "auto",
-      "horizontalAlign": "left"
+      "preventHorizontalStretch": true
+      // "horizontalAlign": "left"
     }
   },
 
@@ -132,6 +134,7 @@
     ],
     "props": {
       "blockClass": "checkout-mobile-secondRow",
+      "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "paddingTop": 2,
       "paddingBottom": 3,

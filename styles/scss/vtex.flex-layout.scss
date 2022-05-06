@@ -1,5 +1,10 @@
 @import "./references";
 
+.flexRowContent--wrapper-image-price{
+  display: grid;
+  grid-template: 1fr / 1fr 4fr;
+}
+
 .flexCol--right-side-cart {
   display: none;
 }
