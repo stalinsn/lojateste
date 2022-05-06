@@ -1,5 +1,9 @@
 @import "./references";
 
+.flexCol--right-side-order-placed{
+  display: none;
+}
+
 .flexRowContent--wrapper-image-price{
   display: grid;
   grid-template: 1fr / 1fr 4fr;
