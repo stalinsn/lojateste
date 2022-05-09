@@ -1,6 +1,6 @@
 @import "./references";
 
-.flexRowContent--wrapper-image-price{
+.flexRowContent--wrapper-image-price {
   display: grid;
   grid-template: 1fr / 1fr 4fr;
 }
@@ -3055,6 +3055,7 @@
       justify-content: center;
       @media screen and (max-width: 768px) {
         justify-content: center;
+        align-items: flex-start;
       }
     }
     &:last-child {
