@@ -22,7 +22,10 @@
     "props": {
       "blockClass": "sticky-header-3"
     },
-    "children": ["flex-layout.row#header-top-bar", "personal-promotion" /* "food-modal" */]
+    "children": [
+      "flex-layout.row#header-top-bar",
+      "personal-promotion" /* "food-modal" */
+    ]
   },
   "sticky-layout#3-desktop": {
     "props": {
@@ -66,7 +69,7 @@
   "rich-text#gbarbosa-credit-card": {
     "props": {
       "blockClass": "headert-top-link",
-      "text": "[Cartão GBarbosa](/) "
+      "text": "[Cartão GBarbosa](/servicos/cartao-cenco) "
     }
   },
   "rich-text#offers-header": {
@@ -155,13 +158,13 @@
     ],
     "props": {
       "blockClass": "headertop-end",
-      "preventHorizontalStretch":true
+      "preventHorizontalStretch": true
     }
   },
-  
+
   "image#first-banner": {
     "props": {
-      "blockClass":"first-banner",
+      "blockClass": "first-banner",
       "src": "https://www.publicdomainpictures.net/pictures/30000/velka/black-background.jpg",
       "maxHeight": 100,
       "maxWidth": 1270
@@ -180,7 +183,7 @@
 
   "image#first-banner-mobile": {
     "props": {
-      "blockClass":"first-banner-mobile",
+      "blockClass": "first-banner-mobile",
       "src": "/arquivos/first_banner_mobile.svg",
       "maxHeight": 100,
       "maxWidth": 1270
@@ -329,7 +332,11 @@
     }
   },
   "flex-layout.row#desktop-utils-links": {
-    "children": [/*"rich-text#Tel",*/ "rich-text#last-orders","rich-text#mi-tienda", "login"],
+    "children": [
+      /*"rich-text#Tel",*/ "rich-text#last-orders",
+      "rich-text#mi-tienda",
+      "login"
+    ],
     "props": {
       "preventHorizontalStretch": true,
       "blockClass": "util-links"
@@ -361,7 +368,7 @@
   "rich-text#last-orders": {
     "title": "Header - Tiendas",
     "props": {
-      "text": "[Últimas compras](/ultimos-comprados)",
+      "text": "[Últimas compras](/account#/ultimos-comprados)",
       "blockClass": "last-orders"
     }
   },
@@ -492,7 +499,12 @@
     }
   },
   "flex-layout.row#user-minicart-mobile": {
-    "children": ["rich-text#last-orders","login", "cart-controller", "minicart-toast"],
+    "children": [
+      "rich-text#last-orders",
+      "login",
+      "cart-controller",
+      "minicart-toast"
+    ],
     "props": {
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true

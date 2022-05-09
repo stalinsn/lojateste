@@ -32,6 +32,11 @@
     font-weight: bold;
     font-family: "OpenSans", sans-serif;
     margin-top: 24px;
+    @media screen and (max-width: 768px) {
+      font-size: 19px !important;
+      display: block;
+      width: 100%;
+    }
   }
   .storeSelectorSubTitle {
     font-size: 14px;
@@ -39,6 +44,11 @@
     font-family: "OpenSans", sans-serif;
     margin-top: 8px;
     margin-bottom: 24px;
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+      display: block;
+      width: 100%;
+    }
   }
 }
 .storeSelectorInputContainer {
@@ -53,7 +63,7 @@
     padding: 0 20px;
     margin-right: 12px;
     @media (max-width: 400px) {
-      width: 45vw;
+      width: 75vw;
     }
   }
   .storeSelectorButton {
@@ -67,10 +77,12 @@
     cursor: pointer;
     @media screen and (max-width: 768px) {
       position: absolute;
-      right: 47px;
+      right: 28px;
       height: 32px !important;
       margin-top: 4px;
       width: 140px !important;
+      font-family: "OpenSans";
+      font-size: 14px;
     }
   }
 }
@@ -88,6 +100,7 @@
     max-width: 100vw;
     width: 95%;
     margin: 1rem;
+    padding: 40px 10px;
   }
 }
 .storeSelectorLinkContainer {
@@ -174,14 +187,15 @@
       grid-template-columns: 15% 70%;
       align-items: center;
       grid-gap: 10px;
+      cursor: pointer;
       margin-bottom: 20px;
       .subtitle {
         white-space: normal;
       }
       &::after {
-        width: 20px;
+        width: 11px;
         border-color: #ed1d25;
-        height: 20px;
+        height: 11px;
         position: absolute;
         top: 50%;
         margin-top: -10px;
@@ -243,9 +257,11 @@
       display: flex;
       align-items: center;
       position: relative;
+      padding: 15px 20px;
+      border-radius: 5px;
       .titleBox {
-        max-width: 200px;
-        margin-left: 10px;
+        max-width: 185px;
+        margin-left: 20px;
         .subtitle {
           white-space: normal !important;
         }
@@ -360,6 +376,9 @@
       cursor: pointer;
       border-radius: 5px;
     }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 20px;
   }
 }
 .storeSelectorLogoWrapper {

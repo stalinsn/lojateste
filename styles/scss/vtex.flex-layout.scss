@@ -1,5 +1,14 @@
 @import "./references";
 
+.flexCol--right-side-order-placed{
+  display: none;
+}
+
+.flexRowContent--wrapper-image-price{
+  display: grid;
+  grid-template: 1fr / 1fr 4fr;
+}
+
 .flexCol--right-side-cart {
   display: none;
 }
@@ -39,6 +48,7 @@
 
 .flexRow--header-top-bar {
   background: #333333;
+  height: 44px;
 }
 
 .flexRowContent--top-header-images {
@@ -512,7 +522,8 @@
     display: flex;
     align-items: center;
     padding: 20px 0;
-    width: 374px;
+    width: 100%;
+    overflow: hidden;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     &::before {
       content: "Segurança:";
@@ -1649,6 +1660,10 @@
 }
 
 .flexRow--savings-porcentaje {
+  .flexRowContent--savings-porcentaje {
+    display: flex;
+    justify-content: flex-end;
+  }
   :global(.vtex-product-price-1-x-savings) {
     :first-child {
       margin: 0 0.2em;
@@ -1727,7 +1742,7 @@
 }
 .flexRowContent--search-info-mobile {
   background: #fff;
-  z-index: 2;
+  z-index: 4;
   position: relative;
   border-radius: 5px;
   border: 1px solid #dedede;
@@ -2984,21 +2999,15 @@
     display: flex;
     flex-direction: column;
   }
-  :global(.vtex-store-components-3-x-imageElement--first-banner){
-
-    @media (max-width: 768px){
-
-      display:none;
-
+  :global(.vtex-store-components-3-x-imageElement--first-banner) {
+    @media (max-width: 768px) {
+      display: none;
     }
-
   }
 
-  :global(.vtex-store-components-3-x-imageElement--first-banner-mobile){
-    @media (min-width: 768px){
-
-      display:none;
-
+  :global(.vtex-store-components-3-x-imageElement--first-banner-mobile) {
+    @media (min-width: 768px) {
+      display: none;
     }
   }
 
@@ -3066,7 +3075,7 @@
       display: none;
       @media (max-width: 768px) {
         display: flex;
-        background: #5c5c5c;
+        background: transparent;
         height: auto !important;
       }
     }
@@ -3097,11 +3106,9 @@
 .flexRow--brands-container {
   margin-left: 25px;
 }
-// .flexRow--title-news {
-//   :global(.vtex-store-components-3-x-container) {
-//     max-width: 1150px;
-//   }
-// }
+.flexRow--title-news {
+  display: none !important;
+}
 .flexRowContent--banners-row {
   padding-bottom: 30px;
 }
@@ -4417,7 +4424,9 @@
   right: 15px;
   top: 0px;
   z-index: 99;
-
+  @media screen and(max-width:768px){
+    right: 27px;
+  }
   :global(.vtex-rich-text-0-x-paragraph--empty-car) {
     color: #fff;
     font-size: 14px;
@@ -5151,7 +5160,7 @@
 .flexColChild--right-side-back-site-button {
   display: flex;
   align-items: center;
-  margin-right: 36px;
+  margin-right: -12px;
   gap: 15px;
   cursor: pointer;
   justify-content: flex-end;

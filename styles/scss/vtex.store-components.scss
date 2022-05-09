@@ -344,6 +344,11 @@
       }
     }
   }
+  .form {
+    .success {
+      color: #2faf00;
+    }
+  }
 }
 .logoImage--banner-invoice {
   height: auto !important;
@@ -1310,6 +1315,9 @@
   font-size: 12px;
   font-weight: normal;
   color: #525252;
+  &.unity-complete-pdp {
+    font-size: 14px;
+  }
 }
 .unity-resumed {
   font-size: 16px;
@@ -1331,7 +1339,7 @@
 }
 
 .currencyContainer--summary-checkout {
-  color: #ed1d25;
+  color: #898989;
   font-size: 12px;
 }
 .price_listPrice--summary {
