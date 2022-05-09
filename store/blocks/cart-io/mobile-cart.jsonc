@@ -16,14 +16,14 @@
       "cart-regions-validation",
       "flex-layout.row#checkout-cart-title",
       "flex-layout.row#product-list-cart-mobile",
-      "flex-layout.row#buying-options"
+      "flex-layout.row#buying-options-mobile"
     ],
     "props": {
       "marginBottom": 6,
       "blockClass": "cart-content-mobile-top"
     }
   },
-  "flex-layout.row#buying-options": {
+  "flex-layout.row#buying-options-mobile": {
     "children": ["cart-buying-options"]
   },
   "flex-layout.col#mobile-cart-content-bottom": {
@@ -94,7 +94,7 @@
       "flex-layout.col#main-container-checkout.mobile"
     ],
     "props": {
-      "blockClass":"wrapper-image-price",
+      "blockClass": "wrapper-image-price",
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "colGap": 4
