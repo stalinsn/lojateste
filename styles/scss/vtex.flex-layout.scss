@@ -4418,7 +4418,9 @@
   right: 15px;
   top: 0px;
   z-index: 99;
-
+  @media screen and(max-width:768px){
+    right: 27px;
+  }
   :global(.vtex-rich-text-0-x-paragraph--empty-car) {
     color: #fff;
     font-size: 14px;
