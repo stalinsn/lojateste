@@ -1,10 +1,10 @@
 @import "./references";
 
-.flexCol--right-side-order-placed{
+.flexCol--right-side-order-placed {
   display: none;
 }
 
-.flexRowContent--wrapper-image-price{
+.flexRowContent--wrapper-image-price {
   display: grid;
   grid-template: 1fr / 1fr 4fr;
 }
@@ -3069,6 +3069,7 @@
       justify-content: center;
       @media screen and (max-width: 768px) {
         justify-content: center;
+        align-items: flex-start;
       }
     }
     &:last-child {
@@ -4424,7 +4425,7 @@
   right: 15px;
   top: 0px;
   z-index: 99;
-  @media screen and(max-width:768px){
+  @media screen and(max-width:768px) {
     right: 27px;
   }
   :global(.vtex-rich-text-0-x-paragraph--empty-car) {
