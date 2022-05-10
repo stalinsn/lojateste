@@ -152,7 +152,10 @@
   // },
   "flex-layout.row#5-desktop": {
     "title": "Banner - home",
-    "children": ["image#first-banner", "image#first-banner-mobile"],
+    "children": [
+      "image#first-banner",
+      "flex-layout.row#wrapper_first_banner_mobile"
+    ],
     "props": {
       "blockClass": "headertop-end",
       "preventHorizontalStretch": true
@@ -167,6 +170,17 @@
       "maxWidth": 1270
     }
   },
+
+  "flex-layout.row#wrapper_first_banner_mobile": {
+    "children": [
+      "image#first-banner-mobile"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "wrapper_first_banner_mobile"
+    }
+  },
+
   "image#first-banner-mobile": {
     "props": {
       "blockClass": "first-banner-mobile",
