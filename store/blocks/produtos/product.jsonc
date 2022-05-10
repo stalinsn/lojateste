@@ -103,7 +103,7 @@
       "preventHorizontalStretch": true
     }
   },
-  "promotion-flags" :{
+  "promotion-flags": {
     "blocks": ["product-price-savings#savings"]
   },
   "personal-flag#relative-flags": {
@@ -368,7 +368,7 @@
     }
   },
   "buy-now": {
-    "children": ["add-to-cart-button#pdp"]
+    "children": ["quantity-selector-custom"]
   },
   "flex-layout.row#product-tabs": {
     "children": ["tab-layout#desc"],
@@ -587,7 +587,7 @@
   "flex-layout.row#product-image-mobile-pdp": {
     "children": ["stack-layout#pdp-img-mobile"],
     "props": {
-      "blockClass" : "pdp-img-mobile"
+      "blockClass": "pdp-img-mobile"
     }
   },
   /*"flex-layout.col#product-imagen-mobile": {
