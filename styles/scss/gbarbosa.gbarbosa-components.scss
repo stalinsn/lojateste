@@ -795,12 +795,19 @@
   }
 }
 
+.buy_now_button_child {
+  :global(.vtex-flex-layout-0-x-flexRow--product-buy-btn) {
+    :global(.vtex-button) {
+      background: #ed1d25;
+      color: #fff;
+    }
+  }
+}
 @media screen and (max-width: 768px) {
   .cartDepartmentsProductList {
     padding: 0;
   }
 }
-
 :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
   .customQuantitySelector {
     :global(.vtex-button) {
@@ -867,8 +874,8 @@
   }
   // :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
   //   &:nth-child(even) {
-    //   // background: #333333;
-    // }
+  //   // background: #333333;
+  // }
   // }
 }
 .cartDepartmentsProductList {

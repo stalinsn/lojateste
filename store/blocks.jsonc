@@ -16,9 +16,7 @@
     "children": ["vtex.order-placed:order-placed"]
   },
   "store.account": {
-    "blocks": [
-      "my-account"
-    ],
+    "blocks": ["my-account"],
     "parent": {
       "challenge": "challenge.profile"
     }
@@ -110,7 +108,7 @@
       "Else": "flex-layout.row"
     }
   },
-  "flex-layout.row":{
+  "flex-layout.row": {
     "props": {
       "preventVerticalStretch": true
     }
