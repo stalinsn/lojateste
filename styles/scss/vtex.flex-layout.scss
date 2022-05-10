@@ -1,5 +1,9 @@
 @import "./references";
 
+.flexCol--right-side-order-placed {
+  display: none;
+}
+
 .flexRowContent--wrapper-image-price {
   display: grid;
   grid-template: 1fr / 1fr 4fr;
@@ -44,6 +48,7 @@
 
 .flexRow--header-top-bar {
   background: #333333;
+  height: 44px;
 }
 
 .flexRowContent--top-header-images {
@@ -1655,6 +1660,10 @@
 }
 
 .flexRow--savings-porcentaje {
+  .flexRowContent--savings-porcentaje {
+    display: flex;
+    justify-content: flex-end;
+  }
   :global(.vtex-product-price-1-x-savings) {
     :first-child {
       margin: 0 0.2em;
@@ -4411,7 +4420,9 @@
   right: 15px;
   top: 0px;
   z-index: 99;
-
+  @media screen and(max-width:768px) {
+    right: 27px;
+  }
   :global(.vtex-rich-text-0-x-paragraph--empty-car) {
     color: #fff;
     font-size: 14px;

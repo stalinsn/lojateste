@@ -96,11 +96,15 @@
   },
 
   "flex-layout.row#savings": {
-    "children": ["product-price-savings#savings"],
+    "children": [/* "product-price-savings#savings", */ "promotion-flags"],
     "props": {
       "blockClass": "savings-porcentaje",
+      "fullWidth": true,
       "preventHorizontalStretch": true
     }
+  },
+  "promotion-flags" :{
+    "blocks": ["product-price-savings#savings"]
   },
   "personal-flag#relative-flags": {
     "props": {

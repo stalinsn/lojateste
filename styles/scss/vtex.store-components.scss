@@ -344,6 +344,11 @@
       }
     }
   }
+  .form {
+    .success {
+      color: #2faf00;
+    }
+  }
 }
 .logoImage--banner-invoice {
   height: auto !important;
@@ -1334,7 +1339,7 @@
 }
 
 .currencyContainer--summary-checkout {
-  color: #ed1d25;
+  color: #898989;
   font-size: 12px;
 }
 .price_listPrice--summary {
