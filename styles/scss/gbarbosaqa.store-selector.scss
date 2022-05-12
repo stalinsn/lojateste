@@ -341,6 +341,11 @@
   padding: 30px;
   border: 1px solid #dedede;
   border-radius: 5px;
+  .spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .pickupContainer {
     .storeContainer {
       display: flex;
