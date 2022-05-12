@@ -368,7 +368,7 @@
   "rich-text#last-orders": {
     "title": "Header - Tiendas",
     "props": {
-      "text": "[Produtos comprados](/account#/ultimos-comprados)",
+      "text": "[Produtos comprados](/ultimos-comprados)",
       "blockClass": "last-orders"
     }
   },
