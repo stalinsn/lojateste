@@ -178,6 +178,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 25px;
+  justify-items: center;
   &.typeContainerSelect {
     display: block;
     .containerTypeBox {
