@@ -50,7 +50,7 @@
   },
   "responsive-layout.mobile#store-selector": {
     "children": [
-      "flex-layout.row#store-selector-mobile"
+      // "flex-layout.row#store-selector-mobile"
     ]
   }
 
