@@ -869,33 +869,16 @@
 
 :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
   .customQuantitySelector {
-    :global(.vtex-button) {
-      &:disabled {
-        background-color: #dedede;
-        color: #fff;
-        border-color: #dedede;
-        :hover {
-          background-color: #dedede !important;
-          border-color: #dedede !important;
-        }
-        :global(.vtex-button__label) {
-          &::after {
-            content: "";
-            display: none;
-          }
-        }
-        @media (max-width: 768px) {
-          color: $primary;
-        }
-      }
-    }
-    :global(.vtex-minicartUnavailable) {
+    .productUnavailable {
       :global(.vtex-button) {
         &:disabled {
-          :hover {
-            background-color: #ffd500 !important;
-            border-color: #ffd500 !important;
-            color: #ed1d25 !important;
+          background-color: #dedede !important;
+          color: #fff !important;
+          border-color: #dedede !important;
+          &:hover {
+            background-color: #dedede !important;
+            color: #fff !important;
+            border-color: #dedede !important;
           }
           :global(.vtex-button__label) {
             &::after {
@@ -903,12 +886,43 @@
               display: none;
             }
           }
+          @media (max-width: 768px) {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+  .customQuantitySelector {
+    :global(.vtex-button) {
+      &:disabled {
+        background-color: #ed1d25 !important;
+        color: #fff !important;
+        border-color: #ed1d25;
+        &:hover {
+          background-color: #ffd500 !important;
+          border-color: #ffd500 !important;
+          color: #ed1d25 !important;
+        }
+      }
+    }
+    :global(.vtex-button) {
+      &:disabled {
+        :global(.vtex-button__label) {
+          &:hover {
+            background-color: #ffd500 !important;
+            border-color: #ffd500 !important;
+            color: #ed1d25 !important;
+          }
+          &::after {
+            content: "";
+            display: none;
+          }
         }
       }
     }
   }
 }
-
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
   .crmPrice {
     background: #5c5c5c;
