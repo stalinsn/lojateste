@@ -348,6 +348,9 @@
   padding: 30px;
   border: 1px solid #dedede;
   border-radius: 5px;
+  .storeContainer {
+    align-items: flex-start;
+  }
   .spinner {
     display: flex;
     align-items: center;
