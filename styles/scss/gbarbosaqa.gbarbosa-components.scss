@@ -889,15 +889,28 @@
         }
       }
     }
-    :global(.vtex-minicartUnavailable) {
+    :global(.vtex-minicartUnavailableProduct) {
       :global(.vtex-button) {
         &:disabled {
-          :hover {
+          background-color: #ed1d25 !important;
+          color: #fff !important;
+          border-color: #ed1d25;
+          &:hover {
             background-color: #ffd500 !important;
             border-color: #ffd500 !important;
             color: #ed1d25 !important;
+            :global(.vtex-button__label) {
+              background-color: #ffd500 !important;
+              border-color: #ffd500 !important;
+              color: #ed1d25 !important;
+            }
           }
           :global(.vtex-button__label) {
+            &:hover {
+              background-color: #ffd500 !important;
+              border-color: #ffd500 !important;
+              color: #ed1d25 !important;
+            }
             &::after {
               content: "";
               display: none;
