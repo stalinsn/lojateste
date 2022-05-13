@@ -104,7 +104,7 @@
   :global(.vtex-button__label) {
     padding-right: 0px;
     padding-left: 0px;
-    padding-top: 6px !important;
+    padding-top: 5px !important;
   }
 }
 
@@ -136,7 +136,7 @@
     border-radius: 13px;
     font-size: 12px;
     padding: 2px 6px;
-    color: #E21C23;
+    color: #e21c23;
     font-weight: bold;
     width: auto;
     align-items: center;
@@ -189,7 +189,7 @@
     border-radius: 5px;
     // padding: 0 15px;
 
-    :global(.vtex-numeric-stepper__input){
+    :global(.vtex-numeric-stepper__input) {
       width: 100% !important;
     }
     :global(.vtex-numeric-stepper__input),
