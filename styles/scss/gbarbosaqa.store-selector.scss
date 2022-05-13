@@ -89,6 +89,7 @@
 .paper {
   padding: 50px 30px;
   max-width: 760px;
+  width: 100vw;
   .storeSelectorLoginButton {
     margin-top: 15px;
     .storeSelectorLoginButtonLink {
@@ -212,6 +213,7 @@
     border: 1px solid #dedede;
     max-width: 280px;
     width: 100%;
+    margin: 0 auto;
     .img {
       width: 31px;
     }
@@ -282,11 +284,17 @@
     }
   }
 }
+.headerSubTitle {
+  color: #525252;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
 .headerContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  .headerSubTitle{
+  .headerSubTitle {
     color: #525252;
     font-size: 16px;
     font-weight: 400;
@@ -297,7 +305,6 @@
     @media screen and (max-width: 768px) {
       font-size: 20px;
     }
-    
   }
   .closeButton {
     position: absolute;
