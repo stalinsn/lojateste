@@ -529,7 +529,7 @@
     }
   },
   "flex-layout.col#col-2": {
-    "children": ["search-bar#mob" /* , "store-selector" */],
+    "children": ["search-bar#mob" /* , "store-selector" */, "flex-layout.row#store-selector-mobile"],
     "props": {
       "blockClass": ["col-search", "search-bar#mob"]
     }
