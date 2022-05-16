@@ -188,8 +188,8 @@
       "flex-layout.col#product-price",
       "personal-price#pdp",
       "condition-layout.product#toggleBlink",
-      "flex-layout.row#buy-button",
       "flex-layout.row#components-qty",
+      "flex-layout.row#buy-button",
       "availability-subscriber",
       "condition-layout.product#toggle-shipping-simulator"
     ],
@@ -357,7 +357,7 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass": ["product-buy-btn", "quantity-pdp-line"]
+      "blockClass": ["product-buy-btn"/*"quantity-pdp-line"*/]
     }
   },
   "add-to-cart-button#pdp": {
@@ -655,8 +655,8 @@
       // "condition-layout.product#toggleBlinkMobile",
       // "global-promo#2x",
       // "global-promo#3x",
-      "flex-layout.row#buy-button",
       "flex-layout.row#components-qty",
+      "flex-layout.row#buy-button",
       "availability-subscriber",
       "condition-layout.product#toggle-shipping-simulator"
     ]
