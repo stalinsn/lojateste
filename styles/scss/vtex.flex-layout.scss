@@ -2953,6 +2953,12 @@
       border-color: #004d9a;
     }
     &:disabled {
+      color: #fff;
+       &:hover {
+        color: #fff;
+      }
+    }
+    /* &:disabled {
       background-color: #fff;
       color: #fff;
       border: none;
@@ -2963,7 +2969,7 @@
       :global(.vtex-button__label) {
         margin-top: 3px;
       }
-    }
+    } */
   }
 }
 .flexRow--banners-row {
