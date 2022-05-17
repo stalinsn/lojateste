@@ -1576,7 +1576,7 @@
 }
 /* add to cart pdp */
 .flexRowContent--product-buy-btn {
-  
+  margin-bottom: 20px !important;
   :global(.vtex-button) {
     font-size: 14px;
     font-weight: 700;
@@ -1611,7 +1611,7 @@
 }
 .flexRow--quantity-pdp {
   margin: 0 !important;
-  border-top: 1px solid #dedede;
+  border: none !important;
   padding-top: 0 !important;
   :global(.vtex-numeric-stepper-container) {
     border: 0.5px solid #cbcbcb;
@@ -3104,7 +3104,11 @@
   }
 }
 .flexRow--menu-link {
-  @media screen and (max-width: em(1279px)) {
+  @media screen and (max-width: em(1295px)) {
+    padding-left: 15px;
+  }
+
+  @media screen and (max-width: em(1279px)) {   
     :global(.vtex-store-components-3-x-container) {
       padding-left: 0px;
     }
