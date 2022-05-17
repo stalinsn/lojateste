@@ -131,7 +131,8 @@
   },
   "rich-text#store-footer-text": {
     "props": {
-      "text": "O GBarbosa é uma das principais redes de supermercados do Nordeste, com mais de 75 lojas, farmácias e Eletro. \n \n [Clique aqui e saiba mais](/)",
+      "text": "O que nasceu como uma pequena mercearia que vendia secos e molhados, hoje o GBarbosa é uma das marcas mais prestigiadas do Nordeste. \n \n [Clique aqui e saiba mais](/)",
+      // "O GBarbosa é uma das principais redes de supermercados do Nordeste, com mais de 75 lojas, farmácias e Eletro.
       "blockClass": ["footer-inner-text", "store-footer"]
     }
   },
