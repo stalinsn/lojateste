@@ -93,6 +93,9 @@
   max-width: $maxContainerWidth;
   margin: 0 auto;
   justify-content: space-between;
+  @media(max-width:1295px){
+    padding-left:15px;
+  }
 }
 
 /* stick wrapper with the same color as the desktop/mobile header */
