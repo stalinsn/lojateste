@@ -1662,7 +1662,7 @@
 .flexRow--savings-porcentaje {
   .flexRowContent--savings-porcentaje {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
   :global(.vtex-product-price-1-x-savings) {
     :first-child {
@@ -3108,7 +3108,7 @@
     padding-left: 15px;
   }
 
-  @media screen and (max-width: em(1279px)) {   
+  @media screen and (max-width: em(1279px)) {
     :global(.vtex-store-components-3-x-container) {
       padding-left: 0px;
     }

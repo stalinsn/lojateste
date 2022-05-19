@@ -181,6 +181,8 @@
     "children": [
       "flex-layout.row#upcbox",
       "flex-layout.row#namebox",
+      "promotion-flags",
+      "flex-layout.row#savings",
       "flex-layout.row#flags-pdp",
       "flex-layout.row#sku",
       // "global-promo#2x",
@@ -568,7 +570,6 @@
   "flex-layout.col#product-imagen-mobile": {
     "children": [
       "vtex.product-highlights@2.x:product-highlights",
-      // "flex-layout.row#savings",
       "flex-layout.row#product-image-mobile-pdp"
     ],
 
@@ -646,6 +647,7 @@
     "children": [
       "flex-layout.row#upcbox",
       "flex-layout.row#namebox",
+      "flex-layout.row#savings",
       "flex-layout.row#flags-pdp",
       "flex-layout.row#sku",
       // "flex-layout.col#product-price",
