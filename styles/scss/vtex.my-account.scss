@@ -776,6 +776,8 @@
   }
 }
 
+
+
 :global(.vtex-menu-2-x-menuContainerNav) {
   :global(.vtex-button) {
     :global(.vtex-button__label) {
@@ -792,10 +794,19 @@
 }
 
 :global(.vtex-account__order-details) {
+ 
+
   & > div:first-child {
     & > div:first-child {
       & div:first-child {
-        display: none;
+        margin-left: 24px;
+        background-color: #FFD500;
+        padding: 6px 20px;
+        border-radius: 99px;
+        span {
+          color: #525252;
+          font-weight: bold;
+        }
       }
     }
     & > div:nth-child(4n) {
@@ -876,6 +887,7 @@
     :global(.myo-progress-bar__highlighted-circle) {
       margin-top: 1.3rem;
     }
+  
     :global(.myo-progress-bar__title-font) {
       justify-content: center;
       display: flex;
@@ -1077,3 +1089,22 @@
   display: none;
 }
 /* Custom my-account - end */
+
+:global(.myo-progress-bar__circle) {
+  background-color:  #62C462;
+}
+
+:global(.myo-progress-bar__height1) {
+  border-color: #62C462;
+}
+
+:global(.myo-progress-bar__ma-inner-circle) {
+  background-color:  #62C462;
+  &::before {
+    background-color: #62C462 ;
+    left: -6px !important;
+    top: -6px !important;
+    background: #fff !important;
+    border: 2px solid #62c462;
+  }
+}
