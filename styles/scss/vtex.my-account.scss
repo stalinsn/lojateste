@@ -1090,11 +1090,14 @@
 }
 /* Custom my-account - end */
 
-:global(.myo-progress-bar__circle) {
+:global(.myo-progress-bar__circle.bg-success) {
   background-color:  #62C462;
 }
 
-:global(.myo-progress-bar__height1) {
+:global(.myo-progress-bar__height1.bg-success) {
+  border-color: #62C462;
+}
+:global(.myo-progress-bar__height1.b--success) {
   border-color: #62C462;
 }
 
