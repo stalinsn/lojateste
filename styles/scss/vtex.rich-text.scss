@@ -829,6 +829,11 @@
 }
 
 .wrapper--last-orders{
+  @media screen and (min-width: 1280px) and (max-width: 1026px){
+    .link--last-orders {
+      min-width: 164px;
+    }
+  }
 
   .link--last-orders {
     display: flex ;
@@ -836,6 +841,7 @@
     text-decoration: none;
     font-size: 14px;
     margin: 0 16px;
+
     &:hover {
       color: #fff;
     }
