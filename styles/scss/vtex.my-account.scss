@@ -1091,23 +1091,23 @@
 /* Custom my-account - end */
 
 :global(.myo-progress-bar__circle.bg-success) {
-  background-color:  #62C462;
+  background-color:  #2FAF00;
 }
 
 :global(.myo-progress-bar__height1.bg-success) {
-  border-color: #62C462;
+  border-color: #2FAF00;
 }
 :global(.myo-progress-bar__height1.b--success) {
   border-color: #62C462;
 }
 
 :global(.myo-progress-bar__ma-inner-circle) {
-  background-color:  #62C462;
+  background-color:  #2FAF00;
   &::before {
-    background-color: #62C462 ;
-    left: -6px !important;
-    top: -6px !important;
-    background: #fff !important;
-    border: 2px solid #62c462;
+    background-color: #2FAF00;
+    left: -6px!important;
+    top: -6px!important;
+    background: #fff!important;
+    border: 2px solid #00913D;
   }
 }
