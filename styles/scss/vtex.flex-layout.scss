@@ -254,7 +254,11 @@
     display: none;
   }
 }
-
+.flexRowContent--shelf-list-search{
+  grid-template: 1fr / 1fr 3fr 1fr;
+  display: grid;
+  align-items: center;
+}
 .flexRow--menu-link {
   background-color: #ed1d25;
   padding-left: 0;
