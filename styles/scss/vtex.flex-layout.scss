@@ -259,6 +259,16 @@
   display: grid;
   align-items: center;
 }
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck){
+  .flexRow--menu-link {
+    .flexRowContent--menu-link {
+      display: grid;
+      grid-template: 1fr/2fr 5fr 1fr 1fr;
+      justify-items: flex-start;
+    }
+  }
+}
 .flexRow--menu-link {
   background-color: #ed1d25;
   padding-left: 0;
