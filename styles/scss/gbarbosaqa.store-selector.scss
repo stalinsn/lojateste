@@ -328,6 +328,9 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  .backText {
+    font-size: 14px;
+  }
 }
 
 .backButtonLabel {
@@ -421,9 +424,9 @@
   }
 }
 
-  .hidden {
-    display: none;
-  }
-  .show {
-    display: block;
-  }
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
