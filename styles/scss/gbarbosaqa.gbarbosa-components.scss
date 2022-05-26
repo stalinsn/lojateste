@@ -772,7 +772,9 @@
                 top: 70px;
                 :global(.vtex-button) {
                   margin-top: -20px;
-
+                  width:100%!important;
+                  padding: 0 4px;
+                  
                   &:disabled {
                     visibility: hidden;
                     display: flex;

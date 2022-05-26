@@ -120,19 +120,19 @@
             align-items: center;
             justify-content: center;
 
-            :global(.vtex-button__label) {
-              display: none;
-            }
+            // :global(.vtex-button__label) {
+            //   display: none;
+            // }
 
-            &::after {
-              content: "";
-              width: 8px;
-              height: 8px;
-              display: inline-block;
-              background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.461' height='8.461' viewBox='0 0 8.461 8.461'%3E%3Cpath id='Path_36486' data-name='Path 36486' d='M23.4,3.173H21.288V1.058a1.058,1.058,0,1,0-2.115,0V3.173H17.058a1.058,1.058,0,0,0,0,2.115h2.115V7.4a1.058,1.058,0,1,0,2.115,0V5.288H23.4a1.058,1.058,0,1,0,0-2.115Z' transform='translate(-16)' fill='%23fff'/%3E%3C/svg%3E%0A");
-              background-repeat: no-repeat;
-              background-size: cover;
-            }
+            // &::after {
+            //   content: "";
+            //   width: 8px;
+            //   height: 8px;
+            //   display: inline-block;
+            //   background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.461' height='8.461' viewBox='0 0 8.461 8.461'%3E%3Cpath id='Path_36486' data-name='Path 36486' d='M23.4,3.173H21.288V1.058a1.058,1.058,0,1,0-2.115,0V3.173H17.058a1.058,1.058,0,0,0,0,2.115h2.115V7.4a1.058,1.058,0,1,0,2.115,0V5.288H23.4a1.058,1.058,0,1,0,0-2.115Z' transform='translate(-16)' fill='%23fff'/%3E%3C/svg%3E%0A");
+            //   background-repeat: no-repeat;
+            //   background-size: cover;
+            // }
           }
 
           :global(.vtex-numeric-stepper-container) {
