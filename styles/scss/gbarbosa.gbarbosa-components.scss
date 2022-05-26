@@ -598,7 +598,7 @@
 :global(.vtex-search-result-3-x-galleryItem--alternative) {
   :global(.vtex-product-summary-2-x-containerNormal--shelf-list) {
     .customQuantitySelector {
-      top: 70px;
+      top: 50px;
       :global(.vtex-button) {
         &:disabled {
           visibility: hidden;
@@ -760,7 +760,6 @@
 :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
   .customQuantitySelector {
     width: auto;
-
     bottom: 32px;
     top: auto;
     right: 32px;

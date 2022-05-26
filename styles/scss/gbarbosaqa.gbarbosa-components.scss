@@ -769,9 +769,8 @@
           :global(.vtex-product-summary-2-x-element) {
             :global(.vtex-flex-layout-0-x-flexRow) {
               .customQuantitySelector {
-                top: 70px;
+                top: 50px;
                 :global(.vtex-button) {
-                  margin-top: -20px;
                   width:100%!important;
                   padding: 0 4px;
                   
@@ -822,6 +821,10 @@
     bottom: 32px;
     top: auto;
     right: 32px;
+
+    @media screen and (max-width:768px){
+      top:30px!important;
+    }
 
     @media screen and (max-width: em(450px)) {
       position: absolute;
