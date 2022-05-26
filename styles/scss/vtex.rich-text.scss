@@ -339,10 +339,12 @@
   .wrapper--unavailable-product {
     .paragraph--unavailable-product {
       margin: 0;
-      font-size: 12px;
+      font-size: 10px;
       color: #ed1d25;
       font-weight: bold;
       margin-left: -2px;
+      text-align: center;
+      padding: 0 10px;
     }
   }
 }
