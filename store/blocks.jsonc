@@ -45,7 +45,8 @@
     "children": [
       "stack-layout#prodsum",
       // "product-rating-inline",
-      "product-summary-name",
+      // "product-summary-name",
+      "product-name-w-weight",
       // "product-summary-brand",
       //"product-summary-price",
       // "global-promo#2x",
