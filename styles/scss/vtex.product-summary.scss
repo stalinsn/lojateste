@@ -102,11 +102,14 @@
 }
 :global(.vtex-product-summary-2-x-element) {
   :global(.vtex-button__label) {
-    display: none;
-    // padding-right: 0px;
-    // padding-left: 0px;
-    // padding-top: 5px !important;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 5px !important;
+    @media screen and(max-width:768px){
+      display: none;
+    }
   }
+  
 }
 
 .container {
