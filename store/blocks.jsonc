@@ -68,19 +68,29 @@
   },
   "condition-layout.product#shadowProduct": {
     "props": {
+      "matchType": "all",
       "conditions": [
         {
           "subject": "isProductAvailable"
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": { "name": "Regionalização", "value": "Eletro" }
         }
       ],
       "Then": "rich-text#unavailable-product-2",
-      "Else": "rich-text#unavailable-product"
+      "Else": "unavailable-text"
     }
   },
   "rich-text#unavailable-product-2": {
     "props": {
       "text": ""
     }
+  },
+  "unavailable-text": {
+    "blocks": [
+      "rich-text#unavailable-product"
+    ]
   },
   "rich-text#unavailable-product": {
     "props": {
