@@ -83,7 +83,7 @@
   },
   "rich-text#unavailable-product": {
     "props": {
-      "text": "Indisponível",
+      "text": "Indisponível para sua região",
       "blockClass": "unavailable-product"
     }
   },
