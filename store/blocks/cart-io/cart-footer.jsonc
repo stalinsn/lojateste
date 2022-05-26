@@ -12,7 +12,7 @@
     "children": [
       "flex-layout.col#cart-io-title-col",
       "image#cart-io-security",
-      "flex-layout.col#cart-io-image-payment-brands",
+      // "flex-layout.col#cart-io-image-payment-brands",
       "flex-layout.col#developed-by",
       "flex-layout.col#safe-store"
     ],
