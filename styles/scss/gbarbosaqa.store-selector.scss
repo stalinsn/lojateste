@@ -8,11 +8,11 @@
   @media (max-width: 768px) {
     background: #525252;
     height: 29px;
-    :global(.vtex-render-runtime-8-x-lazyload) {
-      background: url(/arquivos/icon_location_white.svg) no-repeat !important;
-      filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(288deg)
-        brightness(120%) contrast(102%) !important;
-    }
+    // :global(.vtex-render-runtime-8-x-lazyload) {
+    //   background: url(/arquivos/icon_location_white.svg) no-repeat !important;
+    //   filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(288deg)
+    //     brightness(120%) contrast(102%) !important;
+    // }
   }
 }
 
@@ -159,7 +159,7 @@
   margin-top: 3px;
   @media (max-width: 1024px) {
     color: #898989;
-    margin-left: 15px;
+    // margin-left: 15px;
   }
   @media (max-width: 768px) {
     color: #fff;
