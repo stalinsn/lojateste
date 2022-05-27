@@ -771,9 +771,9 @@
               .customQuantitySelector {
                 top: 50px;
                 :global(.vtex-button) {
-                  width:100%!important;
+                  width: 100% !important;
                   padding: 0 4px;
-                  
+
                   &:disabled {
                     visibility: hidden;
                     display: flex;
@@ -822,8 +822,8 @@
     top: auto;
     right: 32px;
 
-    @media screen and (max-width:768px){
-      top:30px!important;
+    @media screen and (max-width: 768px) {
+      top: 30px !important;
     }
 
     @media screen and (max-width: em(450px)) {
@@ -969,11 +969,6 @@
       padding: 0 8px;
     }
   }
-  // :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
-  //   &:nth-child(even) {
-  //     background: #333333;
-  //   }
-  // }
 }
 .cartDepartmentsProductList {
   .promotion_highlight {
@@ -1073,9 +1068,19 @@
     max-height: 62px;
   }
 }
+
 :global(.vtex-flex-layout-0-x-flexColChild--shelf-list-product-info) {
   .hasPromotionLayout {
     position: relative;
+    .installments_value {
+      background: #5c5c5c;
+      color: #fff !important;
+      margin: 0;
+      padding-left: 20px;
+    }
+    :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
+      background: #5c5c5c;
+    }
     :global(.vtex-product-price-1-x-savings) {
       position: absolute;
       top: -32px;
@@ -1107,6 +1112,18 @@
         left: 0px;
       }
     }
+  }
+}
+.hasPromotionLayout {
+  position: relative;
+  .installments_value {
+    background: #5c5c5c;
+    color: #ffd500 !important;
+    margin: 0;
+    padding-left: 20px;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) {
+    background: #5c5c5c;
   }
 }
 :global(.vtex-search-2-x-tileListItem) {
