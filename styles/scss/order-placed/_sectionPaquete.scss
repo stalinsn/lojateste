@@ -30,13 +30,21 @@
     border-radius: 5px;
     padding: 11px;
     margin-top: 15px;
+    .itemsTableClose {
+      height: 230px;
+      max-height: 230px;
+    }
+    .itemsTableIsOpen {
+      height: auto;
+      max-height: max-content;
+    }
     .itemsTable {
       width: 100%;
       border-collapse: collapse;
-      overflow-y: auto;
-      height: 180px;
       display: flex;
+      overflow: hidden;
       padding-right: 5px;
+      transition: 0.3s all ease-out;
       .itemsTableBody {
         width: 100%;
       }
@@ -85,6 +93,17 @@
           }
         }
       }
+    }
+    .seeMoreButton {
+      background-color: #ed1d25;
+      color: #fff;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      margin-top: 5px;
+      cursor: pointer;
+      font-weight: bold;
     }
   }
 
