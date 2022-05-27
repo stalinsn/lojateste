@@ -29,8 +29,8 @@
   "flex-layout.col#mobile-cart-content-bottom": {
     "children": [
       "flex-layout.row#checkout-summary-container",
-      "flex-layout.row#more-products",
-      "flex-layout.row#cenconsud-card"
+      "flex-layout.row#more-products"
+      // "flex-layout.row#cenconsud-card"
     ],
     "props": {
       "marginBottom": 6,
