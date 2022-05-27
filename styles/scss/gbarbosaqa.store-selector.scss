@@ -328,6 +328,18 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  &.secondaryBack {
+    width: 100%;
+    justify-content: center;
+    background: red;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 140px;
+    border-radius: 4px;
+    .iconBack {
+      filter: brightness(0) invert(1);
+    }
+  }
   .backText {
     font-size: 14px;
   }
