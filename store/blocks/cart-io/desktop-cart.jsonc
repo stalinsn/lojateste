@@ -62,8 +62,8 @@
 
   "flex-layout.col#desktop-col-right": {
     "children": [
-      "flex-layout.row#desktop-right-container",
-      "flex-layout.row#cenconsud-card"
+      "flex-layout.row#desktop-right-container"
+      // "flex-layout.row#cenconsud-card"
     ],
     "props": {
       "blockClass": "checkout-desktop-col-right"
