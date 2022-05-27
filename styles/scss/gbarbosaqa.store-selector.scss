@@ -360,6 +360,26 @@
     justify-content: center;
   }
   .pickupContainer {
+    max-height: 214px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+      overflow-y: auto;
+      &::-webkit-scrollbar-track {
+        background-color: #f4f4f4;
+      }
+
+      &::-webkit-scrollbar {
+        width: 6px;
+        background: #f4f4f4;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #ed1d25;
+        border-radius: 5px;
+      }
+
+
     .storeContainer {
       display: flex;
       border: 1px solid #dedede;
