@@ -254,13 +254,13 @@
     display: none;
   }
 }
-.flexRowContent--shelf-list-search{
+.flexRowContent--shelf-list-search {
   grid-template: 1fr / 1fr 3fr 2fr;
   display: grid;
   align-items: center;
 }
 
-:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck){
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
   .flexRow--menu-link {
     .flexRowContent--menu-link {
       display: grid;
@@ -281,14 +281,14 @@
     margin: 0 auto;
     justify-content: space-between;
     background-color: #ed1d25;
-    @media screen and(max-width:1500px ){
+    @media screen and(max-width:1500px ) {
       display: grid;
-      grid-template:1fr/ 2fr 4fr 4fr 1.5fr;
+      grid-template: 1fr/ 2fr 4fr 4fr 1.5fr;
       justify-items: center;
     }
-    @media screen and (min-width:1026px ) and (max-width:1280px ){
+    @media screen and (min-width: 1026px) and (max-width: 1280px) {
       display: grid;
-      grid-template:1fr/ 2fr 2fr 4fr 1fr;
+      grid-template: 1fr/ 2fr 2fr 4fr 1fr;
     }
   }
 }
@@ -2048,8 +2048,7 @@
     @media screen and (max-width: 767px) {
       font-size: 14px !important;
       color: #ed1d25;
-    color: #525252;
-
+      color: #525252;
     }
   }
 }
@@ -2980,7 +2979,7 @@
     }
     &:disabled {
       color: #fff;
-       &:hover {
+      &:hover {
         color: #fff;
       }
     }
@@ -3022,12 +3021,12 @@
   width: 100%;
   margin: 30px auto;
 
-  .flexRow--wrapper_first_banner_mobile{
-      background-color: #000;
-      width: 100%;
-    }
+  .flexRow--wrapper_first_banner_mobile {
+    background-color: #000;
+    width: 100%;
+  }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--headertop-end){
+  :global(.vtex-flex-layout-0-x-flexRowContent--headertop-end) {
     display: flex;
     flex-direction: column;
   }
@@ -3099,6 +3098,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      background: none;
       @media screen and (max-width: 768px) {
         justify-content: center;
         align-items: flex-start;
