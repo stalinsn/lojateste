@@ -2042,11 +2042,14 @@
   :global(.vtex-store-components-3-x-currencyContainer--summary) {
     font-size: 23px;
     font-weight: bold;
-    color: #ed1d25;
+    // color: #ed1d25;
+    color: #525252;
 
     @media screen and (max-width: 767px) {
       font-size: 14px !important;
       color: #ed1d25;
+    color: #525252;
+
     }
   }
 }
