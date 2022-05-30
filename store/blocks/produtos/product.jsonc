@@ -154,8 +154,17 @@
         }
       ],
       "Then": "flex-layout.col#product-detail",
-      "Else": "flex-layout.col#product-unavailable"
+      "Else": "unavailable-text#pdp"
     }
+  },
+  "unavailable-text#pdp": {
+    "blocks": [
+      "flex-layout.row#product-unavailable",
+      "flex-layout.col#product-detail"
+    ]
+  },
+  "flex-layout.row#product-unavailable": {
+    "children": ["flex-layout.col#product-unavailable"]
   },
   "flex-layout.col#product-unavailable": {
     "children": [
@@ -191,7 +200,7 @@
       "condition-layout.product#toggleBlink",
       "flex-layout.row#components-qty",
       "flex-layout.row#buy-button",
-      "availability-subscriber",
+      // "availability-subscriber",
       "condition-layout.product#toggle-shipping-simulator"
     ],
     "props": {
@@ -358,7 +367,7 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass": ["product-buy-btn"/*"quantity-pdp-line"*/]
+      "blockClass": ["product-buy-btn" /*"quantity-pdp-line"*/]
     }
   },
   "add-to-cart-button#pdp": {
