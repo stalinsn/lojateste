@@ -932,7 +932,6 @@
 :global(.vtex-store-components-3-x-logoImage--icon-head) {
   width: 24px;
   opacity: 0.5;
-  margin-top: 6px;
   margin-right: 4px;
   height: 28px;
   position: relative;
@@ -1315,6 +1314,8 @@
   font-size: 12px;
   font-weight: normal;
   color: #525252;
+  display: block;
+  width: 100%;
   &.unity-complete-pdp {
     font-size: 14px;
   }
@@ -1328,9 +1329,13 @@
   margin-left: 3px;
   @media screen and (max-width: 768px) {
     font-size: 10px;
+    position: relative;
     &.unity-resumed-dashed {
       &::after {
         content: "*";
+        position: absolute;
+        right: -5px;
+        top: 0;
       }
     }
   }
