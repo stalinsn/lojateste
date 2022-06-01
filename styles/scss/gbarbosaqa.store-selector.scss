@@ -324,7 +324,12 @@
     }
   }
 }
-.backButton {
+
+.backButtonDeliveryContainer {
+  align-self: flex-start;
+}
+
+.backButton, .backButtonDeliveryContainer {
   display: flex;
   align-items: center;
   cursor: pointer;
