@@ -1328,6 +1328,11 @@
   margin-left: 3px;
   @media screen and (max-width: 768px) {
     font-size: 10px;
+    &.unity-resumed-dashed {
+      &::after {
+        content: "*";
+      }
+    }
   }
 }
 :global(.vtex-minicartUnavailableProduct) {
