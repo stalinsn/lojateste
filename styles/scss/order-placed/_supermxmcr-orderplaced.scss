@@ -126,11 +126,24 @@
         background-color: #fff !important;
       }
       .section2 {
-        display: none;
+        display: flex;
+        width: 100%;
+        margin-right: 7px;
+        margin-left: 0;
+        margin-top: 15px;
       }
       .section1 {
         width: 100%;
       }
+    }
+    .orderPlacedSessionWrapperMobile {
+      flex-direction: column;
+    }
+    .shippingInfoTitleContainerWrapper {
+      flex-direction: column;
+    }
+    .shippingInfoTitleWrapper {
+      width: 100%;
     }
   }
 
