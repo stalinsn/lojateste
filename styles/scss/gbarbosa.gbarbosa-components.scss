@@ -1101,6 +1101,17 @@
     background: #818181 !important;
   }
 }
+:global(.vtex-store-components-3-x-price_sellingPrice--summary) {
+  @media screen and (min-width: 768px) {
+    .WrapperProductName {
+      margin-top: 0;
+      .ProductWeight {
+        font-size: 12px !important;
+        margin-top: 0;
+      }
+    }
+  }
+}
 .paymentBankNumberCodeContainer {
   flex-flow: row wrap;
   .paymentBankNumberCodeInput {
@@ -1167,5 +1178,8 @@
 :global(.vtex-flex-layout-0-x-flexCol--minicart-main-infos) {
   .customNumericStepperMessage {
     right: -45px;
+    &.wrap {
+      white-space: normal;
+    }
   }
 }

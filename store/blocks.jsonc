@@ -64,6 +64,11 @@
       "blockClass": "normal-shelf"
     }
   },
+  "product-name-w-weight": {
+    "props": {
+      "showWeight": false
+    }
+  },
   "has-promotion-layout#summary": {
     "children": ["flex-layout.col#shadow-product"]
   },
@@ -127,7 +132,10 @@
     }
   },
   "flex-layout.row#product-price": {
-    "children": ["flex-layout.col#product-price-shelf"]
+    "children": ["flex-layout.col#product-price-shelf"],
+    "props": {
+      "blockClass": "product-price-shelf"
+    }
   },
   "flex-layout.col#product-price-shelf": {
     "children": ["personal-price#shelf-price", "max-installments"],
@@ -194,7 +202,8 @@
   "flex-layout.col#shelf-list-add-to-cart": {
     "children": ["quantity-selector-custom"],
     "props": {
-      "verticalAlign": "bottom"
+      "verticalAlign": "bottom",
+      "blockClass": "shelf-list-add-to-cart"
     }
   },
   "product-price-savings#search": {
