@@ -125,13 +125,9 @@
       .confirmationMessageWrapper {
         background-color: #fff !important;
       }
-      .section2 {
-        display: flex;
-        width: 100%;
-        margin-right: 7px;
-        margin-left: 0;
-        margin-top: 15px;
-      }
+      // .section2 {
+      //   display: none;
+      // }
       .section1 {
         width: 100%;
       }
@@ -144,6 +140,14 @@
     }
     .shippingInfoTitleWrapper {
       width: 100%;
+    }
+  }
+
+  .section2 {
+    @media screen and(max-width:768px) {
+      display: flex;
+      width: 100%;
+      margin:15px 0;
     }
   }
 
