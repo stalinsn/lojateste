@@ -328,8 +328,11 @@
 .backButtonDeliveryContainer {
   align-self: flex-start;
 }
+.backButtonStoreTypeSelector{
+  position:absolute;
+}
 
-.backButton, .backButtonDeliveryContainer {
+.backButton, .backButtonDeliveryContainer,.backButtonStoreTypeSelector {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -431,13 +434,19 @@
     }
     .selectStoreButton {
       display: block;
-      margin: 20px auto;
+      justify-content: center;
       background: #ed1d25;
       color: #fff;
       border: none;
       padding: 10px 60px;
       cursor: pointer;
       border-radius: 5px;
+      position: absolute;
+      bottom: 6px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      max-width: 200px;
     }
   }
   @media screen and (max-width: 768px) {
