@@ -180,12 +180,15 @@
   grid-gap: 25px;
   justify-items: center;
   &.typeContainerSelect {
+    @media screen and (min-width:768px){
+      display:flex;
+    }
     display: block;
     .containerTypeBox {
       max-width: 420px;
       position: relative;
       display: grid;
-      grid-template-columns: 15% 70%;
+      // grid-template-columns: 15% 70%;
       align-items: center;
       grid-gap: 10px;
       cursor: pointer;
@@ -194,17 +197,20 @@
         white-space: normal;
       }
       &::after {
-        width: 11px;
-        border-color: #ed1d25;
-        height: 11px;
-        position: absolute;
-        top: 50%;
-        margin-top: -10px;
-        border-bottom: 3px solid #ed1d25;
-        border-left: 3px solid #ed1d25;
-        transform: rotate(-135deg);
-        right: 25px;
+        @media screen and(max-width:768px){
+          width: 11px;
+          border-color: #ed1d25;
+          height: 11px;
+          position: absolute;
+          top: 50%;
+          margin-top: -10px;
+          border-bottom: 3px solid #ed1d25;
+          border-left: 3px solid #ed1d25;
+          transform: rotate(-135deg);
+          right: 25px;
         content: "";
+        }
+        
       }
     }
   }
