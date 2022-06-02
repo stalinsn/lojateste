@@ -1267,6 +1267,49 @@
     background: #818181 !important;
   }
 }
+.customNumericStepper {
+  .quantityComponent {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+  }
+  .generalButton {
+    background-color: transparent;
+    border: none;
+    color: #898989 !important;
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+    width: 3em;
+  }
+}
+:global(.vtex-product-summary-2-x-container) {
+  .quantityComponent {
+    width: 95%;
+    @media screen and (max-width: 768px) {
+      position: absolute;
+      top: 80px;
+      left: 2px;
+      right: 2px;
+      .quantityInput {
+        height: 22px;
+      }
+    }
+    .quantityInput {
+      height: 30px;
+    }
+    .generalButton {
+      font-size: 20px;
+      color: #ed1d25 !important;
+    }
+  }
+}
 .paymentBankNumberCodeContainer {
   flex-flow: row wrap;
   .paymentBankNumberCodeInput {
