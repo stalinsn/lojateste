@@ -532,8 +532,7 @@
     margin: 0 !important;
     padding: 0 20px;
     @media screen and (max-width: 768px) {
-      padding-top: 5px;
-      padding-bottom: 5px;
+      padding: 0;
     }
   }
 }
@@ -850,6 +849,7 @@
   }
   .crmTitle {
     margin-left: 15px !important;
+    text-align: left;
   }
   .crmDiscount {
     padding: 0 15px;

@@ -513,7 +513,7 @@
     padding-left: 8px;
     @media (max-width: 768px) {
       font-size: 8px;
-      padding-left: 6px;
+      padding-left: 6px!important;
       display: flex;
     }
   }
@@ -947,11 +947,17 @@
     }
   }
   .crmTitle {
-    margin-left: 15px !important;
+    margin-left: 15px!important;
+    @media screen and(max-width:768px){
+      margin-left: 6px!important;
+    }
   }
   .crmDiscount {
     padding: 0 15px;
     text-align: left;
+    @media(max-width: 768px){
+      padding:0 6px;
+    }
   }
   .customQuantitySelector {
     @media screen and (min-width: 768px) {
