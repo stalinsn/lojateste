@@ -1418,7 +1418,7 @@
   .promotion_highlight {
     line-height: initial;
     border-radius: 5px;
-    padding: 3px 20px;
+    padding: 3px 10px;
     min-height: 0px;
     height: auto;
     flex-direction: column;
@@ -1432,6 +1432,9 @@
     }
     .promotion_highlight_price {
       margin: 0;
+      display: flex;
+      width: 97px;
+      justify-content: center;
     }
   }
 }
