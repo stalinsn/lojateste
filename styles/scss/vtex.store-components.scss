@@ -1318,6 +1318,7 @@
   width: 100%;
   @media screen and(max-width:767px) {
     width: 146%;
+    display: none;
   }
   &.unity-complete-pdp {
     font-size: 14px;
