@@ -715,8 +715,9 @@
     -o-border-radius: 0 0 0 5px !important;
     display: flex;
     align-items: center;
-    padding: 13px 0;
-    padding-top: 13px !important;
+    padding: 11px;
+    justify-content: space-between;
+    width:167%!important;
     @media screen and (max-width: 768px) {
       padding: 4px 0;
       padding-top: 4px !important;
@@ -752,6 +753,8 @@
       display: flex;
       align-items: center;
       padding: 10px 0;
+      background-color: #5c5c5c;
+      justify-content: space-between;
     }
     .crmTitle {
       font-size: 12px;
@@ -973,7 +976,7 @@
     font-size: 8px;
     padding-bottom: 3px;
     @media screen and (max-width: 768px) {
-      padding: 0 8px;
+      padding: 0;
     }
   }
 }
@@ -1145,6 +1148,8 @@
     align-items: center;
     margin-right: -46px !important;
     @media screen and (max-width: 768px) {
+      padding: 11px 48px 11px 8px!important;
+      justify-content: space-between;
     }
   }
   :global(.vtex-product-summary-2-x-container) {
@@ -1170,7 +1175,7 @@
       color: #e8c200;
       text-align: center;
       font-size: 14px;
-      padding-left: 60px;
+      // padding-left: 60px;
       @media screen and (max-width: 768px) {
         padding: 0 8px !important;
         padding-left: 30px;
@@ -1300,6 +1305,19 @@
     }
   }
 }
+
+.hasPromotionLayout{
+  .quantityComponent {
+        @media screen and (max-width: 768px) {
+          position: absolute;
+          top: -60px!important;
+          left: 2px;
+          right: 2px;    
+      }
+  }
+}
+
+
 :global(.vtex-product-summary-2-x-container) {
   .quantityComponent {
     width: 95%;
