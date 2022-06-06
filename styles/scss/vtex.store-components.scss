@@ -1316,6 +1316,9 @@
   color: #525252;
   display: block;
   width: 100%;
+  @media screen and(max-width:767px) {
+    width: 146%;
+  }
   &.unity-complete-pdp {
     font-size: 14px;
   }
@@ -1330,6 +1333,10 @@
   @media screen and (max-width: 768px) {
     font-size: 10px;
     position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 15px;
     &.unity-resumed-dashed {
       &::after {
         content: "*";

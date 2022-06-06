@@ -2070,6 +2070,8 @@
       font-size: 14px !important;
       color: #ed1d25;
       color: #525252;
+      display: grid;
+      grid-template: 1fr/1fr 1fr;
     }
   }
 }
