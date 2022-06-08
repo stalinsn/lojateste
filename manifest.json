@@ -1,7 +1,7 @@
 {
   "vendor": "gbarbosa",
   "name": "gbarbosa-store",
-  "version": "0.25.0",
+  "version": "0.25.1",
   "builders": {
     "docs": "0.x",
     "sitemap": "0.x",
@@ -14,7 +14,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "gbarbosa.gbarbosa-components": "0.x",
+    "gbarbosaqa.gbarbosa-components": "0.x",
     "vtex.countdown-ribbon": "1.x",
     "vtex.product-highlights": "2.x",
     "vtex.recommendation-shelf": "0.x",
