@@ -1,7 +1,7 @@
 {
   "vendor": "gbarbosa",
   "name": "gbarbosa-store",
-  "version": "0.25.6",
+  "version": "0.25.7",
   "builders": {
     "docs": "0.x",
     "sitemap": "0.x",
