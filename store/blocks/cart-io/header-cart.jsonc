@@ -51,7 +51,6 @@
   },
   "header-row#cart": {
     "children": [
-      "cart-controller#empty",
       "flex-layout.row#cart-container"
     ],
     "props": {
