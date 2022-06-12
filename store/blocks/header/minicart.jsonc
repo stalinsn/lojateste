@@ -116,7 +116,7 @@
       //"minicart-bar",
       "subtotal-content",
       "rich-text#minicart-alert",
-      "minicart-checkout-button",
+      "go-to-cart-button",
       // "close-minicart-button"
       "keep-shopping-button"
     ]

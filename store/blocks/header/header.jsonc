@@ -622,7 +622,7 @@
     "props": {
       "blockClass": "minicart-two-buttons"
     },
-    "children": ["minicart-checkout-button"]
+    "children": ["go-to-cart-button"]
   },
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]
