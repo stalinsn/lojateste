@@ -95,8 +95,24 @@
     }
   },
 
+  "flex-layout.row#savings-pdp": {
+    "children": [
+      /* "product-price-savings#savings", */
+      "promotion-flags",
+      "personal-flag"
+    ],
+    "props": {
+      "blockClass": "savings-porcentaje-pdp",
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "colGap": 5
+    }
+  },
   "flex-layout.row#savings": {
-    "children": [/* "product-price-savings#savings", */ "promotion-flags"],
+    "children": [
+      /* "product-price-savings#savings", */
+      "promotion-flags"
+    ],
     "props": {
       "blockClass": "savings-porcentaje",
       "fullWidth": true,
@@ -190,7 +206,8 @@
     "children": [
       "flex-layout.row#upcbox",
       "flex-layout.row#namebox",
-      "flex-layout.row#savings",
+      // "flex-layout.row#savings",
+      "flex-layout.row#savings-pdp",
       // "flex-layout.row#flags-pdp",
       "flex-layout.row#sku",
       // "global-promo#2x",
@@ -655,7 +672,7 @@
     "children": [
       "flex-layout.row#upcbox",
       "flex-layout.row#namebox",
-      "flex-layout.row#savings",
+      "flex-layout.row#savings-pdp",
       // "flex-layout.row#flags-pdp",
       "flex-layout.row#sku",
       // "flex-layout.col#product-price",

@@ -1450,7 +1450,27 @@
   color: #525252;
   font-weight: 400;
 }
-
+:global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje-pdp)
+  .secondunit {
+  top: 0;
+  border-radius: 13px;
+  padding: 5px 10px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje-pdp)
+  :global(.vtex-product-price-1-x-savings) {
+  display: flex;
+  align-items: center;
+  color: #e21c23;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje-pdp)
+  :global(.vtex-product-price-1-x-savings)
+  :global(.vtex-product-price-1-x-savingsPercentage) {
+  display: flex;
+  align-items: center;
+}
 @media (max-width: 768px) {
   .hasPromotionLayout
     :global(.vtex-flex-layout-0-x-flexColChild--shadow-product)
@@ -1466,5 +1486,11 @@
     top: -55px;
     left: 2px;
     right: 2px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje-pdp) {
+    display: flex !important;
+    .promotionFlagsContainer {
+      margin-right: 13px;
+    }
   }
 }
