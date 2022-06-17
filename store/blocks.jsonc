@@ -394,6 +394,12 @@
       "showOnlyRelativeFlag": false
     }
   },
+  "personal-flag#pdp": {
+    "props": {
+      "showOnlyRelativeFlag": false,
+      "isPdp": true
+    }
+  },
   "flex-layout.row#add-wishlist": {
     "props": {
       "blockClass": "add-wishlist"
