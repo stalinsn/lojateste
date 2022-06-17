@@ -99,7 +99,7 @@
     "children": [
       /* "product-price-savings#savings", */
       "promotion-flags",
-      "personal-flag"
+      "personal-flag#pdp"
     ],
     "props": {
       "blockClass": "savings-porcentaje-pdp",
