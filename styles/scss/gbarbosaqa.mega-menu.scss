@@ -1,0 +1,651 @@
+@import "./references";
+
+.menuDesktopContainer {
+  position: relative;
+  font-family: "OpenSans", sans-serif;
+  .menuDesktopWrapper {
+    position: fixed;
+    top: 116px;
+    left: calc((100vw - 1470px) / 2);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    .menuDepartments {
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      width: 272px;
+      height: 80vh;
+      position: relative;
+      padding-top: 5px;
+      max-height: 524px;
+      box-shadow: 0px 3px 10px 0 #00000029;
+      &::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background: #f0f0f0;
+        position: absolute;
+        top: -5px;
+        left: 110px;
+        transform: rotate(45deg);
+        @media (max-width: 1400px) {
+          left: 60px;
+        }
+      }
+      .menuDepartmentWrapper {
+        display: flex;
+        position: relative;
+        width: 100%;
+        .menuDepartmentLink {
+          background-color: #f0f0f0;
+          padding: 5px 10px;
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          width: 100%;
+          position: relative;
+          .menuDepartmentName {
+            color: #525252;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 10px;
+          }
+          .menuDepartmentIcon {
+            width: 24px;
+            height: 24px;
+          }
+          &::after {
+            content: "";
+            display: flex;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_go' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='Grupo_1778' data-name='Grupo 1778'%3E%3Crect id='Retângulo_2279' data-name='Retângulo 2279' width='24' height='24' fill='none'/%3E%3C/g%3E%3Cg id='Grupo_1781' data-name='Grupo 1781'%3E%3Cg id='Grupo_1780' data-name='Grupo 1780'%3E%3Cg id='Grupo_1779' data-name='Grupo 1779'%3E%3Cpath id='Caminho_7133' data-name='Caminho 7133' d='M9.29,15.46l3.88-3.88L9.29,7.7a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l4.59,4.59a1,1,0,0,1,0,1.41L10.7,16.88a1,1,0,0,1-1.41,0h0A1.017,1.017,0,0,1,9.29,15.46Z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+              no-repeat;
+            width: 15px;
+            height: 20px;
+            position: absolute;
+            right: 20px;
+          }
+        }
+        .menuCategoriesContainer {
+          background-color: #fafafa;
+          position: fixed;
+          width: 100vw;
+          height: 80vh;
+          left: calc((100vw - 926px) / 2);
+          top: 117px;
+          max-width: 1120px;
+          max-height: 523px;
+          box-shadow: 20px 0px 31px #00000029;
+          .menuCategoriesWrapper {
+            display: flex;
+            position: relative;
+            .menuCategoryLink {
+              min-width: 272px;
+              color: #525252;
+              font-size: 14px;
+              text-decoration: none;
+              padding: 9px 0;
+              padding-left: 17px;
+              position: relative;
+              &::after {
+                content: "";
+                display: flex;
+                background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_go' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='Grupo_1778' data-name='Grupo 1778'%3E%3Crect id='Retângulo_2279' data-name='Retângulo 2279' width='24' height='24' fill='none'/%3E%3C/g%3E%3Cg id='Grupo_1781' data-name='Grupo 1781'%3E%3Cg id='Grupo_1780' data-name='Grupo 1780'%3E%3Cg id='Grupo_1779' data-name='Grupo 1779'%3E%3Cpath id='Caminho_7133' data-name='Caminho 7133' d='M9.29,15.46l3.88-3.88L9.29,7.7a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l4.59,4.59a1,1,0,0,1,0,1.41L10.7,16.88a1,1,0,0,1-1.41,0h0A1.017,1.017,0,0,1,9.29,15.46Z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+                  no-repeat;
+                width: 15px;
+                height: 20px;
+                position: absolute;
+                top: 7px;
+                right: 20px;
+              }
+            }
+            .menuSubCategoryContainer {
+              display: flex;
+              justify-content: space-between;
+              position: fixed;
+              // width: 100vw;
+              height: 60vh;
+              left: calc((100vw - 365px) / 2);
+              top: 115px;
+              max-width: 840px;
+              .menuSubCategoryColunm {
+                margin-top: 46px;
+                flex-flow: column wrap;
+                height: 100%;
+                display: flex;
+                max-width: 198px;
+                .menuSubCategoryWrapper {
+                  padding: 10px 0;
+                  .menuSubCategoryLink {
+                    color: #525252;
+                    font-size: 14px;
+                    text-decoration: none;
+                    margin-right: 10px;
+                    &:hover {
+                      font-weight: bold;
+                      color: #ed1d25;
+                    }
+                  }
+                }
+                @media (max-width: 1400px) {
+                  position: relative;
+                  display: flex;
+                  left: 559px;
+                }
+              }
+              .menuDepartmentBannerContainer {
+                position: absolute;
+                right: -450px;
+                top: -63px;
+                .menuDepartmentBanner {
+                  max-height: 524px;
+                }
+              }
+              @media (max-width: 1400px) {
+                left: 0;
+                max-width: 100%;
+              }
+            }
+          }
+          @media (max-width: 1400px) {
+            left: 270px;
+          }
+        }
+        &:last-child {
+          border-top: 1px solid #dddddd;
+        }
+      }
+    }
+    @media (max-width: 1400px) {
+      left: 0;
+    }
+  }
+}
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header-1--stuck) {
+  .menuDesktopContainer {
+    .menuDesktopWrapper,
+    .menuCategoriesContainer {
+      top: 72px !important;
+    }
+  }
+}
+.menuDepartmentBannerContainer {
+  display: none;
+}
+.menuDepartmentBannerShow {
+  display: flex;
+  position: absolute;
+  right: -849px;
+  top: -64px;
+  @media (max-width: 1400px) {
+    position: fixed;
+    right: 0px;
+    top: 116px;
+  }
+}
+.menuDepartmentNameHover {
+  background-color: #ed1d25 !important;
+  &::after {
+    display: flex;
+    filter: invert(100%) sepia(100%) saturate(15%) hue-rotate(98deg)
+      brightness(200%) contrast(101%);
+  }
+  .menuDepartmentName {
+    color: #fff !important;
+  }
+  .menuDepartmentIcon {
+    filter: invert(100%) sepia(100%) saturate(15%) hue-rotate(98deg)
+      brightness(200%) contrast(101%);
+  }
+}
+.menuCategoriesShowAll {
+  display: flex;
+  // flex-flow: column wrap;
+  padding-top: 20px;
+  .menuAllCategory {
+    padding: 10px 15px;
+    .menuDepartmentName {
+      color: #525252;
+      font-size: 14px;
+      text-decoration: none;
+      padding: 9px 0;
+      padding-left: 17px;
+      &:hover {
+        font-weight: bold;
+        color: #ed1d25;
+      }
+    }
+  }
+}
+.menuDepartmentShowAllCategories {
+  padding: 4px 0;
+}
+.menuCategoryNameHover {
+  background-color: #f0f0f0;
+  color: #ed1d25 !important;
+  font-weight: bold;
+  &::after {
+    filter: invert(20%) sepia(94%) saturate(7454%) hue-rotate(358deg)
+      brightness(109%) contrast(113%);
+  }
+}
+.menuCategoriesContainerHidden {
+  display: none !important;
+}
+.menuCategoriesContainerShow {
+  display: flex !important;
+  .menuDepartmentTitleContainer {
+    border-right: 1px solid #f1f1f1;
+    .menuDepartmentTitleOnCategoriesList {
+      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      margin-left: 17px;
+      .menuDepartmentTitleCategories {
+        color: #ed1d25;
+        font-size: 18px;
+      }
+      .menuDepartmentIcon {
+        width: 24px;
+        margin-right: 20px;
+        filter: invert(12%) sepia(173%) saturate(8726%) hue-rotate(359deg)
+          brightness(152%) contrast(362%);
+      }
+    }
+  }
+}
+.menuDrawerContainer {
+  position: relative;
+  left: 22px;
+}
+.menuDrawerIcon {
+  height: 25px;
+  display: flex;
+  width: 40px !important;
+  position: relative;
+  margin: 6px;
+  cursor: pointer;
+  margin-right: 43px !important;
+  width: 40px !important;
+  display: flex;
+  justify-content: center;
+
+  .inconLabelContainer {
+    color: #fff;
+    margin-top: 19px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .textMenu {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .menuIcon1,
+  .menuIcon2,
+  .menuIcon3 {
+    position: absolute;
+    background: #ffd500;
+    transition: all 0.3s ease;
+  }
+
+  .menuIcon1 {
+    width: 18px;
+    height: 2px;
+    top: 0;
+  }
+
+  .menuIcon2 {
+    width: 11px;
+    height: 2px;
+    top: 6px;
+  }
+
+  .menuIcon3 {
+    width: 18px;
+    height: 2px;
+    top: 12px;
+  }
+
+  &.menuDrawerIsOpen {
+    .menuIcon1 {
+      transform: rotate(45deg);
+      top: 4px;
+    }
+
+    .menuIcon2 {
+      width: 0;
+    }
+
+    .menuIcon3 {
+      top: 4px;
+      transform: rotate(315deg);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .childrenContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    padding-bottom: 10px !important;
+  }
+  .mobileAltMenu {
+    .link {
+      display: flex;
+      text-decoration: none;
+      color: #525252;
+      font-size: 14px;
+      min-width: 200px;
+      line-height: 28px;
+      font-weight: bold;
+      padding: 5px 20px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .drawer {
+    width: 80% !important;
+    height: auto;
+    top: 0 !important;
+    z-index: 999;
+
+    .drawerContent {
+      .drawerHeader {
+        background: $primary;
+        padding: 5px 10px 5px;
+
+        .header {
+          flex: 1;
+
+          .logoImageWrapper {
+            margin-right: auto;
+            max-width: 50px;
+          }
+
+          .welcomeTextWrapper {
+            margin-top: 12px;
+
+            .welcomeText {
+              font-size: 14px;
+              line-height: 28px;
+              font-weight: bold;
+              margin-left: 8px;
+              color: $white;
+            }
+          }
+
+          .closeIconButton {
+            font-size: 0;
+            background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.185' height='13.185' viewBox='0 0 13.185 13.185'%3E%3Cg id='Group_1751' data-name='Group 1751' transform='translate(-5.407 -5.407)'%3E%3Cg id='Group_1750' data-name='Group 1750'%3E%3Cpath id='Path_7110' data-name='Path 7110' d='M18.3,5.71h0a1,1,0,0,0-1.41,0L12,10.59,7.11,5.7a1,1,0,0,0-1.41,0h0a1,1,0,0,0,0,1.41L10.59,12,5.7,16.89a1,1,0,0,0,0,1.41h0a1,1,0,0,0,1.41,0L12,13.41l4.89,4.89a1,1,0,0,0,1.41,0h0a1,1,0,0,0,0-1.41L13.41,12,18.3,7.11A1,1,0,0,0,18.3,5.71Z' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: center;
+            .closeIcon {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .container {
+        .banners {
+          display: none;
+        }
+
+        .column {
+          width: 100%;
+        }
+
+        .colHeader {
+          .backTo,
+          .selectedSubcategory,
+          .selectedCategory {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 20px;
+            background: #f4f4f4;
+          }
+
+          .arrowIcon {
+            transform: rotate(180deg);
+            margin-right: 12px;
+          }
+
+          .selectedCategory {
+            color: $primary;
+            background-color: #fcfcfb;
+            margin-top: 8px;
+            padding-bottom: 0;
+
+            .iconContainer {
+              margin-right: 12px;
+              max-width: 20px;
+              max-height: 20px;
+            }
+          }
+
+          .selectedSubcategory {
+            margin-top: 8px;
+            .iconContainer {
+              margin-right: 12px;
+              max-width: 20px;
+              max-height: 20px;
+              display: flex;
+              justify-content: space-between;
+            }
+            .label {
+              margin-left: 32px;
+            }
+          }
+        }
+
+        .menu {
+          .link {
+            .childrenContainer {
+              .item {
+                padding: 4px 24px 4px 16px;
+              }
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 768px) {
+        height: 90%;
+      }
+    }
+  }
+
+  .overlay {
+    top: 0;
+    z-index: 999;
+  }
+}
+.openIconContainer {
+  &::after {
+    font-size: 13px !important;
+    top: 45px !important;
+    font-family: OpenSans;
+    @media screen and (max-width: 768px) {
+      top: 35px !important;
+      font-size: 11px !important;
+      color: #fff;
+    }
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+
+    &::before {
+      content: "";
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='12' viewBox='0 0 18 12'%3E%3Cpath id='Caminho_27' data-name='Caminho 27' d='M4,18H20a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2Zm0-5H14a1,1,0,0,0,0-2H4a1,1,0,0,0,0,2ZM3,7A1,1,0,0,0,4,8H20a1,1,0,0,0,0-2H4A1,1,0,0,0,3,7Z' transform='translate(-3 -6)' fill='%23ffd500'/%3E%3C/svg%3E")
+        no-repeat;
+      background-position: center;
+      width: 30px;
+      height: 30px;
+      display: flex;
+    }
+    .menuIcon {
+      display: none;
+    }
+  }
+}
+
+//Mobile mega menu styling
+@media screen and (max-width: 768px) {
+  .textMenu {
+    color: #fff;
+    font-size: 14px;
+  }
+  .menuTitle {
+    color: #ed1d25;
+    margin-bottom: 8px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    &.secondLevel {
+      padding-left: 45px;
+      &::before {
+        content: "";
+        display: flex;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_go' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='Grupo_1778' data-name='Grupo 1778'%3E%3Crect id='Retângulo_2279' data-name='Retângulo 2279' width='24' height='24' fill='none'/%3E%3C/g%3E%3Cg id='Grupo_1781' data-name='Grupo 1781'%3E%3Cg id='Grupo_1780' data-name='Grupo 1780'%3E%3Cg id='Grupo_1779' data-name='Grupo 1779'%3E%3Cpath id='Caminho_7133' data-name='Caminho 7133' d='M9.29,15.46l3.88-3.88L9.29,7.7a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l4.59,4.59a1,1,0,0,1,0,1.41L10.7,16.88a1,1,0,0,1-1.41,0h0A1.017,1.017,0,0,1,9.29,15.46Z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+          no-repeat;
+        width: 17px;
+        height: 20px;
+        position: absolute;
+        top: 14px;
+        left: 20px;
+        filter: invert(18%) sepia(84%) saturate(5592%) hue-rotate(350deg)
+          brightness(96%) contrast(92%);
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .menuTitle,
+  .menuItem {
+    padding: 15px 0 15px 20px;
+    background-color: #fafafb;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+  }
+  .menuItem {
+    background-color: #fff;
+    color: #525252;
+    padding: 10px 0 10px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    .departmentIcon {
+      margin-right: 10px;
+      width:24px;
+    }
+    &.categoryItem {
+      padding-left: 55px;
+    }
+    &.subcategoryItem {
+      padding-left: 45px;
+    }
+  }
+  .activeCategory {
+    color: #ed1d25;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background: #fafafb;
+    :first-child {
+      margin-right: 10px;
+      filter: invert(18%) sepia(84%) saturate(5592%) hue-rotate(350deg)
+        brightness(96%) contrast(92%);
+    }
+    &::after {
+      filter: invert(18%) sepia(84%) saturate(5592%) hue-rotate(350deg)
+        brightness(96%) contrast(92%);
+    }
+  }
+  .menuItem::after,
+  .activeCategory::after {
+    content: "";
+    display: flex;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_go' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg id='Grupo_1778' data-name='Grupo 1778'%3E%3Crect id='Retângulo_2279' data-name='Retângulo 2279' width='24' height='24' fill='none'/%3E%3C/g%3E%3Cg id='Grupo_1781' data-name='Grupo 1781'%3E%3Cg id='Grupo_1780' data-name='Grupo 1780'%3E%3Cg id='Grupo_1779' data-name='Grupo 1779'%3E%3Cpath id='Caminho_7133' data-name='Caminho 7133' d='M9.29,15.46l3.88-3.88L9.29,7.7a1,1,0,0,1,0-1.41h0a1,1,0,0,1,1.41,0l4.59,4.59a1,1,0,0,1,0,1.41L10.7,16.88a1,1,0,0,1-1.41,0h0A1.017,1.017,0,0,1,9.29,15.46Z' fill='%23898989'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+      no-repeat;
+    width: 17px;
+    height: 20px;
+    position: absolute;
+    right: 35px;
+  }
+  .headerContainer {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr / 2fr 6fr 1fr;
+    align-items: center;
+    .headerDataBox {
+      display: flex;
+      justify-content: space-between;
+      .closeIconButton {
+        position: absolute;
+        right: 0;
+        top: 12px;
+        .closeIcon {
+          color: #fff;
+        }
+      }
+    }
+    .userContentData {
+      color: #fff;
+      margin: 0;
+      padding: 20px 0 5px 0;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      padding-top: 8px !important;
+      padding-left: 15px !important;
+      @media screen and(max-width:768px){
+        padding-left: 0!important;
+      }
+      &::before {
+        content: "";
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='icon_user' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath id='Caminho_7122' data-name='Caminho 7122' d='M0,0H24V24H0Z' fill='none'/%3E%3Cg id='user' transform='translate(2.25 2.75)'%3E%3Cpath id='Caminho_7340' data-name='Caminho 7340' d='M9.75,2.5A3.04,3.04,0,0,1,12.7,5.625,3.04,3.04,0,0,1,9.75,8.75,3.04,3.04,0,0,1,6.8,5.625,3.04,3.04,0,0,1,9.75,2.5m0-1.25A4.256,4.256,0,0,0,5.625,5.625,4.256,4.256,0,0,0,9.75,10a4.256,4.256,0,0,0,4.125-4.375A4.256,4.256,0,0,0,9.75,1.25Z' fill='%23f4f4f4'/%3E%3Cpath id='Caminho_7341' data-name='Caminho 7341' d='M15.75,18.75h-1.2V15.625a3.064,3.064,0,0,0-3-3.125H7.95a3.064,3.064,0,0,0-3,3.125V18.75H3.75V15.625a4.29,4.29,0,0,1,4.2-4.375h3.6a4.29,4.29,0,0,1,4.2,4.375Z' transform='translate(0 -0.5)' fill='%23f4f4f4'/%3E%3C/g%3E%3C/svg%3E");
+        margin-right: 5px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        top: -1px;
+        position: relative;
+      }
+    }
+  }
+}
+
+.menuDepartmentAllCategoryContainer {
+  max-width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  max-width: 50%;
+  margin-top: 45px;
+}
+.menuDepartmentAllCategoryTitle {
+  padding: 10px 30px;
+  margin-top: -40px !important;
+  color: #ed1d25;
+  font-size: 18px;
+  font-weight: bold;
+}
+.menuSeeAllCategory {
+  font-weight: bold;
+}
