@@ -1505,6 +1505,10 @@
         font-size: 30px;
         font-weight: 700;
         color: #ed1d25;
+        @media screen and(max-width:768px) {
+          display: flex;
+          justify-content: flex-start;
+        }
       }
     }
 
