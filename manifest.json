@@ -1,5 +1,5 @@
 {
-  "vendor": "gbarbosaqa",
+  "vendor": "gbarbosa",
   "name": "gbarbosa-store",
   "version": "0.28.2",
   "builders": {
@@ -14,12 +14,12 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "gbarbosaqa.gbarbosa-components": "0.x",
+    "gbarbosa.gbarbosa-components": "0.x",
     "vtex.countdown-ribbon": "1.x",
     "vtex.product-highlights": "2.x",
     "vtex.recommendation-shelf": "0.x",
     "vtex.condition-layout": "2.x",
-    "gbarbosaqa.mega-menu": "0.x",
+    "gbarbosa.mega-menu": "0.x",
     "vtex.search": "2.x",
     "vtex.iframe": "0.x",
     "vtex.order-placed": "2.x",
@@ -77,9 +77,9 @@
     "vtex.coupon": "0.x",
     "vtex.checkout-cart": "0.x",
     "gbarbosaqa.wishlist": "0.x",
-    "gbarbosaqa.store-selector": "1.x",
+    "gbarbosa.store-selector": "1.x",
     "vtex.info-card-list": "0.x",
-    "gbarbosaqa.last-orders": "0.x",
+    "gbarbosa.last-orders": "0.x",
     "vtex.my-account-commons": "1.x"
   },
   "peerDependencies": {
