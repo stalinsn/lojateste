@@ -1406,9 +1406,22 @@
   .customNumericStepperMessage {
     right: -45px;
     &.wrap {
-      white-space: normal;
+      display: none;
     }
   }
+}
+:global(.vtex-flex-layout-0-x-flexColChild--checkout-quantity-selector)
+  .customNumericStepperMessage {
+    display: none;
+    right: 101px;
+    top: 431px;
+    &.wrap {
+      white-space: normal;
+      // display: none;
+      &::before{
+        top: 267px;
+      }
+    }
 }
 :global(.vtex-flex-layout-0-x-flexColChild--minicart-main-infos) {
   :global(.vtex-flex-layout-0-x-flexColChild--minicart-main-infos) {
