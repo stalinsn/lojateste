@@ -549,7 +549,7 @@
     align-items: center;
     .departmentIcon {
       margin-right: 10px;
-      width:24px;
+      width: 24px;
     }
     &.categoryItem {
       padding-left: 55px;
@@ -568,6 +568,7 @@
     align-items: center;
     background: #fafafb;
     :first-child {
+      max-width: 30px;
       margin-right: 10px;
       filter: invert(18%) sepia(84%) saturate(5592%) hue-rotate(350deg)
         brightness(96%) contrast(92%);
@@ -614,8 +615,8 @@
       text-decoration: none;
       padding-top: 8px !important;
       padding-left: 15px !important;
-      @media screen and(max-width:768px){
-        padding-left: 0!important;
+      @media screen and(max-width:768px) {
+        padding-left: 0 !important;
       }
       &::before {
         content: "";
