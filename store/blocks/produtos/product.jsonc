@@ -311,12 +311,67 @@
     "props": {
       "conditions": [
         {
-          "subject": "categoryId",
+          "subject": "categoryTree",
           "arguments": {
-            "id": "108"
+            "id": "175"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "101"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "211"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "213"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "214"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "215"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "216"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "217"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "219"
+          }
+        },
+        {
+          "subject": "categoryTree",
+          "arguments": {
+            "id": "220"
           }
         }
       ],
+      "matchType": "any",
       "Then": "rich-text#spot-price-pdp-empty",
       "Else": "rich-text#spot-price-pdp"
     }
