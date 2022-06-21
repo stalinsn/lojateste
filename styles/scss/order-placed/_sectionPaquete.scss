@@ -54,15 +54,35 @@
       .itemsTableHeader {
         font-size: 0.875rem;
       }
+
       .itemTableRow {
         border: 1px solid #dedede;
         width: 100%;
-        display: flex;
+        display: grid;
+        grid-template: 1fr/ 1fr 1fr;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         border-radius: 5px;
         padding: 5px;
         margin-bottom: 10px;
+        @media screen and(max-width:768px) {
+          display:flex;
+        }
+        .tdWrapperQuantityPrice{
+          display: grid;
+          grid-template: 1fr/ 2fr 1fr;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .itemQuantity{
+          width: 78px!important;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          @media screen and (max-width:768px) {
+            justify-content: flex-start;
+          }
+        }
         .itemTableCell {
           font-size: 0.9rem;
           font-weight: bold;
