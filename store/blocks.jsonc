@@ -377,7 +377,8 @@
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
-      "height": 118
+      "height": 300,
+      "width": 300
     }
   },
   "stack-layout#prodsum": {
