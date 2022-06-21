@@ -381,6 +381,12 @@
   padding: 30px;
   border: 1px solid #dedede;
   border-radius: 5px;
+  
+  @media screen and (min-height:440px) and (max-height:600px) {
+    max-height: 210px;
+    overflow: hidden;
+  }
+
   .storeContainer {
     align-items: flex-start;
   }
