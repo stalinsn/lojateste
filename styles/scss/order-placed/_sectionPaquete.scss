@@ -69,7 +69,8 @@
           display:flex;
         }
         .tdWrapperQuantityPrice{
-          display: flex;
+          display: grid;
+          grid-template: 1fr/ 2fr 1fr;
           align-items: center;
           justify-content: space-between;
         }
