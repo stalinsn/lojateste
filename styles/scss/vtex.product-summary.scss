@@ -108,6 +108,10 @@
 .imageNormal {
   max-width: 118px !important;
   max-height: 118px !important;
+  @media screen and (max-width: 768px) {
+    max-width: 90px !important;
+    max-height: 90px !important;
+  }
 }
 :global(.vtex-product-summary-2-x-element) {
   :global(.vtex-button__label) {
