@@ -1,9 +1,10 @@
 {
   "store.custom#sobre-nos": {
-    "parent": {
-      "header": "header"
-    },
-    "blocks": ["responsive-layout.desktop#sobre-nos", "responsive-layout.tablet#sobre-nos", "responsive-layout.phone#sobre-nos"]
+    "blocks": [
+      "responsive-layout.desktop#sobre-nos",
+      "responsive-layout.tablet#sobre-nos",
+      "responsive-layout.phone#sobre-nos"
+    ]
   },
   "responsive-layout.desktop#sobre-nos": {
     "children": [
@@ -39,7 +40,10 @@
     }
   },
   "flex-layout.row#sobre-nos-container": {
-    "children": ["flex-layout.col#sobre-nos-links", "flex-layout.col#sobre-nos-content"],
+    "children": [
+      "flex-layout.col#sobre-nos-links",
+      "flex-layout.col#sobre-nos-content"
+    ],
     "props": {
       "blockClass": ["call-center-content"],
       "marginBottom": 10
@@ -60,9 +64,7 @@
     }
   },
   "flex-layout.col#sobre-nos-content": {
-    "children": [
-      "flex-layout.row#about-us-content-container"
-    ],
+    "children": ["flex-layout.row#about-us-content-container"],
     "props": {
       "width": "80%"
     }
@@ -124,4 +126,3 @@
     }
   }
 }
-

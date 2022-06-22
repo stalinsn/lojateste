@@ -1,8 +1,5 @@
 {
   "store.custom#vale-gas": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#vale-gas",
       "responsive-layout.tablet#vale-gas",
@@ -10,20 +7,13 @@
     ]
   },
   "responsive-layout.desktop#vale-gas": {
-    "children": [
-      "breadcrumb",
-      "stack-layout#vale-gas"
-    ]
+    "children": ["breadcrumb", "stack-layout#vale-gas"]
   },
   "responsive-layout.tablet#vale-gas": {
-    "children": [
-      "stack-layout#vale-gas"
-    ]
+    "children": ["stack-layout#vale-gas"]
   },
   "responsive-layout.phone#vale-gas": {
-    "children": [
-      "flex-layout.row#vale-gas-content-mobile"
-    ]
+    "children": ["flex-layout.row#vale-gas-content-mobile"]
   },
   "flex-layout.row#vale-gas-content-mobile": {
     "children": [
@@ -35,9 +25,7 @@
     }
   },
   "flex-layout.row#vale-gas-content": {
-    "children": [
-      "flex-layout.col#vale-gas-content"
-    ]
+    "children": ["flex-layout.col#vale-gas-content"]
   },
   "flex-layout.col#vale-gas-content": {
     "children": [
@@ -59,9 +47,7 @@
   },
   "flex-layout.row#vale-gas-section-1": {
     "title": "Seção 1",
-    "children": [
-      "info-card#vale-gas-section-1"
-    ]
+    "children": ["info-card#vale-gas-section-1"]
   },
   "info-card#vale-gas-section-1": {
     "title": "Infocard - seção 1",
@@ -72,15 +58,13 @@
       "headline": "### Vale gás",
       "subhead": "Comodidade para você não sair de casa",
       "callToActionMode": "none",
-      "textMode" : "Rich-Text",
+      "textMode": "Rich-Text",
       "blockClass": "vale-gas-section-1"
     }
   },
   "flex-layout.row#vale-gas-section-2": {
     "title": "Seção 2",
-    "children": [
-      "info-card#vale-gas-section-2"
-    ],
+    "children": ["info-card#vale-gas-section-2"],
     "props": {
       "blockClass": "vale-gas-section-2"
     }

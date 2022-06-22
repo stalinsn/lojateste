@@ -1,8 +1,5 @@
 {
   "store.custom#cencosud-protege": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#cencosud-protege",
       "responsive-layout.tablet#cencosud-protege",
@@ -96,7 +93,7 @@
   "rich-text#cencosud-protege-section-2-text": {
     "props": {
       "text": "## O GBARBOSA PROTEGE É O SEGURO PARA APARELHOS TELEFÔNICOS GBARBOSA, QUE É DIVIDIDO EM 3 TIPOS DE PLANOS! Pode ser contratado no momento da compra do aparelho celular com o vendedor da loja no momento da compra. CONHEÇA OS NOSSO PLANOS: \n\n * **GBARBOSA REPARO** \n Cobre os danos materiais por acidentes decorrentes de causa externa, exceto aqueles expressamente excluídos pelo presente seguro, sofridos pelo equipamento segurado. \n\n * **GBARBOSA PROTEGE** \n Cobre os danos materiais causados diretamente ao equipamento segurado em consequência de Roubo ou Furto Mediante Arrombamento. Para efeito desta cobertura, considera-se: Roubo: Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência à pessoa, ou depois de havê-la, por qualquer meio, reduzido à impossibilidade de resistência. Furto Mediante Arrombamento: Subtrair, para si ou para outrem, coisa alheia móvel com destruição ou rompimento de obstáculo à subtração da coisa. \n\n * **GBARBOSA Dupla Proteção** \n Combo entre o Reparo e o Protege. Cobre tanto os danos materiais por acidentes decorrentes de causa externa, exceto aqueles expressamente excluídos pelo presente seguro, sofridos pelo equipamento segurado além de Cobrir os danos materiais causados diretamente ao equipamento segurado em consequência de Roubo ou Furto Mediante Arrombamento. Para efeito desta cobertura, considera-se: Roubo: Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência à pessoa, ou depois de havê-la, por qualquer meio, reduzido à impossibilidade de resistência. Furto Mediante Arrombamento: Subtrair, para si ou para outrem, coisa alheia móvel com destruição ou rompimento de obstáculo à subtração da coisa. \n\n * **Franquia para estes seguros** \n É a participação do segurado em caso de sinistro. O valor cobrado refere-se a 25% do valor do bem adquirido ou dos danos do aparelho. \n \n * **Produtos cobertos** \n para estes seguros– Celular/Smartphone \n\n * **Quem pode contratar estes seguros** \n Clientes maiores de 18 anos \n\n",
-         "blockClass": "cencosud-protege-section-2"
+      "blockClass": "cencosud-protege-section-2"
     }
   },
   "flex-layout.col#cencosud-protege-section-2-col-2": {

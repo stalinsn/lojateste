@@ -1,8 +1,5 @@
 {
   "store.custom#atendance-group2": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#atendance2",
       "responsive-layout.phone#atendance2"

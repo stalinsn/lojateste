@@ -1,8 +1,5 @@
 {
   "store.custom#institutional": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#sobre-nos",
       "responsive-layout.tablet#sobre-nos",
@@ -16,14 +13,10 @@
     ]
   },
   "flex-layout.row#institutional-title-mobile": {
-    "children": [
-      "rich-text#title-atendance"
-    ]
+    "children": ["rich-text#title-atendance"]
   },
   "flex-layout.row#institutional": {
-    "children": [
-      "flex-layout.col#institutional-links"
-    ],
+    "children": ["flex-layout.col#institutional-links"],
     "props": {
       "marginBottom": 8
     }
@@ -37,9 +30,7 @@
       "rich-text#about-us-link-5"
     ],
     "props": {
-      "blockClass": [
-        "institutional"
-      ],
+      "blockClass": ["institutional"],
       "preventVerticalStretch": true
     }
   }

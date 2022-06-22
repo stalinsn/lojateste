@@ -1,8 +1,5 @@
 {
   "store.custom#plano-controle": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#plano-controle",
       "responsive-layout.tablet#plano-controle",
@@ -10,20 +7,13 @@
     ]
   },
   "responsive-layout.desktop#plano-controle": {
-    "children": [
-      "breadcrumb",
-      "stack-layout#plano-controle"
-    ]
+    "children": ["breadcrumb", "stack-layout#plano-controle"]
   },
   "responsive-layout.tablet#plano-controle": {
-    "children": [
-      "stack-layout#plano-controle"
-    ]
+    "children": ["stack-layout#plano-controle"]
   },
   "responsive-layout.phone#plano-controle": {
-    "children": [
-      "stack-layout#plano-controle"
-    ]
+    "children": ["stack-layout#plano-controle"]
   },
   "stack-layout#plano-controle": {
     "children": [
@@ -35,9 +25,7 @@
     }
   },
   "flex-layout.row#plano-controle-content": {
-    "children": [
-      "flex-layout.col#plano-controle-content"
-    ],
+    "children": ["flex-layout.col#plano-controle-content"],
     "props": {
       "fullWidth": true
     }
@@ -50,9 +38,7 @@
   },
   "flex-layout.row#plano-controle-section-1": {
     "title": "Seção 1",
-    "children": [
-      "rich-text#plano-controle-section-1"
-    ],
+    "children": ["rich-text#plano-controle-section-1"],
     "props": {
       "blockClass": "plano-controle-section-1"
     }
@@ -66,9 +52,7 @@
   },
   "flex-layout.row#plano-controle-section-2": {
     "title": "Seção 2",
-    "children": [
-      "rich-text#plano-controle-section-2"
-    ],
+    "children": ["rich-text#plano-controle-section-2"],
     "props": {
       "blockClass": "plano-controle-section-2"
     }

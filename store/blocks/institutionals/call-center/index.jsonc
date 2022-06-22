@@ -1,9 +1,10 @@
 {
   "store.custom#call-center": {
-    "parent": {
-      "header": "header"
-    },
-    "blocks": ["responsive-layout.desktop#contact-us", "responsive-layout.tablet#contact-us", "responsive-layout.phone#call-center"]
+    "blocks": [
+      "responsive-layout.desktop#contact-us",
+      "responsive-layout.tablet#contact-us",
+      "responsive-layout.phone#call-center"
+    ]
   },
   "responsive-layout.phone#call-center": {
     "children": [
