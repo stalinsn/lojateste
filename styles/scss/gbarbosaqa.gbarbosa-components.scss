@@ -1339,6 +1339,24 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
+    .ProductWeight {
+      display: none;
+    }
+  }
+}
+
+// Preços
+:global(.vtex-store-components-3-x-price-without-from) {
+  .currencyContainer {
+    color: #525252;
+  }
+}
+:global(.vtex-store-components-3-x-hide-price-by) {
+  opacity: 0;
+}
+
 .paymentBankNumberCodeContainer {
   flex-flow: row wrap;
   .paymentBankNumberCodeInput {
@@ -1412,16 +1430,16 @@
 }
 :global(.vtex-flex-layout-0-x-flexColChild--checkout-quantity-selector)
   .customNumericStepperMessage {
-    display: none;
-    right: 101px;
-    top: 431px;
-    &.wrap {
-      white-space: normal;
-      // display: none;
-      &::before{
-        top: 267px;
-      }
+  display: none;
+  right: 101px;
+  top: 431px;
+  &.wrap {
+    white-space: normal;
+    // display: none;
+    &::before {
+      top: 267px;
     }
+  }
 }
 :global(.vtex-flex-layout-0-x-flexColChild--minicart-main-infos) {
   :global(.vtex-flex-layout-0-x-flexColChild--minicart-main-infos) {

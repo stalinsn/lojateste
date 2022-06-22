@@ -29,29 +29,23 @@
       "responsive-layout.desktop#custom-end-banner",
       "responsive-layout.mobile#eletro",
       "responsive-layout.mobile#services-home",
-      "responsive-layout.desktop#newsletter",
-      "responsive-layout.mobile#newsletter"
+      "responsive-layout.desktop#newsletter"
+      // "responsive-layout.mobile#newsletter"
     ]
   },
 
   "flex-layout.row#shelf-orders": {
-    "children": [
-      "flex-layout.col#shelf-orders"]
+    "children": ["flex-layout.col#shelf-orders"]
   },
   "flex-layout.col#shelf-orders": {
-    "children": [
-      "last-orders-shelf"
-    ]
+    "children": ["last-orders-shelf"]
   },
   "last-orders-shelf": {
-    "children": [
-      "product-summary.shelf"
-    ]
+    "children": ["product-summary.shelf"]
   },
   "responsive-layout.mobile#store-selector": {
     "children": [
       // "flex-layout.row#store-selector-mobile"
     ]
   }
-
 }
