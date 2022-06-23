@@ -343,10 +343,15 @@
     }
   },
   "flex-layout.row#desktop-minicart-links": {
-    "children": ["cart-controller", "minicart-totalizer", "minicart-toast"],
+    "children": ["cart-io-provider#minicart", "minicart-totalizer", "minicart-toast"],
     "props": {
       "preventHorizontalStretch": true
     }
+  },
+  "cart-io-provider#minicart":{
+    "children":[
+      "cart-controller"
+    ]
   },
   "cart-controller": {
     "children": ["minicart.v2"]

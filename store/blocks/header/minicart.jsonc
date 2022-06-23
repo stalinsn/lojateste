@@ -110,16 +110,18 @@
     },
     "children": ["flex-layout.col#minicart-footer-custom"]
   },
-
   "flex-layout.col#minicart-footer-custom": {
     "children": [
       //"minicart-bar",
-      "subtotal-content",
+      "loading-totalizers#minicart",
       "rich-text#minicart-alert",
       "go-to-cart-button",
       // "close-minicart-button"
       "keep-shopping-button"
     ]
+  },
+  "loading-totalizers#minicart":{
+    "children":["subtotal-content"]
   },
   "rich-text#minicart-alert": {
     "props": {
