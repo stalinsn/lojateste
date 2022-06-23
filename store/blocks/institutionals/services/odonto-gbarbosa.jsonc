@@ -1,8 +1,5 @@
 {
   "store.custom#gbarbosa-odonto": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#gbarbosa-odonto",
       "responsive-layout.tablet#gbarbosa-odonto",
@@ -23,9 +20,7 @@
     ]
   },
   "responsive-layout.phone#gbarbosa-odonto": {
-    "children": [
-      "flex-layout.row#gbarbosa-odonto-mobile"
-    ]
+    "children": ["flex-layout.row#gbarbosa-odonto-mobile"]
   },
   "flex-layout.row#gbarbosa-odonto-mobile": {
     "children": ["flex-layout.col#gbarbosa-odonto-mobile"],
@@ -46,15 +41,16 @@
     }
   },
   "flex-layout.row#gbarbosa-odonto-section-1": {
-    "children": [
-      "stack-layout#gbarbosa-odonto"
-    ],
+    "children": ["stack-layout#gbarbosa-odonto"],
     "props": {
       "blockClass": "gbarbosa-odonto-banner"
     }
   },
   "stack-layout#gbarbosa-odonto": {
-    "children": ["image#gbarbosa-odonto-background", "rich-text#gbarbosa-odonto-text"],
+    "children": [
+      "image#gbarbosa-odonto-background",
+      "rich-text#gbarbosa-odonto-text"
+    ],
     "props": {
       "blockClass": "gbarbosa-odonto"
     }
@@ -74,9 +70,7 @@
     }
   },
   "flex-layout.row#gbarbosa-odonto-section-2": {
-    "children": [
-      "flex-layout.col#gbarbosa-odonto-section-2"
-    ],
+    "children": ["flex-layout.col#gbarbosa-odonto-section-2"],
     "props": {
       "marginBottom": 4
     }
@@ -111,7 +105,10 @@
     }
   },
   "flex-layout.row#gbarbosa-odonto-brands": {
-    "children": ["image#gbarbosa-odonto-brand-1", "image#gbarbosa-odonto-brand-2"],
+    "children": [
+      "image#gbarbosa-odonto-brand-1",
+      "image#gbarbosa-odonto-brand-2"
+    ],
     "props": {
       "blockClass": ["gbarbosa-odonto-brands"],
       "preventHorizontalStretch": true,

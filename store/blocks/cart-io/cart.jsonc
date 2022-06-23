@@ -14,7 +14,7 @@
       "checkout-cart-two-cols#checkout-cart-desktop",
       "empty-state#checkout-cart-empty"
     ],
-    "render": "client"
+    "render": "server"
   },
 
   //Mobile

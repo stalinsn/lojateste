@@ -199,3 +199,19 @@
     }
   }
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--shipping-simulator)
+  :global(.vtex-input-prefix__group)
+  > input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-background-clip: text;
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--pdp-right-col) {
+  :global(.vtex-flex-layout-0-x-flexColChild--pdp-right-col) {
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+  }
+}

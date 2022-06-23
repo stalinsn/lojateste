@@ -1,9 +1,10 @@
 {
   "store.custom#stores": {
-    "parent": {
-      "header": "header"
-    },
-    "blocks": ["responsive-layout.desktop#nossas-lojas", "responsive-layout.tablet#nossas-lojas", "responsive-layout.phone#nossas-lojas"]
+    "blocks": [
+      "responsive-layout.desktop#nossas-lojas",
+      "responsive-layout.tablet#nossas-lojas",
+      "responsive-layout.phone#nossas-lojas"
+    ]
   },
   "responsive-layout.desktop#nossas-lojas": {
     "children": [
@@ -33,8 +34,6 @@
     }
   },
   "flex-layout.row#nossas-lojas-content": {
-    "children": [
-      "cb-stores"
-    ]
+    "children": ["cb-stores"]
   }
 }

@@ -1,8 +1,5 @@
 {
   "store.custom#recarga-celular": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#recarga-celular",
       "responsive-layout.tablet#recarga-celular",
@@ -10,33 +7,22 @@
     ]
   },
   "responsive-layout.desktop#recarga-celular": {
-    "children": [
-      "breadcrumb",
-      "flex-layout.row#recarga-celular-content"
-    ]
+    "children": ["breadcrumb", "flex-layout.row#recarga-celular-content"]
   },
   "responsive-layout.tablet#recarga-celular": {
-    "children": [
-      "flex-layout.row#recarga-celular-content"
-    ]
+    "children": ["flex-layout.row#recarga-celular-content"]
   },
   "responsive-layout.phone#recarga-celular": {
-    "children": [
-      "flex-layout.row#recarga-celular-content-mobile"
-    ]
+    "children": ["flex-layout.row#recarga-celular-content-mobile"]
   },
   "flex-layout.row#recarga-celular-content-mobile": {
-    "children": [
-      "flex-layout.col#recarga-celular-content"
-    ],
+    "children": ["flex-layout.col#recarga-celular-content"],
     "props": {
       "fullWidth": true
     }
   },
   "flex-layout.row#recarga-celular-content": {
-    "children": [
-      "flex-layout.col#recarga-celular-content"
-    ]
+    "children": ["flex-layout.col#recarga-celular-content"]
   },
   "flex-layout.col#recarga-celular-content": {
     "children": [
@@ -46,9 +32,7 @@
   },
   "flex-layout.row#recarga-celular-section-1": {
     "title": "Seção 1",
-    "children": [
-      "info-card#recarga-celular-section-1"
-    ],
+    "children": ["info-card#recarga-celular-section-1"],
     "props": {
       "blockClass": "recarga-celular-section-1"
     }
@@ -65,9 +49,7 @@
   },
   "flex-layout.row#recarga-celular-section-2": {
     "title": "Seção 2",
-    "children": [
-      "rich-text#recarga-celular-aviso"
-    ],
+    "children": ["rich-text#recarga-celular-aviso"],
     "props": {
       "blockClass": "recarga-celular-section-2",
       "marginTop": 6,

@@ -12,11 +12,10 @@
     }
   }
 }
-.link--delivery-policy-text{
+.link--delivery-policy-text {
   text-decoration: none;
-  color:#ED1D25;
+  color: #ed1d25;
   font-weight: bold;
-
 }
 .paragraph--top-bar-link {
   margin: 0;
@@ -85,21 +84,30 @@
 .strong--how-to-buy {
   display: inline !important;
 }
-.strong--delivery-policy-title,.headingLevel2--exchange-return-policy-content{
-  color:#525252;
-  font-size:20px;
+.strong--delivery-policy-title,
+.headingLevel2--exchange-return-policy-content {
+  color: #525252;
+  font-size: 20px;
 }
-.paragraph--delivery-policy-text,.paragraph--exchange-return-policy-content{
-  font-size:14px;
-  color:#525252;
+.paragraph--delivery-policy-text,
+.paragraph--exchange-return-policy-content {
+  font-size: 14px;
+  color: #525252;
 }
-.paragraph--faq-title,.paragraph--delivery-policy-title,.paragraph--exchange-return-policy-title {
+.paragraph--faq-title,
+.paragraph--delivery-policy-title,
+.paragraph--exchange-return-policy-title {
   font-size: 24px;
   color: #525252;
   font-weight: bold;
   margin-bottom: 0;
 }
-
+.container--copyright-footer {
+  @media (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+  }
+}
 .paragraph--copyright-footer {
   color: #525252;
   font-size: 10px;
@@ -331,10 +339,12 @@
   .wrapper--unavailable-product {
     .paragraph--unavailable-product {
       margin: 0;
-      font-size: 12px;
+      font-size: 10px;
       color: #ed1d25;
       font-weight: bold;
       margin-left: -2px;
+      text-align: center;
+      padding: 0 10px;
     }
   }
 }
@@ -424,21 +434,29 @@
   }
 }
 // footer mobile
-@media (max-width: 1024px) {
-  .wrapper--footer-inner-text {
-    .paragraph--footer-inner-text {
+.wrapper--footer-inner-text {
+  .paragraph--footer-inner-text {
+    font-size: 14px;
+    color: #fefefe;
+    font-weight: 300;
+    padding: 0 0;
+    .link--footer-inner-text {
+      padding: 0;
       font-size: 14px;
-      color: #fff;
-      padding: 0 22px;
-      .link--footer-inner-text {
-        padding: 0;
-        font-size: 14px;
-        font-weight: bold;
-        text-decoration: none;
-      }
+      font-weight: 300;
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper--footer-inner-text {
+    .paragraph--footer-inner-text {
+      margin-right: 30px;
+    }
+  }
+}
+
+
 // PRODUTO
 .container--compra-protegida {
   @media screen and (max-width: 40em) {
@@ -793,7 +811,17 @@
 .wrapper--title-footer-blackbold-fb {
   width: 100%;
 }
-
+.paragraph--last-orders-title {
+  font-size: 24px
+}
+.link--last-orders-breadcrumb {
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 14px;
+}
+.strong--last-orders-breadcrumb {
+  font-size: 14px;
+}
 .paragraph--txt-first-head {
   margin-top: 11px;
   margin-bottom: 11px;
@@ -802,9 +830,43 @@
   color: #fff;
 }
 
+.wrapper--last-orders{
+  @media screen and (min-width: 1280px) and (max-width: 1026px){
+    .link--last-orders {
+      min-width: 164px;
+    }
+  }
+
+  .link--last-orders {
+    display: flex ;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 16px;
+
+    &:hover {
+      color: #fff;
+    }
+    &::before {
+      content: "";
+      display: block;
+      background: url(/arquivos/icon_favorito.png);
+      width: 21px;
+      height: 21px;
+      position: relative;
+      bottom: 1px;
+      margin-right: 5px;
+    }
+    @media screen and (max-width:768px){
+      font-size: 0;
+    }
+  }
+
+}
+
 .paragraph--txt-news {
   color: #525252;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -822,7 +884,6 @@
 
 .paragraph--best-seller {
   margin-bottom: 10px;
-  margin-top: 10px;
 }
 
 .container--buy-all {
@@ -3178,10 +3239,10 @@
       margin: 0 5px;
       &::before {
         content: "";
-        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='Arrow_L' data-name='Arrow L' width='44' height='44' viewBox='0 0 44 44'%3E%3Ccircle id='Elipse_60' data-name='Elipse 60' cx='22' cy='22' r='22' fill='%23fafafa'/%3E%3Cpath id='União_81' data-name='União 81' d='M5.244,13.244a1,1,0,0,1-.708-.293L4.5,12.915.3,8.708A1,1,0,0,1,1.709,7.294L4.244,9.829V1a1,1,0,0,1,2,0V9.828L8.78,7.294a1,1,0,1,1,1.414,1.415L5.975,12.927l-.023.024a1,1,0,0,1-.707.293Z' transform='translate(29.001 16.756) rotate(90)' fill='%23222'/%3E%3C/svg%3E")
+        background: url("/arquivos/icon_back_to_site.svg")
           no-repeat;
-        width: 44px;
-        height: 44px;
+          width: 50px;
+          height: 47px;
         margin-right: 10px;
         @media (max-width: 1024px) {
           background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='Arrow_L' data-name='Arrow L' transform='translate(0.383 0.383)'%3E%3Ccircle id='Ellipse_60' data-name='Ellipse 60' cx='16' cy='16' r='16' transform='translate(-0.383 -0.383)' fill='%23fafafa'/%3E%3Cpath id='Union_81' data-name='Union 81' d='M5.242,13.243a1,1,0,0,1-.708-.293l-.024-.024L.293,8.708A1,1,0,1,1,1.706,7.293L4.242,9.827V1a1,1,0,0,1,2,0V9.828L8.777,7.293a1,1,0,1,1,1.414,1.415L5.984,12.915l-.034.036a1,1,0,0,1-.707.293Z' transform='translate(22.46 10.375) rotate(90)' fill='%23ed1d25'/%3E%3C/g%3E%3C/svg%3E")
@@ -3190,7 +3251,8 @@
         }
       }
       @media (min-width: 770px) {
-        color: #000;
+        color: #fff !important;
+        font-size: 14px
       }
     }
   }
@@ -3626,3 +3688,27 @@
     }
   }
 }
+
+/* header top */
+.wrapper--headert-top-link {
+  .paragraph {
+    margin: 0;
+    .link {
+      text-decoration: none;
+      color: #fff;
+      font-size: 13px;
+      white-space: nowrap;
+      margin: 0px 13px;
+    }
+  }
+}
+/* header top - end */
+
+
+/* pdp unavailable product */
+.container--unavailable-product-pdp {
+  color: #ed1d25;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* pdp unavailable product - end */

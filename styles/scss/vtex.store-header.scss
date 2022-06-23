@@ -93,6 +93,9 @@
   max-width: $maxContainerWidth;
   margin: 0 auto;
   justify-content: space-between;
+  @media(max-width:1295px){
+    padding-left:15px;
+  }
 }
 
 /* stick wrapper with the same color as the desktop/mobile header */
@@ -1076,5 +1079,35 @@ header FB
     :global(.vtex-store-components-3-x-container) {
       padding: 0;
     }
+  }
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--stuck ) {
+  :global(.vtex-flex-layout-0-x-flexRow--store-selector-mobile) {
+    animation: whereYouAre 0.3s ease-in-out;
+    -webkit-animation-fill-mode: forwards
+  }
+}
+
+@keyframes whereYouAre {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.75;
+    margin-top: -5px
+  }
+  50% {
+    opacity: 0.5;
+    margin-top: -10px;
+  }
+  75% {
+    opacity: 0.25;
+    margin-top: -20px;
+  }
+  100% {
+    opacity: 0;
+    margin-top: -30px;
+    
   }
 }

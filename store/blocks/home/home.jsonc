@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "responsive-layout.mobile#store-selector",
       "flex-layout.row#5-desktop",
       "flex-layout.row#first-row",
       "responsive-layout.desktop#services-home",
@@ -8,6 +9,7 @@
       "responsive-layout.desktop#row-gray-methods",
       "responsive-layout.desktop#slider-circles",
       // "flex-layout.row#shelf-last-car",
+      "flex-layout.row#shelf-orders",
       "flex-layout.row#offers",
       "flex-layout.row#shelf-offers",
       // "__fold__",
@@ -26,9 +28,24 @@
       "responsive-layout.desktop#shelf-home",
       "responsive-layout.desktop#custom-end-banner",
       "responsive-layout.mobile#eletro",
-      "responsive-layout.mobile#services-home"
-      // "responsive-layout.desktop#newsletter",
+      "responsive-layout.mobile#services-home",
+      "responsive-layout.desktop#newsletter"
       // "responsive-layout.mobile#newsletter"
+    ]
+  },
+
+  "flex-layout.row#shelf-orders": {
+    "children": ["flex-layout.col#shelf-orders"]
+  },
+  "flex-layout.col#shelf-orders": {
+    "children": ["last-orders-shelf"]
+  },
+  "last-orders-shelf": {
+    "children": ["product-summary.shelf"]
+  },
+  "responsive-layout.mobile#store-selector": {
+    "children": [
+      // "flex-layout.row#store-selector-mobile"
     ]
   }
 }

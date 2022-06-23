@@ -1,8 +1,5 @@
 {
   "store.custom#institutional-group": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": ["responsive-layout.desktop", "responsive-layout.phone"]
   },
   "responsive-layout.desktop": {
@@ -363,11 +360,6 @@
       "blockClass": "institutional-title"
     }
   },
-
-
-
-
-
 
   "rich-text#common-questions": {
     "props": {

@@ -1,9 +1,5 @@
 {
   "store.custom#cartao-cenco": {
-    "parent": {
-      "header": "header",
-      "footer": "footer"
-    },
     "blocks": [
       "responsive-layout.desktop#cartao-cenco",
       "responsive-layout.tablet#cartao-cenco",
@@ -18,7 +14,7 @@
     }
   },
   "rich-text#breadcrumb-custom": {
-    "props":{
+    "props": {
       "text": "[Home](/) > **Cartão Cencosud**",
       "blockClass": "breadcrumb-custom"
     }
@@ -51,26 +47,20 @@
     ]
   },
   "flex-layout.row#cartao-cenco-container": {
-    "children": [
-      "flex-layout.col#cartao-cenco-content"
-    ],
+    "children": ["flex-layout.col#cartao-cenco-content"],
     "props": {
       "blockClass": "cencosud-card-container1",
       "paddingBottom": 9
     }
   },
   "flex-layout.row#cartao-cenco-container2": {
-    "children": [
-      "flex-layout.col#cartao-cenco-content-bottom"
-    ],
+    "children": ["flex-layout.col#cartao-cenco-content-bottom"],
     "props": {
       "blockClass": "cencosud-card-container2"
     }
   },
   "flex-layout.col#cartao-cenco-container": {
-    "children": [
-      "flex-layout.col#cartao-cenco-content"
-    ],
+    "children": ["flex-layout.col#cartao-cenco-content"],
     "props": {
       "blockClass": "cencosud-card"
     }
@@ -93,9 +83,7 @@
     }
   },
   "flex-layout.col#cartao-cenco-content-bottom": {
-    "children": [
-      "flex-layout.row#cartao-cenco-section-3"
-    ],
+    "children": ["flex-layout.row#cartao-cenco-section-3"],
     "props": {
       "blockClass": "content-section-bottom",
       "preventVerticalStretch": true
@@ -141,7 +129,9 @@
     ]
   },
   "flex-layout.col#cartao-cenco-section-2-col-1": {
-    "children": ["rich-text#cartao-cenco-text-2"/* , "rich-text#cartao-cenco-call-to-action" */],
+    "children": [
+      "rich-text#cartao-cenco-text-2" /* , "rich-text#cartao-cenco-call-to-action" */
+    ],
     "props": {
       "width": "60%"
     }
@@ -232,7 +222,10 @@
     }
   },
   "flex-layout.col#cartao-cencosud-benefit-1": {
-    "children": ["image#cartao-cencosud-benefit-1", "rich-text#cartao-cencosud-benefit-1"],
+    "children": [
+      "image#cartao-cencosud-benefit-1",
+      "rich-text#cartao-cencosud-benefit-1"
+    ],
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
@@ -251,7 +244,10 @@
     }
   },
   "flex-layout.col#cartao-cencosud-benefit-2": {
-    "children": ["image#cartao-cencosud-benefit-2", "rich-text#cartao-cencosud-benefit-2"],
+    "children": [
+      "image#cartao-cencosud-benefit-2",
+      "rich-text#cartao-cencosud-benefit-2"
+    ],
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
@@ -270,7 +266,10 @@
     }
   },
   "flex-layout.col#cartao-cencosud-benefit-3": {
-    "children": ["image#cartao-cencosud-benefit-3", "rich-text#cartao-cencosud-benefit-3"],
+    "children": [
+      "image#cartao-cencosud-benefit-3",
+      "rich-text#cartao-cencosud-benefit-3"
+    ],
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center"
@@ -350,9 +349,7 @@
     }
   },
   "flex-layout.col#cartao-cenco-content-col2": {
-    "children": [
-      "image#cartao-cenco-content-col2"
-    ],
+    "children": ["image#cartao-cenco-content-col2"],
     "props": {
       "horizontalAlign": "center"
     }

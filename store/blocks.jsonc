@@ -16,9 +16,7 @@
     "children": ["vtex.order-placed:order-placed"]
   },
   "store.account": {
-    "blocks": [
-      "my-account"
-    ],
+    "blocks": ["my-account"],
     "parent": {
       "challenge": "challenge.profile"
     }
@@ -47,13 +45,15 @@
     "children": [
       "stack-layout#prodsum",
       // "product-rating-inline",
-      "product-summary-name",
+      // "product-summary-name",
+      "product-name-w-weight",
       // "product-summary-brand",
       //"product-summary-price",
       // "global-promo#2x",
       // "global-promo#3x",
       // "price-custom",
-      "flex-layout.col#shadow-product"
+      // "flex-layout.col#shadow-product",
+      "has-promotion-layout#summary"
       // "flex-layout.row#product-price",
       //"product-summary-space",
       // "quantity-selector-custom"
@@ -64,18 +64,31 @@
       "blockClass": "normal-shelf"
     }
   },
+  "product-name-w-weight": {
+    "props": {
+      "showWeight": false
+    }
+  },
+  "has-promotion-layout#summary": {
+    "children": ["flex-layout.col#shadow-product"]
+  },
   "flex-layout.row#shadow-product-condition": {
     "children": ["condition-layout.product#shadowProduct"]
   },
   "condition-layout.product#shadowProduct": {
     "props": {
+      "matchType": "all",
       "conditions": [
         {
           "subject": "isProductAvailable"
+        },
+        {
+          "subject": "specificationProperties",
+          "arguments": { "name": "Regionalização", "value": "Eletro" }
         }
       ],
       "Then": "rich-text#unavailable-product-2",
-      "Else": "rich-text#unavailable-product"
+      "Else": "unavailable-text"
     }
   },
   "rich-text#unavailable-product-2": {
@@ -83,15 +96,18 @@
       "text": ""
     }
   },
+  "unavailable-text": {
+    "blocks": ["rich-text#unavailable-product"]
+  },
   "rich-text#unavailable-product": {
     "props": {
-      "text": "Indisponível",
+      "text": "Indisponível para sua região",
       "blockClass": "unavailable-product"
     }
   },
   "flex-layout.col#shadow-product": {
     "children": [
-      "flex-layout.row#product-price",
+      "condition-layout.product#product-price-d-none",
       "quantity-selector-custom",
       "condition-layout.product#shadowProduct"
     ],
@@ -99,8 +115,27 @@
       "blockClass": "shadow-product"
     }
   },
+  "condition-layout.product#product-price-d-none": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#product-price",
+      "Else": "flex-layout.row"
+    }
+  },
+  "flex-layout.row": {
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
   "flex-layout.row#product-price": {
-    "children": ["flex-layout.col#product-price-shelf"]
+    "children": ["flex-layout.col#product-price-shelf"],
+    "props": {
+      "blockClass": "product-price-shelf"
+    }
   },
   "flex-layout.col#product-price-shelf": {
     "children": ["personal-price#shelf-price", "max-installments"],
@@ -167,7 +202,8 @@
   "flex-layout.col#shelf-list-add-to-cart": {
     "children": ["quantity-selector-custom"],
     "props": {
-      "verticalAlign": "bottom"
+      "verticalAlign": "bottom",
+      "blockClass": "shelf-list-add-to-cart"
     }
   },
   "product-price-savings#search": {
@@ -341,7 +377,8 @@
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
-      "height": 118
+      "height": 300,
+      "width": 300
     }
   },
   "stack-layout#prodsum": {
@@ -356,6 +393,12 @@
   "personal-flag": {
     "props": {
       "showOnlyRelativeFlag": false
+    }
+  },
+  "personal-flag#pdp": {
+    "props": {
+      "showOnlyRelativeFlag": false,
+      "isPdp": true
     }
   },
   "flex-layout.row#add-wishlist": {

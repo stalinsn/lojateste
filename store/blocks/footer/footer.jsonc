@@ -22,12 +22,12 @@
   },
   "rich-text#footer-2-desktop": {
     "props": {
-      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
+      "text": "© 2022 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "footer-2-desktop"
     }
   },
   "flex-layout.row#newsletter": {
-    "children": ["rich-text#newsletter", "newsletter"],
+    "children": ["rich-text#newsletter"/* , "newsletter" */],
 
     "props": {
       "blockClass": "title-news"
@@ -37,9 +37,9 @@
   "rich-text#newsletter": {
     "title": "news title",
     "props": {
-      "width": "40%",
-      "textAlignment": "RIGHT",
-      "textPosition": "RIGHT",
+      "width": "42%",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "Receba as melhores ofertas e promoções!",
       "blockClass": "txt-news"
     }
@@ -105,7 +105,7 @@
   "flex-layout.col#footer-logo": {
     "children": ["image#footer-logo"],
     "props": {
-      "width": "9%",
+      "width": "6%",
       "preventVerticalStretch": true,
       "blockClass": "footer-logo"
     }
@@ -118,7 +118,7 @@
       "flex-layout.row#footer-social-links"
     ],
     "props": {
-      "width": "29%",
+      "width": "26%",
       "preventVerticalStretch": true,
       "blockClass": "footer-precol"
     }
@@ -131,7 +131,8 @@
   },
   "rich-text#store-footer-text": {
     "props": {
-      "text": "Fundada em julho de 1955, em Sergipe, pelos irmãos Gentil e Noel Barbosa, sua proposta oferecer variedade de produtos a preços baixos e atendimento de qualidade. \n \n [Clique aqui e saiba mais](/)",
+      "text": "O que nasceu como uma pequena mercearia que vendia secos e molhados, hoje o GBarbosa é uma das marcas mais prestigiadas do Nordeste. \n \n [Clique aqui e saiba mais](/)",
+      // "O GBarbosa é uma das principais redes de supermercados do Nordeste, com mais de 75 lojas, farmácias e Eletro.
       "blockClass": ["footer-inner-text", "store-footer"]
     }
   },
@@ -217,7 +218,8 @@
     "children": ["vtex.menu@2.x:menu#footer-menu1"],
 
     "props": {
-      "blockClass": "footer-col"
+      "blockClass": "footer-col",
+      "width": "15%"
     }
   },
 
@@ -226,15 +228,15 @@
 
     "props": {
       "blockClass": "footer-col",
-      "width": "15%"
+      "width": "17%"
     }
   },
 
   "flex-layout.col#footer-6-desktop": {
     "children": ["vtex.menu@2.x:menu#footer-menu6"],
-
     "props": {
-      "blockClass": "footer-col"
+      "blockClass": "footer-col",
+      "width": "17%"
     }
   },
 
@@ -340,7 +342,7 @@
   "newsletter#custom": {
     "props": {
       "label": "Receba as melhores ofertas e promoções!",
-      "placeholder": "E-mail",
+      "placeholder": "Informe seu e-mail",
       "blockClass": "newsletter-custom",
       "submit": "Assinar"
     }
@@ -454,7 +456,7 @@
   //       "text": "Nossos canais"
   //     }
   //   }
-    // "blocks": ["submenu.accordion#mobilefooter-3"]
+  // "blocks": ["submenu.accordion#mobilefooter-3"]
   // },
   /* ,
       "flex-layout.col#footer-6-desktop",
@@ -502,7 +504,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© 2021 Copyright. Todos os direitos reservados GBarbosa.",
+      "text": "© 2022 Copyright. Todos os direitos reservados GBarbosa.",
       "blockClass": "copyright-footer"
     }
   },
@@ -570,7 +572,8 @@
 
   "back-to-top-button": {
     "props": {
-      "displayThreshold": 800
+      "displayThreshold": 170,
+      "display": "caret-icon"
     }
   }
 }

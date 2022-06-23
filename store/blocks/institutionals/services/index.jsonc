@@ -1,8 +1,5 @@
 {
   "store.custom#services": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#services",
       "responsive-layout.tablet#services",

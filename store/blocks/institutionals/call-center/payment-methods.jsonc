@@ -1,8 +1,5 @@
 {
   "store.custom#payment-methods": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#payment-methods",
       "responsive-layout.tablet#payment-methods",
@@ -150,7 +147,11 @@
     }
   },
   "flex-layout.col#payment-col-text-3": {
-    "children": ["rich-text#boleto-title", "image#boleto-payment", "rich-text#boleto"]
+    "children": [
+      "rich-text#boleto-title",
+      "image#boleto-payment",
+      "rich-text#boleto"
+    ]
   },
   "rich-text#boleto-title": {
     "props": {

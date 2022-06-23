@@ -1,10 +1,10 @@
 {
   "store.custom#gbarbosa-app": {
-    "parent": {
-      "header": "header",
-      "footer": "footer"
-    },
-    "blocks": ["responsive-layout.desktop#app-offers", "responsive-layout.tablet#app-offers", "responsive-layout.phone#app-offers"]
+    "blocks": [
+      "responsive-layout.desktop#app-offers",
+      "responsive-layout.tablet#app-offers",
+      "responsive-layout.phone#app-offers"
+    ]
   },
   "responsive-layout.desktop#app-offers": {
     "children": [
@@ -32,7 +32,10 @@
     }
   },
   "flex-layout.row#app-offers-container": {
-    "children": ["flex-layout.col#app-offers-links", "flex-layout.col#app-offers-content"],
+    "children": [
+      "flex-layout.col#app-offers-links",
+      "flex-layout.col#app-offers-content"
+    ],
     "props": {
       "blockClass": ["call-center-content"],
       "marginBottom": 10
@@ -62,9 +65,7 @@
     }
   },
   "flex-layout.col#app-offers-content": {
-    "children": [
-      "flex-layout.row#app-offers"
-    ],
+    "children": ["flex-layout.row#app-offers"],
     "props": {
       "width": "80%"
     }
@@ -79,19 +80,13 @@
     }
   },
   "flex-layout.col#app-offers-col1": {
-    "children": [
-      "rich-text#offers2",
-      "flex-layout.row#download-apps"
-    ]
+    "children": ["rich-text#offers2", "flex-layout.row#download-apps"]
   },
   "flex-layout.col#app-offers-col2": {
     "children": ["image#app-gbarbosa"]
   },
   "flex-layout.row#download-apps": {
-    "children": [
-      "image#app-store",
-      "image#play-store"
-    ],
+    "children": ["image#app-store", "image#play-store"],
     "props": {
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,

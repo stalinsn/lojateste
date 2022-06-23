@@ -1,9 +1,10 @@
 {
   "store.custom#faq": {
-    "parent": {
-      "header": "header"
-    },
-    "blocks": ["responsive-layout.desktop#faq", "responsive-layout.tablet#faq", "responsive-layout.phone#faq"]
+    "blocks": [
+      "responsive-layout.desktop#faq",
+      "responsive-layout.tablet#faq",
+      "responsive-layout.phone#faq"
+    ]
   },
   "responsive-layout.desktop#faq": {
     "children": [
@@ -53,10 +54,7 @@
     }
   },
   "flex-layout.col#faq-content": {
-    "children": [
-      "rich-text#faq",
-      "flex-layout.col#faq"
-    ],
+    "children": ["rich-text#faq", "flex-layout.col#faq"],
     "props": {
       "width": "80%"
     }

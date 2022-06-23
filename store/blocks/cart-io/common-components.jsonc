@@ -49,12 +49,15 @@
     }
   },
   "flex-layout.row#checkout-summary-info": {
-    "children": ["summary-wrapper#checkout-cart"],
+    "children": ["loading-totalizers"],
     "props": {
       "marginBottom": 0,
       "blockClass": "checkout-summary-info",
       "paddingBottom": 3
     }
+  },
+  "loading-totalizers":{
+    "children":["summary-wrapper#checkout-cart"]
   },
   "summary-wrapper#checkout-cart": {
     "blocks": ["checkout-summary#checkout-cart"]

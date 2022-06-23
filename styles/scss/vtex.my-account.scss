@@ -6,7 +6,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-link) {
   > div {
     &:nth-child(2) {
-      max-width: 560px;
+      max-width: 520px;
       width: 100% !important;
     }
   }
@@ -529,6 +529,21 @@
 
 :global(.vtex-my-account-1-x-boxContainerBody) {
   background-color: #fff;
+    overflow-y: scroll;
+    &::-webkit-scrollbar-track {
+      background-color: #f4f4f4;
+    }
+  
+    &::-webkit-scrollbar {
+      width: 6px;
+      background: #f4f4f4;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: #ed1d25;
+      border-radius: 5px;
+    }
+
 }
 
 :global(.vtex-my-account-1-x-boxContainerFooter) {
@@ -776,6 +791,8 @@
   }
 }
 
+
+
 :global(.vtex-menu-2-x-menuContainerNav) {
   :global(.vtex-button) {
     :global(.vtex-button__label) {
@@ -792,10 +809,19 @@
 }
 
 :global(.vtex-account__order-details) {
+ 
+
   & > div:first-child {
     & > div:first-child {
       & div:first-child {
-        display: none;
+        margin-left: 24px;
+        background-color: #FFD500;
+        padding: 6px 20px;
+        border-radius: 99px;
+        span {
+          color: #525252;
+          font-weight: bold;
+        }
       }
     }
     & > div:nth-child(4n) {
@@ -876,6 +902,7 @@
     :global(.myo-progress-bar__highlighted-circle) {
       margin-top: 1.3rem;
     }
+  
     :global(.myo-progress-bar__title-font) {
       justify-content: center;
       display: flex;
@@ -1077,3 +1104,25 @@
   display: none;
 }
 /* Custom my-account - end */
+
+:global(.myo-progress-bar__circle.bg-success) {
+  background-color:  #2FAF00;
+}
+
+:global(.myo-progress-bar__height1.bg-success) {
+  border-color: #2FAF00;
+}
+:global(.myo-progress-bar__height1.b--success) {
+  border-color: #62C462;
+}
+
+:global(.myo-progress-bar__ma-inner-circle) {
+  background-color:  #2FAF00;
+  &::before {
+    background-color: #2FAF00;
+    left: -6px!important;
+    top: -6px!important;
+    background: #fff!important;
+    border: 2px solid #00913D;
+  }
+}

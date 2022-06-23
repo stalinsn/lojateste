@@ -59,6 +59,12 @@
     justify-content: center;
   }
 }
+.imageContainer {
+  @media screen and (min-width: 769px) {
+    height: 118px;
+    width: 118px;
+  }
+}
 // :global(.vtex-ispromotion) {
 //   :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
 //     background: #fafafa;
@@ -84,7 +90,12 @@
 // }
 .element--normal-shelf {
   :global(.vtex-stack-layout-0-x-stackContainer) {
-    margin: 8px;
+    margin: 0 8px 2px;
+  }
+  @media screen and (min-width: 768px) {
+    :global(.vtex-stack-layout-0-x-stackContainer) {
+      margin: 8px;
+    }
   }
 }
 :global(.vtex-flex-layout-0-x-flexCol--shadow-product) {
@@ -94,11 +105,22 @@
     // padding-top: 5px;
   }
 }
+.imageNormal {
+  max-width: 118px !important;
+  max-height: 118px !important;
+  @media screen and (max-width: 768px) {
+    max-width: 90px !important;
+    max-height: 90px !important;
+  }
+}
 :global(.vtex-product-summary-2-x-element) {
   :global(.vtex-button__label) {
     padding-right: 0px;
     padding-left: 0px;
-    padding-top: 6px !important;
+    padding-top: 5px !important;
+    @media screen and(max-width:768px) {
+      display: none;
+    }
   }
 }
 
@@ -117,23 +139,30 @@
       border-color: $secondary;
       color: $primary;
     }
-
+    @media screen and(max-width:768px) {
+      &::after {
+        content: "+";
+      }
+    }
     :global(.vtex-button__label) {
       &::after {
         content: "+";
         margin-left: 4px;
+        @media screen and(max-width:768px) {
+          display: none;
+        }
       }
     }
   }
 
   :global(.vtex-product-price-1-x-savings) {
-    background: #525252;
     border-radius: 13px;
-    font-size: 14px;
+    font-size: 12px;
     padding: 2px 6px;
-    color: #f7f7f7;
+    color: #e21c23;
     font-weight: bold;
     width: auto;
+    align-items: center;
   }
 
   :global(.vtex-product-summary-2-x-element) {
@@ -152,19 +181,25 @@
         align-items: center;
         justify-content: center;
 
-        :global(.vtex-button__label) {
-          display: none;
-        }
+        // :global(.vtex-button__label) {
+        //   @media screen and (max-width:768px){
+        //     display: none;
 
-        &::after {
-          content: "";
-          width: 8px;
-          height: 8px;
-          display: inline-block;
-          background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.461' height='8.461' viewBox='0 0 8.461 8.461'%3E%3Cpath id='Path_36486' data-name='Path 36486' d='M23.4,3.173H21.288V1.058a1.058,1.058,0,1,0-2.115,0V3.173H17.058a1.058,1.058,0,0,0,0,2.115h2.115V7.4a1.058,1.058,0,1,0,2.115,0V5.288H23.4a1.058,1.058,0,1,0,0-2.115Z' transform='translate(-16)' fill='%23fff'/%3E%3C/svg%3E%0A");
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
+        //   }
+        // }
+
+        // @media screen and (max-width:768px){
+        //   &::after {
+        //     content: "";
+        //     width: 8px;
+        //     height: 8px;
+        //     display: inline-block;
+        //     background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.461' height='8.461' viewBox='0 0 8.461 8.461'%3E%3Cpath id='Path_36486' data-name='Path 36486' d='M23.4,3.173H21.288V1.058a1.058,1.058,0,1,0-2.115,0V3.173H17.058a1.058,1.058,0,0,0,0,2.115h2.115V7.4a1.058,1.058,0,1,0,2.115,0V5.288H23.4a1.058,1.058,0,1,0,0-2.115Z' transform='translate(-16)' fill='%23fff'/%3E%3C/svg%3E%0A");
+        //     background-repeat: no-repeat;
+        //     background-size: cover;
+        //   }
+
+        // }
       }
 
       :global(.vtex-product-summary-2-x-imageNormal) {
@@ -172,9 +207,10 @@
       }
     }
   }
+
   :global(.vtex-numeric-stepper-wrapper) {
     @media screen and (min-width: 768px) {
-      padding: 0 15px;
+      padding: 0 8px;
     }
   }
   /* QUANTITY SELECTOR CUSTOM - SHELF */
@@ -183,7 +219,7 @@
     border-radius: 5px;
     // padding: 0 15px;
 
-    :global(.vtex-numeric-stepper__input){
+    :global(.vtex-numeric-stepper__input) {
       width: 100% !important;
     }
     :global(.vtex-numeric-stepper__input),
@@ -271,6 +307,7 @@
           display: flex;
           :global(.vtex-store-components-3-x-currencyContainer) {
             font-size: 8px;
+            display: flex;
           }
         }
       }
@@ -349,7 +386,7 @@
   .productBrand {
     font-size: 10px !important;
     height: auto !important;
-    padding: 0 8px;
+    padding: 0 4px;
   }
 }
 

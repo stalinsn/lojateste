@@ -1,9 +1,10 @@
 {
   "store.custom#politica-privacidade": {
-    "parent": {
-      "header": "header"
-    },
-    "blocks": ["responsive-layout.desktop#politica-privacidade", "responsive-layout.tablet#politica-privacidade", "responsive-layout.phone#politica-privacidade"]
+    "blocks": [
+      "responsive-layout.desktop#politica-privacidade",
+      "responsive-layout.tablet#politica-privacidade",
+      "responsive-layout.phone#politica-privacidade"
+    ]
   },
   "responsive-layout.desktop#politica-privacidade": {
     "children": [
@@ -34,7 +35,10 @@
     "children": ["rich-text#title-atendance"]
   },
   "flex-layout.row#politica-privacidade-container": {
-    "children": ["flex-layout.col#politica-privacidade-links", "flex-layout.col#politica-privacidade-content"],
+    "children": [
+      "flex-layout.col#politica-privacidade-links",
+      "flex-layout.col#politica-privacidade-content"
+    ],
     "props": {
       "blockClass": ["call-center-content"],
       "marginBottom": 10
@@ -69,4 +73,3 @@
     }
   }
 }
-

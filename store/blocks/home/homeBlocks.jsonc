@@ -306,19 +306,19 @@
     },
     "children": ["link#logo-circle-1"]
   },
-  "link#logo-circle-1":{
-    "props":{
-      "target":"_blank",
+  "link#logo-circle-1": {
+    "props": {
+      "target": "_blank",
       "href": "https://www.delivery.gbarbosa.com.br/"
     },
-    "children":["logo#circle-1"]
+    "children": ["logo#circle-1"]
   },
   "logo#circle-1": {
     "title": "Imagem 1",
     "props": {
       "title": "Imagem 1",
       // "url": "https://gbarbosa.vteximg.com.br/arquivos/category_item1.png",
-      "url":"/arquivos/circle1.png",
+      "url": "/arquivos/circle1.png",
       "blockClass": "logo-circle"
     }
   },
@@ -468,10 +468,7 @@
 
   "flex-layout.row#row-22-images": {
     "title": "Seção 7 - Banners",
-    "children": [
-      "image#col-22-images-1",
-      "image#col-22-images-2"
-    ],
+    "children": ["image#col-22-images-1", "image#col-22-images-2"],
     "props": {
       "blockClass": "22-banners",
       "horizontalAlign": "center"
@@ -500,7 +497,6 @@
       "blockClass": ["the-new", "title-section", "top32"],
       "preserveLayoutOnMobile": true,
       "colSizing": "auto"
-
     }
   },
   "rich-text#the-new": {
@@ -698,7 +694,6 @@
       "blockClass": ["featured-product", "title-section"],
       "preserveLayoutOnMobile": true,
       "colSizing": "auto"
-
     }
   },
   "rich-text#featured-product": {
@@ -860,7 +855,6 @@
       "blockClass": ["offers", "title-section"],
       "preserveLayoutOnMobile": true,
       "colSizing": "auto"
-
     }
   },
   "rich-text#offers": {
@@ -935,7 +929,7 @@
         "phone": 3
       },
       "infinite": false,
-      "showNavigationArrows": "never",
+      "arrows": true,
       "showPaginationDots": "never",
       "blockClass": "main-slider-home2",
       "title": "Configuração - Slider"
@@ -944,11 +938,12 @@
   "slider-layout#main-slider-home2-tab": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 1,
         "phone": 1
       },
       "infinite": false,
+      "arrows": true,
       "showPaginationDots": "never",
       "blockClass": ["main-slider-home2-tab", "main-slider-home2"],
       "title": "Configuração - Slider"
@@ -961,7 +956,7 @@
     "children": ["flex-layout.row#best-seller"]
   },
   "flex-layout.row#best-seller": {
-    "children": ["rich-text#departments-title"/* , "link#ver-tudo#home-6" */],
+    "children": ["rich-text#departments-title" /* , "link#ver-tudo#home-6" */],
     "props": {
       "blockClass": "best-seller",
       "preventHorizontalStretch": true
@@ -1133,7 +1128,6 @@
       "blockClass": ["the-best-electronics", "title-section"],
       "preserveLayoutOnMobile": true,
       "colSizing": "auto"
-
     }
   },
   "rich-text#the-best-electronics": {
@@ -1519,13 +1513,9 @@
     }
   },
   "responsive-layout.desktop#newsletter": {
-    "children": [
-      "flex-layout.row#newsletter"
-    ]
+    "children": ["flex-layout.row#newsletter"]
   },
   "responsive-layout.mobile#newsletter": {
-    "children": [
-      "flex-layout.row#newsletter-mobile"
-    ]
+    "children": ["flex-layout.row#newsletter-mobile"]
   }
 }

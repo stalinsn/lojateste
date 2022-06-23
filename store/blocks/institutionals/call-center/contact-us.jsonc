@@ -1,8 +1,5 @@
 {
   "store.custom#contact-us": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#contact-us",
       "responsive-layout.tablet#contact-us",

@@ -1,8 +1,5 @@
 {
   "store.custom#atendance-group": {
-    "parent": {
-      "header": "header"
-    },
     "blocks": [
       "responsive-layout.desktop#atendance",
       "responsive-layout.phone#atendance"
@@ -21,10 +18,7 @@
     ]
   },
   "flex-layout.row#atendance-group-main": {
-    "children": [
-      "rich-text#title-atendance",
-      "image#arrow-banner-mobile"
-    ],
+    "children": ["rich-text#title-atendance", "image#arrow-banner-mobile"],
     "props": {
       "blockClass": "institutional-title-container"
     }
@@ -89,41 +83,25 @@
     }
   },
   "tab-content.item#how-to-buy": {
-    "children": [
-      "flex-layout.row#how-to-buy-row"
-    ],
+    "children": ["flex-layout.row#how-to-buy-row"],
     "props": {
       "tabId": "how-to-buy",
-      "blockClass": [
-        "how-to-buy-tab-item-container",
-        "institutional-container"
-      ]
+      "blockClass": ["how-to-buy-tab-item-container", "institutional-container"]
     }
   },
   "tab-content.item#faq": {
-    "children": [
-      "rich-text#faq",
-      "vtex.menu@2.x:menu#common-questions"
-    ],
+    "children": ["rich-text#faq", "vtex.menu@2.x:menu#common-questions"],
     "props": {
       "tabId": "faq",
-      "blockClass": [
-        "faq-tab-item-container",
-        "institutional-container"
-      ]
+      "blockClass": ["faq-tab-item-container", "institutional-container"]
     }
   },
 
   "flex-layout.row#how-to-buy-row": {
-    "children": [
-      "flex-layout.col#how-to-buy-content-container"
-    ]
+    "children": ["flex-layout.col#how-to-buy-content-container"]
   },
   "flex-layout.col#how-to-buy-content-container": {
-    "children": [
-      "rich-text#how-to-buy-title",
-      "rich-text#how-to-buy-content"
-    ]
+    "children": ["rich-text#how-to-buy-title", "rich-text#how-to-buy-content"]
   },
   "rich-text#how-to-buy-title": {
     "props": {

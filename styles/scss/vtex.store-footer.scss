@@ -47,7 +47,7 @@
     }
   }
   .socialNetworkLink--twitter {
-/*     &::after {
+    /*     &::after {
       content: "";
       display: block;
       @include twitter_icon(25px);
@@ -58,7 +58,7 @@
     }
   }
   .socialNetworkLink--youtube {
-   /*  &::after {
+    /*  &::after {
       content: "";
       display: block;
       @include youtube_icon(30px);
@@ -216,7 +216,11 @@
 :global(.vtex-flex-layout-0-x-flexRow--title-news) {
   background-color: #f4f4f4;
   margin-top: 0px;
-  padding-top: 20px;
+  margin-bottom: 30px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 :global(.vtex-store-components-3-x-newsletter) {
@@ -244,6 +248,7 @@
 }
 
 :global(.vtex-store-components-3-x-backToTopButtonContainer) {
+
   :global(.vtex-button) {
     padding: 0;
     margin: 0;
@@ -251,13 +256,18 @@
     height: 0;
     min-width: 60px;
     min-height: 60px;
-    background: transparent url(https://gbarbosa.vteximg.com.br/arquivos/assets-up-button.png) center center
-      no-repeat;
+    background: transparent
+      url(https://gbarbosa.vteximg.com.br/arquivos/floatting_up.svg) center
+      center no-repeat;
     background-size: 50px;
     border: 0;
     bottom: 80px;
+
     :global(.vtex-button__label) {
       font-size: 0;
+      padding-right:0 !important;
+      padding-left:0 !important;
+      color:#ed1d25 !important;
     }
   }
 }
@@ -377,6 +387,8 @@
       :global(.vtex-store-components-3-x-inputGroup--newsletter-custom) {
         position: relative;
 
+       
+
         :global(.vtex-input) {
           padding: 0 16px 0 0;
           width: calc(100% - 180px);
@@ -398,6 +410,13 @@
           }
         }
 
+        @media screen and(max-width: 768px) {
+          :global(.vtex-input) {
+            width: calc(100% - 144px);
+            padding: 0 10px 0 20px;
+          }
+        }
+
         :global(.vtex-input__error) {
           display: flex;
           align-items: center;
@@ -411,6 +430,10 @@
           float: left;
           padding: 0;
           margin: 0;
+
+          @media screen and(max-width: 768px) {
+            width: 110px;
+          }
 
           :global(.vtex-button) {
             height: 40px;
@@ -443,7 +466,7 @@
 
 /* social media */
 .socialNetworksContainer--footer {
-  justify-content: flex-start !important;
+  // justify-content: flex-start !important;
   @media screen and (max-width: 768px) {
     margin-left: 30px;
     margin-right: 0 !important;
@@ -470,5 +493,14 @@
   }
   .socialNetworkLink--linkedin {
     background: url("/arquivos/gbarbosa-linkedin.svg") no-repeat;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .socialNetworksContainer--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
   }
 }
