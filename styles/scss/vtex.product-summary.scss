@@ -168,7 +168,8 @@
   :global(.vtex-product-summary-2-x-element) {
     justify-content: space-between;
     padding: 0;
-
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr;
     @media screen and (max-width: 767px) {
       padding-bottom: 0;
       height: 100% !important;
