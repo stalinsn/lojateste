@@ -237,6 +237,13 @@
   .menuDepartmentTitleContainer {
     border-right: 1px solid #f1f1f1;
     overflow-y: auto;
+    
+    .menuCategoriesWrapper:last-child{
+      .menuCategoryLink{
+        border-bottom:2px solid #ed1d25!important;
+      }
+    }
+
     &::-webkit-scrollbar-thumb {
       background: #ed1d25;
       width: 4px;
@@ -250,6 +257,7 @@
     &::-webkit-scrollbar-track {
       background-color: #fff;
     }
+
     .menuDepartmentTitleOnCategoriesList {
       padding: 20px 0;
       display: flex;
