@@ -976,7 +976,9 @@
     font-weight: bold;
     color: #ed1d25;
     @media (max-width: 768px) {
-      font-size: 14px;
+      font-size: 14px!important;
+      flex-wrap: wrap;
+      display: flex;
     }
   }
 }
