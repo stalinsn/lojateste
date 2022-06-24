@@ -236,6 +236,20 @@
   display: flex !important;
   .menuDepartmentTitleContainer {
     border-right: 1px solid #f1f1f1;
+    overflow-y: auto;
+    &::-webkit-scrollbar-thumb {
+      background: #ed1d25;
+      width: 4px;
+      height: 4px;
+    }
+    &::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+      background: #fff;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: #fff;
+    }
     .menuDepartmentTitleOnCategoriesList {
       padding: 20px 0;
       display: flex;
