@@ -184,7 +184,7 @@
   "image#first-banner-mobile": {
     "props": {
       "blockClass": "first-banner-mobile",
-      "src": "/arquivos/first_banner_mobile.svg",
+      "src": "",
       "maxHeight": 100,
       "maxWidth": 1270
     }
