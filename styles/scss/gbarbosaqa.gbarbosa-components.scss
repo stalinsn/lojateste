@@ -1079,9 +1079,37 @@
   }
 }
 
+.hasPromotionLayout {
+  position: relative;
+
+      @media screen and(max-width: 768px) {
+        :global(.vtex-store-components-3-x-priceContainer) {
+          background: #5c5c5c!important;
+        }
+
+        :global(.vtex-store-components-3-x-price_sellingPrice--summary){
+          :global(.vtex-store-components-3-x-currencyContainer--summary){
+            color:#ffd500!important;
+          }
+        }
+
+        :global(.vtex-store-components-3-x-price_className--summary){
+          background-color: #5c5c5c!important;
+          border-radius:15px 15px 0 0!important;
+        }
+        :global(.vtex-store-components-3-x-listPriceValue){
+          :global(.vtex-store-components-3-x-currencyContainer--summary){
+              color:#ffd500!important;
+          }
+        }
+  
+      }
+    }
+
 :global(.vtex-flex-layout-0-x-flexColChild--shelf-list-product-info) {
   .hasPromotionLayout {
     position: relative;
+
     .installments_value {
       background: #5c5c5c;
       color: #fff !important;
@@ -1306,7 +1334,6 @@
   }
 }
 
-.hasPromotionLayout {
   .quantityComponent {
     @media screen and (max-width: 768px) {
       position: absolute;
@@ -1315,7 +1342,7 @@
       right: 2px;
     }
   }
-}
+
 
 :global(.vtex-product-summary-2-x-container) {
   .quantityComponent {
