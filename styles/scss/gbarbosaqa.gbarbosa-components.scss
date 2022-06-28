@@ -1081,25 +1081,56 @@
 
 .hasPromotionLayout {
   position: relative;
+        :global(.vtex-store-components-3-x-priceContainer) {
+          // padding: 7px 0 0 8px!important;
+          padding:0!important;
+          // background-color: #5c5c5c!important;
+          border-radius: 30px 30px 0 0;
+          :global(.vtex-store-components-3-x-price_sellingPriceContainer){
+            margin:0;
+          }
+          :global(.vtex-store-components-3-x-listPrice){
+            border-radius:30px 30px 0 0;
+            padding-top: 10px;
+          }
+          @media screen and(max-width:768px){
+            :global(.vtex-store-components-3-x-listPrice){
+              padding: 5px 0 0 5px;
+            }
+            :global(.vtex-store-components-3-x-price_sellingPrice--summary){
+              :global(.vtex-store-components-3-x-currencyContainer--summary){
+               padding-left:5px;
+              }
+            }
+          }
+          
+          :global(.vtex-store-components-3-x-price-without-from){
+            background-color: #fff!important;
+          }
+          :global(.vtex-store-components-3-x-listPrice),:global(.vtex-store-components-3-x-price_sellingPriceContainer){
+            background-color: #5c5c5c; 
+          }
+        }
+        :global(.vtex-store-components-3-x-price_sellingPrice--summary), :global(.vtex-store-components-3-x-listPriceValue){
+          :global(.vtex-store-components-3-x-currencyContainer--summary){
+            color:#ffd500!important;
+            padding-left: 18px;
+          }
+        }
 
       @media screen and(max-width: 768px) {
         :global(.vtex-store-components-3-x-priceContainer) {
           background: #5c5c5c!important;
         }
 
-        :global(.vtex-store-components-3-x-price_sellingPrice--summary){
-          :global(.vtex-store-components-3-x-currencyContainer--summary){
-            color:#ffd500!important;
-          }
-        }
-
         :global(.vtex-store-components-3-x-price_className--summary){
           background-color: #5c5c5c!important;
           border-radius:15px 15px 0 0!important;
         }
-        :global(.vtex-store-components-3-x-listPriceValue){
-          :global(.vtex-store-components-3-x-currencyContainer--summary){
+        :global(.vtex-store-components-3-x-listPriceValue),:global(.vtex-store-components-3-x-price_sellingPrice--summary){
+          :global(.vtex-store-components-3-x-currencyContainer--summary),:global(.vtex-store-components-3-x-currencyContainer--summary){
               color:#ffd500!important;
+              padding:0;
           }
         }
   
