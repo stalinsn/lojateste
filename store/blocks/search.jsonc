@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout", "flex-layout.row#shelf-related-search"],
     "props": {
       "context": {
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -13,7 +13,7 @@
     "blocks": ["search-result-layout", "flex-layout.row#shelf-related-search"],
     "props": {
       "context": {
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -23,7 +23,7 @@
     "blocks": ["search-result-layout", "flex-layout.row#shelf-related-search"],
     "props": {
       "context": {
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
@@ -33,7 +33,7 @@
     "blocks": ["search-result-layout", "flex-layout.row#shelf-related-search"],
     "props": {
       "context": {
-        "maxItemsPerPage": 12,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
