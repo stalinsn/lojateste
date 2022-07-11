@@ -5249,3 +5249,30 @@
     }
   }
 }
+
+@media screen and (min-width:768px) and (max-width:1025px) {
+	.flexRowContent--main-header-mobile {
+		height: 100%;
+		align-items: center;
+		display: flex;    
+		:global(.vtex-rich-text-0-x-container--last-orders) {
+			display: flex;
+			align-items: center;
+		}
+		:global(.vtex-login-2-x-label) {
+			&::after {
+				color: #fff !important;
+			}
+		}
+
+	}
+	.flexRowContent--row-services {
+		flex-wrap: wrap;
+		.stretchChildrenWidth {
+			flex-basis: 50%;
+      :global(.vtex-rich-text-0-x-paragraph--subtitle-service) {
+        font-size: 14px;
+      }
+		}
+	}
+}

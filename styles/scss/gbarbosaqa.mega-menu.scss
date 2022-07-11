@@ -673,3 +673,25 @@
 .menuSeeAllCategory {
   font-weight: bold;
 }
+
+@media screen and (min-width:768px) and (max-width:1025px){
+  .openIconContainer {
+      text-align: center;
+      padding: 0px;
+      display: flex;
+      align-items: center;
+      height: calc(100% - 1.5em);
+  }
+
+  .menuIcon {
+      color: #FED200;
+      margin: 0 auto;
+  }
+
+  .textMenu {
+      color: #fff;
+      margin-top: 0px;
+      font-weight: bold;
+      font-size: 13px;
+  }
+}
