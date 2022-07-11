@@ -161,7 +161,7 @@
     "children": ["search-fetch-previous"]
   },
   "flex-layout.row#search-button-more": {
-    "children": ["search-products-count-per-page", "search-fetch-more"],
+    "children": [/*"search-products-count-per-page"*/"show-page-count", "search-fetch-more"],
     "props": {
       "blockClass": "search-more-button"
     }
@@ -221,7 +221,7 @@
     }
   },
   "flex-layout.col#search-options-1": {
-    "children": ["search-products-count-per-page"],
+    "children": [/*"search-products-count-per-page"*/"show-page-count"],
     "props": {
       "blockClass": "search-options-1"
     }
