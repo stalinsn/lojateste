@@ -1564,3 +1564,9 @@
     }
   }
 }
+@media (max-width: 768px){
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) .addToCartValidationButton{
+    margin-left: auto !important;
+    max-width: 20px;
+  }
+}
