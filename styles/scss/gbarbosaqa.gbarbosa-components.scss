@@ -1340,14 +1340,14 @@
   }
 }
 
-  .quantityComponent {
-    @media screen and (max-width: 768px) {
-      position: absolute;
-      top: -60px !important;
-      left: 2px;
-      right: 2px;
-    }
-  }
+  // .quantityComponent {
+  //   @media screen and (max-width: 768px) {
+  //     position: absolute;
+  //     top: -60px !important;
+  //     left: 2px;
+  //     right: 2px;
+  //   }
+  // }
 
 
 :global(.vtex-product-summary-2-x-container) {
