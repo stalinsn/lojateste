@@ -1340,14 +1340,14 @@
   }
 }
 
-  .quantityComponent {
-    @media screen and (max-width: 768px) {
-      position: absolute;
-      top: -60px !important;
-      left: 2px;
-      right: 2px;
-    }
-  }
+  // .quantityComponent {
+  //   @media screen and (max-width: 768px) {
+  //     position: absolute;
+  //     top: -60px !important;
+  //     left: 2px;
+  //     right: 2px;
+  //   }
+  // }
 
 
 :global(.vtex-product-summary-2-x-container) {
@@ -1358,7 +1358,7 @@
     }
     @media screen and (max-width: 768px) {
       position: absolute;
-      top: 75px;
+      top: 83px;
       left: 2px;
       right: 2px;
       .quantityInput {
@@ -1546,17 +1546,19 @@
     :global(.vtex-flex-layout-0-x-flexColChild--shadow-product)
     .customQuantitySelector {
     position: absolute;
-    top: -51px;
+    top: -52px;
     right: 12px;
   }
-  .hasPromotionLayout
-    :global(.vtex-product-summary-2-x-container)
+  
+    :global(.vtex-product-summary-2-x-container) 
+    .hasPromotionLayout 
     .quantityComponent {
     position: absolute;
-    top: -55px;
+    top: -53px;
     left: 2px;
     right: 2px;
   }
+
   :global(.vtex-flex-layout-0-x-flexRowContent--savings-porcentaje-pdp) {
     display: flex !important;
     .promotionFlagsContainer {
