@@ -91,6 +91,9 @@
 .element--normal-shelf {
   :global(.vtex-stack-layout-0-x-stackContainer) {
     margin: 0 8px 2px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 23px;
+    }
   }
   @media screen and (min-width: 768px) {
     :global(.vtex-stack-layout-0-x-stackContainer) {
@@ -275,7 +278,7 @@
 
   @media screen and (max-width: 767px) {
     max-width: 108px !important;
-    max-height: 184px;
+    max-height: 207px;
     border-radius: 15px;
     position: relative;
 
