@@ -256,7 +256,7 @@
 }
 :global(.vtex-product-summary-2-x-element) {
   @media screen and (max-width: em(1024px)) {
-    height: 450px;
+    //height: 450px;
   }
   .container {
     :global(.vtex-button):disabled {
@@ -432,7 +432,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--recommended-you) {
   :global(.vtex-product-summary-2-x-element) {
     @media screen and (max-width: em(1024px)) {
-      height: 400px;
+      //height: 400px;
     }
 
     .container {

@@ -3526,6 +3526,10 @@
   :global(.vtex-flex-layout-0-x-flexColChild--product-pag-mobile) {
     :global(.vtex-flex-layout-0-x-flexRowContent) {
       display: block;
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+        flex-basis: 100%;
+        width: 100% !important;
+    }
     }
   }
 }
