@@ -37,7 +37,7 @@
 .orderBy--layout {
   width: 216px;
   max-width: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     width: 100%;
   }
 }
@@ -60,7 +60,7 @@
   height: 32px;
   padding-left: 16px;
   background: #f4f4f4;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     justify-content: center;
     border: none;
     background: none;
@@ -82,7 +82,7 @@
   }
 
   :global(.vtex-product-summary-2-x-element--shelf-list) {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
       max-width: initial;
     }
   }
@@ -94,7 +94,7 @@
   border-radius: 0 4px 4px 0;
   align-items: center;
   color: #fff;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     height: auto;
     background: none;
     color: #525252;
@@ -117,7 +117,7 @@
 .showingProducts {
   display: flex;
   align-items: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     justify-content: center;
   }
 }
@@ -127,7 +127,7 @@
   margin: 0;
   font-size: 26px;
   color: #525252;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     padding: 0;
     font-size: 18px;
     margin-top: 15px;
@@ -308,7 +308,7 @@
 .buttonShowMore {
   margin: 1em 0;
   justify-content: flex-end;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     justify-content: center;
   }
 }
@@ -478,7 +478,7 @@
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .searchNotFound {
     flex-direction: column;
     .searchNotFoundOops {
@@ -530,7 +530,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
   .filtersWrapperMobile {
     height: 40px;
   }
