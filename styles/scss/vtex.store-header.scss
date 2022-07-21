@@ -1082,6 +1082,13 @@ header FB
   }
 }
 
+//header tablet
+@media (max-width:1025px) and(min-width:769px){
+  :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+}
+
 :global(.vtex-sticky-layout-0-x-wrapper--stuck ) {
   :global(.vtex-flex-layout-0-x-flexRow--store-selector-mobile) {
     animation: whereYouAre 0.3s ease-in-out;
