@@ -256,7 +256,7 @@
 }
 :global(.vtex-product-summary-2-x-element) {
   @media screen and (max-width: em(1024px)) {
-    height: 450px;
+    //height: 450px;
   }
   .container {
     :global(.vtex-button):disabled {
@@ -1564,5 +1564,11 @@
     .promotionFlagsContainer {
       margin-right: 13px;
     }
+  }
+}
+@media (max-width: 768px){
+  :global(.vtex-flex-layout-0-x-flexColChild--shadow-product) .addToCartValidationButton{
+    margin-left: auto !important;
+    max-width: 20px;
   }
 }

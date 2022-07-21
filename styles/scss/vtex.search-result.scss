@@ -74,9 +74,10 @@
 }
 .galleryItem--normal {
   :global(.vtex-product-summary-2-x-element) {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
       height: 350px;
       max-width: 170px;
+      margin: auto;
     }
   }
 
